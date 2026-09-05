@@ -1,18 +1,18 @@
 {
-  "Skills for Real Engineers. Straight from my .agents directory.": "真正工程师的技能。直接来自我的.agents目录。",
-  "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.": "让你的人工智能代理像房间里最懒惰的高级开发人员一样思考。最好的代码是你从未写过的代码。",
+  "Skills for Real Engineers. Straight from my .agents directory.": "真正工程师的技能。直接来自我的.agents目录",
+  "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.": "让你的人工智能代理像房间里最懒惰的高级开发人员一样思考",
   "A modern formatting library": "现代格式化库",
-  "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.": "智能体框架性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。",
+  "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.": "智能体框架性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发",
   "Public repository for Agent Skills": "智能体技能的公共存储库",
   "Agent skill that removes signs of AI-generated writing from text": "从文本中删除人工智能生成文字的迹象的智能体技能",
   "The agent that grows with you": "与您一起成长的智能体",
   "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman": "🪨 为什么在很少令牌欺骗时使用许多令牌— Claude Code技能通过像穴居人一样说话来削减65 ％的令牌",
-  "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.": "开源推理服务器，为您的硬件运行最佳本地模型，插入到您已经使用的智能体中。适用于Pi、OpenCode、Hermes、OpenClaw、Codex、Claude Code、Oh My Pi和Cline。",
-  "A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I've always found this is the most efficient way.": "公共漏洞利用PoC和漏洞研究报告的单一存档。在我发布这些信息时，还没有收到任何报告。如果发放了lulz ，您可以自行报告，并记入CVE。请勿滥用。我这样做是为了吸引人们进入这个领域，我一直发现这是最有效的方法。",
+  "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.": "开源推理服务器，为您的硬件运行最佳本地模型，插入到您已经使用的智能体中",
+  "A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I've always found this is the most efficient way.": "公共漏洞利用PoC和漏洞研究报告的单一存档",
   "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere": "GitHub上排名第一的PDF应用程序，可让您在任何地方的任何设备上编辑PDF",
-  "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions": "Linux、Jenkins、AWS、SRE、Prometheus、Docker、Python、Ansible、Git、Kubernetes、Terraform、OpenStack、SQL、NoSQL、Azure、GCP、DNS、Elastic、网络、虚拟化。DevOps面试问题",
-  "The fastest path to AI-powered full stack observability, even for lean teams.": "实现人工智能驱动的全栈可观察性的最快途径，即使对于精益团队也是如此。",
+  "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions": "Linux、Jenkins、AWS、SRE、Prometheus、Docker、Python、Ansible、Git、Kubernetes、Terraform、OpenStack、SQL、NoSQL、Azure、GCP、DNS、Elastic、网络、虚拟化",
+  "The fastest path to AI-powered full stack observability, even for lean teams.": "实现人工智能驱动的全栈可观测性的最快途径，即使对于精益团队也是如此",
   "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems": "Moby项目-容器生态系统的协作项目，用于组装基于容器的系统",
   "The Cloud Native Application Proxy": "云原生应用程序代理",
-  "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.": "开源、自托管的笔记记录工具，专为快速捕获而打造。Markdown原生、轻量级、完全属于您。"
+  "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.": "开源、自托管的笔记记录工具，专为快速捕获而打造"
 }

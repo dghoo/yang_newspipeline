@@ -378,9 +378,12 @@ _ZH_GLOSSARY = [
     ("客服代表", "智能体"),
     ("集装箱生态", "容器生态"),
     ("集装箱", "容器"),
-    ("您已经使用的代理", "您已经使用的智能体"),
+    ("您已经使用的代理", "您已经使用的智能体"),    # 代理作 agent 义
     ("代理技能", "智能体技能"),
+    ("可观察性", "可观测性"),                    # observability 通用译法
 ]
+
+# 注意：不要替换裸「代理」——云原生 Application **Proxy** 的「代理」是正确的(proxy 义)。
 
 
 def _zh_fix(s):
@@ -388,6 +391,37 @@ def _zh_fix(s):
         if wrong in s:
             s = s.replace(wrong, right)
     return s
+
+
+def _zh_compact(s, maxlen=150, minlen=16):
+    """把机器直译的冗长长句精炼为 v3.2 样例风格的一句话简介。
+
+    规则：按句末/分号切段 → 取首段（过短则补次段，保证信息量）→ 仅对异常长文本兜底截断。
+    注：精炼主要靠「取首段」完成（GitHub 描述的冗余多在第 2 句起的营销套话），
+        maxlen 只兜底极端情况——设太小会截掉 DevOps 这类关键词列表的有效信息。
+    例：「开源、自托管的笔记记录工具，专为快速捕获而打造。Markdown原生、轻量级、完全属于您。」
+        → 「开源、自托管的笔记记录工具，专为快速捕获而打造」
+    """
+    if not s:
+        return s
+    s = s.strip()
+    parts = [p.strip() for p in re.split(r"[。；;!！\n]+", s) if p.strip()]
+    if not parts:
+        return s
+    out = parts[0]
+    for p in parts[1:]:
+        if len(out) >= minlen:
+            break
+        out += "。" + p
+    if len(out) > maxlen:
+        cut = out[:maxlen]
+        for sep in ("，", "、", " "):
+            i = cut.rfind(sep)
+            if i > maxlen // 2:
+                cut = cut[:i]
+                break
+        out = cut.rstrip("，、 ") + "…"
+    return out
 
 
 _trans_cache = {}
@@ -415,7 +449,9 @@ def translate_zh(text):
     if not text:
         return text
     if has_cjk(text):
-        return text
+        # 原生中文描述（如 macrozheng/mall）不翻译，但同样要术语校正 + 精炼，
+        # 否则整段营销文案会原样超长输出。
+        return _zh_compact(_zh_fix(text))
     key = text.strip()
     if key in _trans_cache:
         return _trans_cache[key]
@@ -423,6 +459,7 @@ def translate_zh(text):
     if not zh:
         zh = key
     zh = _zh_fix(zh)
+    zh = _zh_compact(zh)          # 精炼为 v3.2 样例风格的一句话简介
     _trans_cache[key] = zh
     return zh
 
@@ -469,6 +506,56 @@ def fetch_macro(page=1, keywords=None):
                 out.append({"title": title, "url": it.get("url", ""), "ctime": it.get("ctime", "")})
     except Exception as e:
         print("[MACRO] fetch failed:", e, file=sys.stderr)
+    return out
+
+
+_github_html_ok = None
+
+
+def github_html_ok():
+    """探测 github.com 的 HTML 页是否可达。
+
+    沙箱/部分网络下 github.com TLS 握手会超时，而 api.github.com 正常。
+    若不先探测，每个池子都要把重试次数耗完（4 次 × 15s）才走兜底，一次运行会白等数分钟。
+    结果缓存，全程只探测一次。
+    """
+    global _github_html_ok
+    if _github_html_ok is None:
+        try:
+            req = urllib.request.Request("https://github.com/trending", headers={"User-Agent": UA})
+            urllib.request.urlopen(req, timeout=8, context=ctx).read(2048)
+            _github_html_ok = True
+        except Exception:
+            _github_html_ok = False
+            print("[NET] github.com HTML 不可达，改用官方 Search API", file=sys.stderr)
+    return _github_html_ok
+
+
+def fetch_search_repos(q, per_page=30):
+    """GitHub 官方 Search API（结构化 JSON）。
+
+    为什么需要它：github.com 的 HTML 页（trending / topics）在部分网络环境（含本沙箱）
+    会 TLS 握手超时，而 api.github.com 稳定可达。用官方 API 可同时拿到
+    repo / description / stars / language，无需逐仓库再请求，也不依赖脆弱的正则解析。
+    注意：Search API 不提供「今日新增 stars」，故 HTML trending 仍作为主源（有今日+）。
+    """
+    out = []
+    u = ("https://api.github.com/search/repositories?q=" + urllib.parse.quote(q)
+         + "&sort=stars&order=desc&per_page=" + str(per_page))
+    try:
+        d = get_json(u, ref="https://github.com/", timeout=15, n=3,
+                     headers={"Accept": "application/vnd.github+json"})
+        for it in d.get("items", []):
+            out.append({
+                "repo": it.get("full_name", ""),
+                "url": it.get("html_url", ""),
+                "desc": (it.get("description") or "").strip(),
+                "lang": it.get("language") or "",
+                "stars": format(it.get("stargazers_count", 0), ","),
+                "today": "",          # Search API 无今日新增字段
+            })
+    except Exception as e:
+        print(f"[SEARCH] {q} failed:", e, file=sys.stderr)
     return out
 
 
@@ -536,14 +623,30 @@ def main():
     ai_shown = [a for a in ai_sorted if not is_recent(hist, "ai:" + a["id"], today)][:AI_CAP]
 
     # --- 开源：日/周/月 + 多语言变体池，筛未发项（即"上次运行以来新增 + 扩展搜索"）---
-    repo_pool = dedupe(
-        fetch_trending("daily") + fetch_trending("weekly") + fetch_trending("monthly")
-        + fetch_trending("daily", "en") + fetch_trending("daily", "zh"),
-        lambda r: r["repo"])
+    repo_pool = []
+    if github_html_ok():          # HTML 可达才爬 trending；否则直接走 API，避免长时间重试
+        repo_pool = dedupe(
+            fetch_trending("daily") + fetch_trending("weekly") + fetch_trending("monthly")
+            + fetch_trending("daily", "en") + fetch_trending("daily", "zh"),
+            lambda r: r["repo"])
+    if not repo_pool:
+        # HTML trending 不可达 → 官方 Search API 兜底：近 30 天新锐高星 + 近期活跃高星
+        repo_pool = dedupe(
+            fetch_search_repos("created:>" + (today - datetime.timedelta(days=30)).isoformat())
+            + fetch_search_repos("stars:>3000 pushed:>" + (today - datetime.timedelta(days=7)).isoformat()),
+            lambda r: r["repo"])
     repos_shown = [r for r in repo_pool if not is_recent(hist, "gh:" + r["repo"], today)][:OS_CAP]
 
     # --- Docker：容器/自托管专属真实源（trending 关键词挖 + topics 实时池），排除已进"开源"栏的，筛未发项 ---
-    docker_topic_pool = fetch_topic_repos("docker") + fetch_topic_repos("self-hosted") + fetch_topic_repos("homelab")
+    docker_topic_pool = []
+    if github_html_ok():
+        docker_topic_pool = fetch_topic_repos("docker") + fetch_topic_repos("self-hosted") + fetch_topic_repos("homelab")
+    if not docker_topic_pool:
+        # topics HTML 不可达 → Search API 按 topic 取高星自托管/容器项目
+        docker_topic_pool = dedupe(
+            fetch_search_repos("topic:self-hosted") + fetch_search_repos("topic:docker")
+            + fetch_search_repos("topic:homelab"),
+            lambda r: r["repo"])
     docker_pool = dedupe(split_docker(repo_pool) + docker_topic_pool, lambda r: r["repo"])
     shown_repos = {r["repo"] for r in repos_shown}
     docker_shown = [r for r in docker_pool
@@ -551,9 +654,10 @@ def main():
 
     # --- 为展示中的开源/Docker 项目补全真实项目介绍（GitHub API），并译为中文 ---
     for r in repos_shown + docker_shown:
-        d = fetch_repo_desc(r["repo"])
-        if d:
-            r["desc"] = d
+        if not r.get("desc"):        # Search API 结果已自带 description，无需重复请求
+            d = fetch_repo_desc(r["repo"])
+            if d:
+                r["desc"] = d
         if r.get("desc"):
             r["desc"] = translate_zh(r["desc"])
 
@@ -628,9 +732,9 @@ def main():
             today_txt = f" · 今日 +{r['today']}" if r["today"] else ""
             lang_txt = f" · {r['lang']}" if r["lang"] else ""
             L.append(f"**{i}. {r['repo']}{lang_txt}{star_txt}{today_txt}**")
-            if r["desc"]:
-                L.append(f"- 介绍：{r['desc']}")
             L.append(f"- 地址：{r['url']}")
+            if r["desc"]:
+                L.append(f"- 简介：{r['desc']}")
             L.append("")
     else:
         L.append("> 今日开源榜单暂不可达（网络/接口波动），或近 7 天可发项目均已推送。")
@@ -641,9 +745,9 @@ def main():
         for i, r in enumerate(docker_shown, 1):
             lang_txt = f" · {r['lang']}" if r.get("lang") else ""
             L.append(f"**{i}. {r['repo']}{lang_txt}**")
-            if r.get("desc"):
-                L.append(f"- 介绍：{r['desc']}")
             L.append(f"- 地址：{r['url']}")
+            if r.get("desc"):
+                L.append(f"- 简介：{r['desc']}")
             L.append("")
     else:
         L.append("> 今日无新增容器类项目（近 7 天可发项均已推送，不重复展示）。")

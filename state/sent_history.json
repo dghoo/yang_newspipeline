@@ -16,6 +16,7 @@
   "macro:日本2年期和5年期国债收益率上涨5个基点": "2026-09-02",
   "macro:欧洲央行管委马赫卢夫：欧洲央行必须做好加息准备": "2026-09-02",
   "macro:宋雪涛：加息也救不了长端利率": "2026-09-02",
+  "ai:cmto1tyjd0kh4roqs2p93ydka": "2026-09-05",
   "ai:cmtnphe3t07vfroqsvrbd9enn": "2026-09-05",
   "ai:cmtnl720g03olroqsrkmbl292": "2026-09-05",
   "ai:cmtnkdx8y031qroqs79optcp2": "2026-09-05",
@@ -25,7 +26,6 @@
   "ai:cmtnagm2q01m9rog1y8p2sotq": "2026-09-05",
   "ai:cmtn8fc1w0qb4romyobllbzv9": "2026-09-05",
   "ai:cmtn66b6s0o0eromy3rzdsvat": "2026-09-05",
-  "ai:cmtn41rbm0lw1romys1igl789": "2026-09-05",
   "gh:mattpocock/skills": "2026-09-05",
   "gh:DietrichGebert/ponytail": "2026-09-05",
   "gh:fmtlib/fmt": "2026-09-05",
@@ -44,5 +44,12 @@
   "gh:traefik/traefik": "2026-09-05",
   "gh:usememos/memos": "2026-09-05",
   "gh:sansan0/TrendRadar": "2026-09-05",
-  "macro:https://finance.sina.com.cn/money/forex/wemedia/2026-09-05/doc-iniqtnha0586011.shtml": "2026-09-05"
+  "macro:https://finance.sina.com.cn/hy/hyjz/2026-09-05/doc-iniquccw5287307.shtml": "2026-09-05",
+  "macro:https://finance.sina.com.cn/hy/hyjz/2026-09-05/doc-iniqtwvw0467679.shtml": "2026-09-05",
+  "macro:https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-05/doc-iniqtspw3735712.shtml": "2026-09-05",
+  "macro:https://finance.sina.com.cn/roll/2026-09-05/doc-iniqtspy0485912.shtml": "2026-09-05",
+  "macro:https://finance.sina.com.cn/stock/relnews/cn/2026-09-05/doc-iniqtnhe0723138.shtml": "2026-09-05",
+  "macro:https://finance.sina.com.cn/money/forex/wemedia/2026-09-05/doc-iniqtnha0586011.shtml": "2026-09-05",
+  "macro:https://finance.sina.com.cn/stock/companyt/2026-09-05/doc-iniqtnha0586029.shtml": "2026-09-05",
+  "macro:https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqtnfy3767405.shtml": "2026-09-05"
 }

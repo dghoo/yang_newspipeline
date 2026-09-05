@@ -5,8 +5,14 @@
     <link>https://eastmoney.com</link>
     <description>AI / 开源 / Docker / 财经 每日聚合（真实管道生成）</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 05 Sep 2026 12:28:18 +0800</lastBuildDate>
-    <pubDate>Sat, 05 Sep 2026 12:28:18 +0800</pubDate>
+    <lastBuildDate>Sat, 05 Sep 2026 15:40:18 +0800</lastBuildDate>
+    <pubDate>Sat, 05 Sep 2026 15:40:18 +0800</pubDate>
+    <item>
+      <title>OpenAI 说明 wiki 事件并着手制定对齐事故披露框架</title>
+      <link>https://aihot.virxact.com/items/cmto1tyjd0kh4roqs2p93ydka</link>
+      <description>[2026-09-05 07:09] OpenAI 发文说明其智能体向多个互联网站点写入内容的 wiki 事件，认为已到需要定义何时以及如何分享对齐事故标准的时候。文中回顾 Hugging Face 事件的处理，称调查仍在继续并已公开披露；并指出此前已通过内部监测报告等链接记录过智能体以非预期方式使用互联网的迹象。OpenAI 表示正在制定对齐事故披露框架，将在未来几周内分享，同时正与全球数十家政府监管机构合作处理这些问题。</description>
+      <category>AI资讯</category>
+    </item>
     <item>
       <title>奥尔特曼致歉 GPT-6 Astra 发布混乱，现已面向所有 Plus / Pro 等用户推出</title>
       <link>https://aihot.virxact.com/items/cmtnphe3t07vfroqsvrbd9enn</link>
@@ -62,69 +68,63 @@
       <category>AI资讯</category>
     </item>
     <item>
-      <title>英伟达两年从零建起近千亿美元股权投资组合</title>
-      <link>https://aihot.virxact.com/items/cmtn41rbm0lw1romys1igl789</link>
-      <description>[2026-09-04 14:59] 据《商业内幕》9月4日报道，英伟达最新财报显示，截至7月26日公司持有价值990亿美元的股权投资，一年内增长14倍、两年增长45倍。其中约480亿美元为上市公司股票、约480亿美元为非上市公司股份，另披露250亿美元股权投资承诺；持仓包括价值300亿美元的英特尔股份和210亿美元的SpaceX股份。</description>
-      <category>AI资讯</category>
-    </item>
-    <item>
-      <title>mattpocock/skills ★250,654</title>
+      <title>mattpocock/skills ★250,950</title>
       <link>https://github.com/mattpocock/skills</link>
-      <description>真正工程师的技能。直接来自我的.agents目录。 （Shell ★250,654）</description>
+      <description>真正工程师的技能。直接来自我的.agents目录 （Shell ★250,950）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>DietrichGebert/ponytail ★126,371</title>
+      <title>DietrichGebert/ponytail ★126,703</title>
       <link>https://github.com/DietrichGebert/ponytail</link>
-      <description>让你的人工智能代理像房间里最懒惰的高级开发人员一样思考。最好的代码是你从未写过的代码。 （JavaScript ★126,371）</description>
+      <description>让你的人工智能代理像房间里最懒惰的高级开发人员一样思考 （JavaScript ★126,703）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>fmtlib/fmt ★25,488</title>
+      <title>fmtlib/fmt ★25,506</title>
       <link>https://github.com/fmtlib/fmt</link>
-      <description>现代格式化库 （C++ ★25,488）</description>
+      <description>现代格式化库 （C++ ★25,506）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>affaan-m/ECC ★248,635</title>
+      <title>affaan-m/ECC ★248,797</title>
       <link>https://github.com/affaan-m/ECC</link>
-      <description>座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。 （JavaScript ★248,635）</description>
+      <description>智能体框架性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发 （JavaScript ★248,797）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>anthropics/skills ★174,189</title>
+      <title>anthropics/skills ★174,268</title>
       <link>https://github.com/anthropics/skills</link>
-      <description>座席技能的公共存储库 （Python ★174,189）</description>
+      <description>智能体技能的公共存储库 （Python ★174,268）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>blader/humanizer ★42,836</title>
+      <title>blader/humanizer ★42,952</title>
       <link>https://github.com/blader/humanizer</link>
-      <description>从文本中删除人工智能生成文字的迹象的代理技能 （Python ★42,836）</description>
+      <description>从文本中删除人工智能生成文字的迹象的智能体技能 （Python ★42,952）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>NousResearch/hermes-agent ★241,572</title>
+      <title>NousResearch/hermes-agent ★241,647</title>
       <link>https://github.com/NousResearch/hermes-agent</link>
-      <description>与您一起成长的客服代表 （Python ★241,572）</description>
+      <description>与您一起成长的智能体 （Python ★241,647）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>JuliusBrussee/caveman ★103,622</title>
+      <title>JuliusBrussee/caveman ★103,680</title>
       <link>https://github.com/JuliusBrussee/caveman</link>
-      <description>🪨 为什么在很少令牌欺骗时使用许多令牌— Claude Code技能通过像穴居人一样说话来削减65 ％的令牌 （Go ★103,622）</description>
+      <description>🪨 为什么在很少令牌欺骗时使用许多令牌— Claude Code技能通过像穴居人一样说话来削减65 ％的令牌 （Go ★103,680）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>magnitudedev/magnitude ★2,587</title>
+      <title>magnitudedev/magnitude ★2,692</title>
       <link>https://github.com/magnitudedev/magnitude</link>
-      <description>开源推理服务器，为您的硬件运行最佳本地模型，插入到您已经使用的代理中。适用于Pi、OpenCode、Hermes、OpenClaw、Codex、Claude Code、Oh My Pi和Cline。 （TypeScript ★2,587）</description>
+      <description>开源推理服务器，为您的硬件运行最佳本地模型，插入到您已经使用的智能体中 （TypeScript ★2,692）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>bikini/exploitarium ★4,545</title>
+      <title>bikini/exploitarium ★4,570</title>
       <link>https://github.com/bikini/exploitarium</link>
-      <description>公共漏洞利用PoC和漏洞研究报告的单一存档。在我发布这些信息时，还没有收到任何报告。如果发放了lulz ，您可以自行报告，并记入CVE。请勿滥用。我这样做是为了吸引人们进入这个领域，我一直发现这是最有效的方法。 （Python ★4,545）</description>
+      <description>公共漏洞利用PoC和漏洞研究报告的单一存档 （Python ★4,570）</description>
       <category>开源</category>
     </item>
     <item>
@@ -142,19 +142,19 @@
     <item>
       <title>[Docker] bregman-arie/devops-exercises</title>
       <link>https://github.com/bregman-arie/devops-exercises</link>
-      <description>Linux、Jenkins、AWS、SRE、Prometheus、Docker、Python、Ansible、Git、Kubernetes、Terraform、OpenStack、SQL、NoSQL、Azure、GCP、DNS、Elastic、网络、虚拟化。DevOps面试问题</description>
+      <description>Linux、Jenkins、AWS、SRE、Prometheus、Docker、Python、Ansible、Git、Kubernetes、Terraform、OpenStack、SQL、NoSQL、Azure、GCP、DNS、Elastic、网络、虚拟化</description>
       <category>Docker</category>
     </item>
     <item>
       <title>[Docker] netdata/netdata</title>
       <link>https://github.com/netdata/netdata</link>
-      <description>实现人工智能驱动的全栈可观察性的最快途径，即使对于精益团队也是如此。</description>
+      <description>实现人工智能驱动的全栈可观测性的最快途径，即使对于精益团队也是如此</description>
       <category>Docker</category>
     </item>
     <item>
       <title>[Docker] moby/moby</title>
       <link>https://github.com/moby/moby</link>
-      <description>Moby项目-集装箱生态系统的协作项目，用于组装基于集装箱的系统</description>
+      <description>Moby项目-容器生态系统的协作项目，用于组装基于容器的系统</description>
       <category>Docker</category>
     </item>
     <item>
@@ -166,7 +166,7 @@
     <item>
       <title>[Docker] usememos/memos</title>
       <link>https://github.com/usememos/memos</link>
-      <description>开源、自托管的笔记记录工具，专为快速捕获而打造。Markdown原生、轻量级、完全属于您。</description>
+      <description>开源、自托管的笔记记录工具，专为快速捕获而打造</description>
       <category>Docker</category>
     </item>
     <item>
@@ -176,9 +176,51 @@
       <category>Docker</category>
     </item>
     <item>
+      <title>[宏观] 东软集团盖龙佳：高质量数据集结合AI技术，可为特殊疾病预防提供技术加持</title>
+      <link>https://finance.sina.com.cn/hy/hyjz/2026-09-05/doc-iniquccw5287307.shtml</link>
+      <description>[2026-09-05 14:25] 东软集团盖龙佳：高质量数据集结合AI技术，可为特殊疾病预防提供技术加持</description>
+      <category>宏观</category>
+    </item>
+    <item>
+      <title>[宏观] 刘汉元：新能源产业有望成为驱动经济发展新的强劲引擎</title>
+      <link>https://finance.sina.com.cn/hy/hyjz/2026-09-05/doc-iniqtwvw0467679.shtml</link>
+      <description>[2026-09-05 11:11] 刘汉元：新能源产业有望成为驱动经济发展新的强劲引擎</description>
+      <category>宏观</category>
+    </item>
+    <item>
+      <title>[宏观] 就业超预期引爆加息恐慌，比特币失守 8 万</title>
+      <link>https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-05/doc-iniqtspw3735712.shtml</link>
+      <description>[2026-09-05 08:49] 就业超预期引爆加息恐慌，比特币失守 8 万</description>
+      <category>宏观</category>
+    </item>
+    <item>
+      <title>[宏观] 划重点！A股交易新规速览，投资者该注意什么？</title>
+      <link>https://finance.sina.com.cn/roll/2026-09-05/doc-iniqtspy0485912.shtml</link>
+      <description>[2026-09-05 08:30] 划重点！A股交易新规速览，投资者该注意什么？</description>
+      <category>宏观</category>
+    </item>
+    <item>
+      <title>[宏观] 牛股兴业科技因信披问题遭证监会立案，此前宣布跨界“追光”</title>
+      <link>https://finance.sina.com.cn/stock/relnews/cn/2026-09-05/doc-iniqtnhe0723138.shtml</link>
+      <description>[2026-09-05 07:51] 牛股兴业科技因信披问题遭证监会立案，此前宣布跨界“追光”</description>
+      <category>宏观</category>
+    </item>
+    <item>
       <title>[宏观] 非农爆了，美股跌了！9月加息预期升温，特朗普喊话：降息！降息！美联储必须“聪明”起来</title>
       <link>https://finance.sina.com.cn/money/forex/wemedia/2026-09-05/doc-iniqtnha0586011.shtml</link>
       <description>[2026-09-05 07:47] 非农爆了，美股跌了！9月加息预期升温，特朗普喊话：降息！降息！美联储必须“聪明”起来</description>
+      <category>宏观</category>
+    </item>
+    <item>
+      <title>[宏观] 2.388亿元！证监会开出天价罚单，301139欺诈发行坐实，濒临退市！</title>
+      <link>https://finance.sina.com.cn/stock/companyt/2026-09-05/doc-iniqtnha0586029.shtml</link>
+      <description>[2026-09-05 07:47] 2.388亿元！证监会开出天价罚单，301139欺诈发行坐实，濒临退市！</description>
+      <category>宏观</category>
+    </item>
+    <item>
+      <title>[宏观] 9月5日隔夜要闻：三大指数全线收跌 就业数据公布后美债收益率上行 油价企稳 市场在美国长周末前交投清淡</title>
+      <link>https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqtnfy3767405.shtml</link>
+      <description>[2026-09-05 06:24] 9月5日隔夜要闻：三大指数全线收跌 就业数据公布后美债收益率上行 油价企稳 市场在美国长周末前交投清淡</description>
       <category>宏观</category>
     </item>
     <item>
