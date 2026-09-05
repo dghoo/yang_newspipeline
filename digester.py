@@ -759,11 +759,16 @@ def main():
 
     L.append("### [估值] 主要指数估值（点位·东方财富｜PE/PB 历史分位·蛋卷）")
     val_date = next((v["date"] for v in valuation.values() if v.get("date")), "")
-    if indices:
+    if indices or valuation:
         L.append("| 指数 | 点位 | 涨跌幅 | PE(TTM) | PE分位 | PB | PB分位 | 估值水位 |")
         L.append("|---|---|---|---|---|---|---|---|")
-        for x in indices:
-            name = x["name"]
+        idx_by_name = {x["name"]: x for x in indices}
+        # 遍历「实时行情 ∪ 蛋卷估值」并集：红利低波等有估值但无实时行情 secid 的
+        # 指数也必须列出（点位/涨跌幅显示 —），否则会被静默漏掉。
+        for name in dict.fromkeys(list(idx_by_name) + list(valuation)):
+            x = idx_by_name.get(name)
+            point = x["value"] if x else "—"
+            chg = fmt_pct(x["chg"]) if (x and x.get("chg") is not None) else "—"
             v = valuation.get(name)
             if v and v.get("pe") is not None and v.get("pe_pct") is not None:
                 pe = f"{float(v['pe']):.2f}"
@@ -780,9 +785,9 @@ def main():
                     overall = "偏高（PE/PB 分歧）"
                 else:
                     overall = "适中"
-                L.append(f"| {name} | {x['value']} | {fmt_pct(x['chg'])} | {pe} | {pe_pct}·{pel} | {pb} | {pb_pct}·{pbl} | {overall} |")
+                L.append(f"| {name} | {point} | {chg} | {pe} | {pe_pct}·{pel} | {pb} | {pb_pct}·{pbl} | {overall} |")
             else:
-                L.append(f"| {name} | {x['value']} | {fmt_pct(x['chg'])} | — | — | — | — | — |")
+                L.append(f"| {name} | {point} | {chg} | — | — | — | — | — |")
         L.append("")
         if val_date:
             L.append(f"> 估值数据来源：蛋卷基金（截至 {val_date}）。分位 = 当前 PE/PB 在历史时期中的相对位置；**<30% 低估、30–70% 适中、>70% 高估**。纳斯达克100/标普500 为境外指数，分位口径同蛋卷。")
