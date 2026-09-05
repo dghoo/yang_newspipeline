@@ -28,37 +28,31 @@ python digester.py
 
 ## 二、部署到 GitHub（手机订阅）
 
-### 1. 建仓库
-在 GitHub 新建 **public** 仓库（例如 `news-pipeline`），**不要**勾选 README/.gitignore（本地已有）。
+**完整手把手教程见 [`DEPLOY.md`](DEPLOY.md)**（含令牌生成、每步点击路径、故障排查表）。
 
-### 2. 推送代码
+极简版 4 步：
+
 ```bash
+# 1) GitHub 网页建 public 仓库（不要勾 README/.gitignore）
+# 2) 生成令牌：Settings → Developer settings → Personal access tokens
+#    → Tokens (classic) → Generate new token (classic) → 只勾 repo
+# 3) 推送（密码栏粘贴 ghp_ 开头的令牌，不是登录密码）
 cd news-pipeline
-git init
-git add .
-git commit -m "init news pipeline"
-git branch -M main
 git remote add origin https://github.com/<你的用户名>/news-pipeline.git
+git branch -M main
 git push -u origin main
 ```
 
-### 3. 开启 Actions
-推送后到仓库 **Settings → Actions → General**，
-把 *Workflow permissions* 设为 **Read and write**（允许每日把产物 commit 回仓库），保存。
+4) 仓库 Settings 里开两个开关：
 
-> 也可手动触发验证：**Actions → daily-news-digest → Run workflow**。
+| 位置 | 设置 |
+|---|---|
+| **Settings → Actions → General → Workflow permissions** | 改为 **Read and write**（否则每日产物写不回仓库） |
+| **Settings → Pages** | Source 选 `main` 分支 + **`/docs`** 目录 |
 
-### 4. 开启 Pages（手机订阅地址）
-**Settings → Pages → Source** 选 `Deploy from a branch`，
-分支 `main`、目录 **`/docs`**，保存。
+订阅地址：`https://<你的用户名>.github.io/news-pipeline/feed.xml`
 
-等待约 1 分钟，订阅地址即为：
-
-```
-https://<你的用户名>.github.io/news-pipeline/feed.xml
-```
-
-把这个地址填进手机 RSS 阅读器即可。
+> 本地已完成 `git init` 与 4 次提交，工作区干净，可直接推送。
 
 ---
 
@@ -78,14 +72,21 @@ https://<你的用户名>.github.io/news-pipeline/feed.xml
 | 栏目 | 数据源 | 更新策略 |
 |---|---|---|
 | AI 资讯 | aihot `/api/v1/items`（游标分页，7 天池） | 只发未发过的新增 |
-| 优质开源 | GitHub Trending（daily/weekly/monthly） | 只发未发过的新增 |
-| Docker 容器 | GitHub Topics `docker`/`self-hosted`/`homelab` | 只发未发过的新增 |
-| 宏观要闻 | 新浪滚动 API | 事件驱动，有新才出 |
-| 指数估值 | 蛋卷 `djapi/index_eva/dj`（PE/PB 历史分位） | 每日完整表 |
+| 优质开源 | GitHub Trending（限时补充） + **官方 Search API**（稳定主源） | 只发未发过 + 生态多样性去重 |
+| Docker 容器 | **官方 Search API**：`topic:self-hosted`/`docker`/`homelab` | 只发未发过的新增 |
+| 宏观要闻 | 新浪滚动 API | 事件驱动，不足 8 条则深翻页+宽关键词补足 |
+| 指数估值 | 蛋卷 `djapi/index_eva/dj`（PE/PB 历史分位） | 每日完整表（9 个指数） |
 | 板块 / 黄金 / QDII | 东方财富 + 天天基金净值 | 每日实采 |
-| 项目简介中译 | MyMemory 免密钥翻译（备 Google） | 译文缓存复用 |
+| 项目简介中译 | MyMemory 免密钥翻译（备 Google） | 译文缓存复用 + 术语校正表 |
 
 **两道防重**：① 7 天已发历史持久化去重；② 各文字栏只发"上次运行以来未发过的较新条目"，无新增则扩大搜索范围补齐，**不留空、绝不重发**。
+
+**为什么开源栏改用 Search API**：`github.com` 的 HTML 页（trending / topics）在部分网络环境极慢或直接
+`IncompleteRead`（实测 trending 页耗时 86 秒后失败），而 `api.github.com` 稳定且快（3.5s/30 条）、
+自带 description。现策略：HTML trending 只取 daily 一页作补充（提供"今日新增 stars"，12 秒预算快速失败），
+Search API 作为稳定主源始终并入。Docker 池则完全走 Search API（原 topics HTML 单次 30 秒 × 3 次）。
+
+**运行耗时**：优化后约 50～90 秒（优化前曾因慢源拖到 6 分 41 秒被超时杀掉）。
 
 ---
 
