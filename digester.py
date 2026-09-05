@@ -58,9 +58,19 @@ MACRO_KEYWORDS_BROAD = MACRO_KEYWORDS + ["经济", "政策", "数据", "汇率",
 
 
 # ---------- 网络工具 ----------
-def get_text(u, timeout=10, n=4, ref=None, headers=None):
+def get_text(u, timeout=10, n=4, ref=None, headers=None, deadline=None):
+    """抓取文本。
+
+    timeout  : 单次 socket 操作超时（connect / 单次 read）
+    deadline : 整个请求的总时间预算（秒），None 表示不限
+
+    为什么需要 deadline：urlopen 的 timeout 只约束单次 socket 读写，而读取大页面会
+    分多次 read，累计远超预期——实测 github trending 页设 timeout=8 仍耗时 41s。
+    deadline 通过分块读 + 累计计时来真正中止慢连接。
+    """
     last = None
     for _ in range(n):
+        t0 = time.time()
         try:
             h = {"User-Agent": UA}
             if ref:
@@ -68,9 +78,23 @@ def get_text(u, timeout=10, n=4, ref=None, headers=None):
             if headers:
                 h.update(headers)
             req = urllib.request.Request(u, headers=h)
-            return urllib.request.urlopen(req, timeout=timeout, context=ctx).read().decode("utf-8", "ignore")
+            resp = urllib.request.urlopen(req, timeout=timeout, context=ctx)
+            if deadline is None:
+                return resp.read().decode("utf-8", "ignore")
+            chunks = []
+            while True:
+                if time.time() - t0 > deadline:
+                    raise TimeoutError(f"超过总时间预算 {deadline}s，放弃该请求")
+                chunk = resp.read(65536)
+                if not chunk:
+                    break
+                chunks.append(chunk)
+            return b"".join(chunks).decode("utf-8", "ignore")
         except Exception as e:
             last = e
+            # 预算已耗尽则不再重试，避免慢源把运行拖垮
+            if deadline is not None and (time.time() - t0) > deadline:
+                break
             time.sleep(1.5)
     raise last
 
@@ -121,7 +145,13 @@ def fetch_ai_api(max_pages=5):
 
 
 # ---------- 2. GitHub Trending（日/周/月 + 多语言变体池）----------
-def fetch_trending(since="daily", lang=None):
+def fetch_trending(since="daily", lang=None, timeout=8, n=1, deadline=12):
+    """抓取 GitHub Trending HTML。
+
+    注意：github.com 的 HTML 页面在部分网络环境（含沙箱/国内网络）会极慢或直接
+    IncompleteRead（实测 daily 页曾耗时 86s 后失败）。因此默认 timeout=8、n=1
+    —— 只做"能拿到就补充今日新增 stars，拿不到就快速放弃"，绝不拖垮整体运行。
+    """
     repos = []
     try:
         params = []
@@ -130,7 +160,7 @@ def fetch_trending(since="daily", lang=None):
         if lang:
             params.append("spoken_language_code=" + lang)
         q = ("?" + "&".join(params)) if params else ""
-        h = get_text("https://github.com/trending" + q)
+        h = get_text("https://github.com/trending" + q, timeout=timeout, n=n, deadline=deadline)
         arts = re.findall(r'<article class="Box-row">(.*?)</article>', h, re.S)
         for a in arts:
             rm = re.search(r'class="h3 lh-condensed">\s*<a [^>]*href="/([^"]+)"', a)
@@ -374,6 +404,7 @@ def has_cjk(s):
 # 中文译后术语校正（解决 MyMemory 直译误译：座席/线束/集装箱/客服代表 等）
 _ZH_GLOSSARY = [
     ("座席线束", "智能体框架"),
+    ("线束", "框架"),                            # harness 在 AI/软件语境=框架，非汽车线束
     ("座席", "智能体"),
     ("客服代表", "智能体"),
     ("集装箱生态", "容器生态"),
@@ -596,6 +627,32 @@ def dedupe(items, keyfn):
     return out
 
 
+# 生态多样性过滤：按星标排序时，同一热门生态（如某 LLM 的插件生态）会一次性霸榜，
+# 实测出现过 10 条里 5 条同属一个生态。这里限制：同一 owner 最多 1 条、同一主题词最多 1 条。
+_TOPIC_STOP = {"the", "app", "apps", "web", "core", "api", "kit", "lab", "labs",
+               "io", "dev", "pro", "ui", "js", "py", "go", "org", "com", "net",
+               "open", "source", "awesome", "list", "docs", "demo", "server", "client"}
+
+
+def diversify(pool, cap_per_owner=1, cap_per_topic=1, limit=40):
+    owner_cnt, topic_cnt, out = {}, {}, []
+    for r in pool:
+        repo = r.get("repo", "")
+        owner = repo.split("/")[0] if "/" in repo else repo
+        if owner_cnt.get(owner, 0) >= cap_per_owner:
+            continue
+        topics = [t for t in re.findall(r"[a-z]{3,}", repo.lower()) if t not in _TOPIC_STOP]
+        if any(topic_cnt.get(t, 0) >= cap_per_topic for t in topics):
+            continue
+        owner_cnt[owner] = owner_cnt.get(owner, 0) + 1
+        for t in topics:
+            topic_cnt[t] = topic_cnt.get(t, 0) + 1
+        out.append(r)
+        if len(out) >= limit:
+            break
+    return out
+
+
 def fmt_pct(v):
     if v is None or v == "":
         return "—"
@@ -623,34 +680,35 @@ def main():
     ai_shown = [a for a in ai_sorted if not is_recent(hist, "ai:" + a["id"], today)][:AI_CAP]
 
     # --- 开源：日/周/月 + 多语言变体池，筛未发项（即"上次运行以来新增 + 扩展搜索"）---
+    # 说明：github.com 的 HTML 页在部分网络环境极慢/IncompleteRead（实测 daily 页 86s 后失败），
+    # 而官方 Search API 稳定且快（3.5s/30 条）且自带简介。因此：
+    #   · HTML trending 只取 daily 一页（唯一提供"今日新增 stars"），8s 快速失败，纯作补充；
+    #   · Search API 作为稳定主源，始终并入。两者按 repo 去重，HTML 条目排在前面。
     repo_pool = []
-    if github_html_ok():          # HTML 可达才爬 trending；否则直接走 API，避免长时间重试
-        repo_pool = dedupe(
-            fetch_trending("daily") + fetch_trending("weekly") + fetch_trending("monthly")
-            + fetch_trending("daily", "en") + fetch_trending("daily", "zh"),
-            lambda r: r["repo"])
-    if not repo_pool:
-        # HTML trending 不可达 → 官方 Search API 兜底：近 30 天新锐高星 + 近期活跃高星
-        repo_pool = dedupe(
-            fetch_search_repos("created:>" + (today - datetime.timedelta(days=30)).isoformat())
-            + fetch_search_repos("stars:>3000 pushed:>" + (today - datetime.timedelta(days=7)).isoformat()),
-            lambda r: r["repo"])
-    repos_shown = [r for r in repo_pool if not is_recent(hist, "gh:" + r["repo"], today)][:OS_CAP]
-
-    # --- Docker：容器/自托管专属真实源（trending 关键词挖 + topics 实时池），排除已进"开源"栏的，筛未发项 ---
-    docker_topic_pool = []
     if github_html_ok():
-        docker_topic_pool = fetch_topic_repos("docker") + fetch_topic_repos("self-hosted") + fetch_topic_repos("homelab")
-    if not docker_topic_pool:
-        # topics HTML 不可达 → Search API 按 topic 取高星自托管/容器项目
-        docker_topic_pool = dedupe(
-            fetch_search_repos("topic:self-hosted") + fetch_search_repos("topic:docker")
-            + fetch_search_repos("topic:homelab"),
-            lambda r: r["repo"])
+        repo_pool = fetch_trending("daily", timeout=8, n=1)
+    repo_pool = dedupe(
+        repo_pool
+        + fetch_search_repos("created:>" + (today - datetime.timedelta(days=30)).isoformat()
+                             + " stars:>1000")   # 星标下限：滤掉近 30 天新建的三无小项目
+        + fetch_search_repos("stars:>3000 pushed:>" + (today - datetime.timedelta(days=7)).isoformat()),
+        lambda r: r["repo"])
+    # 先筛 7 天内未发项 → 再做生态多样性 → 再截断（保证最终展示不出现同一生态霸榜）
+    fresh_repos = [r for r in repo_pool if not is_recent(hist, "gh:" + r["repo"], today)]
+    repos_shown = diversify(fresh_repos, limit=OS_CAP)
+
+    # --- Docker：容器/自托管专属真实源，排除已进"开源"栏的，筛未发项 ---
+    # 直接用 Search API 的 topic 查询（3 次约 10s）；不再抓 topics HTML（单次实测 30s，易拖垮运行）
+    docker_topic_pool = dedupe(
+        fetch_search_repos("topic:self-hosted") + fetch_search_repos("topic:docker")
+        + fetch_search_repos("topic:homelab"),
+        lambda r: r["repo"])
     docker_pool = dedupe(split_docker(repo_pool) + docker_topic_pool, lambda r: r["repo"])
     shown_repos = {r["repo"] for r in repos_shown}
-    docker_shown = [r for r in docker_pool
-                    if (not is_recent(hist, "gh:" + r["repo"], today)) and r["repo"] not in shown_repos][:DOCKER_CAP]
+    docker_shown = diversify(
+        [r for r in docker_pool
+         if (not is_recent(hist, "gh:" + r["repo"], today)) and r["repo"] not in shown_repos],
+        limit=DOCKER_CAP)
 
     # --- 为展示中的开源/Docker 项目补全真实项目介绍（GitHub API），并译为中文 ---
     for r in repos_shown + docker_shown:
@@ -664,14 +722,20 @@ def main():
     # --- 宏观：事件驱动；无新则深翻页 + 宽关键词扩展搜索未发项 ---
     macro_shown = [m for m in fetch_macro(1)
                    if not is_recent(hist, "macro:" + (m["url"] or m["title"]), today)]
-    if not macro_shown:
-        seen = {m["url"] or m["title"] for m in macro_shown}
-        for pg in (1, 2, 3, 4):
-            for m in fetch_macro(pg, MACRO_KEYWORDS_BROAD):
-                k = m["url"] or m["title"]
-                if k not in seen and not is_recent(hist, "macro:" + k, today):
-                    seen.add(k)
-                    macro_shown.append(m)
+    # 事件驱动，但按用户要求"不留空、宁可加大搜索也不发重复"：
+    # 只要条数不足 MACRO_CAP 就继续深翻页 + 宽关键词扩展，而不是只在一条都没有时才扩展。
+    # （原写法 `if not macro_shown` 会导致首屏只抓到 1 条就停止，信息量明显不足）
+    seen = {m["url"] or m["title"] for m in macro_shown}
+    for pg in (1, 2, 3, 4):
+        if len(macro_shown) >= MACRO_CAP:
+            break
+        for m in fetch_macro(pg, MACRO_KEYWORDS_BROAD):
+            if len(macro_shown) >= MACRO_CAP:
+                break
+            k = m["url"] or m["title"]
+            if k not in seen and not is_recent(hist, "macro:" + k, today):
+                seen.add(k)
+                macro_shown.append(m)
     macro_shown = macro_shown[:MACRO_CAP]
 
     # --- 财经快照（每日实采，天然新鲜）---
