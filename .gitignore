@@ -1,0 +1,17 @@
+# Python 缓存与字节码
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 本地调试产生的日志（不入库）
+lastrun.log
+lastrun.err
+retry.log
+retry2.log
+*.log
+
+# 编辑器与系统文件
+.DS_Store
+.idea/
+.vscode/
+*.swp

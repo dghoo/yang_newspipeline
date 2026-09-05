@@ -1,0 +1,3 @@
+# 纯标准库实现，无需第三方依赖。
+# GitHub Actions 与本地 Python 3.10+ 均可直接运行 digester.py。
+# 若后续接入 pandas/akshare 等做结构化源，再在此追加并对应的 workflow 加 pip install -r requirements.txt。

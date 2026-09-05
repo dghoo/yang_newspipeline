@@ -1,0 +1,57 @@
+# 资讯聚合推送 · 管道配置（文档/可移植用）
+# 说明：当前 digester.py 采用内置默认值（纯标准库、无 yaml 依赖），
+#       本文件为源清单与策略的"单一事实来源"文档，便于后续迁移到读取配置。
+
+run:
+  schedule: "0 0 * * *"      # UTC 00:00 = 北京时间 08:00
+  timezone: "Asia/Shanghai"
+  dedup_window_days: 7       # 跨日去重窗口：7 天内已推送条目不再重复
+
+sources:
+  ai:
+    enabled: true
+    type: html
+    url: "https://aihot.virxact.com/"
+    note: "SSR 直出，解析 uc-x-title + uc-quoted"
+  opensource:
+    enabled: true
+    type: html
+    url: "https://github.com/trending"
+    note: "每日榜单，抓 repo/stars/today/lang"
+  docker:
+    enabled: true
+    type: hybrid
+    note: "从 trending 挖掘 docker/selfhosted 关键词 + 精选真实项目兜底"
+  finance:
+    indices_realtime:        # 东方财富 push2delay 行情
+      enabled: true
+      url: "https://push2delay.eastmoney.com/api/qt/ulist.np/get"
+      indices: [沪深300, 中证500, 创业板指, 科创50, 中证红利, 红利低波, 恒生指数, 纳斯达克100, 标普500]
+    sectors_realtime:
+      enabled: true
+      url: "https://push2delay.eastmoney.com/api/qt/clist/get?fs=m:90+t:2"
+    gold_realtime:
+      enabled: true
+      proxy: "COMEX 微型黄金(MGC) 连续合约"
+      note: "沪金/伦敦金 secid 接口返回空，暂用 MGC 作涨跌代理；518880 用真实基金净值(api.fund.eastmoney.com)补充"
+      gold_etf_nav: "518880 (华夏黄金ETF) 通过 api.fund.eastmoney.com 取真实净值"
+    valuation_percentile:    # 待接入（方案 1.3.2）——沙箱/直连均难解析
+      status: pending
+      sources: [申万宏源行业比较周跟踪, 蛋卷(需登录)/且慢(SPA)]
+      note: "且慢估值页为 SPA、蛋卷需登录，自动化解析困难；指数实时点位已在[估值]呈现，PE分位待结构化源"
+    macro:                   # 已落地：新浪滚动 API 事件驱动
+      status: enabled
+      type: api
+      url: "https://feed.mix.sina.com.cn/api/roll/get?pageid=153&lid=2509"
+      note: "按宏观关键词(降准/降息/社融/CPI/央行/美联储...)过滤要闻；事件驱动，无新事件不每日重复"
+    qdii_nav:                # 已落地：天天基金真实净值 API
+      status: enabled
+      type: api
+      url: "https://api.fund.eastmoney.com/f10/lsjz"
+      codes: [000834, 270042, 050025, 161125, 013402, 164906]
+      note: "T+2 披露真实净值，标净值日期；人民币计价受汇率影响"
+
+output:
+  rss: "docs/feed.xml"
+  markdown: "output/YYYY-MM-DD.md"
+  history: "state/sent_history.json"

@@ -1,0 +1,29 @@
+name: daily-news-digest
+
+on:
+  schedule:
+    # UTC 00:00 = 北京时间 08:00
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}   # 可手动触发调试
+
+permissions:
+  contents: write        # 允许把生成的 feed.xml / output 提交回仓库
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # 纯标准库，无需 pip install
+      - name: Run digester
+        run: python digester.py
+      - name: Commit generated feed + digest
+        run: |
+          git config user.name "news-bot"
+          git config user.email "bot@local"
+          # trans_cache.json 一并提交：翻译结果持久化，避免每天重复调用翻译接口触发限流
+          git add docs/feed.xml output/ state/sent_history.json state/trans_cache.json
+          git diff --cached --quiet && echo "no change" || (git commit -m "daily $(date +%F)" && git push)

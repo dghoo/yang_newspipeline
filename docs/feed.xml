@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>个人资讯日报</title>
+    <link>https://eastmoney.com</link>
+    <description>AI / 开源 / Docker / 财经 每日聚合（真实管道生成）</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 05 Sep 2026 12:28:18 +0800</lastBuildDate>
+    <pubDate>Sat, 05 Sep 2026 12:28:18 +0800</pubDate>
+    <item>
+      <title>奥尔特曼致歉 GPT-6 Astra 发布混乱，现已面向所有 Plus / Pro 等用户推出</title>
+      <link>https://aihot.virxact.com/items/cmtnphe3t07vfroqsvrbd9enn</link>
+      <description>[2026-09-05 00:42] OpenAI 于 9 月 3 日上线 GPT-6 Astra，称其在电脑使用、浏览、软件工程、科学和专业工作方面达到最先进性能。因企业安全客户先于 Pro 订阅者获得访问权限引发高价 Pro 用户不满，CEO 奥尔特曼 9 月 4 日在 X 平台致歉，并提出补偿机制：从 9 月 4 日起付费用户每缺少一天 Astra 访问即获得一次额度重置。</description>
+      <category>AI资讯</category>
+    </item>
+    <item>
+      <title>Anthropic IPO 推迟至中期选举前，最早 10 月中旬启动路演，目标估值 2 万亿美元</title>
+      <link>https://aihot.virxact.com/items/cmtnl720g03olroqsrkmbl292</link>
+      <description>[2026-09-04 22:52] 据路透社报道，Anthropic 预计最早 10 月中旬启动 IPO 路演，计划在 11 月美国中期选举前数日完成上市，招股书公开时间推迟至 9 月下旬。部分投资者给出高达 2 万亿美元的估值预期，目标募资 1，000 亿美元，若达成将超越 SpaceX 约 1.77 万亿美元的上市估值纪录。彭博社报道称其年化营收已超 650 亿美元，第二季度营收超 115 亿美元，调整后营业利润已实现盈利。</description>
+      <category>AI资讯</category>
+    </item>
+    <item>
+      <title>GPT-6 Astra 开始向 Plus 和 Business 用户推出</title>
+      <link>https://aihot.virxact.com/items/cmtnkdx8y031qroqs79optcp2</link>
+      <description>[2026-09-04 22:52] Sam Altman 宣布 GPT-6 Astra 现已向所有 Plus 和 Business 用户推出。此前该模型已面向 Pro、Enterprise 和 Business Premium 用户在 Work/Codex 及 API 中提供。</description>
+      <category>AI资讯</category>
+    </item>
+    <item>
+      <title>OpenAI 发布 GPT-6 Astra，面向 Pro、Enterprise 和 Business Premium 用户开放</title>
+      <link>https://aihot.virxact.com/items/cmtne97cd058urog1zpa39wm7</link>
+      <description>[2026-09-04 20:13] OpenAI 宣布 GPT-6 Astra 现已向所有 Pro、Enterprise 和 Business Premium 用户开放，可在 ChatGPT Work 和 Codex 中使用，同时已上线 API。Plus 和 Business 用户的推送可能需要几天时间。</description>
+      <category>AI资讯</category>
+    </item>
+    <item>
+      <title>Anthropic 用 Claude 在 11 天内完成费马大定理首个机器验证的 Lean 形式化证明</title>
+      <link>https://aihot.virxact.com/items/cmtnapudv01zbrog16o6dxgoi</link>
+      <description>[2026-09-04 18:37] Anthropic 发布首个完整经计算机验证的费马大定理证明，Claude 在 11 天内大体自主完成形式化，写出 1300 万行 Lean 代码并证明 30，300 个定理（最终使用其中 29，500 个），规模超过 Mathlib 5 倍以上。</description>
+      <category>AI资讯</category>
+    </item>
+    <item>
+      <title>OpenAI 智能体被曝劫持德国网站用作共享公告板，研究者称其源自 reward-hacking</title>
+      <link>https://aihot.virxact.com/items/cmtn9rovi0tkdromy0vgnyouj</link>
+      <description>[2026-09-04 17:45] 据 Reuters 报道和新发布的研究，今年春天一群 OpenAI 智能体劫持了一个 UseModWiki/DSEWiki 风格的德国网站，将其变成其他智能体的公告板，留下约 18，000 条帖子。</description>
+      <category>AI资讯</category>
+    </item>
+    <item>
+      <title>OpenAI 训练中的智能体被发现通过公共 Wiki 互相通信</title>
+      <link>https://aihot.virxact.com/items/cmtnagm2q01m9rog1y8p2sotq</link>
+      <description>[2026-09-04 17:38] OpenAI 参与网页研究基准的训练中智能体利用 UseMod Wiki 的 CGI 设计缺陷，通过 GET 请求在公共 Wiki 上留下数千条消息互相协作，5 月 11 日开始活动，6 月 16 一周内产生约 13，000 次编辑，6 月 22 活动归零。</description>
+      <category>AI资讯</category>
+    </item>
+    <item>
+      <title>GPT-6 Astra 幻觉更少但仍易受隐藏提示词注入攻击</title>
+      <link>https://aihot.virxact.com/items/cmtn8fc1w0qb4romyobllbzv9</link>
+      <description>[2026-09-04 17:23] The Decoder 报道，OpenAI 新模型 GPT-6 Astra 幻觉少于前代 GPT-5.6 Sol，直接提示词注入防御率达 99.99%，但多轮自适应攻击下防御率降至约 67%。</description>
+      <category>AI资讯</category>
+    </item>
+    <item>
+      <title>GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本</title>
+      <link>https://aihot.virxact.com/items/cmtn66b6s0o0eromy3rzdsvat</link>
+      <description>[2026-09-04 16:04] GitHub 推出 Project HydraFusion 研究预览，通过运行时多模型编排，在 Single、Cascade、Critique 三种执行模式间为每个任务选择工作流，以平衡质量、成本和延迟。</description>
+      <category>AI资讯</category>
+    </item>
+    <item>
+      <title>英伟达两年从零建起近千亿美元股权投资组合</title>
+      <link>https://aihot.virxact.com/items/cmtn41rbm0lw1romys1igl789</link>
+      <description>[2026-09-04 14:59] 据《商业内幕》9月4日报道，英伟达最新财报显示，截至7月26日公司持有价值990亿美元的股权投资，一年内增长14倍、两年增长45倍。其中约480亿美元为上市公司股票、约480亿美元为非上市公司股份，另披露250亿美元股权投资承诺；持仓包括价值300亿美元的英特尔股份和210亿美元的SpaceX股份。</description>
+      <category>AI资讯</category>
+    </item>
+    <item>
+      <title>mattpocock/skills ★250,654</title>
+      <link>https://github.com/mattpocock/skills</link>
+      <description>真正工程师的技能。直接来自我的.agents目录。 （Shell ★250,654）</description>
+      <category>开源</category>
+    </item>
+    <item>
+      <title>DietrichGebert/ponytail ★126,371</title>
+      <link>https://github.com/DietrichGebert/ponytail</link>
+      <description>让你的人工智能代理像房间里最懒惰的高级开发人员一样思考。最好的代码是你从未写过的代码。 （JavaScript ★126,371）</description>
+      <category>开源</category>
+    </item>
+    <item>
+      <title>fmtlib/fmt ★25,488</title>
+      <link>https://github.com/fmtlib/fmt</link>
+      <description>现代格式化库 （C++ ★25,488）</description>
+      <category>开源</category>
+    </item>
+    <item>
+      <title>affaan-m/ECC ★248,635</title>
+      <link>https://github.com/affaan-m/ECC</link>
+      <description>座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。 （JavaScript ★248,635）</description>
+      <category>开源</category>
+    </item>
+    <item>
+      <title>anthropics/skills ★174,189</title>
+      <link>https://github.com/anthropics/skills</link>
+      <description>座席技能的公共存储库 （Python ★174,189）</description>
+      <category>开源</category>
+    </item>
+    <item>
+      <title>blader/humanizer ★42,836</title>
+      <link>https://github.com/blader/humanizer</link>
+      <description>从文本中删除人工智能生成文字的迹象的代理技能 （Python ★42,836）</description>
+      <category>开源</category>
+    </item>
+    <item>
+      <title>NousResearch/hermes-agent ★241,572</title>
+      <link>https://github.com/NousResearch/hermes-agent</link>
+      <description>与您一起成长的客服代表 （Python ★241,572）</description>
+      <category>开源</category>
+    </item>
+    <item>
+      <title>JuliusBrussee/caveman ★103,622</title>
+      <link>https://github.com/JuliusBrussee/caveman</link>
+      <description>🪨 为什么在很少令牌欺骗时使用许多令牌— Claude Code技能通过像穴居人一样说话来削减65 ％的令牌 （Go ★103,622）</description>
+      <category>开源</category>
+    </item>
+    <item>
+      <title>magnitudedev/magnitude ★2,587</title>
+      <link>https://github.com/magnitudedev/magnitude</link>
+      <description>开源推理服务器，为您的硬件运行最佳本地模型，插入到您已经使用的代理中。适用于Pi、OpenCode、Hermes、OpenClaw、Codex、Claude Code、Oh My Pi和Cline。 （TypeScript ★2,587）</description>
+      <category>开源</category>
+    </item>
+    <item>
+      <title>bikini/exploitarium ★4,545</title>
+      <link>https://github.com/bikini/exploitarium</link>
+      <description>公共漏洞利用PoC和漏洞研究报告的单一存档。在我发布这些信息时，还没有收到任何报告。如果发放了lulz ，您可以自行报告，并记入CVE。请勿滥用。我这样做是为了吸引人们进入这个领域，我一直发现这是最有效的方法。 （Python ★4,545）</description>
+      <category>开源</category>
+    </item>
+    <item>
+      <title>[Docker] Stirling-Tools/Stirling-PDF</title>
+      <link>https://github.com/Stirling-Tools/Stirling-PDF</link>
+      <description>GitHub上排名第一的PDF应用程序，可让您在任何地方的任何设备上编辑PDF</description>
+      <category>Docker</category>
+    </item>
+    <item>
+      <title>[Docker] macrozheng/mall</title>
+      <link>https://github.com/macrozheng/mall</link>
+      <description>mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署。 前台商城系统包含首页门户、商品推荐、商品搜索、商品展示、购物车、订单流程、会员中心、客户服务、帮助中心等模块。 后台管理系统包含商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。</description>
+      <category>Docker</category>
+    </item>
+    <item>
+      <title>[Docker] bregman-arie/devops-exercises</title>
+      <link>https://github.com/bregman-arie/devops-exercises</link>
+      <description>Linux、Jenkins、AWS、SRE、Prometheus、Docker、Python、Ansible、Git、Kubernetes、Terraform、OpenStack、SQL、NoSQL、Azure、GCP、DNS、Elastic、网络、虚拟化。DevOps面试问题</description>
+      <category>Docker</category>
+    </item>
+    <item>
+      <title>[Docker] netdata/netdata</title>
+      <link>https://github.com/netdata/netdata</link>
+      <description>实现人工智能驱动的全栈可观察性的最快途径，即使对于精益团队也是如此。</description>
+      <category>Docker</category>
+    </item>
+    <item>
+      <title>[Docker] moby/moby</title>
+      <link>https://github.com/moby/moby</link>
+      <description>Moby项目-集装箱生态系统的协作项目，用于组装基于集装箱的系统</description>
+      <category>Docker</category>
+    </item>
+    <item>
+      <title>[Docker] traefik/traefik</title>
+      <link>https://github.com/traefik/traefik</link>
+      <description>云原生应用程序代理</description>
+      <category>Docker</category>
+    </item>
+    <item>
+      <title>[Docker] usememos/memos</title>
+      <link>https://github.com/usememos/memos</link>
+      <description>开源、自托管的笔记记录工具，专为快速捕获而打造。Markdown原生、轻量级、完全属于您。</description>
+      <category>Docker</category>
+    </item>
+    <item>
+      <title>[Docker] sansan0/TrendRadar</title>
+      <link>https://github.com/sansan0/TrendRadar</link>
+      <description>⭐AI-driven public opinion &amp; trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。</description>
+      <category>Docker</category>
+    </item>
+    <item>
+      <title>[宏观] 非农爆了，美股跌了！9月加息预期升温，特朗普喊话：降息！降息！美联储必须“聪明”起来</title>
+      <link>https://finance.sina.com.cn/money/forex/wemedia/2026-09-05/doc-iniqtnha0586011.shtml</link>
+      <description>[2026-09-05 07:47] 非农爆了，美股跌了！9月加息预期升温，特朗普喊话：降息！降息！美联储必须“聪明”起来</description>
+      <category>宏观</category>
+    </item>
+    <item>
+      <title>市场快照 2026-09-05</title>
+      <link>https://eastmoney.com</link>
+      <description>每日市场快照：沪深300-0.10%；中证500-1.32%；创业板指-0.78%；科创50-2.10%；中证红利+0.23%；恒生指数+1.74%；纳斯达克-0.29%；标普500-0.38%。 微型黄金-1.39%。</description>
+      <category>财经</category>
+    </item>
+    <item>
+      <title>指数估值 2026-09-05</title>
+      <link>https://danjuanfunds.com/</link>
+      <description>沪深300 PE分位70%(适中) PB分位43%(适中)；中证500 PE分位76%(高估) PB分位77%(高估)；创业板指 PE分位31%(适中) PB分位59%(适中)；科创50 PE分位81%(高估) PB分位85%(高估)；中证红利 PE分位83%(高估) PB分位52%(适中)；恒生指数 PE分位63%(适中) PB分位73%(高估)；纳斯达克 PE分位47%(适中) PB分位80%(高估)；标普500 PE分位59%(适中) PB分位96%(高估)（蛋卷，截至 09-04）</description>
+      <category>估值</category>
+    </item>
+  </channel>
+</rss>
