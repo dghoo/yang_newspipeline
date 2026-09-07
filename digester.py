@@ -1082,6 +1082,24 @@ def main():
     print(f"[OK] 生成完成 -> {md_path}")
     print(f"[OK] RSS -> {os.path.join(DOC_DIR, 'feed.xml')}")
     print(f"[STAT] AI={len(ai_shown)} 开源={len(repos_shown)} Docker={len(docker_shown)} 宏观={len(macro_shown)} 指数={len(indices)} 板块={len(sectors)} 黄金={'Y' if gold else 'N'} 518880={'Y' if gold_nav else 'N'} QDII净值={len(qdii_nav)}")
+    health_check(ai_shown, repos_shown, docker_shown, macro_shown,
+                 indices, valuation, sectors, qdii_nav)
+
+
+def health_check(ai, repos, docker, macro, indices, valuation, sectors, qdii_nav):
+    """产出健康校验：核心栏空 = 数据源异常，非 0 退出（Actions 标红且不会提交残缺日报）；
+    次级栏缺失仅告警，不阻断。"""
+    fatal = [n for n, v in (("AI", ai), ("开源", repos), ("Docker", docker)) if not v]
+    warn = [n for n, v in (("宏观", macro), ("指数行情", indices),
+                           ("估值", valuation), ("板块", sectors), ("QDII净值", qdii_nav)) if not v]
+    for n in warn:
+        print(f"::warning::{n} 栏为空（数据源可能临时不可用），本次仍生成日报", file=sys.stderr)
+    if fatal:
+        for n in fatal:
+            print(f"::error::{n} 栏为空，判定数据源异常", file=sys.stderr)
+        print(f"[FATAL] 核心栏为空：{'、'.join(fatal)}；已终止，不提交残缺日报（去重历史未消费，可原样重跑）",
+              file=sys.stderr)
+        sys.exit(2)
 
 
 def rss_item(title, link, desc, cat):
