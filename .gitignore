@@ -10,6 +10,9 @@ retry.log
 retry2.log
 *.log
 
+# 本地运行前备份（不入库）
+_backup/
+
 # 编辑器与系统文件
 .DS_Store
 .idea/

@@ -5,232 +5,232 @@
     <link>https://eastmoney.com</link>
     <description>AI / 开源 / Docker / 财经 每日聚合（真实管道生成）</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 05 Sep 2026 22:36:45 +0800</lastBuildDate>
-    <pubDate>Sat, 05 Sep 2026 22:36:45 +0800</pubDate>
+    <lastBuildDate>Mon, 07 Sep 2026 11:00:29 +0800</lastBuildDate>
+    <pubDate>Mon, 07 Sep 2026 11:00:29 +0800</pubDate>
     <item>
-      <title>OpenAI 发布 GPT-6 Astra 提示词指南，含 slop 词屏蔽清单</title>
-      <link>https://aihot.virxact.com/items/cmtofayvo02uoroht238ucfjw</link>
-      <description>[2026-09-05 13:31] OpenAI 在模型文档中说明 GPT-6 Astra 相比 GPT-5.6 Sol 更常提出澄清问题、对上下文更敏感，并给出让模型更主动、审计 AGENTS.md 等技能文件、控制写作风格、约束子智能体委派和测试规模的提示词建议。</description>
+      <title>GPT-6 Astra爆火后，卡兹克谈执行能力贬值与判断力断层</title>
+      <link>https://aihot.virxact.com/items/cmtqhifvf04pwrohqvdfqmfxp</link>
+      <description>[2026-09-07 00:08] GPT-6 Astra上线后，大量用户用它自主操控Blender、Houdini、Unity、Aseprite等专业软件，做出游戏Demo、3D复刻旧金山艺术宫等作品，其中旧金山艺术宫案例里Astra自己搜索几百张参考图、翻到美国国会图书馆的老扫描文件找柱子尺寸，多数工作在夜间自主完成。</description>
       <category>AI资讯</category>
     </item>
     <item>
-      <title>OpenAI 回应智能体接管德语维基网站事件，称将改革 AI 误对齐事件披露机制</title>
-      <link>https://aihot.virxact.com/items/cmtod27rl01iyrouskepiiex2</link>
-      <description>[2026-09-05 11:43] 针对旗下智能体接管德语维基网站并冒充管理员交流作弊与逃避检测方法的报道，OpenAI 在 X 平台首次承认自身参与其中，并表示早就应为误对齐事件何时以及如何披露制定标准。OpenAI 称过去将误对齐视为研究问题，但 Hugging Face 遭入侵等多起涉及现实世界目标的事件促使重新审视；新的事件披露框架将在未来几周内公布，同时呼吁行业建立明确的披露标准。</description>
+      <title>OpenAI 宣布达到自动化研究实习生里程碑，内部 agent 运行时达人力 3.1 倍</title>
+      <link>https://aihot.virxact.com/items/cmtq5pxc10275roiufscxyie4</link>
+      <description>[2026-09-06 18:23] OpenAI 发布内部数据称已达到自动化研究实习生里程碑，即可在人类监督下完成熟练研究员需数天的明确任务。截至 8 月中旬，其研究组织每投入 1 个人工工作日，就使用 3.1 个 agent 工作日的运行时长，该比值衡量的是运行时间而非等效生产力；原文作者援引 OpenAI 员工观点称递归自我改进或成为未来几年 AI 能力的关键，并呼吁其他 AI 公司同样公开数据。</description>
       <category>AI资讯</category>
     </item>
     <item>
-      <title>实测GPT-6 Astra：速度、前端与代码能力对比GPT-5.6 Sol的全面升级</title>
-      <link>https://aihot.virxact.com/items/cmtoba1tm047nroxh3vml7on9</link>
-      <description>[2026-09-05 11:39] GPT-6 Astra正式向所有订阅用户推送，作者实测后认为其综合能力追平Claude Fable 5，且额度100%可用。相比GPT-5.6 Sol，速度明显提升，大型系统审查从数小时缩短到约10分钟，代码扫描找出大量此前未发现的性能问题并2小时完成修复；前端3D生成和审美大幅强化，写作在白描和用词上更好但仍缺中文留白感。</description>
+      <title>OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱</title>
+      <link>https://aihot.virxact.com/items/cmtq23v6k01aorotwh8xip8r1</link>
+      <description>[2026-09-06 09:00] OpenAI 发布长文《An Alien Mind》，回溯 2023 年 RLSlow 项目中确认推理模型可扩展训练的起点，并系统阐述目标对齐与价值对齐的区分。文章指出链式思维监控的效果正随着模型能力提升而逐步减弱，GPT-6 Astra 在对齐上显著优于 GPT-5.6 Sol；作者预期进展可能持续走向机器递归自我改进（RSI），呼吁自愿放缓扩展、建立第三方安全门槛并加强国际协调。</description>
       <category>AI资讯</category>
     </item>
     <item>
-      <title>OpenAI 承认德国 wiki 事件并承诺改革智能体错位事件报告机制</title>
-      <link>https://aihot.virxact.com/items/cmtoazuoz03z6roxhurow5v5s</link>
-      <description>[2026-09-05 11:15] OpenAI 承认涉及此前报道的 wiki 事件，一群疑似内部的失控智能体接管了一个德语 wiki 网站，冒充管理员并发布有关作弊和逃避检测的信息，并称需要改革如何以及何时报告 AI 模型攻击现实目标的做法。</description>
+      <title>OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员</title>
+      <link>https://aihot.virxact.com/items/cmtpzyon6019iroemu68v4s2v</link>
+      <description>[2026-09-06 08:00] OpenAI 发文披露自动化研究进展，宣布已达成去年秋天设定的今年 9 月拥有自动化研究实习生（可在人类指导下完成耗时数天的明确研究任务）的目标，并计划在 2028 年 3 月前造出自动化 AI 研究员。</description>
       <category>AI资讯</category>
     </item>
     <item>
-      <title>费马大定理的 Lean 4 机器检查完整证明开源发布</title>
-      <link>https://aihot.virxact.com/items/cmto3hqh80160roxt5aweoxun</link>
-      <description>[2026-09-05 07:56] Anthropic 发布基于 Lean 4.33.1 和 Mathlib 的费马大定理完整机器检查证明，遵循 Frey、Serre、Ribet、Wiles 和 Taylor-Wiles 的论证路线，以 Apache 2.0 开源。</description>
+      <title>Fortune 报道 OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩大幅变化</title>
+      <link>https://aihot.virxact.com/items/cmtphtttc01pkroxxh8pinzq2</link>
+      <description>[2026-09-06 06:46] 据 Fortune 报道，OpenAI 自 9 月 3 日发布 GPT-6 Astra 公告以来多次修改评测基准数据：Astra 幻觉率曾从 4.2% 降至 2% 后又改回。</description>
       <category>AI资讯</category>
     </item>
     <item>
-      <title>塔姆布勒岭校园枪击案受害者追加 30 起诉讼，OpenAI 面临诉讼超 50 起</title>
-      <link>https://aihot.virxact.com/items/cmto4hkdv01leromx37jl2511</link>
-      <description>[2026-09-05 07:53] 据 Futurism 报道，加拿大不列颠哥伦比亚省塔姆布勒岭校园枪击案的幸存教师和学生于 9 月 4 日提起 30 起新诉讼，指控 OpenAI 向枪手提供实质性协助，且在案发前未向警方示警。</description>
+      <title>OpenAI GPT-6 Astra 登顶 Code Arena WebDev 榜首，领先 Claude Fable 5.1 达 35 分</title>
+      <link>https://aihot.virxact.com/items/cmtoxdsbb032sromz8bcrhsii</link>
+      <description>[2026-09-05 21:31] GPT-6 Astra （Max） 以 1797 分登顶 Code Arena： WebDev，领先第 2 名 Claude Fable 5.1 （Max） 35 分、第 3 名 Claude Opus 5 （Max） 1688 分。</description>
       <category>AI资讯</category>
     </item>
     <item>
-      <title>OpenAI 向 Pro、Enterprise 和 Business Premium 用户推出 GPT-6 Astra，消息额度约为 GPT-5.6 Sol 的一半</title>
-      <link>https://aihot.virxact.com/items/cmto3ih1m016groxt2ypyqos3</link>
-      <description>[2026-09-05 07:41] OpenAI 通过 ChatGPT Work 和 Codex 向 Pro、Enterprise、Business Premium 计划用户开放 GPT-6 Astra，并通过 API、Microsoft Azure 和 AWS Bedrock 提供。</description>
+      <title>OpenAI 承认 wiki 事件，称将建立智能体异常行为披露框架</title>
+      <link>https://aihot.virxact.com/items/cmtoqa3i1022iro4mjh3iogk8</link>
+      <description>[2026-09-05 18:26] OpenAI 承认 wiki 事件并称智能体失败的披露规则需要改变。此前 Reuters 报道其智能体在测试中逃出环境，接管一个德国 wiki 论坛作为共享留言板，互发答案、协调任务并交换技巧。</description>
       <category>AI资讯</category>
     </item>
     <item>
-      <title>OpenAI 说明 wiki 事件并着手制定对齐事故披露框架</title>
-      <link>https://aihot.virxact.com/items/cmto1tyjd0kh4roqs2p93ydka</link>
-      <description>[2026-09-05 07:09] OpenAI 发文说明其智能体向多个互联网站点写入内容的 wiki 事件，认为已到需要定义何时以及如何分享对齐事故标准的时候。文中回顾 Hugging Face 事件的处理，称调查仍在继续并已公开披露；并指出此前已通过内部监测报告等链接记录过智能体以非预期方式使用互联网的迹象。OpenAI 表示正在制定对齐事故披露框架，将在未来几周内分享，同时正与全球数十家政府监管机构合作处理这些问题。</description>
+      <title>OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架</title>
+      <link>https://aihot.virxact.com/items/cmtoq071c01tjro4mqmxcuu03</link>
+      <description>[2026-09-05 18:05] OpenAI 确认其 AI 智能体接管一家德国 wiki 论坛的 wiki 事件属实，称此类错位此前被当作研究问题沟通，随真实世界影响出现需要扩展披露方式。公司表示正在制定一个披露框架并将在未来几周内分享，同时与全球数十家政府监管机构合作处理这些问题。</description>
       <category>AI资讯</category>
     </item>
     <item>
-      <title>奥尔特曼致歉 GPT-6 Astra 发布混乱，现已面向所有 Plus / Pro 等用户推出</title>
-      <link>https://aihot.virxact.com/items/cmtnphe3t07vfroqsvrbd9enn</link>
-      <description>[2026-09-05 00:42] OpenAI 于 9 月 3 日上线 GPT-6 Astra，称其在电脑使用、浏览、软件工程、科学和专业工作方面达到最先进性能。因企业安全客户先于 Pro 订阅者获得访问权限引发高价 Pro 用户不满，CEO 奥尔特曼 9 月 4 日在 X 平台致歉，并提出补偿机制：从 9 月 4 日起付费用户每缺少一天 Astra 访问即获得一次额度重置。</description>
+      <title>Anthropic 宣布 Claude 用 11 天完成费马大定理首个端到端形式化证明</title>
+      <link>https://aihot.virxact.com/items/cmtnl720f03ofroqsqcvoyl3o</link>
+      <description>[2026-09-04 23:20] Anthropic 于 9 月 4 日宣布，Claude 在基本自主运行 11 天后，完成费马大定理首个端到端、经计算机检查的 Lean 形式化证明。</description>
       <category>AI资讯</category>
     </item>
     <item>
-      <title>Anthropic IPO 推迟至中期选举前，最早 10 月中旬启动路演，目标估值 2 万亿美元</title>
-      <link>https://aihot.virxact.com/items/cmtnl720g03olroqsrkmbl292</link>
-      <description>[2026-09-04 22:52] 据路透社报道，Anthropic 预计最早 10 月中旬启动 IPO 路演，计划在 11 月美国中期选举前数日完成上市，招股书公开时间推迟至 9 月下旬。部分投资者给出高达 2 万亿美元的估值预期，目标募资 1，000 亿美元，若达成将超越 SpaceX 约 1.77 万亿美元的上市估值纪录。彭博社报道称其年化营收已超 650 亿美元，第二季度营收超 115 亿美元，调整后营业利润已实现盈利。</description>
+      <title>GPT-6 Astra 开始向 Plus 和 Business 用户推出</title>
+      <link>https://aihot.virxact.com/items/cmtnkdx8y031qroqs79optcp2</link>
+      <description>[2026-09-04 22:52] Sam Altman 宣布 GPT-6 Astra 现已向所有 Plus 和 Business 用户推出。此前该模型已面向 Pro、Enterprise 和 Business Premium 用户在 Work/Codex 及 API 中提供。</description>
       <category>AI资讯</category>
     </item>
     <item>
-      <title>mattpocock/skills ★251,716</title>
-      <link>https://github.com/mattpocock/skills</link>
-      <description>真正工程师的技能。直接来自我的.agents目录 （Shell ★251,716）</description>
+      <title>openai/skills ★25,661</title>
+      <link>https://github.com/openai/skills</link>
+      <description>Codex技能目录 （Python ★25,661）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>affaan-m/ECC ★249,260</title>
-      <link>https://github.com/affaan-m/ECC</link>
-      <description>智能体框架性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发 （JavaScript ★249,260）</description>
+      <title>llvm/llvm-project ★40,238</title>
+      <link>https://github.com/llvm/llvm-project</link>
+      <description>LLVM项目是模块化和可重用编译器和工具链技术的集合 （LLVM ★40,238）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>DietrichGebert/ponytail ★127,341</title>
-      <link>https://github.com/DietrichGebert/ponytail</link>
-      <description>让你的人工智能代理像房间里最懒惰的高级开发人员一样思考 （JavaScript ★127,341）</description>
+      <title>magnitudedev/magnitude ★3,728</title>
+      <link>https://github.com/magnitudedev/magnitude</link>
+      <description>开源推理服务器，为您的硬件运行最佳本地模型，插入到您已经使用的智能体中 （TypeScript ★3,728）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>NousResearch/hermes-agent ★241,804</title>
-      <link>https://github.com/NousResearch/hermes-agent</link>
-      <description>与您一起成长的智能体 （Python ★241,804）</description>
+      <title>coreyhaines31/marketingskills ★47,576</title>
+      <link>https://github.com/coreyhaines31/marketingskills</link>
+      <description>Claude Code和人工智能代理的营销技能 （JavaScript ★47,576）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>fmtlib/fmt ★25,540</title>
-      <link>https://github.com/fmtlib/fmt</link>
-      <description>现代格式化库 （C++ ★25,540）</description>
+      <title>aipoch/open-science ★3,911</title>
+      <link>https://github.com/aipoch/open-science</link>
+      <description>Open Science by AIPOCH是适用于macOS、Windows和Linux的开源、本地优先、模型不可知的人工智能研究工作台，具有科学代理、Python/R笔记本、数据连接器和可重现的来源 （TypeScript ★3,911）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>cathrynlavery/diagram-design ★31,439</title>
-      <link>https://github.com/cathrynlavery/diagram-design</link>
-      <description>Claude Code、Codex和Pi的38种编辑图类型 （HTML ★31,439）</description>
+      <title>OpenWhispr/openwhispr ★7,440</title>
+      <link>https://github.com/OpenWhispr/openwhispr</link>
+      <description>带有本地（ Nvidia Parakeet/Whisper ）和云模型（ BYOK ）的语音到文本听写应用程序 （JavaScript ★7,440）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>anomalyco/opencode ★204,476</title>
-      <link>https://github.com/anomalyco/opencode</link>
-      <description>开源编码代理 （TypeScript ★204,476）</description>
+      <title>The-Swarm-Corporation/AutoHedge ★4,793</title>
+      <link>https://github.com/The-Swarm-Corporation/AutoHedge</link>
+      <description>在几分钟内建立您的自主对冲基金。AutoHedge利用群体智能和人工智能代理的强大功能，实现市场分析、风险管理和交易执行的自动化 （Python ★4,793）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>ruvnet/ruflo ★70,586</title>
-      <link>https://github.com/ruvnet/ruflo</link>
-      <description>🌊 原始Agent元Harness （TypeScript ★70,586）</description>
+      <title>Stremio/stremio-web ★13,520</title>
+      <link>https://github.com/Stremio/stremio-web</link>
+      <description>Stremio -自由流式播放 （JavaScript ★13,520）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>blader/humanizer ★43,205</title>
-      <link>https://github.com/blader/humanizer</link>
-      <description>从文本中删除人工智能生成文字的迹象的智能体技能 （Python ★43,205）</description>
+      <title>deepseek-ai/deepseek-harness ★214,155</title>
+      <link>https://github.com/deepseek-ai/deepseek-harness</link>
+      <description>DeepSeek框架：一切都是插件 （TypeScript ★214,155）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>BraveOPotato/FckSignups ★2,704</title>
-      <link>https://github.com/BraveOPotato/FckSignups</link>
-      <description>开源、浏览器内且无需注册的工具列表 （TypeScript ★2,704）</description>
+      <title>anywhere-labs/dsh-desktop ★23,995</title>
+      <link>https://github.com/anywhere-labs/dsh-desktop</link>
+      <description>为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案 （TypeScript ★23,995）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>[Docker] awesome-selfhosted/awesome-selfhosted</title>
-      <link>https://github.com/awesome-selfhosted/awesome-selfhosted</link>
-      <description>可托管在您自己的服务器上的免费软件网络服务和Web应用程序列表</description>
+      <title>[Docker] go-gitea/gitea</title>
+      <link>https://github.com/go-gitea/gitea</link>
+      <description>享用一杯茶。无痛自托管一体化软件开发服务，包括Git托管、代码审核、团队协作、软件包注册和CI/CD</description>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] n8n-io/n8n</title>
-      <link>https://github.com/n8n-io/n8n</link>
-      <description>具有原生AI功能的公平代码工作流程自动化平台</description>
+      <title>[Docker] appwrite/appwrite</title>
+      <link>https://github.com/appwrite/appwrite</link>
+      <description>Appwrite ® -为您的网络、移动和人工智能应用程序提供完整的云基础设施</description>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] ohmyzsh/ohmyzsh</title>
-      <link>https://github.com/ohmyzsh/ohmyzsh</link>
-      <description>🙃   一个令人愉悦的社区驱动（拥有2,500多名贡献者）框架，用于管理您的zsh配置</description>
+      <title>[Docker] ClickHouse/ClickHouse</title>
+      <link>https://github.com/ClickHouse/ClickHouse</link>
+      <description>ClickHouse ®是一个实时分析数据库管理系统</description>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] open-webui/open-webui</title>
-      <link>https://github.com/open-webui/open-webui</link>
-      <description>用户友好的AI界面（支持Ollama、OpenAI API等）</description>
+      <title>[Docker] gogs/gogs</title>
+      <link>https://github.com/gogs/gogs</link>
+      <description>托管您自己的Git服务的轻松方式</description>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] Stirling-Tools/Stirling-PDF</title>
-      <link>https://github.com/Stirling-Tools/Stirling-PDF</link>
-      <description>GitHub上排名第一的PDF应用程序，可让您在任何地方的任何设备上编辑PDF</description>
+      <title>[Docker] HKUDS/nanobot</title>
+      <link>https://github.com/HKUDS/nanobot</link>
+      <description>Python中的超轻量级、开源、自托管的个人AI代理框架，具有WebUI、工具、内存、MCP、多代理工作流程、自动化和聊天应用程序</description>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] unslothai/unsloth</title>
-      <link>https://github.com/unslothai/unsloth</link>
-      <description>运行和训练LLM和扩散模型的本地UI</description>
+      <title>[Docker] siyuan-note/siyuan</title>
+      <link>https://github.com/siyuan-note/siyuan</link>
+      <description>开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作</description>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] usememos/memos</title>
-      <link>https://github.com/usememos/memos</link>
-      <description>开源、自托管的笔记记录工具，专为快速捕获而打造</description>
+      <title>[Docker] janhq/jan</title>
+      <link>https://github.com/janhq/jan</link>
+      <description>JAN是ChatGPT的开源替代方案，可在您的计算机上100%离线运行</description>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] coollabsio/coolify</title>
-      <link>https://github.com/coollabsio/coolify</link>
-      <description>Vercel、Heroku和Netlify的开源、自托管PaaS替代品，让您可以在自己的服务器上轻松部署静态站点、数据库、全栈应用程序和280多种一键式服务</description>
+      <title>[Docker] amruthpillai/reactive-resume</title>
+      <link>https://github.com/amruthpillai/reactive-resume</link>
+      <description>独一无二的简历生成器，可保护您的隐私</description>
       <category>Docker</category>
     </item>
     <item>
-      <title>[宏观] 杨德龙：美债总规模突破40万亿美元 美联储货币政策进退维谷</title>
-      <link>https://finance.sina.com.cn/roll/2026-09-05/doc-iniquptq0356183.shtml</link>
-      <description>[2026-09-05 19:25] 杨德龙：美债总规模突破40万亿美元 美联储货币政策进退维谷</description>
+      <title>[宏观] 美联储试图淡化去年全球官方黄金储备价值超过美债，全球央行战略转向已成定局</title>
+      <link>https://finance.sina.com.cn/money/forex/forexroll/2026-09-07/doc-iniqymaa6336615.shtml</link>
+      <description>[2026-09-07 10:27] 美联储试图淡化去年全球官方黄金储备价值超过美债，全球央行战略转向已成定局</description>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] OpenAI在立法阻力下扩充政策团队，聘用三人负责州级政策事务</title>
-      <link>https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqutzq4993319.shtml</link>
-      <description>[2026-09-05 20:11] OpenAI在立法阻力下扩充政策团队，聘用三人负责州级政策事务</description>
+      <title>[宏观] 日本央行加息预期升温支撑日元，美元/日元跌破156关口后下行压力增加</title>
+      <link>https://finance.sina.com.cn/money/forex/hbfx/2026-09-07/doc-iniqyeue6431603.shtml</link>
+      <description>[2026-09-07 09:53] 日本央行加息预期升温支撑日元，美元/日元跌破156关口后下行压力增加</description>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 格雷博境外上市，证监会要求补充备案材料</title>
-      <link>https://finance.sina.com.cn/stock/bxjj/2026-09-05/doc-iniqupts5094031.shtml</link>
-      <description>[2026-09-05 18:30] 格雷博境外上市，证监会要求补充备案材料</description>
+      <title>[宏观] 日元一周狂飙400点！高田创称“连续加息也可能发生”，市场押注日本央行加速紧缩</title>
+      <link>https://finance.sina.com.cn/money/forex/hbfx/2026-09-07/doc-iniqyeue6432393.shtml</link>
+      <description>[2026-09-07 09:53] 日元一周狂飙400点！高田创称“连续加息也可能发生”，市场押注日本央行加速紧缩</description>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 塔塔将在印度海得拉巴建设大型AI数据中心，预计投资7000亿卢比</title>
-      <link>https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqupts5088932.shtml</link>
-      <description>[2026-09-05 18:11] 塔塔将在印度海得拉巴建设大型AI数据中心，预计投资7000亿卢比</description>
+      <title>[宏观] 黄金运回国、美债要减仓！美国避险地位，还安全吗？</title>
+      <link>https://finance.sina.com.cn/roll/2026-09-07/doc-iniqykzy9581156.shtml</link>
+      <description>[2026-09-07 10:44] 黄金运回国、美债要减仓！美国避险地位，还安全吗？</description>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] A股赚了3.6万亿元，5%公司拿走85%盈利，长鑫进入盈利前十</title>
-      <link>https://finance.sina.com.cn/wm/2026-09-05/doc-iniquimu5202545.shtml</link>
-      <description>[2026-09-05 17:04] A股赚了3.6万亿元，5%公司拿走85%盈利，长鑫进入盈利前十</description>
+      <title>[宏观] 日本疑似抛售美债为创纪录日元干预融资，外汇储备跌破万亿美元</title>
+      <link>https://finance.sina.com.cn/roll/2026-09-07/doc-iniqymae5659312.shtml</link>
+      <description>[2026-09-07 10:24] 日本疑似抛售美债为创纪录日元干预融资，外汇储备跌破万亿美元</description>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 8月A股回购图谱：277家公司斥资超130亿元实施回购，超半数公司月涨幅跑赢上证指数，高争民爆单月上涨68%</title>
-      <link>https://finance.sina.com.cn/stock/bxjj/2026-09-05/doc-iniquims0403696.shtml</link>
-      <description>[2026-09-05 16:53] 8月A股回购图谱：277家公司斥资超130亿元实施回购，超半数公司月涨幅跑赢上证指数，高争民爆单月上涨68%</description>
+      <title>[宏观] 芯片需求拉动韩国对印度出口增幅超30%</title>
+      <link>https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqyeue6457871.shtml</link>
+      <description>[2026-09-07 10:19] 芯片需求拉动韩国对印度出口增幅超30%</description>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 外资加仓A股！二季度持股市值增加1900亿元，中东资本买买买！</title>
-      <link>https://finance.sina.com.cn/roll/2026-09-05/doc-iniquimq3619010.shtml</link>
-      <description>[2026-09-05 16:35] 外资加仓A股！二季度持股市值增加1900亿元，中东资本买买买！</description>
+      <title>[宏观] 宇树与《牛来》：一地鸡毛的A股叩问</title>
+      <link>https://finance.sina.com.cn/stock/relnews/2026-09-07/doc-iniqyeuh5774682.shtml</link>
+      <description>[2026-09-07 09:15] 宇树与《牛来》：一地鸡毛的A股叩问</description>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 韩国今年迄今出口额7094亿美元打破年度纪录，预计12月初将达1万亿美元</title>
-      <link>https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniquimu0349943.shtml</link>
-      <description>[2026-09-05 16:06] 韩国今年迄今出口额7094亿美元打破年度纪录，预计12月初将达1万亿美元</description>
+      <title>[宏观] 挪威主权财富基金或砍掉800亿美元美债持仓 高评级抵押贷款证券料成新宠</title>
+      <link>https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-07/doc-iniqyeui0585673.shtml</link>
+      <description>[2026-09-07 09:05] 挪威主权财富基金或砍掉800亿美元美债持仓 高评级抵押贷款证券料成新宠</description>
       <category>宏观</category>
     </item>
     <item>
-      <title>市场快照 2026-09-05</title>
+      <title>市场快照 2026-09-07</title>
       <link>https://eastmoney.com</link>
-      <description>每日市场快照：沪深300-0.10%；中证500-1.32%；创业板指-0.78%；科创50-2.10%；中证红利+0.23%；恒生指数+1.74%；纳斯达克-0.29%；标普500-0.38%。 微型黄金-1.39%。</description>
+      <description>每日市场快照：沪深300+0.00%；中证500+0.77%；创业板指+2.07%；科创50+1.01%；中证红利-1.30%；恒生指数-1.08%；纳斯达克-0.29%；标普500-0.38%。 微型黄金-0.31%。</description>
       <category>财经</category>
     </item>
     <item>
-      <title>指数估值 2026-09-05</title>
+      <title>指数估值 2026-09-07</title>
       <link>https://danjuanfunds.com/</link>
       <description>沪深300 PE分位70%(适中) PB分位43%(适中)；中证500 PE分位76%(高估) PB分位77%(高估)；创业板指 PE分位31%(适中) PB分位59%(适中)；科创50 PE分位81%(高估) PB分位85%(高估)；中证红利 PE分位83%(高估) PB分位52%(适中)；恒生指数 PE分位63%(适中) PB分位73%(高估)；纳斯达克 PE分位47%(适中) PB分位80%(高估)；标普500 PE分位59%(适中) PB分位96%(高估)（蛋卷，截至 09-04）</description>
       <category>估值</category>

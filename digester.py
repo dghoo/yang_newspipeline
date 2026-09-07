@@ -31,7 +31,7 @@
 纯标准库实现，无第三方依赖，本地与 GitHub Actions 均可直接运行。
 """
 
-import urllib.request, urllib.parse, ssl, re, json, html, os, sys, time, datetime
+import urllib.request, urllib.parse, ssl, re, json, html, os, sys, time, datetime, difflib
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 STATE_DIR = os.path.join(ROOT, "state")
@@ -463,7 +463,22 @@ def load_trans_cache():
     if os.path.exists(p):
         try:
             with open(p, encoding="utf-8") as f:
-                return json.load(f)
+                d = json.load(f)
+            # 清洗历史污染：值里残留英文原文前缀（旧版 MyMemory 长句拼接）或主体非中文的条目
+            clean = {}
+            for k, v in d.items():
+                if not isinstance(v, str) or not _ok_zh(v):
+                    continue
+                nk = re.sub(r"\s+", " ", k).strip().lower()
+                nv = re.sub(r"\s+", " ", v).strip().lower()
+                if nk and nv.startswith(nk):
+                    continue
+                if _split_mixed(k) != k:       # 键本身是「原文+译文」污染拼接 → 丢弃重译
+                    continue
+                if _dedup_concat(v) != v:      # 值是「同一句译两遍」拼接 → 丢弃重译
+                    continue
+                clean[k] = v
+            return clean
         except Exception:
             pass
     return {}
@@ -475,23 +490,110 @@ def save_trans_cache():
         json.dump(_trans_cache, f, ensure_ascii=False, indent=2)
 
 
+def _cjk_ratio(s):
+    """中文字符占非空白字符的比例，用于判断文本主体语言。"""
+    t = re.sub(r"\s+", "", s or "")
+    if not t:
+        return 0.0
+    return sum(1 for ch in t if "一" <= ch <= "鿿") / len(t)
+
+
+def _strip_src(zh, src):
+    """MyMemory 偶发把英文原文原样拼接在译文前（长句时），剥离该前缀。"""
+    if not zh or not src:
+        return zh
+    n_src = re.sub(r"\s+", " ", src).strip().lower()
+    n_zh = re.sub(r"\s+", " ", zh).strip().lower()
+    if n_zh.startswith(n_src):
+        head = n_src[:40]
+        i = zh.lower().find(head)
+        if i >= 0:
+            return zh[i + len(head):].strip(" —-，,。")
+        return zh[len(src):].strip(" —-，,。")
+    return zh
+
+
+def _split_mixed(s):
+    """输入若是「英文原文 + 中文译文」的污染拼接（历史缓存键/源数据偶发），剥离英文前半段，只留中文。"""
+    if not s:
+        return s
+    r = _cjk_ratio(s)
+    if r >= 0.30 or r < 0.05:
+        return s
+    idx = next((i for i, ch in enumerate(s) if "一" <= ch <= "鿿"), -1)
+    if idx <= 0:
+        return s
+    head, tail = s[:idx].strip(), s[idx:].strip()
+    if len(re.sub(r"\s+", "", head)) >= 15 and _cjk_ratio(tail) >= 0.30:
+        return tail
+    return s
+
+
+def _dedup_concat(s):
+    """MyMemory 偶发把同一句重复译两遍拼在一起（A+B 且 A≈B），去掉冗余的一半。"""
+    n = len(s or "")
+    if n < 24:
+        return s
+    # 定位「同一句译两遍」的拼接点：找重复出现的连续片段，其第二次出现处即拼接点
+    for k in (8, 6):
+        seen = set()
+        for i in range(n - k + 1):
+            g = s[i:i + k]
+            if g in seen:
+                # 重复片段起点通常晚于真正的拼接点，在其前方回搜「前后两段整体最相似」的切点
+                best_j, best_r = None, 0.0
+                for j in range(max(8, i - 10), i + 1):
+                    a, b = s[:j], s[j:]
+                    if len(a) < 8 or len(b) < 8:
+                        continue
+                    r = difflib.SequenceMatcher(None, a, b).ratio()
+                    if r > best_r:
+                        best_j, best_r = j, r
+                if best_j and best_r > 0.5:
+                    return s[:best_j].strip()
+            else:
+                seen.add(g)
+    return s
+
+
+def _ok_zh(zh):
+    """译文合格判定：主体须为中文（≥12% 汉字），否则视为翻译失败。"""
+    return _cjk_ratio(zh) >= 0.12
+
+
 def translate_zh(text):
-    """英文项目介绍翻译成中文；已含中文则原样保留；全部翻译源失败则退回原文（不空）。"""
+    """英文项目介绍翻译成中文；主体为中文则只做术语校正+精炼；全部翻译源失败则退回纯净原文（绝不拼接原文+译文）。"""
     if not text:
         return text
-    if has_cjk(text):
+    text = _split_mixed(text)          # 先剥离可能存在的「原文+译文」污染
+    if _cjk_ratio(text) >= 0.30:
         # 原生中文描述（如 macrozheng/mall）不翻译，但同样要术语校正 + 精炼，
         # 否则整段营销文案会原样超长输出。
-        return _zh_compact(_zh_fix(text))
+        return _zh_compact(_zh_fix(_dedup_concat(text)))
     key = text.strip()
-    if key in _trans_cache:
-        return _trans_cache[key]
-    zh = _mymemory(key) or _google_gtx(key)
-    if not zh:
-        zh = key
-    zh = _zh_fix(zh)
-    zh = _zh_compact(zh)          # 精炼为 v3.2 样例风格的一句话简介
-    _trans_cache[key] = zh
+    cached = _trans_cache.get(key)
+    if cached and _ok_zh(cached):
+        return cached
+    zh = ""
+    for src_fn in (_mymemory, _google_gtx):
+        raw = src_fn(key)
+        if not raw:
+            continue
+        cand = _dedup_concat(_strip_src(raw, key))
+        if _ok_zh(cand):
+            zh = cand
+            break
+        if not zh:
+            zh = cand if _cjk_ratio(cand) > _cjk_ratio(key) else ""
+    failed = not _ok_zh(zh)
+    if failed:
+        zh = key                      # 纯净原文，不做任何拼接/截断
+    else:
+        zh = _zh_fix(zh)
+        zh = _zh_compact(zh)          # 精炼为 v3.2 样例风格的一句话简介
+        zh = _dedup_concat(zh)        # 兜底：去掉「同一句译两遍」的冗余
+    if not failed:
+        _trans_cache[key] = zh        # 失败不写缓存，下次仍重试
     return zh
 
 
