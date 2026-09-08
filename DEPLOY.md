@@ -62,7 +62,8 @@ https://github.com/<你的用户名>/yang_newspipeline.git
 |---|---|---|
 | Note（备注） | 随便，如 `yang_newspipeline push` | 只是给你自己认名字 |
 | Expiration（有效期） | 选 **No expiration**（或 90 天） | 过期后 push 会突然失败 |
-| `repo` | ✅ **勾选** | 这是唯一必选项，包含读写仓库代码的所有权限 |
+| `repo` | ✅ **勾选** | 读写仓库代码的基础权限（整组勾上即可） |
+| `workflow` | ✅ **勾选** | **本仓库含 `.github/workflows/daily.yml`，推送工作流文件必须带此作用域**，否则报错 `refusing to allow a Personal Access Token ... without workflow scope` |
 | 其余全部 | 不勾 | 越少越安全 |
 
 4. 拉到最底点 **Generate token**。
@@ -115,6 +116,7 @@ To https://github.com/xxx/yang_newspipeline.git
 |---|---|---|
 | `Authentication failed` | 密码栏填了登录密码，或令牌复制不完整 | 密码栏必须填 `ghp_` 令牌，别带空格 |
 | `remote: Repository not found` | 用户名拼错，或令牌没勾 `repo` | 核对用户名；重新生成令牌并勾 `repo` |
+| `refusing to allow a Personal Access Token ... without workflow scope` | 令牌只有 `repo`、缺 `workflow` 作用域 | 重新生成令牌，**额外勾上 `workflow`**，再 `git push -u origin main`（远端 main 尚未建立，重推即可） |
 | `Failed to connect ... 443: Timed out` | 网络连 GitHub 不稳 | 重试几次，或开代理后重试 |
 | `fatal: remote origin already exists` | 之前加过远端 | 先 `git remote remove origin` 再 add |
 | `Updates were rejected` | 建仓库时勾了 README/gitignore | 删库重建（这次别勾），或 `git pull --rebase origin main` 后再 push |
