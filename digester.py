@@ -1344,37 +1344,57 @@ def main():
         f.write(md)
 
     # ============ 生成 RSS feed.xml ============
+    # ============ 生成 RSS feed.xml ============
+    # 每条 description 用 HTML（CDATA）包裹：阅读器渲染换行/加粗/链接，不再显示原始 Markdown 符号
     rss_items = []
     for key, _sub, _short in AI_SECTIONS:
         cat = _sub.split(" ", 1)[-1]        # "1.1 AI 行业资讯" -> "AI 行业资讯"
         for it in ai_groups.get(key, []):
             if key == "开源模型":
-                desc = (f"许可 {it.get('license') or '未标注'} · 点赞 {fmt_num(it['likes'])}"
-                        f" · 下载 {fmt_num(it['downloads'])} · 发布 {it.get('createdAt', '')[:10]}")
+                bits = []
+                if it.get("license"):
+                    bits.append(f"许可 {_h(it['license'])}")
+                if it.get("param"):
+                    bits.append(f"参数 {_h(it['param'])}")
+                bits.append(f"点赞 {fmt_num(it['likes'])}")
+                bits.append(f"下载 {fmt_num(it['downloads'])}")
+                bits.append(f"发布 {_h(it.get('createdAt', '')[:10])}")
+                lines = [f"<b>{_h(it['id'])}</b>", " · ".join(bits)]
                 if it.get("intro"):
-                    desc += f" · {it['intro']}"
-                rss_items.append(rss_item(f"[开源模型] {it['id']}", it["url"], desc, cat))
+                    lines.append(_h(it["intro"]))
+                lines.append(f'<a href="{_h(it["url"])}">模型地址</a>')
+                rss_items.append(rss_item(f"[开源模型] {it['id']}", it["url"], "<br>".join(lines), cat))
             else:
-                desc = it["summary"] or it["title"]
-                desc = f"[{fmt_time(it['publishedAt'])}] {desc}"
-                rss_items.append(rss_item(it["title"], it["url"], desc, cat))
+                lines = [f"<b>{_h(it['title'])}</b>",
+                         f"来源：{_h(it['source'])} · 发布：{_h(fmt_time(it['publishedAt']))}"]
+                if it["summary"]:
+                    lines.append(_h(it["summary"]))
+                lines.append(f'<a href="{_h(it['url'])}">查看原文</a>')
+                rss_items.append(rss_item(it["title"], it["url"], "<br>".join(lines), cat))
     for r in repos_shown:
-        desc = f"{r['desc']} （{r['lang']} ★{r['stars']}）" if r["desc"] else f"（{r['lang']} ★{r['stars']}）"
-        rss_items.append(rss_item(f"{r['repo']} ★{r['stars']}", r["url"], desc, "开源"))
+        lines = [f"<b>{_h(r['repo'])}</b> · {_h(r['lang'])} ★{_h(r['stars'])}"]
+        if r["desc"]:
+            lines.append(_h(r["desc"]))
+        lines.append(f'<a href="{_h(r['url'])}">地址</a>')
+        rss_items.append(rss_item(f"{r['repo']} ★{r['stars']}", r["url"], "<br>".join(lines), "开源"))
     for r in docker_shown:
-        desc = r.get("desc") or ""
-        rss_items.append(rss_item(f"[Docker] {r['repo']}", r["url"], desc, "Docker"))
+        lines = [f"<b>{_h(r['repo'])}</b>"]
+        if r.get("desc"):
+            lines.append(_h(r["desc"]))
+        lines.append(f'<a href="{_h(r['url'])}">地址</a>')
+        rss_items.append(rss_item(f"[Docker] {r['repo']}", r["url"], "<br>".join(lines), "Docker"))
     for m in macro_shown:
-        t = fmt_time(m.get("ctime"))
-        desc = f"[{t}] {m['title']}"
-        rss_items.append(rss_item(f"[宏观] {m['title']}", m.get("url") or "https://finance.sina.com.cn/", desc, "宏观"))
+        lines = [f"<b>{_h(m['title'])}</b>"]
+        if m.get("url"):
+            lines.append(f'<a href="{_h(m['url'])}">链接</a>')
+        rss_items.append(rss_item(f"[宏观] {m['title']}", m.get("url") or "https://finance.sina.com.cn/", "<br>".join(lines), "宏观"))
     # 市场快照作为一条
-    snap = "每日市场快照："
+    snap_lines = ["每日市场快照："]
     if indices:
-        snap += "；".join(f"{x['name']}{fmt_pct(x['chg'])}" for x in indices) + "。"
+        snap_lines.append("；".join(f"{x['name']}{fmt_pct(x['chg'])}" for x in indices) + "。")
     if gold:
-        snap += f" {gold['name']}{fmt_pct(gold['chg'])}。"
-    rss_items.append(rss_item(f"市场快照 {today_str}", "https://eastmoney.com", snap, "财经"))
+        snap_lines.append(f"{gold['name']}{fmt_pct(gold['chg'])}。")
+    rss_items.append(rss_item(f"市场快照 {today_str}", "https://eastmoney.com", "<br>".join(snap_lines), "财经"))
     # 估值快照作为一条
     if valuation and indices:
         vlines = []
@@ -1384,7 +1404,7 @@ def main():
                 vlines.append(f"{x['name']} PE分位{float(v['pe_pct']) * 100:.0f}%({val_level(v['pe_pct'])}) PB分位{float(v['pb_pct']) * 100:.0f}%({val_level(v['pb_pct'])})")
         if vlines:
             rss_items.append(rss_item(f"指数估值 {today_str}", "https://danjuanfunds.com/",
-                                     "；".join(vlines) + f"（蛋卷，截至 {val_date}）", "估值"))
+                                     "<br>".join(vlines) + f"<br>（蛋卷，截至 {_h(val_date)}）", "估值"))
 
     feed = build_rss(rss_items, today_str)
     with open(os.path.join(DOC_DIR, "feed.xml"), "w", encoding="utf-8") as f:
@@ -1414,11 +1434,24 @@ def health_check(ai, repos, docker, macro, indices, valuation, sectors, qdii_nav
         sys.exit(2)
 
 
-def rss_item(title, link, desc, cat):
+def _h(txt):
+    """CDATA 内文本节点转义：& < > 转实体，使 HTML 渲染层正确还原（不影响我们手动插入的 <b>/<br>/<a> 结构标签）。"""
+    return (txt or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def cdata(s):
+    """把内容包进 CDATA（RSS 阅读器据此按 HTML 渲染换行/加粗/链接，而非显示原始 Markdown 符号）。"""
+    return f"<![CDATA[{(s or '').replace(']]>', ']]&gt;')}]]>"
+
+
+def rss_item(title, link, html_desc, cat):
     title = esc(title)
-    desc = esc(desc)
+    link = esc(link)
     cat = esc(cat)
-    return f"    <item>\n      <title>{title}</title>\n      <link>{esc(link)}</link>\n      <description>{desc}</description>\n      <category>{cat}</category>\n    </item>"
+    return (f"    <item>\n      <title>{title}</title>\n"
+            f"      <link>{link}</link>\n"
+            f"      <description>{cdata(html_desc)}</description>\n"
+            f"      <category>{cat}</category>\n    </item>")
 
 
 def esc(s):
