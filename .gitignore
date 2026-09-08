@@ -13,6 +13,9 @@ retry2.log
 # 本地运行前备份（不入库）
 _backup/
 
+# 本机私有推送脚本（含个人仓库名习惯，不对外发布，仅本地一键推用）
+tools/push_github.sh
+
 # 编辑器与系统文件
 .DS_Store
 .idea/
