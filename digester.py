@@ -48,6 +48,40 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 AI_CAP, OS_CAP, DOCKER_CAP, MACRO_CAP = 10, 10, 8, 8
 DEDUP_WINDOW = 7  # 天
 
+# ---- AI 栏改为 4 个子项展示 ----
+# 基础配额：各子项优先取到的条数；某子项供给不足时，其额度转给仍有余量的其他子项。
+AI_QUOTA = {"行业资讯": 4, "模型发布": 4, "大模型测评": 3, "开源模型": 3}
+AI_TOTAL = sum(AI_QUOTA.values())          # 目标总量；不足时按供给收缩，不跨类填充
+# 子项展示顺序：(内部键, 日报小标题, 统计行短名)
+AI_SECTIONS = (("行业资讯", "1.1 AI 行业资讯", "行业"),
+               ("模型发布", "1.2 模型发布动态", "模型"),
+               ("大模型测评", "1.3 大模型测评", "测评"),
+               ("开源模型", "1.4 开源模型推荐", "开源模型"))
+
+# 大模型测评：数据源无独立分类，靠强信号词跨类抽取（登顶/榜单/SOTA/Arena/基准等）
+AI_BENCH_PAT = re.compile(
+    r"(登顶|榜首|榜单|Arena|SOTA|ARC-AGI|MMLU|GPQA|SWE-bench|跑分|"
+    r"评测中居首|超越人类|刷新纪录|世界第一|"
+    # "基准"单独出现太宽泛（如"研究基准的训练中智能体"并非测评），须与结果词共现
+    r"基准(?:测试|成绩|得分|表现|数据|结果|排名|分数|全面))", re.I)
+
+# 同事件聚类用的模型实体（两条标题命中同一实体 → 视为同一事件的不同报道）
+AI_MODEL_ENT = re.compile(
+    r"(GPT[\s\-]?\d[\w.\-]*|Claude[\s\w.]*|Gemini[\s\w.]*|Qwen[\w.\-]*|"
+    r"DeepSeek[\w.\-]*|GLM[\w.\-]*|Llama[\w.\-]*|Grok[\w.\-]*|K2[\w.\-]*|"
+    r"MiniCPM[\w.\-]*|LongCat[\w.\-]*|Fable[\w.]*|Astra|ARC-AGI[\w.\-]*|"
+    r"MMLU|GPQA|SWE-bench)", re.I)
+
+# ---- 开源模型推荐（HuggingFace 镜像）----
+# huggingface.co 主站在部分网络环境 TLS 不可达（实测握手超时），hf-mirror.com 国内镜像可用（实测 1.2s）。
+HF_BASE = "https://hf-mirror.com"
+HF_NEW_DAYS = 30        # 只推近 30 天新建的模型
+# 二创/量化/去审查模型对使用者无参考价值，直接过滤
+HF_BAD_PAT = re.compile(r"(uncensored|abliterat|obliterat|nsfw|(?:^|[-_/])erp(?:[-_/]|$)|"
+                        r"roleplay|gguf|mlx|awq|gptq|imatrix|quant|"
+                        r"text-to-speech|(?:^|[-_/])tts(?:[-_/]|$))", re.I)
+HF_PARAM_PAT = re.compile(r"[-_](\d+(?:\.\d+)?)\s*[Bb](?:[-_]|$)")
+
 # 宏观关键词（主）：命中才算"宏观事件"
 MACRO_KEYWORDS = ["降准", "降息", "社融", "CPI", "PPI", "GDP", "央行", "货币政策",
                   "美联储", "逆回购", "MLF", "流动性", "国债", "利率", "宏观", "经济数据", "财联社"]
@@ -133,7 +167,10 @@ def fetch_ai_api(max_pages=5):
                 out.append({"id": sid, "title": title,
                             "summary": (it.get("summary") or "").strip(),
                             "url": url_ai, "source": srcname,
-                            "publishedAt": it.get("publishedAt", "")})
+                            "publishedAt": it.get("publishedAt", ""),
+                            # 数据源自带分类与质量分：category 用于子项归类，score 用于同事件去重选代表
+                            "category": it.get("category") or "",
+                            "score": it.get("score") or 0})
             pg = d.get("page", {})
             nc = pg.get("nextCursor")
             if not nc or not pg.get("hasMore"):
@@ -142,6 +179,64 @@ def fetch_ai_api(max_pages=5):
     except Exception as e:
         print("[AI] fetch failed:", e, file=sys.stderr)
     return out
+
+
+# ---------- 1b. 开源模型推荐（HuggingFace 镜像 hf-mirror.com）----------
+def fmt_num(n):
+    """下载量/点赞数格式化：251611 -> 25.2万；7216 -> 7216。"""
+    try:
+        n = int(n)
+    except Exception:
+        return str(n)
+    return f"{n / 10000:.1f}万" if n >= 10000 else str(n)
+
+
+def fetch_hf_models(limit=8, days=HF_NEW_DAYS):
+    """抓取近期新发布的开源文本生成模型。
+
+    HuggingFace 主站 huggingface.co 在部分网络环境 TLS 握手超时不可达（实测），
+    因此走国内镜像 hf-mirror.com（实测 1.2s 可达）。镜像不可用则返回空列表，
+    上层降级为该栏"今日无新增"，不影响其他栏目。
+    """
+    out = []
+    try:
+        u = (HF_BASE + "/api/models?sort=likes7d&direction=-1&limit=60"
+             "&filter=text-generation")
+        d = get_json(u)
+        if not isinstance(d, list):
+            return []
+        cutoff = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=days)
+        for m in d:
+            mid = m.get("modelId") or m.get("id") or ""
+            if not mid or m.get("private"):
+                continue
+            tags = m.get("tags") or []
+            # 去审查 / 量化二创模型对使用者无参考价值，直接剔除
+            if HF_BAD_PAT.search((mid + " " + " ".join(tags)).lower()):
+                continue
+            ca = m.get("createdAt") or ""
+            if ca:                              # 只要近期新发布的
+                try:
+                    if datetime.datetime.fromisoformat(ca.replace("Z", "+00:00")) < cutoff:
+                        continue
+                except Exception:
+                    pass
+            lic = ""
+            for t in tags:
+                if t.startswith("license:"):
+                    lic = t.split(":", 1)[1]
+                    break
+            pm = HF_PARAM_PAT.search(mid)
+            out.append({"id": mid, "likes": m.get("likes") or 0,
+                        "downloads": m.get("downloads") or 0,
+                        "license": lic, "createdAt": ca,
+                        "param": (pm.group(1) + "B") if pm else "",
+                        "url": HF_BASE + "/" + mid})
+        out.sort(key=lambda x: x["likes"], reverse=True)
+        return out[:limit]
+    except Exception as e:
+        print("[HF] 开源模型抓取失败，该栏降级为今日无新增:", e, file=sys.stderr)
+        return out
 
 
 # ---------- 2. GitHub Trending（日/周/月 + 多语言变体池）----------
@@ -760,6 +855,65 @@ def is_recent(hist, key, today, window=DEDUP_WINDOW):
         return False
 
 
+def ai_bucket(it):
+    """把一条 AI 资讯归入子项（开源模型栏走 HF 源，不在此分配）。
+
+    优先级：测评强信号词 > 官方 category 映射。
+    数据源 category 取值：ai-models / tip / ai-products / industry / paper
+      · 行业资讯 ← industry（政策、融资、商业）+ ai-products（产品应用）+ tip（实践与观点）
+      · 模型发布 ← ai-models（模型发布与更新）+ paper（研究进展）
+    """
+    # 只按标题判定：摘要里顺带提到基准成绩（如"IFM 发布 K2 Horizon…达到 SOTA"）
+    # 的条目主旨是模型发布，纳入测评栏会归类失真。
+    if AI_BENCH_PAT.search(it.get("title") or ""):
+        return "大模型测评"
+    cat = it.get("category") or ""
+    if cat in ("ai-models", "paper"):
+        return "模型发布"
+    return "行业资讯"
+
+
+def dedup_same_event(items, sim=0.62):
+    """同一事件的多篇报道只保留一条（score 高者优先，同分取更新）。
+
+    实测：测评类关键词命中 16 条，其中 13 条同属「GPT-6 Astra 基准成绩」一个事件，
+    不去重会让同一件事占满整个子项。判定依据两条：
+      1) 标题中提取的模型实体有交集（GPT-6 Astra / Claude Fable / ARC-AGI 等）；
+      2) 标题字面相似度 > sim（difflib，覆盖实体提取漏网的措辞差异）。
+    """
+    picked_titles, picked_ents = [], set()
+    for it in sorted(items, key=lambda x: (-(x.get("score") or 0),
+                                           x.get("publishedAt") or "")):
+        t = it.get("title") or ""
+        ents = set(m.group(0).strip().lower() for m in AI_MODEL_ENT.finditer(t))
+        if ents and (ents & picked_ents):
+            continue
+        if any(difflib.SequenceMatcher(None, t, pt).ratio() > sim for pt in picked_titles):
+            continue
+        picked_ents |= ents
+        picked_titles.append(t)
+        yield it
+
+
+def allocate_ai_quota(pools):
+    """按 AI_QUOTA 分配各子项条数；某子项供给不足时，省下的额度转给仍有余量的子项。
+
+    注意：额度只做"数量转移"，绝不把 A 子项的内容塞进 B 子项（避免归类失真）。
+    """
+    picked = {k: list(v[:AI_QUOTA.get(k, 0)]) for k, v in pools.items()}
+    left = AI_TOTAL - sum(len(v) for v in picked.values())
+    while left > 0:
+        cands = sorted(pools, key=lambda k: -(len(pools[k]) - len(picked[k])))
+        for k in cands:
+            if len(picked[k]) < len(pools[k]):
+                picked[k].append(pools[k][len(picked[k])])
+                left -= 1
+                break
+        else:
+            break                      # 所有子项供给都取尽，收缩总量
+    return picked
+
+
 def dedupe(items, keyfn):
     seen, out = set(), []
     for it in items:
@@ -817,10 +971,23 @@ def main():
 
     # ===== 各文本栏：大池子 → 只发 7 天内未发过的较新资讯 =====
 
-    # --- AI：7 天全量 API 池，按发布时间倒序取未发项 ---
+    # --- AI：7 天全量 API 池 → 按 4 个子项分组，各组只发 7 天内未发过的较新资讯 ---
     ai_all = fetch_ai_api()
-    ai_sorted = sorted(ai_all, key=lambda x: x.get("publishedAt", ""), reverse=True)
-    ai_shown = [a for a in ai_sorted if not is_recent(hist, "ai:" + a["id"], today)][:AI_CAP]
+    ai_fresh = [a for a in ai_all if not is_recent(hist, "ai:" + a["id"], today)]
+    ai_fresh.sort(key=lambda x: x.get("publishedAt", ""), reverse=True)
+    ai_pools = {"行业资讯": [], "模型发布": [], "大模型测评": []}
+    for a in ai_fresh:
+        ai_pools[ai_bucket(a)].append(a)
+    # 测评类：同一事件的多篇报道只留 score 最高的一条（实测 16 条命中 → 4 个独立事件）
+    ai_pools["大模型测评"] = list(dedup_same_event(ai_pools["大模型测评"]))
+    # 开源模型：aihot 是资讯流、几乎没有开源模型供给（实测 99 条中仅 1 条），
+    # 因此该栏改走 HuggingFace 镜像源；镜像不可达时为空列表，渲染层显示"今日无新增"。
+    hf_all = fetch_hf_models(limit=12)
+    ai_pools["开源模型"] = [m for m in hf_all if not is_recent(hist, "hf:" + m["id"], today)]
+    # 配额：先按 AI_QUOTA 取，某栏不足则额度转给仍有余量的栏（只转数量，不跨栏塞内容）
+    ai_groups = allocate_ai_quota(ai_pools)
+    ai_shown = [x for k in ("行业资讯", "模型发布", "大模型测评") for x in ai_groups.get(k, [])]
+    hf_shown = ai_groups.get("开源模型", [])
 
     # --- 开源：日/周/月 + 多语言变体池，筛未发项（即"上次运行以来新增 + 扩展搜索"）---
     # 说明：github.com 的 HTML 页在部分网络环境极慢/IncompleteRead（实测 daily 页 86s 后失败），
@@ -892,6 +1059,8 @@ def main():
     # ===== 标记已发：仅标记本次实际展示的项（未展示的新项保留给后续运行）=====
     for a in ai_shown:
         hist["ai:" + a["id"]] = today_str
+    for m in hf_shown:
+        hist["hf:" + m["id"]] = today_str
     for r in repos_shown:
         hist["gh:" + r["repo"]] = today_str
     for r in docker_shown:
@@ -916,21 +1085,39 @@ def main():
     L.append(f"# 资讯日报 · {today_str}（周{weekday}）")
     L.append("")
     L.append(f"> 真实管道生成（digester.py 实跑）· 两道防重：7天去重 + 只发未发过的较新资讯（无新增则扩展搜索，不留空、不重发）")
-    L.append(f"> AI {len(ai_shown)} 条 / 开源 {len(repos_shown)} 条 / Docker {len(docker_shown)} 条 / 宏观 {len(macro_shown)} 条 / QDII净值 {len(qdii_nav)} / 财经实时快照见下")
+    ai_break = " / ".join(f"{short} {len(ai_groups.get(k, []))}" for k, _, short in AI_SECTIONS)
+    L.append(f"> AI {len(ai_shown) + len(hf_shown)} 条（{ai_break}）/ 开源 {len(repos_shown)} 条 / Docker {len(docker_shown)} 条 / 宏观 {len(macro_shown)} 条 / QDII净值 {len(qdii_nav)} / 财经实时快照见下")
     L.append("")
 
     L.append("## 一、AI 资讯")
-    if ai_shown:
-        for i, a in enumerate(ai_shown, 1):
-            L.append(f"**{i}. {a['title']}**")
-            L.append(f"- 来源：{a['source']}  ·  发布：{fmt_time(a['publishedAt'])}")
-            if a["summary"]:
-                L.append(f"- 摘要：{a['summary']}")
-            L.append(f"- 链接：{a['url']}")
+    for key, sub, _short in AI_SECTIONS:
+        items = ai_groups.get(key, [])
+        L.append(f"### {sub}（{len(items)} 条）")
+        if not items:
+            L.append("> 今日无新增（7 天去重窗口内无可发条目，不重复展示，也不跨栏填充）。")
             L.append("")
-    else:
-        L.append("> AI 热榜近 7 天可发条目均已在窗口内推送过，今日无新增可发（不重复展示）。")
-        L.append("")
+            continue
+        for i, it in enumerate(items, 1):
+            if key == "开源模型":
+                L.append(f"**{i}. {it['id']}**")
+                bits = []
+                if it.get("license"):
+                    bits.append(f"许可：{it['license']}")
+                if it.get("param"):
+                    bits.append(f"参数：{it['param']}")
+                bits.append(f"点赞 {fmt_num(it['likes'])}")
+                bits.append(f"下载 {fmt_num(it['downloads'])}")
+                L.append("- " + " · ".join(bits))
+                if it.get("createdAt"):
+                    L.append(f"- 发布：{it['createdAt'][:10]}")
+                L.append(f"- 链接：{it['url']}")
+            else:
+                L.append(f"**{i}. {it['title']}**")
+                L.append(f"- 来源：{it['source']}  ·  发布：{fmt_time(it['publishedAt'])}")
+                if it["summary"]:
+                    L.append(f"- 摘要：{it['summary']}")
+                L.append(f"- 链接：{it['url']}")
+            L.append("")
 
     L.append("## 二、优质开源项目（GitHub Trending）")
     if repos_shown:
@@ -1084,10 +1271,17 @@ def main():
 
     # ============ 生成 RSS feed.xml ============
     rss_items = []
-    for a in ai_shown:
-        desc = a["summary"] or a["title"]
-        desc = f"[{fmt_time(a['publishedAt'])}] {desc}"
-        rss_items.append(rss_item(a["title"], a["url"], desc, "AI资讯"))
+    for key, _sub, _short in AI_SECTIONS:
+        cat = _sub.split(" ", 1)[-1]        # "1.1 AI 行业资讯" -> "AI 行业资讯"
+        for it in ai_groups.get(key, []):
+            if key == "开源模型":
+                desc = (f"许可 {it.get('license') or '未标注'} · 点赞 {fmt_num(it['likes'])}"
+                        f" · 下载 {fmt_num(it['downloads'])} · 发布 {it.get('createdAt', '')[:10]}")
+                rss_items.append(rss_item(f"[开源模型] {it['id']}", it["url"], desc, cat))
+            else:
+                desc = it["summary"] or it["title"]
+                desc = f"[{fmt_time(it['publishedAt'])}] {desc}"
+                rss_items.append(rss_item(it["title"], it["url"], desc, cat))
     for r in repos_shown:
         desc = f"{r['desc']} （{r['lang']} ★{r['stars']}）" if r["desc"] else f"（{r['lang']} ★{r['stars']}）"
         rss_items.append(rss_item(f"{r['repo']} ★{r['stars']}", r["url"], desc, "开源"))
@@ -1122,7 +1316,8 @@ def main():
 
     print(f"[OK] 生成完成 -> {md_path}")
     print(f"[OK] RSS -> {os.path.join(DOC_DIR, 'feed.xml')}")
-    print(f"[STAT] AI={len(ai_shown)} 开源={len(repos_shown)} Docker={len(docker_shown)} 宏观={len(macro_shown)} 指数={len(indices)} 板块={len(sectors)} 黄金={'Y' if gold else 'N'} 518880={'Y' if gold_nav else 'N'} QDII净值={len(qdii_nav)}")
+    ai_stat = " ".join(f"{k}={len(ai_groups.get(k, []))}" for k, _, _ in AI_SECTIONS)
+    print(f"[STAT] AI总={len(ai_shown) + len(hf_shown)}（{ai_stat}）开源={len(repos_shown)} Docker={len(docker_shown)} 宏观={len(macro_shown)} 指数={len(indices)} 板块={len(sectors)} 黄金={'Y' if gold else 'N'} 518880={'Y' if gold_nav else 'N'} QDII净值={len(qdii_nav)}")
     health_check(ai_shown, repos_shown, docker_shown, macro_shown,
                  indices, valuation, sectors, qdii_nav)
 
