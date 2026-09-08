@@ -52,7 +52,9 @@ git push -u origin main
 
 订阅地址：`https://<你的用户名>.github.io/news-pipeline/feed.xml`
 
-> 本地已完成 `git init` 与 4 次提交，工作区干净，可直接推送。
+> 本地已完成 `git init` 与多次提交，工作区干净，可直接推送。
+> 也可以直接用一键脚本（Git Bash 运行）：`bash tools/push_github.sh <你的用户名>`，
+> 它会自动完成"登记远端 → 统一分支名 → 推送"，并在最后打印还需在网页上做的两步设置。
 
 ---
 
@@ -96,7 +98,22 @@ Search API 作为稳定主源始终并入。Docker 池则完全走 Search API（
 
 ---
 
-## 五、关于 config.yaml
+## 五、故障降级与维护
+
+| 现象 | 原因 | 处理 |
+|---|---|---|
+| 某指数点位/涨跌幅为 `—` | 行情代码（secid）失效 | 日志会打印 `[IDX] 无行情返回：<名称> (<secid>)`；去东财搜索正确 QuoteID 后改 `fetch_indices()` 映射 |
+| 项目简介是英文 | 翻译源（MyMemory）当天不可用 | 已做熔断+重试；恢复后执行 `python tools/retranslate_md.py output/<日期>.md` 回填中文 |
+| Actions 日志出现 `[FATAL] 核心栏为空` | 当天数据源异常 | 已自动终止、不提交残缺日报、不消费去重历史，直接 Re-run 即可 |
+| 想预判明天会不会空栏 | — | `python tools/dryrun_tomorrow.py`（只读演练次日各栏可发量） |
+
+**翻译源说明**：主源 MyMemory、备源 Google。两者都失败时**保留英文原文**，不输出错译
+（实测备用端点 `mymemory.translated.net/api/get` 会给出严重错误的译文，故未接入）。
+单次运行有熔断保护（Google 一次失败即停用、MyMemory 连续 5 次失败停用），避免拖到数分钟。
+
+---
+
+## 六、关于 config.yaml
 
 `config.yaml` **当前不被代码读取**。管道为保持零依赖，运行参数直接以常量写在 `digester.py` 内；
 `config.yaml` 仅作为信息源与参数登记的**说明文档**，修改它不会改变运行行为。
