@@ -239,6 +239,71 @@ def fetch_hf_models(limit=8, days=HF_NEW_DAYS):
         return out
 
 
+# ---------- 1c. 开源模型「简介」：模型卡 README 首段（方案B，失败降级元数据 方案A）----------
+def _first_readme_para(md):
+    """从模型卡 README 原文提取首段有效正文（跳过 YAML frontmatter / 标题 / 图片 / 表格 / badge）。"""
+    md = (md or "").strip()
+    if not md:
+        return ""
+    # 去 YAML frontmatter（文件开头的 --- ... --- 块）
+    if md.startswith("---"):
+        parts = md.split("\n")
+        for i in range(1, len(parts)):
+            if parts[i].strip() == "---":
+                md = "\n".join(parts[i + 1:])
+                break
+    for p in re.split(r"\n\s*\n", md):
+        p = p.strip()
+        if not p:
+            continue
+        if p.startswith("#") or p.startswith("!") or p.startswith("<") or p.startswith("|"):
+            continue
+        if re.match(r"^\[!\[[^\]]*\]\([^)]*\)\]\([^)]*\)", p):   # 整行 badge
+            continue
+        # 去掉行内图片/链接标记，保留文字；清掉 md 强调符号
+        txt = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", p)
+        txt = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", txt)
+        txt = re.sub(r"[*_`>]", "", txt).strip()
+        # 去掉 GitHub 警示块标记（> [!NOTE] 等）与行首残缺括号碎片（[。Note] / [!NOTE]）
+        txt = re.sub(r"^[\t >]*\[[!！]?[A-Za-z·。．.]{0,20}\]\s*", "", txt, flags=re.I)
+        txt = txt.strip(" >\t")
+        if len(txt) < 20:
+            continue
+        return txt
+    return ""
+
+
+def fetch_hf_model_intro(mid):
+    """抓取 HuggingFace 模型卡 README 首段作为简介候选（英文为主）。
+
+    走 hf-mirror.com 镜像；main 分支取不到再试 master。失败或空返回 ''，
+    上层会自动降级为元数据合成（方案A），保证该栏始终有中文简介、且运行不被拖垮。
+    """
+    for branch in ("main", "master"):
+        try:
+            u = f"{HF_BASE}/{mid}/raw/{branch}/README.md"
+            txt = get_text(u, timeout=10, n=1, deadline=10)
+        except Exception as e:
+            txt = ""
+            print(f"[HF] {mid} README({branch}) 抓取失败，降级方案A:", e, file=sys.stderr)
+        para = _first_readme_para(txt) if txt else ""
+        if para:
+            return para[:600]          # 限长，避免超大卡片拖慢后续翻译
+    return ""
+
+
+def hf_intro_fallback(m):
+    """方案A：用结构化元数据合成一句话中文简介（零额外请求、绝不会因网络失败）。"""
+    bits = []
+    if m.get("license"):
+        bits.append(f"许可证 {m['license']}")
+    if m.get("param"):
+        bits.append(f"参数规模 {m['param']}")
+    bits.append(f"近 7 天点赞 {fmt_num(m['likes'])}")
+    bits.append(f"下载 {fmt_num(m['downloads'])}")
+    return "文本生成类开源模型 · " + " · ".join(bits)
+
+
 # ---------- 2. GitHub Trending（日/周/月 + 多语言变体池）----------
 def fetch_trending(since="daily", lang=None, timeout=8, n=1, deadline=12):
     """抓取 GitHub Trending HTML。
@@ -988,6 +1053,13 @@ def main():
     ai_groups = allocate_ai_quota(ai_pools)
     ai_shown = [x for k in ("行业资讯", "模型发布", "大模型测评") for x in ai_groups.get(k, [])]
     hf_shown = ai_groups.get("开源模型", [])
+    # 开源模型：方案B（抓模型卡 README 首段当简介，译为中文）；抓取/翻译失败则降级方案A（元数据合成，保证中文）
+    for m in hf_shown:
+        raw = fetch_hf_model_intro(m["id"]) if m.get("id") else ""
+        intro = translate_zh(raw) if raw else ""
+        if not _ok_zh(intro):           # 抓取空 或 翻译失败（源故障/超限）→ 降级方案A
+            intro = hf_intro_fallback(m)
+        m["intro"] = intro
 
     # --- 开源：日/周/月 + 多语言变体池，筛未发项（即"上次运行以来新增 + 扩展搜索"）---
     # 说明：github.com 的 HTML 页在部分网络环境极慢/IncompleteRead（实测 daily 页 86s 后失败），
@@ -1110,6 +1182,8 @@ def main():
                 L.append("- " + " · ".join(bits))
                 if it.get("createdAt"):
                     L.append(f"- 发布：{it['createdAt'][:10]}")
+                if it.get("intro"):
+                    L.append(f"- 简介：{it['intro']}")
                 L.append(f"- 链接：{it['url']}")
             else:
                 L.append(f"**{i}. {it['title']}**")
@@ -1277,6 +1351,8 @@ def main():
             if key == "开源模型":
                 desc = (f"许可 {it.get('license') or '未标注'} · 点赞 {fmt_num(it['likes'])}"
                         f" · 下载 {fmt_num(it['downloads'])} · 发布 {it.get('createdAt', '')[:10]}")
+                if it.get("intro"):
+                    desc += f" · {it['intro']}"
                 rss_items.append(rss_item(f"[开源模型] {it['id']}", it["url"], desc, cat))
             else:
                 desc = it["summary"] or it["title"]

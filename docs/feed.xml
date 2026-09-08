@@ -5,8 +5,8 @@
     <link>https://eastmoney.com</link>
     <description>AI / 开源 / Docker / 财经 每日聚合（真实管道生成）</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 08 Sep 2026 15:40:11 +0800</lastBuildDate>
-    <pubDate>Tue, 08 Sep 2026 15:40:11 +0800</pubDate>
+    <lastBuildDate>Tue, 08 Sep 2026 17:10:13 +0800</lastBuildDate>
+    <pubDate>Tue, 08 Sep 2026 17:10:13 +0800</pubDate>
     <item>
       <title>数学家巴克马斯特宣布多项方程 blowup 结果并公开与 OpenAI 沟通经过</title>
       <link>https://aihot.virxact.com/items/cmtscjydz01garow6gi54pft9</link>
@@ -64,7 +64,7 @@
     <item>
       <title>Claude Fable 5.1 登顶 Artificial Analysis 智能指数，但每任务成本比 Fable 5 高 20%</title>
       <link>https://aihot.virxact.com/items/cmtj484a00592roh9jjdf5xkd</link>
-      <description>[2026-09-01 20:12] Artificial Analysis（人工智能分析）评测 Claude Fable 5.1，其在 max effort 下得 66 分登顶 Artificial Analysis Intelligence Index（智能指数）。</description>
+      <description>[2026-09-01 20:12] Artificial Analysis 评测 Claude Fable 5.1，其在 max effort 下得 66 分登顶 Artificial Analysis Intelligence Index。</description>
       <category>大模型测评</category>
     </item>
     <item>
@@ -76,79 +76,79 @@
     <item>
       <title>[开源模型] zai-org/GLM-5.3</title>
       <link>https://hf-mirror.com/zai-org/GLM-5.3</link>
-      <description>许可 other · 点赞 1754 · 下载 44.2万 · 发布 2026-08-25</description>
+      <description>许可 other · 点赞 1754 · 下载 44.2万 · 发布 2026-08-25 · GLM-5.3使用与GLM-5.2相同的基本模型-每项收益都来自训练后</description>
       <category>开源模型推荐</category>
     </item>
     <item>
       <title>[开源模型] deepseek-ai/DeepSeek-V4-Flash-Vision-Exp</title>
       <link>https://hf-mirror.com/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp</link>
-      <description>许可 mit · 点赞 804 · 下载 25.2万 · 发布 2026-08-31</description>
+      <description>许可 mit · 点赞 804 · 下载 25.2万 · 发布 2026-08-31 · 我们很高兴推出DeepSeek-V4-Flash-Vision-Exp ，这是我们在DeepSeek-V4系列中的第一个实验性多模态模型</description>
       <category>开源模型推荐</category>
     </item>
     <item>
       <title>[开源模型] XHToken/Spark-X2.5-4B</title>
       <link>https://hf-mirror.com/XHToken/Spark-X2.5-4B</link>
-      <description>许可 apache-2.0 · 点赞 769 · 下载 7216 · 发布 2026-08-24</description>
+      <description>许可 apache-2.0 · 点赞 769 · 下载 7216 · 发布 2026-08-24 · 此存储库包含Hugging Face Transformers格式的后训练模型的模型权重和配置文件</description>
       <category>开源模型推荐</category>
     </item>
     <item>
-      <title>guillaumemeyer/watermarks-remover ★21,297</title>
+      <title>heygen-com/hyperframes ★47,072</title>
+      <link>https://github.com/heygen-com/hyperframes</link>
+      <description>编写HTML。渲染视频。专为智能体打造 （TypeScript ★47,072）</description>
+      <category>开源</category>
+    </item>
+    <item>
+      <title>microsoft/markitdown ★181,086</title>
+      <link>https://github.com/microsoft/markitdown</link>
+      <description>用于将文件和Office文档转换为Markdown的Python工具 （Python ★181,086）</description>
+      <category>开源</category>
+    </item>
+    <item>
+      <title>mksglu/context-mode ★21,130</title>
+      <link>https://github.com/mksglu/context-mode</link>
+      <description>人工智能编码代理的上下文窗口优化 （TypeScript ★21,130）</description>
+      <category>开源</category>
+    </item>
+    <item>
+      <title>jo-inc/camofox-browser ★10,081</title>
+      <link>https://github.com/jo-inc/camofox-browser</link>
+      <description>适用于AI代理的隐形无头浏览器—绕过Cloudflare、机器人检测和反抓取 （JavaScript ★10,081）</description>
+      <category>开源</category>
+    </item>
+    <item>
+      <title>MoonTechLab/LunaTV ★10,028</title>
+      <link>https://github.com/MoonTechLab/LunaTV</link>
+      <description>本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源 （TypeScript ★10,028）</description>
+      <category>开源</category>
+    </item>
+    <item>
+      <title>bytedance/deer-flow ★82,013</title>
+      <link>https://github.com/bytedance/deer-flow</link>
+      <description>研究、编码和创建的开源远程SuperAgent框架 （Python ★82,013）</description>
+      <category>开源</category>
+    </item>
+    <item>
+      <title>pascalorg/editor ★22,552</title>
+      <link>https://github.com/pascalorg/editor</link>
+      <description>创建和共享3D建筑项目 （TypeScript ★22,552）</description>
+      <category>开源</category>
+    </item>
+    <item>
+      <title>guillaumemeyer/watermarks-remover ★21,308</title>
       <link>https://github.com/guillaumemeyer/watermarks-remover</link>
-      <description>一款以隐私为先的应用程序，可从您拥有的内容中去除AI水印 （Python ★21,297）</description>
+      <description>一款以隐私为先的应用程序，可从您拥有的内容中去除AI水印 （Python ★21,308）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>awesome-dsh-plugin/awesome-dsh-plugin ★14,834</title>
+      <title>awesome-dsh-plugin/awesome-dsh-plugin ★14,852</title>
       <link>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</link>
-      <description>插件精选列表 （Python ★14,834）</description>
+      <description>插件精选列表 （Python ★14,852）</description>
       <category>开源</category>
     </item>
     <item>
-      <title>sapientinc/PRAXIST ★6,500</title>
+      <title>sapientinc/PRAXIST ★6,774</title>
       <link>https://github.com/sapientinc/PRAXIST</link>
-      <description>用于可测量、计算机可执行研究的自主研究系统 （Python ★6,500）</description>
-      <category>开源</category>
-    </item>
-    <item>
-      <title>MengTo/threeui ★5,353</title>
-      <link>https://github.com/MengTo/threeui</link>
-      <description>开源ThreeUI社区目录，包含实时交互式组件和完整的社区源 （HTML ★5,353）</description>
-      <category>开源</category>
-    </item>
-    <item>
-      <title>s1dashu/ip-as-logo-skill ★5,046</title>
-      <link>https://github.com/s1dashu/ip-as-logo-skill</link>
-      <description>紧凑的智能体技能，用于高度简化、圆润、微妙的新形态IP吉祥物徽标 （ ★5,046）</description>
-      <category>开源</category>
-    </item>
-    <item>
-      <title>lnkiai/m3e-canvas ★4,812</title>
-      <link>https://github.com/lnkiai/m3e-canvas</link>
-      <description>在浏览器中绘制 Material 3 富有表现力的界面，并一键转换为氛围编码提示词 （TypeScript ★4,812）</description>
-      <category>开源</category>
-    </item>
-    <item>
-      <title>CopilotKit/OpenBot ★4,442</title>
-      <link>https://github.com/CopilotKit/OpenBot</link>
-      <description>开源的人工智能同事，每个人都有一台自己的电脑：浏览器、文件和工具，每次操作都会在发生之前决定，并在之后记录下来 （TypeScript ★4,442）</description>
-      <category>开源</category>
-    </item>
-    <item>
-      <title>dmmulroy/anti-slop ★4,161</title>
-      <link>https://github.com/dmmulroy/anti-slop</link>
-      <description>用于拒绝低证据TypeScript和JavaScript模式的Oxlint规则 （TypeScript ★4,161）</description>
-      <category>开源</category>
-    </item>
-    <item>
-      <title>Hisn00w/ASu-skills ★3,982</title>
-      <link>https://github.com/Hisn00w/ASu-skills</link>
-      <description>🚀面向求职与开发场景的实用 AI Skills 集合，支持简历优化、岗位投递、面试准备与开发提效 （HTML ★3,982）</description>
-      <category>开源</category>
-    </item>
-    <item>
-      <title>wang2122/sprix-sage-router ★3,924</title>
-      <link>https://github.com/wang2122/sprix-sage-router</link>
-      <description>屿智同行的 Sprix AI：面向 A2A 智能体网络的状态感知路由，支持自主/协作/移交三种模式 （Python ★3,924）</description>
+      <description>用于可测量、计算机可执行研究的自主研究系统 （Python ★6,774）</description>
       <category>开源</category>
     </item>
     <item>
@@ -200,57 +200,57 @@
       <category>Docker</category>
     </item>
     <item>
-      <title>[宏观] 日元兑美元升至六个月高点 日本央行加息预期升温</title>
-      <link>https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirayqu9290090.shtml</link>
-      <description>[2026-09-08 15:28] 日元兑美元升至六个月高点 日本央行加息预期升温</description>
+      <title>[宏观] 能源价格上涨 德国10年期国债收益率升至15年高点</title>
+      <link>https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirceww4603033.shtml</link>
+      <description>[2026-09-08 16:37] 能源价格上涨 德国10年期国债收益率升至15年高点</description>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 美国债务问题引发市场关注 长期国债收益率逼近5%临界点</title>
-      <link>https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirayqy9518420.shtml</link>
-      <description>[2026-09-08 14:56] 美国债务问题引发市场关注 长期国债收益率逼近5%临界点</description>
+      <title>[宏观] Marathon资管：只要通胀得到良好控制 美联储应允许经济“稍热一些”</title>
+      <link>https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircews9229238.shtml</link>
+      <description>[2026-09-08 16:34] Marathon资管：只要通胀得到良好控制 美联储应允许经济“稍热一些”</description>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 强非农递上加息弹药，CPI能否让美联储扣动扳机？华宝基金：五阶段推演看清有色，回调或是布局窗口</title>
-      <link>https://finance.sina.com.cn/money/fund/etf/2026-09-08/doc-inirayqy4686126.shtml</link>
-      <description>[2026-09-08 14:55] 强非农递上加息弹药，CPI能否让美联储扣动扳机？华宝基金：五阶段推演看清有色，回调或是布局窗口</description>
+      <title>[宏观] 交易员等待更多经济数据出炉，美债收益率小幅走高</title>
+      <link>https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircewu5990849.shtml</link>
+      <description>[2026-09-08 16:22] 交易员等待更多经济数据出炉，美债收益率小幅走高</description>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 欧元区通胀升至3.3%强化加息预期，欧洲央行9月加息后或释放谨慎信号</title>
-      <link>https://finance.sina.com.cn/money/forex/hbfx/2026-09-08/doc-inirayqy4682755.shtml</link>
-      <description>[2026-09-08 14:46] 欧元区通胀升至3.3%强化加息预期，欧洲央行9月加息后或释放谨慎信号</description>
+      <title>[宏观] 英国恐以至少1998年以来最高的融资成本发行国债</title>
+      <link>https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircews9214321.shtml</link>
+      <description>[2026-09-08 16:17] 英国恐以至少1998年以来最高的融资成本发行国债</description>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 603618盘中突发涨停！A股又一个重大利好来了！更大行情还在后面？</title>
-      <link>https://finance.sina.com.cn/stock/marketresearch/2026-09-08/doc-inirayqu9302398.shtml</link>
-      <description>[2026-09-08 15:26] 603618盘中突发涨停！A股又一个重大利好来了！更大行情还在后面？</description>
+      <title>[宏观] 8月金融数据前瞻：信贷、社融或同比少增</title>
+      <link>https://finance.sina.com.cn/jjxw/2026-09-08/doc-inircewu5975699.shtml</link>
+      <description>[2026-09-08 16:04] 8月金融数据前瞻：信贷、社融或同比少增</description>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 要站在田里，而不是光里？A股“0跌停”，农业板块再度爆发，原因找到了</title>
-      <link>https://finance.sina.com.cn/roll/2026-09-08/doc-inirayqy4699173.shtml</link>
-      <description>[2026-09-08 15:25] 要站在田里，而不是光里？A股“0跌停”，农业板块再度爆发，原因找到了</description>
+      <title>[宏观] 豆奶增长难填亏空：祖名股份半年再亏2400万元，跨界投芯下流动性承压</title>
+      <link>https://finance.sina.com.cn/stock/s/2026-09-08/doc-inircewu5985785.shtml</link>
+      <description>[2026-09-08 16:02] 豆奶增长难填亏空：祖名股份半年再亏2400万元，跨界投芯下流动性承压</description>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 江波龙H股破发，A股7家基金公司山顶“站岗”，易方达浮亏1.94亿，财通、诺德等7家合计浮亏5.72亿</title>
-      <link>https://finance.sina.com.cn/stock/observe/2026-09-08/doc-inirayqy9518756.shtml</link>
-      <description>[2026-09-08 14:57] 江波龙H股破发，A股7家基金公司山顶“站岗”，易方达浮亏1.94亿，财通、诺德等7家合计浮亏5.72亿</description>
+      <title>[宏观] 津巴布韦叫停锑、钨出口 推动矿产品本地加工</title>
+      <link>https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircewu5994500.shtml</link>
+      <description>[2026-09-08 16:26] 津巴布韦叫停锑、钨出口 推动矿产品本地加工</description>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 德银警告：通胀‑政策预期错位之下，股票、信贷资产容易遭遇重新定价冲击</title>
-      <link>https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirayqy4684741.shtml</link>
-      <description>[2026-09-08 14:52] 德银警告：通胀‑政策预期错位之下，股票、信贷资产容易遭遇重新定价冲击</description>
+      <title>[宏观] 今天A股，粮食板块为啥火</title>
+      <link>https://finance.sina.com.cn/wm/2026-09-08/doc-inirceww9431151.shtml</link>
+      <description>[2026-09-08 16:22] 今天A股，粮食板块为啥火</description>
       <category>宏观</category>
     </item>
     <item>
       <title>市场快照 2026-09-08</title>
       <link>https://eastmoney.com</link>
-      <description>每日市场快照：沪深300-0.36%；中证500+0.15%；创业板指-1.15%；科创50-1.52%；中证红利+1.30%；红利低波+0.98%；恒生指数-0.38%；纳斯达克-0.29%；标普500-0.38%。 微型黄金-0.66%。</description>
+      <description>每日市场快照：沪深300-0.36%；中证500+0.15%；创业板指-1.15%；科创50-1.52%；中证红利+1.30%；红利低波+0.98%；恒生指数-0.38%；纳斯达克-0.29%；标普500-0.38%。 微型黄金-0.90%。</description>
       <category>财经</category>
     </item>
     <item>

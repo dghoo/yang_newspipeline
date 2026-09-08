@@ -71,5 +71,15 @@
   "A curated list of amazingly awesome open-source sysadmin resources.": "精心策划的令人惊叹的开源系统管理员资源列表",
   "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!": "用于网站更改检测、网页监控和网站更改警报的最佳和最简单的工具",
   "Amagine3D: From hardware requirements to editable 3D designs": "Amagine3D：从硬件需求到可编辑的 3D 设计",
-  "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.": "你的个人 AI 助手；安装简单，可部署在自有机器或云端；支持多个聊天应用，能力可轻松扩展。"
+  "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.": "你的个人 AI 助手；安装简单，可部署在自有机器或云端；支持多个聊天应用，能力可轻松扩展。",
+  "GLM-5.3 uses the same base model as GLM-5.2 — every gain comes from post-training. Compared with GLM-5.2, it is much better at complex coding and long-horizon tasks:": "GLM-5.3使用与GLM-5.2相同的基本模型-每项收益都来自训练后",
+  "We are excited to introduce DeepSeek-V4-Flash-Vision-Exp, our first experimental multimodal model in the DeepSeek-V4 family. It builds on the DeepSeek-V4-Flash architecture by incorporating visual modules and undergoing continued training to unlock visual understanding capabilities.": "我们很高兴推出DeepSeek-V4-Flash-Vision-Exp ，这是我们在DeepSeek-V4系列中的第一个实验性多模态模型",
+  "[!Note]\n This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format.": "[。Note]。此存储库包含Hugging Face Transformers格式的后训练模型的模型权重和配置文件",
+  "This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format.": "此存储库包含Hugging Face Transformers格式的后训练模型的模型权重和配置文件",
+  "Write HTML. Render video. Built for agents.": "编写HTML。渲染视频。专为智能体打造",
+  "Python tool for converting files and office documents to Markdown.": "用于将文件和Office文档转换为Markdown的Python工具",
+  "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.": "人工智能编码代理的上下文窗口优化",
+  "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.": "适用于AI代理的隐形无头浏览器—绕过Cloudflare、机器人检测和反抓取",
+  "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.": "研究、编码和创建的开源远程SuperAgent框架",
+  "Create and share 3D architectural projects.": "创建和共享3D建筑项目"
 }
