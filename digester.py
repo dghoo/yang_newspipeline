@@ -842,7 +842,8 @@ def fetch_macro(page=1, keywords=None):
         for it in items:
             title = it.get("title", "")
             if any(k in title for k in kw):
-                out.append({"title": title, "url": it.get("url", ""), "ctime": it.get("ctime", "")})
+                intro = (it.get("intro") or it.get("summary") or it.get("abstract") or "").strip()
+                out.append({"title": title, "url": it.get("url", ""), "ctime": it.get("ctime", ""), "intro": intro})
     except Exception as e:
         print("[MACRO] fetch failed:", e, file=sys.stderr)
     return out
@@ -1324,6 +1325,8 @@ def main():
                 extra.append(f"链接：{m['url']}")
             if extra:
                 L.append(f"  - " + " ｜ ".join(extra))
+            if m.get("intro"):
+                L.append(f"  - {m['intro']}")
         L.append("")
     else:
         L.append("> 近 7 天宏观要闻均已推送，暂无可发新增（事件驱动，无新事件不强制每日输出）。")
@@ -1357,7 +1360,10 @@ def main():
 
     # ============ 生成 RSS feed.xml ============
     # ============ 生成 RSS feed.xml ============
-    # 每条 description 用 HTML（CDATA）包裹：阅读器渲染换行/加粗/链接，不再显示原始 Markdown 符号
+    # 每条 description 改为【纯文本 + 换行】，不再内嵌 HTML 标签：
+    # 保证各类手机 RSS 阅读器排版一致（不显示 <b>/<br>/<a> 原始标签），导航依赖 <link> 字段；
+    # 每条带 pubDate + 唯一 guid，便于阅读器排序与去重。
+    NOW_RFC = datetime.datetime.now(datetime.timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
     rss_items = []
     for key, _sub, _short in AI_SECTIONS:
         cat = _sub.split(" ", 1)[-1]        # "1.1 AI 行业资讯" -> "AI 行业资讯"
@@ -1365,48 +1371,51 @@ def main():
             if key == "开源模型":
                 bits = []
                 if it.get("license"):
-                    bits.append(f"许可 {_h(it['license'])}")
+                    bits.append(f"许可 {it['license']}")
                 if it.get("param"):
-                    bits.append(f"参数 {_h(it['param'])}")
+                    bits.append(f"参数 {it['param']}")
                 bits.append(f"点赞 {fmt_num(it['likes'])}")
                 bits.append(f"下载 {fmt_num(it['downloads'])}")
-                bits.append(f"发布 {_h(it.get('createdAt', '')[:10])}")
-                lines = [f"<b>{_h(it['id'])}</b>", " · ".join(bits)]
+                bits.append(f"发布 {it.get('createdAt', '')[:10]}")
+                lines = [" · ".join(bits)]
                 if it.get("intro"):
-                    lines.append(_h(it["intro"]))
-                lines.append(f'<a href="{_h(it["url"])}">模型地址</a>')
-                rss_items.append(rss_item(f"[开源模型] {it['id']}", it["url"], "<br>".join(lines), cat))
+                    lines.append(it["intro"])
+                rss_items.append(rss_item(f"[开源模型] {it['id']}", it["url"], "\n".join(lines), cat, NOW_RFC, it["url"]))
             else:
-                lines = [f"<b>{_h(it['title'])}</b>",
-                         f"来源：{_h(it['source'])} · 发布：{_h(fmt_time(it['publishedAt']))}"]
+                lines = [f"来源：{it['source']} · 发布：{fmt_time(it['publishedAt'])}"]
                 if it["summary"]:
-                    lines.append(_h(it["summary"]))
-                lines.append(f'<a href="{_h(it['url'])}">查看原文</a>')
-                rss_items.append(rss_item(it["title"], it["url"], "<br>".join(lines), cat))
+                    lines.append(it["summary"])
+                rss_items.append(rss_item(it["title"], it["url"], "\n".join(lines), cat, NOW_RFC, it["url"]))
     for r in repos_shown:
-        lines = [f"<b>{_h(r['repo'])}</b> · {_h(r['lang'])} ★{_h(r['stars'])}"]
+        lines = [f"{r['lang']} ★{r['stars']}"]
         if r["desc"]:
-            lines.append(_h(r["desc"]))
-        lines.append(f'<a href="{_h(r['url'])}">地址</a>')
-        rss_items.append(rss_item(f"{r['repo']} ★{r['stars']}", r["url"], "<br>".join(lines), "开源"))
+            d = r["desc"]
+            if not _ok_zh(d):
+                d = d + "（英文原文，翻译源暂不可用）"
+            lines.append(d)
+        rss_items.append(rss_item(f"{r['repo']} ★{r['stars']}", r["url"], "\n".join(lines), "开源", NOW_RFC, r["url"]))
     for r in docker_shown:
-        lines = [f"<b>{_h(r['repo'])}</b>"]
+        lines = []
         if r.get("desc"):
-            lines.append(_h(r["desc"]))
-        lines.append(f'<a href="{_h(r['url'])}">地址</a>')
-        rss_items.append(rss_item(f"[Docker] {r['repo']}", r["url"], "<br>".join(lines), "Docker"))
+            d = r["desc"]
+            if not _ok_zh(d):
+                d = d + "（英文原文，翻译源暂不可用）"
+            lines.append(d)
+        rss_items.append(rss_item(f"[Docker] {r['repo']}", r["url"], "\n".join(lines), "Docker", NOW_RFC, r["url"]))
     for m in macro_shown:
-        lines = [f"<b>{_h(m['title'])}</b>"]
-        if m.get("url"):
-            lines.append(f'<a href="{_h(m['url'])}">链接</a>')
-        rss_items.append(rss_item(f"[宏观] {m['title']}", m.get("url") or "https://finance.sina.com.cn/", "<br>".join(lines), "宏观"))
+        lines = []
+        if m.get("ctime"):
+            lines.append(f"发布：{fmt_time(m['ctime'])}")
+        if m.get("intro"):
+            lines.append(m["intro"])
+        rss_items.append(rss_item(f"[宏观] {m['title']}", m.get("url") or "https://finance.sina.com.cn/", "\n".join(lines), "宏观", NOW_RFC, m.get("url") or m["title"]))
     # 市场快照作为一条
     snap_lines = ["每日市场快照："]
     if indices:
         snap_lines.append("；".join(f"{x['name']}{fmt_pct(x['chg'])}" for x in indices) + "。")
     if gold:
         snap_lines.append(f"{gold['name']}{fmt_pct(gold['chg'])}。")
-    rss_items.append(rss_item(f"市场快照 {today_str}", "https://eastmoney.com", "<br>".join(snap_lines), "财经"))
+    rss_items.append(rss_item(f"市场快照 {today_str}", "https://eastmoney.com", "\n".join(snap_lines), "财经", NOW_RFC, "snapshot-" + today_str))
     # 估值快照作为一条
     if valuation and indices:
         vlines = []
@@ -1415,13 +1424,13 @@ def main():
             if v and v.get("pe_pct") is not None:
                 vlines.append(f"{x['name']} PE分位{float(v['pe_pct']) * 100:.0f}%({val_level(v['pe_pct'])}) PB分位{float(v['pb_pct']) * 100:.0f}%({val_level(v['pb_pct'])})")
         if vlines:
-            rss_items.append(rss_item(f"指数估值 {today_str}", "https://danjuanfunds.com/",
-                                     "<br>".join(vlines) + f"<br>（蛋卷，截至 {_h(val_date)}）", "估值"))
+            vlines.append(f"（蛋卷，截至 {val_date}）")
+            rss_items.append(rss_item(f"指数估值 {today_str}", "https://danjuanfunds.com/", "\n".join(vlines), "估值", NOW_RFC, "valuation-" + today_str))
 
     # 完整网页版日报（含全部表格与全文，手机阅读排版更完整）——Pages 部署后相对路径可正确解析
     html_link = (PAGES_URL + "/index.html") if PAGES_URL else "index.html"
     rss_items.append(rss_item("完整资讯日报（网页版）", html_link,
-                              "<b>点击查看完整排版日报</b><br>含指数估值表、板块涨跌、各栏目全文（手机阅读排版更完整）", "日报"))
+                              "点击查看完整排版日报（含指数估值表、板块涨跌、各栏目全文）", "日报", NOW_RFC, "full-" + today_str))
 
     feed = build_rss(rss_items, today_str)
     with open(os.path.join(DOC_DIR, "feed.xml"), "w", encoding="utf-8") as f:
@@ -1461,14 +1470,24 @@ def cdata(s):
     return f"<![CDATA[{(s or '').replace(']]>', ']]&gt;')}]]>"
 
 
-def rss_item(title, link, html_desc, cat):
+def rss_item(title, link, text_desc, cat, pub_date=None, guid=None):
+    """生成一条 RSS <item>。description 为纯文本（以换行分隔），不内嵌任何 HTML 标签，
+    保证手机 RSS 阅读器排版一致；导航依赖 <link> 字段。每条带 pubDate + 唯一 guid 便于排序/去重。"""
     title = esc(title)
     link = esc(link)
     cat = esc(cat)
-    return (f"    <item>\n      <title>{title}</title>\n"
-            f"      <link>{link}</link>\n"
-            f"      <description>{cdata(html_desc)}</description>\n"
-            f"      <category>{cat}</category>\n    </item>")
+    desc = cdata(text_desc or "")
+    guid = esc(guid or link)
+    parts = ["    <item>",
+             f"      <title>{title}</title>",
+             f"      <link>{link}</link>",
+             f"      <description>{desc}</description>"]
+    if pub_date:
+        parts.append(f"      <pubDate>{esc(pub_date)}</pubDate>")
+    parts.append(f'      <guid isPermaLink="false">{guid}</guid>')
+    parts.append(f"      <category>{cat}</category>")
+    parts.append("    </item>")
+    return "\n".join(parts)
 
 
 def esc(s):
