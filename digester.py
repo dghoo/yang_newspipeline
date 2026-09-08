@@ -223,22 +223,30 @@ def fetch_topic_repos(topic):
 def fetch_indices():
     secids = {
         "沪深300": "1.000300", "中证500": "1.000905", "创业板指": "0.399006",
-        "科创50": "1.000688", "中证红利": "1.000922", "红利低波": "1.930998",
+        # 红利低波 = 中证红利低波动指数，东财 QuoteID 为 2.H30269
+        # （旧值 1.930998 无效：接口不返回该条目，导致该行点位/涨跌幅长期空白）
+        "科创50": "1.000688", "中证红利": "1.000922", "红利低波": "2.H30269",
         "恒生指数": "100.HSI", "纳斯达克100": "100.NDX", "标普500": "100.SPX",
     }
     out = []
     try:
         s = ",".join(secids.values())
-        u = f"https://push2delay.eastmoney.com/api/qt/ulist.np/get?fltt=2&invt=2&fields=f12,f14,f2,f3&secids={s}"
+        u = f"https://push2delay.eastmoney.com/api/qt/ulist.np/get?fltt=2&invt=2&fields=f12,f13,f14,f2,f3&secids={s}"
         d = get_json(u)
         name_by_sec = {v: k for k, v in secids.items()}
+        got = set()
         for x in d["data"]["diff"]:
             sec = x.get("f12")
             name = x.get("f14") or name_by_sec.get(sec, "")
             val, chg = x.get("f2"), x.get("f3")
+            got.add(f"{x.get('f13')}.{sec}")      # 以 secid 为准，避免名称差异造成误报
             if val in (None, "-", "--"):
                 continue
             out.append({"name": name, "value": val, "chg": chg})
+        # 行情缺失不再静默：明确指出是哪个指数取不到（多为 secid 失效或盘中停牌）
+        for nm, sec in secids.items():
+            if sec not in got:
+                print(f"[IDX] 无行情返回：{nm} ({sec})，该行点位/涨跌幅将显示为 —", file=sys.stderr)
     except Exception as e:
         print("[IDX] fetch failed:", e, file=sys.stderr)
     return out
@@ -368,7 +376,14 @@ def fetch_repo_desc(repo):
 
 
 # ---------- 5d. 开源项目介绍中文翻译（MyMemory 免密钥；已含中文则保留）----------
+# 翻译源熔断：某源连续失败后本轮不再重试，避免 18 条 × 20s 把运行拖到几分钟
+_TR_STATE = {"google_down": False, "mm_fail": 0, "mm_down": False}
+_TR_FAIL_LIMIT = 5
+
+
 def _mymemory(text, sl="en", tl="zh-CN"):
+    if _TR_STATE["mm_down"]:
+        return ""
     u = "https://api.mymemory.translated.net/get?q=" + urllib.parse.quote(text) + "&langpair=" + sl + "|" + tl
     try:
         req = urllib.request.Request(u, headers={"User-Agent": UA})
@@ -379,13 +394,20 @@ def _mymemory(text, sl="en", tl="zh-CN"):
             return ""
         if "MYMEMORY" in t.upper() or "QUOTA" in t.upper() or "WARNING" in t.upper():
             return ""
+        _TR_STATE["mm_fail"] = 0
         return t
     except Exception as e:
         print(f"[TR] mymemory failed: {e}", file=sys.stderr)
+        _TR_STATE["mm_fail"] += 1
+        if _TR_STATE["mm_fail"] >= _TR_FAIL_LIMIT:
+            _TR_STATE["mm_down"] = True
+            print("[TR] MyMemory 连续失败，本轮停用该源", file=sys.stderr)
         return ""
 
 
 def _google_gtx(text, sl="en", tl="zh-CN"):
+    if _TR_STATE["google_down"]:
+        return ""
     u = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=" + sl + "&tl=" + tl + "&dt=t&q=" + urllib.parse.quote(text)
     try:
         req = urllib.request.Request(u, headers={"User-Agent": UA})
@@ -394,6 +416,7 @@ def _google_gtx(text, sl="en", tl="zh-CN"):
         return "".join(seg[0] for seg in data[0] if seg[0])
     except Exception as e:
         print(f"[TR] google failed: {e}", file=sys.stderr)
+        _TR_STATE["google_down"] = True
         return ""
 
 
@@ -561,6 +584,17 @@ def _ok_zh(zh):
     return _cjk_ratio(zh) >= 0.12
 
 
+def _truncate_for_api(s, maxlen=200):
+    """MyMemory 对超长 q 容易 504；简介最终只取首句，这里先按首句截断再翻译，成功率与速度都更好。"""
+    if len(s) <= maxlen:
+        return s
+    for sep in ("\n", ". ", "。", "! ", "? ", "; ", "；"):
+        i = s.find(sep)
+        if 0 < i <= maxlen:
+            return s[:i + 1].strip()
+    return s[:maxlen].rsplit(" ", 1)[0].strip()
+
+
 def translate_zh(text):
     """英文项目介绍翻译成中文；主体为中文则只做术语校正+精炼；全部翻译源失败则退回纯净原文（绝不拼接原文+译文）。"""
     if not text:
@@ -574,17 +608,24 @@ def translate_zh(text):
     cached = _trans_cache.get(key)
     if cached and _ok_zh(cached):
         return cached
+    q = _truncate_for_api(key)          # 超长描述先按首句截断，降低 504 概率
     zh = ""
     for src_fn in (_mymemory, _google_gtx):
-        raw = src_fn(key)
-        if not raw:
-            continue
-        cand = _dedup_concat(_strip_src(raw, key))
-        if _ok_zh(cand):
-            zh = cand
+        for attempt in (1, 2):          # 瞬时抖动（504/超时）重试一次，间隔 1.2s
+            raw = src_fn(q)
+            if raw:
+                cand = _dedup_concat(_strip_src(raw, q))
+                if _ok_zh(cand):
+                    zh = cand
+                    break
+                if not zh:
+                    zh = cand if _cjk_ratio(cand) > _cjk_ratio(key) else ""
+            if _TR_STATE["mm_down"] and _TR_STATE["google_down"]:
+                break
+            if attempt == 1:
+                time.sleep(1.2)
+        if _ok_zh(zh):
             break
-        if not zh:
-            zh = cand if _cjk_ratio(cand) > _cjk_ratio(key) else ""
     failed = not _ok_zh(zh)
     if failed:
         zh = key                      # 纯净原文，不做任何拼接/截断
