@@ -1,4 +1,4 @@
-# 资讯聚合推送管道（news-pipeline）
+# 资讯聚合推送管道（yang_newspipeline）
 
 每日自动抓取 AI 资讯 / 优质开源 / Docker 容器 / 财经估值，生成 Markdown 日报与 RSS feed，供手机 RSS 阅读器订阅。
 
@@ -11,7 +11,7 @@
 ## 一、本地运行
 
 ```bash
-cd news-pipeline
+cd yang_newspipeline
 python digester.py
 ```
 
@@ -37,8 +37,8 @@ python digester.py
 # 2) 生成令牌：Settings → Developer settings → Personal access tokens
 #    → Tokens (classic) → Generate new token (classic) → 只勾 repo
 # 3) 推送（密码栏粘贴 ghp_ 开头的令牌，不是登录密码）
-cd news-pipeline
-git remote add origin https://github.com/<你的用户名>/news-pipeline.git
+cd yang_newspipeline
+git remote add origin https://github.com/<你的用户名>/yang_newspipeline.git
 git branch -M main
 git push -u origin main
 ```
@@ -50,7 +50,7 @@ git push -u origin main
 | **Settings → Actions → General → Workflow permissions** | 改为 **Read and write**（否则每日产物写不回仓库） |
 | **Settings → Pages** | Source 选 `main` 分支 + **`/docs`** 目录 |
 
-订阅地址：`https://<你的用户名>.github.io/news-pipeline/feed.xml`
+订阅地址：`https://<你的用户名>.github.io/yang_newspipeline/feed.xml`
 
 > 本地已完成 `git init` 与多次提交，工作区干净，可直接推送。
 > 也可以直接用一键脚本（Git Bash 运行）：`bash tools/push_github.sh <你的用户名>`，

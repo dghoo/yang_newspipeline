@@ -1,6 +1,6 @@
 # GitHub 部署全流程（零基础完整手册）
 
-> 目标：把本地 `news-pipeline` 推到 GitHub，让它**每天北京时间 08:00 自动跑一次**，
+> 目标：把本地 `yang_newspipeline` 推到 GitHub，让它**每天北京时间 08:00 自动跑一次**，
 > 生成当天日报 + 更新 RSS，并给你一个手机可直接订阅的地址。
 > 全文按"先做什么 → 这条命令在干什么 → 怎么算成功 → 失败怎么办"组织。
 
@@ -11,7 +11,7 @@
 在本机终端（Git Bash）执行：
 
 ```bash
-cd /e/yang_news/news-pipeline
+cd /e/yang_news/yang_newspipeline
 git status          # 看工作区是否干净
 git log --oneline -3  # 看最近的提交
 git remote -v       # 看有没有配置远端（现在应该是空的）
@@ -19,7 +19,7 @@ git remote -v       # 看有没有配置远端（现在应该是空的）
 
 | 命令 | 作用 |
 |---|---|
-| `cd /e/yang_news/news-pipeline` | 进入项目目录（后面的命令都在这里执行） |
+| `cd /e/yang_news/yang_newspipeline` | 进入项目目录（后面的命令都在这里执行） |
 | `git status` | 查看哪些文件被改过、有没有没提交的 |
 | `git log --oneline -3` | 看最近 3 条提交，确认代码已在本地入版本库 |
 | `git remote -v` | 查看已关联的远端仓库地址（**没输出 = 还没关联 GitHub，正是现在的状态**） |
@@ -31,7 +31,7 @@ git remote -v       # 看有没有配置远端（现在应该是空的）
 ## 第 1 步：创建 GitHub 仓库（网页操作）
 
 1. 登录 <https://github.com> → 右上角 **+** → **New repository**。
-2. **Repository name** 填：`news-pipeline`（**必须和后面命令里的名字一致**）。
+2. **Repository name** 填：`yang_newspipeline`（**必须和后面命令里的名字一致**）。
 3. **Public**（公开）必选：私有仓库用不了免费的 GitHub Pages，RSS 地址也就打不开。
 4. **这三个一律不勾**：`Add a README file`、`Add .gitignore`、`Choose a license`。
    - 原因：勾了会在远端产生一次初始提交，与你本地已有的提交历史冲突，push 会被拒绝（`Updates were rejected`）。
@@ -40,7 +40,7 @@ git remote -v       # 看有没有配置远端（现在应该是空的）
 创建后会看到一个"快速设置"页面，上面有仓库地址，形如：
 
 ```
-https://github.com/<你的用户名>/news-pipeline.git
+https://github.com/<你的用户名>/yang_newspipeline.git
 ```
 
 把这个地址记住（下一步要用）。
@@ -60,7 +60,7 @@ https://github.com/<你的用户名>/news-pipeline.git
 
 | 字段 | 怎么填 | 为什么 |
 |---|---|---|
-| Note（备注） | 随便，如 `news-pipeline push` | 只是给你自己认名字 |
+| Note（备注） | 随便，如 `yang_newspipeline push` | 只是给你自己认名字 |
 | Expiration（有效期） | 选 **No expiration**（或 90 天） | 过期后 push 会突然失败 |
 | `repo` | ✅ **勾选** | 这是唯一必选项，包含读写仓库代码的所有权限 |
 | 其余全部 | 不勾 | 越少越安全 |
@@ -75,8 +75,8 @@ https://github.com/<你的用户名>/news-pipeline.git
 把 `<你的用户名>` 换成真实用户名，三条命令逐条执行：
 
 ```bash
-cd /e/yang_news/news-pipeline
-git remote add origin https://github.com/<你的用户名>/news-pipeline.git
+cd /e/yang_news/yang_newspipeline
+git remote add origin https://github.com/<你的用户名>/yang_newspipeline.git
 git branch -M main
 git push -u origin main
 ```
@@ -103,7 +103,7 @@ git push -u origin main
 ```
 Enumerating objects: 30, done.
 Writing objects: 100% (30/30), done.
-To https://github.com/xxx/news-pipeline.git
+To https://github.com/xxx/yang_newspipeline.git
  * [new branch]      main -> main
 ```
 
@@ -145,10 +145,10 @@ Branch 选 **`main`**、目录选 **`/docs`** → **Save**。
 约 1～2 分钟后，订阅地址生效：
 
 ```
-https://<你的用户名>.github.io/news-pipeline/feed.xml
+https://<你的用户名>.github.io/yang_newspipeline/feed.xml
 ```
 
-> 仓库名如果叫别的，把 `news-pipeline` 换成你的仓库名即可。
+> 仓库名如果叫别的，把 `yang_newspipeline` 换成你的仓库名即可。
 
 ---
 
@@ -188,7 +188,7 @@ https://<你的用户名>.github.io/news-pipeline/feed.xml
 手机 RSS 阅读器（如 Feedly、Inoreader、Reeder、ReadYou）里添加订阅源，地址填：
 
 ```
-https://<你的用户名>.github.io/news-pipeline/feed.xml
+https://<你的用户名>.github.io/yang_newspipeline/feed.xml
 ```
 
 **验证是否订阅成功**：添加后应立刻拉取到约 38 条；第二天 8 点后刷新，应出现新一批内容。
@@ -210,7 +210,7 @@ https://<你的用户名>.github.io/news-pipeline/feed.xml
 ## 第 9 步：以后改代码怎么更新
 
 ```bash
-cd /e/yang_news/news-pipeline
+cd /e/yang_news/yang_newspipeline
 # ...修改代码...
 git add -A
 git commit -m "说明改了什么"

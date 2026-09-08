@@ -2,11 +2,11 @@
 # 一键推送到 GitHub（Windows 用 Git Bash 运行：bash tools/push_github.sh <你的用户名>）
 #
 # 前置条件（必须先做，脚本做不了这两步，需要在网页上操作）：
-#   1) GitHub 网页已建好 public 仓库（名称默认 news-pipeline，不要勾 README/.gitignore/license）
+#   1) GitHub 网页已建好 public 仓库（名称默认 yang_newspipeline，不要勾 README/.gitignore/license）
 #   2) 已生成 Personal access token（classic），只勾 repo，复制好 ghp_ 开头的那串
 #
 # 用法：
-#   bash tools/push_github.sh yzh                # 仓库名默认 news-pipeline
+#   bash tools/push_github.sh yzh                # 仓库名默认 yang_newspipeline
 #   bash tools/push_github.sh yzh my-news        # 指定仓库名
 #
 # 脚本依次做四件事：
@@ -18,7 +18,7 @@
 set -e
 
 USER_NAME="$1"
-REPO_NAME="${2:-news-pipeline}"
+REPO_NAME="${2:-yang_newspipeline}"
 
 if [ -z "$USER_NAME" ]; then
   echo "用法：bash tools/push_github.sh <你的GitHub用户名> [仓库名]"

@@ -60,7 +60,7 @@ AI_SECTIONS = (("行业资讯", "1.1 AI 行业资讯", "行业"),
 
 # 完整网页版日报（docs/index.html）部署后的访问地址；留空则 RSS 里用相对路径 index.html
 # （Pages 部署后相对路径会正确解析为 <Pages根>/index.html）。建好仓库后把这里改成
-# 你的 Pages 地址（如 https://<用户名>.github.io/news-pipeline）可获得绝对链接。
+# 你的 Pages 地址（如 https://<用户名>.github.io/yang_newspipeline）可获得绝对链接。
 PAGES_URL = ""
 
 # 大模型测评：数据源无独立分类，靠强信号词跨类抽取（登顶/榜单/SOTA/Arena/基准等）
