@@ -83,5 +83,12 @@
   "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.": "研究、编码和创建的开源远程SuperAgent框架",
   "Create and share 3D architectural projects.": "创建和共享3D建筑项目",
   "High performance self-hosted photo and video management solution.": "高性能自托管照片和视频管理解决方案",
-  "A fancy self-hosted monitoring tool": "一款精美的自托管监控工具"
+  "A fancy self-hosted monitoring tool": "一款精美的自托管监控工具",
+  "We are releasing MiniCPM5-2B, the second model in the MiniCPM5 series, following MiniCPM5-1B. It is a dense 2B Transformer that scales up the same training recipe, built for on-device, local deployment, and resource-constrained scenarios, reaching 2B-class open-source SOTA.": "我们正在发布MiniCPM5-2B ，这是继MiniCPM5-1B之后的MiniCPM5系列中的第二款型号",
+  "Chirp Chirp! 🐦 We are introducing Ornith-1.5, a major step toward building foundation models through end-to-end self-improvement.": "CHIRP CHIRP。🐦我们正在推出Ornith-1.5 ，这是通过端到端自我完善来构建基础模型的重要一步",
+  "- Model Introduction\n- A New Flagship Generation\n- Built for Productivity\n- Benchmark Appendix\n- Known Limitations\n- News\n- Model Links\n- Quickstart\n- Deployment\n  - vLLM\n  - SGLang\n- Finetuning\n- Quantization\n- License\n- Contact Us": "型号介绍",
+  "A skill to stop your coding agent from burying the answer. ADHD-friendly output.": "阻止您的编码代理埋葬答案的技能。ADHD友好的输出",
+  "An agentic skills framework & software development methodology that works.": "有效的智能体技能框架和软件开发方法",
+  "🌐 Make websites accessible for AI agents. Automate tasks online with ease.": "🌐 让人工智能代理可以访问网站。轻松实现在线任务自动化",
+  "📱 Display and control your Android device graphically with scrcpy.": "使用scrcpy以图形方式📱显示和控制您的Android设备"
 }
