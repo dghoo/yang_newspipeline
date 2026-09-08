@@ -100,7 +100,7 @@
     <item>
       <title>lnkiai/m3e-canvas ★4,748</title>
       <link>https://github.com/lnkiai/m3e-canvas</link>
-      <description>Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts. （TypeScript ★4,748）</description>
+      <description>在浏览器中绘制 Material 3 富有表现力的界面，并一键转换为氛围编码提示词 （TypeScript ★4,748）</description>
       <category>开源</category>
     </item>
     <item>
@@ -124,55 +124,55 @@
     <item>
       <title>wang2122/sprix-sage-router ★3,919</title>
       <link>https://github.com/wang2122/sprix-sage-router</link>
-      <description>Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks. （Python ★3,919）</description>
+      <description>屿智同行的 Sprix AI：面向 A2A 智能体网络的状态感知路由，支持自主/协作/移交三种模式 （Python ★3,919）</description>
       <category>开源</category>
     </item>
     <item>
       <title>[Docker] ToolJet/ToolJet</title>
       <link>https://github.com/ToolJet/ToolJet</link>
-      <description>Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business applications, workflows and AI agents. Build visually, from a prompt, or from Claude Code, Codex and Cursor over MCP 🚀</description>
+      <description>ToolJet AI 的开源底座：企业级应用生成平台，可构建内部工具、仪表盘、业务应用、工作流与 AI 智能体，支持可视化搭建、提示词生成，或通过 MCP 接入 Claude Code、Codex 与 Cursor</description>
       <category>Docker</category>
     </item>
     <item>
       <title>[Docker] appsmithorg/appsmith</title>
       <link>https://github.com/appsmithorg/appsmith</link>
-      <description>Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.</description>
+      <description>用于搭建管理后台、内部工具与仪表盘的平台，可接入 25 种以上数据库及任意 API</description>
       <category>Docker</category>
     </item>
     <item>
       <title>[Docker] photoprism/photoprism</title>
       <link>https://github.com/photoprism/photoprism</link>
-      <description>AI-Powered Photos App 🌈💎✨</description>
+      <description>AI 驱动的照片管理应用</description>
       <category>Docker</category>
     </item>
     <item>
       <title>[Docker] TriliumNext/Trilium</title>
       <link>https://github.com/TriliumNext/Trilium</link>
-      <description>Build your personal knowledge base with Trilium Notes</description>
+      <description>用 Trilium Notes 搭建个人知识库</description>
       <category>Docker</category>
     </item>
     <item>
       <title>[Docker] IceWhaleTech/CasaOS</title>
       <link>https://github.com/IceWhaleTech/CasaOS</link>
-      <description>CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.</description>
+      <description>CasaOS：简单易用、优雅的开源个人云系统</description>
       <category>Docker</category>
     </item>
     <item>
       <title>[Docker] khoj-ai/khoj</title>
       <link>https://github.com/khoj-ai/khoj</link>
-      <description>Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.</description>
+      <description>你的 AI 第二大脑，可自托管：从网页或本地文档中检索答案，构建自定义智能体、定时自动化与深度研究，支持接入任意在线或本地大模型</description>
       <category>Docker</category>
     </item>
     <item>
       <title>[Docker] Dokploy/dokploy</title>
       <link>https://github.com/Dokploy/dokploy</link>
-      <description>Open Source Alternative to Vercel, Netlify and Heroku.</description>
+      <description>Vercel、Netlify 与 Heroku 的开源替代方案</description>
       <category>Docker</category>
     </item>
     <item>
       <title>[Docker] glanceapp/glance</title>
       <link>https://github.com/glanceapp/glance</link>
-      <description>A self-hosted dashboard that puts all your feeds in one place</description>
+      <description>自托管信息仪表盘，把所有订阅源汇集到一处</description>
       <category>Docker</category>
     </item>
     <item>
