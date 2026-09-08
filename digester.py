@@ -58,6 +58,11 @@ AI_SECTIONS = (("行业资讯", "1.1 AI 行业资讯", "行业"),
                ("大模型测评", "1.3 大模型测评", "测评"),
                ("开源模型", "1.4 开源模型推荐", "开源模型"))
 
+# 完整网页版日报（docs/index.html）部署后的访问地址；留空则 RSS 里用相对路径 index.html
+# （Pages 部署后相对路径会正确解析为 <Pages根>/index.html）。建好仓库后把这里改成
+# 你的 Pages 地址（如 https://<用户名>.github.io/news-pipeline）可获得绝对链接。
+PAGES_URL = ""
+
 # 大模型测评：数据源无独立分类，靠强信号词跨类抽取（登顶/榜单/SOTA/Arena/基准等）
 AI_BENCH_PAT = re.compile(
     r"(登顶|榜首|榜单|Arena|SOTA|ARC-AGI|MMLU|GPQA|SWE-bench|跑分|"
@@ -1343,6 +1348,13 @@ def main():
     with open(md_path, "w", encoding="utf-8") as f:
         f.write(md)
 
+    # ============ 生成 HTML 完整版日报（手机/网页可读，含表格）============
+    html_report = build_html_report(today_str, weekday, ai_groups, repos_shown, docker_shown,
+                                    indices, valuation, top_up, top_dn, gold, gold_nav,
+                                    qdii_nav, macro_shown, low, val_date)
+    with open(os.path.join(DOC_DIR, "index.html"), "w", encoding="utf-8") as f:
+        f.write(html_report)
+
     # ============ 生成 RSS feed.xml ============
     # ============ 生成 RSS feed.xml ============
     # 每条 description 用 HTML（CDATA）包裹：阅读器渲染换行/加粗/链接，不再显示原始 Markdown 符号
@@ -1406,6 +1418,11 @@ def main():
             rss_items.append(rss_item(f"指数估值 {today_str}", "https://danjuanfunds.com/",
                                      "<br>".join(vlines) + f"<br>（蛋卷，截至 {_h(val_date)}）", "估值"))
 
+    # 完整网页版日报（含全部表格与全文，手机阅读排版更完整）——Pages 部署后相对路径可正确解析
+    html_link = (PAGES_URL + "/index.html") if PAGES_URL else "index.html"
+    rss_items.append(rss_item("完整资讯日报（网页版）", html_link,
+                              "<b>点击查看完整排版日报</b><br>含指数估值表、板块涨跌、各栏目全文（手机阅读排版更完整）", "日报"))
+
     feed = build_rss(rss_items, today_str)
     with open(os.path.join(DOC_DIR, "feed.xml"), "w", encoding="utf-8") as f:
         f.write(feed)
@@ -1459,6 +1476,201 @@ def esc(s):
         return ""
     s = str(s)
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def build_html_report(today_str, weekday, ai_groups, repos_shown, docker_shown,
+                      indices, valuation, top_up, top_dn, gold, gold_nav,
+                      qdii_nav, macro_shown, low, val_date):
+    """生成手机/网页可读的完整 HTML 日报（含表格），供 RSS 链接与 GitHub Pages 直接浏览。
+
+    与 md 同源：复用 main() 内已抓全的结构化数据，直接渲染 HTML（含指数估值表、板块、
+    各栏目全文），避免再解析 md。RSS 阅读器点「完整日报」即可看与 md 一致的排版。
+    """
+    # ---- AI 资讯 ----
+    ai_html = []
+    for key, sub, _ in AI_SECTIONS:
+        items = ai_groups.get(key, [])
+        ai_html.append(f'<h3>{esc(sub)}（{len(items)} 条）</h3>')
+        if not items:
+            ai_html.append('<p class="muted">今日无新增（7 天去重窗口内无可发条目）。</p>')
+            continue
+        for i, it in enumerate(items, 1):
+            if key == "开源模型":
+                bits = []
+                if it.get("license"):
+                    bits.append(f"许可 {esc(it['license'])}")
+                if it.get("param"):
+                    bits.append(f"参数 {esc(it['param'])}")
+                bits.append(f"点赞 {fmt_num(it['likes'])}")
+                bits.append(f"下载 {fmt_num(it['downloads'])}")
+                bits.append(f"发布 {esc(it.get('createdAt', '')[:10])}")
+                intro = f'<div class="sum">{esc(it["intro"])}</div>' if it.get("intro") else ''
+                ai_html.append(
+                    f'<div class="item"><div class="t"><b>{i}. {esc(it["id"])}</b></div>'
+                    f'<div class="meta">{" · ".join(bits)}</div>{intro}'
+                    f'<div class="meta"><a href="{esc(it["url"])}">模型地址</a></div></div>')
+            else:
+                s = f'<div class="sum">{esc(it["summary"])}</div>' if it["summary"] else ''
+                ai_html.append(
+                    f'<div class="item"><div class="t"><b>{i}. <a href="{esc(it["url"])}">{esc(it["title"])}</a></b></div>'
+                    f'<div class="meta">来源：{esc(it["source"])} · 发布：{esc(fmt_time(it["publishedAt"]))}</div>{s}</div>')
+
+    def repo_block(title, repos):
+        h = [f'<h3>{esc(title)}（{len(repos)} 条）</h3>']
+        if not repos:
+            h.append('<p class="muted">今日无新增。</p>')
+        for i, r in enumerate(repos, 1):
+            star = f' · {esc(r["lang"])} ★{esc(r["stars"])}' if r.get("stars") else ''
+            d = f'<div class="sum">{esc(r["desc"])}</div>' if r.get("desc") else ''
+            h.append(
+                f'<div class="item"><div class="t"><b>{i}. <a href="{esc(r["url"])}">{esc(r["repo"])}</a></b>{star}</div>{d}</div>')
+        return ''.join(h)
+
+    # ---- 财经：估值表 ----
+    idx_by_name = {x["name"]: x for x in indices}
+    val_rows = []
+    for name in dict.fromkeys(list(idx_by_name) + list(valuation)):
+        x = idx_by_name.get(name)
+        point = x["value"] if x else "—"
+        chg = fmt_pct(x["chg"]) if (x and x.get("chg") is not None) else "—"
+        v = valuation.get(name)
+        if v and v.get("pe") is not None and v.get("pe_pct") is not None:
+            pe = f"{float(v['pe']):.2f}"; pe_pct = f"{float(v['pe_pct']) * 100:.0f}%"; pel = val_level(v["pe_pct"])
+            pb = f"{float(v['pb']):.2f}"; pb_pct = f"{float(v['pb_pct']) * 100:.0f}%"; pbl = val_level(v["pb_pct"])
+            if pel == pbl:
+                overall = pel
+            elif "低估" in (pel, pbl):
+                overall = "偏低（PE/PB 分歧）" if "高估" not in (pel, pbl) else "分化"
+            elif "高估" in (pel, pbl):
+                overall = "偏高（PE/PB 分歧）"
+            else:
+                overall = "适中"
+            val_rows.append(f'<tr><td>{esc(name)}</td><td>{point}</td><td>{chg}</td><td>{pe}</td>'
+                           f'<td>{pe_pct}·{pel}</td><td>{pb}</td><td>{pb_pct}·{pbl}</td><td>{overall}</td></tr>')
+        else:
+            val_rows.append(f'<tr><td>{esc(name)}</td><td>{point}</td><td>{chg}</td>'
+                           f'<td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>')
+    val_table = ('<div class="tbl"><table><thead><tr><th>指数</th><th>点位</th><th>涨跌幅</th>'
+                 '<th>PE</th><th>PE分位</th><th>PB</th><th>PB分位</th><th>水位</th></tr></thead><tbody>'
+                 + ''.join(val_rows) + '</tbody></table></div>')
+
+    if top_up or top_dn:
+        up = "、".join(f"{s['name']}{fmt_pct(s['chg'])}" for s in top_up)
+        dn = "、".join(f"{s['name']}{fmt_pct(s['chg'])}" for s in top_dn)
+        sector_html = f'<p>领涨：{up}</p><p>领跌：{dn}</p>'
+    else:
+        sector_html = '<p class="muted">行业板块行情暂不可达。</p>'
+
+    gold_html = ""
+    if gold:
+        gold_html += f'<p>COMEX 微型黄金：{esc(gold["name"])}（{fmt_pct(gold["chg"])}）盘中实时</p>'
+    if gold_nav:
+        try:
+            per_gram = float(gold_nav["nav"]) * 100
+            gram_txt = f"（≈ {per_gram:.0f} 元/克）"
+        except Exception:
+            gram_txt = ""
+        gold_html += f'<p>SGE Au99.99（经 518880 映射）：ETF 最新净值 {gold_nav["nav"]}（{gold_nav["date"]}）{gram_txt}</p>'
+    if not gold and not gold_nav:
+        gold_html = '<p class="muted">黄金行情暂不可达。</p>'
+
+    qdii_html = ""
+    if qdii_nav:
+        for code, name in QDII_FUNDS.items():
+            v = qdii_nav.get(code)
+            if v:
+                qdii_html += f'<p>{esc(name)}（{code}）：单位净值 {v["nav"]}（{v["date"]}）</p>'
+        qdii_html += '<p class="muted">QDII 净值 T+2 披露；人民币计价受汇率影响。</p>'
+    else:
+        qdii_html = '<p class="muted">QDII 净值源暂不可达。</p>'
+
+    macro_html = ""
+    if macro_shown:
+        li = []
+        for m in macro_shown:
+            extra = []
+            if m.get("ctime"):
+                extra.append(f"发布：{fmt_time(m['ctime'])}")
+            if m.get("url"):
+                extra.append(f'<a href="{esc(m["url"])}">链接</a>')
+            li.append(f'<li>{esc(m["title"])}'
+                      + (f' <span class="meta">（{" ｜ ".join(extra)}）</span>' if extra else '') + '</li>')
+        macro_html = '<ul>' + ''.join(li) + '</ul>'
+    else:
+        macro_html = '<p class="muted">近 7 天宏观要闻均已推送，暂无可发新增。</p>'
+
+    low_html = ""
+    if low:
+        li = []
+        for n, v in sorted(low, key=lambda kv: float(kv[1].get("pe_pct") or 1)):
+            li.append(f'<li>{esc(n)}：PE 分位 {float(v["pe_pct"]) * 100:.0f}%（低估），'
+                      f'PE {float(v["pe"]):.2f}｜PB 分位 {float(v["pb_pct"]) * 100:.0f}%，PB {float(v["pb"]):.2f}</li>')
+        low_html = '<ul>' + ''.join(li) + '</ul>'
+    else:
+        low_html = '<p class="muted">当前主要宽基/策略指数中暂无 PE、PB 双低（分位&lt;30%）的显著低估标的。</p>'
+
+    ai_all = ''.join(ai_html)
+    repo_sec = repo_block("二、优质开源项目", repos_shown)
+    docker_sec = repo_block("二之一、Docker / 自托管容器推荐", docker_shown)
+    val_note = f"（截至 {esc(val_date)}）" if val_date else ""
+
+    return f"""<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>资讯日报 · {esc(today_str)}</title>
+<style>
+*{{box-sizing:border-box}}
+body{{font-family:-apple-system,system-ui,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.65;color:#1a1a1a;max-width:780px;margin:0 auto;padding:16px;background:#fff}}
+h1{{font-size:22px;margin:0 0 4px}}
+h2{{font-size:18px;margin:24px 0 8px;border-left:4px solid #2563eb;padding-left:8px}}
+h3{{font-size:15px;margin:16px 0 6px;color:#2563eb}}
+.item{{border-bottom:1px solid #eee;padding:8px 0}}
+.t{{font-weight:600;margin-bottom:2px}}
+.meta{{color:#666;font-size:12px;margin:2px 0}}
+.sum{{font-size:14px;margin-top:2px}}
+a{{color:#2563eb;text-decoration:none}}
+.muted{{color:#999;font-size:13px}}
+.tbl{{overflow-x:auto;margin:8px 0}}
+table{{border-collapse:collapse;width:100%;font-size:13px}}
+th,td{{border:1px solid #ddd;padding:5px 7px;text-align:left;white-space:nowrap}}
+th{{background:#f5f7fa}}
+ul{{padding-left:20px;margin:6px 0}}
+footer{{margin-top:28px;color:#999;font-size:12px;border-top:1px solid #eee;padding-top:10px}}
+</style>
+</head>
+<body>
+<h1>资讯日报 · {esc(today_str)}（周{weekday}）</h1>
+<p class="muted">真实管道生成（digester.py 实跑）· 7 天去重 + 只发未发过的较新资讯</p>
+
+<h2>一、AI 资讯</h2>
+{ai_all}
+
+<h2>二、优质开源项目（GitHub Trending）</h2>
+{repo_sec}
+
+<h2>二之一、Docker / 自托管容器推荐</h2>
+{docker_sec}
+
+<h2>三、财经资讯</h2>
+<h3>[估值] 主要指数估值</h3>
+{val_table}
+<p class="muted">估值数据来源：蛋卷基金{val_note}。分位 &lt;30% 低估、30–70% 适中、&gt;70% 高估。</p>
+<h3>[板块] 行业板块实时涨跌</h3>
+{sector_html}
+<h3>[黄金] 贵金属实时</h3>
+{gold_html}
+<h3>[QDII/海外] 海外指数实时 + QDII 净值</h3>
+{qdii_html}
+<h3>[宏观] 财经要闻</h3>
+{macro_html}
+<h3>[低估值提醒]（基于蛋卷 PE/PB 历史分位）</h3>
+{low_html}
+
+<footer>由 digester.py 自动生成 · 订阅 RSS：feed.xml</footer>
+</body>
+</html>"""
 
 
 def build_rss(items, today_str):
