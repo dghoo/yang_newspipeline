@@ -2,8 +2,9 @@ name: daily-news-digest
 
 on:
   schedule:
-    # UTC 00:00 = 北京时间 08:00
-    - cron: "0 0 * * *"
+    # UTC 00:17 = 北京时间 08:17；避开全球零点(00:00)高负载峰值，提升定时触发可靠性
+    # 注：GitHub schedule 为"尽力而为"，误差可能 15 分钟~数小时，非准点保障
+    - cron: "17 0 * * *"
   workflow_dispatch: {}   # 可手动触发调试
 
 permissions:
