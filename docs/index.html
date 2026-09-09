@@ -3,55 +3,208 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>资讯日报 · 2026-09-08</title>
+<title>资讯日报</title>
 <style>
+:root{
+  --bg:#f4f6fb; --card:#ffffff; --text:#1f2430; --muted:#7b8290; --line:#e8ebf2;
+  --accent:#2563eb; --shadow:0 1px 3px rgba(16,24,40,.08),0 8px 24px rgba(16,24,40,.06);
+  --tag:#eef2ff;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0f1320; --card:#171c2b; --text:#e6e9f2; --muted:#9aa3b5; --line:#262d40;
+    --accent:#60a5fa; --shadow:0 1px 3px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+    --tag:#1d2740;
+  }
+}
 *{box-sizing:border-box}
-body{font-family:-apple-system,system-ui,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.65;color:#1a1a1a;max-width:780px;margin:0 auto;padding:16px;background:#fff}
-h1{font-size:22px;margin:0 0 4px}
-h2{font-size:18px;margin:24px 0 8px;border-left:4px solid #2563eb;padding-left:8px}
-h3{font-size:15px;margin:16px 0 6px;color:#2563eb}
-.item{border-bottom:1px solid #eee;padding:8px 0}
-.t{font-weight:600;margin-bottom:2px}
-.meta{color:#666;font-size:12px;margin:2px 0}
-.sum{font-size:14px;margin-top:2px}
-a{color:#2563eb;text-decoration:none}
-.muted{color:#999;font-size:13px}
-.tbl{overflow-x:auto;margin:8px 0}
+html,body{margin:0;padding:0}
+body{font-family:-apple-system,system-ui,"PingFang SC","Microsoft YaHei",sans-serif;
+  background:var(--bg);color:var(--text);line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+.layout{display:flex;min-height:100vh}
+.sidebar{width:264px;flex:none;background:var(--card);border-right:1px solid var(--line);
+  padding:18px 14px;position:fixed;top:0;left:0;height:100vh;overflow-y:auto;z-index:30;
+  transform:translateX(-100%);transition:transform .25s ease}
+.sidebar.open{transform:translateX(0)}
+.sidebar h2{font-size:13px;color:var(--muted);margin:2px 6px 12px;letter-spacing:.08em;font-weight:600}
+.date-item{display:block;padding:9px 12px;border-radius:10px;margin-bottom:6px;font-size:14px;
+  color:var(--text);cursor:pointer;border:1px solid transparent}
+.date-item:hover{background:var(--tag)}
+.date-item.active{background:var(--tag);border-color:var(--accent);color:var(--accent);font-weight:600}
+.overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:20}
+.overlay.show{display:block}
+.main{flex:1;min-width:0;padding:0 0 60px}
+.topbar{position:sticky;top:0;z-index:15;display:flex;align-items:center;gap:12px;
+  padding:12px 16px;background:var(--card);border-bottom:1px solid var(--line);box-shadow:var(--shadow)}
+.menu-btn{border:none;background:var(--tag);color:var(--text);font-size:19px;line-height:1;
+  width:40px;height:40px;border-radius:10px;cursor:pointer}
+.topbar .ttl{font-size:14px;font-weight:600;color:var(--muted)}
+.wrap{max-width:820px;margin:0 auto;padding:0 16px}
+header.hero{padding:22px 0 6px}
+header.hero h1{font-size:24px;margin:0 0 4px;letter-spacing:-.01em}
+header.hero .sub{color:var(--muted);font-size:13px}
+section{margin-top:26px}
+.sec-head{display:flex;align-items:center;gap:8px;font-size:17px;font-weight:700;margin:0 0 12px}
+.sec-head .dot{width:10px;height:10px;border-radius:3px;background:var(--accent);flex:none}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;
+  margin-bottom:12px;box-shadow:var(--shadow)}
+.card .ttl{font-size:15.5px;font-weight:600;line-height:1.5}
+.card .ttl a{color:var(--text)}
+.card .meta{color:var(--muted);font-size:12.5px;margin:6px 0 0}
+.card .sum{font-size:14px;margin-top:8px;color:var(--text)}
+.tag{display:inline-block;font-size:11px;font-weight:600;padding:2px 9px;border-radius:999px;
+  background:var(--tag);margin-right:6px;vertical-align:middle}
+.kpis{display:flex;flex-wrap:wrap;gap:6px 14px;margin:8px 0 0}
+.kpi{font-size:12.5px;color:var(--muted)}
+.kpi b{color:var(--text);font-weight:600}
+.chip{display:inline-block;font-size:11px;padding:1px 8px;border-radius:999px;margin-left:6px;white-space:nowrap}
+.chip.low{color:#16a34a;background:rgba(22,163,74,.13)}
+.chip.mid{color:var(--muted);background:var(--tag)}
+.chip.high{color:#dc2626;background:rgba(220,38,38,.13)}
+.up{color:#dc2626;font-weight:600}.down{color:#16a34a;font-weight:600}
+.tbl-wrap{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
 table{border-collapse:collapse;width:100%;font-size:13px}
-th,td{border:1px solid #ddd;padding:5px 7px;text-align:left;white-space:nowrap}
-th{background:#f5f7fa}
-ul{padding-left:20px;margin:6px 0}
-footer{margin-top:28px;color:#999;font-size:12px;border-top:1px solid #eee;padding-top:10px}
+th,td{padding:9px 10px;text-align:left;white-space:nowrap;border-bottom:1px solid var(--line)}
+th{color:var(--muted);font-weight:600;background:rgba(127,127,127,.05)}
+tbody tr:last-child td{border-bottom:none}
+.note{color:var(--muted);font-size:12.5px;margin-top:8px}
+ul.news{list-style:none;padding:0;margin:0}
+ul.news li{padding:10px 0;border-bottom:1px solid var(--line)}
+ul.news li:last-child{border-bottom:none}
+footer{margin-top:34px;color:var(--muted);font-size:12px;text-align:center;padding:18px}
+@media (min-width:920px){
+  .sidebar{transform:translateX(0)}
+  .overlay{display:none!important}
+  .menu-btn{display:none}
+  .main{margin-left:264px}
+}
 </style>
 </head>
 <body>
-<h1>资讯日报 · 2026-09-08（周二）</h1>
-<p class="muted">真实管道生成（digester.py 实跑）· 7 天去重 + 只发未发过的较新资讯</p>
-
-<h2>一、AI 资讯</h2>
-<h3>1.1 AI 行业资讯（4 条）</h3><div class="item"><div class="t"><b>1. <a href="https://aihot.virxact.com/items/cmtscjydz01garow6gi54pft9">数学家巴克马斯特宣布多项方程 blowup 结果并公开与 OpenAI 沟通经过</a></b></div><div class="meta">来源：Hacker News 热门（buzzing.cc 中文翻译） · 发布：2026-09-08 07:20</div><div class="sum">特里斯坦·巴克马斯特（Tristan Buckmaster）与 Levent Alpöge 公开三项有限时间 blowup 结果，涵盖带光滑强迫的不可压缩多孔介质方程。</div></div><div class="item"><div class="t"><b>2. <a href="https://aihot.virxact.com/items/cmts9dr2m029hrobq86wrny37">Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元</a></b></div><div class="meta">来源：Mistral AI：News（网页） · 发布：2026-09-08 05:58</div><div class="sum">Mistral 宣布完成 30 亿欧元 D 轮融资，投后估值超过 210 亿欧元，公司称这是欧洲科技公司有史以来最大的股权融资，距其成立三年。</div></div><div class="item"><div class="t"><b>3. <a href="https://aihot.virxact.com/items/cmtrxbv5n02etroftlb6u96xt">GPT-6 Astra操控Blender保姆级教程：三种玩法与踩坑实录</a></b></div><div class="meta">来源：公众号：数字生命卡兹克 · 发布：2026-09-08 00:17</div><div class="sum">作者数字生命卡兹克发布GPT-6 Astra操控Blender的小白教程，介绍前期安装、官方MCP与Computer Use插件配置，并实测三种玩法。Computer Use花约4小时搭出天坛祈年殿，但耗掉200美刀Pro会员近半额度；MCP更快，可完成摩托车建模与组装动画，但复杂任务会单次运行超时，可拆分步骤或用CLI执行Python脚本解决。</div></div><div class="item"><div class="t"><b>4. <a href="https://aihot.virxact.com/items/cmtrkorpo07jdrotnozlrlyx2">Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力</a></b></div><div class="meta">来源：The Decoder：AI News（RSS） · 发布：2026-09-07 18:12</div><div class="sum">据 The Information 报道，Anthropic 在十一个月内签署了价值高达 5170 亿美元的算力合同，自 2025 年 10 月以来锁定至少 14.8 GW 算力，并计划自建数据中心。</div></div><h3>1.2 模型发布动态（4 条）</h3><div class="item"><div class="t"><b>1. <a href="https://aihot.virxact.com/items/cmtnphe3t07vfroqsvrbd9enn">奥尔特曼致歉 GPT-6 Astra 发布混乱，现已面向所有 Plus / Pro 等用户推出</a></b></div><div class="meta">来源：IT之家（RSS） · 发布：2026-09-05 00:42</div><div class="sum">OpenAI 于 9 月 3 日上线 GPT-6 Astra，称其在电脑使用、浏览、软件工程、科学和专业工作方面达到最先进性能。因企业安全客户先于 Pro 订阅者获得访问权限引发高价 Pro 用户不满，CEO 奥尔特曼 9 月 4 日在 X 平台致歉，并提出补偿机制：从 9 月 4 日起付费用户每缺少一天 Astra 访问即获得一次额度重置。</div></div><div class="item"><div class="t"><b>2. <a href="https://aihot.virxact.com/items/cmtnkdx8y031qroqs79optcp2">GPT-6 Astra 开始向 Plus 和 Business 用户推出</a></b></div><div class="meta">来源：X：Sam Altman (@sama) · 发布：2026-09-04 22:52</div><div class="sum">Sam Altman 宣布 GPT-6 Astra 现已向所有 Plus 和 Business 用户推出。此前该模型已面向 Pro、Enterprise 和 Business Premium 用户在 Work/Codex 及 API 中提供。</div></div><div class="item"><div class="t"><b>3. <a href="https://aihot.virxact.com/items/cmtne97cd058urog1zpa39wm7">OpenAI 发布 GPT-6 Astra，面向 Pro、Enterprise 和 Business Premium 用户开放</a></b></div><div class="meta">来源：X：OpenAI (@OpenAI) · 发布：2026-09-04 20:13</div><div class="sum">OpenAI 宣布 GPT-6 Astra 现已向所有 Pro、Enterprise 和 Business Premium 用户开放，可在 ChatGPT Work 和 Codex 中使用，同时已上线 API。Plus 和 Business 用户的推送可能需要几天时间。</div></div><div class="item"><div class="t"><b>4. <a href="https://aihot.virxact.com/items/cmtnbhhu902perog1dmrla299">Claude 完成 Fermat 大定理的形式化证明，生成超 1300 万行 Lean 代码</a></b></div><div class="meta">来源：X：Anthropic (@AnthropicAI) · 发布：2026-09-04 18:50</div><div class="sum">Anthropic 宣布 Claude 上月完成了 Fermat 大定理的首个形式化证明，这是迄今最大的 Lean 证明。</div></div><h3>1.3 大模型测评（3 条）</h3><div class="item"><div class="t"><b>1. <a href="https://aihot.virxact.com/items/cmtnt5cb50b8mroqs7x4pukfm">OpenAI 发布 GPT-6 Astra：多项基准刷新纪录， cybersecurity 能力达 Critical 阈值</a></b></div><div class="meta">来源：OpenAI：官网动态（RSS · 排除企业/客户案例） · 发布：2026-09-03 11:00</div><div class="sum">OpenAI 发布新一代模型 GPT-6 Astra，称其在计算机使用、软件工程、科学和网络安全等方向达到 SOTA。</div></div><div class="item"><div class="t"><b>2. <a href="https://aihot.virxact.com/items/cmtj484a00592roh9jjdf5xkd">Claude Fable 5.1 登顶 Artificial Analysis 智能指数，但每任务成本比 Fable 5 高 20%</a></b></div><div class="meta">来源：X：Artificial Analysis (@ArtificialAnlys) · 发布：2026-09-01 20:12</div><div class="sum">Artificial Analysis 评测 Claude Fable 5.1，其在 max effort 下得 66 分登顶 Artificial Analysis Intelligence Index。</div></div><div class="item"><div class="t"><b>3. <a href="https://aihot.virxact.com/items/cmtjimzgx083zrobvekm2zmje">Qwen3.8-Max-0902 登顶 Code Arena 并以 $5/MToken 领跑 Pareto 前沿</a></b></div><div class="meta">来源：X：通义千问 / Qwen (@Alibaba_Qwen) · 发布：2026-09-02 02:57</div><div class="sum">通义千问发布 Qwen3.8-Max-0902，在 Code Arena： WebDev 以 1，691 分首次亮相即排名总榜第一，并以混合价 $5/MToken 成为 Pareto 前沿上得分最高的模型，现已可在 QwenCloud 试用。</div></div><h3>1.4 开源模型推荐（3 条）</h3><div class="item"><div class="t"><b>1. zai-org/GLM-5.3</b></div><div class="meta">许可 other · 点赞 1754 · 下载 44.2万 · 发布 2026-08-25</div><div class="sum">GLM-5.3使用与GLM-5.2相同的基本模型-每项收益都来自训练后</div><div class="meta"><a href="https://hf-mirror.com/zai-org/GLM-5.3">模型地址</a></div></div><div class="item"><div class="t"><b>2. deepseek-ai/DeepSeek-V4-Flash-Vision-Exp</b></div><div class="meta">许可 mit · 点赞 804 · 下载 25.2万 · 发布 2026-08-31</div><div class="sum">我们很高兴推出DeepSeek-V4-Flash-Vision-Exp ，这是我们在DeepSeek-V4系列中的第一个实验性多模态模型</div><div class="meta"><a href="https://hf-mirror.com/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp">模型地址</a></div></div><div class="item"><div class="t"><b>3. XHToken/Spark-X2.5-4B</b></div><div class="meta">许可 apache-2.0 · 参数 4B · 点赞 769 · 下载 7216 · 发布 2026-08-24</div><div class="sum">此存储库包含Hugging Face Transformers格式的后训练模型的模型权重和配置文件</div><div class="meta"><a href="https://hf-mirror.com/XHToken/Spark-X2.5-4B">模型地址</a></div></div>
-
-<h2>二、优质开源项目（GitHub Trending）</h2>
-<h3>二、优质开源项目（10 条）</h3><div class="item"><div class="t"><b>1. <a href="https://github.com/heygen-com/hyperframes">heygen-com/hyperframes</a></b> · TypeScript ★47,251</div><div class="sum">编写HTML。渲染视频。专为智能体打造</div></div><div class="item"><div class="t"><b>2. <a href="https://github.com/microsoft/markitdown">microsoft/markitdown</a></b> · Python ★181,198</div><div class="sum">用于将文件和Office文档转换为Markdown的Python工具</div></div><div class="item"><div class="t"><b>3. <a href="https://github.com/mksglu/context-mode">mksglu/context-mode</a></b> · TypeScript ★21,169</div><div class="sum">人工智能编码代理的上下文窗口优化</div></div><div class="item"><div class="t"><b>4. <a href="https://github.com/jo-inc/camofox-browser">jo-inc/camofox-browser</a></b> · JavaScript ★10,135</div><div class="sum">适用于AI代理的隐形无头浏览器—绕过Cloudflare、机器人检测和反抓取</div></div><div class="item"><div class="t"><b>5. <a href="https://github.com/MoonTechLab/LunaTV">MoonTechLab/LunaTV</a></b> · TypeScript ★10,054</div><div class="sum">本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源</div></div><div class="item"><div class="t"><b>6. <a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a></b> · JavaScript ★253,519</div><div class="sum">智能体框架性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发</div></div><div class="item"><div class="t"><b>7. <a href="https://github.com/coreyhaines31/marketingskills">coreyhaines31/marketingskills</a></b> · JavaScript ★48,442</div><div class="sum">Claude Code和人工智能代理的营销技能</div></div><div class="item"><div class="t"><b>8. <a href="https://github.com/The-Swarm-Corporation/AutoHedge">The-Swarm-Corporation/AutoHedge</a></b> · Python ★5,457</div><div class="sum">在几分钟内建立您的自主对冲基金。AutoHedge利用群体智能和人工智能代理的强大功能，实现市场分析、风险管理和交易执行的自动化</div></div><div class="item"><div class="t"><b>9. <a href="https://github.com/BraveOPotato/FckSignups">BraveOPotato/FckSignups</a></b> · TypeScript ★4,045</div><div class="sum">开源、浏览器内且无需注册的工具列表</div></div><div class="item"><div class="t"><b>10. <a href="https://github.com/bytedance/deer-flow">bytedance/deer-flow</a></b> · Python ★82,029</div><div class="sum">研究、编码和创建的开源远程SuperAgent框架</div></div>
-
-<h2>二之一、Docker / 自托管容器推荐</h2>
-<h3>二之一、Docker / 自托管容器推荐（8 条）</h3><div class="item"><div class="t"><b>1. <a href="https://github.com/awesome-selfhosted/awesome-selfhosted">awesome-selfhosted/awesome-selfhosted</a></b> ·  ★317,862</div><div class="sum">可托管在您自己的服务器上的免费软件网络服务和Web应用程序列表</div></div><div class="item"><div class="t"><b>2. <a href="https://github.com/n8n-io/n8n">n8n-io/n8n</a></b> · TypeScript ★203,708</div><div class="sum">具有原生AI功能的公平代码工作流程自动化平台</div></div><div class="item"><div class="t"><b>3. <a href="https://github.com/ohmyzsh/ohmyzsh">ohmyzsh/ohmyzsh</a></b> · Shell ★189,629</div><div class="sum">🙃   一个令人愉悦的社区驱动（拥有2,500多名贡献者）框架，用于管理您的zsh配置</div></div><div class="item"><div class="t"><b>4. <a href="https://github.com/open-webui/open-webui">open-webui/open-webui</a></b> · Python ★151,302</div><div class="sum">用户友好的AI界面（支持Ollama、OpenAI API等）</div></div><div class="item"><div class="t"><b>5. <a href="https://github.com/immich-app/immich">immich-app/immich</a></b> · TypeScript ★113,629</div><div class="sum">高性能自托管照片和视频管理解决方案</div></div><div class="item"><div class="t"><b>6. <a href="https://github.com/Stirling-Tools/Stirling-PDF">Stirling-Tools/Stirling-PDF</a></b> · Java ★91,508</div><div class="sum">GitHub上排名第一的PDF应用程序，可让您在任何地方的任何设备上编辑PDF</div></div><div class="item"><div class="t"><b>7. <a href="https://github.com/louislam/uptime-kuma">louislam/uptime-kuma</a></b> · JavaScript ★91,115</div><div class="sum">一款精美的自托管监控工具</div></div><div class="item"><div class="t"><b>8. <a href="https://github.com/unslothai/unsloth">unslothai/unsloth</a></b> · Python ★75,802</div><div class="sum">运行和训练LLM和扩散模型的本地UI</div></div>
-
-<h2>三、财经资讯</h2>
-<h3>[估值] 主要指数估值</h3>
-<div class="tbl"><table><thead><tr><th>指数</th><th>点位</th><th>涨跌幅</th><th>PE</th><th>PE分位</th><th>PB</th><th>PB分位</th><th>水位</th></tr></thead><tbody><tr><td>沪深300</td><td>4558.74</td><td>-0.36%</td><td>13.56</td><td>69%·适中</td><td>1.43</td><td>42%·适中</td><td>适中</td></tr><tr><td>中证500</td><td>7770.73</td><td>+0.15%</td><td>33.15</td><td>78%·高估</td><td>2.40</td><td>78%·高估</td><td>高估</td></tr><tr><td>创业板指</td><td>3359.72</td><td>-1.15%</td><td>38.40</td><td>32%·适中</td><td>5.38</td><td>61%·适中</td><td>适中</td></tr><tr><td>科创50</td><td>1591.0</td><td>-1.52%</td><td>135.47</td><td>80%·高估</td><td>7.31</td><td>84%·高估</td><td>高估</td></tr><tr><td>中证红利</td><td>5652.8</td><td>+1.30%</td><td>8.60</td><td>79%·高估</td><td>0.85</td><td>49%·适中</td><td>偏高（PE/PB 分歧）</td></tr><tr><td>红利低波</td><td>11127.26</td><td>+0.98%</td><td>8.45</td><td>78%·高估</td><td>0.86</td><td>61%·适中</td><td>偏高（PE/PB 分歧）</td></tr><tr><td>恒生指数</td><td>25317.18</td><td>-0.38%</td><td>11.25</td><td>62%·适中</td><td>1.19</td><td>71%·高估</td><td>偏高（PE/PB 分歧）</td></tr><tr><td>纳斯达克</td><td>26506.99</td><td>-0.29%</td><td>30.31</td><td>47%·适中</td><td>9.27</td><td>80%·高估</td><td>偏高（PE/PB 分歧）</td></tr><tr><td>标普500</td><td>7718.6</td><td>-0.38%</td><td>25.33</td><td>59%·适中</td><td>5.57</td><td>96%·高估</td><td>偏高（PE/PB 分歧）</td></tr></tbody></table></div>
-<p class="muted">估值数据来源：蛋卷基金（截至 09-08）。分位 &lt;30% 低估、30–70% 适中、&gt;70% 高估。</p>
-<h3>[板块] 行业板块实时涨跌</h3>
-<p>领涨：石油石化+3.55%、综合Ⅱ+3.24%、煤炭+2.97%、医疗服务+2.85%、农林牧渔+2.43%、钢铁+2.37%</p><p>领跌：保险Ⅱ-0.51%、证券Ⅱ-0.39%、塑料-0.22%、汽车零部件-0.21%、通用设备-0.16%、仪器仪表-0.14%</p>
-<h3>[黄金] 贵金属实时</h3>
-<p>COMEX 微型黄金：微型黄金（-0.69%）盘中实时</p><p>SGE Au99.99（经 518880 映射）：ETF 最新净值 9.0338（2026-09-07）（≈ 903 元/克）</p>
-<h3>[QDII/海外] 海外指数实时 + QDII 净值</h3>
-<p>大成纳斯达克100(QDII)（000834）：单位净值 6.3115（2026-09-04）</p><p>广发纳斯达克100指数(QDII)（270042）：单位净值 8.1742（2026-09-04）</p><p>博时标普500ETF联接(QDII)（050025）：单位净值 5.6221（2026-09-07）</p><p>易方达标普500(QDII-LOF)（161125）：单位净值 3.1685（2026-09-07）</p><p>华夏恒生科技ETF发起式(QDII)（013402）：单位净值 0.7505（2026-09-07）</p><p>交银中证海外中国互联网(QDII)（164906）：单位净值 0.9310（2026-09-04）</p><p class="muted">QDII 净值 T+2 披露；人民币计价受汇率影响。</p>
-<h3>[宏观] 财经要闻</h3>
-<ul><li>日本监管机构警惕利率上升给银行带来的风险 <span class="meta">（发布：2026-09-08 18:29 ｜ <a href="https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircmeu4519542.shtml">链接</a>）</span></li><li>交易员静待更多经济数据出炉，美债收益率小幅走高 <span class="meta">（发布：2026-09-08 18:25 ｜ <a href="https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircmeu9349531.shtml">链接</a>）</span></li><li>急于投产数据中心正在重塑各方议价能力 <span class="meta">（发布：2026-09-08 18:34 ｜ <a href="https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircmeu4521989.shtml">链接</a>）</span></li><li>协创数据“蒙眼”狂奔？资金链紧绷短期债务缺口将触及百亿 警惕财务风险 <span class="meta">（发布：2026-09-08 18:31 ｜ <a href="https://finance.sina.com.cn/stock/observe/2026-09-08/doc-inircmes5981463.shtml">链接</a>）</span></li><li>人民日报客户端 | 全球经济失衡，不能乱开药方 <span class="meta">（发布：2026-09-08 18:18 ｜ <a href="https://finance.sina.com.cn/roll/2026-09-08/doc-inircmeu4515033.shtml">链接</a>）</span></li><li>8000亿政策性金融工具启用，有望撬动10万亿投资增量 <span class="meta">（发布：2026-09-08 18:07 ｜ <a href="https://finance.sina.com.cn/roll/2026-09-08/doc-inircews9321263.shtml">链接</a>）</span></li><li>神剑股份副总经理涉嫌内幕交易被证监会立案调查！上半年业绩由盈转亏 <span class="meta">（发布：2026-09-08 18:06 ｜ <a href="https://finance.sina.com.cn/stock/s/2026-09-08/doc-inircews9321280.shtml">链接</a>）</span></li><li>金价反弹乏力 通胀升温压制黄金买盘 <span class="meta">（发布：2026-09-08 17:57 ｜ <a href="https://finance.sina.com.cn/money/nmetal/hjzx/2026-09-08/doc-inircewu6083862.shtml">链接</a>）</span></li></ul>
-<h3>[低估值提醒]（基于蛋卷 PE/PB 历史分位）</h3>
-<p class="muted">当前主要宽基/策略指数中暂无 PE、PB 双低（分位&lt;30%）的显著低估标的。</p>
-
-<footer>由 digester.py 自动生成 · 订阅 RSS：feed.xml</footer>
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <h2>历史日报</h2>
+    <div id="dateList"></div>
+  </aside>
+  <div class="overlay" id="overlay"></div>
+  <div class="main">
+    <div class="topbar">
+      <button class="menu-btn" id="menuBtn" aria-label="菜单">☰</button>
+      <span class="ttl">个人资讯日报</span>
+    </div>
+    <div class="wrap">
+      <header class="hero">
+        <h1 id="hDate">资讯日报</h1>
+        <div class="sub" id="hSub">加载中…</div>
+      </header>
+      <div id="content"></div>
+      <footer>由 digester.py 自动生成 · 订阅 RSS：<a href="feed.xml">feed.xml</a></footer>
+    </div>
+  </div>
+</div>
+<script>
+const AI_COLOR={"行业资讯":"#2563eb","模型发布":"#7c3aed","测评":"#db2777","开源模型":"#0891b2"};
+function aiColor(sub){for(const k in AI_COLOR) if(sub.indexOf(k)>=0) return AI_COLOR[k]; return "#2563eb";}
+function el(html){const d=document.createElement("div");d.innerHTML=html;return d.firstElementChild;}
+function pct(v){if(v===null||v===undefined||v==="")return "—";const n=Number(v);return (n>=0?"+":"")+n.toFixed(2)+"%";}
+function colorOf(v){if(v===null||v===undefined)return "";const n=Number(v);return n>0?"up":(n<0?"down":"");}
+function levelChip(level){if(!level)return "";const m=level==="低估"?"low":level==="高估"?"high":"mid";return '<span class="chip '+m+'">'+level+'</span>';}
+function card(html){return '<div class="card">'+html+'</div>';}
+function secHead(t,color){return '<section><div class="sec-head"><span class="dot" style="background:'+color+'"></span>'+t+'</div>';}
+function fmtTime(s){if(!s)return "";return String(s).slice(0,16).replace("T"," ");}
+function aiTag(sub){const c=aiColor(sub);return '<span class="tag" style="background:'+c+'1f;color:'+c+'">'+sub.replace(/^\d+\.\d+\s*/,"")+'</span>';}
+function renderAI(items,sub){
+  if(!items.length) return '<div class="note">今日无新增。</div>';
+  let h="";
+  items.forEach((it,i)=>{
+    if(it.kind==="model"){
+      const parts=[it.license&&("许可 "+it.license),it.param&&("参数 "+it.param),"点赞 "+it.likes,"下载 "+it.downloads,"发布 "+it.createdAt].filter(Boolean);
+      const kpis=parts.map(p=>{const s=p.split(" ");return '<span class="kpi"><b>'+s[0]+'</b> '+s.slice(1).join(" ")+'</span>';}).join("");
+      h+=card('<div class="ttl">'+i+'. '+aiTag(sub)+' <a href="'+it.url+'">'+it.id+'</a></div><div class="kpis">'+kpis+'</div>'+(it.intro?'<div class="sum">'+it.intro+'</div>':''));
+    }else{
+      h+=card('<div class="ttl">'+i+'. '+aiTag(sub)+' <a href="'+it.url+'">'+it.title+'</a></div><div class="meta">来源：'+it.source+' · 发布：'+fmtTime(it.publishedAt)+'</div>'+(it.summary?'<div class="sum">'+it.summary+'</div>':''));
+    }
+  });
+  return h;
+}
+function renderRepo(items){
+  if(!items.length) return '<div class="note">今日无新增。</div>';
+  let h="";
+  items.forEach((r,i)=>{const star=r.lang?(' · '+r.lang+' ★'+r.stars):'';h+=card('<div class="ttl">'+i+'. <a href="'+r.url+'">'+r.repo+'</a>'+star+'</div>'+(r.desc?'<div class="sum">'+r.desc+'</div>':''));});
+  return h;
+}
+function renderValuation(val){
+  if(!val||!val.length) return '<div class="note">估值数据暂不可达。</div>';
+  let rows="";
+  val.forEach(v=>{
+    rows+='<tr><td>'+v.name+'</td><td>'+(v.point??"—")+'</td><td class="'+colorOf(v.chg)+'">'+pct(v.chg)+'</td>'
+      +'<td>'+(v.pe??"—")+'</td><td>'+(v.pe_pct??"—")+'% '+levelChip(v.pe_level)+'</td>'
+      +'<td>'+(v.pb??"—")+'</td><td>'+(v.pb_pct??"—")+'% '+levelChip(v.pb_level)+'</td>'
+      +'<td>'+(v.overall??"—")+'</td></tr>';
+  });
+  return '<div class="tbl-wrap"><table><thead><tr><th>指数</th><th>点位</th><th>涨跌幅</th><th>PE</th><th>PE分位</th><th>PB</th><th>PB分位</th><th>水位</th></tr></thead><tbody>'+rows+'</tbody></table></div><div class="note">分位 &lt;30% 低估、30–70% 适中、&gt;70% 高估（涨红跌绿）。</div>';
+}
+function renderSector(s){
+  if(!s||(!s.up.length&&!s.dn.length)) return '<div class="note">行业板块行情暂不可达。</div>';
+  const f=a=>a.map(x=>x.name+'<span class="'+colorOf(x.chg)+'">'+pct(x.chg)+'</span>').join("、");
+  return card('<div class="sum">领涨：'+f(s.up)+'</div><div class="sum">领跌：'+f(s.dn)+'</div>');
+}
+function renderMacro(macro){
+  if(!macro||!macro.length) return '<div class="note">近 7 天宏观要闻均已推送，暂无可发新增。</div>';
+  let h='<ul class="news">';
+  macro.forEach(m=>{h+='<li>'+m.title+' <span class="meta">（发布：'+fmtTime(m.ctime)+' ｜ <a href="'+m.url+'">链接</a>）</span></li>';});
+  return h+'</ul>';
+}
+function renderLow(low){
+  if(!low||!low.length) return '<div class="note">当前主要宽基/策略指数中暂无 PE、PB 双低（分位&lt;30%）的显著低估标的。</div>';
+  let h='<ul class="news">';
+  low.forEach(l=>{h+='<li>'+l.name+'：PE 分位 '+l.pe_pct+'%（低估），PE '+l.pe+'｜PB 分位 '+l.pb_pct+'%，PB '+l.pb+'</li>';});
+  return h+'</ul>';
+}
+function render(d){
+  let html=secHead("一、AI 资讯","#2563eb");
+  for(const sub in d.ai){const c=aiColor(sub);html+='<div class="sec-head" style="font-size:14px;margin:14px 0 8px"><span class="dot" style="background:'+c+'"></span>'+sub+'</div>'+renderAI(d.ai[sub],sub);}
+  html+="</section>";
+  html+=secHead("二、优质开源项目","#16a34a")+renderRepo(d.repos)+"</section>";
+  html+=secHead("三、Docker / 自托管容器","#ea580c")+renderRepo(d.docker)+"</section>";
+  html+=secHead("四、财经资讯","#d97706");
+  html+='<div class="sec-head" style="font-size:14px;margin:14px 0 8px">[估值] 主要指数估值</div>'+renderValuation(d.valuation);
+  html+='<div class="sec-head" style="font-size:14px;margin:16px 0 8px">[板块] 行业板块实时涨跌</div>'+renderSector(d.sector);
+  html+='<div class="sec-head" style="font-size:14px;margin:16px 0 8px">[黄金] 贵金属实时</div>'+card('<div class="sum">'+(d.gold||"黄金行情暂不可达。")+'</div>');
+  html+='<div class="sec-head" style="font-size:14px;margin:16px 0 8px">[QDII/海外] 海外指数 + QDII 净值</div>';
+  if(d.qdii&&d.qdii.length){let q="";d.qdii.forEach(x=>{q+=card('<div class="sum">'+x.name+'（'+x.code+'）：单位净值 '+x.nav+'（'+x.date+'）</div>');});html+=q+'<div class="note">QDII 净值 T+2 披露；人民币计价受汇率影响。</div>';}else{html+='<div class="note">QDII 净值源暂不可达。</div>';}
+  html+='<div class="sec-head" style="font-size:14px;margin:16px 0 8px">[宏观] 财经要闻</div>'+renderMacro(d.macro);
+  html+='<div class="sec-head" style="font-size:14px;margin:16px 0 8px">[低估值提醒]</div>'+renderLow(d.low);
+  html+="</section>";
+  document.getElementById("content").innerHTML=html;
+  document.getElementById("hDate").textContent="资讯日报 · "+d.date+"（周"+d.weekday+"）";
+  document.getElementById("hSub").textContent="真实管道生成 · 7 天去重 + 只发未发过的较新资讯";
+  document.title="资讯日报 · "+d.date;
+}
+let dates=[];
+async function loadDate(date){
+  const meta=dates.find(x=>x.date===date)||dates[0];
+  if(!meta)return;
+  const res=await fetch(meta.file);const d=await res.json();
+  render(d);
+  history.replaceState(null,"","#"+date);
+  document.querySelectorAll(".date-item").forEach(e=>e.classList.toggle("active",e.dataset.date===date));
+  document.getElementById("sidebar").classList.remove("open");
+  document.getElementById("overlay").classList.remove("show");
+  window.scrollTo(0,0);
+}
+async function init(){
+  const r=await fetch("dates.json");dates=await r.json();
+  const list=document.getElementById("dateList");
+  dates.forEach(x=>{const a=el('<a class="date-item" data-date="'+x.date+'">'+x.date+'</a>');a.onclick=()=>loadDate(x.date);list.appendChild(a);});
+  const target=(location.hash||"").replace("#","");
+  loadDate(dates.some(x=>x.date===target)?target:dates[0].date);
+}
+document.getElementById("menuBtn").onclick=()=>{document.getElementById("sidebar").classList.toggle("open");document.getElementById("overlay").classList.toggle("show");};
+document.getElementById("overlay").onclick=()=>{document.getElementById("sidebar").classList.remove("open");document.getElementById("overlay").classList.remove("show");};
+window.addEventListener("hashchange",()=>{const t=(location.hash||"").replace("#","");if(dates.some(x=>x.date===t))loadDate(t);});
+init();
+</script>
 </body>
 </html>

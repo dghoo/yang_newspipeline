@@ -27,5 +27,5 @@ jobs:
           git config user.email "bot@local"
           # trans_cache.json 一并提交：翻译结果持久化，避免每天重复调用翻译接口触发限流
           # docs/index.html 为完整网页版日报（含表格），必须一并提交，否则 Pages 不更新
-          git add docs/feed.xml docs/index.html output/ state/sent_history.json state/trans_cache.json
+          git add docs/feed.xml docs/index.html docs/dates.json docs/data output/ state/sent_history.json state/trans_cache.json
           git diff --cached --quiet && echo "no change" || (git commit -m "daily $(date +%F)" && git push)
