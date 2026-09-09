@@ -91,5 +91,9 @@
   "An agentic skills framework & software development methodology that works.": "有效的智能体技能框架和软件开发方法",
   "Agents that use the browser.": "使用浏览器的代理",
   "📱 Display and control your Android device graphically with scrcpy.": "使用scrcpy以图形方式📱显示和控制您的Android设备",
-  "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.": "f.k.a. Awesome ChatGPT提示"
+  "Key highlights of the model are summarized below:": "该模型的主要亮点总结如下：",
+  "A 0.6B-parameter text normalizer for speech-to-text output. It takes a raw ASR\ntranscript and rewrites it as clean written text: fillers removed, false starts\nand self-corrections resolved to the value the speaker landed on, punctuation\nand capitalization applied, and spoken numbers, dates, times, currency and\nemail addresses rendered in written form.": "用于语音到文本输出的0.6B参数文本归一化器",
+  "K2-Horizon-MoVA-36B-A4B is the sparse member of the K2-Horizon family: a Mixture-of-Experts model with Mixture-of-Values attention (MoVA) that stores 36B parameters and runs 4B per token. We have released the final checkpoint; intermediate checkpoints, along with the data and the training code, will be released.": "K2-Horizon-MoVA-36B-A4B是K2-Horizon系列的稀疏成员：具有值混合注意力（ MoVA ）的专家混合模型，存储36B参数，每个令牌运行4B",
+  "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.": "一个用于改进Claude Code行为的CLAUDE.md文件，源自Andrej Karpathy对LLM编码陷阱的观察",
+  "OpenAI Plugins": "OpenAI插件"
 }

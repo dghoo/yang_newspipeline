@@ -1359,62 +1359,73 @@ def main():
 
     # ============ 生成 RSS feed.xml ============
     # ============ 生成 RSS feed.xml ============
-    # 每条 description 改为【纯文本 + 换行】，不再内嵌 HTML 标签：
-    # 保证各类手机 RSS 阅读器排版一致（不显示 <b>/<br>/<a> 原始标签），导航依赖 <link> 字段；
-    # 每条带 pubDate + 唯一 guid，便于阅读器排序与去重。
+    # 每条 description 用【干净 HTML（CDATA 包裹）】渲染：
+    # 标题不再在正文中重复（阅读器已显示 <title>），正文结构统一为「元数据 → 摘要/简介 → 原文链接」；
+    # 依赖 <link> 与内联 <a> 双导航；每条带 pubDate + 唯一 guid。ReadYou/Reeder/Inoreader 等均按 HTML 渲染。
     NOW_RFC = datetime.datetime.now(datetime.timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
     rss_items = []
+
+    def _rss_desc(*parts):
+        # 用 <br> 连接非空片段，生成干净 HTML 描述（动态文本已用 _h 转义，仅保留我们插入的结构标签）
+        return "<br>".join(p for p in parts if p)
+
     for key, _sub, _short in AI_SECTIONS:
         cat = _sub.split(" ", 1)[-1]        # "1.1 AI 行业资讯" -> "AI 行业资讯"
         for it in ai_groups.get(key, []):
             if key == "开源模型":
                 bits = []
                 if it.get("license"):
-                    bits.append(f"许可 {it['license']}")
+                    bits.append(f"许可 {_h(it['license'])}")
                 if it.get("param"):
-                    bits.append(f"参数 {it['param']}")
+                    bits.append(f"参数 {_h(it['param'])}")
                 bits.append(f"点赞 {fmt_num(it['likes'])}")
                 bits.append(f"下载 {fmt_num(it['downloads'])}")
-                bits.append(f"发布 {it.get('createdAt', '')[:10]}")
-                lines = [" · ".join(bits)]
+                bits.append(f"发布 {_h(it.get('createdAt', '')[:10])}")
+                parts = [" · ".join(bits)]
                 if it.get("intro"):
-                    lines.append(it["intro"])
-                rss_items.append(rss_item(f"[开源模型] {it['id']}", it["url"], "\n".join(lines), cat, NOW_RFC, it["url"]))
+                    parts.append(_h(it["intro"]))
+                parts.append(f'<a href="{_h(it["url"])}">模型地址</a>')
+                rss_items.append(rss_item(f"[开源模型] {it['id']}", it["url"], _rss_desc(*parts), cat, NOW_RFC, it["url"]))
             else:
-                lines = [f"来源：{it['source']} · 发布：{fmt_time(it['publishedAt'])}"]
+                parts = [f"来源：{_h(it['source'])} · 发布：{_h(fmt_time(it['publishedAt']))}"]
                 if it["summary"]:
-                    lines.append(it["summary"])
-                rss_items.append(rss_item(it["title"], it["url"], "\n".join(lines), cat, NOW_RFC, it["url"]))
+                    parts.append(_h(it["summary"]))
+                parts.append(f'<a href="{_h(it['url'])}">查看原文</a>')
+                rss_items.append(rss_item(it["title"], it["url"], _rss_desc(*parts), cat, NOW_RFC, it["url"]))
     for r in repos_shown:
-        lines = [f"{r['lang']} ★{r['stars']}"]
+        parts = [f"{_h(r['lang'])} ★{_h(r['stars'])}"]
         if r["desc"]:
             d = r["desc"]
             if not _ok_zh(d):
                 d = d + "（英文原文，翻译源暂不可用）"
-            lines.append(d)
-        rss_items.append(rss_item(f"{r['repo']} ★{r['stars']}", r["url"], "\n".join(lines), "开源", NOW_RFC, r["url"]))
+            parts.append(_h(d))
+        parts.append(f'<a href="{_h(r['url'])}">地址</a>')
+        rss_items.append(rss_item(f"{r['repo']} ★{r['stars']}", r["url"], _rss_desc(*parts), "开源", NOW_RFC, r["url"]))
     for r in docker_shown:
-        lines = []
+        parts = []
         if r.get("desc"):
             d = r["desc"]
             if not _ok_zh(d):
                 d = d + "（英文原文，翻译源暂不可用）"
-            lines.append(d)
-        rss_items.append(rss_item(f"[Docker] {r['repo']}", r["url"], "\n".join(lines), "Docker", NOW_RFC, r["url"]))
+            parts.append(_h(d))
+        parts.append(f'<a href="{_h(r['url'])}">地址</a>')
+        rss_items.append(rss_item(f"[Docker] {r['repo']}", r["url"], _rss_desc(*parts), "Docker", NOW_RFC, r["url"]))
     for m in macro_shown:
-        lines = []
+        murl = m.get("url") or "https://finance.sina.com.cn/"
+        parts = []
         if m.get("ctime"):
-            lines.append(f"发布：{fmt_time(m['ctime'])}")
+            parts.append(f"发布：{_h(fmt_time(m['ctime']))}")
         if m.get("intro"):
-            lines.append(m["intro"])
-        rss_items.append(rss_item(f"[宏观] {m['title']}", m.get("url") or "https://finance.sina.com.cn/", "\n".join(lines), "宏观", NOW_RFC, m.get("url") or m["title"]))
+            parts.append(_h(m["intro"]))
+        parts.append(f'<a href="{_h(murl)}">链接</a>')
+        rss_items.append(rss_item(f"[宏观] {m['title']}", murl, _rss_desc(*parts), "宏观", NOW_RFC, murl))
     # 市场快照作为一条
-    snap_lines = ["每日市场快照："]
+    snap = ["每日市场快照："]
     if indices:
-        snap_lines.append("；".join(f"{x['name']}{fmt_pct(x['chg'])}" for x in indices) + "。")
+        snap.append("；".join(f"{x['name']}{fmt_pct(x['chg'])}" for x in indices) + "。")
     if gold:
-        snap_lines.append(f"{gold['name']}{fmt_pct(gold['chg'])}。")
-    rss_items.append(rss_item(f"市场快照 {today_str}", "https://eastmoney.com", "\n".join(snap_lines), "财经", NOW_RFC, "snapshot-" + today_str))
+        snap.append(f"{gold['name']}{fmt_pct(gold['chg'])}。")
+    rss_items.append(rss_item(f"市场快照 {today_str}", "https://eastmoney.com", _rss_desc(*snap), "财经", NOW_RFC, "snapshot-" + today_str))
     # 估值快照作为一条
     if valuation and indices:
         vlines = []
@@ -1424,12 +1435,14 @@ def main():
                 vlines.append(f"{x['name']} PE分位{float(v['pe_pct']) * 100:.0f}%({val_level(v['pe_pct'])}) PB分位{float(v['pb_pct']) * 100:.0f}%({val_level(v['pb_pct'])})")
         if vlines:
             vlines.append(f"（蛋卷，截至 {val_date}）")
-            rss_items.append(rss_item(f"指数估值 {today_str}", "https://danjuanfunds.com/", "\n".join(vlines), "估值", NOW_RFC, "valuation-" + today_str))
+            rss_items.append(rss_item(f"指数估值 {today_str}", "https://danjuanfunds.com/", _rss_desc(*vlines), "估值", NOW_RFC, "valuation-" + today_str))
 
     # 完整网页版日报（含全部表格与全文，手机阅读排版更完整）——Pages 部署后相对路径可正确解析
     html_link = (PAGES_URL + f"/index.html#{today_str}") if PAGES_URL else f"index.html#{today_str}"
     rss_items.append(rss_item("完整资讯日报（网页版）", html_link,
-                              "点击查看完整排版日报（含指数估值表、板块涨跌、各栏目全文）", "日报", NOW_RFC, "full-" + today_str))
+                              _rss_desc(f'<a href="{_h(html_link)}">完整资讯日报（网页版）</a>',
+                                        "点击查看完整排版日报（含指数估值表、板块涨跌、各栏目全文）"),
+                              "日报", NOW_RFC, "full-" + today_str))
 
     feed = build_rss(rss_items, today_str)
     with open(os.path.join(DOC_DIR, "feed.xml"), "w", encoding="utf-8") as f:
@@ -1580,6 +1593,17 @@ footer{margin-top:34px;color:var(--muted);font-size:12px;text-align:center;paddi
   .menu-btn{display:none}
   .main{margin-left:264px}
 }
+.filterbar{position:sticky;top:65px;z-index:14;background:var(--card);border-bottom:1px solid var(--line);
+  padding:10px 16px;display:flex;flex-direction:column;gap:8px}
+.search{width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);
+  color:var(--text);font-size:14px;outline:none}
+.search:focus{border-color:var(--accent)}
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:2px}
+.chip-btn{flex:none;border:1px solid var(--line);background:var(--card);color:var(--muted);
+  font-size:13px;padding:5px 13px;border-radius:999px;cursor:pointer;white-space:nowrap}
+.chip-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.empty{color:var(--muted);text-align:center;padding:34px 0;font-size:14px}
+mark{background:rgba(37,99,235,.18);color:inherit;border-radius:3px;padding:0 1px}
 </style>
 </head>
 <body>
@@ -1594,12 +1618,17 @@ footer{margin-top:34px;color:var(--muted);font-size:12px;text-align:center;paddi
       <button class="menu-btn" id="menuBtn" aria-label="菜单">☰</button>
       <span class="ttl">个人资讯日报</span>
     </div>
+    <div class="filterbar">
+      <input class="search" id="search" type="search" placeholder="搜索标题 / 摘要 / 项目名…" autocomplete="off">
+      <div class="chips" id="chips"></div>
+    </div>
     <div class="wrap">
       <header class="hero">
         <h1 id="hDate">资讯日报</h1>
         <div class="sub" id="hSub">加载中…</div>
       </header>
       <div id="content"></div>
+      <div class="empty" id="emptyHint" style="display:none">未找到匹配的资讯</div>
       <footer>由 digester.py 自动生成 · 订阅 RSS：<a href="feed.xml">feed.xml</a></footer>
     </div>
   </div>
@@ -1612,7 +1641,7 @@ function pct(v){if(v===null||v===undefined||v==="")return "—";const n=Number(v
 function colorOf(v){if(v===null||v===undefined)return "";const n=Number(v);return n>0?"up":(n<0?"down":"");}
 function levelChip(level){if(!level)return "";const m=level==="低估"?"low":level==="高估"?"high":"mid";return '<span class="chip '+m+'">'+level+'</span>';}
 function card(html){return '<div class="card">'+html+'</div>';}
-function secHead(t,color){return '<section><div class="sec-head"><span class="dot" style="background:'+color+'"></span>'+t+'</div>';}
+function secHead(t,color,cat){return '<section data-cat="'+(cat||"")+'"><div class="sec-head"><span class="dot" style="background:'+color+'"></span>'+t+'</div>';}
 function fmtTime(s){if(!s)return "";return String(s).slice(0,16).replace("T"," ");}
 function aiTag(sub){const c=aiColor(sub);return '<span class="tag" style="background:'+c+'1f;color:'+c+'">'+sub.replace(/^\d+\.\d+\s*/,"")+'</span>';}
 function renderAI(items,sub){
@@ -1664,24 +1693,50 @@ function renderLow(low){
   return h+'</ul>';
 }
 function render(d){
-  let html=secHead("一、AI 资讯","#2563eb");
+  let html=secHead("一、AI 资讯","#2563eb","AI");
   for(const sub in d.ai){const c=aiColor(sub);html+='<div class="sec-head" style="font-size:14px;margin:14px 0 8px"><span class="dot" style="background:'+c+'"></span>'+sub+'</div>'+renderAI(d.ai[sub],sub);}
   html+="</section>";
-  html+=secHead("二、优质开源项目","#16a34a")+renderRepo(d.repos)+"</section>";
-  html+=secHead("三、Docker / 自托管容器","#ea580c")+renderRepo(d.docker)+"</section>";
-  html+=secHead("四、财经资讯","#d97706");
+  html+=secHead("二、优质开源项目","#16a34a","开源")+renderRepo(d.repos)+"</section>";
+  html+=secHead("三、Docker / 自托管容器","#ea580c","Docker")+renderRepo(d.docker)+"</section>";
+  html+=secHead("四、财经资讯","#d97706","财经");
   html+='<div class="sec-head" style="font-size:14px;margin:14px 0 8px">[估值] 主要指数估值</div>'+renderValuation(d.valuation);
   html+='<div class="sec-head" style="font-size:14px;margin:16px 0 8px">[板块] 行业板块实时涨跌</div>'+renderSector(d.sector);
   html+='<div class="sec-head" style="font-size:14px;margin:16px 0 8px">[黄金] 贵金属实时</div>'+card('<div class="sum">'+(d.gold||"黄金行情暂不可达。")+'</div>');
   html+='<div class="sec-head" style="font-size:14px;margin:16px 0 8px">[QDII/海外] 海外指数 + QDII 净值</div>';
   if(d.qdii&&d.qdii.length){let q="";d.qdii.forEach(x=>{q+=card('<div class="sum">'+x.name+'（'+x.code+'）：单位净值 '+x.nav+'（'+x.date+'）</div>');});html+=q+'<div class="note">QDII 净值 T+2 披露；人民币计价受汇率影响。</div>';}else{html+='<div class="note">QDII 净值源暂不可达。</div>';}
   html+='<div class="sec-head" style="font-size:14px;margin:16px 0 8px">[宏观] 财经要闻</div>'+renderMacro(d.macro);
-  html+='<div class="sec-head" style="font-size:14px;margin:16px 0 8px">[低估值提醒]</div>'+renderLow(d.low);
   html+="</section>";
+  html+=secHead("五、低估值提醒","#0891b2","低估值")+renderLow(d.low)+"</section>";
   document.getElementById("content").innerHTML=html;
   document.getElementById("hDate").textContent="资讯日报 · "+d.date+"（周"+d.weekday+"）";
   document.getElementById("hSub").textContent="真实管道生成 · 7 天去重 + 只发未发过的较新资讯";
   document.title="资讯日报 · "+d.date;
+  applyFilter();
+}
+const CATS=["全部","AI","开源","Docker","财经","低估值"];
+let activeCat="全部";
+function buildChips(){
+  const c=document.getElementById("chips");c.innerHTML="";
+  CATS.forEach(n=>{
+    const b=el('<button class="chip-btn'+(n===activeCat?' active':'')+'">'+n+'</button>');
+    b.onclick=()=>{activeCat=n;document.querySelectorAll(".chip-btn").forEach(x=>x.classList.remove("active"));b.classList.add("active");applyFilter();};
+    c.appendChild(b);
+  });
+}
+function applyFilter(){
+  const q=(document.getElementById("search").value||"").toLowerCase().trim();
+  let anyVisible=false;
+  document.querySelectorAll("#content section[data-cat]").forEach(sec=>{
+    const showCat=(activeCat==="全部")||(sec.dataset.cat===activeCat);
+    sec.style.display=showCat?"":"none";
+    if(!showCat)return;
+    const nodes=sec.querySelectorAll(".card, ul.news li, .tbl-wrap");
+    let secAny=false;
+    nodes.forEach(n=>{const t=(n.textContent||"").toLowerCase();const ok=!q||t.indexOf(q)>=0;n.style.display=ok?"":"none";if(ok)secAny=true;});
+    if(q&&nodes.length&&!secAny)sec.style.display="none";
+    if(sec.style.display!=="none")anyVisible=true;
+  });
+  document.getElementById("emptyHint").style.display=(q&&!anyVisible)?"block":"none";
 }
 let dates=[];
 async function loadDate(date){
@@ -1697,6 +1752,8 @@ async function loadDate(date){
 }
 async function init(){
   const r=await fetch("dates.json");dates=await r.json();
+  buildChips();
+  document.getElementById("search").addEventListener("input",applyFilter);
   const list=document.getElementById("dateList");
   dates.forEach(x=>{const a=el('<a class="date-item" data-date="'+x.date+'">'+x.date+'</a>');a.onclick=()=>loadDate(x.date);list.appendChild(a);});
   const target=(location.hash||"").replace("#","");

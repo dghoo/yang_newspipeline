@@ -79,6 +79,17 @@ footer{margin-top:34px;color:var(--muted);font-size:12px;text-align:center;paddi
   .menu-btn{display:none}
   .main{margin-left:264px}
 }
+.filterbar{position:sticky;top:65px;z-index:14;background:var(--card);border-bottom:1px solid var(--line);
+  padding:10px 16px;display:flex;flex-direction:column;gap:8px}
+.search{width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);
+  color:var(--text);font-size:14px;outline:none}
+.search:focus{border-color:var(--accent)}
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:2px}
+.chip-btn{flex:none;border:1px solid var(--line);background:var(--card);color:var(--muted);
+  font-size:13px;padding:5px 13px;border-radius:999px;cursor:pointer;white-space:nowrap}
+.chip-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.empty{color:var(--muted);text-align:center;padding:34px 0;font-size:14px}
+mark{background:rgba(37,99,235,.18);color:inherit;border-radius:3px;padding:0 1px}
 </style>
 </head>
 <body>
@@ -93,12 +104,17 @@ footer{margin-top:34px;color:var(--muted);font-size:12px;text-align:center;paddi
       <button class="menu-btn" id="menuBtn" aria-label="菜单">☰</button>
       <span class="ttl">个人资讯日报</span>
     </div>
+    <div class="filterbar">
+      <input class="search" id="search" type="search" placeholder="搜索标题 / 摘要 / 项目名…" autocomplete="off">
+      <div class="chips" id="chips"></div>
+    </div>
     <div class="wrap">
       <header class="hero">
         <h1 id="hDate">资讯日报</h1>
         <div class="sub" id="hSub">加载中…</div>
       </header>
       <div id="content"></div>
+      <div class="empty" id="emptyHint" style="display:none">未找到匹配的资讯</div>
       <footer>由 digester.py 自动生成 · 订阅 RSS：<a href="feed.xml">feed.xml</a></footer>
     </div>
   </div>
@@ -111,7 +127,7 @@ function pct(v){if(v===null||v===undefined||v==="")return "—";const n=Number(v
 function colorOf(v){if(v===null||v===undefined)return "";const n=Number(v);return n>0?"up":(n<0?"down":"");}
 function levelChip(level){if(!level)return "";const m=level==="低估"?"low":level==="高估"?"high":"mid";return '<span class="chip '+m+'">'+level+'</span>';}
 function card(html){return '<div class="card">'+html+'</div>';}
-function secHead(t,color){return '<section><div class="sec-head"><span class="dot" style="background:'+color+'"></span>'+t+'</div>';}
+function secHead(t,color,cat){return '<section data-cat="'+(cat||"")+'"><div class="sec-head"><span class="dot" style="background:'+color+'"></span>'+t+'</div>';}
 function fmtTime(s){if(!s)return "";return String(s).slice(0,16).replace("T"," ");}
 function aiTag(sub){const c=aiColor(sub);return '<span class="tag" style="background:'+c+'1f;color:'+c+'">'+sub.replace(/^\d+\.\d+\s*/,"")+'</span>';}
 function renderAI(items,sub){
@@ -163,24 +179,50 @@ function renderLow(low){
   return h+'</ul>';
 }
 function render(d){
-  let html=secHead("一、AI 资讯","#2563eb");
+  let html=secHead("一、AI 资讯","#2563eb","AI");
   for(const sub in d.ai){const c=aiColor(sub);html+='<div class="sec-head" style="font-size:14px;margin:14px 0 8px"><span class="dot" style="background:'+c+'"></span>'+sub+'</div>'+renderAI(d.ai[sub],sub);}
   html+="</section>";
-  html+=secHead("二、优质开源项目","#16a34a")+renderRepo(d.repos)+"</section>";
-  html+=secHead("三、Docker / 自托管容器","#ea580c")+renderRepo(d.docker)+"</section>";
-  html+=secHead("四、财经资讯","#d97706");
+  html+=secHead("二、优质开源项目","#16a34a","开源")+renderRepo(d.repos)+"</section>";
+  html+=secHead("三、Docker / 自托管容器","#ea580c","Docker")+renderRepo(d.docker)+"</section>";
+  html+=secHead("四、财经资讯","#d97706","财经");
   html+='<div class="sec-head" style="font-size:14px;margin:14px 0 8px">[估值] 主要指数估值</div>'+renderValuation(d.valuation);
   html+='<div class="sec-head" style="font-size:14px;margin:16px 0 8px">[板块] 行业板块实时涨跌</div>'+renderSector(d.sector);
   html+='<div class="sec-head" style="font-size:14px;margin:16px 0 8px">[黄金] 贵金属实时</div>'+card('<div class="sum">'+(d.gold||"黄金行情暂不可达。")+'</div>');
   html+='<div class="sec-head" style="font-size:14px;margin:16px 0 8px">[QDII/海外] 海外指数 + QDII 净值</div>';
   if(d.qdii&&d.qdii.length){let q="";d.qdii.forEach(x=>{q+=card('<div class="sum">'+x.name+'（'+x.code+'）：单位净值 '+x.nav+'（'+x.date+'）</div>');});html+=q+'<div class="note">QDII 净值 T+2 披露；人民币计价受汇率影响。</div>';}else{html+='<div class="note">QDII 净值源暂不可达。</div>';}
   html+='<div class="sec-head" style="font-size:14px;margin:16px 0 8px">[宏观] 财经要闻</div>'+renderMacro(d.macro);
-  html+='<div class="sec-head" style="font-size:14px;margin:16px 0 8px">[低估值提醒]</div>'+renderLow(d.low);
   html+="</section>";
+  html+=secHead("五、低估值提醒","#0891b2","低估值")+renderLow(d.low)+"</section>";
   document.getElementById("content").innerHTML=html;
   document.getElementById("hDate").textContent="资讯日报 · "+d.date+"（周"+d.weekday+"）";
   document.getElementById("hSub").textContent="真实管道生成 · 7 天去重 + 只发未发过的较新资讯";
   document.title="资讯日报 · "+d.date;
+  applyFilter();
+}
+const CATS=["全部","AI","开源","Docker","财经","低估值"];
+let activeCat="全部";
+function buildChips(){
+  const c=document.getElementById("chips");c.innerHTML="";
+  CATS.forEach(n=>{
+    const b=el('<button class="chip-btn'+(n===activeCat?' active':'')+'">'+n+'</button>');
+    b.onclick=()=>{activeCat=n;document.querySelectorAll(".chip-btn").forEach(x=>x.classList.remove("active"));b.classList.add("active");applyFilter();};
+    c.appendChild(b);
+  });
+}
+function applyFilter(){
+  const q=(document.getElementById("search").value||"").toLowerCase().trim();
+  let anyVisible=false;
+  document.querySelectorAll("#content section[data-cat]").forEach(sec=>{
+    const showCat=(activeCat==="全部")||(sec.dataset.cat===activeCat);
+    sec.style.display=showCat?"":"none";
+    if(!showCat)return;
+    const nodes=sec.querySelectorAll(".card, ul.news li, .tbl-wrap");
+    let secAny=false;
+    nodes.forEach(n=>{const t=(n.textContent||"").toLowerCase();const ok=!q||t.indexOf(q)>=0;n.style.display=ok?"":"none";if(ok)secAny=true;});
+    if(q&&nodes.length&&!secAny)sec.style.display="none";
+    if(sec.style.display!=="none")anyVisible=true;
+  });
+  document.getElementById("emptyHint").style.display=(q&&!anyVisible)?"block":"none";
 }
 let dates=[];
 async function loadDate(date){
@@ -196,6 +238,8 @@ async function loadDate(date){
 }
 async function init(){
   const r=await fetch("dates.json");dates=await r.json();
+  buildChips();
+  document.getElementById("search").addEventListener("input",applyFilter);
   const list=document.getElementById("dateList");
   dates.forEach(x=>{const a=el('<a class="date-item" data-date="'+x.date+'">'+x.date+'</a>');a.onclick=()=>loadDate(x.date);list.appendChild(a);});
   const target=(location.hash||"").replace("#","");

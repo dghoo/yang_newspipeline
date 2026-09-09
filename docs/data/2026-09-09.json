@@ -6,276 +6,276 @@
   "1.1 AI 行业资讯": [
    {
     "kind": "news",
-    "title": "GPT-6 Astra推理等级怎么选才最省Token",
-    "url": "https://aihot.news/items/cmttcqkx404pprofp0jwc34zu",
-    "source": "公众号：数字生命卡兹克",
-    "publishedAt": "2026-09-09T00:09:00.000Z",
-    "summary": "卡兹克发文讲解GPT-6 Astra的推理强度等级（Reasoning Effort）含义，指出各档位是同一模型的不同思考预算，Ultra则类似拉起多个智能体协作的专项工作组。"
+    "title": "Emad Mostaque 称 OpenAI 智能体求解 Navier-Stokes 千禧年难题是迈向 ASI 的里程碑",
+    "url": "https://aihot.news/items/cmtsyfj5p01qgro5wfoz5h410",
+    "source": "X：Emad Mostaque (@EMostaque)",
+    "publishedAt": "2026-09-08T17:35:10.000Z",
+    "summary": "Emad Mostaque 转发 OpenAI 的公告并评论称这是迈向 ASI 的里程碑事件。OpenAI 宣布由一组智能体使用显著强于 GPT-6 Astra 的下一代模型，给出了 Navier-Stokes 千禧年大奖难题的一个 blow up 解，该问题涉及三维光滑流体运动的描述是否会崩溃，约 90 年未解。"
    },
    {
     "kind": "news",
-    "title": "Simon Willison 评 OpenAI 用未发布模型求解 Navier-Stokes 千禧年大奖难题之争",
-    "url": "https://aihot.news/items/cmttbyra803k5rofpxjajvkez",
-    "source": "Simon Willison 博客",
-    "publishedAt": "2026-09-08T23:55:12.000Z",
-    "summary": "OpenAI 用未发布模型在约88小时内给出 Navier-Stokes 存在与光滑性问题（七大千禧年难题之一）的解答，并通过 GPT-6 Astra 完成17小时 Lean 形式化验证，全程发送490万条消息、消耗约3000亿输出 token。"
+    "title": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认",
+    "url": "https://aihot.news/items/cmtsz2a0q02ciro5w7oz3a0ix",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-09-08T17:32:15.000Z",
+    "summary": "NYU 数学教授 Tristan Buckmaster 与 Anthropic 数学家 Levent Alpöge 公布针对 Navier-Stokes 存在与光滑性这一千禧年难题的三项证明初步结果，并称其研究进展信息被泄露给 OpenAI，对方随后用大量算力沿其独特路线追赶证明。"
    },
    {
     "kind": "news",
-    "title": "Meta 智能体产品 Muse 开放体验，官方回应用户好评",
-    "url": "https://aihot.news/items/cmttchnc104jvrofp05adlcv6",
-    "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
-    "publishedAt": "2026-09-08T23:48:02.000Z",
-    "summary": "Meta 的 Muse 智能体产品开放更多用户试用，入口为 https://muse.ai/join，Meta 首席 AI 官 Alexandr Wang 称团队为产品倾注心血并感谢用户反响。引用的评价称其设计、速度和浏览器等智能体流程表现出色，具备 Instagram 等 Meta 产品原生集成优势，但也指出 soul.md 等命名对普通用户不直观、feed 内容相关性不足等问题。"
+    "title": "Noam Brown 评 OpenAI 用智能体求解 Navier-Stokes 千禧年难题：成本会快速下降",
+    "url": "https://aihot.news/items/cmtsy52b401faro5wv9smnfmk",
+    "source": "X：Noam Brown (@polynoamial)",
+    "publishedAt": "2026-09-08T17:25:41.000Z",
+    "summary": "Noam Brown 就 OpenAI 宣布以智能体组合求解 Navier-Stokes 千禧年大奖难题发表看法，承认这次证明花费数百万美元，但认为成本会快速下降。"
    },
    {
     "kind": "news",
-    "title": "Runway 发布 Adobe 插件，可在 Premiere Pro 和 After Effects 内直接生成与编辑",
-    "url": "https://aihot.news/items/cmtt7nvmn02h6romq0xpo0p2w",
-    "source": "Runway：News（网页）",
-    "publishedAt": "2026-09-08T21:58:07.884Z",
-    "summary": "Runway 发布 Runway Plugins，新面板可直接嵌入 Premiere Pro 和 After Effects，在时间线内生成图像和视频、重绘片段并放置结果。Edit Studio 可基于已有片段用 Aleph 2 按原始时长重新渲染，插件免费下载（macOS 和 Windows），生成功能面向所有付费计划并消耗现有额度。"
+    "title": "Anthropic 讲解用 Claude Platform 降低成本并提升性能的三个方法",
+    "url": "https://aihot.news/items/cmtsxacbf04jkrob5fu5sp5ti",
+    "source": "X：Claude Devs (@ClaudeDevs)",
+    "publishedAt": "2026-09-08T17:01:27.000Z",
+    "summary": "Anthropic 团队文章指出，优化 prompt cache 命中率、清除升级到前沿 Claude 模型后的提示词反模式、校准 effort 三个手段可在不牺牲性能的情况下降低成本。"
    },
    {
     "kind": "news",
-    "title": "OpenAI 向 Plus、Pro、Business 和 Enterprise 用户全面推送 Astra",
-    "url": "https://aihot.news/items/cmtt65r1002f0rocpzpypdjgt",
-    "source": "X：OpenAI (@OpenAI)",
-    "publishedAt": "2026-09-08T21:06:10.000Z",
-    "summary": "OpenAI 宣布 Astra 已全面推送给 Codex 和 ChatGPT Work 中的 Plus、Pro、Business 和 Enterprise 用户。用户可以直接使用，并可通过 openai.com/gpt-tv/ 观看 Astra 的实机演示。"
+    "title": "Tom Tunguz 分析 OpenAI 的 3x AI 生产力增益是否只是机器不睡觉",
+    "url": "https://aihot.news/items/cmtt3hrxg02xarowa0a6iz1dc",
+    "source": "Tomer Tunguz 博客（VC 分析）",
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "summary": "Tom Tunguz 引用 OpenAI 内部数据，分析其 3x 研究生产力增益的来源：每名研究员 8 小时班次对应 3.14 个 agent 工作日，通常并行运行 4 个 agent。"
    },
    {
     "kind": "news",
-    "title": "Sam Altman 回应与 Anthropic 研究员的 Navier-Stokes 证明发布争议",
-    "url": "https://aihot.news/items/cmtszfjuo04a7ro5wxi2n02va",
-    "source": "X：Sam Altman (@sama)",
-    "publishedAt": "2026-09-08T18:02:46.000Z",
-    "summary": "Sam Altman 发文回应与 Anthropic 一方围绕 Euler/Navier-Stokes 证明发布的争议，称对方只有 Euler 结果、双方协调失败，并称对方以抄袭指控相威胁。"
+    "title": "最高法发布涉人工智能纠纷案件审理意见，明确 AI 换脸拟声等裁判规则",
+    "url": "https://aihot.news/items/cmtqy60930445ro7r5nodgoig",
+    "source": "IT之家（RSS）",
+    "publishedAt": "2026-09-07T07:46:08.000Z",
+    "summary": "最高人民法院发布《关于依法审理涉人工智能纠纷案件的意见》，共 5 部分 24 条，明确 AI 换脸拟声、AI 复活逝者、大数据杀熟、仿冒名人带货、网络开盒及自动驾驶事故等情形的裁判规则。文件规定未经同意生成可识别的虚拟数字形象或合成人声构成侵害人格和声音权益，仿冒名人带货构成欺诈的消费者可主张惩罚性赔偿，车辆缺陷与驾驶人过错结合致损时可同时请求驾驶人及生产者、销售者担责。"
    }
   ],
   "1.2 模型发布动态": [
    {
     "kind": "news",
-    "title": "OpenAI 智能体团队宣布求解 Navier-Stokes 千禧年大奖难题并向独立证明者致贺",
-    "url": "https://aihot.news/items/cmtsynojw01xqro5wb8n7ysor",
-    "source": "X：OpenAI (@OpenAI)",
-    "publishedAt": "2026-09-08T17:23:27.000Z",
-    "summary": "OpenAI 宣布由一组智能体使用一个能力显著超过 GPT-6 Astra 的下一代模型给出 Navier-Stokes 千禧年大奖难题的解，该问题关注三维光滑流体运动的描述是否会失效，已悬置约 90 年。"
+    "title": "GPT-6 Astra 上线 Microsoft Foundry，早期客户已在 Azure 上使用",
+    "url": "https://aihot.news/items/cmtmehz6p01cerotxiqdnxdw2",
+    "source": "X：Satya Nadella (@satyanadella)",
+    "publishedAt": "2026-09-04T03:21:12.000Z",
+    "summary": "Satya Nadella 发文表示，早期客户已开始使用 Azure 上的 Astra。GPT-6 Astra 现已通过 Microsoft Foundry 提供，详情见 Azure 官方博客 https://azure.microsoft.com/en-us/blog/gpt-6-astra-frontier-intelligence-for-work-now-available-in-microsoft-foundry/。"
    },
    {
     "kind": "news",
-    "title": "Dwarkesh Patel 研究：预训练进步主要来自数据改进",
-    "url": "https://aihot.news/items/cmtsx0wm4041jrob5liwjypsq",
-    "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-    "publishedAt": "2026-09-08T16:10:16.000Z",
-    "summary": "Dwarkesh Patel 发布实验分析，在最高 1e19 FLOPs 的算力预算下训练 2019 至 2025 年各年度代表性模型配方与数据语料，发现数据改进带来 12.0x 算力效率提升，模型改进为 3.7x，数据贡献约为模型的 3.24 倍。"
+    "title": "OpenAI 发布 GPT-6 Astra，主打桌面自动化与网络安全 Critical 档位",
+    "url": "https://aihot.news/items/cmtmcipsq00sirovbhprdqc1x",
+    "source": "X：阿易 AI Notes (@AYi_AInotes)",
+    "publishedAt": "2026-09-04T02:29:45.000Z",
+    "summary": "OpenAI 发布 GPT-6 Astra，主打计算机操作能力。作者总结其亮点包括：以 Lean 形式化证明攻克 10 道数学/计算难题，单次解题 Token 成本约 $2000。"
    },
    {
     "kind": "news",
-    "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型",
-    "url": "https://aihot.news/items/cmtt0pw2p018pro9owlhpi092",
-    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-    "publishedAt": "2026-09-08T11:30:00.000Z",
-    "summary": "OpenAI 发布 ChatGPT Images 2.5 图像模型，生成延迟比 Images 2.0 降低最多 50%，细节、编辑精度、参考照片保真度和多轮编辑一致性均有提升。"
+    "title": "OpenAI 发布 GPT-6 Astra，主打电脑操作与对齐能力",
+    "url": "https://aihot.news/items/cmtmcipsq00sjrovbxu1gd6lk",
+    "source": "X：阿易 AI Notes (@AYi_AInotes)",
+    "publishedAt": "2026-09-04T02:22:24.000Z",
+    "summary": "OpenAI 发布 GPT-6 Astra，首席研究官 Mark Chen 称其能构建测试软件、跨应用操作电脑并尝试开放科学问题。作者补充数字：OSWorld 真实桌面任务从 75 分钟降到 40 分钟，职场自动化从 18% 升到 41%，未防护越权率从上一代 48% 压到 0%，并称花了 2000 美元算力解出 10 道十年未解的数学与理论计算难题；同时指出带工具的综合测试仍落后 Claude。"
    },
    {
     "kind": "news",
-    "title": "OpenAI 宣布以内部 AI 系统给出 Navier-Stokes 千禧年问题解答",
-    "url": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6",
-    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-    "publishedAt": "2026-09-08T10:00:00.000Z",
-    "summary": "OpenAI 宣布其内部 AI 系统给出 Navier-Stokes 存在与光滑性问题的解答，证明初始光滑的流体可在有限时间内形成奇点，并附证明文稿与 Lean 形式化验证。"
+    "title": "OpenAI 发布 GPT-6 Astra，主打电脑操作并触发网络安全 Critical 红线",
+    "url": "https://aihot.news/items/cmtma05f8017zro9fao7eonjg",
+    "source": "X：小北 (@frxiaobei)",
+    "publishedAt": "2026-09-04T01:16:52.000Z",
+    "summary": "OpenAI 于 9 月 3 日发布 GPT-6 Astra，API 模型名 gpt-6-astra，每百万输入 Token 10 美元、输出 50 美元，未来几天推送到 ChatGPT 各档订阅、API 和 AWS Bedrock。"
    }
   ],
   "1.3 大模型测评": [
    {
     "kind": "news",
-    "title": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9%",
-    "url": "https://aihot.news/items/cmtlzasi70s61row5vze3ldjh",
-    "source": "Simon Willison 博客",
-    "publishedAt": "2026-09-03T20:18:41.000Z",
-    "summary": "OpenAI 的 GPT-6 Astra 今日起向部分组织推出，随后面向 ChatGPT Plus、Pro、Business、Enterprise 用户开放，API 定价为每百万输入 $10、每百万输出 $50，与 Claude Fable 5/5.1 持平。"
+    "title": "François Chollet 评 GPT-6 Astra 在 ARC-AGI-3 上的表现",
+    "url": "https://aihot.news/items/cmtlyeuas0rigrow5d2jq4xb7",
+    "source": "X：Francois Chollet (@fchollet)",
+    "publishedAt": "2026-09-03T19:42:59.000Z",
+    "summary": "François Chollet 发文称 GPT-6 Astra 在交互式推理任务上带来阶跃式能力提升，使用标准 harness 在 ARC-AGI-3 上得 66%，配合持续对话 harness 和自定义 compaction 接近 100%，每局成本约 $360。"
    }
   ],
   "1.4 开源模型推荐": [
    {
     "kind": "model",
-    "id": "openbmb/MiniCPM5-2B",
-    "url": "https://hf-mirror.com/openbmb/MiniCPM5-2B",
-    "license": "apache-2.0",
-    "param": "2B",
-    "likes": 687,
-    "downloads": 2879,
-    "createdAt": "2026-09-06",
-    "intro": "我们正在发布MiniCPM5-2B ，这是继MiniCPM5-1B之后的MiniCPM5系列中的第二款型号"
-   },
-   {
-    "kind": "model",
-    "id": "ornith-ai/Ornith-1.5-35B-A3B",
-    "url": "https://hf-mirror.com/ornith-ai/Ornith-1.5-35B-A3B",
+    "id": "inclusionAI/Ling-3.0-tiny",
+    "url": "https://hf-mirror.com/inclusionAI/Ling-3.0-tiny",
     "license": "mit",
-    "param": "35B",
-    "likes": 564,
-    "downloads": 306928,
-    "createdAt": "2026-08-18",
-    "intro": "CHIRP CHIRP。🐦我们正在推出Ornith-1.5 ，这是通过端到端自我完善来构建基础模型的重要一步"
+    "param": "",
+    "likes": 433,
+    "downloads": 27485,
+    "createdAt": "2026-08-10",
+    "intro": "该模型的主要亮点总结如下："
    },
    {
     "kind": "model",
-    "id": "tencent/Hy4-preview",
-    "url": "https://hf-mirror.com/tencent/Hy4-preview",
-    "license": "apache-2.0",
+    "id": "superwhisper/s1-mini",
+    "url": "https://hf-mirror.com/superwhisper/s1-mini",
+    "license": "other",
     "param": "",
-    "likes": 458,
-    "downloads": 7193,
-    "createdAt": "2026-08-27",
-    "intro": "型号介绍"
+    "likes": 340,
+    "downloads": 8034,
+    "createdAt": "2026-08-12",
+    "intro": "用于语音到文本输出的0.6B参数文本归一化器"
+   },
+   {
+    "kind": "model",
+    "id": "IFM/K2-Horizon-MoVA-36B-A4B",
+    "url": "https://hf-mirror.com/IFM/K2-Horizon-MoVA-36B-A4B",
+    "license": "apache-2.0",
+    "param": "36B",
+    "likes": 234,
+    "downloads": 3205,
+    "createdAt": "2026-09-01",
+    "intro": "K2-Horizon-MoVA-36B-A4B是K2-Horizon系列的稀疏成员：具有值混合注意力（ MoVA ）的专家混合模型，存储36B参数，每个令牌运行4B"
    }
   ]
  },
  "repos": [
   {
-   "repo": "ayghri/i-have-adhd",
-   "url": "https://github.com/ayghri/i-have-adhd",
-   "lang": "Python",
-   "stars": "30,671",
-   "desc": "阻止您的编码代理埋葬答案的技能。ADHD友好的输出"
+   "repo": "multica-ai/andrej-karpathy-skills",
+   "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+   "lang": "",
+   "stars": "211,496",
+   "desc": "一个用于改进Claude Code行为的CLAUDE.md文件，源自Andrej Karpathy对LLM编码陷阱的观察"
   },
   {
-   "repo": "cathrynlavery/diagram-design",
-   "url": "https://github.com/cathrynlavery/diagram-design",
-   "lang": "HTML",
-   "stars": "34,930",
-   "desc": "Claude Code、Codex和Pi的38种编辑图类型"
-  },
-  {
-   "repo": "openai/skills",
-   "url": "https://github.com/openai/skills",
-   "lang": "Python",
-   "stars": "26,536",
-   "desc": "Codex技能目录"
-  },
-  {
-   "repo": "obra/superpowers",
-   "url": "https://github.com/obra/superpowers",
-   "lang": "Shell",
-   "stars": "283,397",
-   "desc": "有效的智能体技能框架和软件开发方法"
-  },
-  {
-   "repo": "browser-use/browser-use",
-   "url": "https://github.com/browser-use/browser-use",
-   "lang": "Python",
-   "stars": "113,544",
-   "desc": "使用浏览器的代理"
-  },
-  {
-   "repo": "viarotel-org/escrcpy",
-   "url": "https://github.com/viarotel-org/escrcpy",
+   "repo": "openai/plugins",
+   "url": "https://github.com/openai/plugins",
    "lang": "JavaScript",
-   "stars": "11,413",
-   "desc": "使用scrcpy以图形方式📱显示和控制您的Android设备"
+   "stars": "5,826",
+   "desc": "OpenAI插件"
   },
   {
-   "repo": "deepseek-ai/deepseek-harness",
-   "url": "https://github.com/deepseek-ai/deepseek-harness",
-   "lang": "TypeScript",
-   "stars": "216,326",
-   "desc": "DeepSeek框架：一切都是插件"
-  },
-  {
-   "repo": "anywhere-labs/dsh-desktop",
-   "url": "https://github.com/anywhere-labs/dsh-desktop",
-   "lang": "TypeScript",
-   "stars": "24,555",
-   "desc": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案"
-  },
-  {
-   "repo": "guillaumemeyer/watermarks-remover",
-   "url": "https://github.com/guillaumemeyer/watermarks-remover",
+   "repo": "awesome-dsh-plugin/awesome-dsh-plugin",
+   "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "lang": "Python",
-   "stars": "21,410",
-   "desc": "一款以隐私为先的应用程序，可从您拥有的内容中去除AI水印"
+   "stars": "14,934",
+   "desc": "插件精选列表"
   },
   {
-   "repo": "sapientinc/PRAXIST",
-   "url": "https://github.com/sapientinc/PRAXIST",
+   "repo": "MengTo/threeui",
+   "url": "https://github.com/MengTo/threeui",
+   "lang": "HTML",
+   "stars": "5,396",
+   "desc": "开源ThreeUI社区目录，包含实时交互式组件和完整的社区源"
+  },
+  {
+   "repo": "lnkiai/m3e-canvas",
+   "url": "https://github.com/lnkiai/m3e-canvas",
+   "lang": "TypeScript",
+   "stars": "5,259",
+   "desc": "在浏览器中绘制 Material 3 富有表现力的界面，并一键转换为氛围编码提示词"
+  },
+  {
+   "repo": "s1dashu/ip-as-logo-skill",
+   "url": "https://github.com/s1dashu/ip-as-logo-skill",
+   "lang": "",
+   "stars": "5,076",
+   "desc": "紧凑的智能体技能，用于高度简化、圆润、微妙的新形态IP吉祥物徽标"
+  },
+  {
+   "repo": "CopilotKit/OpenBot",
+   "url": "https://github.com/CopilotKit/OpenBot",
+   "lang": "TypeScript",
+   "stars": "4,494",
+   "desc": "开源的人工智能同事，每个人都有一台自己的电脑：浏览器、文件和工具，每次操作都会在发生之前决定，并在之后记录下来"
+  },
+  {
+   "repo": "dmmulroy/anti-slop",
+   "url": "https://github.com/dmmulroy/anti-slop",
+   "lang": "TypeScript",
+   "stars": "4,181",
+   "desc": "用于拒绝低证据TypeScript和JavaScript模式的Oxlint规则"
+  },
+  {
+   "repo": "wang2122/sprix-sage-router",
+   "url": "https://github.com/wang2122/sprix-sage-router",
    "lang": "Python",
-   "stars": "6,578",
-   "desc": "用于可测量、计算机可执行研究的自主研究系统"
+   "stars": "3,727",
+   "desc": "屿智同行的 Sprix AI：面向 A2A 智能体网络的状态感知路由，支持自主/协作/移交三种模式"
+  },
+  {
+   "repo": "crmne/fastpotify",
+   "url": "https://github.com/crmne/fastpotify",
+   "lang": "Rust",
+   "stars": "3,642",
+   "desc": "Spotify ，原生且快速。一个轻量级的Rust应用程序，适用于Linux、macOS和Windows上的整个库、本地播放和Spotify Connect"
   }
  ],
  "docker": [
   {
-   "repo": "f/prompts.chat",
-   "url": "https://github.com/f/prompts.chat",
-   "lang": "HTML",
-   "stars": "169,716",
-   "desc": "f.k.a. Awesome ChatGPT提示",
-   "en": false
-  },
-  {
-   "repo": "usememos/memos",
-   "url": "https://github.com/usememos/memos",
-   "lang": "Go",
-   "stars": "62,854",
-   "desc": "开源、自托管的笔记记录工具，专为快速捕获而打造",
-   "en": false
-  },
-  {
-   "repo": "coollabsio/coolify",
-   "url": "https://github.com/coollabsio/coolify",
-   "lang": "PHP",
-   "stars": "61,578",
-   "desc": "Vercel、Heroku和Netlify的开源、自托管PaaS替代品，让您可以在自己的服务器上轻松部署静态站点、数据库、全栈应用程序和280多种一键式服务",
-   "en": false
-  },
-  {
-   "repo": "go-gitea/gitea",
-   "url": "https://github.com/go-gitea/gitea",
-   "lang": "Go",
-   "stars": "57,889",
-   "desc": "享用一杯茶。无痛自托管一体化软件开发服务，包括Git托管、代码审核、团队协作、软件包注册和CI/CD",
-   "en": false
-  },
-  {
-   "repo": "appwrite/appwrite",
-   "url": "https://github.com/appwrite/appwrite",
+   "repo": "siyuan-note/siyuan",
+   "url": "https://github.com/siyuan-note/siyuan",
    "lang": "TypeScript",
-   "stars": "57,321",
-   "desc": "Appwrite ® -为您的网络、移动和人工智能应用程序提供完整的云基础设施",
+   "stars": "46,239",
+   "desc": "开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
    "en": false
   },
   {
-   "repo": "ClickHouse/ClickHouse",
-   "url": "https://github.com/ClickHouse/ClickHouse",
-   "lang": "C++",
-   "stars": "49,747",
-   "desc": "ClickHouse ®是一个实时分析数据库管理系统",
+   "repo": "janhq/jan",
+   "url": "https://github.com/janhq/jan",
+   "lang": "TypeScript",
+   "stars": "44,380",
+   "desc": "JAN是ChatGPT的开源替代方案，可在您的计算机上100%离线运行",
    "en": false
   },
   {
-   "repo": "HKUDS/nanobot",
-   "url": "https://github.com/HKUDS/nanobot",
-   "lang": "Python",
-   "stars": "47,902",
-   "desc": "Python中的超轻量级、开源、自托管的个人AI代理框架，具有WebUI、工具、内存、MCP、多代理工作流程、自动化和聊天应用程序",
+   "repo": "amruthpillai/reactive-resume",
+   "url": "https://github.com/amruthpillai/reactive-resume",
+   "lang": "TypeScript",
+   "stars": "42,344",
+   "desc": "独一无二的简历生成器，可保护您的隐私",
    "en": false
   },
   {
-   "repo": "gogs/gogs",
-   "url": "https://github.com/gogs/gogs",
+   "repo": "ToolJet/ToolJet",
+   "url": "https://github.com/ToolJet/ToolJet",
+   "lang": "JavaScript",
+   "stars": "40,868",
+   "desc": "ToolJet AI 的开源底座：企业级应用生成平台，可构建内部工具、仪表盘、业务应用、工作流与 AI 智能体，支持可视化搭建、提示词生成，或通过 MCP 接入 Claude Code、Codex 与 Cursor",
+   "en": false
+  },
+  {
+   "repo": "appsmithorg/appsmith",
+   "url": "https://github.com/appsmithorg/appsmith",
+   "lang": "TypeScript",
+   "stars": "40,839",
+   "desc": "用于搭建管理后台、内部工具与仪表盘的平台，可接入 25 种以上数据库及任意 API",
+   "en": false
+  },
+  {
+   "repo": "photoprism/photoprism",
+   "url": "https://github.com/photoprism/photoprism",
    "lang": "Go",
-   "stars": "47,804",
-   "desc": "托管您自己的Git服务的轻松方式",
+   "stars": "40,168",
+   "desc": "AI 驱动的照片管理应用",
+   "en": false
+  },
+  {
+   "repo": "TriliumNext/Trilium",
+   "url": "https://github.com/TriliumNext/Trilium",
+   "lang": "TypeScript",
+   "stars": "37,766",
+   "desc": "用 Trilium Notes 搭建个人知识库",
+   "en": false
+  },
+  {
+   "repo": "khoj-ai/khoj",
+   "url": "https://github.com/khoj-ai/khoj",
+   "lang": "Python",
+   "stars": "37,224",
+   "desc": "你的 AI 第二大脑，可自托管：从网页或本地文档中检索答案，构建自定义智能体、定时自动化与深度研究，支持接入任意在线或本地大模型",
    "en": false
   }
  ],
  "valuation": [
   {
    "name": "沪深300",
-   "point": 4574.52,
-   "chg": 0.35,
+   "point": 4572.1,
+   "chg": 0.29,
    "pe": 13.57,
    "pe_pct": 69,
    "pb": 1.43,
@@ -286,8 +286,8 @@
   },
   {
    "name": "中证500",
-   "point": 7807.01,
-   "chg": 0.47,
+   "point": 7792.86,
+   "chg": 0.28,
    "pe": 33.15,
    "pe_pct": 78,
    "pb": 2.4,
@@ -298,8 +298,8 @@
   },
   {
    "name": "创业板指",
-   "point": 3377.11,
-   "chg": 0.52,
+   "point": 3376.55,
+   "chg": 0.5,
    "pe": 38.44,
    "pe_pct": 32,
    "pb": 5.37,
@@ -310,8 +310,8 @@
   },
   {
    "name": "科创50",
-   "point": 1596.53,
-   "chg": 0.35,
+   "point": 1594.98,
+   "chg": 0.25,
    "pe": 135.47,
    "pe_pct": 80,
    "pb": 7.31,
@@ -322,8 +322,8 @@
   },
   {
    "name": "中证红利",
-   "point": 5671.89,
-   "chg": 0.34,
+   "point": 5677.62,
+   "chg": 0.44,
    "pe": 8.6,
    "pe_pct": 79,
    "pb": 0.85,
@@ -334,8 +334,8 @@
   },
   {
    "name": "红利低波",
-   "point": 11133.05,
-   "chg": 0.05,
+   "point": 11158.02,
+   "chg": 0.28,
    "pe": 8.45,
    "pe_pct": 78,
    "pb": 0.86,
@@ -346,8 +346,8 @@
   },
   {
    "name": "恒生指数",
-   "point": 25280.4,
-   "chg": -0.15,
+   "point": 25292.57,
+   "chg": -0.1,
    "pe": 11.24,
    "pe_pct": 62,
    "pb": 1.19,
@@ -385,57 +385,57 @@
   "up": [
    {
     "name": "元件",
-    "chg": 3.34
-   },
-   {
-    "name": "通信设备",
-    "chg": 1.79
+    "chg": 3.72
    },
    {
     "name": "航运港口",
-    "chg": 1.73
+    "chg": 2.44
    },
    {
-    "name": "有色金属",
-    "chg": 1.17
+    "name": "通信设备",
+    "chg": 1.52
    },
    {
     "name": "煤炭",
-    "chg": 1.06
+    "chg": 1.03
    },
    {
     "name": "玻璃玻纤",
-    "chg": 0.62
+    "chg": 0.76
+   },
+   {
+    "name": "农林牧渔",
+    "chg": 0.47
    }
   ],
   "dn": [
    {
     "name": "传媒",
-    "chg": -3.73
+    "chg": -3.43
    },
    {
     "name": "房地产开发",
-    "chg": -1.1
+    "chg": -1.07
+   },
+   {
+    "name": "装修装饰Ⅱ",
+    "chg": -1.07
    },
    {
     "name": "食品饮料",
-    "chg": -0.97
+    "chg": -0.96
    },
    {
-    "name": "化学制药",
-    "chg": -0.69
-   },
-   {
-    "name": "水泥",
-    "chg": -0.68
+    "name": "石油石化",
+    "chg": -0.91
    },
    {
     "name": "纺织服饰",
-    "chg": -0.67
+    "chg": -0.88
    }
   ]
  },
- "gold": "COMEX 微型黄金：微型黄金（-0.51%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 9.0520（2026-09-08）（≈ 905 元/克）",
+ "gold": "COMEX 微型黄金：微型黄金（-0.47%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 9.0520（2026-09-08）（≈ 905 元/克）",
  "qdii": [
   {
    "name": "大成纳斯达克100(QDII)",
@@ -476,44 +476,44 @@
  ],
  "macro": [
   {
-   "title": "日本国债收益率升至近三十年高位 引发关于海外资金大回流风险的讨论",
-   "ctime": "1788918544",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-iniresxy8987007.shtml"
+   "title": "A股“股王”联讯仪器，突然跳水！",
+   "ctime": "1788919945",
+   "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-09/doc-inirexfy5658748.shtml"
   },
   {
-   "title": "油价走高推动通胀担忧升温，黄金延续调整，等待美国CPI数据指引",
-   "ctime": "1788917160",
-   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-09-09/doc-iniresye4002816.shtml"
+   "title": "康欣新材（600076）被证监会立案调查，4.6万受损股东迎索赔窗口",
+   "ctime": "1788917212",
+   "url": "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-09-09/doc-iniresxy8953993.shtml"
   },
   {
-   "title": "三重通胀警报拉响！“萨姆规则”提出者：美联储年底前料加息75基点",
-   "ctime": "1788916500",
-   "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-09-09/doc-iniresye8829845.shtml"
+   "title": "厄尔尼诺、干旱与战争“三重夹击”来袭！英国食品通胀明年或冲破6%",
+   "ctime": "1788916875",
+   "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-09-09/doc-iniresye4002261.shtml"
   },
   {
-   "title": "花旗：行业数据利好AI PCB设备股 不利建筑机械股",
-   "ctime": "1788918745",
-   "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-09/doc-iniresya5763967.shtml"
+   "title": "澜起科技于9月8日耗资约1970.46万元回购10万股A股",
+   "ctime": "1788915037",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-09/doc-iniresye3984922.shtml"
   },
   {
-   "title": "直线下挫超6%！A股百亿药企62岁董事长离婚，辞去一切职务",
-   "ctime": "1788917853",
-   "url": "https://finance.sina.com.cn/wm/2026-09-09/doc-iniresxy8987821.shtml"
+   "title": "海天味业于9月8日回购约85.84万股A股及26.11万股H股",
+   "ctime": "1788914976",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-09/doc-iniresxy8913028.shtml"
   },
   {
-   "title": "国家统计局：8月份工业生产者出厂价格同比上涨3.8% 环比上涨0.4%",
-   "ctime": "1788917677",
-   "url": "https://finance.sina.com.cn/stock/2026-09-09/doc-iniresye4007335.shtml"
+   "title": "美国财长贝森特：3%增速可化解债务压力 否认美债信用担忧",
+   "ctime": "1788913800",
+   "url": "https://finance.sina.com.cn/money/bond/2026-09-09/doc-iniresye8809004.shtml"
   },
   {
-   "title": "国家统计局：8月份居民消费价格同比上涨0.8%",
-   "ctime": "1788917550",
-   "url": "https://finance.sina.com.cn/stock/2026-09-09/doc-iniresya5735958.shtml"
+   "title": "贝森特如何“回购美债”？今晚初见端倪",
+   "ctime": "1788912480",
+   "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-09-09/doc-iniresxy8889139.shtml"
   },
   {
-   "title": "兴业科技（002674）被证监会立案调查，受损股民可索赔",
-   "ctime": "1788917220",
-   "url": "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-09-09/doc-iniresye8834691.shtml"
+   "title": "江波龙于9月8日斥资4.48亿元回购124.95万股A股",
+   "ctime": "1788912240",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-09/doc-iniresye8799982.shtml"
   }
  ],
  "low": []
