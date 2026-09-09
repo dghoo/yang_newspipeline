@@ -21,3 +21,4 @@ tools/push_github.sh
 .idea/
 .vscode/
 *.swp
+tools/sync_push.sh
