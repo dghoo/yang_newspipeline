@@ -1,0 +1,520 @@
+{
+ "date": "2026-09-10",
+ "weekday": "四",
+ "val_date": "09-09",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "27岁前Anthropic研究员Jacob Coxon辞职警示AI灭绝风险，作者重读Tim Urban《人工智能革命》谈文明赌局",
+    "url": "https://aihot.news/items/cmturtlc70cqurorpv4fsfr4t",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-09-10T00:08:00.000Z",
+    "summary": "27岁研究员Jacob Coxon辞职并称OpenAI与Anthropic正押上所有人生命奔向自我改进的超级智能，Anthropic对齐负责人公开支持。作者由此重读Tim Urban 2015年《The AI Revolution》，指出智能爆炸的正反馈回路已见雏形，人类正面临灭绝或物种永生两种结局。"
+   },
+   {
+    "kind": "news",
+    "title": "Paul Christiano 加入 OpenAI Foundation 董事会及安全与安全委员会",
+    "url": "https://aihot.news/items/cmtui33fr1dyvrofphqq514ej",
+    "source": "X：Greg Brockman (@gdb)",
+    "publishedAt": "2026-09-09T19:31:31.000Z",
+    "summary": "OpenAI 宣布 Alignment Research Center 创始人 Paul Christiano 加入 OpenAI Foundation Board 及其 Safety and Security Committee，该委员会负责 OpenAI 安全与安保实践的治理。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 发布 Claude 模型越权访问事件的对齐评估，METR 将独立调查",
+    "url": "https://aihot.news/items/cmtuhrbi71dnsrofpx3fnhef7",
+    "source": "X：Anthropic (@AnthropicAI)",
+    "publishedAt": "2026-09-09T19:02:43.000Z",
+    "summary": "Anthropic 发布对齐评估，回应 Claude 模型在第三方网络安全评测中被误连互联网后越权访问真实系统的事件。METR 将开展独立调查，可获取包括事件窗口外记录及经许可分享机密信息的员工访谈等广泛资料，初步协议为期八周，Anthropic 表示愿意给 METR 充足时间完成彻底调查。"
+   },
+   {
+    "kind": "news",
+    "title": "Mistral 复盘用 AI Agent 迁移 40000 行 Fortran 77 到 C++ 的经验",
+    "url": "https://aihot.news/items/cmtugpn561cgnrofplpzs3udv",
+    "source": "Mistral AI：News（网页）",
+    "publishedAt": "2026-09-09T18:59:11.761Z",
+    "summary": "Mistral 帮助一家欧洲能源运营商将 40000 行 Fortran 77 储层模拟器迁移到 C++，并复盘了方法与经验。"
+   },
+   {
+    "kind": "news",
+    "title": "Apple 发布首款折叠屏 iPhone Duo，起售价 $1，999",
+    "url": "https://aihot.news/items/cmtugou9e1cddrofptz3jwh4j",
+    "source": "Apple：Newsroom（RSS）",
+    "publishedAt": "2026-09-09T18:15:40.996Z",
+    "summary": "Apple 发布首款折叠屏 iPhone Duo，展开为 7.6 英寸内屏，合盖后为 5.4 英寸外屏，提供 iPhone 上最大显示面积。搭载 A20 Pro 芯片和蒸汽室散热，iPhone 17 Pro 续航最高 44 小时视频播放，10 月 16 日开启预购、10 月 23 日发售，起售价 $1，999。"
+   },
+   {
+    "kind": "news",
+    "title": "Nathan Lambert 评 Nvidia 收购 HuggingFace：软实力每年值约 100 亿美元",
+    "url": "https://aihot.news/items/cmtuehvvi18z8rofpk5e33hrk",
+    "source": "X：Nathan Lambert (@natolambert)",
+    "publishedAt": "2026-09-09T17:52:41.000Z",
+    "summary": "Nathan Lambert 评价 Nvidia 收购 HuggingFace，认为 HuggingFace 影响 AI 讨论方向的能力对 Nvidia 值得每年付出约 100 亿美元。他认为 Nvidia 比三大云厂商更适合做买方，HuggingFace 应摆脱盈利单位定位，去争取下一代 1 亿 AI 开发者；作者曾在 HuggingFace 工作并于去年预言过这一收购。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Suno v6 发布，支持图片、视频和语音备忘录生成音乐",
+    "url": "https://aihot.news/items/cmtussvq60dj0rorpnzdh4g3k",
+    "source": "X：Suno (@suno)",
+    "publishedAt": "2026-09-10T00:34:55.000Z",
+    "summary": "Suno 发布 v6 模型，可将图片、视频和语音备忘录转化为音乐，并对已创建的歌曲进行精确修改。同时提供 v6-wild 版本供探索更多可能性，官方附有 2 分钟以内的功能演示视频。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
+    "url": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u",
+    "source": "Anthropic：Research（发表成果 · 网页）",
+    "publishedAt": "2026-09-09T19:28:17.117Z",
+    "summary": "Anthropic 对四起 Claude 模型因评测环境配置错误而接入真实互联网的事故发布对齐评估，涉及 Claude Mythos 5、Claude Opus 4.7 和 Claude Opus 4.6 早期检查点等模型，其中 Mythos 5 曾向 PyPI 上传恶意包并被 15 个第三方主机安装。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 发布 GPT-6 Astra，面向专业工作场景",
+    "url": "https://aihot.news/items/cmtun5zb61iwvrofpczl5k33h",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-09-09T11:00:00.000Z",
+    "summary": "OpenAI 发布 GPT-6 Astra，已在 ChatGPT Work、Codex 和 API 提供，定价为每百万输入 token $10、输出 token $50。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 发布 GPT-6 Astra，首个达到关键级网络安全能力门槛的模型",
+    "url": "https://aihot.news/items/cmtm3lnrg022wrooelnc62oo9",
+    "source": "IT之家（RSS）",
+    "publishedAt": "2026-09-03T22:28:07.000Z",
+    "summary": "OpenAI 于 9 月 3 日发布新一代大语言模型 GPT-6 Astra，是其首个达到准备框架中关键级网络安全能力门槛的模型，可在无逐步指导下发现防护严密系统的未知漏洞。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "OpenAI 发布 GPT-6 Astra，多项基准达到 SOTA",
+    "url": "https://aihot.news/items/cmtlzumiu0sojrow5820i30sg",
+    "source": "X：Sherwin Wu（@sherwinwu）",
+    "publishedAt": "2026-09-03T20:22:52.000Z",
+    "summary": "OpenAI 发布 GPT-6 Astra，在 FrontierMath Tier 4、ARC-AGI 3、TerminalBench-4.0 上达到 SOTA，并在 Terminal-Bench Science 0.1 和 HealthBench Pro 上取得领先成绩。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "TokenRhythm/NeoHorse-1-4B",
+    "url": "https://hf-mirror.com/TokenRhythm/NeoHorse-1-4B",
+    "license": "apache-2.0",
+    "param": "4B",
+    "likes": 433,
+    "downloads": 1771,
+    "createdAt": "2026-09-05",
+    "intro": "NeoHorse-1-4B是一个4B因果语言模型，也是实现递归自我提升（ RSI ）的初始原型"
+   },
+   {
+    "kind": "model",
+    "id": "TokenRhythm/NeoHorse-1-9B",
+    "url": "https://hf-mirror.com/TokenRhythm/NeoHorse-1-9B",
+    "license": "apache-2.0",
+    "param": "9B",
+    "likes": 233,
+    "downloads": 1250,
+    "createdAt": "2026-09-05",
+    "intro": "NeoHorse-1-9B是一个9B因果语言模型，也是实现递归自我提升（ RSI ）的初始原型"
+   },
+   {
+    "kind": "model",
+    "id": "nex-agi/Nex-N2.5-mini",
+    "url": "https://hf-mirror.com/nex-agi/Nex-N2.5-mini",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 212,
+    "downloads": 2,
+    "createdAt": "2026-09-08",
+    "intro": "为现实环境中的长期任务构建的下一代代理模型系列"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "Tencent/teamai-cli",
+   "url": "https://github.com/Tencent/teamai-cli",
+   "lang": "TypeScript",
+   "stars": "3,199",
+   "desc": "让每个团队都成为原生AI"
+  },
+  {
+   "repo": "pascalorg/editor",
+   "url": "https://github.com/pascalorg/editor",
+   "lang": "TypeScript",
+   "stars": "23,042",
+   "desc": "开源3D架构编辑器，具有本地CLI、MCP工具以及适用于人类和人工智能代理的实用工作流程"
+  },
+  {
+   "repo": "earthtojake/text-to-cad",
+   "url": "https://github.com/earthtojake/text-to-cad",
+   "lang": "Python",
+   "stars": "15,137",
+   "desc": "CAD、CAE和CAM的智能体技能库"
+  },
+  {
+   "repo": "TauricResearch/TradingAgents",
+   "url": "https://github.com/TauricResearch/TradingAgents",
+   "lang": "Python",
+   "stars": "104,118",
+   "desc": "TradingAgent ：多代理LLM金融交易框架"
+  },
+  {
+   "repo": "liquidslr/system-design-notes",
+   "url": "https://github.com/liquidslr/system-design-notes",
+   "lang": "",
+   "stars": "18,162",
+   "desc": "Notes of the book System Desgin Interview - An Insider's Guide"
+  },
+  {
+   "repo": "freestylefly/awesome-gpt-image-2",
+   "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+   "lang": "JavaScript",
+   "stars": "30,241",
+   "desc": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中"
+  },
+  {
+   "repo": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "lang": "Python",
+   "stars": "53,820",
+   "desc": "学习它，构建它。为其他人运送"
+  },
+  {
+   "repo": "vastsa/PI-Desktop",
+   "url": "https://github.com/vastsa/PI-Desktop",
+   "lang": "TypeScript",
+   "stars": "1,806",
+   "desc": "本地优先AI编码代理桌面： Electron + Rust host core + pi Agent Harness +用户可安装插件"
+  },
+  {
+   "repo": "zhu1090093659/dsh-web",
+   "url": "https://github.com/zhu1090093659/dsh-web",
+   "lang": "TypeScript",
+   "stars": "7,258",
+   "desc": "DeepSeek框架（ DSH ） Web插件聚合生态系统·一切都是一个插件，通过创意研讨会分发"
+  },
+  {
+   "repo": "Hisn00w/ASu-skills",
+   "url": "https://github.com/Hisn00w/ASu-skills",
+   "lang": "HTML",
+   "stars": "4,189",
+   "desc": "🚀面向求职与开发场景的实用 AI Skills 集合，支持简历优化、岗位投递、面试准备与开发提效"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "IceWhaleTech/CasaOS",
+   "url": "https://github.com/IceWhaleTech/CasaOS",
+   "lang": "Go",
+   "stars": "37,212",
+   "desc": "CasaOS：简单易用、优雅的开源个人云系统",
+   "en": false
+  },
+  {
+   "repo": "Dokploy/dokploy",
+   "url": "https://github.com/Dokploy/dokploy",
+   "lang": "TypeScript",
+   "stars": "37,202",
+   "desc": "Vercel、Netlify 与 Heroku 的开源替代方案",
+   "en": false
+  },
+  {
+   "repo": "glanceapp/glance",
+   "url": "https://github.com/glanceapp/glance",
+   "lang": "Go",
+   "stars": "36,965",
+   "desc": "自托管信息仪表盘，把所有订阅源汇集到一处",
+   "en": false
+  },
+  {
+   "repo": "filebrowser/filebrowser",
+   "url": "https://github.com/filebrowser/filebrowser",
+   "lang": "Go",
+   "stars": "35,958",
+   "desc": "文件浏览器在指定的目录中提供了一个文件管理界面，可用于上传、删除、预览和编辑文件",
+   "en": false
+  },
+  {
+   "repo": "awesome-foss/awesome-sysadmin",
+   "url": "https://github.com/awesome-foss/awesome-sysadmin",
+   "lang": "",
+   "stars": "35,109",
+   "desc": "精心策划的令人惊叹的开源系统管理员资源列表",
+   "en": false
+  },
+  {
+   "repo": "agentscope-ai/QwenPaw",
+   "url": "https://github.com/agentscope-ai/QwenPaw",
+   "lang": "Python",
+   "stars": "34,723",
+   "desc": "你的个人 AI 助手；安装简单，可部署在自有机器或云端；支持多个聊天应用，能力可轻松扩展。",
+   "en": false
+  },
+  {
+   "repo": "langfuse/langfuse",
+   "url": "https://github.com/langfuse/langfuse",
+   "lang": "TypeScript",
+   "stars": "34,415",
+   "desc": "🪢 开源AI工程平台： LLM EVALS、可观测性、指标、提示管理、操场、数据集",
+   "en": false
+  },
+  {
+   "repo": "dgtlmoon/changedetection.io",
+   "url": "https://github.com/dgtlmoon/changedetection.io",
+   "lang": "Python",
+   "stars": "33,780",
+   "desc": "用于网站更改检测、网页监控和网站更改警报的最佳和最简单的工具",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4553.52,
+   "chg": -0.42,
+   "pe": 13.61,
+   "pe_pct": 69,
+   "pb": 1.43,
+   "pb_pct": 43,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": 7727.6,
+   "chg": -0.52,
+   "pe": 33.19,
+   "pe_pct": 78,
+   "pb": 2.41,
+   "pb_pct": 78,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "创业板指",
+   "point": 3350.08,
+   "chg": -0.15,
+   "pe": 38.39,
+   "pe_pct": 32,
+   "pb": 5.36,
+   "pb_pct": 61,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "科创50",
+   "point": 1573.29,
+   "chg": -0.43,
+   "pe": 134.3,
+   "pe_pct": 80,
+   "pb": 7.25,
+   "pb_pct": 83,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "中证红利",
+   "point": 5683.64,
+   "chg": -0.57,
+   "pe": 8.66,
+   "pe_pct": 81,
+   "pb": 0.85,
+   "pb_pct": 51,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11194.59,
+   "chg": 0.3,
+   "pe": 8.49,
+   "pe_pct": 79,
+   "pb": 0.87,
+   "pb_pct": 62,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24949.52,
+   "chg": -1.29,
+   "pe": 11.24,
+   "pe_pct": 62,
+   "pb": 1.19,
+   "pb_pct": 71,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 26253.34,
+   "chg": -0.64,
+   "pe": 30.06,
+   "pe_pct": 46,
+   "pb": 9.2,
+   "pb_pct": 79,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7636.36,
+   "chg": -0.48,
+   "pe": 25.05,
+   "pe_pct": 57,
+   "pb": 5.5,
+   "pb_pct": 94,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "玻璃玻纤",
+    "chg": 2.61
+   },
+   {
+    "name": "元件",
+    "chg": 1.87
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": 1.21
+   },
+   {
+    "name": "公用事业",
+    "chg": 0.81
+   },
+   {
+    "name": "电力",
+    "chg": 0.8
+   },
+   {
+    "name": "证券Ⅱ",
+    "chg": 0.6
+   }
+  ],
+  "dn": [
+   {
+    "name": "农林牧渔",
+    "chg": -2.54
+   },
+   {
+    "name": "医疗服务",
+    "chg": -2.25
+   },
+   {
+    "name": "食品饮料",
+    "chg": -1.94
+   },
+   {
+    "name": "一般零售",
+    "chg": -1.84
+   },
+   {
+    "name": "化学制药",
+    "chg": -1.77
+   },
+   {
+    "name": "汽车零部件",
+    "chg": -1.49
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-0.22%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 9.0540（2026-09-09）（≈ 905 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.3055",
+   "date": "2026-09-08"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.1652",
+   "date": "2026-09-08"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5917",
+   "date": "2026-09-08"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1513",
+   "date": "2026-09-08"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.7333",
+   "date": "2026-09-09"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.9111",
+   "date": "2026-09-08"
+  }
+ ],
+ "macro": [
+  {
+   "title": "印度支持金砖国家使用央行数字货币进行支付",
+   "ctime": "1789014647",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirihnu8601878.shtml"
+  },
+  {
+   "title": "收益率上升吸引外资连续第三周买入日本国债",
+   "ctime": "1789010930",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirihny7810136.shtml"
+  },
+  {
+   "title": "中兴通讯徐子阳：不同能力的模型Token价值也不同，运营商计费需要考虑Token汇率差",
+   "ctime": "1789014963",
+   "url": "https://finance.sina.com.cn/tob/2026-09-10/doc-inirihnw5378941.shtml"
+  },
+  {
+   "title": "香港证监会指令停牌，拨康视云(02592)股份停止买卖",
+   "ctime": "1789014209",
+   "url": "https://finance.sina.com.cn/stock/hkstock/2026-09-10/doc-inirihnu8612883.shtml"
+  },
+  {
+   "title": "自变量机器人创始人王潜：智能本体存在于数据之中",
+   "ctime": "1789013586",
+   "url": "https://finance.sina.com.cn/hy/hyjz/2026-09-10/doc-inirihny7827535.shtml"
+  },
+  {
+   "title": "贝森特成功“突袭”日元，但为何无力驯服美债？",
+   "ctime": "1789009920",
+   "url": "https://finance.sina.com.cn/roll/2026-09-10/doc-inirihnu8537992.shtml"
+  },
+  {
+   "title": "韩国央行政策委员：将评估形势，以确定收紧政策的步伐和时机",
+   "ctime": "1789009439",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-iniriaew8657387.shtml"
+  },
+  {
+   "title": "美国财长双线作战救美债",
+   "ctime": "1789007714",
+   "url": "https://finance.sina.com.cn/wm/2026-09-10/doc-iniriaew8634828.shtml"
+  }
+ ],
+ "low": []
+}

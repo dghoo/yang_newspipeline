@@ -95,5 +95,14 @@
   "A 0.6B-parameter text normalizer for speech-to-text output. It takes a raw ASR\ntranscript and rewrites it as clean written text: fillers removed, false starts\nand self-corrections resolved to the value the speaker landed on, punctuation\nand capitalization applied, and spoken numbers, dates, times, currency and\nemail addresses rendered in written form.": "用于语音到文本输出的0.6B参数文本归一化器",
   "K2-Horizon-MoVA-36B-A4B is the sparse member of the K2-Horizon family: a Mixture-of-Experts model with Mixture-of-Values attention (MoVA) that stores 36B parameters and runs 4B per token. We have released the final checkpoint; intermediate checkpoints, along with the data and the training code, will be released.": "K2-Horizon-MoVA-36B-A4B是K2-Horizon系列的稀疏成员：具有值混合注意力（ MoVA ）的专家混合模型，存储36B参数，每个令牌运行4B",
   "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.": "一个用于改进Claude Code行为的CLAUDE.md文件，源自Andrej Karpathy对LLM编码陷阱的观察",
-  "OpenAI Plugins": "OpenAI插件"
+  "OpenAI Plugins": "OpenAI插件",
+  "NeoHorse-1-4B is a 4B causal language model and an initial prototype on the path toward recursive self-improvement (RSI). It is post-trained from Qwen3.5-4B for text-based agent harnesses, tool use, coding, and instruction following.": "NeoHorse-1-4B是一个4B因果语言模型，也是实现递归自我提升（ RSI ）的初始原型",
+  "NeoHorse-1-9B is a 9B causal language model and an initial prototype on the path toward recursive self-improvement (RSI). It is post-trained from Qwen3.5-9B for text-based agent harnesses, tool use, coding, and instruction following.": "NeoHorse-1-9B是一个9B因果语言模型，也是实现递归自我提升（ RSI ）的初始原型",
+  "A next-generation family of agentic models built for long-horizon tasks in real-world environments.": "为现实环境中的长期任务构建的下一代代理模型系列",
+  "Make Every Team AI Native": "让每个团队都成为原生AI",
+  "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.": "开源3D架构编辑器，具有本地CLI、MCP工具以及适用于人类和人工智能代理的实用工作流程",
+  "A library of agent skills for CAD, CAE and CAM": "CAD、CAE和CAM的智能体技能库",
+  "TradingAgents: Multi-Agents LLM Financial Trading Framework": "TradingAgent ：多代理LLM金融交易框架",
+  "Learn it. Build it. Ship it for others.": "学习它，构建它。为其他人运送",
+  "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins": "本地优先AI编码代理桌面： Electron + Rust host core + pi Agent Harness +用户可安装插件"
 }
