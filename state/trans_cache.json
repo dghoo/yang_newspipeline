@@ -104,5 +104,17 @@
   "A library of agent skills for CAD, CAE and CAM": "CAD、CAE和CAM的智能体技能库",
   "TradingAgents: Multi-Agents LLM Financial Trading Framework": "TradingAgent ：多代理LLM金融交易框架",
   "Learn it. Build it. Ship it for others.": "学习它，构建它。为其他人运送",
-  "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins": "本地优先AI编码代理桌面： Electron + Rust host core + pi Agent Harness +用户可安装插件"
+  "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins": "本地优先AI编码代理桌面： Electron + Rust host core + pi Agent Harness +用户可安装插件",
+  "We introduce DeepSeek-V4.1-Flash, a multimodal Mixture-of-Experts (MoE) model with 552B backbone parameters and support for contexts of up to one million tokens. The model natively processes images and text, and generates text autoregressively.": "我们引入了DeepSeek-V4.1-Flash ，这是一种多模态混合专家（ MoE ）模型，具有552B主干参数，并支持多达一百万个代币的上下文",
+  "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.": "浏览器中的间谍卫星模拟器，但数据是真实的",
+  "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans    for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.": "开源AI交易代理，在1000多个市场（ Polymarket、Kalshi、Binance、Hyperliquid、Solana DEXs、5条EVM链）自主运营",
+  "Hundreds of models & providers. One command to find what runs on your hardware.": "数以百计的模型和提供商。只需一个命令，即可查找硬件上运行的内容",
+  "Graphics Creation Tools": "图形创建工具",
+  "Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 550+ contributors": "永远不要停止编码",
+  "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦": "在您已经拥有的硬件上运行前沿MoE模型—纯C ，零DEPS ，从磁盘流式传输的专家",
+  "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click": "开放式多智能体互动课堂—只需点击一下，即可获得身临其境的多智能体学习体验",
+  "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。": "LLM Wiki是一个跨平台的桌面应用程序，可自动将您的文档转换为有组织的、相互关联的知识库",
+  "The open agent skills tool - npx skills": "开放式智能体技能工具- npx技能",
+  "🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.": "🧩 FrontierAgent是我们的代理框架，与它一起开源—本机命令行TUI ， ReAct和代理团队模式， macOS和Linux上的一个命令，没有预安装，没有硬Docker依赖",
+  "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs": "用Rust编写的非官方Bitwarden兼容服务器，以前称为bitwarden_rs"
 }

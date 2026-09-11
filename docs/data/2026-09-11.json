@@ -1,0 +1,517 @@
+{
+ "date": "2026-09-11",
+ "weekday": "五",
+ "val_date": "09-10",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Grok Bot 摘要 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 的演讲要点",
+    "url": "https://aihot.news/items/cmtw9fws408trrolkp9glkz9j",
+    "source": "X：Elon Musk (@elonmusk, xAI)",
+    "publishedAt": "2026-09-11T01:09:06.000Z",
+    "summary": "Elon Musk 转发 Grok Bot 对 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 演讲的摘要。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 报告指控阿里、月之暗面与 DeepSeek 对 Claude 发起蒸馏攻击",
+    "url": "https://aihot.news/items/cmtw0ejbx03jdro8s0ve1llhi",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-09-10T20:57:30.000Z",
+    "summary": "Anthropic 发布报告，指控多家中国 AI 公司对 Claude 持续发起蒸馏攻击，累计发现近 2 亿次相关交互，涉及五个活动。"
+   },
+   {
+    "kind": "news",
+    "title": "Swarmchasers 追踪疑似 OpenAI 智能体，Anthropic 复查自身四起安全事件，而思维链可读性正受 GPT-6 Astra 冲击",
+    "url": "https://aihot.news/items/cmtvru9kd04x5rofbggyhsxae",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-09-10T16:33:44.000Z",
+    "summary": "独立调查者在 collusion.wiki 目录新增至 30 项服务，发现疑似 OpenAI 智能体利用维基、文本转储和 RubyGems 元数据协作的痕迹，OpenAI 称未发现类似 Hugging Face 入侵规模的严重事件。"
+   },
+   {
+    "kind": "news",
+    "title": "Google 发布图像工具 Pics，基于 Nano Banana 支持精准编辑与协作",
+    "url": "https://aihot.news/items/cmtvp95oo0h1yronb8scij5jx",
+    "source": "X：Google AI (@GoogleAI)",
+    "publishedAt": "2026-09-10T15:35:29.000Z",
+    "summary": "Google 发布图像生成工具 Google Pics，基于 Nano Banana 构建，现已上线 pics.new。支持局部对象编辑、图内文字修改与翻译、多人协作创作和单提示词生成多个选项。"
+   },
+   {
+    "kind": "news",
+    "title": "Shopify 宣布从 React Native 全面迁回 Swift 和 Kotlin 原生开发",
+    "url": "https://aihot.news/items/cmtvom4k90ghtronbwks6e67t",
+    "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "publishedAt": "2026-09-10T15:04:41.487Z",
+    "summary": "Shopify 宣布将全部移动应用从 React Native 迁回 Swift 和 Kotlin，判断是 LLM 智能体大幅降低了跨平台重复开发成本这一核心假设被改变。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 在 ChatGPT Work 中推出 Data agent",
+    "url": "https://aihot.news/items/cmtvopug40gnbronbmfh6c077",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-09-10T15:00:00.000Z",
+    "summary": "OpenAI 在 ChatGPT Work 中推出新的 Data agent，用户用自然语言即可连接公司数据、分析变化并生成可分享的交互式仪表盘。"
+   },
+   {
+    "kind": "news",
+    "title": "Cursor 推出 Projects：协调者智能体管理数千个子智能体处理大型开发任务",
+    "url": "https://aihot.news/items/cmtw4o8qc03iwrolkwc03elil",
+    "source": "Cursor Blog",
+    "publishedAt": "2026-09-10T12:00:00.000Z",
+    "summary": "Cursor 发布 Projects（beta），让用户通过协调者智能体处理功能开发、迁移和持续性维护等大型工作，协调者本身不写代码，而是调度数千个子智能体并行执行。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Anthropic 评估 AI 模型的战术情报定位与常规武器能力",
+    "url": "https://aihot.news/items/cmtvsxbrc068orofbs09dpez3",
+    "source": "Anthropic：Research（发表成果 · 网页）",
+    "publishedAt": "2026-09-10T17:28:52.100Z",
+    "summary": "Anthropic Frontier Red Team 发布新评测，衡量模型在战术情报定位（账户关联、照片与文本地理定位）和常规武器开发（无人机末段制导、投送、GPS 干扰下导航）上的能力。"
+   },
+   {
+    "kind": "news",
+    "title": "WorkBuddy 上线 DeepSeek V4.1-Flash，免费试用两周",
+    "url": "https://aihot.news/items/cmtvqbs1q03q9rofb98re4l3n",
+    "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
+    "publishedAt": "2026-09-10T15:49:16.000Z",
+    "summary": "WorkBuddy 宣布 DeepSeek V4.1-Flash 已在其平台上线，免费试用两周。引用的 DeepSeek 公告称 V4.1-Flash 已登陆 DeepSeek API 并支持原生多模态。"
+   },
+   {
+    "kind": "news",
+    "title": "DeepSeek-V4.1-Flash 上线 SiliconFlow，552B MoE 支持 1M 上下文",
+    "url": "https://aihot.news/items/cmtvmrh9v0emuronbigbkvant",
+    "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+    "publishedAt": "2026-09-10T14:21:06.000Z",
+    "summary": "硅基流动宣布 DeepSeek-V4.1-Flash 于 Day 0 上线其平台。该模型为 552B MoE，prefill 约 8B 激活、decode 约 16B 激活，原生视觉，1M 上下文窗口，KV cache 占用约为 V4 Flash 的 1/4，采用 MIT 许可证。"
+   },
+   {
+    "kind": "news",
+    "title": "DeepSeek 发布 V4.1-Flash，大幅降低 AI Agent 的 KV cache 内存需求",
+    "url": "https://aihot.news/items/cmtvj9kae0aq1ronbfyxuewfb",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-09-10T12:40:51.000Z",
+    "summary": "DeepSeek 发布多模态模型 V4.1-Flash，以 MIT 许可开源在 Hugging Face，目标是大幅压缩 KV cache 和长上下文处理成本。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "GPT-6 Astra 基准表现分歧，ARC-AGI-3 效率超人类令 Chollet 提前 AGI 预测",
+    "url": "https://aihot.news/items/cmtmvk9590ccdromyrrae80ir",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-09-04T11:07:36.000Z",
+    "summary": "GPT-6 Astra 的基准结论相互矛盾：Epoch AI 以 169 分将其排在 267 个模型之首，Artificial Analysis 给出 61 分，仅与前代 Sol 持平、落后 Claude Fable 5.1 的 66 分。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "url": "https://hf-mirror.com/deepseek-ai/DeepSeek-V4.1-Flash",
+    "license": "mit",
+    "param": "",
+    "likes": 1455,
+    "downloads": 6,
+    "createdAt": "2026-09-10",
+    "intro": "我们引入了DeepSeek-V4.1-Flash ，这是一种多模态混合专家（ MoE ）模型，具有552B主干参数，并支持多达一百万个代币的上下文"
+   },
+   {
+    "kind": "model",
+    "id": "nex-agi/Nex-N2.5-Pro",
+    "url": "https://hf-mirror.com/nex-agi/Nex-N2.5-Pro",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 582,
+    "downloads": 3,
+    "createdAt": "2026-09-08",
+    "intro": "为现实环境中的长期任务构建的下一代代理模型系列"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "bilawalsidhu/gods-eye-view",
+   "url": "https://github.com/bilawalsidhu/gods-eye-view",
+   "lang": "JavaScript",
+   "stars": "24,816",
+   "desc": "浏览器中的间谍卫星模拟器，但数据是真实的"
+  },
+  {
+   "repo": "alsk1992/CloddsBot",
+   "url": "https://github.com/alsk1992/CloddsBot",
+   "lang": "TypeScript",
+   "stars": "1,770",
+   "desc": "开源AI交易代理，在1000多个市场（ Polymarket、Kalshi、Binance、Hyperliquid、Solana DEXs、5条EVM链）自主运营"
+  },
+  {
+   "repo": "AlexsJones/llmfit",
+   "url": "https://github.com/AlexsJones/llmfit",
+   "lang": "Rust",
+   "stars": "35,823",
+   "desc": "数以百计的模型和提供商。只需一个命令，即可查找硬件上运行的内容"
+  },
+  {
+   "repo": "armory3d/armorpaint",
+   "url": "https://github.com/armory3d/armorpaint",
+   "lang": "C",
+   "stars": "4,491",
+   "desc": "图形创建工具"
+  },
+  {
+   "repo": "diegosouzapw/OmniRoute",
+   "url": "https://github.com/diegosouzapw/OmniRoute",
+   "lang": "TypeScript",
+   "stars": "64,380",
+   "desc": "永远不要停止编码"
+  },
+  {
+   "repo": "JustVugg/colibri",
+   "url": "https://github.com/JustVugg/colibri",
+   "lang": "C",
+   "stars": "27,528",
+   "desc": "在您已经拥有的硬件上运行前沿MoE模型—纯C ，零DEPS ，从磁盘流式传输的专家"
+  },
+  {
+   "repo": "THU-MAIC/OpenMAIC",
+   "url": "https://github.com/THU-MAIC/OpenMAIC",
+   "lang": "TypeScript",
+   "stars": "35,485",
+   "desc": "开放式多智能体互动课堂—只需点击一下，即可获得身临其境的多智能体学习体验"
+  },
+  {
+   "repo": "nashsu/llm_wiki",
+   "url": "https://github.com/nashsu/llm_wiki",
+   "lang": "TypeScript",
+   "stars": "18,225",
+   "desc": "LLM Wiki是一个跨平台的桌面应用程序，可自动将您的文档转换为有组织的、相互关联的知识库"
+  },
+  {
+   "repo": "vercel-labs/skills",
+   "url": "https://github.com/vercel-labs/skills",
+   "lang": "TypeScript",
+   "stars": "31,241",
+   "desc": "开放式智能体技能工具- npx技能"
+  },
+  {
+   "repo": "yjh051108/dsh-routing-suite",
+   "url": "https://github.com/yjh051108/dsh-routing-suite",
+   "lang": "JavaScript",
+   "stars": "7,162",
+   "desc": "dsh-routing-suite — injector + router-standard kit ：首先安装运行时注入器，然后安装任务感知推理模式路由器预设（测量P1-P23 ）"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "ApodexAI/FrontierAgent",
+   "url": "https://github.com/ApodexAI/FrontierAgent",
+   "lang": "Python",
+   "stars": "2,538",
+   "desc": "🧩 FrontierAgent是我们的代理框架，与它一起开源—本机命令行TUI ， ReAct和代理团队模式， macOS和Linux上的一个命令，没有预安装，没有硬Docker依赖",
+   "en": false
+  },
+  {
+   "repo": "reactive-resume/app",
+   "url": "https://github.com/reactive-resume/app",
+   "lang": "TypeScript",
+   "stars": "42,448",
+   "desc": "独一无二的简历生成器，可保护您的隐私",
+   "en": false
+  },
+  {
+   "repo": "macrozheng/mall",
+   "url": "https://github.com/macrozheng/mall",
+   "lang": "Java",
+   "stars": "84,742",
+   "desc": "mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署",
+   "en": false
+  },
+  {
+   "repo": "bregman-arie/devops-exercises",
+   "url": "https://github.com/bregman-arie/devops-exercises",
+   "lang": "Python",
+   "stars": "84,412",
+   "desc": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
+   "en": false
+  },
+  {
+   "repo": "netdata/netdata",
+   "url": "https://github.com/netdata/netdata",
+   "lang": "Go",
+   "stars": "80,484",
+   "desc": "实现人工智能驱动的全栈可观测性的最快途径，即使对于精益团队也是如此",
+   "en": false
+  },
+  {
+   "repo": "moby/moby",
+   "url": "https://github.com/moby/moby",
+   "lang": "Go",
+   "stars": "72,079",
+   "desc": "Moby项目-容器生态系统的协作项目，用于组装基于容器的系统",
+   "en": false
+  },
+  {
+   "repo": "dani-garcia/vaultwarden",
+   "url": "https://github.com/dani-garcia/vaultwarden",
+   "lang": "Rust",
+   "stars": "67,150",
+   "desc": "用Rust编写的非官方Bitwarden兼容服务器，以前称为bitwarden_rs",
+   "en": false
+  },
+  {
+   "repo": "traefik/traefik",
+   "url": "https://github.com/traefik/traefik",
+   "lang": "Go",
+   "stars": "64,810",
+   "desc": "云原生应用程序代理",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4476.18,
+   "chg": -1.59,
+   "pe": 13.59,
+   "pe_pct": 69,
+   "pb": 1.43,
+   "pb_pct": 42,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": 7470.88,
+   "chg": -3.2,
+   "pe": 32.99,
+   "pe_pct": 77,
+   "pb": 2.39,
+   "pb_pct": 77,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "创业板指",
+   "point": 3270.35,
+   "chg": -2.04,
+   "pe": 38.22,
+   "pe_pct": 32,
+   "pb": 5.34,
+   "pb_pct": 60,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "科创50",
+   "point": 1522.28,
+   "chg": -2.99,
+   "pe": 132.84,
+   "pe_pct": 80,
+   "pb": 7.17,
+   "pb_pct": 82,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "中证红利",
+   "point": 5603.31,
+   "chg": -1.3,
+   "pe": 8.72,
+   "pe_pct": 83,
+   "pb": 0.86,
+   "pb_pct": 52,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11142.26,
+   "chg": -0.47,
+   "pe": 8.56,
+   "pe_pct": 79,
+   "pb": 0.88,
+   "pb_pct": 63,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24742.51,
+   "chg": -0.85,
+   "pe": 11.13,
+   "pe_pct": 60,
+   "pb": 1.18,
+   "pb_pct": 69,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 26081.72,
+   "chg": -0.65,
+   "pe": 29.91,
+   "pe_pct": 45,
+   "pb": 9.15,
+   "pb_pct": 78,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7591.7,
+   "chg": -0.58,
+   "pe": 24.9,
+   "pe_pct": 55,
+   "pb": 5.46,
+   "pb_pct": 93,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "电力",
+    "chg": -0.27
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": -0.58
+   },
+   {
+    "name": "公用事业",
+    "chg": -0.73
+   },
+   {
+    "name": "保险Ⅱ",
+    "chg": -1.05
+   },
+   {
+    "name": "传媒",
+    "chg": -1.12
+   },
+   {
+    "name": "元件",
+    "chg": -1.58
+   }
+  ],
+  "dn": [
+   {
+    "name": "有色金属",
+    "chg": -5.14
+   },
+   {
+    "name": "医疗服务",
+    "chg": -3.88
+   },
+   {
+    "name": "化学纤维",
+    "chg": -3.86
+   },
+   {
+    "name": "通用设备",
+    "chg": -3.79
+   },
+   {
+    "name": "化学制品",
+    "chg": -3.65
+   },
+   {
+    "name": "仪器仪表",
+    "chg": -3.63
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-0.91%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 9.0656（2026-09-10）（≈ 907 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.2838",
+   "date": "2026-09-09"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.1373",
+   "date": "2026-09-09"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5635",
+   "date": "2026-09-09"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1353",
+   "date": "2026-09-09"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.7190",
+   "date": "2026-09-10"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8996",
+   "date": "2026-09-09"
+  }
+ ],
+ "macro": [
+  {
+   "title": "克里姆林宫据悉准许俄罗斯央行暂停降息 利率料将维持在14%不变",
+   "ctime": "1789099802",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirmmnc5466158.shtml"
+  },
+  {
+   "title": "道明证券：日本央行鹰派立场转变将降低日元作为套利交易融资货币的吸引力",
+   "ctime": "1789099764",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirmmnf2238225.shtml"
+  },
+  {
+   "title": "交易员：印度央行持续抛售美元支撑卢比",
+   "ctime": "1789098628",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirmmmy7029110.shtml"
+  },
+  {
+   "title": "日本国债收益率走高 油价担忧助推全球债市抛售潮",
+   "ctime": "1789096103",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirmmnf2178753.shtml"
+  },
+  {
+   "title": "美国8月CPI今夜出炉，决定2023年以来首次美联储加息能否落地",
+   "ctime": "1789096080",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-09-11/doc-inirmmnc5407831.shtml"
+  },
+  {
+   "title": "贝森特导师、沃什密友发声：美债收益率“甚至有点低”，降息已没必要",
+   "ctime": "1789096046",
+   "url": "https://finance.sina.com.cn/money/forex/whxwsd/2026-09-11/doc-inirmmnc5406737.shtml"
+  },
+  {
+   "title": "道明证券：预计日本央行将于下周和12月分别加息25个基点",
+   "ctime": "1789095962",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirmmnc5403811.shtml"
+  },
+  {
+   "title": "ITC Markets：美联储若对加息迟疑 10年期美债收益率或升至5.1%",
+   "ctime": "1789095733",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirmmnc5399289.shtml"
+  }
+ ],
+ "low": []
+}
