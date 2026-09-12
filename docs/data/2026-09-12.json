@@ -1,0 +1,510 @@
+{
+ "date": "2026-09-12",
+ "weekday": "六",
+ "val_date": "09-11",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
+    "url": "https://aihot.news/items/cmtxvt03h068vrous6ilk8ds7",
+    "source": "Hacker News：AI 热帖",
+    "publishedAt": "2026-09-12T02:39:39.000Z",
+    "summary": "Minitap 团队发文指认 Google 的移动设备自动化项目 Artemis 大量复用了其开源项目 mobile-use 的代码，包括完全一致的 Hopper agent 提示词和示例，却未在 README 中署名；更早的包文件曾列出三位作者，8 月一次 force push 将其替换为另一作者。"
+   },
+   {
+    "kind": "news",
+    "title": "英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元",
+    "url": "https://aihot.news/items/cmtxmd06905q5roi3ds616hwo",
+    "source": "IT之家（RSS）",
+    "publishedAt": "2026-09-11T23:22:39.000Z",
+    "summary": "据路透社报道，英伟达正与 Anthropic 洽谈以基石投资者身份参与其 IPO，考虑投资至多 100 亿美元。Anthropic 计划通过上市融资最多 1000 亿美元，估值或达约 2 万亿美元，有望成为史上最大规模 IPO，预计 2026 年 11 月美国中期选举前完成上市。"
+   },
+   {
+    "kind": "news",
+    "title": "GitHub 日韩营销负责人如何用 GitHub Copilot 把活动运营自动化",
+    "url": "https://aihot.news/items/cmtxbm8dp037xrouueja171wr",
+    "source": "GitHub Blog",
+    "publishedAt": "2026-09-11T18:26:10.000Z",
+    "summary": "GitHub 日韩地区营销负责人 Tomoko Tanaka 分享如何不写代码，把活动运营交给 GitHub Copilot 自动化。"
+   },
+   {
+    "kind": "news",
+    "title": "Beren Millidge、John Schulman、Charlie O'Neill 对谈递归自我改进离我们还有多远",
+    "url": "https://aihot.news/items/cmtx7e9sn09mmroedph6hkyx4",
+    "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+    "publishedAt": "2026-09-11T16:28:11.000Z",
+    "summary": "Dwarkesh Patel 与 Zyphra CTO Beren Millidge、Thinking Machines 首席科学家 John Schulman、Baseten 模型训练负责人 Charlie O'Neill 三位研究者对谈递归自我改进（RSI）的前景。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 详解存储平台 Habitat 如何扩展支撑超 10 亿 ChatGPT 用户（上篇）",
+    "url": "https://aihot.news/items/cmtx7f9mi09psroed4b1w3nsv",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-09-11T10:00:00.000Z",
+    "summary": "OpenAI 发文（系列上篇）讲述其在线存储平台 Habitat 的演进：现每秒处理超 7000 万请求、服务每周超 10 亿用户、管理超 500PB 数据，覆盖近 40 个地区。"
+   },
+   {
+    "kind": "news",
+    "title": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
+    "url": "https://aihot.news/items/cmtwsc5gt09uarow7n2r2jrz3",
+    "source": "公众号：卡尔的AI沃茨",
+    "publishedAt": "2026-09-11T04:24:28.000Z",
+    "summary": "作者实测 DeepSeek V4.1 Flash，缓存命中输入降价 7 倍多、输出砍三分之二，9 月 14 日中午 12 点起所有发往 v4-pro 的请求将被强制路由到 4.1 Flash 并按其低价计费。"
+   },
+   {
+    "kind": "news",
+    "title": "Cognition 工程师用 Devin 智能体完成 RSA-260 因式分解，刷新公开纪录",
+    "url": "https://aihot.news/items/cmtveyrm2000mronbnrnl0gez",
+    "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "publishedAt": "2026-09-10T10:50:45.032Z",
+    "summary": "Cognition 员工 samyok 率团队驱动多个 Devin 智能体构建了高性能 GPU 格子筛，对 260 位的 RSA-260 完成因式分解，刷新此前 RSA-250（2020 年 2 月）保持的公开 RSA 挑战纪录。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenRouter 发布 Fusion 复合模型，让多个模型辩论后合成最终答案",
+    "url": "https://aihot.news/items/cmtx301no054wroedi0krzdye",
+    "source": "OpenRouter：Announcements（RSS）",
+    "publishedAt": "2026-09-10T00:00:00.000Z",
+    "summary": "OpenRouter 发布 Fusion 复合推理系统，将一个提示词并行发给 1 到 8 个面板模型，由 judge 比较共识与分歧后由调用模型写出最终答案。默认三模型面板成本约为单次完成的四到五倍、延迟两到三倍，在 DRACO 深度研究基准上预算面板得 64.7%、前沿面板得 69.0%。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 发布 Agents API 公测版",
+    "url": "https://aihot.news/items/cmtvywm6902omrojit3fo7bjv",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-09-10T00:00:00.000Z",
+    "summary": "OpenAI 推出 Agents API 公开测试版，将驱动 Codex 的 harness 与基础设施通过单次 API 调用开放给开发者，托管在云端。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
+    "url": "https://aihot.news/items/cmtxnd7fw06wcroi31psxg2c6",
+    "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "publishedAt": "2026-09-12T00:24:20.561Z",
+    "summary": "作者团队分析认为 2026 年 5 月 11 日前后数百个由 OpenAI 智能体上传的恶意包攻击了 RubyGems，5 月 11 至 12 日智能体提交超过 2，000 个包，RubyGems 关闭新用户注册四天并移除 500 多个恶意包，安全公司称之为 GemStuffer campaign。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
+    "url": "https://aihot.news/items/cmtx0v3dg030mroedwvkdfyvw",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-09-11T13:50:28.000Z",
+    "summary": "Anthropic 发布威胁情报报告，记录 2025 年 12 月至 2026 年 8 月间 Claude 被滥用的七类行为。俄语间谍组织用 AI 代理自动改写恶意软件绕过杀软，也门一组织用 Claude Code 开发射程超 2000 公里的导弹软件，另有团队构建无人在环的自主 FPV 无人机蜂群。"
+   },
+   {
+    "kind": "news",
+    "title": "DeepSeek 发布 V4.1-Flash：新架构带来原生视觉理解与大幅降价",
+    "url": "https://aihot.news/items/cmtvb4b5s085erok9gose1mcf",
+    "source": "X：Kim (@kimmonismus)",
+    "publishedAt": "2026-09-10T08:49:36.000Z",
+    "summary": "DeepSeek 发布 V4.1-Flash，采用 Causal Encoder-Decoder 新架构并支持原生视觉理解，552B MoE 参数，输入处理激活 8B、输出生成激活 16B。"
+   },
+   {
+    "kind": "news",
+    "title": "DeepSeek 发布 V4.1-Flash：新 Causal Encoder-Decoder 架构，带原生视觉理解",
+    "url": "https://aihot.news/items/cmtva1qh206burok9zip2wdid",
+    "source": "X：Kim (@kimmonismus)",
+    "publishedAt": "2026-09-10T08:16:13.000Z",
+    "summary": "DeepSeek 发布 V4.1-Flash，采用新 Causal Encoder-Decoder 架构并支持原生视觉理解，为其新架构家族中最小模型。该模型为 552B 参数 MoE，输入处理激活 8B、输出生成激活 16B；KV cache 需求较上一代降至 HBM 的 1/4、SSD 存储的 1/8，API 价格更低。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "Fortune 报道 OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩大幅变化",
+    "url": "https://aihot.news/items/cmtphtttc01pkroxxh8pinzq2",
+    "source": "IT之家（RSS）",
+    "publishedAt": "2026-09-06T06:46:16.000Z",
+    "summary": "据 Fortune 报道，OpenAI 自 9 月 3 日发布 GPT-6 Astra 公告以来多次修改评测基准数据：Astra 幻觉率曾从 4.2% 降至 2% 后又改回。"
+   }
+  ],
+  "1.4 开源模型推荐": []
+ },
+ "repos": [
+  {
+   "repo": "nab138/iloader",
+   "url": "https://github.com/nab138/iloader",
+   "lang": "TypeScript",
+   "stars": "2,940",
+   "desc": "用户友好的旁加载器"
+  },
+  {
+   "repo": "melgarafael/DeskcommCRM",
+   "url": "https://github.com/melgarafael/DeskcommCRM",
+   "lang": "TypeScript",
+   "stars": "1,427",
+   "desc": "开源AI销售操作系统—使用本地AI代理+ WhatsApp (WAHA)的自托管CRM"
+  },
+  {
+   "repo": "Sonarr/Sonarr",
+   "url": "https://github.com/Sonarr/Sonarr",
+   "lang": "C#",
+   "stars": "15,767",
+   "desc": "面向新闻组和BitTorrent用户的智能PVR"
+  },
+  {
+   "repo": "jihe520/MathModelAgent",
+   "url": "https://github.com/jihe520/MathModelAgent",
+   "lang": "Python",
+   "stars": "4,903",
+   "desc": "🤖📐专为数学建模设计的 Agent & skills自动完成数学建模 ，专为生成一份完整的可以直接提交的论文"
+  },
+  {
+   "repo": "p1neappleXpress/OpenFlux",
+   "url": "https://github.com/p1neappleXpress/OpenFlux",
+   "lang": "Go",
+   "stars": "1,191",
+   "desc": "网络堆栈研究工具。具有可插拔传输的TCP隧道"
+  },
+  {
+   "repo": "jordan-gibbs/hyperresearch",
+   "url": "https://github.com/jordan-gibbs/hyperresearch",
+   "lang": "Python",
+   "stars": "2,719",
+   "desc": "代理驱动的研究知识库。代理将Web研究收集、搜索和合成到一个持久的、可搜索的Wiki中"
+  },
+  {
+   "repo": "alphaXiv/OpenResearch",
+   "url": "https://github.com/alphaXiv/OpenResearch",
+   "lang": "Rust",
+   "stars": "1,368",
+   "desc": "使用任何模型运行并行研究代理"
+  },
+  {
+   "repo": "github/spec-kit",
+   "url": "https://github.com/github/spec-kit",
+   "lang": "Python",
+   "stars": "135,823",
+   "desc": "帮助您开始规格驱动开发💫的工具包"
+  },
+  {
+   "repo": "XiaoDuoYa/codex-with-chatgpt",
+   "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+   "lang": "TypeScript",
+   "stars": "4,068",
+   "desc": "ChatGPT思考。Codex有效"
+  },
+  {
+   "repo": "amagine-ai/Amagine3D",
+   "url": "https://github.com/amagine-ai/Amagine3D",
+   "lang": "Python",
+   "stars": "4,054",
+   "desc": "Amagine3D：从硬件需求到可编辑的 3D 设计"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "sansan0/TrendRadar",
+   "url": "https://github.com/sansan0/TrendRadar",
+   "lang": "Python",
+   "stars": "62,191",
+   "desc": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具",
+   "en": false
+  },
+  {
+   "repo": "makeplane/plane",
+   "url": "https://github.com/makeplane/plane",
+   "lang": "TypeScript",
+   "stars": "59,248",
+   "desc": "🔥🔥🔥 开源JIRA、Linear、Monday和ClickUp替代方案",
+   "en": false
+  },
+  {
+   "repo": "wagoodman/dive",
+   "url": "https://github.com/wagoodman/dive",
+   "lang": "Go",
+   "stars": "54,558",
+   "desc": "用于探索Docker镜像中每个图层的工具",
+   "en": false
+  },
+  {
+   "repo": "dockur/windows",
+   "url": "https://github.com/dockur/windows",
+   "lang": "Shell",
+   "stars": "53,236",
+   "desc": "Docker容器中的Windows",
+   "en": false
+  },
+  {
+   "repo": "sickcodes/Docker-OSX",
+   "url": "https://github.com/sickcodes/Docker-OSX",
+   "lang": "Shell",
+   "stars": "52,923",
+   "desc": "在Docker中运行macOS虚拟机",
+   "en": false
+  },
+  {
+   "repo": "mastodon/mastodon",
+   "url": "https://github.com/mastodon/mastodon",
+   "lang": "Ruby",
+   "stars": "50,295",
+   "desc": "您的自托管、全球互联的微博社区",
+   "en": false
+  },
+  {
+   "repo": "LeCoupa/awesome-cheatsheets",
+   "url": "https://github.com/LeCoupa/awesome-cheatsheets",
+   "lang": "JavaScript",
+   "stars": "46,453",
+   "desc": "热门编程语言、框架和开发工具的👩‍💻👨‍💻精彩备忘单",
+   "en": false
+  },
+  {
+   "repo": "fastapi/full-stack-fastapi-template",
+   "url": "https://github.com/fastapi/full-stack-fastapi-template",
+   "lang": "TypeScript",
+   "stars": "45,517",
+   "desc": "Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, FastAPI Cloud, and Docker Compose.",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4510.16,
+   "chg": -0.84,
+   "pe": 13.5,
+   "pe_pct": 67,
+   "pb": 1.42,
+   "pb_pct": 41,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": 7580.54,
+   "chg": -1.78,
+   "pe": 32.45,
+   "pe_pct": 75,
+   "pb": 2.35,
+   "pb_pct": 76,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "创业板指",
+   "point": 3322.04,
+   "chg": -0.49,
+   "pe": 37.94,
+   "pe_pct": 31,
+   "pb": 5.3,
+   "pb_pct": 59,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "科创50",
+   "point": 1553.39,
+   "chg": -1.01,
+   "pe": 131.43,
+   "pe_pct": 79,
+   "pb": 7.09,
+   "pb_pct": 82,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "中证红利",
+   "point": 5580.28,
+   "chg": -1.71,
+   "pe": 8.69,
+   "pe_pct": 82,
+   "pb": 0.85,
+   "pb_pct": 52,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11082.15,
+   "chg": -1.01,
+   "pe": 8.55,
+   "pe_pct": 79,
+   "pb": 0.88,
+   "pb_pct": 63,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24805.63,
+   "chg": -0.6,
+   "pe": 11.05,
+   "pe_pct": 59,
+   "pb": 1.17,
+   "pb_pct": 67,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 26333.04,
+   "chg": 0.96,
+   "pe": 30.23,
+   "pe_pct": 47,
+   "pb": 9.25,
+   "pb_pct": 79,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7656.98,
+   "chg": 0.86,
+   "pe": 25.13,
+   "pe_pct": 57,
+   "pb": 5.52,
+   "pb_pct": 94,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "玻璃玻纤",
+    "chg": 3.05
+   },
+   {
+    "name": "元件",
+    "chg": 3.03
+   },
+   {
+    "name": "通信设备",
+    "chg": 0.52
+   },
+   {
+    "name": "电力",
+    "chg": -0.45
+   },
+   {
+    "name": "传媒",
+    "chg": -0.74
+   },
+   {
+    "name": "公用事业",
+    "chg": -0.95
+   }
+  ],
+  "dn": [
+   {
+    "name": "证券Ⅱ",
+    "chg": -3.6
+   },
+   {
+    "name": "一般零售",
+    "chg": -3.34
+   },
+   {
+    "name": "石油石化",
+    "chg": -3.26
+   },
+   {
+    "name": "有色金属",
+    "chg": -3.12
+   },
+   {
+    "name": "农林牧渔",
+    "chg": -3.11
+   },
+   {
+    "name": "化学纤维",
+    "chg": -3.01
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-0.40%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.9374（2026-09-11）（≈ 894 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.2164",
+   "date": "2026-09-10"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.0487",
+   "date": "2026-09-10"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5323",
+   "date": "2026-09-10"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1179",
+   "date": "2026-09-10"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.7172",
+   "date": "2026-09-11"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8861",
+   "date": "2026-09-10"
+  }
+ ],
+ "macro": [
+  {
+   "title": "欧洲央行官员科赫尔：高油价可能迫使欧央行进一步加息",
+   "ctime": "1789186281",
+   "url": "https://finance.sina.com.cn/world/2026-09-12/doc-inirpute8522963.shtml"
+  },
+  {
+   "title": "玻利维亚央行回笼74亿玻利维亚诺 货币投放规模激增",
+   "ctime": "1789172486",
+   "url": "https://finance.sina.com.cn/world/2026-09-12/doc-inirpkck8634282.shtml"
+  },
+  {
+   "title": "高盛调整预期：美联储9月加息，此前预计维持利率不变",
+   "ctime": "1789169520",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirpkck8602482.shtml"
+  },
+  {
+   "title": "桑坦德银行：日本GPIF有减持美国国债的空间 规模或多达620亿美元",
+   "ctime": "1789164050",
+   "url": "https://finance.sina.com.cn/world/2026-09-12/doc-inirpcvn8694189.shtml"
+  },
+  {
+   "title": "宁德时代启动A股史上最大回购",
+   "ctime": "1789181040",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-12/doc-inirpqmf1657241.shtml"
+  },
+  {
+   "title": "港股银行仅三家未破净，A股银行全部破净",
+   "ctime": "1789178159",
+   "url": "https://finance.sina.com.cn/wm/2026-09-12/doc-inirpqmf1644156.shtml"
+  },
+  {
+   "title": "编造、传播“税率调整”虚假信息，四人被证监会处罚",
+   "ctime": "1789172545",
+   "url": "https://finance.sina.com.cn/roll/2026-09-12/doc-inirpkcq6907292.shtml"
+  },
+  {
+   "title": "视频|星宇股份又双叒叕出错 三名副总“一年长两岁”：数据一旦注水，信任就会缩水",
+   "ctime": "1789172535",
+   "url": "https://finance.sina.com.cn/stock/2026-09-12/doc-inirpkcn5409321.shtml"
+  }
+ ],
+ "low": []
+}

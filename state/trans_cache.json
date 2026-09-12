@@ -116,5 +116,19 @@
   "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。": "LLM Wiki是一个跨平台的桌面应用程序，可自动将您的文档转换为有组织的、相互关联的知识库",
   "The open agent skills tool - npx skills": "开放式智能体技能工具- npx技能",
   "🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.": "🧩 FrontierAgent是我们的代理框架，与它一起开源—本机命令行TUI ， ReAct和代理团队模式， macOS和Linux上的一个命令，没有预安装，没有硬Docker依赖",
-  "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs": "用Rust编写的非官方Bitwarden兼容服务器，以前称为bitwarden_rs"
+  "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs": "用Rust编写的非官方Bitwarden兼容服务器，以前称为bitwarden_rs",
+  "User friendly sideloader": "用户友好的旁加载器",
+  "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.": "开源AI销售操作系统—使用本地AI代理+ WhatsApp (WAHA)的自托管CRM",
+  "Smart PVR for newsgroup and bittorrent users.": "面向新闻组和BitTorrent用户的智能PVR",
+  "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.": "🤖📐专为数学建模设计的 Agent & skills自动完成数学建模 ，专为生成一份完整的可以直接提交的论文",
+  "Network stack research tool. TCP tunnel with pluggable transports.": "网络堆栈研究工具。具有可插拔传输的TCP隧道",
+  "Agent-driven research knowledge base. Agents collect, search, and synthesize web research into a persistent, searchable wiki.": "代理驱动的研究知识库。代理将Web研究收集、搜索和合成到一个持久的、可搜索的Wiki中",
+  "Run parallel research agents with any model": "使用任何模型运行并行研究代理",
+  "💫 Toolkit to help you get started with Spec-Driven Development": "帮助您开始规格驱动开发💫的工具包",
+  "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.": "🔥🔥🔥 开源JIRA、Linear、Monday和ClickUp替代方案",
+  "A tool for exploring each layer in a docker image": "用于探索Docker镜像中每个图层的工具",
+  "Windows inside a Docker container.": "Docker容器中的Windows",
+  "Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers.": "在Docker中运行macOS虚拟机",
+  "Your self-hosted, globally interconnected microblogging community": "您的自托管、全球互联的微博社区",
+  "👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.": "热门编程语言、框架和开发工具的👩‍💻👨‍💻精彩备忘单"
 }
