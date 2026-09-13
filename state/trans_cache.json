@@ -130,5 +130,21 @@
   "Windows inside a Docker container.": "Docker容器中的Windows",
   "Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers.": "在Docker中运行macOS虚拟机",
   "Your self-hosted, globally interconnected microblogging community": "您的自托管、全球互联的微博社区",
-  "👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.": "热门编程语言、框架和开发工具的👩‍💻👨‍💻精彩备忘单"
+  "👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.": "热门编程语言、框架和开发工具的👩‍💻👨‍💻精彩备忘单",
+  "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.": "从Anthropic - Claude Fable 5.1、Opus 5、Claude Design、Claude Code中提取系统提示",
+  "Browse media content with your own rules on Android TV": "在Android TV上使用您自己的规则浏览媒体内容",
+  "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.": "100多个人工智能代理、智能体技能和RAG应用程序-免费开源",
+  "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.": "claude-red是为Claude技能系统设计的攻击性安全技能精心策划的图书馆",
+  "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.": "YuE2 ：具有象征性规划、零封面和代理音乐编辑的前沿音乐生成",
+  "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows": "Worktrunk是用于Git工作树管理的CLI ，专为并行AI代理工作流程而设计",
+  "Fully autonomous AI Agents system capable of performing complex penetration testing tasks": "完全自主的AI Agents系统，能够执行复杂的渗透测试任务",
+  "AI/ML research agents from idea to paper-ready evidence. An EvoMap open-source project.": "AI/ML研究代理从创意到纸质证据",
+  "Install, tune and restore DLSS 5 in your games with one click. Native RenoDX, DLSS5-Feeder for games without DLSS, OptiScaler and multipass routes; DirectX 8/9/11/12, Vulkan, OpenGL, DirectDraw and emulators. In-game F8 overlay, automatic backups, and a community page showing what works on your games and your graphics card.": "只需单击一下，即可在游戏中安装、调整和恢复DLSS 5",
+  "Data Engineering Zoomcamp is a free 9-week course on building production-ready data pipelines. Join the course here 👇🏼": "Data Engineering Zoomcamp是一门为期9周的关于构建生产就绪数据管道的免费课程",
+  "Self-hosted game stream host for Moonlight.": "Moonlight的自托管游戏流主机",
+  "The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.": "成长型团队最快的知识库。美观、实时协作、功能丰富且兼容markdown",
+  "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨": "AI Agent Assistant和开发框架集成了许多IM平台、LLM、插件和AI功能，可以作为您的开放式替代方案",
+  "Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.": "为将GenAI集成到您的应用程序中而设计的RAG🧠专注于您的产品，而不是RAG",
+  "Making Docker and Kubernetes management easy.": "让Docker和Kubernetes管理变得简单",
+  "Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hosted Developer Environments, and Artifact Registries.": "Harness Open Source是一个端到端开发人员平台，具有源代码管理、CI/CD管道、托管开发人员环境和工件注册表"
 }

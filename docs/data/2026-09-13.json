@@ -1,0 +1,509 @@
+{
+ "date": "2026-09-13",
+ "weekday": "日",
+ "val_date": "09-11",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
+    "url": "https://aihot.news/items/cmtyuqztw0bk6roupjaey0f6w",
+    "source": "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
+    "publishedAt": "2026-09-12T20:18:42.000Z",
+    "summary": "Dario Amodei 发布新文章 We Must Pace the Frontier，主张 AI 行业应放慢速度，并提出三部分计划。Anthropic 单方面承诺第一步，为第三方评估者提供永久的员工级系统访问权限，以核实安全措施执行、报告事故并评估训练期间模型的 alignment。"
+   },
+   {
+    "kind": "news",
+    "title": "Thariq 支持 Dario Amodei 的放缓前沿 AI 倡议，呼吁给系统加固和社会讨论留出时间",
+    "url": "https://aihot.news/items/cmtyth87f098broupl3k186iw",
+    "source": "X：Thariq (@trq212)",
+    "publishedAt": "2026-09-12T19:46:58.000Z",
+    "summary": "Anthropic 的 Thariq 转发并支持 Dario Amodei 的新文章《We Must Pace the Frontier》，后者提出 AI 行业应放缓的三部分计划，并承诺向第三方评估者提供永久的员工级系统访问权限。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 发布 GPT-6 Astra 并展示社区构建案例",
+    "url": "https://aihot.news/items/cmtyof5al04e2rog01a0893gu",
+    "source": "X：OpenAI Developers (@OpenAIDevs)",
+    "publishedAt": "2026-09-12T17:33:23.000Z",
+    "summary": "OpenAI 开发者账号宣布发布 GPT-6 Astra，并汇总社区开发者基于它做出的构建案例，包括 2234 个建模解剖部件的 3D 展示、Unreal Engine 曼哈顿复刻。"
+   },
+   {
+    "kind": "news",
+    "title": "Sam Altman 表示同意 Dario Amodei 的放缓前沿主张，OpenAI 将同样开放独立评估者访问",
+    "url": "https://aihot.news/items/cmtymlrth035dronv9zqv9ccb",
+    "source": "X：Sam Altman (@sama)",
+    "publishedAt": "2026-09-12T16:30:45.000Z",
+    "summary": "Sam Altman 回应 Dario Amodei 的《We Must Pace the Frontier》一文，同意需要为前沿 AI 发展设定节奏，称这是 OpenAI 近几周内部讨论的重要话题。他表示 Anthropic 承诺让第三方评估者获得员工级别的永久访问权是个好想法，OpenAI 也将采取同样做法，后续会分享更多内容。"
+   },
+   {
+    "kind": "news",
+    "title": "Together AI 扩展微调服务：新增模型、实验跟踪与更细训练控制",
+    "url": "https://aihot.news/items/cmtym21vu0002ro2bjdpq1vvy",
+    "source": "Together AI 研究与产品博客（RSS）",
+    "publishedAt": "2026-09-11T00:00:00.000Z",
+    "summary": "Together AI 扩展 Together Fine-Tuning 服务，新增对 GLM-5.3、Kimi K2.7、Qwen 3.5 系列等最新开源权重模型的支持，并上线实时实验跟踪、数据集预览验证等能力。"
+   },
+   {
+    "kind": "news",
+    "title": "LlamaIndex 解析 just-in-time Agentic OCR：两遍式文档处理如何平衡成本与精度",
+    "url": "https://aihot.news/items/cmtym2c3q0003rob0w6kxvnn3",
+    "source": "LlamaIndex：产品、工程与评测",
+    "publishedAt": "2026-09-10T16:00:00.000Z",
+    "summary": "LlamaIndex 博客提出 just-in-time Agentic OCR 模式：先用 LiteParse 等免费解析器粗读全部文件供检索，再仅对相关页面调用 VLM 做 OCR。"
+   },
+   {
+    "kind": "news",
+    "title": "Augment 复盘软件工厂建设：人均规模调整产出增长 4.5 倍",
+    "url": "https://aihot.news/items/cmtym29350002roszb5f930dv",
+    "source": "Augment Code 博客（网页）",
+    "publishedAt": "2026-09-10T16:00:00.000Z",
+    "summary": "Augment Code 发布长文，复盘其九个月建设的软件工厂：2025 年 11 月至 2026 年 7 月，基于 Cosmos 平台在需求、工单、PR、生产四个环节部署 PR Author。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenRouter 推出有状态 Shell 工具 `openrouter：shell` 并上线 Files API",
+    "url": "https://aihot.news/items/cmtvnvq3r0g0dronbaqql51u3",
+    "source": "X：OpenRouter (@OpenRouter)",
+    "publishedAt": "2026-09-10T14:58:05.000Z",
+    "summary": "OpenRouter 推出新的有状态服务端工具 Shell，任何 OpenRouter 上的模型都可以在托管的 Linux 容器中运行命令。该功能今日起以 beta 形式提供，代号为 `openrouter：shell`，同时新增 Files API 用于在容器内外传输文件。"
+   },
+   {
+    "kind": "news",
+    "title": "Tripo 展示 GPT-6 Astra 与 Blender MCP 结合的 3D Vibe Coding 实操工作流",
+    "url": "https://aihot.news/items/cmtyjejg90006rotlkmqx93kl",
+    "source": "Tripo（官方 X）",
+    "publishedAt": "2026-09-10T08:57:22.000Z",
+    "summary": "Tripo 转发用户案例，展示用 Images 2.5、Tripo 智能网格 P2.0、GPT-6 Astra 和 Blender MCP 以 AI 为主制作 3D 角色的完整流程。作者几乎只做视图操作，通过截图加参考图让 Astra 修正形状与纹理，并指出纹理修正在细节上仍较粗糙。作者称此前在 GPT-5.6 Sol 上反复失败的操作在 Astra 上可以直接完成。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
+    "url": "https://aihot.news/items/cmtvsgyqs05vkrofbgg06yzsa",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-09-10T00:00:00.000Z",
+    "summary": "OpenAI 在 API 中发布语音模型 GPT-Live-1，可同时听和说，支持将推理和工具调用委派给 GPT-6 Astra 等后端模型，前端语音层定价为每分钟 $0.05。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "OpenAI 将 GPT-Live-1 语音模型开放至 API",
+    "url": "https://aihot.news/items/cmtz1a2f10pr2roupq2k1944c",
+    "source": "X：OpenAI Developers (@OpenAIDevs)",
+    "publishedAt": "2026-09-12T23:16:27.000Z",
+    "summary": "OpenAI 宣布 GPT-Live-1 正式登陆 API，即 1-800-ChatGPT 背后的语音能力。开发者可把它接入应用，获得边说边听的自然对话语音智能体，并搭配自选的模型与 harness 使用。"
+   },
+   {
+    "kind": "news",
+    "title": "Suno 发布 v6 音乐模型，推出 v6、v6-wild、v6-mini 三个版本",
+    "url": "https://aihot.news/items/cmtym1wo1039krodl7j8164q8",
+    "source": "Suno：Blog（网页）",
+    "publishedAt": "2026-09-12T16:39:24.855Z",
+    "summary": "Suno 发布新一代音乐模型 v6，与 Warner Music Group、BMG、Believe 等行业伙伴合作开发，后续将全面替换旧模型。v6 分为三个版本：旗舰 v6 和探索向的 v6-wild 面向 Pro 与 Premier 订阅用户，更快的 v6-mini 向所有人开放。"
+   },
+   {
+    "kind": "news",
+    "title": "DeepSeek 开源 V4.1-Flash：CED 架构降低编码 Agent 的 prefill 开销",
+    "url": "https://aihot.news/items/cmtym24xb0002rob419mlyhlb",
+    "source": "Baseten 工程博客（网页）",
+    "publishedAt": "2026-09-11T22:01:37.000Z",
+    "summary": "DeepSeek 本周在 HuggingFace 开源 DeepSeek-V4.1-Flash 权重，模型已在 Baseten Model APIs 上线。规格为 552B 总参数、prefill 激活 8B、decode 激活 16B、1M token 上下文、支持文本加图像输入。"
+   },
+   {
+    "kind": "news",
+    "title": "DeepSeek V4.1 Flash 发布，以 40 分超越 DeepSeek V4 Pro 0813 成为新旗舰",
+    "url": "https://aihot.news/items/cmtw0d7oq03imro8sdn2bhe7f",
+    "source": "X：Artificial Analysis (@ArtificialAnlys)",
+    "publishedAt": "2026-09-10T20:36:40.000Z",
+    "summary": "Artificial Analysis 评测显示，DeepSeek V4.1 Flash 在 Intelligence Index 得分 40，超过 DeepSeek V4 Pro 0813 成为 DeepSeek 新旗舰，输入激活参数 8B、输出激活参数 16B，支持 1M token 上下文，MIT 许可。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": []
+ },
+ "repos": [
+  {
+   "repo": "asgeirtj/system_prompts_leaks",
+   "url": "https://github.com/asgeirtj/system_prompts_leaks",
+   "lang": "JavaScript",
+   "stars": "65,526",
+   "desc": "从Anthropic - Claude Fable 5.1、Opus 5、Claude Design、Claude Code中提取系统提示"
+  },
+  {
+   "repo": "Flowseal/zapret-discord-youtube",
+   "url": "https://github.com/Flowseal/zapret-discord-youtube",
+   "lang": "Batchfile",
+   "stars": "33,219",
+   "desc": ""
+  },
+  {
+   "repo": "yuliskov/SmartTube",
+   "url": "https://github.com/yuliskov/SmartTube",
+   "lang": "Java",
+   "stars": "33,246",
+   "desc": "在Android TV上使用您自己的规则浏览媒体内容"
+  },
+  {
+   "repo": "Shubhamsaboo/awesome-llm-apps",
+   "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "lang": "Python",
+   "stars": "137,701",
+   "desc": "100多个人工智能代理、智能体技能和RAG应用程序-免费开源"
+  },
+  {
+   "repo": "SnailSploit/Claude-Red",
+   "url": "https://github.com/SnailSploit/Claude-Red",
+   "lang": "Python",
+   "stars": "3,675",
+   "desc": "claude-red是为Claude技能系统设计的攻击性安全技能精心策划的图书馆"
+  },
+  {
+   "repo": "multimodal-art-projection/YuE",
+   "url": "https://github.com/multimodal-art-projection/YuE",
+   "lang": "Python",
+   "stars": "7,366",
+   "desc": "YuE2 ：具有象征性规划、零封面和代理音乐编辑的前沿音乐生成"
+  },
+  {
+   "repo": "max-sixty/worktrunk",
+   "url": "https://github.com/max-sixty/worktrunk",
+   "lang": "Rust",
+   "stars": "7,301",
+   "desc": "Worktrunk是用于Git工作树管理的CLI ，专为并行AI代理工作流程而设计"
+  },
+  {
+   "repo": "vxcontrol/pentagi",
+   "url": "https://github.com/vxcontrol/pentagi",
+   "lang": "Go",
+   "stars": "23,533",
+   "desc": "完全自主的AI Agents系统，能够执行复杂的渗透测试任务"
+  },
+  {
+   "repo": "EvoMap/AutoResearch",
+   "url": "https://github.com/EvoMap/AutoResearch",
+   "lang": "Python",
+   "stars": "4,208",
+   "desc": "AI/ML研究代理从创意到纸质证据"
+  },
+  {
+   "repo": "rakanki911/DLSS5-Swapper",
+   "url": "https://github.com/rakanki911/DLSS5-Swapper",
+   "lang": "JavaScript",
+   "stars": "4,010",
+   "desc": "只需单击一下，即可在游戏中安装、调整和恢复DLSS 5"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "reactive-resume/reactive-resume",
+   "url": "https://github.com/reactive-resume/reactive-resume",
+   "lang": "TypeScript",
+   "stars": "42,574",
+   "desc": "独一无二的简历生成器，可保护您的隐私",
+   "en": false
+  },
+  {
+   "repo": "DataTalksClub/data-engineering-zoomcamp",
+   "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+   "lang": "Jupyter Notebook",
+   "stars": "45,489",
+   "desc": "Data Engineering Zoomcamp是一门为期9周的关于构建生产就绪数据管道的免费课程",
+   "en": false
+  },
+  {
+   "repo": "LizardByte/Sunshine",
+   "url": "https://github.com/LizardByte/Sunshine",
+   "lang": "C++",
+   "stars": "41,136",
+   "desc": "Moonlight的自托管游戏流主机",
+   "en": false
+  },
+  {
+   "repo": "outline/outline",
+   "url": "https://github.com/outline/outline",
+   "lang": "TypeScript",
+   "stars": "40,524",
+   "desc": "成长型团队最快的知识库。美观、实时协作、功能丰富且兼容markdown",
+   "en": false
+  },
+  {
+   "repo": "AstrBotDevs/AstrBot",
+   "url": "https://github.com/AstrBotDevs/AstrBot",
+   "lang": "Python",
+   "stars": "40,410",
+   "desc": "AI Agent Assistant和开发框架集成了许多IM平台、LLM、插件和AI功能，可以作为您的开放式替代方案",
+   "en": false
+  },
+  {
+   "repo": "The-Vibe-Company/quivr",
+   "url": "https://github.com/The-Vibe-Company/quivr",
+   "lang": "Python",
+   "stars": "39,511",
+   "desc": "为将GenAI集成到您的应用程序中而设计的RAG🧠专注于您的产品，而不是RAG",
+   "en": false
+  },
+  {
+   "repo": "portainer/portainer",
+   "url": "https://github.com/portainer/portainer",
+   "lang": "TypeScript",
+   "stars": "38,489",
+   "desc": "让Docker和Kubernetes管理变得简单",
+   "en": false
+  },
+  {
+   "repo": "harness/harness",
+   "url": "https://github.com/harness/harness",
+   "lang": "Go",
+   "stars": "38,333",
+   "desc": "Harness Open Source是一个端到端开发人员平台，具有源代码管理、CI/CD管道、托管开发人员环境和工件注册表",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4510.16,
+   "chg": -0.84,
+   "pe": 13.5,
+   "pe_pct": 67,
+   "pb": 1.42,
+   "pb_pct": 41,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": 7580.54,
+   "chg": -1.78,
+   "pe": 32.45,
+   "pe_pct": 75,
+   "pb": 2.35,
+   "pb_pct": 76,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "创业板指",
+   "point": 3322.04,
+   "chg": -0.49,
+   "pe": 37.94,
+   "pe_pct": 31,
+   "pb": 5.3,
+   "pb_pct": 59,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "科创50",
+   "point": 1553.39,
+   "chg": -1.01,
+   "pe": 131.43,
+   "pe_pct": 79,
+   "pb": 7.09,
+   "pb_pct": 82,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "中证红利",
+   "point": 5580.28,
+   "chg": -1.71,
+   "pe": 8.69,
+   "pe_pct": 82,
+   "pb": 0.85,
+   "pb_pct": 52,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11082.15,
+   "chg": -1.01,
+   "pe": 8.55,
+   "pe_pct": 79,
+   "pb": 0.88,
+   "pb_pct": 63,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24805.63,
+   "chg": -0.6,
+   "pe": 11.05,
+   "pe_pct": 59,
+   "pb": 1.17,
+   "pb_pct": 67,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 26333.04,
+   "chg": 0.96,
+   "pe": 30.23,
+   "pe_pct": 47,
+   "pb": 9.25,
+   "pb_pct": 79,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7656.98,
+   "chg": 0.86,
+   "pe": 25.13,
+   "pe_pct": 57,
+   "pb": 5.52,
+   "pb_pct": 94,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "玻璃玻纤",
+    "chg": 3.05
+   },
+   {
+    "name": "元件",
+    "chg": 3.03
+   },
+   {
+    "name": "通信设备",
+    "chg": 0.52
+   },
+   {
+    "name": "电力",
+    "chg": -0.45
+   },
+   {
+    "name": "传媒",
+    "chg": -0.74
+   },
+   {
+    "name": "公用事业",
+    "chg": -0.95
+   }
+  ],
+  "dn": [
+   {
+    "name": "证券Ⅱ",
+    "chg": -3.6
+   },
+   {
+    "name": "一般零售",
+    "chg": -3.34
+   },
+   {
+    "name": "石油石化",
+    "chg": -3.26
+   },
+   {
+    "name": "有色金属",
+    "chg": -3.12
+   },
+   {
+    "name": "农林牧渔",
+    "chg": -3.11
+   },
+   {
+    "name": "化学纤维",
+    "chg": -3.01
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-0.40%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.9374（2026-09-11）（≈ 894 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.2164",
+   "date": "2026-09-10"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.0487",
+   "date": "2026-09-10"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5323",
+   "date": "2026-09-10"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1179",
+   "date": "2026-09-10"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.7172",
+   "date": "2026-09-11"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8861",
+   "date": "2026-09-10"
+  }
+ ],
+ "macro": [
+  {
+   "title": "美股资金出逃创年内新高！美联储加息箭在弦上，市场怎么走？",
+   "ctime": "1789263952",
+   "url": "https://finance.sina.com.cn/roll/2026-09-13/doc-inirrxsc0593263.shtml"
+  },
+  {
+   "title": "“央行超级周”来袭！美联储、英国和日本央行谁会先加息？",
+   "ctime": "1789263866",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-13/doc-inirrxsc0592788.shtml"
+  },
+  {
+   "title": "环球一周展望：加息潮在G7蔓延 市场聚焦美联储主席沃什",
+   "ctime": "1789253090",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-13/doc-inirrpaq5960477.shtml"
+  },
+  {
+   "title": "欧洲央行行长拉加德：价格冲击将持续更长时间 AI领域估值非常高",
+   "ctime": "1789247936",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-13/doc-inirrpak7996680.shtml"
+  },
+  {
+   "title": "欧洲央行行长拉加德：当前价格冲击持续时间将更久",
+   "ctime": "1789245400",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-13/doc-inirrhuq4882951.shtml"
+  },
+  {
+   "title": "下周，两大重磅事件！A股重回年内低位，机构建议大胆布局",
+   "ctime": "1789264849",
+   "url": "https://finance.sina.com.cn/roll/2026-09-13/doc-inirrxsh4653762.shtml"
+  },
+  {
+   "title": "欧洲央行官员：若油价持续站上100美元，将继续加息",
+   "ctime": "1789212075",
+   "url": "https://finance.sina.com.cn/wm/2026-09-12/doc-inirqmra6458536.shtml"
+  },
+  {
+   "title": "连续四天 央行隔夜逆回购如何精准“疏堵”？",
+   "ctime": "1789206735",
+   "url": "https://finance.sina.com.cn/china/gncj/2026-09-12/doc-inirqmqv1265375.shtml"
+  }
+ ],
+ "low": []
+}
