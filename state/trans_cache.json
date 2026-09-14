@@ -146,5 +146,21 @@
   "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨": "AI Agent Assistant和开发框架集成了许多IM平台、LLM、插件和AI功能，可以作为您的开放式替代方案",
   "Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.": "为将GenAI集成到您的应用程序中而设计的RAG🧠专注于您的产品，而不是RAG",
   "Making Docker and Kubernetes management easy.": "让Docker和Kubernetes管理变得简单",
-  "Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hosted Developer Environments, and Artifact Registries.": "Harness Open Source是一个端到端开发人员平台，具有源代码管理、CI/CD管道、托管开发人员环境和工件注册表"
+  "Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hosted Developer Environments, and Artifact Registries.": "Harness Open Source是一个端到端开发人员平台，具有源代码管理、CI/CD管道、托管开发人员环境和工件注册表",
+  "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co": "Ever ® Gauzy™ -开放式业务管理平台（ ERP/CRM/HRM/ATS/PM ） - https://gauzy.co",
+  "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.": "专业AI编码代理的安全、经过验证的技能注册表",
+  "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.": "世界上第一个开源代理视频制作系统",
+  "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.": "VoiceStudio是开源、完全本地的ElevenLabs替代品--语音克隆、语音设计、视频配音、听写、转录和有声读物创作，支持646种语言",
+  "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.": "快速、高效、经受住阿里巴巴规模的考验",
+  "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.": "下载Udemy和Hotmart课程、YouTube视频、音乐和书籍—超过1800个网站，无终端",
+  "A good looking terminal emulator which mimics the old cathode display...": "一个好看的终端模拟器，模仿旧的阴极显示器...",
+  "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.": "🤗 Transformers ：用于推理和训练的文本、视觉、音频和多模态模型中最先进的机器学习模型的模型定义框架",
+  "Define and run multi-container applications with Docker": "使用Docker定义和运行多容器应用程序",
+  "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more": "查找漏洞、错误配置、秘密、容器中的SBOM、Kubernetes、代码仓库、云等",
+  "Proxmox VE Helper-Scripts (Community Edition)": "Proxmox VE辅助脚本（社区版）",
+  "🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!": "🚀 专为您打造的自助出租个人控制面板",
+  "Lightweight server monitoring with historical data, docker stats, and alerts.": "使用历史数据、docker统计数据和警报进行轻量级服务器监控",
+  "Proxmox VE Helper-Scripts": "Proxmox VE辅助脚本",
+  "Your favorite operating systems in one place.  A network-based bootable operating system installer based on iPXE.": "您最喜爱的操作系统集中在一个地方",
+  "Stackryze Domains: Free Domain for Everyone, Claim yours today.": "Stackryze域名：为所有人提供免费域名，立即领取您的域名"
 }

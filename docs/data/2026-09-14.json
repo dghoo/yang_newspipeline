@@ -1,0 +1,509 @@
+{
+ "date": "2026-09-14",
+ "weekday": "一",
+ "val_date": "09-11",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑",
+    "url": "https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1",
+    "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+    "publishedAt": "2026-09-13T18:34:31.000Z",
+    "summary": "Gary Marcus 评析 Dario Amodei 倡导放慢 AI 发展并支持透明度的文章，Sam Altman 与 Elon Musk 迅速表示认同。Marcus 肯定其透明度承诺，但列举多方质疑：METR 与 AI 公司关系过近、Anthropic 借对华威胁维持加速、以及该提议可能意在抢先于真正的监管。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
+    "url": "https://aihot.news/items/cmu01iavi08reroymepsxnar2",
+    "source": "Hacker News：AI 热帖",
+    "publishedAt": "2026-09-13T14:15:40.000Z",
+    "summary": "Anthropic 9 月威胁报告披露，据评估极可能关联胡塞组织的也门小组使用 Claude Code 开发制导火箭、射程超 2，000 公里弹道导弹及名为 R2000 的高超声速滑翔载具概念的相关软件。"
+   },
+   {
+    "kind": "news",
+    "title": "Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失",
+    "url": "https://aihot.news/items/cmtzezuk0077wrowyi7a4qy7v",
+    "source": "MarkTechPost（RSS）",
+    "publishedAt": "2026-09-13T05:56:03.000Z",
+    "summary": "文章解析 Agent harness 层应对长任务中上下文溢出与目标丢失的四类机制：上下文预算与卸载、压缩、todo-state 复述和跨会话记忆。"
+   },
+   {
+    "kind": "news",
+    "title": "英伟达是人工智能领域的\"中央银行\"",
+    "url": "https://aihot.news/items/cmtyn3ymd0015ro7fmrjlcr8p",
+    "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "publishedAt": "2026-09-12T16:37:21.932Z",
+    "summary": "英伟达通过为客户提供巨额融资支持来拉动芯片需求，过去三年承诺向初创企业投资超 700 亿美元、向客户提供 3000 亿美元财务支持，因此被称为\"AI 的中央银行\"。今年 8 月它同意为俄亥俄州一座大型数据中心提供最高 1050 亿美元的兜底，并与六家华尔街机构合作撬动超 5000 亿美元 AI 基础设施投资。批评者将其类比 1990 年代末思科和朗讯向电信客户放贷的互联网泡沫风险。"
+   },
+   {
+    "kind": "news",
+    "title": "Dario Amodei 发文呼吁为前沿 AI 降速并提出三点计划",
+    "url": "https://aihot.news/items/cmtygklxb0dunrojhsd5rriu4",
+    "source": "X：Dario Amodei (@DarioAmodei)",
+    "publishedAt": "2026-09-12T14:01:10.000Z",
+    "summary": "Dario Amodei 发布新文章《We Must Pace the Frontier》，主张 AI 行业应放慢速度并给出三点计划。Anthropic 单方面承诺落实第一步，为第三方评估者提供永久、员工级系统访问权限，使其可验证安全措施执行情况、报告事故并在训练期间评估模型对齐。全文见 https://darioamodei.com/post/we-must-pace-the-frontier"
+   },
+   {
+    "kind": "news",
+    "title": "Hugging Face 用 Gradio Workflow 重建 Workflow1111，复刻 AUTOMATIC1111 主要功能",
+    "url": "https://aihot.news/items/cmtvh5qcn05vfronbsu51vfic",
+    "source": "Hugging Face：Blog（RSS）",
+    "publishedAt": "2026-09-10T00:00:00.000Z",
+    "summary": "Hugging Face 发布 Workflow1111，用 gr.Workflow 以 73 个节点、11 条媒体管线重建 AUTOMATIC1111 的大部分功能，覆盖文本生成图像、高清修复、图生图、prompt matrix、VLM 反推提示词、检测生成 inpaint 蒙版、ControlNet 式预处理器、背景移除、PNG Info 和图生视频。"
+   },
+   {
+    "kind": "news",
+    "title": "Apple 发布 Health Sensing System 与重构版 Health app，Apple Watch Series 12 和 Ultra 4 主打 readiness 与 Health Age",
+    "url": "https://aihot.news/items/cmtuejpah193urofpj0jmte9i",
+    "source": "Apple：Newsroom（RSS）",
+    "publishedAt": "2026-09-09T17:52:05.481Z",
+    "summary": "Apple 发布全新健康与健身功能，Apple Watch Series 12 和 Apple Watch Ultra 4 引入 Health Sensing System，支持每 5 秒测心率、HRV 测量频率提升至 24 倍、每日 0-10 的 readiness 评分。"
+   },
+   {
+    "kind": "news",
+    "title": "Apple 发布 Apple Watch Series 12，搭载全新 Health Sensing System 与 S11 芯片",
+    "url": "https://aihot.news/items/cmtuejpai193wrofprivr8awm",
+    "source": "Apple：Newsroom（RSS）",
+    "publishedAt": "2026-09-09T17:50:47.609Z",
+    "summary": "Apple 发布 Apple Watch Series 12，称其具备可穿戴设备中最准确的心率监测，心率每 5 秒测量一次，HRV 测量频率提升至 24 倍，并新增 0-10 分 readiness 评分。"
+   },
+   {
+    "kind": "news",
+    "title": "Apple 发布 iPhone 18 Pro 与 iPhone 18 Pro Max",
+    "url": "https://aihot.news/items/cmtuejpai193yrofptlbx9jyr",
+    "source": "Apple：Newsroom（RSS）",
+    "publishedAt": "2026-09-09T17:30:06.059Z",
+    "summary": "Apple 发布 iPhone 18 Pro 和 iPhone 18 Pro Max，配备带可变光圈的 48MP Fusion 主摄、A20 Pro 芯片和新一代 vapor chamber，eSIM 版 iPhone 18 Pro Max 视频播放最长可达 45 小时。"
+   },
+   {
+    "kind": "news",
+    "title": "GPT-6 Astra 发布后，Sebastian Raschka 解析 looped transformer 与隐藏推理链传闻",
+    "url": "https://aihot.news/items/cmtud99z117yurofph84r3cio",
+    "source": "Hacker News：AI 热帖",
+    "publishedAt": "2026-09-09T14:37:47.000Z",
+    "summary": "OpenAI 发布 GPT-6 Astra，作者评测认为其计算机使用和图像渲染能力尤为突出，ARC-AGI-3 达 99.9%，前代 GPT-5.6 Sol 仅 7.8%。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
+    "url": "https://aihot.news/items/cmtv7kmzk02vdrok9y0y8njiv",
+    "source": "MarkTechPost（RSS）",
+    "publishedAt": "2026-09-10T07:31:01.000Z",
+    "summary": "DeepSeek AI 发布多模态 MoE 模型 DeepSeek-V4.1-Flash，552B 主干加 196B Engram 参数，上下文窗口 1M，prefill 激活 8B 参数、decode 激活 16B，全局 KV 缓存降至每 token 890 字节，约为 DeepSeek-V4-Flash 的 1/4、DeepSeek-V1 的 1/437。"
+   },
+   {
+    "kind": "news",
+    "title": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
+    "url": "https://aihot.news/items/cmtv48yni0oq5rorpf4o74549",
+    "source": "DeepSeek：API 更新日志",
+    "publishedAt": "2026-09-10T05:58:04.695Z",
+    "summary": "DeepSeek 发布 DeepSeek-V4.1-Flash，是全新模型结构系列中最小尺寸的模型，具备原生多模态视觉理解能力，评测包括 GPQA Diamond 90.9、HLE 36.8、Codeforces Rating 3471、Terminal-Bench 2.1 90.6 等。"
+   },
+   {
+    "kind": "news",
+    "title": "Cognition 发布 SWE-2 编码模型，以更低成本逼近前沿",
+    "url": "https://aihot.news/items/cmtym40hx0004roske1zgdkmu",
+    "source": "Cognition 模型 / Devin 博客（网页）",
+    "publishedAt": "2026-09-09T16:00:00.000Z",
+    "summary": "Cognition 发布最先进编码模型 SWE-2，基于 2.8T 参数的 Kimi K33 后训练，在 FrontierCode 1.1 Main 取得 50.0%，仅比 Fable 5.1 低不到一分且便宜 64%。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 发布 Navier-Stokes 千禧年大奖难题的智能体求解证明",
+    "url": "https://aihot.news/items/cmtt5xmpl029krocpiv1aq1je",
+    "source": "X：Emad Mostaque (@EMostaque)",
+    "publishedAt": "2026-09-08T20:52:03.000Z",
+    "summary": "OpenAI 宣布给出 Navier-Stokes 千禧年大奖难题的一个解，证明由一组智能体使用比 GPT-6 Astra 能力强得多的 OpenAI 下一代模型产出。该问题关乎 Navier-Stokes 方程描述的光滑三维流体运动是否会崩溃，约 90 年未解；论文截图显示其构造了对每个正粘性从静止出发、在有限时间内发展出无界速度且动能有界的解，建立了 Fefferman 表述中的备选情形 （C） 与 （D）。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": []
+ },
+ "repos": [
+  {
+   "repo": "ever-co/ever-gauzy",
+   "url": "https://github.com/ever-co/ever-gauzy",
+   "lang": "TypeScript",
+   "stars": "5,314",
+   "desc": "Ever ® Gauzy™ -开放式业务管理平台（ ERP/CRM/HRM/ATS/PM ） - https://gauzy.co"
+  },
+  {
+   "repo": "tech-leads-club/agent-skills",
+   "url": "https://github.com/tech-leads-club/agent-skills",
+   "lang": "TypeScript",
+   "stars": "5,765",
+   "desc": "专业AI编码代理的安全、经过验证的技能注册表"
+  },
+  {
+   "repo": "calesthio/OpenMontage",
+   "url": "https://github.com/calesthio/OpenMontage",
+   "lang": "Python",
+   "stars": "58,640",
+   "desc": "世界上第一个开源代理视频制作系统"
+  },
+  {
+   "repo": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "lang": "Python",
+   "stars": "27,323",
+   "desc": "VoiceStudio是开源、完全本地的ElevenLabs替代品--语音克隆、语音设计、视频配音、听写、转录和有声读物创作，支持646种语言"
+  },
+  {
+   "repo": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "lang": "Go",
+   "stars": "23,749",
+   "desc": "快速、高效、经受住阿里巴巴规模的考验"
+  },
+  {
+   "repo": "tonhowtf/omniget",
+   "url": "https://github.com/tonhowtf/omniget",
+   "lang": "Rust",
+   "stars": "11,889",
+   "desc": "下载Udemy和Hotmart课程、YouTube视频、音乐和书籍—超过1800个网站，无终端"
+  },
+  {
+   "repo": "jiji262/douyin-downloader",
+   "url": "https://github.com/jiji262/douyin-downloader",
+   "lang": "Python",
+   "stars": "11,507",
+   "desc": "抖音批量下载工具，去水印，支持视频、图集、合集、音乐(原声)"
+  },
+  {
+   "repo": "Swordfish90/cool-retro-term",
+   "url": "https://github.com/Swordfish90/cool-retro-term",
+   "lang": "QML",
+   "stars": "26,275",
+   "desc": "一个好看的终端模拟器，模仿旧的阴极显示器..."
+  },
+  {
+   "repo": "huggingface/transformers",
+   "url": "https://github.com/huggingface/transformers",
+   "lang": "Python",
+   "stars": "165,633",
+   "desc": "🤗 Transformers ：用于推理和训练的文本、视觉、音频和多模态模型中最先进的机器学习模型的模型定义框架"
+  },
+  {
+   "repo": "yetone/cumora",
+   "url": "https://github.com/yetone/cumora",
+   "lang": "TypeScript",
+   "stars": "3,588",
+   "desc": "智能体团队聚集的地方。跨平台团队聊天，人工智能代理是一流的队友—云端或自带（ Claude Code/Codex ）大脑"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "docker/compose",
+   "url": "https://github.com/docker/compose",
+   "lang": "Go",
+   "stars": "38,149",
+   "desc": "使用Docker定义和运行多容器应用程序",
+   "en": false
+  },
+  {
+   "repo": "aquasecurity/trivy",
+   "url": "https://github.com/aquasecurity/trivy",
+   "lang": "Go",
+   "stars": "37,896",
+   "desc": "查找漏洞、错误配置、秘密、容器中的SBOM、Kubernetes、代码仓库、云等",
+   "en": false
+  },
+  {
+   "repo": "community-scripts/ProxmoxVE",
+   "url": "https://github.com/community-scripts/ProxmoxVE",
+   "lang": "Shell",
+   "stars": "29,575",
+   "desc": "Proxmox VE辅助脚本（社区版）",
+   "en": false
+  },
+  {
+   "repo": "lissy93/dashy",
+   "url": "https://github.com/lissy93/dashy",
+   "lang": "Vue",
+   "stars": "26,457",
+   "desc": "🚀 专为您打造的自助出租个人控制面板",
+   "en": false
+  },
+  {
+   "repo": "henrygd/beszel",
+   "url": "https://github.com/henrygd/beszel",
+   "lang": "Go",
+   "stars": "25,361",
+   "desc": "使用历史数据、docker统计数据和警报进行轻量级服务器监控",
+   "en": false
+  },
+  {
+   "repo": "tteck/Proxmox",
+   "url": "https://github.com/tteck/Proxmox",
+   "lang": "Shell",
+   "stars": "15,169",
+   "desc": "Proxmox VE辅助脚本",
+   "en": false
+  },
+  {
+   "repo": "netbootxyz/netboot.xyz",
+   "url": "https://github.com/netbootxyz/netboot.xyz",
+   "lang": "Jinja",
+   "stars": "12,252",
+   "desc": "您最喜爱的操作系统集中在一个地方",
+   "en": false
+  },
+  {
+   "repo": "stackryze/FreeDomains",
+   "url": "https://github.com/stackryze/FreeDomains",
+   "lang": "JavaScript",
+   "stars": "11,531",
+   "desc": "Stackryze域名：为所有人提供免费域名，立即领取您的域名",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4489.27,
+   "chg": -0.46,
+   "pe": 13.5,
+   "pe_pct": 67,
+   "pb": 1.42,
+   "pb_pct": 41,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": 7558.74,
+   "chg": -0.29,
+   "pe": 32.45,
+   "pe_pct": 75,
+   "pb": 2.35,
+   "pb_pct": 76,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "创业板指",
+   "point": 3296.94,
+   "chg": -0.76,
+   "pe": 37.94,
+   "pe_pct": 31,
+   "pb": 5.3,
+   "pb_pct": 59,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "科创50",
+   "point": 1530.64,
+   "chg": -1.46,
+   "pe": 131.43,
+   "pe_pct": 79,
+   "pb": 7.09,
+   "pb_pct": 82,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "中证红利",
+   "point": 5571.55,
+   "chg": -0.16,
+   "pe": 8.69,
+   "pe_pct": 82,
+   "pb": 0.85,
+   "pb_pct": 52,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11130.54,
+   "chg": 0.44,
+   "pe": 8.55,
+   "pe_pct": 79,
+   "pb": 0.88,
+   "pb_pct": 63,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24899.27,
+   "chg": 0.38,
+   "pe": 11.05,
+   "pe_pct": 59,
+   "pb": 1.17,
+   "pb_pct": 67,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 26333.04,
+   "chg": 0.96,
+   "pe": 30.23,
+   "pe_pct": 47,
+   "pb": 9.25,
+   "pb_pct": 79,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7656.98,
+   "chg": 0.86,
+   "pe": 25.14,
+   "pe_pct": 57,
+   "pb": 5.52,
+   "pb_pct": 94,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "医疗服务",
+    "chg": 3.65
+   },
+   {
+    "name": "元件",
+    "chg": 2.55
+   },
+   {
+    "name": "仪器仪表",
+    "chg": 1.85
+   },
+   {
+    "name": "化学制药",
+    "chg": 1.68
+   },
+   {
+    "name": "塑料",
+    "chg": 1.29
+   },
+   {
+    "name": "化学制品",
+    "chg": 1.1
+   }
+  ],
+  "dn": [
+   {
+    "name": "农林牧渔",
+    "chg": -1.59
+   },
+   {
+    "name": "通信设备",
+    "chg": -0.81
+   },
+   {
+    "name": "煤炭",
+    "chg": -0.74
+   },
+   {
+    "name": "传媒",
+    "chg": -0.65
+   },
+   {
+    "name": "贸易Ⅱ",
+    "chg": -0.57
+   },
+   {
+    "name": "航空机场",
+    "chg": -0.39
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-0.99%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.9374（2026-09-11）（≈ 894 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.2164",
+   "date": "2026-09-10"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.0487",
+   "date": "2026-09-10"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5323",
+   "date": "2026-09-10"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1179",
+   "date": "2026-09-10"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.7172",
+   "date": "2026-09-11"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8861",
+   "date": "2026-09-10"
+  }
+ ],
+ "macro": [
+  {
+   "title": "德意志银行：预计美联储将在2027年3月再加息25个基点",
+   "ctime": "1789359924",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-iniruhxe4112819.shtml"
+  },
+  {
+   "title": "“超级央行周”来袭，红利低波ETF华泰柏瑞（512890）半日成交4.16亿领跑同类 机构：等待中线底部逐步筑成",
+   "ctime": "1789359292",
+   "url": "https://finance.sina.com.cn/money/fund/original/2026-09-14/doc-iniruhxa7331565.shtml"
+  },
+  {
+   "title": "中金公司：加息未必是坏事，不加息也未必是好事，美联储为维护信誉“最好加息”，美股扰动反而提供更好买点",
+   "ctime": "1789358213",
+   "url": "https://finance.sina.com.cn/roll/2026-09-14/doc-iniruhxh4761662.shtml"
+  },
+  {
+   "title": "美国核心通胀升温强化美联储加息预期，现货黄金承压回落，等待美联储利率决议落地",
+   "ctime": "1789354860",
+   "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-09-14/doc-iniruhxa7266019.shtml"
+  },
+  {
+   "title": "美国核心CPI强化加息预期，通胀预期的改善触发“利空出尽”交易",
+   "ctime": "1789354377",
+   "url": "https://finance.sina.com.cn/roll/2026-09-14/doc-iniruhxe4032966.shtml"
+  },
+  {
+   "title": "“麻辣串串”火了，龙头股成交额A股第二",
+   "ctime": "1789358493",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-14/doc-iniruhwy9599808.shtml"
+  },
+  {
+   "title": "视频丨卫龙162吨进口魔芋粉二氧化硫超标被海关拦截！最新回应：已退回 未投入生产！",
+   "ctime": "1789357642",
+   "url": "https://finance.sina.com.cn/stock/companyt/2026-09-14/doc-iniruhwy9591891.shtml"
+  },
+  {
+   "title": "特朗普加密政策开路，新加坡交易所借势杀入美国永续合约市场",
+   "ctime": "1789356726",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-14/doc-iniruhwy9585827.shtml"
+  }
+ ],
+ "low": []
+}
