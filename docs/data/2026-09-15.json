@@ -1,0 +1,520 @@
+{
+ "date": "2026-09-15",
+ "weekday": "二",
+ "val_date": "09-14",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "科技巨头放缓 AI 开发的口头协议是安全共识还是卡特尔",
+    "url": "https://aihot.news/items/cmu1w7993037vrorbhyp0mwmn",
+    "source": "The Verge：AI（RSS）",
+    "publishedAt": "2026-09-14T22:59:41.000Z",
+    "summary": "Sam Altman、Dario Amodei、Demis Hassabis 和 Elon Musk 周末粗略同意放慢 AI 开发，提出引入第三方审计、监管国内实验室并达成全球放缓协议，批评者则称其为压制竞争者和开源运动的\"卡特尔\"。"
+   },
+   {
+    "kind": "news",
+    "title": "GPT-5.6 Luna 对比 GPT-6 Astra：$1.20 的模型做代码评审够用吗",
+    "url": "https://aihot.news/items/cmu1rrthc04ffrovwf4kpknmm",
+    "source": "Hacker News：AI 热帖",
+    "publishedAt": "2026-09-14T19:56:20.000Z",
+    "summary": "Entelligence 在 50 个公开基准 PR 上用相同提示词对比 GPT-5.6 Luna 和 GPT-6 Astra 的代码评审能力，Luna 找到 69 个经验证 bug（Astra 92 个），总成本 $0.20 对 $5.66，精度 74% 对 96%。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 如何重构测试影响分析服务以应对智能体编码带来的 CI 压力",
+    "url": "https://aihot.news/items/cmu1miqz1154mrocnhtw6icqw",
+    "source": "Claude：Blog（网页）",
+    "publishedAt": "2026-09-14T19:15:56.861Z",
+    "summary": "Anthropic 工程师每季度交付的代码量是 2021-2025 年均值的 8 倍，其中 80% 由 Claude 编写，六个月内 CI 任务增长 25 倍。"
+   },
+   {
+    "kind": "news",
+    "title": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线",
+    "url": "https://aihot.news/items/cmu1ju3b00pmgrocnrgwe6e9e",
+    "source": "Apple：Newsroom（RSS）",
+    "publishedAt": "2026-09-14T17:09:41.324Z",
+    "summary": "Apple 发布新一代 Apple Intelligence，推出全面重构的 Siri AI，支持个人语境理解、屏幕感知、系统级应用操作和跨设备对话，今日起以英文测试版随 2027 系统更新推出，下月扩展至法语、日语、韩语、葡萄牙语和西班牙语。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值",
+    "url": "https://aihot.news/items/cmu1g31xf07frrocnmjfagq29",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-09-14T15:46:45.000Z",
+    "summary": "Anthropic 告知投资者将实现连续第二个季度盈利，但该说法基于剔除股权激励等成本的调整后指标；据 Financial Times，毛利率超过 80%，尚未计入对 Amazon 等伙伴的分成和模型训练成本。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Fireworks 评测 DeepSeek-V4.1-Flash：DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15",
+    "url": "https://aihot.news/items/cmu1xyw1004hvromg5m4jf131",
+    "source": "Fireworks AI（网页）",
+    "publishedAt": "2026-09-15T00:36:35.301Z",
+    "summary": "Fireworks 发布 DeepSeek-V4.1-Flash 并公布完整基准结果：在 DeepSWE 上以 max 档取得 74.34% pass@1，与 GPT-6 Astra 同一水平，但每任务成本 $0.43，约为 Astra 的 1/15。"
+   },
+   {
+    "kind": "news",
+    "title": "硅基流动上线开源模型 Hy4 preview，770B 总参数、1M 上下文",
+    "url": "https://aihot.news/items/cmu1gt8gn097trocnxxvdhxli",
+    "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+    "publishedAt": "2026-09-14T16:32:25.000Z",
+    "summary": "硅基流动（SiliconFlow）宣布开源模型 Hy4 preview 上线其平台。该模型总参数 770B、每 token 激活 49B、支持 1M 上下文，采用 Apache 2.0 协议，面向编码、分析、研究和复杂实际工作。用户可将其接入 Claude Code、Codex、Cursor 等已有工具；图片显示定价为每 1M tokens 输入 $0.834、输出 $2.501、缓存 $0.042。"
+   },
+   {
+    "kind": "news",
+    "title": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
+    "url": "https://aihot.news/items/cmu12ocst0b6nro2nypi25zyq",
+    "source": "公众号：小红书技术（dots.llm）",
+    "publishedAt": "2026-09-14T09:59:00.000Z",
+    "summary": "小红书 AllSpark 团队发布并开源 Search Agent 模型 Iris，权重和评测代码已公开，数据与训练配方将陆续公布。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 在 API 发布 GPT-Image-2.5 Flare 和 Sunburst 图像模型",
+    "url": "https://aihot.news/items/cmtt1vfws018zrowaez22xu5e",
+    "source": "X：OpenAI Developers (@OpenAIDevs)",
+    "publishedAt": "2026-09-08T18:58:45.000Z",
+    "summary": "OpenAI 推出 API 新图像模型 GPT-Image-2.5 Flare 和 Sunburst，主要改进包括更锐利的细节、更强的风格遵循，以及更多对图像编辑的控制。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名",
+    "url": "https://aihot.news/items/cmu1jhejj0njbrocn5llfnktp",
+    "source": "X：Arena (@arena)",
+    "publishedAt": "2026-09-14T17:21:29.000Z",
+    "summary": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名，净提升 +4.87%，每任务中位成本 $0.07，重塑 Pareto 前沿。其成本比第 2 名 Hy4 preview 低 68%、成绩仅差 0.09 个百分点；总榜排名第 12，Confirmed Success 信号排名 第 4（+13.75%）。"
+   },
+   {
+    "kind": "news",
+    "title": "Artificial Analysis 评测：GPT-Live-1 以 81.5 分登顶 Speech to Speech Index",
+    "url": "https://aihot.news/items/cmu23uewb08bfrow2t7lv6cxc",
+    "source": "X：Artificial Analysis (@ArtificialAnlys)",
+    "publishedAt": "2026-09-15T03:14:09.000Z",
+    "summary": "Artificial Analysis 发布 Speech to Speech Index，OpenAI 的 GPT-Live-1 以 81.5 分（Astra 后端，medium 推理强度）排名第一，超过 Grok Voice Think Fast 2.0 High 的 81.3；Sol 后端配置得 80.1 排第三。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "zai-org/GLM-5.3",
+    "url": "https://hf-mirror.com/zai-org/GLM-5.3",
+    "license": "other",
+    "param": "",
+    "likes": 1834,
+    "downloads": 712553,
+    "createdAt": "2026-08-25",
+    "intro": "GLM-5.3使用与GLM-5.2相同的基本模型-每项收益都来自训练后"
+   },
+   {
+    "kind": "model",
+    "id": "XHToken/Spark-X2.5-4B",
+    "url": "https://hf-mirror.com/XHToken/Spark-X2.5-4B",
+    "license": "apache-2.0",
+    "param": "4B",
+    "likes": 1177,
+    "downloads": 24084,
+    "createdAt": "2026-08-24",
+    "intro": "此存储库包含Hugging Face Transformers格式的后训练模型的模型权重和配置文件"
+   },
+   {
+    "kind": "model",
+    "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+    "url": "https://hf-mirror.com/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+    "license": "mit",
+    "param": "",
+    "likes": 902,
+    "downloads": 547463,
+    "createdAt": "2026-08-31",
+    "intro": "我们很高兴推出DeepSeek-V4-Flash-Vision-Exp ，这是我们在DeepSeek-V4系列中的第一个实验性多模态模型"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "666ghj/MiroFish",
+   "url": "https://github.com/666ghj/MiroFish",
+   "lang": "Python",
+   "stars": "73,359",
+   "desc": "简洁通用的群体智能引擎，预测万物"
+  },
+  {
+   "repo": "Panniantong/Agent-Reach",
+   "url": "https://github.com/Panniantong/Agent-Reach",
+   "lang": "Python",
+   "stars": "81,532",
+   "desc": "让您的人工智能代理看到整个互联网"
+  },
+  {
+   "repo": "rlaope/oh-my-hermes",
+   "url": "https://github.com/rlaope/oh-my-hermes",
+   "lang": "Python",
+   "stars": "2,178",
+   "desc": "Hermès Agent编码智能、长期⚚记忆系统和模型优化工作流程包的一体化插件"
+  },
+  {
+   "repo": "localsend/localsend",
+   "url": "https://github.com/localsend/localsend",
+   "lang": "Dart",
+   "stars": "91,437",
+   "desc": "AirDrop的开源跨平台替代方案"
+  },
+  {
+   "repo": "ruvnet/RuView",
+   "url": "https://github.com/ruvnet/RuView",
+   "lang": "Rust",
+   "stars": "93,950",
+   "desc": "π RuView将商用WiFi信号转化为实时空间智能、生命体征监测和存在检测--所有这些都无需一个像素的视频"
+  },
+  {
+   "repo": "OpenBMB/VoxCPM",
+   "url": "https://github.com/OpenBMB/VoxCPM",
+   "lang": "Python",
+   "stars": "37,452",
+   "desc": "VoxCPM2 ：用于多语言语音生成、创意语音设计和真实克隆的无标记TTS"
+  },
+  {
+   "repo": "Crosstalk-Solutions/project-nomad",
+   "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+   "lang": "TypeScript",
+   "stars": "36,994",
+   "desc": "Project NOMAD是一个离线优先的知识和教育服务器"
+  },
+  {
+   "repo": "reconurge/flowsint",
+   "url": "https://github.com/reconurge/flowsint",
+   "lang": "TypeScript",
+   "stars": "8,428",
+   "desc": "用于可视化、灵活且可扩展的基于图形的调查的现代平台"
+  },
+  {
+   "repo": "peetzweg/opendisplay",
+   "url": "https://github.com/peetzweg/opendisplay",
+   "lang": "Swift",
+   "stars": "3,678",
+   "desc": "免费、开源的Sidecar/Duet替代品—通过USB或WiFi将您的iPhone或iPad用作Mac的真正第二显示器"
+  },
+  {
+   "repo": "crmne/spotifast",
+   "url": "https://github.com/crmne/spotifast",
+   "lang": "Rust",
+   "stars": "4,077",
+   "desc": "Spotify ，原生且快速。一个轻量级的Rust应用程序，适用于Linux、macOS和Windows上的整个库、本地播放和Spotify Connect"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "awesome-selfhosted/awesome-selfhosted",
+   "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+   "lang": "",
+   "stars": "319,301",
+   "desc": "可托管在您自己的服务器上的免费软件网络服务和Web应用程序列表",
+   "en": false
+  },
+  {
+   "repo": "n8n-io/n8n",
+   "url": "https://github.com/n8n-io/n8n",
+   "lang": "TypeScript",
+   "stars": "204,333",
+   "desc": "具有原生AI功能的公平代码工作流程自动化平台",
+   "en": false
+  },
+  {
+   "repo": "ohmyzsh/ohmyzsh",
+   "url": "https://github.com/ohmyzsh/ohmyzsh",
+   "lang": "Shell",
+   "stars": "189,720",
+   "desc": "🙃   一个令人愉悦的社区驱动（拥有2,500多名贡献者）框架，用于管理您的zsh配置",
+   "en": false
+  },
+  {
+   "repo": "open-webui/open-webui",
+   "url": "https://github.com/open-webui/open-webui",
+   "lang": "Python",
+   "stars": "152,075",
+   "desc": "用户友好的AI界面（支持Ollama、OpenAI API等）",
+   "en": false
+  },
+  {
+   "repo": "immich-app/immich",
+   "url": "https://github.com/immich-app/immich",
+   "lang": "TypeScript",
+   "stars": "114,186",
+   "desc": "高性能自托管照片和视频管理解决方案",
+   "en": false
+  },
+  {
+   "repo": "Stirling-Tools/Stirling-PDF",
+   "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+   "lang": "Java",
+   "stars": "92,097",
+   "desc": "GitHub上排名第一的PDF应用程序，可让您在任何地方的任何设备上编辑PDF",
+   "en": false
+  },
+  {
+   "repo": "louislam/uptime-kuma",
+   "url": "https://github.com/louislam/uptime-kuma",
+   "lang": "JavaScript",
+   "stars": "91,381",
+   "desc": "一款精美的自托管监控工具",
+   "en": false
+  },
+  {
+   "repo": "unslothai/unsloth",
+   "url": "https://github.com/unslothai/unsloth",
+   "lang": "Python",
+   "stars": "76,177",
+   "desc": "运行和训练LLM和扩散模型的本地UI",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4479.47,
+   "chg": -0.01,
+   "pe": 13.45,
+   "pe_pct": 67,
+   "pb": 1.42,
+   "pb_pct": 40,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": 7588.21,
+   "chg": 0.22,
+   "pe": 32.49,
+   "pe_pct": 76,
+   "pb": 2.35,
+   "pb_pct": 76,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "创业板指",
+   "point": 3279.62,
+   "chg": -0.18,
+   "pe": 37.6,
+   "pe_pct": 30,
+   "pb": 5.25,
+   "pb_pct": 59,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "科创50",
+   "point": 1555.65,
+   "chg": 1.79,
+   "pe": 125.32,
+   "pe_pct": 79,
+   "pb": 7.29,
+   "pb_pct": 83,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "中证红利",
+   "point": 5546.28,
+   "chg": -0.4,
+   "pe": 8.71,
+   "pe_pct": 83,
+   "pb": 0.86,
+   "pb_pct": 52,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11051.46,
+   "chg": -0.65,
+   "pe": 8.59,
+   "pe_pct": 80,
+   "pb": 0.88,
+   "pb_pct": 63,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24859.45,
+   "chg": -0.23,
+   "pe": 11.09,
+   "pe_pct": 60,
+   "pb": 1.17,
+   "pb_pct": 68,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 26186.41,
+   "chg": -0.56,
+   "pe": 30.03,
+   "pe_pct": 46,
+   "pb": 9.28,
+   "pb_pct": 80,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7619.98,
+   "chg": -0.48,
+   "pe": 25.08,
+   "pe_pct": 57,
+   "pb": 5.5,
+   "pb_pct": 94,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "元件",
+    "chg": 1.16
+   },
+   {
+    "name": "塑料",
+    "chg": 0.42
+   },
+   {
+    "name": "煤炭",
+    "chg": 0.09
+   },
+   {
+    "name": "航空机场",
+    "chg": 0.0
+   },
+   {
+    "name": "有色金属",
+    "chg": -0.01
+   },
+   {
+    "name": "化学纤维",
+    "chg": -0.08
+   }
+  ],
+  "dn": [
+   {
+    "name": "一般零售",
+    "chg": -3.74
+   },
+   {
+    "name": "农林牧渔",
+    "chg": -2.21
+   },
+   {
+    "name": "综合Ⅱ",
+    "chg": -2.14
+   },
+   {
+    "name": "工程咨询服务Ⅱ",
+    "chg": -1.7
+   },
+   {
+    "name": "装修装饰Ⅱ",
+    "chg": -1.45
+   },
+   {
+    "name": "水泥",
+    "chg": -1.37
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-0.12%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.8730（2026-09-14）（≈ 887 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.2705",
+   "date": "2026-09-11"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.1177",
+   "date": "2026-09-11"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5759",
+   "date": "2026-09-11"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1424",
+   "date": "2026-09-11"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.7164",
+   "date": "2026-09-14"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8850",
+   "date": "2026-09-11"
+  }
+ ],
+ "macro": [
+  {
+   "title": "欧洲央行副行长警告AI热推高股市估值 回档风险升温",
+   "ctime": "1789448088",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirwsea3740047.shtml"
+  },
+  {
+   "title": "受央行债券出售计划和全球抛售潮影响 印度债券价格下跌",
+   "ctime": "1789446908",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirwscw8690990.shtml"
+  },
+  {
+   "title": "欧洲央行员工委员会寻求央行澄清拉加德是否会提前离任",
+   "ctime": "1789446250",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirwsea3717548.shtml"
+  },
+  {
+   "title": "调查：韩国央行年底将再度加息至3.25%",
+   "ctime": "1789444946",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirwsee3841829.shtml"
+  },
+  {
+   "title": "交易员：印度央行在外汇市场抛售美元以支撑卢比",
+   "ctime": "1789444619",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirwscw8676992.shtml"
+  },
+  {
+   "title": "调查：逾八成经济学家预计美联储本周加息 明年3月底前有望再出手！",
+   "ctime": "1789441500",
+   "url": "https://finance.sina.com.cn/money/forex/whqqscgd/2026-09-15/doc-inirwmvy8788583.shtml"
+  },
+  {
+   "title": "英国就业数据与美联储决议接连来袭，英镑兑美元徘徊1.3490附近等待方向突破",
+   "ctime": "1789439820",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-09-15/doc-inirwmwa6969816.shtml"
+  },
+  {
+   "title": "渣打称美联储本周不应加息 按兵不动才是正确选择",
+   "ctime": "1789439478",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirwmwe3732576.shtml"
+  }
+ ],
+ "low": []
+}
