@@ -175,5 +175,14 @@
   "Ghidra is a software reverse engineering (SRE) framework": "Ghidra是一个软件逆向工程（ SRE ）框架",
   "Source control for agents. Use multiple coding agents, track their changes and query them in one place": "代理的源代码管理。使用多个编码代理，跟踪它们的更改并在一个地方查询它们",
   "ASC is a super FAST Android decompiler front-end designed for Agents/Mobile Researchers.": "ASC是专为智能体/移动研究人员设计的超快速Android反编译器前端",
-  "Production-grade engineering skills for AI coding agents.": "AI编码代理的生产级工程技能"
+  "Production-grade engineering skills for AI coding agents.": "AI编码代理的生产级工程技能",
+  "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings": "用于多阶段安全审核的编码智能体技能，具有经过独立验证的机器可读结果",
+  "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.": "Tinycast —一个小巧、完全原生的macOS启动器、热键和剪贴板历史记录",
+  "The open-source AI voice studio. Clone, dictate, create.": "开源AI语音工作室。克隆、命令、创建",
+  "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库",
+  "Anki is a smart spaced repetition flashcard program": "Anki是一个智能间隔重复抽认卡程序",
+  "We write your reusable computer vision tools. 💜": "我们为您编写可重复使用的计算机视觉工具",
+  "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.": "Postgres开发平台。Supabase为您提供了一个专用的Postgres数据库，用于构建您的Web、移动和人工智能应用程序",
+  "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.": "开源LLM知识平台：将原始文档转化为可查询的RAG、自主推理代理和自我维护的Wiki",
+  "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.": "自主编码代理作为SDK、IDE扩展或CLI助手"
 }

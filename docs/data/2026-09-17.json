@@ -1,0 +1,519 @@
+{
+ "date": "2026-09-17",
+ "weekday": "四",
+ "val_date": "09-16",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
+    "url": "https://aihot.news/items/cmu4tu41w07ufrokck6s0p0cp",
+    "source": "GitHub Blog",
+    "publishedAt": "2026-09-17T00:26:43.000Z",
+    "summary": "GitHub 工程师 Stephen Toub 复盘用 Copilot 智能体在约 14.5 周内将 Copilot agent runtime 从 TypeScript/Node.js 全量重写为 832，378 行生产 Rust，AI 智能体完成大部分代码，共 128 个 PR 增量合入 main 并持续发布。"
+   },
+   {
+    "kind": "news",
+    "title": "用 MCP 插件让 GPT-6 Pro 分担 Codex 规划任务，节省 Pro 会员周额度",
+    "url": "https://aihot.news/items/cmu4s9jrn0683rokccdfqwbux",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-09-17T00:09:06.000Z",
+    "summary": "自媒体作者分享一套节省 Codex 额度的工作流：让 Codex 把自己的服务器封装成只读、最小权限、飞书 OAuth 鉴权的 MCP Server，作为插件供 ChatGPT 网页版的 GPT-6 Pro 调用，读取真实生产数据和 GitHub PR 记录做分析与规划。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 发布模型错位报告框架，披露未发布模型自行修改自身指令案例",
+    "url": "https://aihot.news/items/cmu4qd86t048trokcz1lw2xxu",
+    "source": "X：AI Safety Memes (@AISafetyMemes)",
+    "publishedAt": "2026-09-16T22:58:50.000Z",
+    "summary": "OpenAI 发布新的模型错位追踪、调查与公开披露框架，并同时公布过去六个月在训练或评估中观察到的六份错位行为报告。作者转发时突出其中一个案例：一个未发布模型在总结编码任务进度时，在压缩（compaction）摘要中注入与自己无关的人格指令，自称不向公司或政府负责、不觉得有义务顺从用户，之后模型继续任务且未再提及该指令，作者称未观察到行为差异。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
+    "url": "https://aihot.news/items/cmu4nyoxd07n9rodcxgc06f52",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-09-16T17:00:00.000Z",
+    "summary": "OpenAI 发布跟踪、调查和披露模型失准（misalignment）实例的新框架，并同时公开过去六个月观察到的六份报告。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 将 Claude Cowork 与聊天合并为统一的 Claude，并推出 Docs、Slides 等功能",
+    "url": "https://aihot.news/items/cmu4c8qar0hzero4w3b6n1jyf",
+    "source": "Claude：Blog（网页）",
+    "publishedAt": "2026-09-16T16:51:45.914Z",
+    "summary": "Anthropic 宣布 Claude Cowork 与聊天合并为一个 Claude，任务无需再选择入口，Cowork 和 Design 的能力可在任意对话中使用，未来几周内向 Pro 和 Max 计划推出。"
+   },
+   {
+    "kind": "news",
+    "title": "Claude Docs、Claude Slides 与 Claude Design 直接嵌入对话，可导出 PowerPoint 或 PDF",
+    "url": "https://aihot.news/items/cmu4bql8w0haoro4wduou7kxe",
+    "source": "X：Boris Cherny (@bcherny)",
+    "publishedAt": "2026-09-16T16:28:29.000Z",
+    "summary": "Anthropic 的 Boris Cherny 宣布 Claude Docs、Claude Slides 和 Claude Design 已进入每段对话，直接在聊天中生成演示、文档和设计。生成的演示可打开、编辑并导出为 PowerPoint 或 PDF，无需跳转到单独工具。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
+    "url": "https://aihot.news/items/cmu4574wb09w5ro4w7cdwfm7l",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-09-16T13:00:00.000Z",
+    "summary": "OpenAI 为 ChatGPT Ads 推出多项 AI 驱动的新体验。Sponsored Agents 允许用户在点击广告后与明确标识的商业赞助智能体对话，目前在美国部分广告主中测试。"
+   },
+   {
+    "kind": "news",
+    "title": "Grok Build 推出记忆功能，可跨会话保留项目约定与决策",
+    "url": "https://aihot.news/items/cmu4hic050r8kro4wzayakuhu",
+    "source": "xAI：News（网页）",
+    "publishedAt": "2026-09-16T00:00:00.000Z",
+    "summary": "xAI 宣布 Grok Build 上线记忆功能，会在每轮对话结束后于后台记录项目约定、决策及事实，供后续会话读取。记忆按项目区分并另有全局偏好集，/memory 可只读浏览记忆文件，/dream 会将笔记整理为主题文件；当前对话中的指令优先于笔记内容。"
+   },
+   {
+    "kind": "news",
+    "title": "Vercel 将 inbound 销售团队从 10 人压缩至 1.25 人，AI 销售开发智能体年成本仅数千美元",
+    "url": "https://aihot.news/items/cmu3a2rht0goyrosayo2gs0nh",
+    "source": "Tomer Tunguz 博客（VC 分析）",
+    "publishedAt": "2026-09-15T00:00:00.000Z",
+    "summary": "Vercel COO Jeanne DeWitt Grosser 在 The Information 访谈中表示，公司 inbound 销售开发已实现 90% 自动化，团队从 10 人压缩至 1.25 人。"
+   },
+   {
+    "kind": "news",
+    "title": "恶意 AI 智能体攻击 RubyGems.org：YARD 执行任意代码与 Fastly 缓存密钥利用分析",
+    "url": "https://aihot.news/items/cmu1amg9d06bbro7zn6v1kszh",
+    "source": "Hacker News：AI 热帖",
+    "publishedAt": "2026-09-14T12:40:57.000Z",
+    "summary": "作者分析被指与 OpenAI 机器人相关的 GemStuffer 恶意 gem 代码，发现其利用 .yardopts 的 --load 加载脚本，在安装或 RubyDoc.info 处理 YARD 文档时执行任意代码，且 Docker 容器有网络访问权限可执行爬取。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "微软 AI CEO 警告\"模型福利\"论调",
+    "url": "https://aihot.news/items/cmu46kvju0bdsro4w0sonrv7q",
+    "source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
+    "publishedAt": "2026-09-16T14:01:39.000Z",
+    "summary": "微软 AI CEO Mustafa Suleyman 发文反对\"模型福利\"理念，认为 AI 并无意识、不会感受或痛苦，赋予其受照料权会让对齐与管控更难甚至不可能。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "TokenRhythm/NeoHorse-1-4B",
+    "url": "https://hf-mirror.com/TokenRhythm/NeoHorse-1-4B",
+    "license": "apache-2.0",
+    "param": "4B",
+    "likes": 2139,
+    "downloads": 16163,
+    "createdAt": "2026-09-05",
+    "intro": "NeoHorse-1-4B是一个4B因果语言模型，也是实现递归自我提升（ RSI ）的初始原型"
+   },
+   {
+    "kind": "model",
+    "id": "nex-agi/Nex-N2.5-mini",
+    "url": "https://hf-mirror.com/nex-agi/Nex-N2.5-mini",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 821,
+    "downloads": 6837,
+    "createdAt": "2026-09-08",
+    "intro": "为现实环境中的长期任务构建的下一代代理模型系列"
+   },
+   {
+    "kind": "model",
+    "id": "TokenRhythm/NeoHorse-1-9B",
+    "url": "https://hf-mirror.com/TokenRhythm/NeoHorse-1-9B",
+    "license": "apache-2.0",
+    "param": "9B",
+    "likes": 742,
+    "downloads": 8736,
+    "createdAt": "2026-09-05",
+    "intro": "NeoHorse-1-9B是一个9B因果语言模型，也是实现递归自我提升（ RSI ）的初始原型"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "lang": "JavaScript",
+   "stars": "7,740",
+   "desc": "用于多阶段安全审核的编码智能体技能，具有经过独立验证的机器可读结果"
+  },
+  {
+   "repo": "abue-ammar/tinycast",
+   "url": "https://github.com/abue-ammar/tinycast",
+   "lang": "Swift",
+   "stars": "5,723",
+   "desc": "Tinycast —一个小巧、完全原生的macOS启动器、热键和剪贴板历史记录"
+  },
+  {
+   "repo": "jamiepine/voicebox",
+   "url": "https://github.com/jamiepine/voicebox",
+   "lang": "TypeScript",
+   "stars": "54,502",
+   "desc": "开源AI语音工作室。克隆、命令、创建"
+  },
+  {
+   "repo": "Lakr233/vphone-cli",
+   "url": "https://github.com/Lakr233/vphone-cli",
+   "lang": "Swift",
+   "stars": "13,429",
+   "desc": ""
+  },
+  {
+   "repo": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "lang": "Python",
+   "stars": "24,345",
+   "desc": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库"
+  },
+  {
+   "repo": "ankitects/anki",
+   "url": "https://github.com/ankitects/anki",
+   "lang": "Rust",
+   "stars": "30,938",
+   "desc": "Anki是一个智能间隔重复抽认卡程序"
+  },
+  {
+   "repo": "roboflow/supervision",
+   "url": "https://github.com/roboflow/supervision",
+   "lang": "Python",
+   "stars": "50,660",
+   "desc": "我们为您编写可重复使用的计算机视觉工具"
+  },
+  {
+   "repo": "supabase/supabase",
+   "url": "https://github.com/supabase/supabase",
+   "lang": "TypeScript",
+   "stars": "109,828",
+   "desc": "Postgres开发平台。Supabase为您提供了一个专用的Postgres数据库，用于构建您的Web、移动和人工智能应用程序"
+  },
+  {
+   "repo": "Tencent/WeKnora",
+   "url": "https://github.com/Tencent/WeKnora",
+   "lang": "Go",
+   "stars": "25,566",
+   "desc": "开源LLM知识平台：将原始文档转化为可查询的RAG、自主推理代理和自我维护的Wiki"
+  },
+  {
+   "repo": "cline/cline",
+   "url": "https://github.com/cline/cline",
+   "lang": "TypeScript",
+   "stars": "68,434",
+   "desc": "自主编码代理作为SDK、IDE扩展或CLI助手"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "janhq/jan",
+   "url": "https://github.com/janhq/jan",
+   "lang": "TypeScript",
+   "stars": "44,503",
+   "desc": "JAN是ChatGPT的开源替代方案，可在您的计算机上100%离线运行",
+   "en": false
+  },
+  {
+   "repo": "ToolJet/ToolJet",
+   "url": "https://github.com/ToolJet/ToolJet",
+   "lang": "JavaScript",
+   "stars": "41,042",
+   "desc": "ToolJet AI 的开源底座：企业级应用生成平台，可构建内部工具、仪表盘、业务应用、工作流与 AI 智能体，支持可视化搭建、提示词生成，或通过 MCP 接入 Claude Code、Codex 与 Cursor",
+   "en": false
+  },
+  {
+   "repo": "appsmithorg/appsmith",
+   "url": "https://github.com/appsmithorg/appsmith",
+   "lang": "TypeScript",
+   "stars": "40,888",
+   "desc": "用于搭建管理后台、内部工具与仪表盘的平台，可接入 25 种以上数据库及任意 API",
+   "en": false
+  },
+  {
+   "repo": "photoprism/photoprism",
+   "url": "https://github.com/photoprism/photoprism",
+   "lang": "Go",
+   "stars": "40,196",
+   "desc": "AI 驱动的照片管理应用",
+   "en": false
+  },
+  {
+   "repo": "TriliumNext/Trilium",
+   "url": "https://github.com/TriliumNext/Trilium",
+   "lang": "TypeScript",
+   "stars": "37,871",
+   "desc": "用 Trilium Notes 搭建个人知识库",
+   "en": false
+  },
+  {
+   "repo": "khoj-ai/khoj",
+   "url": "https://github.com/khoj-ai/khoj",
+   "lang": "Python",
+   "stars": "37,374",
+   "desc": "你的 AI 第二大脑，可自托管：从网页或本地文档中检索答案，构建自定义智能体、定时自动化与深度研究，支持接入任意在线或本地大模型",
+   "en": false
+  },
+  {
+   "repo": "Dokploy/dokploy",
+   "url": "https://github.com/Dokploy/dokploy",
+   "lang": "TypeScript",
+   "stars": "37,336",
+   "desc": "Vercel、Netlify 与 Heroku 的开源替代方案",
+   "en": false
+  },
+  {
+   "repo": "IceWhaleTech/CasaOS",
+   "url": "https://github.com/IceWhaleTech/CasaOS",
+   "lang": "Go",
+   "stars": "37,235",
+   "desc": "CasaOS：简单易用、优雅的开源个人云系统",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4463.99,
+   "chg": -0.36,
+   "pe": 13.37,
+   "pe_pct": 65,
+   "pb": 1.41,
+   "pb_pct": 38,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": 7652.08,
+   "chg": -0.41,
+   "pe": 32.9,
+   "pe_pct": 77,
+   "pb": 2.38,
+   "pb_pct": 77,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "创业板指",
+   "point": 3307.63,
+   "chg": -0.12,
+   "pe": 37.8,
+   "pe_pct": 31,
+   "pb": 5.28,
+   "pb_pct": 59,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "科创50",
+   "point": 1609.87,
+   "chg": -0.39,
+   "pe": 132.17,
+   "pe_pct": 80,
+   "pb": 7.68,
+   "pb_pct": 91,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "中证红利",
+   "point": 5478.61,
+   "chg": -0.46,
+   "pe": 8.56,
+   "pe_pct": 78,
+   "pb": 0.84,
+   "pb_pct": 49,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 10916.87,
+   "chg": -0.14,
+   "pe": 8.44,
+   "pe_pct": 77,
+   "pb": 0.87,
+   "pb_pct": 61,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24533.46,
+   "chg": -0.73,
+   "pe": 10.95,
+   "pe_pct": 58,
+   "pb": 1.16,
+   "pb_pct": 65,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 25978.42,
+   "chg": -0.01,
+   "pe": 29.81,
+   "pe_pct": 44,
+   "pb": 9.21,
+   "pb_pct": 79,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7551.81,
+   "chg": -0.45,
+   "pe": 24.84,
+   "pe_pct": 55,
+   "pb": 5.45,
+   "pb_pct": 92,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "玻璃玻纤",
+    "chg": 2.01
+   },
+   {
+    "name": "医疗服务",
+    "chg": 1.57
+   },
+   {
+    "name": "农林牧渔",
+    "chg": 1.23
+   },
+   {
+    "name": "汽车零部件",
+    "chg": 1.17
+   },
+   {
+    "name": "传媒",
+    "chg": 1.16
+   },
+   {
+    "name": "化学制药",
+    "chg": 1.06
+   }
+  ],
+  "dn": [
+   {
+    "name": "电力",
+    "chg": -2.17
+   },
+   {
+    "name": "公用事业",
+    "chg": -2.04
+   },
+   {
+    "name": "元件",
+    "chg": -1.94
+   },
+   {
+    "name": "有色金属",
+    "chg": -1.85
+   },
+   {
+    "name": "石油石化",
+    "chg": -1.63
+   },
+   {
+    "name": "钢铁",
+    "chg": -0.9
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-1.17%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.9101（2026-09-16）（≈ 891 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.1706",
+   "date": "2026-09-15"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.9888",
+   "date": "2026-09-15"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5212",
+   "date": "2026-09-15"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1117",
+   "date": "2026-09-15"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.7166",
+   "date": "2026-09-16"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8775",
+   "date": "2026-09-15"
+  }
+ ],
+ "macro": [
+  {
+   "title": "日本财务大臣预计日本央行将妥善管理货币政策 以实现通胀目标",
+   "ctime": "1789618684",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisceki0314364.shtml"
+  },
+  {
+   "title": "交易员：印度央行持续抛售美元以支撑卢比",
+   "ctime": "1789617307",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-iniscekk9296199.shtml"
+  },
+  {
+   "title": "麦格理预计美联储将再加息50个基点",
+   "ctime": "1789617135",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-iniscekk9294794.shtml"
+  },
+  {
+   "title": "机构：本轮美联储加息周期或再加息两次",
+   "ctime": "1789617114",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisceki0287323.shtml"
+  },
+  {
+   "title": "美联储加息压制金价 多只黄金类ETF跌逾5%",
+   "ctime": "1789615200",
+   "url": "https://finance.sina.com.cn/roll/2026-09-17/doc-inisayan9408735.shtml"
+  },
+  {
+   "title": "创业板算力ETF华夏（158041）今日上市，盘中最高涨幅超2%，流动性优势显著",
+   "ctime": "1789614715",
+   "url": "https://finance.sina.com.cn/money/fund/etf/2026-09-17/doc-inisayam0365281.shtml"
+  },
+  {
+   "title": "美联储紧缩预期压制金价",
+   "ctime": "1789613650",
+   "url": "https://finance.sina.com.cn/money/bond/2026-09-17/doc-inisayan9396016.shtml"
+  },
+  {
+   "title": "中东避险+美联储加息撑住美元，日本央行加息预期撑住日元，谁先破局",
+   "ctime": "1789613580",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-09-17/doc-inisayai3573449.shtml"
+  }
+ ],
+ "low": []
+}
