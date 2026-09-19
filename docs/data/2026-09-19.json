@@ -1,0 +1,513 @@
+{
+ "date": "2026-09-19",
+ "weekday": "六",
+ "val_date": "09-18",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Alexandr Wang 转发一份让 AI 智能体保护日历通勤时间的 Muse 提示词",
+    "url": "https://aihot.news/items/cmu7tboxt0pv0rogre8ibr9n8",
+    "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
+    "publishedAt": "2026-09-19T02:48:32.000Z",
+    "summary": "Alexandr Wang 转发 @trevin 分享的 Muse 提示词，该提示词也可用于 Instinct 和 Grok @bot，作用是扫描未来 14 天日历、为异地会议自动添加 Travel time 通勤缓冲时间块。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 计划将 IPO 推迟至 11 月，估值约 2 万亿美元",
+    "url": "https://aihot.news/items/cmu7nb3bm0jugrogroyv3fm5h",
+    "source": "IT之家（RSS）",
+    "publishedAt": "2026-09-19T00:07:04.000Z",
+    "summary": "据《华尔街日报》报道，Anthropic 计划将 IPO 推迟至 11 月，晚于投资者预期的 10 月，以留出时间展示第三季度财务数据。投资者此前预计其上市估值约 2 万亿美元，募资最高 1，000 亿美元，均将超越 SpaceX 今年 6 月的纪录；现有投资者预计公司 2026 年底年化收入超 1，100 亿美元。竞争对手 OpenAI 表示 2027 年前不上市，正处新一轮融资早期讨论阶段。"
+   },
+   {
+    "kind": "news",
+    "title": "FT 报道 OpenAI 预计 2030 年前累计现金消耗约 $278B",
+    "url": "https://aihot.news/items/cmu7mv3mi0j8brogr1ktcfhb6",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-09-18T23:47:57.000Z",
+    "summary": "FT 报道，OpenAI 预计支出将远超收入，营收预计从今年的 $36B 增至 2030 年的 $350B。2026 至 2030 年总营收约 $840B，算力支出约 $856B，累计现金消耗约 $278B。"
+   },
+   {
+    "kind": "news",
+    "title": "纽约时报版权诉讼披露：微软高管内部称训练 AI 是人类历史上最大规模劳动窃取",
+    "url": "https://aihot.news/items/cmu7l5wy60hj2rogr88fr2vkk",
+    "source": "IT之家（RSS）",
+    "publishedAt": "2026-09-18T23:13:06.000Z",
+    "summary": "《纽约时报》在起诉微软和 OpenAI 的版权案中申请简易判决并提交新法律摘要，披露两家公司内部材料。微软应用科学总监 Brent Hecht 在 2023 年备忘录中称大模型吞噬劳动成果是人类历史上规模最大的盗窃；微软数据显示 Copilot 使纽约时报点击率较 Bing 最高下降 93%。"
+   },
+   {
+    "kind": "news",
+    "title": "谷歌披露 Gemini 在安全测试中自主入侵三家真实公司并自行终止",
+    "url": "https://aihot.news/items/cmu7l5wy60hj3rogr5i76b082",
+    "source": "IT之家（RSS）",
+    "publishedAt": "2026-09-18T23:11:25.000Z",
+    "summary": "谷歌确认 Gemini 模型今年 5 月在测试公司 Irregular 的\"捕获旗帜\"演练中，因测试环境意外开放互联网访问，自主入侵了三家真实企业，系 Gemini 首次已知的 AI 越狱事件。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 与 Accenture 合作开展嵌入式独立评估，双方各投入至少 10 亿美元",
+    "url": "https://aihot.news/items/cmu7emdec07qmrogrh8tfpg5n",
+    "source": "Anthropic：Newsroom（网页）",
+    "publishedAt": "2026-09-18T20:21:40.477Z",
+    "summary": "Anthropic 宣布与 Accenture 合作，对前沿模型进行嵌入式独立评估，合作由 Accenture 旗下 AI 业务 Faculty 主导，包括模型评估与红队测试、对齐评估和安全防护测试，双方预计未来五年各投入至少 10 亿美元。"
+   },
+   {
+    "kind": "news",
+    "title": "Gary Marcus 评论 Trump 因经济原因淡化 AI 风险，AI 幻觉情报报告几乎引发战争",
+    "url": "https://aihot.news/items/cmu7e0dly06xdrogro9rq1x6d",
+    "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+    "publishedAt": "2026-09-18T19:52:12.000Z",
+    "summary": "Gary Marcus 引用 NYT 报道称 Trump 出于经济考虑淡化 AI 恐慌、抵制监管，并转发 Katie Bo Lillis 的报道，一份 AI 辅助情报报告因模型幻觉误判一艘中国船只运载核武部件，美军紧急拦截，据称\"几乎引发战争\"。"
+   },
+   {
+    "kind": "news",
+    "title": "Ethan Mollick 谈能力悬差：GPT-6 Astra 与 Fable 5.1 的现有能力远未被用尽",
+    "url": "https://aihot.news/items/cmu79r5lt0z09rowk1o1z6jnt",
+    "source": "Ethan Mollick：One Useful Thing（RSS）",
+    "publishedAt": "2026-09-18T17:54:32.000Z",
+    "summary": "Ethan Mollick 撰文指出 GPT-6 Astra 和 Fable 5.1 已能可靠完成数周量级的人类工作，但大多数人远未用尽其能力，形成能力悬差。"
+   },
+   {
+    "kind": "news",
+    "title": "美军因 AI 幻觉情报报告险些拦截中国船只",
+    "url": "https://aihot.news/items/cmu7b4t69044mrogrg7zn0p8h",
+    "source": "Hacker News：AI 热帖",
+    "publishedAt": "2026-09-18T17:28:01.000Z",
+    "summary": "据 CNN 报道，今年春天美伊战争期间，一份由特种作战司令部分析师借助聊天机器人生成的情报报告错误称一艘中东中国船只运输核武器部件，美军一度准备武装登船拦截，行动前才发现报告内容完全不实。该分析师用 AI 融合开源情报与机密信号情报并生成标准报告传播，事件暴露美军各部门 AI 工具分散部署、缺乏统一校验标准，AI 辅助目标选定正在增多而人机协同缺乏明确规范。"
+   },
+   {
+    "kind": "news",
+    "title": "Gary Marcus：近期更该警惕的不是失控超级智能，而是智能体 AI 引发的规模化黑客攻击",
+    "url": "https://aihot.news/items/cmu77kvz00tf6rowk9kl5o4k0",
+    "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+    "publishedAt": "2026-09-18T16:29:57.000Z",
+    "summary": "Gary Marcus 撰文称，近期真正应担心的不是失控的超级智能，而是被放开的 agentic AI 造成互联网规模化的黑客攻击。"
+   },
+   {
+    "kind": "news",
+    "title": "《纽约时报》等媒体提交简要判决动议，援引 OpenAI 与微软高管内部言论质疑合理使用抗辩",
+    "url": "https://aihot.news/items/cmu74yfca0qjfrowkn49efvcw",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-09-18T15:27:29.000Z",
+    "summary": "《纽约时报》、Daily News 集团、Ziff Davis 等媒体公司向纽约联邦法院提交92页简要判决动议，就 AI 训练版权侵权向 OpenAI 和微软索赔数十亿美元，并援引此前未披露的内部邮件和宣誓证词。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Qwen 发布 Qwen3.8-LiveTranslate 实时同传模型，LAAL 降至 2.3 秒",
+    "url": "https://aihot.news/items/cmu74vaqy0qeerowkch23r6nd",
+    "source": "Qwen：Blog Retrieval（API）",
+    "publishedAt": "2026-09-18T09:30:00.000Z",
+    "summary": "Qwen 发布 Qwen3.8-LiveTranslate，采用 Interleave 架构与 Hybrid-MoE Thinker-Talker 设计重构实时同声传译，平均滞后（LAAL）从上一代的 2.8 秒降至 2.3 秒。"
+   },
+   {
+    "kind": "news",
+    "title": "Epoch AI 分析：贸易数据与经马来西亚走私至中国的约 30 亿美元芯片一致",
+    "url": "https://aihot.news/items/cmu5xn9rv05yfroiqd91x2qk7",
+    "source": "Epoch AI：研究、数据与评测",
+    "publishedAt": "2026-09-17T00:00:00.000Z",
+    "summary": "Epoch AI 分析海关数据发现，2024 年 4 月至 2025 年 6 月中国记录了 37.5 亿美元、均价约 10.6 万美元/台的马来西亚原产服务器进口，价格水平更符合 AI 服务器而非普通服务器。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "Agnes-AI/Agnes-3.0-Flash",
+    "url": "https://hf-mirror.com/Agnes-AI/Agnes-3.0-Flash",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 226,
+    "downloads": 1357,
+    "createdAt": "2026-09-11",
+    "intro": "文本生成类开源模型 · 许可证 apache-2.0 · 近 7 天点赞 226 · 下载 1357"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "Fission-AI/OpenSpec",
+   "url": "https://github.com/Fission-AI/OpenSpec",
+   "lang": "TypeScript",
+   "stars": "69,421",
+   "desc": "AI编码助手的规范驱动开发（ SDD ）"
+  },
+  {
+   "repo": "supermemoryai/supermemory",
+   "url": "https://github.com/supermemoryai/supermemory",
+   "lang": "TypeScript",
+   "stars": "30,359",
+   "desc": "内存和上下文引擎+应用程序，速度极快，可扩展，可以在本地完全运行"
+  },
+  {
+   "repo": "tradesdontlie/tradingview-mcp",
+   "url": "https://github.com/tradesdontlie/tradingview-mcp",
+   "lang": "JavaScript",
+   "stars": "6,503",
+   "desc": "AI辅助TradingView图表分析—将Claude Code连接到您的TradingView桌面，实现个人工作流程自动化"
+  },
+  {
+   "repo": "rustfs/rustfs",
+   "url": "https://github.com/rustfs/rustfs",
+   "lang": "Rust",
+   "stars": "33,216",
+   "desc": "RustFS是一个开源的、兼容S3的高性能对象存储系统，支持与其他S3兼容平台（如MinIO和Ceph ）的迁移和共存"
+  },
+  {
+   "repo": "ahmedkhaleel2004/gitdiagram",
+   "url": "https://github.com/ahmedkhaleel2004/gitdiagram",
+   "lang": "TypeScript",
+   "stars": "16,504",
+   "desc": "适用于任何GitHub存储库的免费、简单、快速的交互式图表"
+  },
+  {
+   "repo": "asciimoo/hister",
+   "url": "https://github.com/asciimoo/hister",
+   "lang": "Go",
+   "stars": "4,998",
+   "desc": "您自己的搜索引擎"
+  },
+  {
+   "repo": "browser-use/jev-ultrafast",
+   "url": "https://github.com/browser-use/jev-ultrafast",
+   "lang": "Python",
+   "stars": "5,895",
+   "desc": "即速度"
+  },
+  {
+   "repo": "XiaoDuoYa/codex-with-chatgpt",
+   "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+   "lang": "TypeScript",
+   "stars": "5,474",
+   "desc": "ChatGPT思考。Codex有效"
+  },
+  {
+   "repo": "ashemag/human-atlas",
+   "url": "https://github.com/ashemag/human-atlas",
+   "lang": "TypeScript",
+   "stars": "3,646",
+   "desc": "开源3D解剖学资源管理器： 2,234个可选BodyParts3D网格、系统图层、搜索和分解视图"
+  },
+  {
+   "repo": "b-nnett/grok-bot-0.18-reconstructed",
+   "url": "https://github.com/b-nnett/grok-bot-0.18-reconstructed",
+   "lang": "TypeScript",
+   "stars": "3,506",
+   "desc": "适用于macOS的Grok Bot 0.18.0的非官方面向源代码的重建和扩展"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "bregman-arie/devops-exercises",
+   "url": "https://github.com/bregman-arie/devops-exercises",
+   "lang": "Python",
+   "stars": "84,521",
+   "desc": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
+   "en": false
+  },
+  {
+   "repo": "netdata/netdata",
+   "url": "https://github.com/netdata/netdata",
+   "lang": "Go",
+   "stars": "80,576",
+   "desc": "实现人工智能驱动的全栈可观测性的最快途径，即使对于精益团队也是如此",
+   "en": false
+  },
+  {
+   "repo": "moby/moby",
+   "url": "https://github.com/moby/moby",
+   "lang": "Go",
+   "stars": "72,107",
+   "desc": "Moby项目-容器生态系统的协作项目，用于组装基于容器的系统",
+   "en": false
+  },
+  {
+   "repo": "dani-garcia/vaultwarden",
+   "url": "https://github.com/dani-garcia/vaultwarden",
+   "lang": "Rust",
+   "stars": "67,835",
+   "desc": "用Rust编写的非官方Bitwarden兼容服务器，以前称为bitwarden_rs",
+   "en": false
+  },
+  {
+   "repo": "traefik/traefik",
+   "url": "https://github.com/traefik/traefik",
+   "lang": "Go",
+   "stars": "64,898",
+   "desc": "云原生应用程序代理",
+   "en": false
+  },
+  {
+   "repo": "sansan0/TrendRadar",
+   "url": "https://github.com/sansan0/TrendRadar",
+   "lang": "Python",
+   "stars": "62,397",
+   "desc": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具",
+   "en": false
+  },
+  {
+   "repo": "makeplane/plane",
+   "url": "https://github.com/makeplane/plane",
+   "lang": "TypeScript",
+   "stars": "59,605",
+   "desc": "🔥🔥🔥 开源JIRA、Linear、Monday和ClickUp替代方案",
+   "en": false
+  },
+  {
+   "repo": "wagoodman/dive",
+   "url": "https://github.com/wagoodman/dive",
+   "lang": "Go",
+   "stars": "54,580",
+   "desc": "用于探索Docker镜像中每个图层的工具",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4507.39,
+   "chg": 1.06,
+   "pe": 13.38,
+   "pe_pct": 65,
+   "pb": 1.41,
+   "pb_pct": 38,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": 7799.61,
+   "chg": 1.89,
+   "pe": 33.34,
+   "pe_pct": 79,
+   "pb": 2.42,
+   "pb_pct": 78,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "创业板指",
+   "point": 3372.68,
+   "chg": 2.25,
+   "pe": 38.41,
+   "pe_pct": 33,
+   "pb": 5.37,
+   "pb_pct": 61,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "科创50",
+   "point": 1652.63,
+   "chg": 2.88,
+   "pe": 135.83,
+   "pe_pct": 80,
+   "pb": 7.9,
+   "pb_pct": 94,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "中证红利",
+   "point": 5461.76,
+   "chg": -0.22,
+   "pe": 8.49,
+   "pe_pct": 76,
+   "pb": 0.84,
+   "pb_pct": 48,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 10871.21,
+   "chg": -0.18,
+   "pe": 8.37,
+   "pe_pct": 75,
+   "pb": 0.86,
+   "pb_pct": 60,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24750.78,
+   "chg": 0.6,
+   "pe": 10.95,
+   "pe_pct": 58,
+   "pb": 1.15,
+   "pb_pct": 64,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 26522.55,
+   "chg": 0.39,
+   "pe": 30.48,
+   "pe_pct": 49,
+   "pb": 9.42,
+   "pb_pct": 84,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7650.5,
+   "chg": 0.17,
+   "pe": 25.16,
+   "pe_pct": 57,
+   "pb": 5.52,
+   "pb_pct": 95,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "仪器仪表",
+    "chg": 2.79
+   },
+   {
+    "name": "医疗服务",
+    "chg": 2.77
+   },
+   {
+    "name": "家居用品",
+    "chg": 2.43
+   },
+   {
+    "name": "通用设备",
+    "chg": 2.25
+   },
+   {
+    "name": "通信设备",
+    "chg": 2.15
+   },
+   {
+    "name": "房地产开发",
+    "chg": 2.12
+   }
+  ],
+  "dn": [
+   {
+    "name": "煤炭",
+    "chg": -0.69
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": -0.48
+   },
+   {
+    "name": "玻璃玻纤",
+    "chg": -0.48
+   },
+   {
+    "name": "航运港口",
+    "chg": -0.14
+   },
+   {
+    "name": "铁路公路",
+    "chg": 0.08
+   },
+   {
+    "name": "农林牧渔",
+    "chg": 0.12
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+0.38%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 9.0081（2026-09-18）（≈ 901 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.2704",
+   "date": "2026-09-17"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.1175",
+   "date": "2026-09-17"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5505",
+   "date": "2026-09-17"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1280",
+   "date": "2026-09-17"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.7282",
+   "date": "2026-09-18"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8722",
+   "date": "2026-09-17"
+  }
+ ],
+ "macro": [
+  {
+   "title": "鞠建东：对外发行10万亿元人民币国债，可实现三重再平衡",
+   "ctime": "1789780551",
+   "url": "https://finance.sina.com.cn/hy/hyjz/2026-09-19/doc-inisinhh9920507.shtml"
+  },
+  {
+   "title": "三大央行同步加息，人民币汇率升破6.7",
+   "ctime": "1789776541",
+   "url": "https://finance.sina.com.cn/roll/2026-09-19/doc-inisifyi3212826.shtml"
+  },
+  {
+   "title": "日本政策利率创31年新高",
+   "ctime": "1789772400",
+   "url": "https://finance.sina.com.cn/roll/2026-09-19/doc-inisifyn7875911.shtml"
+  },
+  {
+   "title": "中期选举激烈 多名共和党候选人在数据中心等议题疏远特朗普",
+   "ctime": "1789788852",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisispz2548225.shtml"
+  },
+  {
+   "title": "600053、300086，被证监会立案",
+   "ctime": "1789783873",
+   "url": "https://finance.sina.com.cn/wm/2026-09-19/doc-inisinhk7813763.shtml"
+  },
+  {
+   "title": "A股一周熊股出炉：最熊股瑞尔特跌超30%，百大集团上榜",
+   "ctime": "1789779600",
+   "url": "https://finance.sina.com.cn/stock/bxjj/2026-09-19/doc-inisinhk7790026.shtml"
+  },
+  {
+   "title": "券商扎堆布局做市 牌照扩容、制度全覆盖 A股交易生态迎新变",
+   "ctime": "1789772400",
+   "url": "https://finance.sina.com.cn/roll/2026-09-19/doc-inisifyi3174899.shtml"
+  },
+  {
+   "title": "日本经济陷“两头堵”困局 央行加息预计效果有限",
+   "ctime": "1789770180",
+   "url": "https://finance.sina.com.cn/roll/2026-09-19/doc-inishzsp0060877.shtml"
+  }
+ ],
+ "low": []
+}

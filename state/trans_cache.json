@@ -191,5 +191,13 @@
   "eBPF-based Networking, Security, and Observability": "基于eBPF的网络、安全性和可观测性",
   "A smarter, self-hosted AI assistant — multi-user, multi-agent.": "更智能、自托管的人工智能助手—多用户、多代理",
   "Secure environments for developers and their agents": "为开发人员及其代理提供安全的环境",
-  "🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.": "🪢 开源代理回避和可观测性：使用一个开放平台跟踪、评估和改进LLM应用程序"
+  "🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.": "🪢 开源代理回避和可观测性：使用一个开放平台跟踪、评估和改进LLM应用程序",
+  "Spec-driven development (SDD) for AI coding assistants.": "AI编码助手的规范驱动开发（ SDD ）",
+  "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.": "内存和上下文引擎+应用程序，速度极快，可扩展，可以在本地完全运行",
+  "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation": "AI辅助TradingView图表分析—将Claude Code连接到您的TradingView桌面，实现个人工作流程自动化",
+  "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.": "RustFS是一个开源的、兼容S3的高性能对象存储系统，支持与其他S3兼容平台（如MinIO和Ceph ）的迁移和共存",
+  "Free, simple, fast interactive diagrams for any GitHub repository": "适用于任何GitHub存储库的免费、简单、快速的交互式图表",
+  "Your own search engine": "您自己的搜索引擎",
+  "i. am. speed.": "即速度",
+  "Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.": "开源3D解剖学资源管理器： 2,234个可选BodyParts3D网格、系统图层、搜索和分解视图"
 }
