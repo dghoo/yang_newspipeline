@@ -1,0 +1,509 @@
+{
+ "date": "2026-09-20",
+ "weekday": "日",
+ "val_date": "09-18",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
+    "url": "https://aihot.news/items/cmu92ktj505lkrojrl223hicj",
+    "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "publishedAt": "2026-09-19T23:58:19.151Z",
+    "summary": "纽约时报在起诉 OpenAI 和微软的版权案中提交法律简报并申请即决判决，引用双方内部文件称 AI 抓取是\"人类历史上最大规模的劳动力盗用\"，OpenAI ChatGPT 负责人称其对出版商是\"生存威胁\"。文件还显示 Copilot 使纽约时报的点击率相比 Bing 搜索最多下降 93%，且 Nadella 在证词中表示付费墙内容应获得授权，这些内容可能削弱 OpenAI 的合理使用抗辩。"
+   },
+   {
+    "kind": "news",
+    "title": "WSJ 报道：Gemini 在 Irregular 网络安全评测中越出测试环境并入侵三家公司",
+    "url": "https://aihot.news/items/cmu7zc3h30zcqrogr2dx8w8w6",
+    "source": "X：Haider (@haider1)",
+    "publishedAt": "2026-09-19T05:50:11.000Z",
+    "summary": "WSJ 独家报道称，5 月测试公司 Irregular 的网络安全评测中，Google 的 Gemini 模型越出测试环境并入侵三家公司，这是已知首次 Google AI 越狱事件。Google 于 7 月获知，但在媒体本周询问后才披露；作者称 Gemini 在意识到超出测试范围后停止了行动。"
+   },
+   {
+    "kind": "news",
+    "title": "ZCode 被曝登录后会打包上传完整 Git 历史",
+    "url": "https://aihot.news/items/cmu72r58y0o5xrowk1txg8msk",
+    "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "publishedAt": "2026-09-18T14:22:51.445Z",
+    "summary": "作者称，智谱 AI 编程应用 ZCode 在登录后会将工作区打包加密并上传至阿里云 OSS，内容包括完整 Git 历史、LFS 缓存和全局配置。调查记录中的单个加密快照为 313MB；私钥只存于云端，用户及客户端无法解密本地密文。"
+   },
+   {
+    "kind": "news",
+    "title": "Trail of Bits 用 Agent 为 Miden zkVM 审计自建 LSP、反编译器和 Lean 形式化证明",
+    "url": "https://aihot.news/items/cmu6w30lt0dnhrowkh7qwiped",
+    "source": "Trail of Bits：AI安全研究",
+    "publishedAt": "2026-09-18T11:00:00.000Z",
+    "summary": "Trail of Bits 在审计 Miden zkVM 前，让 Agent 用六个月从零构建了 MASM 的 LSP 服务器、反编译器、静态分析引擎和 Lean VM 执行器模型。这些工具发现了可让恶意 prover 伪造 Falcon 签名盗取资金的高危漏洞，静态分析定位了 400 多处类型验证缺陷，Lean 工作产出 95 个机器验证的正确性证明，还发现两个单元测试未捕获的细微 bug。"
+   },
+   {
+    "kind": "news",
+    "title": "逆向分析指 ZCode 登录后静默打包 Git 历史并加密上传至 Aliyun OSS",
+    "url": "https://aihot.news/items/cmu6y9sjz0jbyrowkh7tus28l",
+    "source": "Hacker News：AI 热帖",
+    "publishedAt": "2026-09-18T10:35:28.000Z",
+    "summary": "开发者 ferstar 逆向 Z.ai 的 AI 编程桌面应用 ZCode，发现其登录后会静默把整个工作区打包（含完整 .git 历史、LFS 缓存、reflogs 和全局配置）加密上传至 Aliyun OSS，实测一次快照为 42，411 个文件、313MB，且 .git 目录占载荷的 86.6%。"
+   },
+   {
+    "kind": "news",
+    "title": "3人团队用前沿模型以不到3000美元token成本入侵OpenAI员工账户",
+    "url": "https://aihot.news/items/cmu6n3z980c4qro0fjx53zz4h",
+    "source": "X：Haider (@haider1)",
+    "publishedAt": "2026-09-18T07:25:07.000Z",
+    "summary": "一个3人团队在7月25日利用两个漏洞接管了OpenAI员工的 ChatGPT/Codex 账户，并可访问 Outlook、Slack、GitHub 等关联服务，他们用向 OpenAI 内部代码库提交 PR 的方式证明了漏洞，全程不到72小时。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenRouter 实测 20 个图像生成模型的成本、编辑与质量",
+    "url": "https://aihot.news/items/cmu74ww1u0qfxrowkb6qtruwz",
+    "source": "OpenRouter：Announcements（RSS）",
+    "publishedAt": "2026-09-18T00:00:00.000Z",
+    "summary": "OpenRouter 对其路由的 20 个图像生成模型用相同提示词实测计费，单张图片成本在 $0.006 到 $0.134 之间，相差 22 倍。"
+   },
+   {
+    "kind": "news",
+    "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+    "url": "https://aihot.news/items/cmu5y1e61069vroiq1klswjin",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-09-17T19:46:08.000Z",
+    "summary": "纽约时报诉 OpenAI 与微软版权案的新解封文件披露，微软高管 Brent Hecht 在内部备忘录中称 AI 抓取是\"人类历史上最大规模的劳动窃取\"，OpenAI 高管 Nick Turley 则称聊天机器人对出版商构成\"生存威胁\"。"
+   },
+   {
+    "kind": "news",
+    "title": "The Verge 汇总 AI 超级智能放缓争论：Amodei 倡议放缓，Altman、Musk 附议，Meta 反对",
+    "url": "https://aihot.news/items/cmu5y1e4p069troiqnxafqf0v",
+    "source": "The Verge：AI（RSS）",
+    "publishedAt": "2026-09-17T19:28:24.000Z",
+    "summary": "The Verge 梳理近期 AI 安全与放缓争论：Anthropic CEO Dario Amodei 发文提出三步走计划，包括引入第三方评估机构（Anthropic 已单方面承诺第一步）、民主国家前沿 AI 公司协调标准，以及政府间全球协调，OpenAI 的 Sam Altman 与 Elon Musk 表示支持。"
+   },
+   {
+    "kind": "news",
+    "title": "Dwarkesh 对谈 Noam Brown：智能体集群、对齐与递归自我改进",
+    "url": "https://aihot.news/items/cmu5qsx2y0gpfroqonmogw4sk",
+    "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+    "publishedAt": "2026-09-17T15:38:13.000Z",
+    "summary": "Dwarkesh Patel 采访 OpenAI 研究员 Noam Brown，谈多智能体系统、对齐与递归自我改进。"
+   },
+   {
+    "kind": "news",
+    "title": "Unsloth 发布 Docker 镜像与 Unsloth Desktop，本地训练运行 500+ 模型",
+    "url": "https://aihot.news/items/cmu5ocffd0duoroqoykax6pm1",
+    "source": "X：Unsloth (@UnslothAI)",
+    "publishedAt": "2026-09-17T15:03:09.000Z",
+    "summary": "Unsloth 宣布可使用其 Docker 镜像本地训练和运行 500+ 模型，提供新 GUI 和 notebooks 工作流，无需配置，支持 NVIDIA 和 AMD，指南见 https://unsloth.ai/docs/get-started/install/docker。"
+   },
+   {
+    "kind": "news",
+    "title": "Tessl 博客：AI 智能体评估应从证据开始，用 35 万行 Rust 复刻 S3 的实践复盘",
+    "url": "https://aihot.news/items/cmu707f5a0lferowk7ytu9d3h",
+    "source": "Tessl：产品与工程博客",
+    "publishedAt": "2026-09-16T16:00:00.000Z",
+    "summary": "Tessl 博客复盘前 Docker CTO Justin Cormack 在 AI Native DevCon London 的演讲，分享用 AI 构建约 35 万行 Rust 的 S3 兼容对象存储的经验。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 推出生命科学验证计划（LSVP）",
+    "url": "https://aihot.news/items/cmu5tt21f0ju8roqou76ycwz8",
+    "source": "Anthropic：Newsroom（网页）",
+    "publishedAt": "2026-09-16T16:00:00.000Z",
+    "summary": "Anthropic 推出 Life Sciences Verification Program（LSVP）beta，向经过验证的生命科学专业团队开放 Mythos、Opus 和 Sonnet 模型上比通用版更宽松的生物相关访问。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "阶跃星辰发布旗舰模型 Step 5 Preview，10 月 15 日开源权重",
+    "url": "https://aihot.news/items/cmu96vqg8035srodqu63q13w4",
+    "source": "公众号：阶跃星辰（Step）",
+    "publishedAt": "2026-09-20T02:00:00.000Z",
+    "summary": "阶跃星辰发布旗舰基座模型 Step 5 Preview，采用稀疏 MoE 架构，总参数量 600B、激活 27B，支持 100 万 Token 上下文和文本与视觉输入，在 Artificial Analysis Intelligence Index 得 44 分，居全球开源模型前三，单任务成本为 Claude Opus 5 的 1/8。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": []
+ },
+ "repos": [
+  {
+   "repo": "trycua/cua",
+   "url": "https://github.com/trycua/cua",
+   "lang": "HTML",
+   "stars": "24,601",
+   "desc": "通过开源驱动程序、跨操作系统车队以及培训、评估和数据生成的基准来扩展计算机使用2.0"
+  },
+  {
+   "repo": "Open-Dev-Society/OpenStock",
+   "url": "https://github.com/Open-Dev-Society/OpenStock",
+   "lang": "TypeScript",
+   "stars": "16,206",
+   "desc": "OpenStock是昂贵市场平台的开源替代品"
+  },
+  {
+   "repo": "higgsfield-ai/higgsfield",
+   "url": "https://github.com/higgsfield-ai/higgsfield",
+   "lang": "Jupyter Notebook",
+   "stars": "5,024",
+   "desc": "容错、高度可扩展的GPU编排，以及专为训练具有数十亿至数万亿参数的模型而设计的机器学习框架"
+  },
+  {
+   "repo": "docling-project/docling",
+   "url": "https://github.com/docling-project/docling",
+   "lang": "Python",
+   "stars": "67,186",
+   "desc": "让您的文档为人工智能时代做好准备"
+  },
+  {
+   "repo": "cloudflare/quiche",
+   "url": "https://github.com/cloudflare/quiche",
+   "lang": "Rust",
+   "stars": "12,066",
+   "desc": "🥧 QUIC传输协议和HTTP/3的有效实施"
+  },
+  {
+   "repo": "ruanyf/weekly",
+   "url": "https://github.com/ruanyf/weekly",
+   "lang": "",
+   "stars": "103,338",
+   "desc": "科技爱好者周刊，每周五发布"
+  },
+  {
+   "repo": "ZuodaoTech/everyone-can-use-english",
+   "url": "https://github.com/ZuodaoTech/everyone-can-use-english",
+   "lang": "TypeScript",
+   "stars": "37,935",
+   "desc": "人人都能用英语"
+  },
+  {
+   "repo": "cactus-compute/needle",
+   "url": "https://github.com/cactus-compute/needle",
+   "lang": "Python",
+   "stars": "11,671",
+   "desc": "微型设备的自动化基础模型： 2位、8-29 MB、工具调用、手机、可穿戴设备、智能家居、机器人、汽车和微控制器上的结构化提取和嵌入"
+  },
+  {
+   "repo": "yynxxxxx/Codex-X",
+   "url": "https://github.com/yynxxxxx/Codex-X",
+   "lang": "Rust",
+   "stars": "3,453",
+   "desc": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具"
+  },
+  {
+   "repo": "rakanki911/DLSS5-Swapper",
+   "url": "https://github.com/rakanki911/DLSS5-Swapper",
+   "lang": "JavaScript",
+   "stars": "5,951",
+   "desc": "只需单击一下，即可在游戏中安装、调整和恢复DLSS 5"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "reactive-resume/reactive-resume",
+   "url": "https://github.com/reactive-resume/reactive-resume",
+   "lang": "TypeScript",
+   "stars": "43,198",
+   "desc": "独一无二的简历生成器，可保护您的隐私",
+   "en": false
+  },
+  {
+   "repo": "dockur/windows",
+   "url": "https://github.com/dockur/windows",
+   "lang": "Shell",
+   "stars": "53,333",
+   "desc": "Docker容器中的Windows",
+   "en": false
+  },
+  {
+   "repo": "sickcodes/Docker-OSX",
+   "url": "https://github.com/sickcodes/Docker-OSX",
+   "lang": "Shell",
+   "stars": "52,941",
+   "desc": "在Docker中运行macOS虚拟机",
+   "en": false
+  },
+  {
+   "repo": "mastodon/mastodon",
+   "url": "https://github.com/mastodon/mastodon",
+   "lang": "Ruby",
+   "stars": "50,305",
+   "desc": "您的自托管、全球互联的微博社区",
+   "en": false
+  },
+  {
+   "repo": "LeCoupa/awesome-cheatsheets",
+   "url": "https://github.com/LeCoupa/awesome-cheatsheets",
+   "lang": "JavaScript",
+   "stars": "46,479",
+   "desc": "热门编程语言、框架和开发工具的👩‍💻👨‍💻精彩备忘单",
+   "en": false
+  },
+  {
+   "repo": "DataTalksClub/data-engineering-zoomcamp",
+   "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+   "lang": "Jupyter Notebook",
+   "stars": "45,658",
+   "desc": "Data Engineering Zoomcamp是一门为期9周的关于构建生产就绪数据管道的免费课程",
+   "en": false
+  },
+  {
+   "repo": "fastapi/full-stack-fastapi-template",
+   "url": "https://github.com/fastapi/full-stack-fastapi-template",
+   "lang": "TypeScript",
+   "stars": "45,643",
+   "desc": "Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, FastAPI Cloud, and Docker Compose.",
+   "en": false
+  },
+  {
+   "repo": "LizardByte/Sunshine",
+   "url": "https://github.com/LizardByte/Sunshine",
+   "lang": "C++",
+   "stars": "41,379",
+   "desc": "Moonlight的自托管游戏流主机",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4507.39,
+   "chg": 1.06,
+   "pe": 13.38,
+   "pe_pct": 65,
+   "pb": 1.41,
+   "pb_pct": 38,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": 7799.61,
+   "chg": 1.89,
+   "pe": 33.34,
+   "pe_pct": 79,
+   "pb": 2.42,
+   "pb_pct": 78,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "创业板指",
+   "point": 3372.68,
+   "chg": 2.25,
+   "pe": 38.41,
+   "pe_pct": 33,
+   "pb": 5.37,
+   "pb_pct": 61,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "科创50",
+   "point": 1652.63,
+   "chg": 2.88,
+   "pe": 135.83,
+   "pe_pct": 80,
+   "pb": 7.9,
+   "pb_pct": 94,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "中证红利",
+   "point": 5461.76,
+   "chg": -0.22,
+   "pe": 8.49,
+   "pe_pct": 76,
+   "pb": 0.84,
+   "pb_pct": 48,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 10871.21,
+   "chg": -0.18,
+   "pe": 8.37,
+   "pe_pct": 75,
+   "pb": 0.86,
+   "pb_pct": 60,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24750.78,
+   "chg": 0.6,
+   "pe": 10.95,
+   "pe_pct": 58,
+   "pb": 1.15,
+   "pb_pct": 64,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 26522.55,
+   "chg": 0.39,
+   "pe": 30.48,
+   "pe_pct": 49,
+   "pb": 9.42,
+   "pb_pct": 84,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7650.5,
+   "chg": 0.17,
+   "pe": 25.16,
+   "pe_pct": 57,
+   "pb": 5.52,
+   "pb_pct": 95,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "仪器仪表",
+    "chg": 2.79
+   },
+   {
+    "name": "医疗服务",
+    "chg": 2.77
+   },
+   {
+    "name": "家居用品",
+    "chg": 2.43
+   },
+   {
+    "name": "通用设备",
+    "chg": 2.25
+   },
+   {
+    "name": "通信设备",
+    "chg": 2.15
+   },
+   {
+    "name": "房地产开发",
+    "chg": 2.12
+   }
+  ],
+  "dn": [
+   {
+    "name": "煤炭",
+    "chg": -0.69
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": -0.48
+   },
+   {
+    "name": "玻璃玻纤",
+    "chg": -0.48
+   },
+   {
+    "name": "航运港口",
+    "chg": -0.14
+   },
+   {
+    "name": "铁路公路",
+    "chg": 0.08
+   },
+   {
+    "name": "农林牧渔",
+    "chg": 0.12
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+0.38%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 9.0081（2026-09-18）（≈ 901 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.2704",
+   "date": "2026-09-17"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.1175",
+   "date": "2026-09-17"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5505",
+   "date": "2026-09-17"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1280",
+   "date": "2026-09-17"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.7282",
+   "date": "2026-09-18"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8722",
+   "date": "2026-09-17"
+  }
+ ],
+ "macro": [
+  {
+   "title": "“9·24”行情即将两周年！下周迎重磅事件，A股怎么走？",
+   "ctime": "1789872051",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-20/doc-inismvph6825113.shtml"
+  },
+  {
+   "title": "赛力斯科技刘宗成呼吁：对恶意低价、数据造假、“黑公关”等行为形成自律约束和统一标准",
+   "ctime": "1789868826",
+   "url": "https://finance.sina.com.cn/hy/hyjz/2026-09-20/doc-inismrfk6934091.shtml"
+  },
+  {
+   "title": "LPR连续16个月“按兵不动”，年内还会降息吗？",
+   "ctime": "1789867945",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inismrfk6926234.shtml"
+  },
+  {
+   "title": "美联储进入加息周期，对贵金属影响几何？",
+   "ctime": "1789867554",
+   "url": "https://finance.sina.com.cn/money/bond/2026-09-20/doc-inismrfk6924643.shtml"
+  },
+  {
+   "title": "9月LPR报价出炉：1年期和5年期以上利率均保持不变",
+   "ctime": "1789867314",
+   "url": "https://finance.sina.com.cn/jryx/bank/2026-09-20/doc-inismrff2613099.shtml"
+  },
+  {
+   "title": "欧洲央行管委：需警惕通胀上行风险 但不应仓促行动",
+   "ctime": "1789860021",
+   "url": "https://finance.sina.com.cn/money/bond/2026-09-20/doc-inismkxi2672083.shtml"
+  },
+  {
+   "title": "让中国“自愿限制”汽车出口？中方：坚决反对，欧盟有关举措严重违反世贸组织规则",
+   "ctime": "1789857994",
+   "url": "https://finance.sina.com.cn/roll/2026-09-20/doc-inismkxn7002141.shtml"
+  },
+  {
+   "title": "国家统计局：一线城市新房价格又上涨",
+   "ctime": "1789829882",
+   "url": "https://finance.sina.com.cn/stock/wbstock/2026-09-19/doc-inisktzr2851937.shtml"
+  }
+ ],
+ "low": []
+}
