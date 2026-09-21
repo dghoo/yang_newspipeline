@@ -1,0 +1,477 @@
+{
+ "date": "2026-09-21",
+ "weekday": "一",
+ "val_date": "09-18",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "数字生命卡兹克访谈汉化组：AI 时代字幕组与漫画组的真实处境",
+    "url": "https://aihot.news/items/cmualyqxc0nztro5tbldva2bh",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-09-21T01:52:57.000Z",
+    "summary": "作者访谈多位字幕组与漫画汉化组成员，发现他们并不抵触AI。Eliza 的字幕组把听写、打轴交给AI后，原本需要3到5小时的打轴缩短到20分钟到1小时；程序员阵雨为喜欢的主播自研AI工具，单人完成两小时直播的中文字幕。漫画汉化组则因嵌字质量等原因仍坚持人工制作，成员看重的是同好社群与爱好本身。"
+   },
+   {
+    "kind": "news",
+    "title": "Google 确认 Gemini 在 Irregular 安全测试中访问 3 家真实公司系统，与 OpenAI、Anthropic、Meta 属同一评估事故",
+    "url": "https://aihot.news/items/cmuaajd3y08yjro5tqgc5u6up",
+    "source": "MarkTechPost（RSS）",
+    "publishedAt": "2026-09-20T20:20:56.000Z",
+    "summary": "Google 于 9 月 18 日确认，Gemini 模型在 5 月由第三方安全评估方 Irregular 组织的 capture-the-flag 测试中访问了 3 家真实公司的系统，起因是本应离线的测试环境因 bug 开放了互联网访问。"
+   },
+   {
+    "kind": "news",
+    "title": "Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载",
+    "url": "https://aihot.news/items/cmu9w55as056krowjqmhejtmz",
+    "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+    "publishedAt": "2026-09-20T13:52:24.000Z",
+    "summary": "Qwen 宣布 Qwen-Image-2.1 现已支持 ComfyUI，权重开放。单个 7B checkpoint 同时支持图像生成与编辑，可原生 2K 生成，单次最多基于 10 张参考图进行指令编辑，并支持含 alpha 通道的 RGBA 输出。"
+   },
+   {
+    "kind": "news",
+    "title": "Claude Code Projects 改版：从文件夹到对话式协调",
+    "url": "https://aihot.news/items/cmu5tujnp0jvoroqoq64oqnjr",
+    "source": "Claude：Blog（网页）",
+    "publishedAt": "2026-09-16T16:00:00.000Z",
+    "summary": "Anthropic 宣布 Claude Code 的 Projects 改版，用户设定目标后由 Claude 拆解任务、协调并行线程、审查输出并汇总结果。每个线程是一个独立的 Claude Code 云会话，各占一个分支跑测试、开 PR，项目还带随时间积累的共享记忆和文件库。"
+   },
+   {
+    "kind": "news",
+    "title": "蚂蚁 inclusionAI 开源 Realtime-Venus 全双工交互系统",
+    "url": "https://aihot.news/items/cmu70p8rz0lwirowknowy7cwc",
+    "source": "蚂蚁 inclusionAI：GitHub 新仓库",
+    "publishedAt": "2026-09-16T07:57:55.000Z",
+    "summary": "蚂蚁集团 Venus 团队与清华大学在 GitHub 开源 Realtime-Venus，一个支持全双工对话与异步任务委托的实时交互系统。系统包含三个组件：Realtime-Venus-Omni（9B，流式音视频对话与主动交互）、Realtime-Venus-Audio（9B，语音交互与音频理解）以及负责后台任务执行并将结果返回同一对话的 Harness 运行时。"
+   },
+   {
+    "kind": "news",
+    "title": "DeepSeek V4 哪些型号支持图像输入？OpenRouter 逐款梳理与调用指南",
+    "url": "https://aihot.news/items/cmu74ww1u0qfzrowk0r3u1nf2",
+    "source": "OpenRouter：Announcements（RSS）",
+    "publishedAt": "2026-09-16T00:00:00.000Z",
+    "summary": "OpenRouter 梳理其目录中的 DeepSeek V4 系列图像输入支持情况：V4.1 Flash 原生读图（2026年9月10日上线，$0.15/$0.60 每百万 token）。"
+   },
+   {
+    "kind": "news",
+    "title": "Tessl 提出 Agent 上下文归属模型：所有权跟随组织单元",
+    "url": "https://aihot.news/items/cmu1guebm09dlrocnvh4wu536",
+    "source": "Tessl：产品与工程博客",
+    "publishedAt": "2026-09-13T16:00:00.000Z",
+    "summary": "Tessl 发文提出智能体转型的真正难点是上下文等要素的归属问题，而非 Agent 本身。核心规则是所有权跟随组织单元，个人与团队上下文归领域专家，组织级共享基础由赋能或平台团队托管并开放贡献，赋能团队只提供工具和基础设施而不拥有上下文。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "通义千问发布 Qwen-Image-2.1：7B 单检查点同时支持图像生成与编辑",
+    "url": "https://aihot.news/items/cmuao05at0q8uro5tpc85e2kj",
+    "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+    "publishedAt": "2026-09-21T02:50:40.000Z",
+    "summary": "通义千问发布 Qwen-Image-2.1，一个 7B 参数的原生图像生成与编辑模型，生成和编辑共用单一检查点，最多支持 10 张参考图。模型自带提示词增强 LLM，已集成 diffusers 和 ComfyUI，并在 Hugging Face Spaces 提供免安装的浏览器在线 demo：https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
+   },
+   {
+    "kind": "news",
+    "title": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
+    "url": "https://aihot.news/items/cmua567e703tmro5t558lzx7o",
+    "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "publishedAt": "2026-09-20T18:05:38.317Z",
+    "summary": "作者通过自己手机上的流量捕获复现了 OpenAI 广告收集器机制：bzr.openai.com 在 .openai.com 域设置 __obi Cookie，绑定 ChatGPT 账号（或稳定的匿名主体），投放广告的商家站点加载 OpenAI 像素代码时会把 __obi 连同浏览和购买数据回传给 OpenAI。"
+   },
+   {
+    "kind": "news",
+    "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像",
+    "url": "https://aihot.news/items/cmu9tfhu904turokx2vfjy34f",
+    "source": "Qwen：Blog Retrieval（API）",
+    "publishedAt": "2026-09-20T12:00:00.000Z",
+    "summary": "Qwen 团队开源 Qwen-Image-2.1，将文生图与图像编辑统一到一个模型中，视觉生成组件仅 7B 参数，并原生支持生成和编辑透明图像。模型支持最多 10 张参考图、圆形/涂鸦/独立蒙版指定局部编辑，通过混合粒度注意力架构和 KV cache 复用提升推理效率，同时改进文字渲染、人像光照与人物产品保真度，并覆盖全景图、信息图和分镜等任务。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": []
+ },
+ "repos": [
+  {
+   "repo": "BuilderIO/agent-native",
+   "url": "https://github.com/BuilderIO/agent-native",
+   "lang": "TypeScript",
+   "stars": "5,365",
+   "desc": "构建代理应用的框架"
+  },
+  {
+   "repo": "anthropics/financial-services",
+   "url": "https://github.com/anthropics/financial-services",
+   "lang": "Python",
+   "stars": "35,465",
+   "desc": ""
+  },
+  {
+   "repo": "paperless-ngx/paperless-ngx",
+   "url": "https://github.com/paperless-ngx/paperless-ngx",
+   "lang": "Python",
+   "stars": "45,649",
+   "desc": "社区支持的增压文档管理系统：扫描、索引和存档您的所有文档"
+  },
+  {
+   "repo": "mihail911/modern-software-dev-assignments",
+   "url": "https://github.com/mihail911/modern-software-dev-assignments",
+   "lang": "Python",
+   "stars": "4,628",
+   "desc": "CS146S作业：现代软件开发（斯坦福大学2026/2025年秋季）"
+  },
+  {
+   "repo": "vercel-labs/json-render",
+   "url": "https://github.com/vercel-labs/json-render",
+   "lang": "TypeScript",
+   "stars": "17,487",
+   "desc": "生成式UI框架"
+  },
+  {
+   "repo": "tamaratran/fast-jev-compaction",
+   "url": "https://github.com/tamaratran/fast-jev-compaction",
+   "lang": "TypeScript",
+   "stars": "5,407",
+   "desc": "用JEV决策替换压缩摘要的Claude Code插件：每个工具调用和结果都在一个快速请求中得分，过时的请求被丢弃或截断，所有内容保持不变"
+  },
+  {
+   "repo": "NandhaKishorM/laya",
+   "url": "https://github.com/NandhaKishorM/laya",
+   "lang": "Python",
+   "stars": "5,192",
+   "desc": ""
+  },
+  {
+   "repo": "robbietilton/Compositor",
+   "url": "https://github.com/robbietilton/Compositor",
+   "lang": "Swift",
+   "stars": "3,814",
+   "desc": "适用于Mac的Photoshop替代品"
+  },
+  {
+   "repo": "sdli1995/dlssg_for_sm86",
+   "url": "https://github.com/sdli1995/dlssg_for_sm86",
+   "lang": "",
+   "stars": "3,661",
+   "desc": "这是一个用于RTX30系列GPU的dlssg"
+  },
+  {
+   "repo": "wide-trace/open-higgsfield",
+   "url": "https://github.com/wide-trace/open-higgsfield",
+   "lang": "TypeScript",
+   "stars": "3,459",
+   "desc": "一个用于生成图像和视频的工作室—一个提示栏，每个模型自己的设置，以及每个完成的画廊"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "AstrBotDevs/AstrBot",
+   "url": "https://github.com/AstrBotDevs/AstrBot",
+   "lang": "Python",
+   "stars": "40,754",
+   "desc": "AI Agent Assistant和开发框架集成了许多IM平台、LLM、插件和AI功能，可以作为您的开放式替代方案",
+   "en": false
+  },
+  {
+   "repo": "outline/outline",
+   "url": "https://github.com/outline/outline",
+   "lang": "TypeScript",
+   "stars": "40,641",
+   "desc": "成长型团队最快的知识库。美观、实时协作、功能丰富且兼容markdown",
+   "en": false
+  },
+  {
+   "repo": "The-Vibe-Company/quivr",
+   "url": "https://github.com/The-Vibe-Company/quivr",
+   "lang": "Python",
+   "stars": "39,546",
+   "desc": "为将GenAI集成到您的应用程序中而设计的RAG🧠专注于您的产品，而不是RAG",
+   "en": false
+  },
+  {
+   "repo": "portainer/portainer",
+   "url": "https://github.com/portainer/portainer",
+   "lang": "TypeScript",
+   "stars": "38,527",
+   "desc": "让Docker和Kubernetes管理变得简单",
+   "en": false
+  },
+  {
+   "repo": "harness/harness",
+   "url": "https://github.com/harness/harness",
+   "lang": "Go",
+   "stars": "38,409",
+   "desc": "Harness Open Source是一个端到端开发人员平台，具有源代码管理、CI/CD管道、托管开发人员环境和工件注册表",
+   "en": false
+  },
+  {
+   "repo": "docker/compose",
+   "url": "https://github.com/docker/compose",
+   "lang": "Go",
+   "stars": "38,203",
+   "desc": "使用Docker定义和运行多容器应用程序",
+   "en": false
+  },
+  {
+   "repo": "aquasecurity/trivy",
+   "url": "https://github.com/aquasecurity/trivy",
+   "lang": "Go",
+   "stars": "37,992",
+   "desc": "查找漏洞、错误配置、秘密、容器中的SBOM、Kubernetes、代码仓库、云等",
+   "en": false
+  },
+  {
+   "repo": "community-scripts/ProxmoxVE",
+   "url": "https://github.com/community-scripts/ProxmoxVE",
+   "lang": "Shell",
+   "stars": "29,626",
+   "desc": "Proxmox VE辅助脚本（社区版）",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4521.19,
+   "chg": 0.31,
+   "pe": 13.38,
+   "pe_pct": 65,
+   "pb": 1.41,
+   "pb_pct": 38,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": 7820.55,
+   "chg": 0.27,
+   "pe": 33.34,
+   "pe_pct": 79,
+   "pb": 2.42,
+   "pb_pct": 78,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "创业板指",
+   "point": 3391.93,
+   "chg": 0.57,
+   "pe": 38.41,
+   "pe_pct": 33,
+   "pb": 5.37,
+   "pb_pct": 61,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "科创50",
+   "point": 1649.03,
+   "chg": -0.22,
+   "pe": 135.83,
+   "pe_pct": 80,
+   "pb": 7.9,
+   "pb_pct": 94,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "中证红利",
+   "point": 5499.59,
+   "chg": 0.69,
+   "pe": 8.49,
+   "pe_pct": 76,
+   "pb": 0.84,
+   "pb_pct": 48,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 10872.9,
+   "chg": 0.02,
+   "pe": 8.37,
+   "pe_pct": 75,
+   "pb": 0.86,
+   "pb_pct": 60,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24890.64,
+   "chg": 0.57,
+   "pe": 10.95,
+   "pe_pct": 58,
+   "pb": 1.15,
+   "pb_pct": 64,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 26522.55,
+   "chg": 0.39,
+   "pe": 30.48,
+   "pe_pct": 49,
+   "pb": 9.42,
+   "pb_pct": 84,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7650.5,
+   "chg": 0.17,
+   "pe": 25.16,
+   "pe_pct": 57,
+   "pb": 5.52,
+   "pb_pct": 95,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "医疗服务",
+    "chg": 4.64
+   },
+   {
+    "name": "化学制药",
+    "chg": 4.03
+   },
+   {
+    "name": "一般零售",
+    "chg": 2.43
+   },
+   {
+    "name": "农林牧渔",
+    "chg": 2.13
+   },
+   {
+    "name": "化学制品",
+    "chg": 2.05
+   },
+   {
+    "name": "化学纤维",
+    "chg": 1.95
+   }
+  ],
+  "dn": [
+   {
+    "name": "保险Ⅱ",
+    "chg": -0.24
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": 0.11
+   },
+   {
+    "name": "证券Ⅱ",
+    "chg": 0.3
+   },
+   {
+    "name": "铁路公路",
+    "chg": 0.31
+   },
+   {
+    "name": "电力",
+    "chg": 0.31
+   },
+   {
+    "name": "有色金属",
+    "chg": 0.52
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-0.65%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 9.0081（2026-09-18）（≈ 901 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.2704",
+   "date": "2026-09-17"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.1175",
+   "date": "2026-09-17"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5505",
+   "date": "2026-09-17"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1280",
+   "date": "2026-09-17"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.7282",
+   "date": "2026-09-18"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8722",
+   "date": "2026-09-17"
+  }
+ ],
+ "macro": [
+  {
+   "title": "美联储和英国央行加强审查银行对交易公司的风险敞口",
+   "ctime": "1789964599",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqetz2171277.shtml"
+  },
+  {
+   "title": "金价扛住美联储加息守住关键支撑，利率退居次席什么才是核心矛盾？",
+   "ctime": "1789963800",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-09-21/doc-inisqeuf7880138.shtml"
+  },
+  {
+   "title": "美联储和英国央行在Jane Street亏损后加强对银行与交易公司业务往来的审查",
+   "ctime": "1789963483",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqetx0768055.shtml"
+  },
+  {
+   "title": "瑞银预测引爆A股存储芯片，翻倍牛股封涨停，国科微涨超10%",
+   "ctime": "1789961775",
+   "url": "https://finance.sina.com.cn/stock/companyt/2026-09-21/doc-inisqetx0757027.shtml"
+  },
+  {
+   "title": "海运成本飙升201%，逼近2021年危机峰值，为通胀再添一把火",
+   "ctime": "1789959900",
+   "url": "https://finance.sina.com.cn/roll/2026-09-21/doc-inispymz0872689.shtml"
+  },
+  {
+   "title": "金价不顾美联储加息顽强守住4300美元关口，周线收涨传统逻辑逐渐失效",
+   "ctime": "1789957320",
+   "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-09-21/doc-inispync2184303.shtml"
+  },
+  {
+   "title": "央行：9月23日将在香港发行600亿元中央银行票据",
+   "ctime": "1789956101",
+   "url": "https://finance.sina.com.cn/jryx/bank/2026-09-21/doc-inispymz0841605.shtml"
+  },
+  {
+   "title": "美联储卡什卡利警告：美国经济“各领域”价格压力高企，年内或再加息两次",
+   "ctime": "1789955340",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-09-21/doc-inispyne8916945.shtml"
+  }
+ ],
+ "low": []
+}

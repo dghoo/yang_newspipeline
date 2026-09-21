@@ -205,5 +205,13 @@
   "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters": "容错、高度可扩展的GPU编排，以及专为训练具有数十亿至数万亿参数的模型而设计的机器学习框架",
   "Get your documents ready for gen AI": "让您的文档为人工智能时代做好准备",
   "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3": "🥧 QUIC传输协议和HTTP/3的有效实施",
-  "Automation foundation model for tiny devices: 2-bit, 8-29 MB, tool calls, structured extraction and embeddings on phones, wearables, smart homes, robots, cars and microcontrollers.": "微型设备的自动化基础模型： 2位、8-29 MB、工具调用、手机、可穿戴设备、智能家居、机器人、汽车和微控制器上的结构化提取和嵌入"
+  "Automation foundation model for tiny devices: 2-bit, 8-29 MB, tool calls, structured extraction and embeddings on phones, wearables, smart homes, robots, cars and microcontrollers.": "微型设备的自动化基础模型： 2位、8-29 MB、工具调用、手机、可穿戴设备、智能家居、机器人、汽车和微控制器上的结构化提取和嵌入",
+  "A framework for building agentic apps": "构建代理应用的框架",
+  "A community-supported supercharged document management system: scan, index and archive all your documents": "社区支持的增压文档管理系统：扫描、索引和存档您的所有文档",
+  "Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2026/2025)": "CS146S作业：现代软件开发（斯坦福大学2026/2025年秋季）",
+  "The Generative UI framework": "生成式UI框架",
+  "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.": "用JEV决策替换压缩摘要的Claude Code插件：每个工具调用和结果都在一个快速请求中得分，过时的请求被丢弃或截断，所有内容保持不变",
+  "The Photoshop alternative for Mac": "适用于Mac的Photoshop替代品",
+  "Here is a dlssg for RTX30 Series GPU": "这是一个用于RTX30系列GPU的dlssg",
+  "A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery.": "一个用于生成图像和视频的工作室—一个提示栏，每个模型自己的设置，以及每个完成的画廊"
 }
