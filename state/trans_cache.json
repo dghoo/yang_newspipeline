@@ -213,5 +213,14 @@
   "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.": "用JEV决策替换压缩摘要的Claude Code插件：每个工具调用和结果都在一个快速请求中得分，过时的请求被丢弃或截断，所有内容保持不变",
   "The Photoshop alternative for Mac": "适用于Mac的Photoshop替代品",
   "Here is a dlssg for RTX30 Series GPU": "这是一个用于RTX30系列GPU的dlssg",
-  "A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery.": "一个用于生成图像和视频的工作室—一个提示栏，每个模型自己的设置，以及每个完成的画廊"
+  "A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery.": "一个用于生成图像和视频的工作室—一个提示栏，每个模型自己的设置，以及每个完成的画廊",
+  "The AI that writes like a person. 27B parameters, open weights, Apache-2.0.": "像人一样写作的人工智能。27B参数，开放权重， Apache-2.0",
+  "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors": "针对智能体编码CLI的长期记忆解决方案，以及促进不同智能体供应商之间切换的解决方案",
+  "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.": "MVT （移动验证工具包）有助于对移动设备进行取证，以发现潜在泄露的迹象",
+  "Z.ai's coding agent harness. Powerful, intelligent, extensible.": "Z.ai的编码代理框架。强大、智能、可扩展",
+  "Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niubigeo.ai/pricing": "开源AI品牌知名度和竞争对手报告",
+  "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.": "Laya类型化决策模型的原生MLX运行时间— M3 Max上的7–14毫秒短决策",
+  "Continual learning infra for self-improving agents": "为自我完善的代理人提供持续学习基础架构",
+  "Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.": "来自开放模型的语义if ，在家中的3090上",
+  "Free & Open-Source CapCut replacement (supports MCPs).": "免费和开源CapCut替换（支持MCP ）"
 }
