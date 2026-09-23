@@ -222,5 +222,13 @@
   "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.": "Laya类型化决策模型的原生MLX运行时间— M3 Max上的7–14毫秒短决策",
   "Continual learning infra for self-improving agents": "为自我完善的代理人提供持续学习基础架构",
   "Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.": "来自开放模型的语义if ，在家中的3090上",
-  "Free & Open-Source CapCut replacement (supports MCPs).": "免费和开源CapCut替换（支持MCP ）"
+  "Free & Open-Source CapCut replacement (supports MCPs).": "免费和开源CapCut替换（支持MCP ）",
+  "Scaling Reinforcement Learning Toward Self-Improvement": "扩展强化学习以实现自我完善",
+  "Agent Substrate: the core system": "Agent Substrate ：核心系统",
+  "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.": "适用于AI代理的Office框架—电子表格、文档、幻灯片、画布、关系表和PDF在一个运行时中",
+  "CLI tool for configuring and monitoring Claude Code": "用于配置和监控Claude Code的CLI工具",
+  "Google's open agentic orchestration runtime": "Google的开放代理编排运行时",
+  "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn": "适用于代理工具的OpenRouter",
+  "Edit videos with coding agents": "使用编码代理编辑视频",
+  "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own": "基于Qwen3.5构建的类似Jev的小型决策模型系列，您可以自己训练和运行"
 }
