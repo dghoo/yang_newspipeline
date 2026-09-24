@@ -230,5 +230,10 @@
   "Google's open agentic orchestration runtime": "Google的开放代理编排运行时",
   "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn": "适用于代理工具的OpenRouter",
   "Edit videos with coding agents": "使用编码代理编辑视频",
-  "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own": "基于Qwen3.5构建的类似Jev的小型决策模型系列，您可以自己训练和运行"
+  "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own": "基于Qwen3.5构建的类似Jev的小型决策模型系列，您可以自己训练和运行",
+  "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.": "构建代理框架并进行端到端控制。适用于Python和TypeScript中生产AI代理的开源SDK -任何模型，任何云",
+  "The design language that makes your AI harness better at design.": "让您的人工智能更好地进行设计的设计语言",
+  "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.": "高性能代码智能MCP服务器",
+  "Cross-vendor 3D Gaussian Splatting trainer - video to splat to mesh, Vulkan or CUDA.": "跨供应商3D高斯溅射训练器-溅射到网格、Vulkan或CUDA的视频",
+  "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)": "适用于iOS 18 +的Apple Wallet Card Skinner （无需越狱）"
 }

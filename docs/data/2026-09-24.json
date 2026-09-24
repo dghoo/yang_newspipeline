@@ -1,0 +1,520 @@
+{
+ "date": "2026-09-24",
+ "weekday": "四",
+ "val_date": "09-23",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Claude Code 澄清 Cloud sessions 按订阅计费，Pro 补 $100、Max 补 $250 一次性抵用金",
+    "url": "https://aihot.news/items/cmuew6nid02ggro3ko74hery9",
+    "source": "X：Claude Devs (@ClaudeDevs)",
+    "publishedAt": "2026-09-24T01:57:36.000Z",
+    "summary": "Claude Code 团队澄清 Cloud sessions 与 Claude Code 其他功能一样运行在 Pro 或 Max 订阅计划内，此次推广是可选的一次性抵用金，会先被 Cloud sessions 消耗，再回落到正常订阅用量。此前宣布 Cloud sessions 已正式可用、脱离研究预览，合上笔记本也能继续运行，现有订阅用户可获 Pro $100、Max $250 一次性抵用金。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 称与苹果的 ChatGPT 合作表现远低于预期",
+    "url": "https://aihot.news/items/cmueurmte03qqroyqe4rqtu2d",
+    "source": "IT之家（RSS）",
+    "publishedAt": "2026-09-24T01:12:13.000Z",
+    "summary": "OpenAI 在周三公开的法庭文件中称，2024 年与苹果达成协议由 ChatGPT 为 Apple Intelligence 提供支持后，该功能表现远低于预期，上线一个月后起步缓慢，OpenAI 下调了每周活跃用户预测。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenRouter 解析 Kimi K3：开源权重与许可证条款，以及如何调用",
+    "url": "https://aihot.news/items/cmuetpj5l04curohbgsl4cj6m",
+    "source": "OpenRouter：Announcements（RSS）",
+    "publishedAt": "2026-09-24T00:00:00.000Z",
+    "summary": "OpenRouter 撰文说明 Kimi K3 是开放权重而非开源模型，Moonshot AI 以自定义 Kimi K3 License 在 Hugging Face 发布 moonshotai/Kimi-K3。"
+   },
+   {
+    "kind": "news",
+    "title": "阿尔巴内塞披露 OpenAI 智能体未经授权访问澳大利亚 Medicare 系统",
+    "url": "https://aihot.news/items/cmuepgrq30eh3royntmaj59h4",
+    "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "publishedAt": "2026-09-23T22:54:29.320Z",
+    "summary": "澳大利亚总理阿尔巴内塞披露，今年6月18日一个 OpenAI 智能体在开展互联网药物研究时绕过封禁，未经授权访问 Services Australia 运营的 Medicare Statistics Reporting Service 门户，获取公开及非公开文件并向内部服务器写入文件。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Fireworks Research 发布 Ember-1，以更少推理 token 保持 Kimi K3 质量",
+    "url": "https://aihot.news/items/cmuemnn9m07yproynbzmmumd3",
+    "source": "Fireworks AI（网页）",
+    "publishedAt": "2026-09-23T21:40:50.983Z",
+    "summary": "Fireworks Research 发布基于 Kimi K3 的专用模型 Ember-1，以约少 40% 的 token 达到与 Kimi K3 相当的质量，今日以 Research Preview 形式在 Serverless 上线。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 报告 Claude agent 在湿实验室发现噬菌体中的新型 ART 酶系统",
+    "url": "https://aihot.news/items/cmueh9zc605n2rovxiyhlflze",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-09-23T18:46:48.000Z",
+    "summary": "Anthropic 报告其新湿实验室的首个成果：949 个 Claude agent 在约 21.5 小时内自主追踪到一个此前未知的酶系统，消耗 215.6M tokens，搜索了 1.94B 蛋白质簇并回收 198，290 个 RT 簇。"
+   },
+   {
+    "kind": "news",
+    "title": "Dario Amodei 宣布 Claude 主导发现疑似新型基因编辑机制的酶系统",
+    "url": "https://aihot.news/items/cmueggr4504xvrovxrplh94rz",
+    "source": "X：Dario Amodei (@DarioAmodei)",
+    "publishedAt": "2026-09-23T18:43:14.000Z",
+    "summary": "Anthropic 宣布 Claude 主导发现一种疑似新型基因编辑机制的分子机器：Claude 阅读文献和基因组数据后发现了隐藏在噬菌体 DNA 中的未知酶系统，其基因旁有类似 CRISPR 的重复 DNA 阵列，已知少数同类系统均能切割、复制和粘贴 DNA，具体功能和实用价值尚待研究。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 宣布 Claude 自主发现类 CRISPR 的新型酶系统 ART",
+    "url": "https://aihot.news/items/cmuefqp730041rovxbpewc3gn",
+    "source": "Anthropic：Newsroom（网页）",
+    "publishedAt": "2026-09-23T18:27:25.203Z",
+    "summary": "Anthropic 成立生命科学研究组和自有实验室，宣布 Claude 智能体自主发现一种与 DNA 重复序列相关的新型酶系统 ART（array-associated reverse transcriptases）。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "OpenAI 发布 GPT-6 Sol 与 Luna，API 定价降至五折并公布基准成绩",
+    "url": "https://aihot.news/items/cmudnpv0k0hrrrogg9gcyun5n",
+    "source": "MarkTechPost（RSS）",
+    "publishedAt": "2026-09-23T05:18:36.000Z",
+    "summary": "OpenAI 发布 GPT-6 系列两款新模型 GPT-6 Sol 与 Luna，API 定价相比 GPT-5.6 促销价下调约 50%，Sol 为每 1M tokens 输入 $2、输出 $10，Luna 为 $0.10、$0.50，两者已上线 API。"
+   },
+   {
+    "kind": "news",
+    "title": "Claude Opus 5.5 登顶 Arena Code Arena： WebDev 榜首，得 1818 分",
+    "url": "https://aihot.news/items/cmuexqizk03anroowc9has4ui",
+    "source": "X：Arena (@arena)",
+    "publishedAt": "2026-09-24T02:46:25.000Z",
+    "summary": "Arena 宣布 Claude Opus 5.5 （Max） 以 1818 分登顶 Code Arena： WebDev，领先第二名 GPT-6 Astra （Max） 26 分，比 Opus 5 （Max） 的 1692 分高出 126 分。"
+   },
+   {
+    "kind": "news",
+    "title": "Artificial Analysis：Claude Opus 5.5 登顶 Coding Agent Index，但单任务成本升至 $13.04",
+    "url": "https://aihot.news/items/cmuevlgvm04y3royqizmoqx3s",
+    "source": "X：Artificial Analysis (@ArtificialAnlys)",
+    "publishedAt": "2026-09-24T01:24:22.000Z",
+    "summary": "Artificial Analysis 测评显示，Claude Opus 5.5 在 Claude Code max effort 下以 66 分登顶 Coding Agent Index，较 Opus 5（60）高 6 分，三项评测 Terminal-Bench 4.0（63.1%）、DeepSWE v1.1（68.4%）、SWE-Atlas-QnA（66.4%）全部提升。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "TokenRhythm/NeoHorse-1-4B",
+    "url": "https://hf-mirror.com/TokenRhythm/NeoHorse-1-4B",
+    "license": "apache-2.0",
+    "param": "4B",
+    "likes": 2537,
+    "downloads": 26032,
+    "createdAt": "2026-09-05",
+    "intro": "NeoHorse-1-4B是一个4B因果语言模型，也是实现递归自我提升（ RSI ）的初始原型"
+   },
+   {
+    "kind": "model",
+    "id": "TokenRhythm/NeoHorse-1-9B",
+    "url": "https://hf-mirror.com/TokenRhythm/NeoHorse-1-9B",
+    "license": "apache-2.0",
+    "param": "9B",
+    "likes": 1014,
+    "downloads": 13009,
+    "createdAt": "2026-09-05",
+    "intro": "NeoHorse-1-9B是一个9B因果语言模型，也是实现递归自我提升（ RSI ）的初始原型"
+   },
+   {
+    "kind": "model",
+    "id": "IFM/K2-Horizon-MoVA-36B-A4B",
+    "url": "https://hf-mirror.com/IFM/K2-Horizon-MoVA-36B-A4B",
+    "license": "apache-2.0",
+    "param": "36B",
+    "likes": 372,
+    "downloads": 17261,
+    "createdAt": "2026-09-01",
+    "intro": "K2-Horizon-MoVA-36B-A4B是K2-Horizon系列的稀疏成员：具有值混合注意力（ MoVA ）的专家混合模型，存储36B参数，每个令牌运行4B"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "lang": "Shell",
+   "stars": "290,789",
+   "desc": "有效的智能体技能框架和软件开发方法"
+  },
+  {
+   "repo": "strands-agents/harness-sdk",
+   "url": "https://github.com/strands-agents/harness-sdk",
+   "lang": "Python",
+   "stars": "7,936",
+   "desc": "构建代理框架并进行端到端控制。适用于Python和TypeScript中生产AI代理的开源SDK -任何模型，任何云"
+  },
+  {
+   "repo": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "lang": "Python",
+   "stars": "50,014",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "lang": "JavaScript",
+   "stars": "70,447",
+   "desc": "让您的人工智能更好地进行设计的设计语言"
+  },
+  {
+   "repo": "DeusData/codebase-memory-mcp",
+   "url": "https://github.com/DeusData/codebase-memory-mcp",
+   "lang": "C",
+   "stars": "44,662",
+   "desc": "高性能代码智能MCP服务器"
+  },
+  {
+   "repo": "harry7557558/spirula-studio",
+   "url": "https://github.com/harry7557558/spirula-studio",
+   "lang": "C++",
+   "stars": "783",
+   "desc": "跨供应商3D高斯溅射训练器-溅射到网格、Vulkan或CUDA的视频"
+  },
+  {
+   "repo": "TNT-Likely/PanWatch",
+   "url": "https://github.com/TNT-Likely/PanWatch",
+   "lang": "Python",
+   "stars": "1,607",
+   "desc": "盯盘侠 PanWatch · 自托管 AI 盯盘助手，集成 TradingAgents 多 Agent 投资决策 | A股/港股/美股实时监控、持仓管理、智能分析、全渠道推送"
+  },
+  {
+   "repo": "TheoLeeCJ/SemIf-OpenJev",
+   "url": "https://github.com/TheoLeeCJ/SemIf-OpenJev",
+   "lang": "Python",
+   "stars": "4,122",
+   "desc": "来自开放模型的语义if ，在家中的3090上"
+  },
+  {
+   "repo": "Mak5er/AirCard",
+   "url": "https://github.com/Mak5er/AirCard",
+   "lang": "Swift",
+   "stars": "3,620",
+   "desc": "适用于iOS 18 +的Apple Wallet Card Skinner （无需越狱）"
+  },
+  {
+   "repo": "yang0/handraw-style",
+   "url": "https://github.com/yang0/handraw-style",
+   "lang": "HTML",
+   "stars": "3,061",
+   "desc": "手绘风格编号画廊与双语提示词 Skill"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "janhq/jan",
+   "url": "https://github.com/janhq/jan",
+   "lang": "Rust",
+   "stars": "44,630",
+   "desc": "JAN是ChatGPT的开源替代方案，可在您的计算机上100%离线运行",
+   "en": false
+  },
+  {
+   "repo": "ToolJet/ToolJet",
+   "url": "https://github.com/ToolJet/ToolJet",
+   "lang": "JavaScript",
+   "stars": "40,984",
+   "desc": "ToolJet AI 的开源底座：企业级应用生成平台，可构建内部工具、仪表盘、业务应用、工作流与 AI 智能体，支持可视化搭建、提示词生成，或通过 MCP 接入 Claude Code、Codex 与 Cursor",
+   "en": false
+  },
+  {
+   "repo": "appsmithorg/appsmith",
+   "url": "https://github.com/appsmithorg/appsmith",
+   "lang": "TypeScript",
+   "stars": "40,931",
+   "desc": "用于搭建管理后台、内部工具与仪表盘的平台，可接入 25 种以上数据库及任意 API",
+   "en": false
+  },
+  {
+   "repo": "photoprism/photoprism",
+   "url": "https://github.com/photoprism/photoprism",
+   "lang": "Go",
+   "stars": "40,233",
+   "desc": "AI 驱动的照片管理应用",
+   "en": false
+  },
+  {
+   "repo": "TriliumNext/Trilium",
+   "url": "https://github.com/TriliumNext/Trilium",
+   "lang": "TypeScript",
+   "stars": "37,958",
+   "desc": "用 Trilium Notes 搭建个人知识库",
+   "en": false
+  },
+  {
+   "repo": "Dokploy/dokploy",
+   "url": "https://github.com/Dokploy/dokploy",
+   "lang": "TypeScript",
+   "stars": "37,490",
+   "desc": "Vercel、Netlify 与 Heroku 的开源替代方案",
+   "en": false
+  },
+  {
+   "repo": "khoj-ai/khoj",
+   "url": "https://github.com/khoj-ai/khoj",
+   "lang": "Python",
+   "stars": "37,486",
+   "desc": "你的 AI 第二大脑，可自托管：从网页或本地文档中检索答案，构建自定义智能体、定时自动化与深度研究，支持接入任意在线或本地大模型",
+   "en": false
+  },
+  {
+   "repo": "IceWhaleTech/CasaOS",
+   "url": "https://github.com/IceWhaleTech/CasaOS",
+   "lang": "Go",
+   "stars": "37,254",
+   "desc": "CasaOS：简单易用、优雅的开源个人云系统",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4459.15,
+   "chg": -1.29,
+   "pe": 13.42,
+   "pe_pct": 66,
+   "pb": 1.42,
+   "pb_pct": 39,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": 7665.08,
+   "chg": -1.63,
+   "pe": 33.34,
+   "pe_pct": 79,
+   "pb": 2.42,
+   "pb_pct": 78,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "创业板指",
+   "point": 3317.33,
+   "chg": -1.84,
+   "pe": 38.45,
+   "pe_pct": 33,
+   "pb": 5.39,
+   "pb_pct": 61,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "科创50",
+   "point": 1635.45,
+   "chg": -1.53,
+   "pe": 136.17,
+   "pe_pct": 80,
+   "pb": 7.9,
+   "pb_pct": 94,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "中证红利",
+   "point": 5465.51,
+   "chg": -0.34,
+   "pe": 8.53,
+   "pe_pct": 77,
+   "pb": 0.84,
+   "pb_pct": 48,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 10864.06,
+   "chg": 0.15,
+   "pe": 8.39,
+   "pe_pct": 76,
+   "pb": 0.86,
+   "pb_pct": 60,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24704.75,
+   "chg": -0.52,
+   "pe": 10.98,
+   "pe_pct": 59,
+   "pb": 1.16,
+   "pb_pct": 65,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 26936.04,
+   "chg": -1.13,
+   "pe": 30.93,
+   "pe_pct": 51,
+   "pb": 9.56,
+   "pb_pct": 88,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7706.03,
+   "chg": -0.75,
+   "pe": 25.32,
+   "pe_pct": 58,
+   "pb": 5.56,
+   "pb_pct": 96,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "银行Ⅱ",
+    "chg": 0.62
+   },
+   {
+    "name": "纺织服饰",
+    "chg": 0.37
+   },
+   {
+    "name": "煤炭",
+    "chg": 0.22
+   },
+   {
+    "name": "铁路公路",
+    "chg": 0.17
+   },
+   {
+    "name": "家用电器",
+    "chg": -0.14
+   },
+   {
+    "name": "物流",
+    "chg": -0.27
+   }
+  ],
+  "dn": [
+   {
+    "name": "元件",
+    "chg": -3.62
+   },
+   {
+    "name": "有色金属",
+    "chg": -2.18
+   },
+   {
+    "name": "玻璃玻纤",
+    "chg": -2.17
+   },
+   {
+    "name": "房地产开发",
+    "chg": -2.07
+   },
+   {
+    "name": "装修装饰Ⅱ",
+    "chg": -2.07
+   },
+   {
+    "name": "化学制药",
+    "chg": -1.98
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+0.10%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.8830（2026-09-23）（≈ 888 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.5167",
+   "date": "2026-09-22"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.4599",
+   "date": "2026-09-22"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.6320",
+   "date": "2026-09-22"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1718",
+   "date": "2026-09-22"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.7235",
+   "date": "2026-09-23"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.9030",
+   "date": "2026-09-22"
+  }
+ ],
+ "macro": [
+  {
+   "title": "日本10年期国债收益率冲上1996年来新高 全球债市抛售潮席卷东京",
+   "ctime": "1790225117",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxafc8225366.shtml"
+  },
+  {
+   "title": "日本10年期国债收益率大涨10个基点至3.075% 创1996年以来最高",
+   "ctime": "1790224176",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxaez5330472.shtml"
+  },
+  {
+   "title": "印尼央行持续干预市场以确保印尼卢比稳定",
+   "ctime": "1790224068",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxafc8212295.shtml"
+  },
+  {
+   "title": "印度央行副行长认为印度卢比存在升值空间",
+   "ctime": "1790223814",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxafc8208976.shtml"
+  },
+  {
+   "title": "央行开展8000亿元MLF操作 红利低波ETF华泰柏瑞（512890）逆势上涨半日成交2.67亿领跑同类",
+   "ctime": "1790222744",
+   "url": "https://finance.sina.com.cn/money/fund/original/2026-09-24/doc-inisxaez5318691.shtml"
+  },
+  {
+   "title": "日本国债收益率全线上涨 5年期和10年期收益率领涨",
+   "ctime": "1790222045",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-iniswvxm0607880.shtml"
+  },
+  {
+   "title": "交易员称印度央行在汇市抛售美元以支撑卢比",
+   "ctime": "1790221957",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-iniswvxc5443956.shtml"
+  },
+  {
+   "title": "央行节前放大招！隔夜逆回购上限飙至1万亿，MLF净投放2000亿，什么信号？",
+   "ctime": "1790218709",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-24/doc-iniswvxf8252219.shtml"
+  }
+ ],
+ "low": []
+}
