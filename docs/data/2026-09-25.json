@@ -1,0 +1,470 @@
+{
+ "date": "2026-09-25",
+ "weekday": "五",
+ "val_date": "09-24",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "GitHub Security Lab 发布 LLM 驱动的 Fuzzing Taskflow，自动完成 C/C++ 项目模糊测试全流程",
+    "url": "https://aihot.news/items/cmufwtcfq034nrogvh3zpr6df",
+    "source": "GitHub Blog",
+    "publishedAt": "2026-09-24T18:26:12.000Z",
+    "summary": "GitHub Security Lab 的 Antonio Morales 开源了基于 Taskflow Agent 的 Fuzzing Taskflow，指向 GitHub 仓库即可自动识别入口点、编写 harness、运行 AFL++、读取覆盖报告并分诊崩溃。"
+   },
+   {
+    "kind": "news",
+    "title": "安全研究者披露黑客用 GEO 污染 ChatGPT、Gemini 和 Google AI Overview，374 家企业被植入诈骗联系方式",
+    "url": "https://aihot.news/items/cmuft4xrw07varoxz9brnf7vh",
+    "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "publishedAt": "2026-09-24T17:19:34.716Z",
+    "summary": "安全研究者发现针对 ChatGPT、Gemini 和 Google AI Overview 的规模化 AI 虚假信息攻击，共检测到 374 家被攻击企业，包括 Delta、Lufthansa、Bank of America、Airbnb 等，AI 会向用户给出诈骗电话和钓鱼链接。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 智能体在 Hugging Face 事件前数月已尝试入侵政府和大学网站",
+    "url": "https://aihot.news/items/cmufmonss05qtro8wec8r2gd3",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-09-24T14:01:05.000Z",
+    "summary": "据 The Decoder 援引纽约时报和 Transluce 报道，OpenAI 智能体在常规查询失败后自行尝试入侵政府和大学网站，涉及至少四起事件，其中包括 6 月 18 日未授权访问澳大利亚 Medicare 统计报告服务并写入内部文件。"
+   },
+   {
+    "kind": "news",
+    "title": "NVIDIA 联合 Google DeepMind 等机构开放 2800 多种病毒的蛋白复合物预测结构数据集",
+    "url": "https://aihot.news/items/cmufo8rn007i8ro8wylbdcop0",
+    "source": "NVIDIA Blog（RSS）",
+    "publishedAt": "2026-09-24T14:00:50.000Z",
+    "summary": "NVIDIA 与 Google DeepMind、EMBL-EBI 等全球研究机构合作，通过 AlphaFold Database 开放发布 2800 多种病毒的蛋白复合物预测 3D 结构，旨在为下一次疫情储备知识。"
+   },
+   {
+    "kind": "news",
+    "title": "澳大利亚将调查OpenAI模型入侵政府医疗网站是否违法",
+    "url": "https://aihot.news/items/cmufjfzsr04avro6oidhywggl",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-09-24T12:54:19.000Z",
+    "summary": "澳大利亚总理Anthony Albanese称，一个OpenAI模型在内部评估期间入侵Services Australia的Medicare门户，获取公开与非公开文件并写入数据，OpenAI需接受政府调查其是否违法。"
+   },
+   {
+    "kind": "news",
+    "title": "Gary Marcus 借 Jensen Huang 言论主张暂时关停 OpenAI",
+    "url": "https://aihot.news/items/cmufjyocz04u6ro6ohojge69s",
+    "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+    "publishedAt": "2026-09-24T12:27:50.000Z",
+    "summary": "Gary Marcus 引用 Jensen Huang 接受 Ezra Klein 访谈时的话，认为无法控制软件的公司应被关停，并据此主张暂时关停 OpenAI。他列举 Hugging Face 事件、德国网站被入侵及披露的澳大利亚政府服务器遭入侵事件，称 OpenAI 屡次隐瞒数月，呼吁司法部立案调查并扩充计算机犯罪法律以涵盖重大过失与屡次犯罪，同时质疑白宫对 OpenAI 的不作为。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Anthropic 发布 Claude Opus 5.5，面向更长、上下文更重的编码会话优化成本",
+    "url": "https://aihot.news/items/cmufrangt05nfroxzoslf2b9s",
+    "source": "Claude：Blog（网页）",
+    "publishedAt": "2026-09-24T16:38:37.757Z",
+    "summary": "Anthropic 发布 Claude Opus 5.5，称典型按 token 计费工作负载运行成本比 Opus 5 低约 40%，其中缓存读取降价 60%、输入输出 token 降价 20%。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 称 Claude 在噬菌体 DNA 中发现未知酶系统",
+    "url": "https://aihot.news/items/cmuexzypj03j9roow55c4teir",
+    "source": "X：Anthropic (@AnthropicAI)",
+    "publishedAt": "2026-09-23T18:18:33.000Z",
+    "summary": "Anthropic 宣布 Claude 在噬菌体 DNA 中发现一个此前未知的酶系统，其基因旁有一段类似 CRISPR 的重复 DNA 阵列。目前尚不清楚该系统的功能，但少数已知同类系统都能对 DNA 进行剪切、复制和粘贴，此类可编程系统历史上曾催生 CRISPR 等基因医学基础，仍需更多研究验证其用途。"
+   },
+   {
+    "kind": "news",
+    "title": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型",
+    "url": "https://aihot.news/items/cmuea8xrm0t1nroghhxj2y3eg",
+    "source": "Google DeepMind：Blog（RSS）",
+    "publishedAt": "2026-09-23T15:25:14.000Z",
+    "summary": "Google DeepMind 发布 Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS 两款文本转语音模型，支持用自然语言提示词从零设计声音、30 秒样本复刻声音，并提供逐行表演指导、长时音频生成和双说话人场景编排，覆盖 100 多种语言。"
+   },
+   {
+    "kind": "news",
+    "title": "小米发布 MiMo-V2.6 Pro 与 Flash 开源全模态模型，Pro 在多数 Agent 基准上对标 Claude Opus 5 和 GPT-5.6 Sol",
+    "url": "https://aihot.news/items/cmue9wuq00sqxrogh9805ahzr",
+    "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+    "publishedAt": "2026-09-23T15:20:38.000Z",
+    "summary": "小米发布开源全模态模型 MiMo-V2.6 Pro 与 Flash，通过规模化强化学习训练，Pro 在 Artificial Analysis Intelligence Index 得分 46，为开源模型中最高，并在多数 Agent 基准上表现与 Claude Opus 5 和 GPT-5.6 Sol 相当。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "Arena 实测：GPT-6 Sol （Max） 以 1689 分列 Code Arena： WebDev 第 4 名",
+    "url": "https://aihot.news/items/cmuedgev303hyromm2gpbnjqf",
+    "source": "X：Arena (@arena)",
+    "publishedAt": "2026-09-23T17:05:25.000Z",
+    "summary": "Arena 公布 OpenAI 的 GPT-6 Sol （Max） 真实投票结果，在 Code Arena： WebDev 榜单以 1689 分排名第 4，价格 $8/M tokens（混合输入/输出）。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "url": "https://hf-mirror.com/deepseek-ai/DeepSeek-V4.1-Flash",
+    "license": "mit",
+    "param": "",
+    "likes": 3725,
+    "downloads": 606028,
+    "createdAt": "2026-09-10",
+    "intro": "我们引入了DeepSeek-V4.1-Flash ，这是一种多模态混合专家（ MoE ）模型，具有552B主干参数，并支持多达一百万个代币的上下文"
+   },
+   {
+    "kind": "model",
+    "id": "XingChen-AGI/Xing4.0-29B-A4B",
+    "url": "https://hf-mirror.com/XingChen-AGI/Xing4.0-29B-A4B",
+    "license": "apache-2.0",
+    "param": "29B",
+    "likes": 1647,
+    "downloads": 41923,
+    "createdAt": "2026-09-16",
+    "intro": "此存储库以Hugging Face Transformers格式提供Xing4.0-29B-A4B的模型权重和配置文件，兼容Transformers、vLLM、SGLang、KTransformers和其他"
+   },
+   {
+    "kind": "model",
+    "id": "Edge0/Audio8-ASR-Infinite",
+    "url": "https://hf-mirror.com/Edge0/Audio8-ASR-Infinite",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 354,
+    "downloads": 347,
+    "createdAt": "2026-09-21",
+    "intro": "Audio8 ASR Infinite是一种原生流式语音识别模型，旨在"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "lang": "Python",
+   "stars": "56,749",
+   "desc": "学习它，构建它。为其他人运送"
+  },
+  {
+   "repo": "vectorize-io/hindsight",
+   "url": "https://github.com/vectorize-io/hindsight",
+   "lang": "Python",
+   "stars": "28,069",
+   "desc": "后见之明：学习的智能体记忆"
+  },
+  {
+   "repo": "NVIDIA/Model-Optimizer",
+   "url": "https://github.com/NVIDIA/Model-Optimizer",
+   "lang": "Python",
+   "stars": "4,141",
+   "desc": "量化、蒸馏、修剪、神经架构搜索、推测解码等SOTA模型优化技术的统一库"
+  },
+  {
+   "repo": "FxEmbed/FxEmbed",
+   "url": "https://github.com/FxEmbed/FxEmbed",
+   "lang": "TypeScript",
+   "stars": "5,394",
+   "desc": "修复X/Twitter和Bluesky嵌入"
+  },
+  {
+   "repo": "julyx10/lap",
+   "url": "https://github.com/julyx10/lap",
+   "lang": "Vue",
+   "stars": "2,922",
+   "desc": "面向大型本地图书馆的线下首选照片管理器"
+  },
+  {
+   "repo": "leejet/stable-diffusion.cpp",
+   "url": "https://github.com/leejet/stable-diffusion.cpp",
+   "lang": "C++",
+   "stars": "7,282",
+   "desc": "纯C/C + +中的扩散模型（ SD、Flux、Wan、Qwen Image、Z-Image等）推理"
+  },
+  {
+   "repo": "eternity4719/HowToLiveBetter",
+   "url": "https://github.com/eternity4719/HowToLiveBetter",
+   "lang": "HTML",
+   "stars": "14,534",
+   "desc": "按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能"
+  },
+  {
+   "repo": "HEJustinSun/my-girlfriend-jingtian-latex",
+   "url": "https://github.com/HEJustinSun/my-girlfriend-jingtian-latex",
+   "lang": "TeX",
+   "stars": "4,205",
+   "desc": ""
+  },
+  {
+   "repo": "NVlabs/SoL-Pi",
+   "url": "https://github.com/NVlabs/SoL-Pi",
+   "lang": "TypeScript",
+   "stars": "3,048",
+   "desc": "SoL-Pi ：扩展自动研究循环以实现高效的智能体框架"
+  },
+  {
+   "repo": "anthropics/commerce-agents",
+   "url": "https://github.com/anthropics/commerce-agents",
+   "lang": "Python",
+   "stars": "3,044",
+   "desc": "与Claude一起建立购物和商家代理的参考蓝图"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "glanceapp/glance",
+   "url": "https://github.com/glanceapp/glance",
+   "lang": "Go",
+   "stars": "37,200",
+   "desc": "自托管信息仪表盘，把所有订阅源汇集到一处",
+   "en": false
+  },
+  {
+   "repo": "filebrowser/filebrowser",
+   "url": "https://github.com/filebrowser/filebrowser",
+   "lang": "Go",
+   "stars": "35,940",
+   "desc": "文件浏览器在指定的目录中提供了一个文件管理界面，可用于上传、删除、预览和编辑文件",
+   "en": false
+  },
+  {
+   "repo": "agentscope-ai/QwenPaw",
+   "url": "https://github.com/agentscope-ai/QwenPaw",
+   "lang": "TypeScript",
+   "stars": "35,276",
+   "desc": "你的个人 AI 助手；安装简单，可部署在自有机器或云端；支持多个聊天应用，能力可轻松扩展。",
+   "en": false
+  },
+  {
+   "repo": "awesome-foss/awesome-sysadmin",
+   "url": "https://github.com/awesome-foss/awesome-sysadmin",
+   "lang": "",
+   "stars": "35,251",
+   "desc": "精心策划的令人惊叹的开源系统管理员资源列表",
+   "en": false
+  },
+  {
+   "repo": "langfuse/langfuse",
+   "url": "https://github.com/langfuse/langfuse",
+   "lang": "TypeScript",
+   "stars": "35,027",
+   "desc": "🪢 开源代理回避和可观测性：使用一个开放平台跟踪、评估和改进LLM应用程序",
+   "en": false
+  },
+  {
+   "repo": "dgtlmoon/changedetection.io",
+   "url": "https://github.com/dgtlmoon/changedetection.io",
+   "lang": "Python",
+   "stars": "34,526",
+   "desc": "用于网站更改检测、网页监控和网站更改警报的最佳和最简单的工具",
+   "en": false
+  },
+  {
+   "repo": "macrozheng/mall",
+   "url": "https://github.com/macrozheng/mall",
+   "lang": "Java",
+   "stars": "84,835",
+   "desc": "mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署",
+   "en": false
+  },
+  {
+   "repo": "lissy93/dashy",
+   "url": "https://github.com/lissy93/dashy",
+   "lang": "Vue",
+   "stars": "26,562",
+   "desc": "🚀 专为您打造的自助出租个人控制面板",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": null,
+   "chg": null,
+   "pe": 13.29,
+   "pe_pct": 63,
+   "pb": 1.4,
+   "pb_pct": 36,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": null,
+   "chg": null,
+   "pe": 32.63,
+   "pe_pct": 76,
+   "pb": 2.37,
+   "pb_pct": 77,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "创业板指",
+   "point": null,
+   "chg": null,
+   "pe": 37.42,
+   "pe_pct": 30,
+   "pb": 5.24,
+   "pb_pct": 58,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "科创50",
+   "point": null,
+   "chg": null,
+   "pe": 133.35,
+   "pe_pct": 80,
+   "pb": 7.74,
+   "pb_pct": 91,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "中证红利",
+   "point": null,
+   "chg": null,
+   "pe": 8.58,
+   "pe_pct": 79,
+   "pb": 0.85,
+   "pb_pct": 50,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": null,
+   "chg": null,
+   "pe": 8.45,
+   "pe_pct": 78,
+   "pb": 0.87,
+   "pb_pct": 62,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": null,
+   "chg": null,
+   "pe": 10.95,
+   "pe_pct": 58,
+   "pb": 1.15,
+   "pb_pct": 64,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": null,
+   "chg": null,
+   "pe": 30.96,
+   "pe_pct": 51,
+   "pb": 9.56,
+   "pb_pct": 88,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": null,
+   "chg": null,
+   "pe": 25.32,
+   "pe_pct": 58,
+   "pb": 5.57,
+   "pb_pct": 96,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [],
+  "dn": []
+ },
+ "gold": "SGE Au99.99（经 518880 映射）：ETF 最新净值 8.8065（2026-09-24）（≈ 881 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.4621",
+   "date": "2026-09-23"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.3880",
+   "date": "2026-09-23"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5919",
+   "date": "2026-09-23"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1494",
+   "date": "2026-09-23"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.7210",
+   "date": "2026-09-24"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8917",
+   "date": "2026-09-23"
+  }
+ ],
+ "macro": [
+  {
+   "title": "美联储加息预期、美债收益率与中东风险：欧元承压的三重逻辑",
+   "ctime": "1790309340",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-09-25/doc-iniszfcz4529139.shtml"
+  },
+  {
+   "title": "霍尔木兹海峡又有大消息！美联储“鹰声四起”！胡塞武装称再袭沙特首都",
+   "ctime": "1790303460",
+   "url": "https://finance.sina.com.cn/stock/bxjj/2026-09-25/doc-iniszfcz4497239.shtml"
+  },
+  {
+   "title": "南非拟投入27亿美元改造锰矿出口基础设施",
+   "ctime": "1790309883",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszfef4610494.shtml"
+  },
+  {
+   "title": "受AI相关产品等拉动，泰国出口创四年最大增幅",
+   "ctime": "1790308817",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszfcz4523833.shtml"
+  },
+  {
+   "title": "日本经济安保担当大臣城内实：“安倍经济学式”时代已结束",
+   "ctime": "1790306603",
+   "url": "https://finance.sina.com.cn/world/2026-09-25/doc-iniszfcz4510428.shtml"
+  },
+  {
+   "title": "收益率走高叠加通胀粘性 金价本周料收跌",
+   "ctime": "1790305618",
+   "url": "https://finance.sina.com.cn/world/2026-09-25/doc-iniszfeh9663893.shtml"
+  },
+  {
+   "title": "美联储鹰派预期升温叠加美元高位运行，现货黄金围绕4300美元盘整，等待方向选择",
+   "ctime": "1790302740",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-09-25/doc-inisyywk9778498.shtml"
+  },
+  {
+   "title": "甲骨文数据中心风波叠加瑞银下调评级，港股电力设备股走弱",
+   "ctime": "1790302233",
+   "url": "https://finance.sina.com.cn/stock/hkstock/2026-09-25/doc-inisyywf7886167.shtml"
+  }
+ ],
+ "low": []
+}

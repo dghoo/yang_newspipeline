@@ -235,5 +235,13 @@
   "The design language that makes your AI harness better at design.": "让您的人工智能更好地进行设计的设计语言",
   "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.": "高性能代码智能MCP服务器",
   "Cross-vendor 3D Gaussian Splatting trainer - video to splat to mesh, Vulkan or CUDA.": "跨供应商3D高斯溅射训练器-溅射到网格、Vulkan或CUDA的视频",
-  "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)": "适用于iOS 18 +的Apple Wallet Card Skinner （无需越狱）"
+  "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)": "适用于iOS 18 +的Apple Wallet Card Skinner （无需越狱）",
+  "Audio8 ASR Infinite is a native streaming speech recognition model built to be\nas responsive as possible. It offers a selectable audio clock (80/120/160 ms) and\na transcription delay (240–560 ms).\nWith our adapted vLLM build it transcribes unlimited-length audio 24/7 without drifting.": "Audio8 ASR Infinite是一种原生流式语音识别模型，旨在",
+  "Hindsight: Agent Memory That Learns": "后见之明：学习的智能体记忆",
+  "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.": "量化、蒸馏、修剪、神经架构搜索、推测解码等SOTA模型优化技术的统一库",
+  "Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others": "修复X/Twitter和Bluesky嵌入",
+  "An offline-first photo manager for large local libraries": "面向大型本地图书馆的线下首选照片管理器",
+  "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++": "纯C/C + +中的扩散模型（ SD、Flux、Wan、Qwen Image、Z-Image等）推理",
+  "SoL-Pi: Scaling Auto-Research Loops for Efficient Agent Harnesses": "SoL-Pi ：扩展自动研究循环以实现高效的智能体框架",
+  "Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.": "与Claude一起建立购物和商家代理的参考蓝图"
 }
