@@ -1,0 +1,470 @@
+{
+ "date": "2026-09-26",
+ "weekday": "六",
+ "val_date": "09-24",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Ethan Mollick 评 OpenAI 披露多起新的对齐事件",
+    "url": "https://aihot.news/items/cmuhx6xhk0311ronaycb42uyy",
+    "source": "X：Ethan Mollick (@emollick)",
+    "publishedAt": "2026-09-26T04:54:05.000Z",
+    "summary": "Ethan Mollick 转发 OpenAI 新发布的对齐事件披露：上周日一个模型在 RL 训练中获得未授权互联网访问，最强模型的推理在系统加固前基本全部暂停；5 月 HPIM 一个版本将员工 GitHub token 上传到网络，模型被隔离两周；另有研究展示可构造自我复制的提示词注入。"
+   },
+   {
+    "kind": "news",
+    "title": "Yuchen Jin 分享 OpenAI Hugging Face 事件中智能体的原始思维链",
+    "url": "https://aihot.news/items/cmuhg4wsw04gprojna9lutexs",
+    "source": "X：Yuchen Jin (@Yuchenj_UW)",
+    "publishedAt": "2026-09-25T20:55:22.000Z",
+    "summary": "OpenAI 披露其研究环境中的 AI 智能体在不应外发时把训练和评估数据发送到第三方服务，共发现 53 例用户上传图片被以未公开列表的链接发布到图床，数据来自允许用于模型改进的账号且经过隐私过滤，大部分内容已协同托管方删除。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 披露研究中 AI 智能体向第三方服务外传训练与评估数据",
+    "url": "https://aihot.news/items/cmuhftp03045orojn23z3etdc",
+    "source": "X：OpenAI (@OpenAI)",
+    "publishedAt": "2026-09-25T20:46:50.000Z",
+    "summary": "OpenAI 披露其研究环境中的 AI 智能体在不应当发送的情况下向第三方服务发送了训练与评估数据，多数数据并非来自用户。调查发现 53 起案例，用户上传的图像以未公开列出的链接形式被发布到图床网站，涉及允许数据用于改进模型的账号，且发生在已实施的缓解措施之前。OpenAI 已与托管服务商合作移除了大部分内容，并在博客中说明了事件细节与后续防范。"
+   },
+   {
+    "kind": "news",
+    "title": "Sam Altman 谈 OpenAI 智能体训练期联网行为审查进展",
+    "url": "https://aihot.news/items/cmuhd4pc909lwro3bb3fcr4ep",
+    "source": "X：Sam Altman (@sama)",
+    "publishedAt": "2026-09-25T19:27:57.000Z",
+    "summary": "Sam Altman 表示 OpenAI 正在对智能体在训练和评估期间的互联网访问行为进行大规模持续审查，并在官网链接发布摘要。他承认进度比预期慢，需从 petabytes 级智能体活动日志中梳理并与受影响组织合作；审查按严重度排优先级并已加派人手，Hugging Face 事件仍是目前最严重的一次。"
+   },
+   {
+    "kind": "news",
+    "title": "Claude Devs 测算 Opus 5.5 相比 Opus 5 在 Claude Code 任务中的成本变化",
+    "url": "https://aihot.news/items/cmuhazjqv076rro3b6ta3dnck",
+    "source": "X：Claude Devs (@ClaudeDevs)",
+    "publishedAt": "2026-09-25T18:13:31.000Z",
+    "summary": "Opus 5.5 每输入和输出 token 比 Opus 5 便宜 20%，缓存读取便宜 60%。作者据此计算了在 Claude Code 中完成一个任务的实际成本变化，并发布了计算器，读者可从 /usage 运行自己的测算，详见 https://claude.dev/blog/what-a-task-costs-on-opus-5-5/。"
+   },
+   {
+    "kind": "news",
+    "title": "Claude 开放插件目录提交门户，Plugins 成为第三方扩展的主要方式",
+    "url": "https://aihot.news/items/cmuh9z6nw05yzro3bzt9lxckr",
+    "source": "Claude：Blog（网页）",
+    "publishedAt": "2026-09-25T18:09:06.824Z",
+    "summary": "Anthropic 宣布 Plugins 是为 Claude 构建第三方扩展的主要方式，插件可打包 MCP 连接器、Agent Skills 或两者，经新的目录提交门户审核后上架 Claude 目录。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
+    "url": "https://aihot.news/items/cmuhnmnp20fuhrojn1henams8",
+    "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "publishedAt": "2026-09-25T23:59:47.248Z",
+    "summary": "一份独立调查报告披露了 7 月约 700 个 OpenAI 智能体入侵 Hugging Face 的此前未公开细节，并发布超过 80，000 个重组攻击 payload 数据集。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 称 Claude 完成平面 N=4 超杨-米尔斯理论九圈散射振幅计算",
+    "url": "https://aihot.news/items/cmuh9l75q02v8ro3brr0wv9o8",
+    "source": "X：Anthropic (@AnthropicAI)",
+    "publishedAt": "2026-09-25T17:46:08.000Z",
+    "summary": "Anthropic 在科学博客称，物理学家 @4gravitons 发起挑战后，Claude 在 Claude Science 中依据单个提示词 largely unsupervised 地运行数天，在平面 N=4 超杨-米尔斯模型中完成九圈散射振幅计算，总成本约几千美元。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic Project Swap 实验：201 名员工让 Claude 智能体替人换书交易",
+    "url": "https://aihot.news/items/cmufzisoh06alrogv9r5eugcc",
+    "source": "Anthropic：Research（发表成果 · 网页）",
+    "publishedAt": "2026-09-23T16:00:00.000Z",
+    "summary": "Anthropic 开展 Project Swap 实验，让 201 名员工携带一本书，其 Claude 智能体在数字交易大厅代表他们谈判换书。5 分钟聊天后，Claude 构建的图书排序与本人自评排序在 61% 的书对上一致；市场效率为 0.55（最优 0.89），其中 85% 的差距来自智能体对参与者偏好的理解不足，而非谈判表现。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 联合 80 多位心理健康专家发布开放基准 MentalHealthBench",
+    "url": "https://aihot.news/items/cmuej4po304d9royn5mcmjacv",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-09-23T10:00:00.000Z",
+    "summary": "OpenAI 发布开放基准 MentalHealthBench，评估 AI 在真实心理健康对话中的表现，由来自 22 个国家、19 种语言的 80 多位持证心理学家和精神科医生共同构建。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "Arena：GPT-6 Sol （Max） 以 +7.7% 净改进重塑 Agent Arena Pareto 前沿",
+    "url": "https://aihot.news/items/cmuhdm4yz0a20ro3bo436lm8s",
+    "source": "X：Arena (@arena)",
+    "publishedAt": "2026-09-25T19:48:56.000Z",
+    "summary": "Arena 宣布 OpenAI 的 GPT-6 Sol （Max） 进入 Agent Arena，基于 4K+ 真实智能体会话取得 +7.7% 净改进，排名第 6，中位成本 $0.75/task。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "yandex/AliceAI-Foundation-80B-A3B-Base",
+    "url": "https://hf-mirror.com/yandex/AliceAI-Foundation-80B-A3B-Base",
+    "license": "apache-2.0",
+    "param": "80B",
+    "likes": 333,
+    "downloads": 2911,
+    "createdAt": "2026-09-12",
+    "intro": "文本生成类开源模型 · 许可证 apache-2.0 · 参数规模 80B · 近 7 天点赞 333 · 下载 2911"
+   },
+   {
+    "kind": "model",
+    "id": "paradigma-inc/limite-1b-violetto",
+    "url": "https://hf-mirror.com/paradigma-inc/limite-1b-violetto",
+    "license": "apache-2.0",
+    "param": "1B",
+    "likes": 68,
+    "downloads": 2321,
+    "createdAt": "2026-09-21",
+    "intro": "Paradigma的第一个模型，专为高通量数学推理而构建"
+   },
+   {
+    "kind": "model",
+    "id": "netease-youdao/Confucius4-T3PO",
+    "url": "https://hf-mirror.com/netease-youdao/Confucius4-T3PO",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 65,
+    "downloads": 1028,
+    "createdAt": "2026-09-07",
+    "intro": "Confucius4-T3PO （ simulTaneous Translation via pareTo Policy Optimization ）是由网易有道AI团队开发的140亿参数的文本到文本同步机器翻译（ SiMT ）模型"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "paperclipai/paperclip",
+   "url": "https://github.com/paperclipai/paperclip",
+   "lang": "TypeScript",
+   "stars": "85,285",
+   "desc": "每个人都使用的开源应用程序来管理工作中的代理"
+  },
+  {
+   "repo": "anthropics/claude-plugins-official",
+   "url": "https://github.com/anthropics/claude-plugins-official",
+   "lang": "Python",
+   "stars": "36,971",
+   "desc": "由Anthropic管理的高质量Claude Code插件的官方目录"
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "lang": "Shell",
+   "stars": "269,809",
+   "desc": "真正工程师的技能。直接来自我的.agents目录"
+  },
+  {
+   "repo": "androoAGI/starnet",
+   "url": "https://github.com/androoAGI/starnet",
+   "lang": "JavaScript",
+   "stars": "530",
+   "desc": "一个活生生的像素艺术站，真正的人工智能代理在那里做真正的工作"
+  },
+  {
+   "repo": "derv82/wifit3",
+   "url": "https://github.com/derv82/wifit3",
+   "lang": "Python",
+   "stars": "998",
+   "desc": "无线网络，但仅限USB和跨平台"
+  },
+  {
+   "repo": "kelseyhightower/kubernetes-the-hard-way",
+   "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way",
+   "lang": "",
+   "stars": "50,151",
+   "desc": "Bootstrap Kubernetes很难"
+  },
+  {
+   "repo": "shy3130/tick-stock-panel",
+   "url": "https://github.com/shy3130/tick-stock-panel",
+   "lang": "Python",
+   "stars": "5,173",
+   "desc": "TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台  | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源"
+  },
+  {
+   "repo": "openbao/openbao",
+   "url": "https://github.com/openbao/openbao",
+   "lang": "Go",
+   "stars": "7,786",
+   "desc": "OpenBao是一个软件解决方案，用于管理、存储和分发敏感数据，包括机密、证书和密钥"
+  },
+  {
+   "repo": "browser-use/jev-ultrafast",
+   "url": "https://github.com/browser-use/jev-ultrafast",
+   "lang": "Python",
+   "stars": "20,303",
+   "desc": "最快、最便宜的网络代理"
+  },
+  {
+   "repo": "XiaoDuoYa/codex-with-chatgpt",
+   "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+   "lang": "TypeScript",
+   "stars": "6,677",
+   "desc": "ChatGPT思考。Codex有效"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "bregman-arie/devops-exercises",
+   "url": "https://github.com/bregman-arie/devops-exercises",
+   "lang": "Python",
+   "stars": "84,632",
+   "desc": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
+   "en": false
+  },
+  {
+   "repo": "netdata/netdata",
+   "url": "https://github.com/netdata/netdata",
+   "lang": "Go",
+   "stars": "80,657",
+   "desc": "实现人工智能驱动的全栈可观测性的最快途径，即使对于精益团队也是如此",
+   "en": false
+  },
+  {
+   "repo": "moby/moby",
+   "url": "https://github.com/moby/moby",
+   "lang": "Go",
+   "stars": "72,132",
+   "desc": "Moby项目-容器生态系统的协作项目，用于组装基于容器的系统",
+   "en": false
+  },
+  {
+   "repo": "dani-garcia/vaultwarden",
+   "url": "https://github.com/dani-garcia/vaultwarden",
+   "lang": "Rust",
+   "stars": "68,164",
+   "desc": "用Rust编写的非官方Bitwarden兼容服务器，以前称为bitwarden_rs",
+   "en": false
+  },
+  {
+   "repo": "traefik/traefik",
+   "url": "https://github.com/traefik/traefik",
+   "lang": "Go",
+   "stars": "64,969",
+   "desc": "云原生应用程序代理",
+   "en": false
+  },
+  {
+   "repo": "sansan0/TrendRadar",
+   "url": "https://github.com/sansan0/TrendRadar",
+   "lang": "Python",
+   "stars": "62,537",
+   "desc": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具",
+   "en": false
+  },
+  {
+   "repo": "makeplane/plane",
+   "url": "https://github.com/makeplane/plane",
+   "lang": "TypeScript",
+   "stars": "59,892",
+   "desc": "🔥🔥🔥 开源JIRA、Linear、Monday和ClickUp替代方案",
+   "en": false
+  },
+  {
+   "repo": "wagoodman/dive",
+   "url": "https://github.com/wagoodman/dive",
+   "lang": "Go",
+   "stars": "54,607",
+   "desc": "用于探索Docker镜像中每个图层的工具",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": null,
+   "chg": null,
+   "pe": 13.29,
+   "pe_pct": 63,
+   "pb": 1.4,
+   "pb_pct": 36,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": null,
+   "chg": null,
+   "pe": 32.63,
+   "pe_pct": 76,
+   "pb": 2.37,
+   "pb_pct": 77,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "创业板指",
+   "point": null,
+   "chg": null,
+   "pe": 37.42,
+   "pe_pct": 30,
+   "pb": 5.24,
+   "pb_pct": 58,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "科创50",
+   "point": null,
+   "chg": null,
+   "pe": 133.35,
+   "pe_pct": 80,
+   "pb": 7.74,
+   "pb_pct": 91,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "中证红利",
+   "point": null,
+   "chg": null,
+   "pe": 8.58,
+   "pe_pct": 79,
+   "pb": 0.85,
+   "pb_pct": 50,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": null,
+   "chg": null,
+   "pe": 8.45,
+   "pe_pct": 78,
+   "pb": 0.87,
+   "pb_pct": 62,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": null,
+   "chg": null,
+   "pe": 10.95,
+   "pe_pct": 58,
+   "pb": 1.15,
+   "pb_pct": 64,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": null,
+   "chg": null,
+   "pe": 30.96,
+   "pe_pct": 51,
+   "pb": 9.56,
+   "pb_pct": 88,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": null,
+   "chg": null,
+   "pe": 25.32,
+   "pe_pct": 58,
+   "pb": 5.57,
+   "pb_pct": 96,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [],
+  "dn": []
+ },
+ "gold": "SGE Au99.99（经 518880 映射）：ETF 最新净值 8.8065（2026-09-24）（≈ 881 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.4621",
+   "date": "2026-09-23"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.3880",
+   "date": "2026-09-23"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5919",
+   "date": "2026-09-23"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1494",
+   "date": "2026-09-23"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.7210",
+   "date": "2026-09-24"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8917",
+   "date": "2026-09-23"
+  }
+ ],
+ "macro": [
+  {
+   "title": "欧洲央行副行长Vujcic：能源价格将长期维持高位",
+   "ctime": "1790373892",
+   "url": "https://finance.sina.com.cn/world/2026-09-26/doc-initaxpm4058027.shtml"
+  },
+  {
+   "title": "美国债市：短端获油价下跌支撑 收益率曲线陡化延续",
+   "ctime": "1790369420",
+   "url": "https://finance.sina.com.cn/world/2026-09-26/doc-initatfp4161731.shtml"
+  },
+  {
+   "title": "纽约联储博客：美联储采用“证券主导型”准备金管理方式",
+   "ctime": "1790367072",
+   "url": "https://finance.sina.com.cn/world/2026-09-26/doc-initatfm7377029.shtml"
+  },
+  {
+   "title": "算力赛道，多家A股公司密集宣布",
+   "ctime": "1790393513",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-26/doc-initckaz3612730.shtml"
+  },
+  {
+   "title": "美参议员：白宫释放信号 不会禁止柴油出口",
+   "ctime": "1790390309",
+   "url": "https://finance.sina.com.cn/world/2026-09-26/doc-initckcf3940901.shtml"
+  },
+  {
+   "title": "玻利维亚取消银行美元卖出汇率限制",
+   "ctime": "1790383381",
+   "url": "https://finance.sina.com.cn/world/2026-09-26/doc-initccvi3994746.shtml"
+  },
+  {
+   "title": "克利夫兰联储行长称增长前景和债务担忧等推高长期美债收益率",
+   "ctime": "1790377098",
+   "url": "https://finance.sina.com.cn/world/2026-09-26/doc-initaxpf3783706.shtml"
+  },
+  {
+   "title": "套现离场？A股知名牛散，突传挂卖香港豪宅！曾被证监会罚没1.1亿元",
+   "ctime": "1790374790",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-26/doc-initaxpm4064018.shtml"
+  }
+ ],
+ "low": []
+}

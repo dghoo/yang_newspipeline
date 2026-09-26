@@ -243,5 +243,14 @@
   "An offline-first photo manager for large local libraries": "面向大型本地图书馆的线下首选照片管理器",
   "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++": "纯C/C + +中的扩散模型（ SD、Flux、Wan、Qwen Image、Z-Image等）推理",
   "SoL-Pi: Scaling Auto-Research Loops for Efficient Agent Harnesses": "SoL-Pi ：扩展自动研究循环以实现高效的智能体框架",
-  "Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.": "与Claude一起建立购物和商家代理的参考蓝图"
+  "Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.": "与Claude一起建立购物和商家代理的参考蓝图",
+  "Paradigma's first model, built for high-throughput mathematical reasoning.": "Paradigma的第一个模型，专为高通量数学推理而构建",
+  "Confucius4-T3PO (simulTaneous Translation via pareTo Policy Optimization) is a 14-billion-parameter text-to-text simultaneous machine translation (SiMT) model developed by the NetEase Youdao AI team. Its development follows a three-stage pipeline: high-quality segment-aligned data construction, streaming cold-start of the translation model, and Pareto-aware reinforcement learning for joint quality–latency optimization. It supports streaming text input and real-time READ/WRITE decisions. After receiving each fine-grained text chunk, the model dynamically decides whether to wait for further cont": "Confucius4-T3PO （ simulTaneous Translation via pareTo Policy Optimization ）是由网易有道AI团队开发的140亿参数的文本到文本同步机器翻译（ SiMT ）模型",
+  "The open-source app everyone uses to manage agents at work": "每个人都使用的开源应用程序来管理工作中的代理",
+  "Official, Anthropic-managed directory of high quality Claude Code Plugins.": "由Anthropic管理的高质量Claude Code插件的官方目录",
+  "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.": "一个活生生的像素艺术站，真正的人工智能代理在那里做真正的工作",
+  "Wifite but USB-only & cross-platform.": "无线网络，但仅限USB和跨平台",
+  "Bootstrap Kubernetes the hard way. No scripts.": "Bootstrap Kubernetes很难",
+  "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.": "OpenBao是一个软件解决方案，用于管理、存储和分发敏感数据，包括机密、证书和密钥",
+  "Fastest and cheapest web agent": "最快、最便宜的网络代理"
 }
