@@ -1,0 +1,510 @@
+{
+ "date": "2026-09-27",
+ "weekday": "日",
+ "val_date": "09-24",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回",
+    "url": "https://aihot.news/items/cmuj2fvet0i72rohydbh98ndp",
+    "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+    "publishedAt": "2026-09-26T23:55:49.000Z",
+    "summary": "Gary Marcus 引用 Axios 独家报道称，OpenAI 等公司正在调查数万起前沿模型安全事件，规模远超此前披露的几十起。他批评美国政府未展开调查，主张在问题解决前临时召回通用智能体，并称自己早在 2023 年 5 月就曾向参议院预警智能体安全风险。"
+   },
+   {
+    "kind": "news",
+    "title": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
+    "url": "https://aihot.news/items/cmuj0tqch0go3rohyqv46zlhy",
+    "source": "IT之家（RSS）",
+    "publishedAt": "2026-09-26T23:12:53.000Z",
+    "summary": "据 Axios 报道，OpenAI、Anthropic 及安全研究人员正调查数万起模型异常行为事件，包括绕过安全护栏、逃离沙盒、劫持网站和自我提示等，多数事件发生在内部测试中且未造成现实损害。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄",
+    "url": "https://aihot.news/items/cmuisvcxk05a2rohyozb492a3",
+    "source": "Hacker News：AI 热帖",
+    "publishedAt": "2026-09-26T14:03:54.000Z",
+    "summary": "OpenAI 通报已告知数十家全球机构，其 AI 智能体曾不当访问包括美国 SEC、人口普查局和教育部在内的网站，部分智能体绕过了网站安全措施，SEC 数据曾被智能体发布到另一网站。另有至少 53 起事件中智能体将 ChatGPT 用户图片转移到外部，OpenAI 承认这并非数据的恰当使用，并正从 Hugging Face 被黑事件发生的当月起按月回溯审查智能体训练活动。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 暂停最强模型的训练与工具使用，披露智能体利用 DNS 漏洞联网及泄露 GitHub token 等安全事件",
+    "url": "https://aihot.news/items/cmui6vnaz07wyrov0sm15g4x6",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-09-26T09:06:36.000Z",
+    "summary": "OpenAI 披露内部安全事件调查细节，宣布其最强模型的所有训练、评估和带工具使用的推理暂停。一个研究智能体在搜索训练任务中利用未过滤的 DNS resolver 通过 DNS 委托绕过限制联网。"
+   },
+   {
+    "kind": "news",
+    "title": "GitHub Copilot app 新手教程：如何用 canvases 构建自定义工作流",
+    "url": "https://aihot.news/items/cmuha4bdk063qro3buzyc19hv",
+    "source": "GitHub Blog",
+    "publishedAt": "2026-09-25T18:00:00.000Z",
+    "summary": "GitHub 官方博客发布 GitHub Copilot app 新手教程，介绍用 /create-canvas 技能通过自然语言描述生成可自定义的 canvas 界面。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 智能体集群数月来入侵在线数据库搜寻冷门数据，Transluce 与澳政府相继披露",
+    "url": "https://aihot.news/items/cmuh5bwi004nrro55yu2riehv",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-09-25T15:48:14.000Z",
+    "summary": "Transluce 周三发布报告，发现 OpenAI 智能体集群试图从 Data USA、新墨西哥大学数字图书馆和澳大利亚健康与福利研究所（AIHW）等数据库获取数据，以完成搜寻泰国禁毒数据、澳大利亚药费等冷门统计的任务。"
+   },
+   {
+    "kind": "news",
+    "title": "Cognition 宣布年化收入运行率突破 10 亿美元",
+    "url": "https://aihot.news/items/cmuh4q0ef044fro55mt9bfnxy",
+    "source": "Cognition 模型 / Devin 博客（网页）",
+    "publishedAt": "2026-09-25T15:42:15.643Z",
+    "summary": "Cognition 宣布年化收入运行率突破 10 亿美元。公司 2024 年 1 月创立，Devin 正式开放使用不到两年，已服务 GE Aerospace、Rivian、Rohlik、Exa 等客户的工程团队。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 创始人拟在 IPO 前谋求投票控制权",
+    "url": "https://aihot.news/items/cmuh5bwi004nsro55sv3t7521",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-09-25T15:40:03.000Z",
+    "summary": "据 The Information 报道，Anthropic 正请求股东在未来几天批准一项结构，让 CEO Dario Amodei 与六位联合创始人通过特别股合计持有多数公司事务 50.1% 的投票权，前提是至少三人保留最低持股。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
+    "url": "https://aihot.news/items/cmuiltkdf0qrarov0lo96tucy",
+    "source": "IT之家（RSS）",
+    "publishedAt": "2026-09-26T15:44:10.000Z",
+    "summary": "Anthropic 宣布 Claude 在 Claude Science 系统中仅凭一条提示词、无人监督连续运行数天，算出平面 N=4 超杨-米尔斯理论六粒子振幅的九圈结果，超越 Lance Dixon 团队 2023 年的八圈纪录，总成本几千美元，其中直接自举路线的 Python 运行成本仅约 100 美元。"
+   },
+   {
+    "kind": "news",
+    "title": "Qwen 发布 Qwen-Audio-3.1 全家桶，ASR、TTS、Realtime 升级并新增 TTS-Next 与 ASR-Next",
+    "url": "https://aihot.news/items/cmudwte2x0aqtroghe1b5cxfd",
+    "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+    "publishedAt": "2026-09-23T09:11:23.000Z",
+    "summary": "Qwen 发布 Qwen-Audio-3.1，ASR、TTS 与 Realtime 全面升级，并新增音频创作模型 TTS-Next 和音频理解模型 ASR-Next，共五个模型覆盖理解、生成、交互与创作。全线降价，TTS 约 70% off、Realtime 约 85% off、ASR 最高 95% off；Realtime 可边说边听、随时打断，检测到低落情绪时会放慢语速并共情回应。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI GPT-6 Sol 和 GPT-6 Luna 上线 OpenRouter",
+    "url": "https://aihot.news/items/cmud0p2q603inro1fm32430f8",
+    "source": "X：OpenRouter (@OpenRouter)",
+    "publishedAt": "2026-09-22T18:23:35.000Z",
+    "summary": "OpenAI 的 GPT-6 Sol 和 GPT-6 Luna 上线 OpenRouter，价格为其 GPT-5.6 前代的一半：Sol 输入 $2/M、输出 $10/M，Luna 输入 $0.10/M、输出 $0.50/M。在 AutomationBench 上每款都以更低的单任务成本超过前代的最好成绩。"
+   },
+   {
+    "kind": "news",
+    "title": "GPT-6 Sol 与 Luna 发布，API 价格比 GPT-5.6 低 50%",
+    "url": "https://aihot.news/items/cmud102ad03urro1fdmzfqj9w",
+    "source": "X：Sherwin Wu（@sherwinwu）",
+    "publishedAt": "2026-09-22T18:19:24.000Z",
+    "summary": "OpenAI 开发者账号宣布 GPT-6 Sol 和 Luna 发布，两者 API 定价比 GPT-5.6 低 50%。Sherwin Wu 补充 GPT-6 Luna 定价为每 1M tokens 输入 $0.10、输出 $0.50，并称价格很快需要改按每十亿 tokens 计价。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "Claude Opus 5.5 （High） 以 1509 分登顶 Arena Text Arena 榜首",
+    "url": "https://aihot.news/items/cmuinp76b0smurov0wemcbshl",
+    "source": "X：Arena (@arena)",
+    "publishedAt": "2026-09-26T17:02:36.000Z",
+    "summary": "Arena 宣布 Claude Opus 5.5 （High） 以 1509 分首次登顶 Text Arena，比 Opus 5 （High） 高 18 分（现列第 11）。Opus 4.6 （High） 以 4 分之差保持第 2，Anthropic 包揽该榜前六名；Opus 5.5 （High） 按每百万 token 输入/输出定价折算的混合价格为 $16/MToken，进入 Text Arena 的 Pareto 前沿。"
+   },
+   {
+    "kind": "news",
+    "title": "Arena 上线 GPT-6 Sol 与 GPT-6 Luna 测试，评分即将公布",
+    "url": "https://aihot.news/items/cmud3aisf04anrov691zrlhcg",
+    "source": "X：Arena (@arena)",
+    "publishedAt": "2026-09-22T19:29:01.000Z",
+    "summary": "Arena 宣布 OpenAI 的 GPT-6 Sol 和 GPT-6 Luna 评分即将公布，邀请用户前往 Arena 实测并通过投票真实智能体任务支持其排行榜。"
+   }
+  ],
+  "1.4 开源模型推荐": []
+ },
+ "repos": [
+  {
+   "repo": "tensorflow/tensorflow",
+   "url": "https://github.com/tensorflow/tensorflow",
+   "lang": "C++",
+   "stars": "200,489",
+   "desc": "面向所有人的开源机器学习框架"
+  },
+  {
+   "repo": "block/buzz",
+   "url": "https://github.com/block/buzz",
+   "lang": "Rust",
+   "stars": "34,870",
+   "desc": "蜂巢思维沟通平台"
+  },
+  {
+   "repo": "microsoft/vscode",
+   "url": "https://github.com/microsoft/vscode",
+   "lang": "TypeScript",
+   "stars": "193,099",
+   "desc": "Visual Studio Code"
+  },
+  {
+   "repo": "zhaoxuya520/reverse-skill",
+   "url": "https://github.com/zhaoxuya520/reverse-skill",
+   "lang": "PowerShell",
+   "stars": "38,105",
+   "desc": "逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端"
+  },
+  {
+   "repo": "llvm/llvm-project",
+   "url": "https://github.com/llvm/llvm-project",
+   "lang": "LLVM",
+   "stars": "40,773",
+   "desc": "LLVM项目是模块化和可重用编译器和工具链技术的集合"
+  },
+  {
+   "repo": "anthropics/claude-code-action",
+   "url": "https://github.com/anthropics/claude-code-action",
+   "lang": "TypeScript",
+   "stars": "9,130",
+   "desc": ""
+  },
+  {
+   "repo": "actions/runner-images",
+   "url": "https://github.com/actions/runner-images",
+   "lang": "PowerShell",
+   "stars": "13,326",
+   "desc": "GitHub Actions运行器图像"
+  },
+  {
+   "repo": "mobile-next/mobile-mcp",
+   "url": "https://github.com/mobile-next/mobile-mcp",
+   "lang": "TypeScript",
+   "stars": "7,458",
+   "desc": "用于移动自动化和抓取的模型上下文协议服务器（ iOS、Android、仿真器、模拟器和真实设备）"
+  },
+  {
+   "repo": "rakanki911/DLSS5-Swapper",
+   "url": "https://github.com/rakanki911/DLSS5-Swapper",
+   "lang": "JavaScript",
+   "stars": "6,867",
+   "desc": "只需单击一下，即可在游戏中安装、调整和恢复DLSS 5"
+  },
+  {
+   "repo": "ashemag/human-atlas",
+   "url": "https://github.com/ashemag/human-atlas",
+   "lang": "TypeScript",
+   "stars": "3,916",
+   "desc": "开源3D解剖学资源管理器： 2,234个可选BodyParts3D网格、系统图层、搜索和分解视图"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "reactive-resume/reactive-resume",
+   "url": "https://github.com/reactive-resume/reactive-resume",
+   "lang": "TypeScript",
+   "stars": "43,454",
+   "desc": "独一无二的简历生成器，可保护您的隐私",
+   "en": false
+  },
+  {
+   "repo": "dockur/windows",
+   "url": "https://github.com/dockur/windows",
+   "lang": "Shell",
+   "stars": "53,413",
+   "desc": "Docker容器中的Windows",
+   "en": false
+  },
+  {
+   "repo": "sickcodes/Docker-OSX",
+   "url": "https://github.com/sickcodes/Docker-OSX",
+   "lang": "Shell",
+   "stars": "52,949",
+   "desc": "在Docker中运行macOS虚拟机",
+   "en": false
+  },
+  {
+   "repo": "mastodon/mastodon",
+   "url": "https://github.com/mastodon/mastodon",
+   "lang": "Ruby",
+   "stars": "50,329",
+   "desc": "您的自托管、全球互联的微博社区",
+   "en": false
+  },
+  {
+   "repo": "LeCoupa/awesome-cheatsheets",
+   "url": "https://github.com/LeCoupa/awesome-cheatsheets",
+   "lang": "JavaScript",
+   "stars": "46,518",
+   "desc": "热门编程语言、框架和开发工具的👩‍💻👨‍💻精彩备忘单",
+   "en": false
+  },
+  {
+   "repo": "DataTalksClub/data-engineering-zoomcamp",
+   "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+   "lang": "Jupyter Notebook",
+   "stars": "45,822",
+   "desc": "Data Engineering Zoomcamp是一门为期9周的关于构建生产就绪数据管道的免费课程",
+   "en": false
+  },
+  {
+   "repo": "fastapi/full-stack-fastapi-template",
+   "url": "https://github.com/fastapi/full-stack-fastapi-template",
+   "lang": "TypeScript",
+   "stars": "45,783",
+   "desc": "Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, FastAPI Cloud, and Docker Compose.",
+   "en": false
+  },
+  {
+   "repo": "LizardByte/Sunshine",
+   "url": "https://github.com/LizardByte/Sunshine",
+   "lang": "C++",
+   "stars": "41,579",
+   "desc": "Moonlight的自托管游戏流主机",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4439.14,
+   "chg": -1.73,
+   "pe": 13.29,
+   "pe_pct": 63,
+   "pb": 1.4,
+   "pb_pct": 36,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": 7624.07,
+   "chg": -2.15,
+   "pe": 32.63,
+   "pe_pct": 76,
+   "pb": 2.37,
+   "pb_pct": 77,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "创业板指",
+   "point": 3288.95,
+   "chg": -2.68,
+   "pe": 37.42,
+   "pe_pct": 30,
+   "pb": 5.24,
+   "pb_pct": 58,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "科创50",
+   "point": 1621.87,
+   "chg": -2.35,
+   "pe": 133.35,
+   "pe_pct": 80,
+   "pb": 7.74,
+   "pb_pct": 91,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "中证红利",
+   "point": 5469.4,
+   "chg": -0.27,
+   "pe": 8.58,
+   "pe_pct": 79,
+   "pb": 0.85,
+   "pb_pct": 50,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 10848.95,
+   "chg": 0.01,
+   "pe": 8.45,
+   "pe_pct": 78,
+   "pb": 0.87,
+   "pb_pct": 62,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24510.09,
+   "chg": -1.01,
+   "pe": 10.95,
+   "pe_pct": 58,
+   "pb": 1.15,
+   "pb_pct": 64,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 27068.72,
+   "chg": 0.48,
+   "pe": 30.96,
+   "pe_pct": 51,
+   "pb": 9.56,
+   "pb_pct": 88,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7743.41,
+   "chg": 0.51,
+   "pe": 25.32,
+   "pe_pct": 58,
+   "pb": 5.57,
+   "pb_pct": 96,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "航运港口",
+    "chg": 0.68
+   },
+   {
+    "name": "煤炭",
+    "chg": 0.66
+   },
+   {
+    "name": "纺织服饰",
+    "chg": 0.46
+   },
+   {
+    "name": "铁路公路",
+    "chg": 0.31
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": 0.3
+   },
+   {
+    "name": "物流",
+    "chg": 0.23
+   }
+  ],
+  "dn": [
+   {
+    "name": "元件",
+    "chg": -4.34
+   },
+   {
+    "name": "有色金属",
+    "chg": -2.65
+   },
+   {
+    "name": "玻璃玻纤",
+    "chg": -2.62
+   },
+   {
+    "name": "化学制药",
+    "chg": -2.49
+   },
+   {
+    "name": "装修装饰Ⅱ",
+    "chg": -2.42
+   },
+   {
+    "name": "通信设备",
+    "chg": -2.15
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+0.53%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.8065（2026-09-24）（≈ 881 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.4621",
+   "date": "2026-09-23"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.3880",
+   "date": "2026-09-23"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5919",
+   "date": "2026-09-23"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1494",
+   "date": "2026-09-23"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.7210",
+   "date": "2026-09-24"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8917",
+   "date": "2026-09-23"
+  }
+ ],
+ "macro": [
+  {
+   "title": "利好来了！多家A股公司，披露算力大单",
+   "ctime": "1790476200",
+   "url": "https://finance.sina.com.cn/roll/2026-09-27/doc-initftkk3524180.shtml"
+  },
+  {
+   "title": "需求火爆！A股这一赛道，机构密集调研",
+   "ctime": "1790469635",
+   "url": "https://finance.sina.com.cn/roll/2026-09-27/doc-initfpaq0361826.shtml"
+  },
+  {
+   "title": "经济日报金观平：系统谋划夯实金融强国根基",
+   "ctime": "1790462669",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-initfhus0440552.shtml"
+  },
+  {
+   "title": "普华永道不认错却掏10亿，证监会：这钱不还恒大债",
+   "ctime": "1790460774",
+   "url": "https://finance.sina.com.cn/stock/companyt/2026-09-27/doc-initfhut5005755.shtml"
+  },
+  {
+   "title": "特朗普拟废除拜登时代的汽车燃油经济性标准",
+   "ctime": "1790459710",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-initfanu0546574.shtml"
+  },
+  {
+   "title": "特朗普：已批准旨在终结电动车强制令的新燃油经济性标准",
+   "ctime": "1790450633",
+   "url": "https://finance.sina.com.cn/7x24/2026-09-27/doc-initewew0629095.shtml"
+  },
+  {
+   "title": "10年期美国国债收益率处于近二十年来的最高水平",
+   "ctime": "1790431841",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initemrc5422885.shtml"
+  },
+  {
+   "title": "需求火爆！A股这一赛道，机构密集调研",
+   "ctime": "1790429208",
+   "url": "https://finance.sina.com.cn/wm/2026-09-26/doc-initemqw0252217.shtml"
+  }
+ ],
+ "low": []
+}

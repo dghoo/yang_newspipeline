@@ -250,7 +250,10 @@
   "Official, Anthropic-managed directory of high quality Claude Code Plugins.": "由Anthropic管理的高质量Claude Code插件的官方目录",
   "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.": "一个活生生的像素艺术站，真正的人工智能代理在那里做真正的工作",
   "Wifite but USB-only & cross-platform.": "无线网络，但仅限USB和跨平台",
-  "Bootstrap Kubernetes the hard way. No scripts.": "Bootstrap Kubernetes很难",
   "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.": "OpenBao是一个软件解决方案，用于管理、存储和分发敏感数据，包括机密、证书和密钥",
-  "Fastest and cheapest web agent": "最快、最便宜的网络代理"
+  "Fastest and cheapest web agent": "最快、最便宜的网络代理",
+  "An Open Source Machine Learning Framework for Everyone": "面向所有人的开源机器学习框架",
+  "A hive mind communication platform": "蜂巢思维沟通平台",
+  "GitHub Actions runner images": "GitHub Actions运行器图像",
+  "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)": "用于移动自动化和抓取的模型上下文协议服务器（ iOS、Android、仿真器、模拟器和真实设备）"
 }
