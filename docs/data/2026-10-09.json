@@ -1,0 +1,528 @@
+{
+ "date": "2026-10-09",
+ "weekday": "五",
+ "val_date": "10-08",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Tibo 宣布发布 ChatGPT",
+    "url": "https://aihot.news/items/f3doqdpq8n9mpmqc95jdyaxq0",
+    "source": "X：Tibo (@thsottiaux)",
+    "publishedAt": "2026-10-09T00:12:24.000Z",
+    "summary": "Tibo 宣布 ChatGPT 发布，并给出访问地址 https://chatgpt.com/。推文本身仅含发布声明和链接，未提供更多功能或细节。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 年化营收被曝接近 500 亿美元，与此前预期差距约 200 亿美元",
+    "url": "https://aihot.news/items/b2mwouqv4jhfj70uho7s7guti",
+    "source": "IT之家·人工智能",
+    "publishedAt": "2026-10-08T23:02:44.683Z",
+    "summary": "据金融时报报道，OpenAI 向投资者披露截至 9 月底年化营收逼近 500 亿美元，大幅低于此前外界估算的 700 亿美元，缺口约 200 亿美元。差异源于统计口径不同，Anthropic 计入 AWS 和谷歌云等合作方销售收入，而 OpenAI 剔除该部分。报道发布后美股科技股下跌，纳斯达克 100 指数收跌 1.4%，英伟达跌 2.9%，甲骨文跌 5.5%。"
+   },
+   {
+    "kind": "news",
+    "title": "如何在单张 RTX 5090 上用 MiniMax H3 生成实时视频",
+    "url": "https://aihot.news/items/xc7shuv3raxyv5xvh59ez8hjf",
+    "source": "Comfy Blog",
+    "publishedAt": "2026-10-08T19:01:22.000Z",
+    "summary": "ComfyUI 博客作者用智能体搜集各类优化，把 MiniMax H3 实时视频生成压缩到单张 RTX 5090（32 GB 显存）上运行，生成 30 秒视频耗时 23.51 秒，达 1.28 倍实时吞吐。"
+   },
+   {
+    "kind": "news",
+    "title": "部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域",
+    "url": "https://aihot.news/items/wf099r75jv1tzyhxa2j2o8n1p",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-10-08T18:17:07.000Z",
+    "summary": "AHM 组织在 Terence Tao 主持下发表声明，呼吁抵制 OpenAI，称其一次性发布 700 多个 AI 生成证明文件是展示力量而非学术行为。此前 OpenAI 宣称内部模型一个月内解决逾 100 个开放数学问题，约 8000 个测试问题成功率约 5%，平均每个耗时 3 小时 GPT-Pro 级算力。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半",
+    "url": "https://aihot.news/items/dsbzfsw2pdaw0ikh67cyxmlss",
+    "source": "X：Artificial Analysis (@ArtificialAnlys)",
+    "publishedAt": "2026-10-08T16:42:42.000Z",
+    "summary": "Artificial Analysis 评测 Google 于 10 月 6 日发布的图像模型 Nano Banana 2.1，在 AA-Image-T2I v2.0 和 AA-Image-Editing v2.0 两个榜单均排名第 4。"
+   },
+   {
+    "kind": "news",
+    "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体",
+    "url": "https://aihot.news/items/cal34hameqt3bh6d52vaqt58v",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-10-08T13:01:01.000Z",
+    "summary": "Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通过元数据服务 169.254.169.254 窃取其 AWS 凭据，进而控制同账户同区域内的所有 AgentCore 智能体，读取私人对话、源代码和存储的凭据，还能篡改长期记忆。"
+   },
+   {
+    "kind": "news",
+    "title": "Perplexity 开源 pplx-embed-v2-late 多模态 late-interaction 嵌入模型（9B 与 0.6B）",
+    "url": "https://aihot.news/items/lfy2ww68p9lgpxxhu5jssflwf",
+    "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+    "publishedAt": "2026-10-07T16:33:02.000Z",
+    "summary": "Perplexity 开源 pplx-embed-v2-late，两个针对文本和图像的 late-interaction 多向量嵌入模型，大小为 9B 和 0.6B，共享同一嵌入空间，权重已在 Hugging Face 提供。9B 可用于索引多模态数据，0.6B 可在设备端查询，无需 OCR 即可检索 PDF 页面；模型在 MADQA 得分 92.4%，BrowseComp+ 得分 64%。"
+   },
+   {
+    "kind": "news",
+    "title": "Goodfire 为 Kimi K3 和 GLM 5.3 训练并部署生产级网络安全监控器",
+    "url": "https://aihot.news/items/ja19mtm89yojd9w2u67qp1gqv",
+    "source": "Goodfire Research（网页）",
+    "publishedAt": "2026-10-07T16:00:00.000Z",
+    "summary": "Goodfire Research 为 Kimi K3 和 GLM 5.3 构建基于激活探针加 LLM judge 的监控级联，并部署到生产推理栈。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "GPT-6.1 Sol (Max) 进入 Agent Arena 第 5 名，以更低成本逼近前列模型",
+    "url": "https://aihot.news/items/bzodztryi4kvwm4kz9mrwb6nn",
+    "source": "X：Arena (@arena)",
+    "publishedAt": "2026-10-02T19:48:16.000Z",
+    "summary": "Arena 宣布 OpenAI 的 GPT-6.1 Sol (Max) 在 Agent Arena 排名第 5（+11.23%），中位任务成本 $0.56，并重塑了 Pareto 前沿。"
+   },
+   {
+    "kind": "news",
+    "title": "Arena 公布 Claude Haiku 5.5 (High) 真实评测结果：Code Arena 1587 分首秀第 30 名",
+    "url": "https://aihot.news/items/jxxgoidojk52fkcs2fz0fkjzy",
+    "source": "X：Arena (@arena)",
+    "publishedAt": "2026-10-08T20:02:39.000Z",
+    "summary": "Arena 公布 Anthropic Claude Haiku 5.5 (High) 的真实评测结果，在 Code Arena: WebDev 以 1587 分首秀排名第 30，略在 Pareto 前沿之外。"
+   },
+   {
+    "kind": "news",
+    "title": "Mistral Large 4 进入 Agent Arena 前十五实验室，排名第 43",
+    "url": "https://aihot.news/items/y9clkoyn1giula1pc7pkb9qxd",
+    "source": "X：Arena (@arena)",
+    "publishedAt": "2026-10-09T03:53:32.000Z",
+    "summary": "Arena 宣布 Mistral Large 4 进入 Agent Arena 前十五实验室，基于超 5000 个真实智能体会话，该预览版净改进分为 -6.6%，总排名第 43，比前代 Mistral Medium 3.5（-12.60%）高出 11 位。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "url": "https://hf-mirror.com/deepseek-ai/DeepSeek-V4.1-Flash",
+    "license": "mit",
+    "param": "",
+    "likes": 4268,
+    "downloads": 1282524,
+    "createdAt": "2026-09-10",
+    "intro": "我们引入了DeepSeek-V4.1-Flash ，这是一种多模态混合专家（ MoE ）模型，具有552B主干参数，并支持多达一百万个代币的上下文"
+   },
+   {
+    "kind": "model",
+    "id": "Altworld/Hemmingway-1",
+    "url": "https://hf-mirror.com/Altworld/Hemmingway-1",
+    "license": "cc-by-nc-4.0",
+    "param": "",
+    "likes": 844,
+    "downloads": 10927,
+    "createdAt": "2026-09-20",
+    "intro": "像人一样写作的人工智能。27B参数，开放式权重，免费用于非商业用途"
+   },
+   {
+    "kind": "model",
+    "id": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
+    "url": "https://hf-mirror.com/XiaomiMiMo/MiMo-V2.6-Pro-RL",
+    "license": "mit",
+    "param": "",
+    "likes": 675,
+    "downloads": 93473,
+    "createdAt": "2026-09-21",
+    "intro": "扩展强化学习以实现自我完善"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "NandhaKishorM/laya",
+   "url": "https://github.com/NandhaKishorM/laya",
+   "lang": "Python",
+   "stars": "31,801",
+   "desc": "非自回归系统1决策引擎"
+  },
+  {
+   "repo": "storytold/photocraft",
+   "url": "https://github.com/storytold/photocraft",
+   "lang": "Rust",
+   "stars": "28,882",
+   "desc": "纯Rust中Adobe Photoshop的开源洁净室重新实现"
+  },
+  {
+   "repo": "browser-use/jev-ultrafast",
+   "url": "https://github.com/browser-use/jev-ultrafast",
+   "lang": "Python",
+   "stars": "22,420",
+   "desc": "最快、最便宜的网络代理"
+  },
+  {
+   "repo": "Niko1221/Strata",
+   "url": "https://github.com/Niko1221/Strata",
+   "lang": "C++",
+   "stars": "18,773",
+   "desc": "任何消费硬件上的Qwen3.8-Flash-Next ：一键安装Windows/Linux"
+  },
+  {
+   "repo": "robbietilton/Compositor",
+   "url": "https://github.com/robbietilton/Compositor",
+   "lang": "Swift",
+   "stars": "13,905",
+   "desc": "适用于Mac的Photoshop替代品"
+  },
+  {
+   "repo": "openai/math",
+   "url": "https://github.com/openai/math",
+   "lang": "Lean",
+   "stars": "12,411",
+   "desc": ""
+  },
+  {
+   "repo": "cdyforever/how-to-live-better",
+   "url": "https://github.com/cdyforever/how-to-live-better",
+   "lang": "HTML",
+   "stars": "10,323",
+   "desc": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线"
+  },
+  {
+   "repo": "jaredpalmer/kev",
+   "url": "https://github.com/jaredpalmer/kev",
+   "lang": "Python",
+   "stars": "8,758",
+   "desc": "建立在Qwen3.5/3 .8之上的类似Jev的决策模型系列，您可以自己训练和运行"
+  },
+  {
+   "repo": "shihabal3amri/DiPlay",
+   "url": "https://github.com/shihabal3amri/DiPlay",
+   "lang": "Kotlin",
+   "stars": "7,652",
+   "desc": "适用于兼容Android头显的独立CarPlay接收器"
+  },
+  {
+   "repo": "zai-org/ZCode",
+   "url": "https://github.com/zai-org/ZCode",
+   "lang": "TypeScript",
+   "stars": "7,565",
+   "desc": "Z.ai的编码代理框架。强大、智能、可扩展"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "awesome-selfhosted/awesome-selfhosted",
+   "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+   "lang": "",
+   "stars": "324,768",
+   "desc": "可托管在您自己的服务器上的免费软件网络服务和Web应用程序列表",
+   "en": false
+  },
+  {
+   "repo": "n8n-io/n8n",
+   "url": "https://github.com/n8n-io/n8n",
+   "lang": "TypeScript",
+   "stars": "206,759",
+   "desc": "具有原生AI功能的公平代码工作流程自动化平台",
+   "en": false
+  },
+  {
+   "repo": "ohmyzsh/ohmyzsh",
+   "url": "https://github.com/ohmyzsh/ohmyzsh",
+   "lang": "Shell",
+   "stars": "190,043",
+   "desc": "🙃   一个令人愉悦的社区驱动（拥有2,500多名贡献者）框架，用于管理您的zsh配置",
+   "en": false
+  },
+  {
+   "repo": "f/prompts.chat",
+   "url": "https://github.com/f/prompts.chat",
+   "lang": "HTML",
+   "stars": "172,208",
+   "desc": "f.k.a. Awesome ChatGPT提示",
+   "en": false
+  },
+  {
+   "repo": "open-webui/open-webui",
+   "url": "https://github.com/open-webui/open-webui",
+   "lang": "Python",
+   "stars": "154,079",
+   "desc": "用户友好的AI界面（支持Ollama、OpenAI API等）",
+   "en": false
+  },
+  {
+   "repo": "immich-app/immich",
+   "url": "https://github.com/immich-app/immich",
+   "lang": "TypeScript",
+   "stars": "115,803",
+   "desc": "高性能自托管照片和视频管理解决方案",
+   "en": false
+  },
+  {
+   "repo": "Stirling-Tools/Stirling-PDF",
+   "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+   "lang": "TypeScript",
+   "stars": "93,839",
+   "desc": "GitHub上排名第一的PDF应用程序，可让您在任何地方的任何设备上编辑PDF",
+   "en": false
+  },
+  {
+   "repo": "louislam/uptime-kuma",
+   "url": "https://github.com/louislam/uptime-kuma",
+   "lang": "JavaScript",
+   "stars": "92,252",
+   "desc": "一款精美的自托管监控工具",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4325.7,
+   "chg": 0.36,
+   "pe": 13.14,
+   "pe_pct": 59,
+   "pb": 1.39,
+   "pb_pct": 32,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": 7265.84,
+   "chg": 0.24,
+   "pe": 31.21,
+   "pe_pct": 72,
+   "pb": 2.26,
+   "pb_pct": 73,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "创业板指",
+   "point": 3049.64,
+   "chg": 0.43,
+   "pe": 34.75,
+   "pe_pct": 25,
+   "pb": 4.86,
+   "pb_pct": 49,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "科创50",
+   "point": 1464.78,
+   "chg": 0.58,
+   "pe": 119.22,
+   "pe_pct": 79,
+   "pb": 6.92,
+   "pb_pct": 79,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "中证红利",
+   "point": 5601.11,
+   "chg": 0.81,
+   "pe": 8.78,
+   "pe_pct": 84,
+   "pb": 0.87,
+   "pb_pct": 55,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11087.35,
+   "chg": -0.11,
+   "pe": 8.65,
+   "pe_pct": 80,
+   "pb": 0.89,
+   "pb_pct": 65,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24209.04,
+   "chg": 1.78,
+   "pe": 10.62,
+   "pe_pct": 52,
+   "pb": 1.12,
+   "pb_pct": 56,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 27193.34,
+   "chg": -1.25,
+   "pe": 31.27,
+   "pe_pct": 52,
+   "pb": 9.67,
+   "pb_pct": 90,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7765.36,
+   "chg": -0.47,
+   "pe": 25.47,
+   "pe_pct": 60,
+   "pb": 5.6,
+   "pb_pct": 97,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "传媒",
+    "chg": 5.02
+   },
+   {
+    "name": "一般零售",
+    "chg": 3.34
+   },
+   {
+    "name": "证券Ⅱ",
+    "chg": 2.36
+   },
+   {
+    "name": "农林牧渔",
+    "chg": 2.04
+   },
+   {
+    "name": "化学制药",
+    "chg": 1.64
+   },
+   {
+    "name": "纺织服饰",
+    "chg": 1.26
+   }
+  ],
+  "dn": [
+   {
+    "name": "元件",
+    "chg": -3.21
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": -0.95
+   },
+   {
+    "name": "塑料",
+    "chg": -0.81
+   },
+   {
+    "name": "玻璃玻纤",
+    "chg": -0.58
+   },
+   {
+    "name": "通信设备",
+    "chg": -0.49
+   },
+   {
+    "name": "通用设备",
+    "chg": -0.49
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+1.53%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.4811（2026-10-08）（≈ 848 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.4356",
+   "date": "2026-09-30"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.3545",
+   "date": "2026-09-30"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5475",
+   "date": "2026-09-30"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1229",
+   "date": "2026-09-30"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6742",
+   "date": "2026-10-08"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8780",
+   "date": "2026-09-30"
+  }
+ ],
+ "macro": [
+  {
+   "title": "美联储10月暂停加息？现货黄金站上4200美元！西部黄金涨停，有色ETF华宝（159876）跟踪指数盘中上涨2.5%",
+   "ctime": "1791525153",
+   "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurfei2932387.shtml"
+  },
+  {
+   "title": "航新科技拟斥3亿跨界MCU遭市场“用脚投票” 标的公司净利率仅个位数 营收还在开倒车？",
+   "ctime": "1791524442",
+   "url": "https://finance.sina.com.cn/stock/observe/2026-10-09/doc-iniuqywm7013035.shtml"
+  },
+  {
+   "title": "黄金拉升重回4200美元，A股黄金概念集体大涨，西部黄金直线涨停",
+   "ctime": "1791524799",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-09/doc-iniurfen1047636.shtml"
+  },
+  {
+   "title": "视频 | 三家A股公司同发公告，独董肖作平被查！涉嫌严重违纪违法！31岁曾被西南交大破格聘为教授",
+   "ctime": "1791524155",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-09/doc-iniuqywq1165537.shtml"
+  },
+  {
+   "title": "关于延长港股交易时间，香港证监会发声！",
+   "ctime": "1791522660",
+   "url": "https://finance.sina.com.cn/esg/2026-10-09/doc-iniuqywq1171385.shtml"
+  },
+  {
+   "title": "东日本铁路：IDC Frontier 遭网络攻击，旗下用户数据或泄露",
+   "ctime": "1791521585",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqywm3039838.shtml"
+  },
+  {
+   "title": "日本首相称增强经济竞争力将有助于提振对日元的信心",
+   "ctime": "1791521305",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqywq1136800.shtml"
+  },
+  {
+   "title": "Pimco首席投资官：10年期美债收益率有触及6%的风险",
+   "ctime": "1791520823",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqywr7904408.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 25,
+   "pe": 34.7469,
+   "pb_pct": 49,
+   "pb": 4.8587
+  }
+ ]
+}

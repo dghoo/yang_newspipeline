@@ -255,5 +255,12 @@
   "An Open Source Machine Learning Framework for Everyone": "面向所有人的开源机器学习框架",
   "A hive mind communication platform": "蜂巢思维沟通平台",
   "GitHub Actions runner images": "GitHub Actions运行器图像",
-  "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)": "用于移动自动化和抓取的模型上下文协议服务器（ iOS、Android、仿真器、模拟器和真实设备）"
+  "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)": "用于移动自动化和抓取的模型上下文协议服务器（ iOS、Android、仿真器、模拟器和真实设备）",
+  "The AI that writes like a person. 27B parameters, open weights, free for non-commercial use.": "像人一样写作的人工智能。27B参数，开放式权重，免费用于非商业用途",
+  "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.": "非自回归系统1决策引擎",
+  "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust": "纯Rust中Adobe Photoshop的开源洁净室重新实现",
+  "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.": "任何消费硬件上的Qwen3.8-Flash-Next ：一键安装Windows/Linux",
+  "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own": "建立在Qwen3.5/3 .8之上的类似Jev的决策模型系列，您可以自己训练和运行",
+  "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.": "适用于兼容Android头显的独立CarPlay接收器",
+  "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.": "f.k.a. Awesome ChatGPT提示"
 }
