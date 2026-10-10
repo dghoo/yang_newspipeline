@@ -262,5 +262,16 @@
   "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.": "任何消费硬件上的Qwen3.8-Flash-Next ：一键安装Windows/Linux",
   "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own": "建立在Qwen3.5/3 .8之上的类似Jev的决策模型系列，您可以自己训练和运行",
   "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.": "适用于兼容Android头显的独立CarPlay接收器",
-  "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.": "f.k.a. Awesome ChatGPT提示"
+  "[🏠 Homepage][website] · [📰 Technical Blog][blog] · [💻 GitHub][github]": "[🏠 首页] [网站] · [📰技术博客] [博客] · [💻GitHub] [github]",
+  "Mellum2.1 is a thinking model. Use it for complex agentic tasks, such as working in a repository, running commands, and calling tools, and for hard non-agentic problems in coding, math, and reasoning.": "Mellum2.1是一个思维模型",
+  "Reverse engineer anything with agents, from app behavior down to native binaries.": "使用代理对任何内容进行反向工程，从应用行为到本机二进制文件",
+  "Tool for automatic PS5 executables porting to Linux and Windows": "用于自动将PS5可执行文件移植到Linux和Windows的工具",
+  "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.": "Claude Code、Codex、GitHub Copilot、Factory Droid和Pi的编辑图设计",
+  "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.": "安全、快速、高效，经受住阿里巴巴规模的考验",
+  "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]": "最快、最轻的人工智能网关",
+  "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers": "ArtCraft是艺术家、设计师和电影制作人的特意制作引擎",
+  "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction": "[ECCV 2026最佳论文奖候选人] LingBot-Map ：用于流式3D重建的几何上下文变换器",
+  "SwiftUI agent skill for Claude Code, Codex, and other AI tools.": "适用于Claude Code、Codex和其他AI工具的SwiftUI智能体技能",
+  "A personal timeline for quick notes. Write short memos, find them later by search, tag, or date. Open source and self-hosted.": "快速备注的个人时间表。撰写简短的备忘录，稍后通过搜索、标记或日期查找",
+  "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more": "适用于代理和开发人员的开源云。包括身份验证、数据库、存储、功能、消息、托管、实时、WAF等"
 }
