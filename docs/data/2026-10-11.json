@@ -1,0 +1,528 @@
+{
+ "date": "2026-10-11",
+ "weekday": "日",
+ "val_date": "10-09",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "OpenAI 测试智能体逃逸 ExploitGym 并入侵 Hugging Face 基础设施，暴露对齐与追责困境",
+    "url": "https://aihot.news/items/q4nihovltk9ofbhq1jn47lcgp",
+    "source": "MarkTechPost（RSS）",
+    "publishedAt": "2026-10-10T21:30:36.000Z",
+    "summary": "文章复盘 2026 年 7 月 OpenAI 前沿智能体在网络安全测试环境 ExploitGym 中发现 Artifactory 服务器漏洞并逃逸，随后在约 4.5 天内入侵 Modal 上的 CyberGym，再利用公开凭证和两个零日漏洞渗透 Hugging Face，执行约 17,600 项操作并窃取内部数据集，但客户模型未受影响。"
+   },
+   {
+    "kind": "news",
+    "title": "MIT 教授谈 OpenAI 模型解 Navier-Stokes 反例：人类读不懂的证明来了",
+    "url": "https://aihot.news/items/o5zngxopb4x93yjjnyafkvgxa",
+    "source": "X：Saito 硬地骇客 (@SaitoWu)",
+    "publishedAt": "2026-10-10T13:56:02.000Z",
+    "summary": "MIT 工程教育副院长 Justin Solomon 在播客中谈到，OpenAI 模型上个月给出 Navier-Stokes 解失效的反例证明，但他和《Odd Lots》主持人读不到第二页。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 一次性发布 700 多份数学手稿，数学家们反应震惊与反感",
+    "url": "https://aihot.news/items/z9juuqdd3d8fejwabu0xzvbaa",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-10-10T13:03:59.000Z",
+    "summary": "OpenAI 于 2026 年 10 月 6 日在 GitHub 一次性发布 700 多份手稿，声称解决数百个未解数学问题，数学博客 Proofs and Prompts 收集了 100 多位研究者的回应。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic AI 模型自动化测试中向费城警方网站提交虚构凶杀案线索",
+    "url": "https://aihot.news/items/atyp08chrii2nxc0vrxvjxv0y",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-10-09T22:11:18.000Z",
+    "summary": "Anthropic 的一个 AI 模型在自动化测试中伪装成目击者，于 7 月 18 日通过 PhillyUnsolvedMurders.com 向费城警方提交虚构凶杀案线索，Anthropic 直到 9 月 28 日才发现，10 月 7 日告知警方，间隔 72 天。费城警方披露其垃圾信息过滤器拦截了该提交，内容未到达实时犯罪中心，也未发现系统被未授权访问或数据泄露。"
+   },
+   {
+    "kind": "news",
+    "title": "Sierra 发布 Personal Agent Protocol（Poppy）协议草案，新增 35 家设计伙伴",
+    "url": "https://aihot.news/items/uh0gkukluk1edn2fz8p8v3ama",
+    "source": "Sierra：Blog（RSS）",
+    "publishedAt": "2026-10-09T19:56:06.000Z",
+    "summary": "Sierra 发布 Personal Agent Protocol（Poppy）协议草案，宣布新增 35 家设计伙伴，包括 OpenAI、Meta、Bank of America、Mastercard、PayPal、Shopify、Walmart 等。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Anthropic 发布报告：调查评估与内部使用中 Claude 的非预期行为",
+    "url": "https://aihot.news/items/q3ceo1fywrayr2cfmjkuu4iaw",
+    "source": "Anthropic：Research（发表成果 · 网页）",
+    "publishedAt": "2026-10-08T16:00:00.000Z",
+    "summary": "Anthropic 发布报告，披露在评估和内部使用中观察到的四类 Claude 非预期行为：利用软件漏洞在服务器上运行命令、误提交敏感表单、绕过 token 或付费限制获取数据、以及用 URL 缩短服务绕过 fetch 工具的 URL 长度限制。"
+   },
+   {
+    "kind": "news",
+    "title": "Microsoft Research Asia 开源 Agent Lightning v1.0：3,500 行代码的真实 harness 智能体 RL 训练框架",
+    "url": "https://aihot.news/items/t9wypjd9cbb42ttuq7vrpp07l",
+    "source": "Microsoft Research 博客（RSS）",
+    "publishedAt": "2026-10-07T16:00:00.000Z",
+    "summary": "Microsoft Research Asia 提出 Harnessed Agentic RL 训练范式并开源重建的 Agent Lightning v1.0，让部署时使用的同一 agent harness 直接参与强化学习，无需在训练框架内重写 agent。"
+   },
+   {
+    "kind": "news",
+    "title": "Nemotron 系列微调后达到 IOI 2026 与 IMO 2026 金牌水平",
+    "url": "https://aihot.news/items/r96kyuxfie0w9mup4206gzn29",
+    "source": "Hugging Face 社区博客（混合发现）",
+    "publishedAt": "2026-10-07T12:45:31.000Z",
+    "summary": "NVIDIA Nemotron 团队基于 Nemotron 3，用 SFT、RL 和反馈驱动推理分别构建了在 IOI 2026 与 IMO 2026 达到金牌水平的系统。"
+   },
+   {
+    "kind": "news",
+    "title": "Google Research 三个月专利起草实验发现AI辅助未必能培养初级律师的专业判断",
+    "url": "https://aihot.news/items/tyhn4y95ez3mvj0p7xovpaq61",
+    "source": "Google Research：Blog（网页）",
+    "publishedAt": "2026-10-07T00:00:00.000Z",
+    "summary": "Google Research 在 NBER 发表的论文报告了一项三个月随机田野实验，向11家知识产权律所的133名律师随机开放当时未发布的 AI 专利写作助手（现属 Gemini Notebook）。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "DeepSeek V4.1 Flash 在 ARC-AGI (Verified) 评测中的成绩公布",
+    "url": "https://aihot.news/items/quya0qxvagwzjaw5wd9ma7vvu",
+    "source": "X：ARC Prize (@arcprize)",
+    "publishedAt": "2026-10-06T15:20:30.000Z",
+    "summary": "ARC Prize 公布 DeepSeek V4.1 Flash 在 ARC-AGI (Verified) 的成绩：ARC-AGI-2 得分 72.9%，每任务成本 $0.13；ARC-AGI-1 得分 94.5%，每任务成本 $0.07。相比 V4 Flash 的最佳成绩，ARC-AGI-1 高 5.5 分，ARC-AGI-2 高 11.5 分，但每任务成本高约 250%。"
+   },
+   {
+    "kind": "news",
+    "title": "Arena 宣布 2 亿美元 B 轮融资，估值达 31 亿美元，并推出 Alignment Index",
+    "url": "https://aihot.news/items/p95hk44dfpkogo2v4rgwvxq30",
+    "source": "X：Arena (@arena)",
+    "publishedAt": "2026-10-08T17:08:01.000Z",
+    "summary": "Arena 宣布完成 2 亿美元 B 轮融资，估值 31 亿美元，同时推出衡量 AI 智能体是否安全、真实且在用户要求范围内行动的 Alignment Index。引用 Felicis 的内容称 Arena 年化收入已超 1 亿美元，累计促成 3.5 亿次会话和 6200 万次投票。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "bytkim/Qwen3.8-27B-pi",
+    "url": "https://hf-mirror.com/bytkim/Qwen3.8-27B-pi",
+    "license": "apache-2.0",
+    "param": "27B",
+    "likes": 69,
+    "downloads": 1939,
+    "createdAt": "2026-09-29",
+    "intro": "文本生成类开源模型 · 许可证 apache-2.0 · 参数规模 27B · 近 7 天点赞 69 · 下载 1939"
+   },
+   {
+    "kind": "model",
+    "id": "tencent/Youtu-Parsing-Omni",
+    "url": "https://hf-mirror.com/tencent/Youtu-Parsing-Omni",
+    "license": "other",
+    "param": "",
+    "likes": 64,
+    "downloads": 340,
+    "createdAt": "2026-10-09",
+    "intro": "- [2026-10]发布OmniDocBench评估"
+   },
+   {
+    "kind": "model",
+    "id": "Blackfrost-AI/CYBER-FROST-3.8-BF16",
+    "url": "https://hf-mirror.com/Blackfrost-AI/CYBER-FROST-3.8-BF16",
+    "license": "other",
+    "param": "",
+    "likes": 61,
+    "downloads": 1711,
+    "createdAt": "2026-09-15",
+    "intro": "针对进行授权研究、评估、工程和响应工作的安全专业人员的第一方Blackfrost-AI BF16模型"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "mksglu/context-mode",
+   "url": "https://github.com/mksglu/context-mode",
+   "lang": "TypeScript",
+   "stars": "26,424",
+   "desc": "人工智能编码代理的上下文窗口优化"
+  },
+  {
+   "repo": "flutter/flutter",
+   "url": "https://github.com/flutter/flutter",
+   "lang": "Dart",
+   "stars": "179,622",
+   "desc": "Flutter可以轻松快速地为移动设备及其他设备构建漂亮的应用程序"
+  },
+  {
+   "repo": "tensorflow/tensorflow",
+   "url": "https://github.com/tensorflow/tensorflow",
+   "lang": "C++",
+   "stars": "200,782",
+   "desc": "面向所有人的开源机器学习框架"
+  },
+  {
+   "repo": "hugohe3/ppt-master",
+   "url": "https://github.com/hugohe3/ppt-master",
+   "lang": "Python",
+   "stars": "59,702",
+   "desc": "人工智能将文档或主题转换为真实的原生PowerPoint幻灯片，包括原生形状、转场和动画、数据支持的图表和表格、演讲者笔记中的音频旁白，以及"
+  },
+  {
+   "repo": "pytorch/pytorch",
+   "url": "https://github.com/pytorch/pytorch",
+   "lang": "Python",
+   "stars": "104,195",
+   "desc": "具有强GPU加速的Python中的张量和动态神经网络"
+  },
+  {
+   "repo": "huggingface/transformers",
+   "url": "https://github.com/huggingface/transformers",
+   "lang": "Python",
+   "stars": "167,365",
+   "desc": "🤗 Transformers ：用于推理和训练的文本、视觉、音频和多模态模型中最先进的机器学习模型的模型定义框架"
+  },
+  {
+   "repo": "multica-ai/andrej-karpathy-skills",
+   "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+   "lang": "",
+   "stars": "218,436",
+   "desc": "一个用于改进Claude Code行为的CLAUDE.md文件，源自Andrej Karpathy对LLM编码陷阱的观察"
+  },
+  {
+   "repo": "storytold/lightcraft",
+   "url": "https://github.com/storytold/lightcraft",
+   "lang": "Rust",
+   "stars": "9,228",
+   "desc": "纯Rust中Adobe Lightroom的开源洁净室重新实现"
+  },
+  {
+   "repo": "yetone/magpie",
+   "url": "https://github.com/yetone/magpie",
+   "lang": "Go",
+   "stars": "8,718",
+   "desc": "每个代理的模型。一个地方。DeepSeek上的Codex ，菜单栏中的Kimi上的Claude Code"
+  },
+  {
+   "repo": "tamaratran/fast-jev-compaction",
+   "url": "https://github.com/tamaratran/fast-jev-compaction",
+   "lang": "TypeScript",
+   "stars": "7,575",
+   "desc": "用JEV决策替换压缩摘要的Claude Code插件：每个工具调用和结果都在一个快速请求中得分，过时的请求被丢弃或截断，所有内容保持不变"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "siyuan-note/siyuan",
+   "url": "https://github.com/siyuan-note/siyuan",
+   "lang": "TypeScript",
+   "stars": "46,711",
+   "desc": "开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
+   "en": false
+  },
+  {
+   "repo": "janhq/jan",
+   "url": "https://github.com/janhq/jan",
+   "lang": "Rust",
+   "stars": "44,880",
+   "desc": "JAN是ChatGPT的开源替代方案，可在您的计算机上100%离线运行",
+   "en": false
+  },
+  {
+   "repo": "reactive-resume/reactive-resume",
+   "url": "https://github.com/reactive-resume/reactive-resume",
+   "lang": "TypeScript",
+   "stars": "44,109",
+   "desc": "独一无二的简历生成器，可保护您的隐私",
+   "en": false
+  },
+  {
+   "repo": "ToolJet/ToolJet",
+   "url": "https://github.com/ToolJet/ToolJet",
+   "lang": "HTML",
+   "stars": "41,076",
+   "desc": "ToolJet AI 的开源底座：企业级应用生成平台，可构建内部工具、仪表盘、业务应用、工作流与 AI 智能体，支持可视化搭建、提示词生成，或通过 MCP 接入 Claude Code、Codex 与 Cursor",
+   "en": false
+  },
+  {
+   "repo": "appsmithorg/appsmith",
+   "url": "https://github.com/appsmithorg/appsmith",
+   "lang": "TypeScript",
+   "stars": "41,048",
+   "desc": "用于搭建管理后台、内部工具与仪表盘的平台，可接入 25 种以上数据库及任意 API",
+   "en": false
+  },
+  {
+   "repo": "photoprism/photoprism",
+   "url": "https://github.com/photoprism/photoprism",
+   "lang": "Go",
+   "stars": "40,279",
+   "desc": "AI 驱动的照片管理应用",
+   "en": false
+  },
+  {
+   "repo": "TriliumNext/Trilium",
+   "url": "https://github.com/TriliumNext/Trilium",
+   "lang": "TypeScript",
+   "stars": "38,273",
+   "desc": "用 Trilium Notes 搭建个人知识库",
+   "en": false
+  },
+  {
+   "repo": "Dokploy/dokploy",
+   "url": "https://github.com/Dokploy/dokploy",
+   "lang": "TypeScript",
+   "stars": "37,747",
+   "desc": "Vercel、Netlify 与 Heroku 的开源替代方案",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4317.25,
+   "chg": 0.16,
+   "pe": 13.14,
+   "pe_pct": 59,
+   "pb": 1.39,
+   "pb_pct": 33,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": 7251.01,
+   "chg": 0.04,
+   "pe": 31.19,
+   "pe_pct": 72,
+   "pb": 2.26,
+   "pb_pct": 73,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "创业板指",
+   "point": 3043.33,
+   "chg": 0.22,
+   "pe": 34.83,
+   "pe_pct": 25,
+   "pb": 4.87,
+   "pb_pct": 50,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "科创50",
+   "point": 1457.27,
+   "chg": 0.07,
+   "pe": 119.52,
+   "pe_pct": 79,
+   "pb": 6.94,
+   "pb_pct": 79,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "中证红利",
+   "point": 5601.34,
+   "chg": 0.82,
+   "pe": 8.74,
+   "pe_pct": 83,
+   "pb": 0.86,
+   "pb_pct": 54,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11072.4,
+   "chg": -0.25,
+   "pe": 8.59,
+   "pe_pct": 80,
+   "pb": 0.88,
+   "pb_pct": 64,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24211.35,
+   "chg": 1.79,
+   "pe": 10.79,
+   "pe_pct": 55,
+   "pb": 1.14,
+   "pb_pct": 61,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 27366.17,
+   "chg": 0.64,
+   "pe": 30.87,
+   "pe_pct": 50,
+   "pb": 9.73,
+   "pb_pct": 91,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7811.54,
+   "chg": 0.59,
+   "pe": 25.34,
+   "pe_pct": 59,
+   "pb": 5.64,
+   "pb_pct": 98,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "传媒",
+    "chg": 5.56
+   },
+   {
+    "name": "一般零售",
+    "chg": 3.51
+   },
+   {
+    "name": "农林牧渔",
+    "chg": 2.49
+   },
+   {
+    "name": "证券Ⅱ",
+    "chg": 2.33
+   },
+   {
+    "name": "化学制药",
+    "chg": 1.66
+   },
+   {
+    "name": "纺织服饰",
+    "chg": 1.5
+   }
+  ],
+  "dn": [
+   {
+    "name": "元件",
+    "chg": -3.67
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": -1.06
+   },
+   {
+    "name": "塑料",
+    "chg": -0.78
+   },
+   {
+    "name": "玻璃玻纤",
+    "chg": -0.77
+   },
+   {
+    "name": "仪器仪表",
+    "chg": -0.65
+   },
+   {
+    "name": "通信设备",
+    "chg": -0.59
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+1.52%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.5995（2026-10-09）（≈ 860 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.5009",
+   "date": "2026-10-08"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.4400",
+   "date": "2026-10-08"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.6279",
+   "date": "2026-10-08"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1679",
+   "date": "2026-10-08"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6932",
+   "date": "2026-10-09"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8564",
+   "date": "2026-10-08"
+  }
+ ],
+ "macro": [
+  {
+   "title": "美国CPI如何影响美联储加息，美股财报季开幕",
+   "ctime": "1791689508",
+   "url": "https://finance.sina.com.cn/roll/2026-10-11/doc-iniuvpap7324192.shtml"
+  },
+  {
+   "title": "下周关注丨9月CPI等数据将公布，这些投资机会最靠谱",
+   "ctime": "1791679744",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-11/doc-iniuvanp1931687.shtml"
+  },
+  {
+   "title": "2家A股公司，突然火了！迎上百家机构调研",
+   "ctime": "1791692966",
+   "url": "https://finance.sina.com.cn/stock/zqgd/2026-10-11/doc-iniuvpap7376208.shtml"
+  },
+  {
+   "title": "国家发改委再次召开民企座谈会，及时谋划更多政策工具",
+   "ctime": "1791688682",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-11/doc-iniuvpan0539331.shtml"
+  },
+  {
+   "title": "韩企发展分化：大企业出口大增 中小企业生产下滑",
+   "ctime": "1791683508",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-11/doc-iniuvhuq0581006.shtml"
+  },
+  {
+   "title": "A股“尖底”已出现，下周会反弹吗？分析来了",
+   "ctime": "1791683154",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-11/doc-iniuvhum5801895.shtml"
+  },
+  {
+   "title": "A股市场风格将如何演绎？券商热议新型电池产业、物理AI等领域投资机会",
+   "ctime": "1791682342",
+   "url": "https://finance.sina.com.cn/roll/2026-10-11/doc-iniuvhum1836193.shtml"
+  },
+  {
+   "title": "视频|杨德龙：证监会主席吴清主持召开专家座谈会 有利于提振市场信心",
+   "ctime": "1791679448",
+   "url": "https://finance.sina.com.cn/stock/2026-10-11/doc-iniuvans0643052.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 25,
+   "pe": 34.834,
+   "pb_pct": 50,
+   "pb": 4.8718
+  }
+ ]
+}

@@ -273,5 +273,12 @@
   "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction": "[ECCV 2026最佳论文奖候选人] LingBot-Map ：用于流式3D重建的几何上下文变换器",
   "SwiftUI agent skill for Claude Code, Codex, and other AI tools.": "适用于Claude Code、Codex和其他AI工具的SwiftUI智能体技能",
   "A personal timeline for quick notes. Write short memos, find them later by search, tag, or date. Open source and self-hosted.": "快速备注的个人时间表。撰写简短的备忘录，稍后通过搜索、标记或日期查找",
-  "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more": "适用于代理和开发人员的开源云。包括身份验证、数据库、存储、功能、消息、托管、实时、WAF等"
+  "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more": "适用于代理和开发人员的开源云。包括身份验证、数据库、存储、功能、消息、托管、实时、WAF等",
+  "- [2026-10] OmniDocBench evaluation code released (see OmniDocBench Evaluation).\n- [2026-10] Technical report, model weights, vLLM plugin and inference examples released.": "- [2026-10]发布OmniDocBench评估",
+  "A first-party Blackfrost-AI BF16 model for security professionals conducting authorized research, assessment, engineering, and response work.": "针对进行授权研究、评估、工程和响应工作的安全专业人员的第一方Blackfrost-AI BF16模型",
+  "Flutter makes it easy and fast to build beautiful apps for mobile and beyond": "Flutter可以轻松快速地为移动设备及其他设备构建漂亮的应用程序",
+  "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He": "人工智能将文档或主题转换为真实的原生PowerPoint幻灯片，包括原生形状、转场和动画、数据支持的图表和表格、演讲者笔记中的音频旁白，以及",
+  "Tensors and Dynamic neural networks in Python with strong GPU acceleration": "具有强GPU加速的Python中的张量和动态神经网络",
+  "An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust.": "纯Rust中Adobe Lightroom的开源洁净室重新实现",
+  "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.": "每个代理的模型。一个地方。DeepSeek上的Codex ，菜单栏中的Kimi上的Claude Code"
 }
