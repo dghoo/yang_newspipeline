@@ -280,5 +280,13 @@
   "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He": "人工智能将文档或主题转换为真实的原生PowerPoint幻灯片，包括原生形状、转场和动画、数据支持的图表和表格、演讲者笔记中的音频旁白，以及",
   "Tensors and Dynamic neural networks in Python with strong GPU acceleration": "具有强GPU加速的Python中的张量和动态神经网络",
   "An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust.": "纯Rust中Adobe Lightroom的开源洁净室重新实现",
-  "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.": "每个代理的模型。一个地方。DeepSeek上的Codex ，菜单栏中的Kimi上的Claude Code"
+  "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.": "每个代理的模型。一个地方。DeepSeek上的Codex ，菜单栏中的Kimi上的Claude Code",
+  "Tech report | Tech blog": "技术报告|技术博客",
+  "GPT-X3-150M is Axiomic Labs’ third-generation base model, built on the TX5 hybrid GDN2/gated GQA architecture and trained from scratch with TrainWork. It ranks #1 on the Open SLM Leaderboard and is the first model under 150M parameters to exceed an Intelligence Index of 30.": "GPT-X3-150M是Axiomic Labs的第三代基础模型，基于TX5混合GDN2/门控GQA架构构建，并使用TrainWork从头开始训练",
+  "VeriLoop E2 is an open 27B post-trained model built on Qwen3.8-27B, targeting code, mathematics, and physics. Its core reasoning discipline is VeriLoop-Governed Recurrence (VGR): candidate states are recursively proposed, externally checked, and retained only when the protected evidence state improves without regression.": "VeriLoop E2 是一个基于 Qwen3.8-27B 构建的开源 27B 后训练模型，目标领域为代码、数学和物理",
+  "AirLLM 70B inference with single 4GB GPU": "使用单个4GB GPU的AirLLM 70B推理",
+  "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.": "用于指令和登月舱的原始阿波罗11号制导计算机（ AGC ）源代码",
+  "FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust": "FilmCraft ：用纯Rust编写的开源非线性视频编辑器",
+  "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.": "在 dsh 里装上这个插件即可，无需登录、注册或填 API密钥就能使用包括， DeepSeek V4.1 Flash、 Kimi K3 在内的前沿模型——完全免费 ，不限量",
+  "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.": "在任何比赛中指向克劳德。技能、工具和FAL MCP让Claude Code可以修改您拥有的几乎所有PC游戏：侦察、逆向工程、FAL生成的艺术/3D/音频、游戏内测试、展示视频"
 }

@@ -1,0 +1,528 @@
+{
+ "date": "2026-10-12",
+ "weekday": "一",
+ "val_date": "10-09",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "从Brandon Thomas用Claude Opus 5.5开源重写Adobe全家桶看AI逆向一切趋势",
+    "url": "https://aihot.news/items/hvxwaxeyj6i82xv44ef4ce6fz",
+    "source": "X：卡兹克 (@Khazix0918)",
+    "publishedAt": "2026-10-12T04:29:53.000Z",
+    "summary": "数字生命卡兹克撰文分析AI驱动逆向工程热潮：开发者Brandon Thomas因不满Adobe订阅规则，用Claude Opus 5.5以Rust逆向重写了Photoshop、Illustrator等7款软件的开源替代品PhotoCraft、VectorCraft等，不到10天单PS项目获4.6万Star。"
+   },
+   {
+    "kind": "news",
+    "title": "AI逆向一切：Brandon Thomas用Claude Opus 5.5重写Adobe七款软件开源，REA项目逼近10万Star",
+    "url": "https://aihot.news/items/u9f1ozdbs5nobwugj3yss3z0e",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-10-12T00:26:00.000Z",
+    "summary": "开发者Brandon Thomas因不满Adobe订阅违约金，用Claude Opus 5.5以Rust逆向重写了Photoshop等7款Adobe软件并开源，其中PS项目不到10天获4.6万Star。"
+   },
+   {
+    "kind": "news",
+    "title": "GPT-6.1 Sol 在 Codex 与 Work 中默认上下文长度提升至 500k",
+    "url": "https://aihot.news/items/z54sznsd0r2teb6gqyvwu4nc2",
+    "source": "X：Tibo (@thsottiaux)",
+    "publishedAt": "2026-10-11T23:45:59.000Z",
+    "summary": "Tibo 宣布 GPT-6.1 Sol 在 Codex 与 Work 中的默认上下文长度从 272k 提升到 500k，约增加 80%。此举可减少压缩（compaction）发生，帮助需要长期保留大量上下文和细节的任务；用户仍可自行覆盖设置，模型最大上下文长度为 1M。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 年化收入约 500 亿美元并寻求 300 亿美元新融资",
+    "url": "https://aihot.news/items/auy2exatk0u5kr1c1ydmaajws",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-10-09T17:20:34.000Z",
+    "summary": "OpenAI 9 月底年化收入率约 500 亿美元，此前近 700 亿美元的数字源于与 Anthropic 不同的合作方销售入账方式，两者均符合美国 GAAP。公司正洽谈至少 300 亿美元新融资，目标投前估值 1.4 万亿美元，企业业务推动 Q3 总收入增长 77%，FT 报告发布后芯片股曾下跌数个百分点。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 研究负责人发声明回应三名员工离职争议",
+    "url": "https://aihot.news/items/uceike4yt1on0k7sj37f9nfeh",
+    "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
+    "publishedAt": "2026-10-09T06:17:00.000Z",
+    "summary": "OpenAI 研究负责人发声明，称上周在调查发现 Jasmine、Mikita 和 Tomek 违反敏感信息处理政策后终止其雇佣，并表示内部调查发现超出三人公开信所述的重大信任违规。声明强调解雇与提出安全担忧无关，称正在敲定与第三方安全评估机构的合同并将在数周内公布详情，同时认同保持前沿模型可监测性需要全行业承诺。"
+   },
+   {
+    "kind": "news",
+    "title": "LangChain 用 Stripe Link 和 Managed Deep Agents 构建可支付的智能体 Restock",
+    "url": "https://aihot.news/items/l846t7ycr11aqcasu45nowosp",
+    "source": "LangChain：Blog（RSS）",
+    "publishedAt": "2026-10-08T16:21:08.000Z",
+    "summary": "LangChain 发布示例项目 Restock，一个在 Slack 上通过 Managed Deep Agents 运行的办公用品购买智能体，演示智能体如何安全完成支付。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Liquid AI 发布开源决策模型 d1-3B 和 d1-omni-600M",
+    "url": "https://aihot.news/items/qawfhyw1v10hv75bld8ogbjgj",
+    "source": "Liquid AI 模型与工程博客（网页）",
+    "publishedAt": "2026-10-07T00:00:00.000Z",
+    "summary": "Liquid AI 发布开源权重决策模型 d1-3B 和 d1-omni-600M，已在 Hugging Face 上提供。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 发布内部前沿模型产出的数学研究成果",
+    "url": "https://aihot.news/items/zvw2i4tg1gnqq72t596vpqoyl",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-10-06T23:01:09.228Z",
+    "summary": "OpenAI 发布一批由内部前沿模型产出的新数学成果，成果以 GitHub 仓库形式公开，并附论文修订与引用协议，其中许多证明已用 Lean 形式化以便计算机验证。"
+   },
+   {
+    "kind": "news",
+    "title": "Google DeepMind 发布开源轻量多模态嵌入模型 EmbeddingGemma 2",
+    "url": "https://aihot.news/items/g1k2ragppm8j4apj75qu1k4ug",
+    "source": "Google DeepMind：Blog（RSS）",
+    "publishedAt": "2026-10-06T19:57:04.000Z",
+    "summary": "Google DeepMind 发布 EmbeddingGemma 2，基于 Gemma 4 架构，以 Apache 2.0 许可开源，将文本、代码、图像、视频和音频映射到统一嵌入空间。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 发布 Claude Haiku 5.5，Artificial Analysis 评测得分 43",
+    "url": "https://aihot.news/items/ms4yfg2a6aiqlzrqm0u4eedyh",
+    "source": "Artificial Analysis 完整文章（网页）",
+    "publishedAt": "2026-10-06T16:00:00.000Z",
+    "summary": "Anthropic 发布 Claude Haiku 5.5，在 Artificial Analysis Intelligence Index 得 43 分，较上一代 Haiku 一年内提升 26 分，是首个支持 effort 设置与 adaptive thinking 的 Haiku 模型。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "Arena 获 Lightspeed 领投 2 亿美元 B 轮融资，估值 31 亿美元并推出 Alignment Index",
+    "url": "https://aihot.news/items/qtsvk3wzyp2aab3vi62vjyold",
+    "source": "X：Arena (@arena)",
+    "publishedAt": "2026-10-08T18:51:25.000Z",
+    "summary": "Arena 宣布完成由 Lightspeed 领投的 2 亿美元 B 轮融资，估值 31 亿美元。引用内容称其年化收入已超 1 亿美元，数百万用户通过真实使用帮助评估前沿模型；Arena 同时推出 Alignment Index，衡量 AI 行为在真实场景中与人类价值的契合程度。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "Aleph-Alpha/Kolibri-1-BF16",
+    "url": "https://hf-mirror.com/Aleph-Alpha/Kolibri-1-BF16",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 58,
+    "downloads": 1788,
+    "createdAt": "2026-10-02",
+    "intro": "技术报告|技术博客"
+   },
+   {
+    "kind": "model",
+    "id": "AxiomicLabs/GPT-X3-150M",
+    "url": "https://hf-mirror.com/AxiomicLabs/GPT-X3-150M",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 44,
+    "downloads": 338,
+    "createdAt": "2026-09-23",
+    "intro": "GPT-X3-150M是Axiomic Labs的第三代基础模型，基于TX5混合GDN2/门控GQA架构构建，并使用TrainWork从头开始训练"
+   },
+   {
+    "kind": "model",
+    "id": "tsinghua-sigs-robot-lab/VeriLoop-E2",
+    "url": "https://hf-mirror.com/tsinghua-sigs-robot-lab/VeriLoop-E2",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 36,
+    "downloads": 2744,
+    "createdAt": "2026-09-22",
+    "intro": "VeriLoop E2 是一个基于 Qwen3.8-27B 构建的开源 27B 后训练模型，目标领域为代码、数学和物理"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "bilawalsidhu/gods-eye-view",
+   "url": "https://github.com/bilawalsidhu/gods-eye-view",
+   "lang": "JavaScript",
+   "stars": "52,121",
+   "desc": "浏览器中的间谍卫星模拟器，但数据是真实的"
+  },
+  {
+   "repo": "lyogavin/airllm",
+   "url": "https://github.com/lyogavin/airllm",
+   "lang": "Jupyter Notebook",
+   "stars": "36,714",
+   "desc": "使用单个4GB GPU的AirLLM 70B推理"
+  },
+  {
+   "repo": "chrislgarry/Apollo-11",
+   "url": "https://github.com/chrislgarry/Apollo-11",
+   "lang": "Assembly",
+   "stars": "74,390",
+   "desc": "用于指令和登月舱的原始阿波罗11号制导计算机（ AGC ）源代码"
+  },
+  {
+   "repo": "storytold/filmcraft",
+   "url": "https://github.com/storytold/filmcraft",
+   "lang": "Rust",
+   "stars": "10,433",
+   "desc": "FilmCraft ：用纯Rust编写的开源非线性视频编辑器"
+  },
+  {
+   "repo": "Ebony-Vinyl/dsh-our-free-model",
+   "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+   "lang": "JavaScript",
+   "stars": "9,776",
+   "desc": "在 dsh 里装上这个插件即可，无需登录、注册或填 API密钥就能使用包括， DeepSeek V4.1 Flash、 Kimi K3 在内的前沿模型——完全免费 ，不限量"
+  },
+  {
+   "repo": "jev-chat/jev-chat-jarvis",
+   "url": "https://github.com/jev-chat/jev-chat-jarvis",
+   "lang": "Kotlin",
+   "stars": "7,632",
+   "desc": "聊天辅助决策工具：先看懂对方再回复，发不发由你"
+  },
+  {
+   "repo": "KKKKhazix/AIHOT",
+   "url": "https://github.com/KKKKhazix/AIHOT",
+   "lang": "TypeScript",
+   "stars": "7,251",
+   "desc": "一个自己找热点、自己写日报的网站框架"
+  },
+  {
+   "repo": "mizorewww/laya-mlx",
+   "url": "https://github.com/mizorewww/laya-mlx",
+   "lang": "Python",
+   "stars": "6,876",
+   "desc": "Laya类型化决策模型的原生MLX运行时间— M3 Max上的7–14毫秒短决策"
+  },
+  {
+   "repo": "rehan-remade/universal-modder",
+   "url": "https://github.com/rehan-remade/universal-modder",
+   "lang": "Python",
+   "stars": "6,739",
+   "desc": "在任何比赛中指向克劳德。技能、工具和FAL MCP让Claude Code可以修改您拥有的几乎所有PC游戏：侦察、逆向工程、FAL生成的艺术/3D/音频、游戏内测试、展示视频"
+  },
+  {
+   "repo": "Mak5er/AirCard",
+   "url": "https://github.com/Mak5er/AirCard",
+   "lang": "Swift",
+   "stars": "6,495",
+   "desc": "适用于iOS 18 +的Apple Wallet Card Skinner （无需越狱）"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "khoj-ai/khoj",
+   "url": "https://github.com/khoj-ai/khoj",
+   "lang": "Python",
+   "stars": "37,647",
+   "desc": "你的 AI 第二大脑，可自托管：从网页或本地文档中检索答案，构建自定义智能体、定时自动化与深度研究，支持接入任意在线或本地大模型",
+   "en": false
+  },
+  {
+   "repo": "glanceapp/glance",
+   "url": "https://github.com/glanceapp/glance",
+   "lang": "Go",
+   "stars": "37,457",
+   "desc": "自托管信息仪表盘，把所有订阅源汇集到一处",
+   "en": false
+  },
+  {
+   "repo": "IceWhaleTech/CasaOS",
+   "url": "https://github.com/IceWhaleTech/CasaOS",
+   "lang": "Go",
+   "stars": "37,308",
+   "desc": "CasaOS：简单易用、优雅的开源个人云系统",
+   "en": false
+  },
+  {
+   "repo": "filebrowser/filebrowser",
+   "url": "https://github.com/filebrowser/filebrowser",
+   "lang": "Go",
+   "stars": "35,909",
+   "desc": "文件浏览器在指定的目录中提供了一个文件管理界面，可用于上传、删除、预览和编辑文件",
+   "en": false
+  },
+  {
+   "repo": "langfuse/langfuse",
+   "url": "https://github.com/langfuse/langfuse",
+   "lang": "TypeScript",
+   "stars": "35,673",
+   "desc": "🪢 开源代理回避和可观测性：使用一个开放平台跟踪、评估和改进LLM应用程序",
+   "en": false
+  },
+  {
+   "repo": "agentscope-ai/QwenPaw",
+   "url": "https://github.com/agentscope-ai/QwenPaw",
+   "lang": "TypeScript",
+   "stars": "35,609",
+   "desc": "你的个人 AI 助手；安装简单，可部署在自有机器或云端；支持多个聊天应用，能力可轻松扩展。",
+   "en": false
+  },
+  {
+   "repo": "awesome-foss/awesome-sysadmin",
+   "url": "https://github.com/awesome-foss/awesome-sysadmin",
+   "lang": "",
+   "stars": "35,389",
+   "desc": "精心策划的令人惊叹的开源系统管理员资源列表",
+   "en": false
+  },
+  {
+   "repo": "dgtlmoon/changedetection.io",
+   "url": "https://github.com/dgtlmoon/changedetection.io",
+   "lang": "Python",
+   "stars": "34,914",
+   "desc": "用于网站更改检测、网页监控和网站更改警报的最佳和最简单的工具",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4290.64,
+   "chg": -0.62,
+   "pe": 13.14,
+   "pe_pct": 59,
+   "pb": 1.39,
+   "pb_pct": 33,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": 7113.31,
+   "chg": -1.9,
+   "pe": 31.19,
+   "pe_pct": 72,
+   "pb": 2.26,
+   "pb_pct": 73,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "创业板指",
+   "point": 2979.22,
+   "chg": -2.11,
+   "pe": 34.83,
+   "pe_pct": 25,
+   "pb": 4.87,
+   "pb_pct": 50,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "科创50",
+   "point": 1433.14,
+   "chg": -1.66,
+   "pe": 119.52,
+   "pe_pct": 79,
+   "pb": 6.94,
+   "pb_pct": 79,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "中证红利",
+   "point": 5614.83,
+   "chg": 0.24,
+   "pe": 8.74,
+   "pe_pct": 83,
+   "pb": 0.86,
+   "pb_pct": 54,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11257.15,
+   "chg": 1.67,
+   "pe": 8.59,
+   "pe_pct": 80,
+   "pb": 0.88,
+   "pb_pct": 64,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24240.2,
+   "chg": 0.12,
+   "pe": 10.79,
+   "pe_pct": 55,
+   "pb": 1.14,
+   "pb_pct": 61,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 27366.17,
+   "chg": 0.64,
+   "pe": 30.87,
+   "pe_pct": 50,
+   "pb": 9.73,
+   "pb_pct": 91,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7811.54,
+   "chg": 0.59,
+   "pe": 25.34,
+   "pe_pct": 59,
+   "pb": 5.64,
+   "pb_pct": 98,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "传媒",
+    "chg": 2.32
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": 1.87
+   },
+   {
+    "name": "电网设备",
+    "chg": 0.16
+   },
+   {
+    "name": "铁路公路",
+    "chg": 0.1
+   },
+   {
+    "name": "保险Ⅱ",
+    "chg": 0.08
+   },
+   {
+    "name": "证券Ⅱ",
+    "chg": -0.07
+   }
+  ],
+  "dn": [
+   {
+    "name": "元件",
+    "chg": -3.14
+   },
+   {
+    "name": "石油石化",
+    "chg": -3.01
+   },
+   {
+    "name": "煤炭",
+    "chg": -2.8
+   },
+   {
+    "name": "有色金属",
+    "chg": -2.63
+   },
+   {
+    "name": "一般零售",
+    "chg": -2.33
+   },
+   {
+    "name": "通信设备",
+    "chg": -2.27
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-0.02%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.5995（2026-10-09）（≈ 860 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.5009",
+   "date": "2026-10-08"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.4400",
+   "date": "2026-10-08"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.6279",
+   "date": "2026-10-08"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1679",
+   "date": "2026-10-08"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6932",
+   "date": "2026-10-09"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8564",
+   "date": "2026-10-08"
+  }
+ ],
+ "macro": [
+  {
+   "title": "英央行鹰派支撑叠加美元小幅走弱，英镑/美元连续三日反弹",
+   "ctime": "1791784200",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-10-12/doc-iniuxwif5372654.shtml"
+  },
+  {
+   "title": "一周市场观察：10月加息概率暴跌，聚焦CPI与美股财报季",
+   "ctime": "1791782411",
+   "url": "https://finance.sina.com.cn/money/nmetal/roll/2026-10-12/doc-iniuxwik0479771.shtml"
+  },
+  {
+   "title": "印度卢比创半年最大涨幅 印度央行出台稳汇率措施",
+   "ctime": "1791782338",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuxwim7251261.shtml"
+  },
+  {
+   "title": "印度央行出台托汇举措 卢比大涨1% 创4月以来最大涨幅",
+   "ctime": "1791778881",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuxwik0426505.shtml"
+  },
+  {
+   "title": "法国债市陷入动荡 欧洲再现危机传染阴影",
+   "ctime": "1791778773",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuxrzi5437527.shtml"
+  },
+  {
+   "title": "2026年IMF与世界银行集团年会曼谷启幕 全球经济十字路口共寻增长共识",
+   "ctime": "1791784777",
+   "url": "https://finance.sina.com.cn/stock/hkstock/hkyx/2026-10-12/doc-iniuxwik0519145.shtml"
+  },
+  {
+   "title": "东鹏饮料午后涨超4% 截至9月末回购712.26万股A股",
+   "ctime": "1791783683",
+   "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-12/doc-iniuxwif5365942.shtml"
+  },
+  {
+   "title": "纽美汇率承压维持震荡走势，等待数据落地选择方向",
+   "ctime": "1791783660",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-10-12/doc-iniuxwik0503643.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 25,
+   "pe": 34.834,
+   "pb_pct": 50,
+   "pb": 4.8718
+  }
+ ]
+}
