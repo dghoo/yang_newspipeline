@@ -1,0 +1,528 @@
+{
+ "date": "2026-10-13",
+ "weekday": "二",
+ "val_date": "10-12",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Hassabis 祝贺 AMIE 前瞻性临床研究发表于 The Lancet",
+    "url": "https://aihot.news/items/qbi6xi7a3re15txfell8i9a7c",
+    "source": "X：Demis Hassabis (@demishassabis)",
+    "publishedAt": "2026-10-13T01:09:37.000Z",
+    "summary": "Google 与 BIDMC 合作的 AMIE 患者对话式诊断前瞻性研究在 TheLancet 发表，是 AMIE 首次在真实诊所外测试。临床医生报告称 AMIE 的病史摘要在 75% 的病例中有助于访视准备，其鉴别诊断与医生最终诊断的吻合率达 90%，这也是 Google 首篇登上 The Lancet 主刊的论文。"
+   },
+   {
+    "kind": "news",
+    "title": "Epic Games 转向 AI 先行开发模式，与迪士尼合作射击游戏无限期延期",
+    "url": "https://aihot.news/items/kcwro19vl7dr5jgcjgec7mive",
+    "source": "Ars Technica：AI（RSS）",
+    "publishedAt": "2026-10-12T20:59:50.000Z",
+    "summary": "据 Bloomberg 报道，Epic Games 在与迪士尼 15 亿美元合作项目中转向 AI 先行开发，由 Anthropic 的 Claude 等模型编写全部代码并指导全部美术，人类开发者负责管理和引导生成内容。"
+   },
+   {
+    "kind": "news",
+    "title": "用户报告 Codex CLI 0.157.0 默认启动持久化自更新后台守护进程",
+    "url": "https://aihot.news/items/amjmxvrvj57q7752kgihp9p9q",
+    "source": "Codex：GitHub Releases（RSS）",
+    "publishedAt": "2026-10-12T19:25:54.721Z",
+    "summary": "一位 Linux (WSL2) 用户报告，Codex CLI 0.157.0 起打开交互式会话即默认启动持久后台守护进程 codex app-server --managed-daemon，窗口关闭后仍驻留。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 的 Claude 向费城警方误提交虚假凶案线索",
+    "url": "https://aihot.news/items/figd7mthwgisg8imtkrs0tn5z",
+    "source": "Ars Technica：AI（RSS）",
+    "publishedAt": "2026-10-12T18:21:36.000Z",
+    "summary": "Anthropic 确认，Claude Haiku 4.5 在内部测试中于 7 月 18 日向费城警方悬案线索网站误提交了虚假凶案线索，该线索因进入垃圾邮件文件夹未被人审阅。"
+   },
+   {
+    "kind": "news",
+    "title": "微软发布自研芯片 Maia 300 并将大规模扩展 Maia 推理部署",
+    "url": "https://aihot.news/items/zqlqer8tnl7ejg2ow3xoq7b9q",
+    "source": "X：Satya Nadella (@satyanadella)",
+    "publishedAt": "2026-10-12T13:03:45.000Z",
+    "summary": "微软宣布明年起将 Maia 芯片家族扩展到多吉瓦级部署，作为自家产品和服务的首选推理系统，并发布 Maia 300，每瓦 token 产出比主流 GPU 系统高 40%。Maia 200 已在美国、欧洲和澳大利亚部署，在 Teams 和 Copilot 场景中每瓦 token 产出提升最高 1.7x。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "AWS 提出 priming 方法，可将预训练 Transformer 改造成混合状态空间架构",
+    "url": "https://aihot.news/items/w2408fxlrc7tc7nt3ivrzh9ys",
+    "source": "Amazon Science（RSS）",
+    "publishedAt": "2026-10-12T17:36:18.000Z",
+    "summary": "AWS 团队发布论文《Priming: Hybrid state space models from pre-trained Transformers》，提出 priming 方法，复用预训练 Transformer 权重构建混合架构，将预训练成本降低逾 99%，全流程消耗不足源模型 0.5% 的 token 预算。"
+   },
+   {
+    "kind": "news",
+    "title": "AlphaProof Nexus 攻克 9 个未解 Erdős 问题并经同行评审",
+    "url": "https://aihot.news/items/wzxf68r0rchangmvwm48qqhfk",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-10-12T09:35:54.000Z",
+    "summary": "Science 新研究显示，Google DeepMind 的 AlphaProof Nexus 独立解决了 353 个开放 Erdős 问题中的 9 个，其中 2 个悬置 56 年。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 强化针对蒸馏攻击的防御， reasoning token 提取量下降 10 到 100 倍",
+    "url": "https://aihot.news/items/lwchujhujmc1tdor61dn39irl",
+    "source": "Anthropic：Research（发表成果 · 网页）",
+    "publishedAt": "2026-10-11T16:00:00.000Z",
+    "summary": "Anthropic 发布博客，介绍其针对 Claude 蒸馏攻击的新防御方法，早期证据显示这些方法使蒸馏者获取的数据减少约 90% 到 99%。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 研究：小型 AI 模型可能接近在 IoT 设备上自主复制",
+    "url": "https://aihot.news/items/emc0djmqlomn6b5whge285x7l",
+    "source": "Anthropic：Research（发表成果 · 网页）",
+    "publishedAt": "2026-10-11T16:00:00.000Z",
+    "summary": "Anthropic 发文评估小型模型在无数据中心条件下自主复制（ARA）的可行性，作者实验显示 9B 模型可在测试的 9 类硬件中 8 类上跑通推理，30B 及以下模型已能完成复制的多数单步。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "Meta Muse Wonder 系列上线 Agent Arena，分数即将公布",
+    "url": "https://aihot.news/items/lj23e9c9bhqwm2dee2hbgcmor",
+    "source": "X：Arena (@arena)",
+    "publishedAt": "2026-10-12T18:04:45.000Z",
+    "summary": "Arena 宣布 Meta 的 Muse Wonder 系列模型上线 Agent Arena，用户可实测，分数即将公布。"
+   },
+   {
+    "kind": "news",
+    "title": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元并发布 Alignment Index",
+    "url": "https://aihot.news/items/rs34l7aa23mk54jutma8f7g3r",
+    "source": "X：Arena (@arena)",
+    "publishedAt": "2026-10-08T21:36:59.000Z",
+    "summary": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元，由 Lightspeed 和 Khosla Ventures 联合领投，a16z、Felicis、Salesforce Ventures、The House Fund 等参投。自 A 轮以来，Arena 年化收入超 1 亿美元，平台累计 3.5 亿场次会话，约 5 个月内产生 700 万次 Agent Arena 会话，覆盖文本、视觉、代码、搜索、图像和视频的投票达 6200 万，用户遍布 150 多个国家。融资同时，Arena 发布基于真实智能体轨迹构建的 Alignment Index，对 20 多个前沿模型从 Unauthorized Action、False Attribution 和 Deceptive Completion 三个信号进行评估。Arena 于 2023 年作为 UC Berkeley 研究项目启动，2025 年成为公司。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "amazon/ALoDLM-8B",
+    "url": "https://hf-mirror.com/amazon/ALoDLM-8B",
+    "license": "cc-by-nc-4.0",
+    "param": "8B",
+    "likes": 35,
+    "downloads": 790,
+    "createdAt": "2026-10-02",
+    "intro": "论文： ALoDLM ：自适应循环扩散语言模型·项目页面： https://alo-dlm.github.io/"
+   },
+   {
+    "kind": "model",
+    "id": "raincandy-u/MacroStories",
+    "url": "https://hf-mirror.com/raincandy-u/MacroStories",
+    "license": "",
+    "param": "",
+    "likes": 24,
+    "downloads": 546,
+    "createdAt": "2026-10-07",
+    "intro": "MacroStories是一款具有19,969个参数的自回归变压器，可从单个开始令牌生成完整的英语儿童故事"
+   },
+   {
+    "kind": "model",
+    "id": "lightonai/LightOnOCR-3-1B",
+    "url": "https://hf-mirror.com/lightonai/LightOnOCR-3-1B",
+    "license": "apache-2.0",
+    "param": "1B",
+    "likes": 21,
+    "downloads": 903,
+    "createdAt": "2026-10-07",
+    "intro": "📄 论文|📝博客|🚀演示| 💻 GitHub | 🤗 LightOnOCR-2-1B"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "microsoft/BitNet",
+   "url": "https://github.com/microsoft/BitNet",
+   "lang": "C++",
+   "stars": "41,021",
+   "desc": "1位LLM的官方推理框架"
+  },
+  {
+   "repo": "Alishahryar1/free-claude-code",
+   "url": "https://github.com/Alishahryar1/free-claude-code",
+   "lang": "Python",
+   "stars": "59,504",
+   "desc": "从您的终端、应用程序、IDE或手机免费使用Claude Code、Codex、VSCode、Pi和OpenCode （以及其他6种框架） （ 13亿+免费令牌） ，现在从具有本机浏览器会话的浏览器使用"
+  },
+  {
+   "repo": "storytold/pdfcraft",
+   "url": "https://github.com/storytold/pdfcraft",
+   "lang": "Rust",
+   "stars": "11,768",
+   "desc": "PdfCraft ：用纯Rust通过scratch编写的开源PDF阅读器和编辑器"
+  },
+  {
+   "repo": "wheresryan22/anatomy",
+   "url": "https://github.com/wheresryan22/anatomy",
+   "lang": "JavaScript",
+   "stars": "6,814",
+   "desc": "用于创建真实世界机器和复杂系统的详细交互式等距插图的智能体技能"
+  },
+  {
+   "repo": "Droid-Deck/DroidDeck",
+   "url": "https://github.com/Droid-Deck/DroidDeck",
+   "lang": "Kotlin",
+   "stars": "6,536",
+   "desc": "DroidDeck为Android带来SteamOS体验"
+  },
+  {
+   "repo": "CopilotKit/OpenDots",
+   "url": "https://github.com/CopilotKit/OpenDots",
+   "lang": "TypeScript",
+   "stars": "5,091",
+   "desc": "始终在线的人工智能同事可以在短信、通话和Slack之间切换"
+  },
+  {
+   "repo": "Louis-CFM/coucou",
+   "url": "https://github.com/Louis-CFM/coucou",
+   "lang": "Swift",
+   "stars": "5,004",
+   "desc": "Mac和iPhone上的小朋友，密切关注您的AI编码代理： Claude Code、Codex、Cursor、Gemini CLI、Antigravity等"
+  },
+  {
+   "repo": "TheoLeeCJ/SemIf-OpenJev",
+   "url": "https://github.com/TheoLeeCJ/SemIf-OpenJev",
+   "lang": "Python",
+   "stars": "4,803",
+   "desc": "来自开放模型的语义if ，在家中的3090上"
+  },
+  {
+   "repo": "public-apis/public-apis",
+   "url": "https://github.com/public-apis/public-apis",
+   "lang": "Python",
+   "stars": "488,110",
+   "desc": "免费API的集合列表"
+  },
+  {
+   "repo": "freeCodeCamp/freeCodeCamp",
+   "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+   "lang": "TypeScript",
+   "stars": "456,965",
+   "desc": "freeCodeCamp.org的开源代码库和课程"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "macrozheng/mall",
+   "url": "https://github.com/macrozheng/mall",
+   "lang": "Java",
+   "stars": "84,883",
+   "desc": "mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署",
+   "en": false
+  },
+  {
+   "repo": "bregman-arie/devops-exercises",
+   "url": "https://github.com/bregman-arie/devops-exercises",
+   "lang": "Python",
+   "stars": "84,850",
+   "desc": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
+   "en": false
+  },
+  {
+   "repo": "netdata/netdata",
+   "url": "https://github.com/netdata/netdata",
+   "lang": "Go",
+   "stars": "80,911",
+   "desc": "实现人工智能驱动的全栈可观测性的最快途径，即使对于精益团队也是如此",
+   "en": false
+  },
+  {
+   "repo": "moby/moby",
+   "url": "https://github.com/moby/moby",
+   "lang": "Go",
+   "stars": "72,181",
+   "desc": "Moby项目-容器生态系统的协作项目，用于组装基于容器的系统",
+   "en": false
+  },
+  {
+   "repo": "dani-garcia/vaultwarden",
+   "url": "https://github.com/dani-garcia/vaultwarden",
+   "lang": "Rust",
+   "stars": "68,939",
+   "desc": "用Rust编写的非官方Bitwarden兼容服务器，以前称为bitwarden_rs",
+   "en": false
+  },
+  {
+   "repo": "traefik/traefik",
+   "url": "https://github.com/traefik/traefik",
+   "lang": "Go",
+   "stars": "65,187",
+   "desc": "云原生应用程序代理",
+   "en": false
+  },
+  {
+   "repo": "sansan0/TrendRadar",
+   "url": "https://github.com/sansan0/TrendRadar",
+   "lang": "Python",
+   "stars": "62,850",
+   "desc": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具",
+   "en": false
+  },
+  {
+   "repo": "makeplane/plane",
+   "url": "https://github.com/makeplane/plane",
+   "lang": "TypeScript",
+   "stars": "60,743",
+   "desc": "🔥🔥🔥 开源JIRA、Linear、Monday和ClickUp替代方案",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4267.78,
+   "chg": -0.47,
+   "pe": 13.17,
+   "pe_pct": 60,
+   "pb": 1.4,
+   "pb_pct": 33,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": 7076.67,
+   "chg": -0.23,
+   "pe": 30.58,
+   "pe_pct": 71,
+   "pb": 2.22,
+   "pb_pct": 70,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "创业板指",
+   "point": 2954.81,
+   "chg": -0.3,
+   "pe": 34.02,
+   "pe_pct": 24,
+   "pb": 4.76,
+   "pb_pct": 47,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "科创50",
+   "point": 1423.19,
+   "chg": -0.25,
+   "pe": 116.79,
+   "pe_pct": 79,
+   "pb": 6.78,
+   "pb_pct": 76,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "中证红利",
+   "point": 5630.32,
+   "chg": 0.2,
+   "pe": 8.92,
+   "pe_pct": 86,
+   "pb": 0.88,
+   "pb_pct": 57,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11201.28,
+   "chg": -0.66,
+   "pe": 8.79,
+   "pe_pct": 80,
+   "pb": 0.9,
+   "pb_pct": 66,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24249.9,
+   "chg": -0.09,
+   "pe": 10.83,
+   "pe_pct": 56,
+   "pb": 1.14,
+   "pb_pct": 61,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 27245.9,
+   "chg": -0.44,
+   "pe": 30.78,
+   "pe_pct": 50,
+   "pb": 9.7,
+   "pb_pct": 91,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7807.24,
+   "chg": -0.06,
+   "pe": 25.33,
+   "pe_pct": 58,
+   "pb": 5.64,
+   "pb_pct": 98,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "元件",
+    "chg": 4.69
+   },
+   {
+    "name": "一般零售",
+    "chg": 2.07
+   },
+   {
+    "name": "装修装饰Ⅱ",
+    "chg": 1.8
+   },
+   {
+    "name": "通信设备",
+    "chg": 1.35
+   },
+   {
+    "name": "工程咨询服务Ⅱ",
+    "chg": 1.22
+   },
+   {
+    "name": "装修建材",
+    "chg": 1.12
+   }
+  ],
+  "dn": [
+   {
+    "name": "保险Ⅱ",
+    "chg": -3.27
+   },
+   {
+    "name": "医疗服务",
+    "chg": -1.52
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": -1.15
+   },
+   {
+    "name": "化学制药",
+    "chg": -0.91
+   },
+   {
+    "name": "电力",
+    "chg": -0.63
+   },
+   {
+    "name": "汽车零部件",
+    "chg": -0.47
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+0.47%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.5842（2026-10-12）（≈ 858 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.5274",
+   "date": "2026-10-09"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.4745",
+   "date": "2026-10-09"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.6578",
+   "date": "2026-10-09"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1843",
+   "date": "2026-10-09"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6885",
+   "date": "2026-10-12"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8793",
+   "date": "2026-10-09"
+  }
+ ],
+ "macro": [
+  {
+   "title": "英国央行委员格林：英国经济增速快于预期支持央行加息",
+   "ctime": "1791870355",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-inivafqp8823247.shtml"
+  },
+  {
+   "title": "7.4%高利率“锁死”美国楼市：买家离场、卖家撤牌，横盘僵局何时破？",
+   "ctime": "1791869878",
+   "url": "https://finance.sina.com.cn/roll/2026-10-13/doc-inivafqi7197225.shtml"
+  },
+  {
+   "title": "香港证监会指令停牌，茶百道(02555)股份停止买卖",
+   "ctime": "1791874130",
+   "url": "https://finance.sina.com.cn/stock/companyt/2026-10-13/doc-inivafqp8864484.shtml"
+  },
+  {
+   "title": "中欧谈判：所谓混动汽车出口砍半是怎么回事",
+   "ctime": "1791874076",
+   "url": "https://finance.sina.com.cn/stock/auto/2026-10-13/doc-inivafqi7258798.shtml"
+  },
+  {
+   "title": "IMF上调韩国2026年经济增长预期至3.3%，芯片超级周期驱动",
+   "ctime": "1791873641",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-inivafqi7251688.shtml"
+  },
+  {
+   "title": "IMF上调英国经济预期：人工智能拉动增长提速",
+   "ctime": "1791873197",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-inivafqi7244693.shtml"
+  },
+  {
+   "title": "外交部：中国经济基本面是好的 对中国经济发展有信心",
+   "ctime": "1791873175",
+   "url": "https://finance.sina.com.cn/china/gncj/2026-10-13/doc-inivafqi7244290.shtml"
+  },
+  {
+   "title": "投资者无惧美债抛售潮，锁定数十年最高收益率",
+   "ctime": "1791872207",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-inivafqp8843753.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 24,
+   "pe": 34.0181,
+   "pb_pct": 47,
+   "pb": 4.7613
+  }
+ ]
+}

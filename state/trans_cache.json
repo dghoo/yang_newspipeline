@@ -288,5 +288,17 @@
   "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.": "用于指令和登月舱的原始阿波罗11号制导计算机（ AGC ）源代码",
   "FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust": "FilmCraft ：用纯Rust编写的开源非线性视频编辑器",
   "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.": "在 dsh 里装上这个插件即可，无需登录、注册或填 API密钥就能使用包括， DeepSeek V4.1 Flash、 Kimi K3 在内的前沿模型——完全免费 ，不限量",
-  "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.": "在任何比赛中指向克劳德。技能、工具和FAL MCP让Claude Code可以修改您拥有的几乎所有PC游戏：侦察、逆向工程、FAL生成的艺术/3D/音频、游戏内测试、展示视频"
+  "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.": "在任何比赛中指向克劳德。技能、工具和FAL MCP让Claude Code可以修改您拥有的几乎所有PC游戏：侦察、逆向工程、FAL生成的艺术/3D/音频、游戏内测试、展示视频",
+  "Paper: ALoDLM: Adaptively Looped Diffusion Language Models · Project page: https://alo-dlm.github.io/": "论文： ALoDLM ：自适应循环扩散语言模型·项目页面： https://alo-dlm.github.io/",
+  "MacroStories is a 19,969-parameter autoregressive Transformer that generates complete English children's stories from a single start token. Her FP32 weights occupy just 81,364 bytes—smaller than many PNG images.": "MacroStories是一款具有19,969个参数的自回归变压器，可从单个开始令牌生成完整的英语儿童故事",
+  "📄 Paper | 📝 Blog | 🚀 Demo | 💻 GitHub | 🤗 LightOnOCR-2-1B": "📄 论文|📝博客|🚀演示| 💻 GitHub | 🤗 LightOnOCR-2-1B",
+  "Official inference framework for 1-bit LLMs": "1位LLM的官方推理框架",
+  "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)": "从您的终端、应用程序、IDE或手机免费使用Claude Code、Codex、VSCode、Pi和OpenCode （以及其他6种框架） （ 13亿+免费令牌） ，现在从具有本机浏览器会话的浏览器使用",
+  "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust": "PdfCraft ：用纯Rust通过scratch编写的开源PDF阅读器和编辑器",
+  "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.": "用于创建真实世界机器和复杂系统的详细交互式等距插图的智能体技能",
+  "DroidDeck brings the SteamOS experience to Android": "DroidDeck为Android带来SteamOS体验",
+  "Your always-on AI coworkers that move between text, calls, and Slack.": "始终在线的人工智能同事可以在短信、通话和Slack之间切换",
+  "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.": "Mac和iPhone上的小朋友，密切关注您的AI编码代理： Claude Code、Codex、Cursor、Gemini CLI、Antigravity等",
+  "A collective list of free APIs": "免费API的集合列表",
+  "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.": "freeCodeCamp.org的开源代码库和课程"
 }
