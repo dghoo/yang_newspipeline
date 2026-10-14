@@ -300,5 +300,16 @@
   "Your always-on AI coworkers that move between text, calls, and Slack.": "始终在线的人工智能同事可以在短信、通话和Slack之间切换",
   "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.": "Mac和iPhone上的小朋友，密切关注您的AI编码代理： Claude Code、Codex、Cursor、Gemini CLI、Antigravity等",
   "A collective list of free APIs": "免费API的集合列表",
-  "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.": "freeCodeCamp.org的开源代码库和课程"
+  "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.": "freeCodeCamp.org的开源代码库和课程",
+  "LFM2.5-24B-A2B is a 24B-parameter reasoning model with only 2B active parameters, built for fast, private agents on-device. It is the largest and final model in the LFM2.5 family, which now spans two orders of magnitude: from LFM2.5-230M to LFM2.5-24B-A2B.": "LFM2.5-24B-A2B是一个24B参数推理模型，只有2B个活动参数，专为设备上的快速私有代理构建",
+  "LFM2.5 is a new family of hybrid models designed for on-device deployment. LFM2.5-24B-A2B is the largest model in the family: a 24B-parameter mixture of experts with only 2B active parameters. It builds on LFM2-24B-A2B with a 131K context window, a vocabulary doubled to 128K tokens, and pre-training scaled up from ~17T to ~33T tokens.": "LFM2.5是一个新的混合模型系列，专为设备上部署而设计",
+  "📄 Paper | 📝 Blog Post | 💻 GitHub | 🤗 Model | 📦 GGUF": "📄 论文|📝博客文章| 💻 GitHub |🤗模型| 📦 GGUF",
+  "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.": "跨平台Xcode替换。在Linux、Windows、macOS上使用SwiftPM构建和部署iOS应用",
+  "An open-source, clean-room reimplementation of Microsoft Word in pure Rust": "在纯Rust中重新实现Microsoft Word的开源洁净室",
+  "A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.": "具有浏览器、终端、文件和工作的个人代理，使用CopilotKit和AG-UI不断构建",
+  "A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.": "用Claude Opus 5.5及其背后的提示制作的越来越多的病毒视频",
+  ":books: Freely available programming books": ": books:免费提供的编程书籍",
+  "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞": "真正做事情的人工智能。任何操作系统",
+  "Interactive roadmaps, guides and other educational content to help developers grow in their careers.": "交互式路线图、指南和其他教育内容，帮助开发人员在职业生涯中成长",
+  "The definitive list that answers \"I want to do X in Python, which tool should I use?\"": "回答“我想在Python中做X ，我应该使用哪个工具？”的最终列表"
 }

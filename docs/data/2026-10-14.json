@@ -1,0 +1,528 @@
+{
+ "date": "2026-10-14",
+ "weekday": "三",
+ "val_date": "10-13",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Xbow 用 GPT-5.6 挖出 Chrome 三个漏洞，获 Google 25 万美元全链奖励",
+    "url": "https://aihot.news/items/w0kr5nvs73elhfd23vj0vm8hi",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-10-14T02:58:37.000Z",
+    "summary": "Xbow 工程师 Brendan Dolan-Gavitt 用 OpenAI 的 gpt-5.6-sol 分析 Chrome 源码，历时六天、花费约 4 万美元算力，找到三个独立漏洞组成漏洞链，使标签页内普通 JavaScript 代码穿越两个防护边界、逃出所有沙箱。"
+   },
+   {
+    "kind": "news",
+    "title": "实测Gemini 4 Argon：知识工作强劲但体验糟糕，卡兹克称难撼Claude Opus 5.5与GPT-6 Astra",
+    "url": "https://aihot.news/items/oxaap1c1cvxi9ngybxks1gngi",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-10-13T22:56:51.000Z",
+    "summary": "Gemini 4 Argon于10月13日全面开放，Pro会员可在Gemini APP使用，Antigravity需100刀Ultra会员。作者实测认为其知识类专业能力强，Vals Index综合第一（68.9）且单次成本仅15.68美元，但CUA-bench仅4.83%排倒数第二；前端效果不及GPT-6 Astra，额度消耗快，中文写作味道重，整体体验糟糕，不建议订阅Ultra。"
+   },
+   {
+    "kind": "news",
+    "title": "Character.ai 破产文件显示 AI 商业模式难以为继",
+    "url": "https://aihot.news/items/pjy8fk8cfl1qvwex08y6kdau8",
+    "source": "404 Media（RSS）",
+    "publishedAt": "2026-10-13T20:06:53.000Z",
+    "summary": "Character.ai 进入破产程序，法院文件显示其商业模式难以支撑开支。公司 2024 年每月 AI 算力支出 1380 万美元、2025 年为 1000 万美元，订阅收入峰值仅每月 280 万美元，含广告的全部收入峰值 530 万美元；2026 年 1 至 8 月算力支出 5610 万美元，8 月时每月仍亏损约 800-900 万美元。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 办公室发现窃密录音装置，涉事员工被捕",
+    "url": "https://aihot.news/items/fgxi5gwvctlssc05odpcyf6ov",
+    "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
+    "publishedAt": "2026-10-13T19:48:42.000Z",
+    "summary": "OpenAI 宣布在办公室内发现一个隐蔽的录音装置，利用自家模型分析该设备及其来源，确认是一名员工几天前安放。OpenAI 已将此事移交 FBI，FBI 已迅速逮捕相关人员，调查仍在进行中。OpenAI 表示目前没有迹象显示该员工不当访问或外泄模型权重、源代码或客户数据，该员工已被解雇，并将此案视为 AI 协助应对复杂安全威胁的实例。"
+   },
+   {
+    "kind": "news",
+    "title": "ComfyUI 上线 NVIDIA VFX 节点，支持视频超分、补帧与 SDR 转 HDR",
+    "url": "https://aihot.news/items/uy1d8e2pcm6sked0p57flawpq",
+    "source": "Comfy Blog",
+    "publishedAt": "2026-10-13T19:41:39.000Z",
+    "summary": "NVIDIA 的 RTX 视频特效模型以自定义节点形式登陆 ComfyUI，模型随节点分发并在本地 RTX GPU 上运行。"
+   },
+   {
+    "kind": "news",
+    "title": "Google DeepMind 的 Gemini 4 Argon 上线 OpenRouter",
+    "url": "https://aihot.news/items/d4oyzg3qte4pt0ywsonolctwf",
+    "source": "X：OpenRouter (@OpenRouter)",
+    "publishedAt": "2026-10-13T16:26:15.000Z",
+    "summary": "Gemini 4 Argon 已上线 OpenRouter，可通过 Google AI Studio 和 Google Cloud 调用。该模型在 AutomationBench 拿到 51.3%、LVBench 拿到 91.7%，并以 68% 并列 CWE-bench v1 第一； introductory 定价为输入 $2/M、输出 $10/M。试用入口：https://openrouter.ai/google/gemini-4-argon"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Gemini 4 Argon 全面开放，作者实测后认为难以撼动 Claude Opus 5.5 和 GPT-6 Astra",
+    "url": "https://aihot.news/items/e8516i4snh2ut9d6zedoc9jsv",
+    "source": "X：卡兹克 (@Khazix0918)",
+    "publishedAt": "2026-10-14T01:02:59.000Z",
+    "summary": "Google 于10月14日全面开放 Gemini 4 Argon，作者实测后认为其很难冲击 Claude Opus 5.5 和 GPT-6 Astra 的地位。"
+   },
+   {
+    "kind": "news",
+    "title": "Visual Studio Copilot 与 SSMS 远程代码执行漏洞（CVE-2026-103572）技术分析",
+    "url": "https://aihot.news/items/o8h7g7pscq0qrlenoadabbb96",
+    "source": "Johann Rehberger / Embrace The Red（RSS）",
+    "publishedAt": "2026-10-13T22:00:40.000Z",
+    "summary": "Johann Rehberger 披露 Visual Studio Copilot 与 SQL Server Management Studio 中的远程代码执行漏洞 CVE-2026-103572，根因是利用文件名末尾多加一个点绕过路径校验，写入 .mcp. 或 settings.VisualStudio. 等受保护配置文件，实现任意命令执行。"
+   },
+   {
+    "kind": "news",
+    "title": "Gemini 4 Argon 正式 GA，智能指数追平 GPT-6 Astra，Cost per Task 仅为 60%",
+    "url": "https://aihot.news/items/w2fkb8pssvuc0mtttxnufchc9",
+    "source": "X：Artificial Analysis (@ArtificialAnlys)",
+    "publishedAt": "2026-10-13T18:00:33.000Z",
+    "summary": "Gemini 4 Argon 正式进入 GA，在 Artificial Analysis Intelligence Index 上与 GPT-6 Astra 排名持平，Cost per Task 为后者的 60%。"
+   },
+   {
+    "kind": "news",
+    "title": "Google 发布 Gemini 4 Argon：面向复杂工程与科研任务的前沿模型",
+    "url": "https://aihot.news/items/smxxtw5ca2c9jscojk4ppe5hf",
+    "source": "Google Blog：AI（RSS）",
+    "publishedAt": "2026-10-13T16:00:00.000Z",
+    "summary": "Google 发布 Gemini 4 Argon，面向开发者、企业、科学家和消费者全球开放，可经 Gemini API、AI Studio、Google Antigravity。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "Meta Muse Wonder (Max) 进入 Arena 榜单：WebDev 第15、文本第2",
+    "url": "https://aihot.news/items/ob6ryetyialrnqhyjusr2s1iz",
+    "source": "X：Arena (@arena)",
+    "publishedAt": "2026-10-13T21:27:15.000Z",
+    "summary": "Arena 宣布 Meta 的 Muse Wonder (Max) 进入 Code Arena: WebDev 榜单第15名（1651分），与 Kimi K3 (Max) 的 1655 分相差 4 分。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "LiquidAI/LFM2.5-24B-A2B",
+    "url": "https://hf-mirror.com/LiquidAI/LFM2.5-24B-A2B",
+    "license": "other",
+    "param": "24B",
+    "likes": 195,
+    "downloads": 2565,
+    "createdAt": "2026-10-12",
+    "intro": "LFM2.5-24B-A2B是一个24B参数推理模型，只有2B个活动参数，专为设备上的快速私有代理构建"
+   },
+   {
+    "kind": "model",
+    "id": "LiquidAI/LFM2.5-24B-A2B-Base",
+    "url": "https://hf-mirror.com/LiquidAI/LFM2.5-24B-A2B-Base",
+    "license": "other",
+    "param": "24B",
+    "likes": 27,
+    "downloads": 7,
+    "createdAt": "2026-10-09",
+    "intro": "LFM2.5是一个新的混合模型系列，专为设备上部署而设计"
+   },
+   {
+    "kind": "model",
+    "id": "lightonai/colgrep-agent-2B",
+    "url": "https://hf-mirror.com/lightonai/colgrep-agent-2B",
+    "license": "apache-2.0",
+    "param": "2B",
+    "likes": 23,
+    "downloads": 153,
+    "createdAt": "2026-10-03",
+    "intro": "📄 论文|📝博客文章| 💻 GitHub |🤗模型| 📦 GGUF"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "lang": "Python",
+   "stars": "63,921",
+   "desc": "VoiceStudio是开源、完全本地的ElevenLabs替代品--语音克隆、语音设计、视频配音、听写、转录和有声读物创作，支持646种语言"
+  },
+  {
+   "repo": "vercel-labs/skills",
+   "url": "https://github.com/vercel-labs/skills",
+   "lang": "TypeScript",
+   "stars": "34,667",
+   "desc": "开放式智能体技能工具- npx技能"
+  },
+  {
+   "repo": "xtool-org/xtool",
+   "url": "https://github.com/xtool-org/xtool",
+   "lang": "Swift",
+   "stars": "9,657",
+   "desc": "跨平台Xcode替换。在Linux、Windows、macOS上使用SwiftPM构建和部署iOS应用"
+  },
+  {
+   "repo": "storytold/wordcraft",
+   "url": "https://github.com/storytold/wordcraft",
+   "lang": "Rust",
+   "stars": "11,358",
+   "desc": "在纯Rust中重新实现Microsoft Word的开源洁净室"
+  },
+  {
+   "repo": "CopilotKit/openmuse",
+   "url": "https://github.com/CopilotKit/openmuse",
+   "lang": "TypeScript",
+   "stars": "4,932",
+   "desc": "具有浏览器、终端、文件和工作的个人代理，使用CopilotKit和AG-UI不断构建"
+  },
+  {
+   "repo": "yihui-dev/awesome-opus5-5-videos",
+   "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+   "lang": "",
+   "stars": "4,872",
+   "desc": "用Claude Opus 5.5及其背后的提示制作的越来越多的病毒视频"
+  },
+  {
+   "repo": "EbookFoundation/free-programming-books",
+   "url": "https://github.com/EbookFoundation/free-programming-books",
+   "lang": "Python",
+   "stars": "398,999",
+   "desc": ": books:免费提供的编程书籍"
+  },
+  {
+   "repo": "openclaw/openclaw",
+   "url": "https://github.com/openclaw/openclaw",
+   "lang": "TypeScript",
+   "stars": "391,927",
+   "desc": "真正做事情的人工智能。任何操作系统"
+  },
+  {
+   "repo": "nilbuild/developer-roadmap",
+   "url": "https://github.com/nilbuild/developer-roadmap",
+   "lang": "TypeScript",
+   "stars": "369,333",
+   "desc": "交互式路线图、指南和其他教育内容，帮助开发人员在职业生涯中成长"
+  },
+  {
+   "repo": "vinta/awesome-python",
+   "url": "https://github.com/vinta/awesome-python",
+   "lang": "Python",
+   "stars": "327,242",
+   "desc": "回答“我想在Python中做X ，我应该使用哪个工具？”的最终列表"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "wagoodman/dive",
+   "url": "https://github.com/wagoodman/dive",
+   "lang": "Go",
+   "stars": "54,633",
+   "desc": "用于探索Docker镜像中每个图层的工具",
+   "en": false
+  },
+  {
+   "repo": "dockur/windows",
+   "url": "https://github.com/dockur/windows",
+   "lang": "Shell",
+   "stars": "53,623",
+   "desc": "Docker容器中的Windows",
+   "en": false
+  },
+  {
+   "repo": "sickcodes/Docker-OSX",
+   "url": "https://github.com/sickcodes/Docker-OSX",
+   "lang": "Shell",
+   "stars": "52,975",
+   "desc": "在Docker中运行macOS虚拟机",
+   "en": false
+  },
+  {
+   "repo": "mastodon/mastodon",
+   "url": "https://github.com/mastodon/mastodon",
+   "lang": "Ruby",
+   "stars": "50,403",
+   "desc": "您的自托管、全球互联的微博社区",
+   "en": false
+  },
+  {
+   "repo": "LeCoupa/awesome-cheatsheets",
+   "url": "https://github.com/LeCoupa/awesome-cheatsheets",
+   "lang": "JavaScript",
+   "stars": "46,556",
+   "desc": "热门编程语言、框架和开发工具的👩‍💻👨‍💻精彩备忘单",
+   "en": false
+  },
+  {
+   "repo": "DataTalksClub/data-engineering-zoomcamp",
+   "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+   "lang": "Jupyter Notebook",
+   "stars": "46,191",
+   "desc": "Data Engineering Zoomcamp是一门为期9周的关于构建生产就绪数据管道的免费课程",
+   "en": false
+  },
+  {
+   "repo": "fastapi/full-stack-fastapi-template",
+   "url": "https://github.com/fastapi/full-stack-fastapi-template",
+   "lang": "TypeScript",
+   "stars": "45,972",
+   "desc": "Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, FastAPI Cloud, and Docker Compose.",
+   "en": false
+  },
+  {
+   "repo": "LizardByte/Sunshine",
+   "url": "https://github.com/LizardByte/Sunshine",
+   "lang": "C++",
+   "stars": "42,200",
+   "desc": "Moonlight的自托管游戏流主机",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4262.4,
+   "chg": -0.31,
+   "pe": 13.17,
+   "pe_pct": 60,
+   "pb": 1.39,
+   "pb_pct": 33,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": 7078.67,
+   "chg": -0.09,
+   "pe": 30.49,
+   "pe_pct": 71,
+   "pb": 2.21,
+   "pb_pct": 70,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "创业板指",
+   "point": 2924.39,
+   "chg": -1.15,
+   "pe": 33.95,
+   "pe_pct": 24,
+   "pb": 4.75,
+   "pb_pct": 47,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "科创50",
+   "point": 1411.93,
+   "chg": -1.07,
+   "pe": 116.58,
+   "pe_pct": 78,
+   "pb": 6.77,
+   "pb_pct": 76,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "中证红利",
+   "point": 5683.15,
+   "chg": 0.85,
+   "pe": 8.97,
+   "pe_pct": 86,
+   "pb": 0.88,
+   "pb_pct": 58,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11306.29,
+   "chg": 0.79,
+   "pe": 8.83,
+   "pe_pct": 80,
+   "pb": 0.91,
+   "pb_pct": 66,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24384.95,
+   "chg": 0.16,
+   "pe": 10.86,
+   "pe_pct": 57,
+   "pb": 1.15,
+   "pb_pct": 62,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 27204.38,
+   "chg": -0.15,
+   "pe": 30.74,
+   "pe_pct": 50,
+   "pb": 9.69,
+   "pb_pct": 91,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7805.45,
+   "chg": -0.02,
+   "pe": 25.32,
+   "pe_pct": 58,
+   "pb": 5.69,
+   "pb_pct": 98,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "传媒",
+    "chg": 3.2
+   },
+   {
+    "name": "元件",
+    "chg": 1.95
+   },
+   {
+    "name": "石油石化",
+    "chg": 1.47
+   },
+   {
+    "name": "煤炭",
+    "chg": 1.41
+   },
+   {
+    "name": "公用事业",
+    "chg": 1.07
+   },
+   {
+    "name": "航运港口",
+    "chg": 1.01
+   }
+  ],
+  "dn": [
+   {
+    "name": "玻璃玻纤",
+    "chg": -1.67
+   },
+   {
+    "name": "仪器仪表",
+    "chg": -1.56
+   },
+   {
+    "name": "一般零售",
+    "chg": -1.45
+   },
+   {
+    "name": "电网设备",
+    "chg": -1.42
+   },
+   {
+    "name": "化学纤维",
+    "chg": -1.37
+   },
+   {
+    "name": "医疗服务",
+    "chg": -1.34
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+0.27%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.5987（2026-10-13）（≈ 860 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.4799",
+   "date": "2026-10-12"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.4119",
+   "date": "2026-10-12"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.6553",
+   "date": "2026-10-12"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1817",
+   "date": "2026-10-12"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6833",
+   "date": "2026-10-13"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8816",
+   "date": "2026-10-12"
+  }
+ ],
+ "macro": [
+  {
+   "title": "欧洲央行管委称可能不得不再次加息",
+   "ctime": "1791949514",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-14/doc-iniveefp7848461.shtml"
+  },
+  {
+   "title": "拉加德称欧洲央行尚未看到通胀二次效应",
+   "ctime": "1791948898",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-14/doc-iniveefp7839619.shtml"
+  },
+  {
+   "title": "美国9月CPI数据今夜来袭！美联储10月会议预期会否再被推翻？",
+   "ctime": "1791947127",
+   "url": "https://finance.sina.com.cn/roll/2026-10-14/doc-iniveefm7280019.shtml"
+  },
+  {
+   "title": "国恩股份溢价200%收购中氟能 A股两日跌停、H股暴跌32% 市场为何“用脚投票”？",
+   "ctime": "1791953882",
+   "url": "https://finance.sina.com.cn/stock/aigcy/2026-10-14/doc-inivekpm7772786.shtml"
+  },
+  {
+   "title": "羲禾科技IPO闪电上会：财务数据“亮眼”与多项风险信号并存",
+   "ctime": "1791952856",
+   "url": "https://finance.sina.com.cn/stock/aigcy/2026-10-14/doc-inivekps4379103.shtml"
+  },
+  {
+   "title": "新加坡PDG拟融资12亿美元用于马来西亚数据中心项目",
+   "ctime": "1791952228",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-14/doc-inivekps4364711.shtml"
+  },
+  {
+   "title": "IMF总裁认为美国仅靠经济增长不足以解决高债务和财政赤字问题",
+   "ctime": "1791951790",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-14/doc-inivekpm7745432.shtml"
+  },
+  {
+   "title": "工行、建行，A股市值齐破3万亿大关",
+   "ctime": "1791945373",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-14/doc-iniveefp7801754.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 24,
+   "pe": 33.9518,
+   "pb_pct": 47,
+   "pb": 4.7529
+  }
+ ]
+}
