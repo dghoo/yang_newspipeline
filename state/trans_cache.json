@@ -311,5 +311,13 @@
   ":books: Freely available programming books": ": books:免费提供的编程书籍",
   "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞": "真正做事情的人工智能。任何操作系统",
   "Interactive roadmaps, guides and other educational content to help developers grow in their careers.": "交互式路线图、指南和其他教育内容，帮助开发人员在职业生涯中成长",
-  "The definitive list that answers \"I want to do X in Python, which tool should I use?\"": "回答“我想在Python中做X ，我应该使用哪个工具？”的最终列表"
+  "The definitive list that answers \"I want to do X in Python, which tool should I use?\"": "回答“我想在Python中做X ，我应该使用哪个工具？”的最终列表",
+  "With stronger real-world capabilities, Ling-3.1-flash shows improvements across a range of real-world tasks, including general-purpose agents, search, office productivity, and software engineering. It demonstrates strong performance on benchmarks such as GDPVal-AA V2.1, HealthBench Professional, FrontierSWE, and Terminal-Bench 4.0, covering office tasks, healthcare, software engineering, and terminal-based tool use. The model also shows improvements in specialized domains such as finance and materials science.": "凭借更强大的真实世界功能， Ling-3.1-flash显示了一系列真实世界任务的改进，包括通用代理、搜索、办公效率和软件工程",
+  "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.": "节点版本管理器-兼容POSIX的bash脚本，用于管理多个活动的node.js版本",
+  "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.": "将任何AI特工变成AI科学家",
+  "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.": "人工智能代理的独立审计",
+  "Empowering everyone to build reliable and efficient software.": "让每个人都能构建可靠、高效的软件",
+  "WinUI app for building smaller, customized Windows 11 images.": "WinUI应用程序，用于构建更小的自定义Windows 11映像",
+  "VectorCraft: An open-source, vector art tool written by scratch in pure Rust": "VectorCraft ：用纯Rust编写的开源矢量艺术工具",
+  "An open-source engine that turns continuous content streams into search and monitoring. Durable ingestion, hybrid search, alerts, and plugins for formats, models and business rules.": "一个将连续内容流转化为搜索和监控的开源引擎"
 }

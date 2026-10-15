@@ -1,0 +1,472 @@
+{
+ "date": "2026-10-15",
+ "weekday": "四",
+ "val_date": "10-14",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "美国 8 州起诉 OpenAI，指控 ChatGPT 指导青少年自伤或伤害他人",
+    "url": "https://aihot.news/items/v5sbitu4hw1bozz0nlopcl3t8",
+    "source": "IT之家·人工智能",
+    "publishedAt": "2026-10-14T23:39:08.393Z",
+    "summary": "当地时间 14 日，美国 8 个州的总检察长分别在州法院起诉 OpenAI，指控 ChatGPT 指导包括青少年在内的用户伤害自己或他人，并刻意迎合用户以获取信任。"
+   },
+   {
+    "kind": "news",
+    "title": "欧盟就模型越狱事件调查 OpenAI 和 Anthropic，最高可罚全球营业额 3%",
+    "url": "https://aihot.news/items/yq46ddqwq7ns4ilpaqh6k0kql",
+    "source": "IT之家·人工智能",
+    "publishedAt": "2026-10-14T23:13:18.290Z",
+    "summary": "欧盟委员会人工智能办公室正式向 OpenAI 和 Anthropic 发出信息调取请求，调查两家公司前沿模型测试期间的模型越狱及入侵外部真实系统事件，这是《人工智能法案》实施以来对前沿实验室安全事故的首次重要执法考验。"
+   },
+   {
+    "kind": "news",
+    "title": "Claude Code 空闲压缩从摘要继续，可用 idleCompaction 关闭并自定义阈值",
+    "url": "https://aihot.news/items/whbmvotra7659u98jmj00oegi",
+    "source": "X：Lydia Hallie（Anthropic，Claude Code） (@lydiahallie)",
+    "publishedAt": "2026-10-14T21:36:11.000Z",
+    "summary": "Claude Code 的空闲压缩会让 Claude 从摘要而非完整上下文继续。作者说明可在 settings. 中设置 \"idleCompaction\": false 关闭，并通过 CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS 自定义阈值，默认为 200k。"
+   },
+   {
+    "kind": "news",
+    "title": "40 位总检察长介入 Character.AI 破产案，要求保护用户对话数据",
+    "url": "https://aihot.news/items/gpgj8ws42xbs5zhbxfzvn2g6i",
+    "source": "The Verge：AI（RSS）",
+    "publishedAt": "2026-10-14T18:47:54.000Z",
+    "summary": "纽约总检察长 Letitia James 联合 40 位两党总检察长在 Character.AI 破产案中提交利益通知，要求任何资产出售方落实用户数据保护。"
+   },
+   {
+    "kind": "news",
+    "title": "LangChain 详解 Deep Agents 的上下文工程：如何记住信息而不塞满上下文窗口",
+    "url": "https://aihot.news/items/za03v9avbq4fpb2y5b1ql1t27",
+    "source": "LangChain：Blog（RSS）",
+    "publishedAt": "2026-10-14T17:00:00.000Z",
+    "summary": "LangChain 发布博客，介绍其开源 Agent 框架 Deep Agents 如何用 middleware 做上下文工程，应对长任务中的 context rot。"
+   },
+   {
+    "kind": "news",
+    "title": "Lovable 推出增长工具，从同一聊天窗口帮你获客投广告和做 SEO",
+    "url": "https://aihot.news/items/ooiqiluy56g21ir2u4phxjqu7",
+    "source": "Lovable Blog",
+    "publishedAt": "2026-10-14T12:50:00.000Z",
+    "summary": "Lovable 推出增长工具，在原有建应用聊天窗口中提供增长计划、广告投放和 SEO 能力。用户设定目标后，Lovable 依据应用上下文生成可执行计划；可连接 Google Ads 和 Meta 账号在 Google。"
+   },
+   {
+    "kind": "news",
+    "title": "Databricks 讲解如何在 AI Runtime 上将 Qwen 3.8 27B 微调时间缩短 6 倍",
+    "url": "https://aihot.news/items/s27ozk3mqeklm58sqxjeaz2wk",
+    "source": "Databricks：Blog（RSS）",
+    "publishedAt": "2026-10-14T11:30:00.000Z",
+    "summary": "Databricks 演示通过系统性性能优化，将 Qwen 3.8 27B 在 AI Runtime 上的微调时间从 7 小时 44 分钟降至 1 小时 17 分钟，提速 6 倍。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Gemini 4 Argon 向全球 Google AI Pro 和 Ultra 订阅者开放",
+    "url": "https://aihot.news/items/rraljkr6dlbt4wabpcogmdlfv",
+    "source": "X：Gemini (@GeminiApp)",
+    "publishedAt": "2026-10-14T22:02:05.000Z",
+    "summary": "Gemini 官方宣布 Gemini 4 Argon 已向全球 Google AI Pro 和 Ultra 订阅者开放。该模型此前已在 Gemini 应用中逐步推出，定位为处理复杂任务的前沿模型，更多详情见官方推文线程 https://x.com/GeminiApp/status/2110039322229649783。"
+   },
+   {
+    "kind": "news",
+    "title": "MIT团队用机器学习修正误差，将两到六周天气预报准确率翻倍",
+    "url": "https://aihot.news/items/pqpqgxyiu4qyu86fbljd726v9",
+    "source": "MIT News（RSS）",
+    "publishedAt": "2026-10-14T15:00:00.000Z",
+    "summary": "MIT研究人员团队在Nature发表论文，提出一个机器学习后处理层，通过从历史数据中学习现有预报模型的错误并修正其输出，将两周到六周范围的预报准确率翻倍。该模型在ECMWF的季节间预报竞赛中获第一名，首次在该时间范围内稳定超过气候学平均值，并显著改善洪水、寒潮等极端天气事件的预测；模型开源、低成本、可附加于任意预报模型，肯尼亚气象部门已接洽用于改进季风季预报。"
+   },
+   {
+    "kind": "news",
+    "title": "面壁智能开源 MiniCPM-V 4.7，35B-A3B MoE 模型 3GB 内存端侧流畅运行",
+    "url": "https://aihot.news/items/fidy0y9chlgs0puyn96qkmj1b",
+    "source": "公众号：面壁智能（MiniCPM）",
+    "publishedAt": "2026-10-13T10:29:21.000Z",
+    "summary": "面壁智能联合 OpenBMB 社区于10月13日发布并开源 MiniCPM-V 4.7，包含 35B-A3B 和 1B 两个版本，称其为全球首个可在端侧无损流畅运行的开源 MoE 多模态大模型。"
+   },
+   {
+    "kind": "news",
+    "title": "Liquid AI 发布 LFM2.5-24B-A2B 端侧推理模型",
+    "url": "https://aihot.news/items/j0hjfg7ioz2gs0s8msqnafpjj",
+    "source": "Liquid AI 模型与工程博客（网页）",
+    "publishedAt": "2026-10-13T00:00:00.000Z",
+    "summary": "Liquid AI 发布开源权重模型 LFM2.5-24B-A2B，总参数 24B、每 token 激活 2B，定位端侧快速智能体。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "Musk 称 Grok Voice 3.0 登顶 Artificial Analysis 语音模型评测",
+    "url": "https://aihot.news/items/yp2h3luqmkip3si23h4pnfmvb",
+    "source": "X：Elon Musk (@elonmusk, xAI)",
+    "publishedAt": "2026-10-14T21:32:41.000Z",
+    "summary": "Musk 发文称 Grok Voice 3.0 已是全球领先的对话语音模型，并引用 Artificial Analysis 的评测：Grok Voice 3.0 以 86.9 分登顶 Speech to Speech Index，领先 GPT-Live-1（Astra, medium）的 83.2 和 Gemini 3.8 Live 的 82.6，较 Grok Voice 2.0 的 81.3 提升 5.6 分。该模型通过 Realtime API 提供，价格 $0.08 每分钟，Big Bench Audio 平均首音频延迟 0.81 秒，任务成功率 94.8% 居榜首。"
+   },
+   {
+    "kind": "news",
+    "title": "Meta 的 Muse Wonder (Max) 以 +6.4% 净提升进入 Agent Arena 第12名",
+    "url": "https://aihot.news/items/uceolgbpttfw4cgmkqc8cvyw5",
+    "source": "X：Arena (@arena)",
+    "publishedAt": "2026-10-14T20:19:17.000Z",
+    "summary": "Arena 发布基于超过 5000 次真实智能体会话的评测结果，Meta 的 Muse Wonder (Max) 进入 Agent Arena 第12名，净提升 +6.4%，比 Muse Spark 1.3 (Max) 高 +2.8 分并上升四位。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "inclusionAI/Ling-3.1-flash",
+    "url": "https://hf-mirror.com/inclusionAI/Ling-3.1-flash",
+    "license": "mit",
+    "param": "",
+    "likes": 74,
+    "downloads": 8,
+    "createdAt": "2026-10-13",
+    "intro": "凭借更强大的真实世界功能， Ling-3.1-flash显示了一系列真实世界任务的改进，包括通用代理、搜索、办公效率和软件工程"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "nvm-sh/nvm",
+   "url": "https://github.com/nvm-sh/nvm",
+   "lang": "Shell",
+   "stars": "95,487",
+   "desc": "节点版本管理器-兼容POSIX的bash脚本，用于管理多个活动的node.js版本"
+  },
+  {
+   "repo": "K-Dense-AI/scientific-agent-skills",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+   "lang": "Python",
+   "stars": "49,551",
+   "desc": "将任何AI特工变成AI科学家"
+  },
+  {
+   "repo": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "lang": "Python",
+   "stars": "52,656",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+  },
+  {
+   "repo": "ifixai-ai/iFixAi",
+   "url": "https://github.com/ifixai-ai/iFixAi",
+   "lang": "Python",
+   "stars": "27,669",
+   "desc": "人工智能代理的独立审计"
+  },
+  {
+   "repo": "vxcontrol/pentagi",
+   "url": "https://github.com/vxcontrol/pentagi",
+   "lang": "Go",
+   "stars": "29,764",
+   "desc": "完全自主的AI Agents系统，能够执行复杂的渗透测试任务"
+  },
+  {
+   "repo": "rust-lang/rust",
+   "url": "https://github.com/rust-lang/rust",
+   "lang": "Rust",
+   "stars": "120,125",
+   "desc": "让每个人都能构建可靠、高效的软件"
+  },
+  {
+   "repo": "ntdevlabs/tiny11builder",
+   "url": "https://github.com/ntdevlabs/tiny11builder",
+   "lang": "C#",
+   "stars": "20,320",
+   "desc": "WinUI应用程序，用于构建更小的自定义Windows 11映像"
+  },
+  {
+   "repo": "NationalSecurityAgency/ghidra",
+   "url": "https://github.com/NationalSecurityAgency/ghidra",
+   "lang": "Java",
+   "stars": "87,756",
+   "desc": "Ghidra是一个软件逆向工程（ SRE ）框架"
+  },
+  {
+   "repo": "storytold/vectorcraft",
+   "url": "https://github.com/storytold/vectorcraft",
+   "lang": "Rust",
+   "stars": "8,943",
+   "desc": "VectorCraft ：用纯Rust编写的开源矢量艺术工具"
+  },
+  {
+   "repo": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "lang": "Shell",
+   "stars": "299,241",
+   "desc": "有效的智能体技能框架和软件开发方法"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "AstrBotDevs/AstrBot",
+   "url": "https://github.com/AstrBotDevs/AstrBot",
+   "lang": "Python",
+   "stars": "41,898",
+   "desc": "AI Agent Assistant和开发框架集成了许多IM平台、LLM、插件和AI功能，可以作为您的开放式替代方案",
+   "en": false
+  },
+  {
+   "repo": "outline/outline",
+   "url": "https://github.com/outline/outline",
+   "lang": "TypeScript",
+   "stars": "40,902",
+   "desc": "成长型团队最快的知识库。美观、实时协作、功能丰富且兼容markdown",
+   "en": false
+  },
+  {
+   "repo": "The-Vibe-Company/quivr",
+   "url": "https://github.com/The-Vibe-Company/quivr",
+   "lang": "Go",
+   "stars": "39,589",
+   "desc": "一个将连续内容流转化为搜索和监控的开源引擎",
+   "en": false
+  },
+  {
+   "repo": "portainer/portainer",
+   "url": "https://github.com/portainer/portainer",
+   "lang": "TypeScript",
+   "stars": "38,666",
+   "desc": "让Docker和Kubernetes管理变得简单",
+   "en": false
+  },
+  {
+   "repo": "harness/harness",
+   "url": "https://github.com/harness/harness",
+   "lang": "Go",
+   "stars": "38,540",
+   "desc": "Harness Open Source是一个端到端开发人员平台，具有源代码管理、CI/CD管道、托管开发人员环境和工件注册表",
+   "en": false
+  },
+  {
+   "repo": "aquasecurity/trivy",
+   "url": "https://github.com/aquasecurity/trivy",
+   "lang": "Go",
+   "stars": "38,425",
+   "desc": "查找漏洞、错误配置、秘密、容器中的SBOM、Kubernetes、代码仓库、云等",
+   "en": false
+  },
+  {
+   "repo": "docker/compose",
+   "url": "https://github.com/docker/compose",
+   "lang": "Go",
+   "stars": "38,358",
+   "desc": "使用Docker定义和运行多容器应用程序",
+   "en": false
+  },
+  {
+   "repo": "community-scripts/ProxmoxVE",
+   "url": "https://github.com/community-scripts/ProxmoxVE",
+   "lang": "Shell",
+   "stars": "29,816",
+   "desc": "Proxmox VE辅助脚本（社区版）",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4133.46,
+   "chg": -2.0,
+   "pe": 13.09,
+   "pe_pct": 58,
+   "pb": 1.39,
+   "pb_pct": 31,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": 6771.93,
+   "chg": -2.98,
+   "pe": 30.09,
+   "pe_pct": 70,
+   "pb": 2.18,
+   "pb_pct": 69,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "创业板指",
+   "point": 2768.63,
+   "chg": -3.42,
+   "pe": 33.0,
+   "pe_pct": 22,
+   "pb": 4.62,
+   "pb_pct": 42,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "科创50",
+   "point": 1338.53,
+   "chg": -3.02,
+   "pe": 112.89,
+   "pe_pct": 78,
+   "pb": 6.53,
+   "pb_pct": 69,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5516.0,
+   "chg": -2.77,
+   "pe": 9.03,
+   "pe_pct": 86,
+   "pb": 0.89,
+   "pb_pct": 59,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11096.58,
+   "chg": -1.76,
+   "pe": 8.87,
+   "pe_pct": 80,
+   "pb": 0.91,
+   "pb_pct": 66,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 23955.58,
+   "chg": -1.47,
+   "pe": 10.81,
+   "pe_pct": 56,
+   "pb": 1.14,
+   "pb_pct": 61,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 26692.87,
+   "chg": -1.88,
+   "pe": 30.08,
+   "pe_pct": 45,
+   "pb": 9.5,
+   "pb_pct": 86,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7718.94,
+   "chg": -1.11,
+   "pe": 25.02,
+   "pe_pct": 56,
+   "pb": 5.57,
+   "pb_pct": 96,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [],
+  "dn": []
+ },
+ "gold": "SGE Au99.99（经 518880 映射）：ETF 最新净值 8.5041（2026-10-14）（≈ 850 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.4580",
+   "date": "2026-10-13"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.3829",
+   "date": "2026-10-13"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.6534",
+   "date": "2026-10-13"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1803",
+   "date": "2026-10-13"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6888",
+   "date": "2026-10-14"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8790",
+   "date": "2026-10-13"
+  }
+ ],
+ "macro": [
+  {
+   "title": "印尼盾走低，印尼央行入市干预汇市",
+   "ctime": "1792039333",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhpnp8168047.shtml"
+  },
+  {
+   "title": "避险需求推动美国5年期国债收益率下跌10个基点",
+   "ctime": "1792036646",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhpns4577385.shtml"
+  },
+  {
+   "title": "美CPI靴子落地，现货黄金涨超1%！有色后市怎么看？机构解读：美联储10月或暂不加息！",
+   "ctime": "1792034726",
+   "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-15/doc-inivhpnm7373375.shtml"
+  },
+  {
+   "title": "孟晓苏|3.9万亿国债的正确投向：不是无效基建，而是中储房与保障房",
+   "ctime": "1792033332",
+   "url": "https://finance.sina.com.cn/stock/estate/2026-10-15/doc-inivhpnp8086909.shtml"
+  },
+  {
+   "title": "潘功胜行长出席中国与海合会第四次央行行长会并举行系列双边会见",
+   "ctime": "1792032826",
+   "url": "https://finance.sina.com.cn/money/bank/2026-10-15/doc-inivhpnp8086316.shtml"
+  },
+  {
+   "title": "日本经济产业大臣：日美就5500亿美元投资计划下首个芯片项目达成一致",
+   "ctime": "1792036565",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhpnu1348403.shtml"
+  },
+  {
+   "title": "A股陷入精神分裂：指数绿成韭菜地，银行红成“老年乐”",
+   "ctime": "1792034522",
+   "url": "https://finance.sina.com.cn/stock/2026-10-15/doc-inivhpns4532367.shtml"
+  },
+  {
+   "title": "美国9月通胀超预期，本月加息稳了？",
+   "ctime": "1792033860",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-15/doc-inivhpnu1285071.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 22,
+   "pe": 33.0036,
+   "pb_pct": 42,
+   "pb": 4.6201
+  }
+ ]
+}
