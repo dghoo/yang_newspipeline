@@ -319,5 +319,11 @@
   "Empowering everyone to build reliable and efficient software.": "让每个人都能构建可靠、高效的软件",
   "WinUI app for building smaller, customized Windows 11 images.": "WinUI应用程序，用于构建更小的自定义Windows 11映像",
   "VectorCraft: An open-source, vector art tool written by scratch in pure Rust": "VectorCraft ：用纯Rust编写的开源矢量艺术工具",
-  "An open-source engine that turns continuous content streams into search and monitoring. Durable ingestion, hybrid search, alerts, and plugins for formats, models and business rules.": "一个将连续内容流转化为搜索和监控的开源引擎"
+  "An open-source engine that turns continuous content streams into search and monitoring. Durable ingestion, hybrid search, alerts, and plugins for formats, models and business rules.": "一个将连续内容流转化为搜索和监控的开源引擎",
+  "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.": "🪨 为什么在很少令牌做恶作剧时使用许多令牌",
+  "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated": "🌊 原始代理框架",
+  "TokenSpeed is a speed-of-light LLM inference engine.": "TokenSpeed是一款光速LLM推理引擎",
+  "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.": "XERJ是人工智能搜索数据的新方式",
+  "PhotoCraft: An open-source, photo editor written by scratch in pure Rust": "PhotoCraft ：用纯Rust编写的开源照片编辑器",
+  "Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more.": "即时运行的云模板，用于RAG、AI管道和具有实时数据的企业搜索"
 }
