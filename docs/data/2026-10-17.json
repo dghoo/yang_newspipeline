@@ -1,0 +1,528 @@
+{
+ "date": "2026-10-17",
+ "weekday": "六",
+ "val_date": "10-16",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Anthropic 如何在 Claude 写下 Claude Code 约 90% 代码后重新设计代码评审",
+    "url": "https://aihot.news/items/p4mq9t7wyzlxritu15i6d8dtv",
+    "source": "X：邵猛 (@shao__meng)",
+    "publishedAt": "2026-10-17T01:52:43.000Z",
+    "summary": "作者解读 Anthropic 关于 Claude Code 代码评审重构的博客：Claude 写了约 90% 的代码，2026 年 6 月到 9 月合并 PR 翻倍以上而 revert 率下降超 40%。"
+   },
+   {
+    "kind": "news",
+    "title": "a16z 图表周报：智能体购物遭电商拦截，消费意愿仍滞后",
+    "url": "https://aihot.news/items/j5vlb3dn14h2b4xy1hbdschyc",
+    "source": "a16z：News（RSS）",
+    "publishedAt": "2026-10-16T14:00:39.000Z",
+    "summary": "a16z 图表周报指出智能体商务遇阻，Cloudflare 数据显示智能体与爬虫收到的 403 拒绝响应自夏季起明显增多，约为原先两倍。文章引用 NRF 数据称退货率与退货成本自 2019 年以来分别翻倍和增至三倍，并引用调查指 42% 消费者完全不信任 AI 代购，Similarweb 数据显示 AI 购物多发生在发现与购买之间的中间阶段，而非下单环节。"
+   },
+   {
+    "kind": "news",
+    "title": "NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI",
+    "url": "https://aihot.news/items/rq32az1hr7zpbipiyega9ehjr",
+    "source": "NVIDIA：Newsroom（RSS）",
+    "publishedAt": "2026-10-16T12:00:00.000Z",
+    "summary": "NVIDIA 宣布 RTX Spark 笔记本正式开售，来自 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI，起价 $2,599。"
+   },
+   {
+    "kind": "news",
+    "title": "商务部、科技部拟在出口技术目录增列23项人工智能技术并征意见",
+    "url": "https://aihot.news/items/p11tj593iq5nrtiotvoxllop4",
+    "source": "IT之家·人工智能",
+    "publishedAt": "2026-10-16T08:23:54.520Z",
+    "summary": "商务部、科技部发布2026年第48号公告，就修订《中国禁止出口限制出口技术目录》公开征求意见，拟增列人工智能、生物医药、光伏共40项技术，其中禁止出口14项、限制出口26项，并对相关技术实施出口前登记的临时管理措施。"
+   },
+   {
+    "kind": "news",
+    "title": "Waymo 宣布进军多伦多，计划2028年迎接首批乘客",
+    "url": "https://aihot.news/items/xwgy3mhme6nur9kndswxlu0es",
+    "source": "Waymo：Blog（网页）",
+    "publishedAt": "2026-10-16T07:00:00.000Z",
+    "summary": "Waymo 宣布进入加拿大，将在多伦多布局完全自动驾驶出行服务，目标2028年迎接首批乘客。近期将先以人工驾驶方式采集高精地图并由自动驾驶专家进行测试；Waymo 与 Element Fleet Management 合作提供车队管理服务，将逐步创造数百个岗位。官方称基于超4亿公里完全自动驾驶里程，其车辆在严重伤害及以上事故中比人类驾驶少95%。"
+   },
+   {
+    "kind": "news",
+    "title": "丹麦最高法院裁定持有传播 AI 生成儿童色情内容可判实刑",
+    "url": "https://aihot.news/items/bvljy29i9xwh3wnkwign3npt4",
+    "source": "IT之家·人工智能",
+    "publishedAt": "2026-10-16T06:14:36.073Z",
+    "summary": "据彭博社 15 日报道，丹麦最高法院维持对一名 31 岁男子 18 个月监禁的判决，该男子因持有并传播 3.6 万余张 AI 生成的儿童色情图像获刑，且不适用缓刑。法院裁定，即使图像无真实人物原型，也受丹麦《刑法》约束，量刑时不应考虑人物是否虚构；此案为丹麦首起此类定罪，并引发跨国调查，警方查明 273 名买家身份、逮捕 25 人。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Google Research 展示 AI 智能体自主湿实验室的三项进展：VERID 框架、适配体闭环发现与全新蛋白结合剂设计",
+    "url": "https://aihot.news/items/kovelcbltjj7xf054h8mffaxo",
+    "source": "Google Research：Blog（网页）",
+    "publishedAt": "2026-10-16T00:00:00.000Z",
+    "summary": "Google Research 发布三项研究，构建 AI 智能体自主湿实验室的基础模块。"
+   },
+   {
+    "kind": "news",
+    "title": "PromptArmor 研究称开放权重模型遭间接提示词注入攻击的易感率高 88%",
+    "url": "https://aihot.news/items/y1c13l53cd5u3wg565qu60q4d",
+    "source": "PromptArmor：Threat Intelligence",
+    "publishedAt": "2026-10-16T00:00:00.000Z",
+    "summary": "PromptArmor 在 9800 次试验的评测中发现，开放权重模型（DeepSeek、Kimi、GLM、Qwen）对真实世界间接提示词注入攻击链的易感率为 26.7%，闭源模型（GPT、Claude、Gemini）为 14.2%，开放权重模型易感率高 88%。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 报告：AI 如何改变公司内部的雇佣与工作组织",
+    "url": "https://aihot.news/items/nextj30ehkdcjpzpk4fgz1p1w",
+    "source": "Anthropic：Research（发表成果 · 网页）",
+    "publishedAt": "2026-10-15T16:00:00.000Z",
+    "summary": "Anthropic 发布基于内部数据的技术报告，研究 AI 对自身雇佣与工作组织的影响。到 2026 年 8 月，交互式 AI agent 工时已达员工的 6 倍；技术部门初级员工占比从 21% 降至 14%，初级技术招聘占比从 27% 降至 9%。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 调查揭示公众与员工对 AI 影响的预期鸿沟",
+    "url": "https://aihot.news/items/oetmf0o04av0c4h7yrgfkb4zc",
+    "source": "Anthropic：Research（发表成果 · 网页）",
+    "publishedAt": "2026-10-15T16:00:00.000Z",
+    "summary": "Anthropic 于 2026 年 8 月调查美国成人代表样本（N=10,980）与其员工，发现双方对 AI 现有能力判断相近，但对进展速度分歧巨大。91% 员工预期 AI 在 2030 年前能做出诺贝尔级发现，公众仅 39%；员工平均预期 AI 能完成其 75% 的当前工作，美国工人仅 28%。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "Muse Spark Open (Max) 登顶 Code Arena: WebDev 美国开源模型第一",
+    "url": "https://aihot.news/items/bjzjg5k7af07c1c20bc1a8gxp",
+    "source": "X：Arena (@arena)",
+    "publishedAt": "2026-10-16T22:22:42.000Z",
+    "summary": "Arena 公布 Meta 发布的 Muse Spark Open (Max) 在 Code Arena: WebDev 以 1511 分位居美国开源模型第一、开源模型总榜第 13。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "JetBrains/Mellum2.1-12B-A2.5B-Thinking",
+    "url": "https://hf-mirror.com/JetBrains/Mellum2.1-12B-A2.5B-Thinking",
+    "license": "apache-2.0",
+    "param": "12B",
+    "likes": 159,
+    "downloads": 2939,
+    "createdAt": "2026-09-20",
+    "intro": "Mellum2.1是一个思维模型"
+   },
+   {
+    "kind": "model",
+    "id": "tencent/Hy-Memory-30B-A3B",
+    "url": "https://hf-mirror.com/tencent/Hy-Memory-30B-A3B",
+    "license": "apache-2.0",
+    "param": "30B",
+    "likes": 127,
+    "downloads": 0,
+    "createdAt": "2026-10-15",
+    "intro": "Hy-Memory-30B-A3B是腾讯浑源开发的紧凑型长期内存写入器模型（约3B个活动参数） ，用于执行外部内存框架内的写入路径"
+   },
+   {
+    "kind": "model",
+    "id": "reflection/Beam-1.0-501B-A23B",
+    "url": "https://hf-mirror.com/reflection/Beam-1.0-501B-A23B",
+    "license": "apache-2.0",
+    "param": "501B",
+    "likes": 115,
+    "downloads": 440,
+    "createdAt": "2026-10-07",
+    "intro": "Beam是由Reflection构建的开放模型"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "android/skills",
+   "url": "https://github.com/android/skills",
+   "lang": "Kotlin",
+   "stars": "8,137",
+   "desc": ""
+  },
+  {
+   "repo": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "lang": "TypeScript",
+   "stars": "12,032",
+   "desc": ""
+  },
+  {
+   "repo": "MadsLorentzen/ai-job-search",
+   "url": "https://github.com/MadsLorentzen/ai-job-search",
+   "lang": "Python",
+   "stars": "48,732",
+   "desc": ""
+  },
+  {
+   "repo": "hmjz100/LinkSwift",
+   "url": "https://github.com/hmjz100/LinkSwift",
+   "lang": "JavaScript",
+   "stars": "23,892",
+   "desc": ""
+  },
+  {
+   "repo": "openai/math",
+   "url": "https://github.com/openai/math",
+   "lang": "Lean",
+   "stars": "15,042",
+   "desc": ""
+  },
+  {
+   "repo": "cdyforever/how-to-live-better",
+   "url": "https://github.com/cdyforever/how-to-live-better",
+   "lang": "HTML",
+   "stars": "12,272",
+   "desc": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线"
+  },
+  {
+   "repo": "shihabal3amri/DiPlay",
+   "url": "https://github.com/shihabal3amri/DiPlay",
+   "lang": "Kotlin",
+   "stars": "11,159",
+   "desc": "适用于兼容Android头显的独立CarPlay接收器"
+  },
+  {
+   "repo": "zai-org/ZCode",
+   "url": "https://github.com/zai-org/ZCode",
+   "lang": "TypeScript",
+   "stars": "7,896",
+   "desc": "Z.ai的编码代理框架。强大、智能、可扩展"
+  },
+  {
+   "repo": "storytold/effectcraft",
+   "url": "https://github.com/storytold/effectcraft",
+   "lang": "Rust",
+   "stars": "7,035",
+   "desc": "EffectCraft ：用纯Rust编写的开源动态图形和合成工具"
+  },
+  {
+   "repo": "shader-effects-inc/shaders",
+   "url": "https://github.com/shader-effects-inc/shaders",
+   "lang": "TypeScript",
+   "stars": "4,971",
+   "desc": "WebGPU components for React, Vue, Svelte, Solid, JS & Framer"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "f/prompts.chat",
+   "url": "https://github.com/f/prompts.chat",
+   "lang": "HTML",
+   "stars": "173,199",
+   "desc": "f.k.a. Awesome ChatGPT提示",
+   "en": false
+  },
+  {
+   "repo": "unslothai/unsloth",
+   "url": "https://github.com/unslothai/unsloth",
+   "lang": "Python",
+   "stars": "78,142",
+   "desc": "运行和训练LLM和扩散模型的本地UI",
+   "en": false
+  },
+  {
+   "repo": "usememos/memos",
+   "url": "https://github.com/usememos/memos",
+   "lang": "Go",
+   "stars": "63,859",
+   "desc": "快速备注的个人时间表。撰写简短的备忘录，稍后通过搜索、标记或日期查找",
+   "en": false
+  },
+  {
+   "repo": "coollabsio/coolify",
+   "url": "https://github.com/coollabsio/coolify",
+   "lang": "PHP",
+   "stars": "63,073",
+   "desc": "Vercel、Heroku和Netlify的开源、自托管PaaS替代品，让您可以在自己的服务器上轻松部署静态站点、数据库、全栈应用程序和280多种一键式服务",
+   "en": false
+  },
+  {
+   "repo": "go-gitea/gitea",
+   "url": "https://github.com/go-gitea/gitea",
+   "lang": "Go",
+   "stars": "58,537",
+   "desc": "享用一杯茶。无痛自托管一体化软件开发服务，包括Git托管、代码审核、团队协作、软件包注册和CI/CD",
+   "en": false
+  },
+  {
+   "repo": "appwrite/appwrite",
+   "url": "https://github.com/appwrite/appwrite",
+   "lang": "TypeScript",
+   "stars": "57,709",
+   "desc": "适用于代理和开发人员的开源云。包括身份验证、数据库、存储、功能、消息、托管、实时、WAF等",
+   "en": false
+  },
+  {
+   "repo": "ClickHouse/ClickHouse",
+   "url": "https://github.com/ClickHouse/ClickHouse",
+   "lang": "C++",
+   "stars": "50,453",
+   "desc": "ClickHouse ®是一个实时分析数据库管理系统",
+   "en": false
+  },
+  {
+   "repo": "HKUDS/nanobot",
+   "url": "https://github.com/HKUDS/nanobot",
+   "lang": "Python",
+   "stars": "49,100",
+   "desc": "Python中的超轻量级、开源、自托管的个人AI代理框架，具有WebUI、工具、内存、MCP、多代理工作流程、自动化和聊天应用程序",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4170.61,
+   "chg": 0.11,
+   "pe": 13.0,
+   "pe_pct": 55,
+   "pb": 1.38,
+   "pb_pct": 30,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6772.75,
+   "chg": 0.05,
+   "pe": 29.25,
+   "pe_pct": 68,
+   "pb": 2.12,
+   "pb_pct": 66,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2772.38,
+   "chg": -0.39,
+   "pe": 31.9,
+   "pe_pct": 18,
+   "pb": 4.47,
+   "pb_pct": 35,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "科创50",
+   "point": 1358.65,
+   "chg": -0.06,
+   "pe": 110.91,
+   "pe_pct": 78,
+   "pb": 6.4,
+   "pb_pct": 67,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5580.71,
+   "chg": 0.82,
+   "pe": 9.01,
+   "pe_pct": 86,
+   "pb": 0.89,
+   "pb_pct": 59,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11191.38,
+   "chg": 0.33,
+   "pe": 8.88,
+   "pe_pct": 80,
+   "pb": 0.91,
+   "pb_pct": 66,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24186.83,
+   "chg": 0.52,
+   "pe": 10.7,
+   "pe_pct": 54,
+   "pb": 1.13,
+   "pb_pct": 59,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 26140.03,
+   "chg": -2.15,
+   "pe": 29.39,
+   "pe_pct": 41,
+   "pb": 9.28,
+   "pb_pct": 79,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7659.44,
+   "chg": -1.09,
+   "pe": 24.79,
+   "pe_pct": 54,
+   "pb": 5.53,
+   "pb_pct": 94,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "水泥",
+    "chg": 2.81
+   },
+   {
+    "name": "汽车零部件",
+    "chg": 2.37
+   },
+   {
+    "name": "工程咨询服务Ⅱ",
+    "chg": 2.18
+   },
+   {
+    "name": "化学纤维",
+    "chg": 2.15
+   },
+   {
+    "name": "房地产开发",
+    "chg": 1.72
+   },
+   {
+    "name": "装修建材",
+    "chg": 1.66
+   }
+  ],
+  "dn": [
+   {
+    "name": "元件",
+    "chg": -3.52
+   },
+   {
+    "name": "医疗服务",
+    "chg": -2.42
+   },
+   {
+    "name": "传媒",
+    "chg": -1.8
+   },
+   {
+    "name": "证券Ⅱ",
+    "chg": -1.23
+   },
+   {
+    "name": "食品饮料",
+    "chg": 0.01
+   },
+   {
+    "name": "保险Ⅱ",
+    "chg": 0.01
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+0.39%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.5709（2026-10-16）（≈ 857 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.3187",
+   "date": "2026-10-15"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.2009",
+   "date": "2026-10-15"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.6062",
+   "date": "2026-10-15"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1548",
+   "date": "2026-10-15"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6780",
+   "date": "2026-10-16"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8652",
+   "date": "2026-10-15"
+  }
+ ],
+ "macro": [
+  {
+   "title": "记者调查：有银行回应称存期不变 但自动转存利率与3年期定存利率相同",
+   "ctime": "1792200900",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivnvkv8220272.shtml"
+  },
+  {
+   "title": "A股本周20大牛熊股出炉",
+   "ctime": "1792210861",
+   "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-17/doc-inivnzsi6562431.shtml"
+  },
+  {
+   "title": "近一月A股重要股东增减持图谱：26家拟增持，167家拟减持，这家公司增持计划发布后股价快速上涨",
+   "ctime": "1792207456",
+   "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-17/doc-inivnzst8189361.shtml"
+  },
+  {
+   "title": "国家数据集团或将于近日挂牌成立",
+   "ctime": "1792207380",
+   "url": "https://finance.sina.com.cn/stock/bxjj/2026-10-17/doc-inivnzsm7258133.shtml"
+  },
+  {
+   "title": "又砸入100个亿！下周，A股该稳了？",
+   "ctime": "1792206542",
+   "url": "https://finance.sina.com.cn/stock/roll/2026-10-17/doc-inivnzss1419401.shtml"
+  },
+  {
+   "title": "解读丨商务部、科技部拟新增五项生物医药技术出口管制：防范“拔根式”转让",
+   "ctime": "1792199504",
+   "url": "https://finance.sina.com.cn/stock/med/2026-10-17/doc-inivnvkv8177825.shtml"
+  },
+  {
+   "title": "视频|A股一周熊股出炉：最熊股涛涛车业跌超30%，会稽山上榜",
+   "ctime": "1792198800",
+   "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-17/doc-inivnvku1424507.shtml"
+  },
+  {
+   "title": "A股公司非洲投资遇离奇诉讼：买地4年多后被诉，卖方称是前员工擅自欺诈出售",
+   "ctime": "1792197941",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivnvku1408348.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 18,
+   "pe": 31.903,
+   "pb_pct": 35,
+   "pb": 4.4714
+  }
+ ]
+}
