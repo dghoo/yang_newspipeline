@@ -1,0 +1,528 @@
+{
+ "date": "2026-10-18",
+ "weekday": "日",
+ "val_date": "10-16",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "卡兹克实测华硕 ProArt 创16 RTX Spark 电脑，37999 元实现本地 Token 自由",
+    "url": "https://aihot.news/items/i8vi0763u7lz34lkoagoh0agt",
+    "source": "X：卡兹克 (@Khazix0918)",
+    "publishedAt": "2026-10-18T02:04:38.000Z",
+    "summary": "作者分享受邀参加英伟达 RTX Spark 全球开售活动后，深度使用一周华硕 ProArt 创16（128G 统一内存+1T，京东售价 37999 元）的体验，开售时 128G 版本在京东几分钟内被抢空。"
+   },
+   {
+    "kind": "news",
+    "title": "WorkBuddy Intl 更新支持 DeepSeek-V4.1-Flash-1017，10 月 31 日前免费",
+    "url": "https://aihot.news/items/xgj246drlw70qbgypibz6atla",
+    "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
+    "publishedAt": "2026-10-17T10:29:00.000Z",
+    "summary": "WorkBuddy Intl 已更新至最新的 DeepSeek-V4.1-Flash-1017 模型，10 月 31 日前免费开放。引用的 DeepSeek 官方内容称该模型相比上一版性能更强、任务完成更快、输出更短，已上线网站、App 和 API，并针对 DeepSeek Harness、Tencent CodeBuddy、WorkBuddy 等做了优化。"
+   },
+   {
+    "kind": "news",
+    "title": "卡兹克实测37999元RTX Spark轻薄本：一周实现本地Token自由",
+    "url": "https://aihot.news/items/ffpkck4k06le4smuaz4slhvcz",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-10-17T10:19:04.000Z",
+    "summary": "数字生命卡兹克分享华硕ProArt创16（RTX Spark N1X芯片、128G统一内存、37999元）的一周深度使用体验，该机全球开售时128G版本在京东几分钟内被抢空。"
+   },
+   {
+    "kind": "news",
+    "title": "DeepSeek 开放自研搜索 API",
+    "url": "https://aihot.news/items/x7hxr1lvyddc8hrbrugfx4uyg",
+    "source": "DeepSeek：API 更新日志",
+    "publishedAt": "2026-10-16T16:00:00.000Z",
+    "summary": "DeepSeek 开放自研搜索 API，底层由 AI 原生的 DeepSeek 搜索引擎提供，每天稳定处理数亿次搜索请求。该引擎索引全球千亿级网页、支持多语言，并通过识别机制过滤 SEO 作弊、GEO 操纵和低质 AIGC，使用方式见网页搜索与抓取指南。"
+   },
+   {
+    "kind": "news",
+    "title": "vLLM 实现 Reflection Beam 501B MoE 模型 Day 0 支持",
+    "url": "https://aihot.news/items/d0pow9b93paydjtg2i76ang83",
+    "source": "vLLM 官方博客（RSS）",
+    "publishedAt": "2026-10-16T00:00:00.000Z",
+    "summary": "vLLM 宣布从 Day 0 支持 Reflection 的 Beam 模型，这是一个 501B 参数、每 token 激活 23B 的 MoE 模型，在 NVIDIA Blackwell 上完成优化。"
+   },
+   {
+    "kind": "news",
+    "title": "SGLang 原生支持 Reflection 的 Beam 并驱动其生产 API",
+    "url": "https://aihot.news/items/i6u3av7zg8n3gfy6g7ynhns56",
+    "source": "LMSYS Blog",
+    "publishedAt": "2026-10-16T00:00:00.000Z",
+    "summary": "SGLang 团队宣布原生支持 Reflection 的 Beam 1.0（501B 参数 MoE、每 token 激活 23B），并以其驱动 Reflection 的生产 API。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Anthropic 用 Claude 揭开 NIST ECDSA 曲线种子来源之谜",
+    "url": "https://aihot.news/items/ckrtcqc9dnngil5ev7m60ns4v",
+    "source": "Anthropic：Research（发表成果 · 网页）",
+    "publishedAt": "2026-10-15T16:00:00.000Z",
+    "summary": "Anthropic 团队让内部研究模型在不到半小时内发现 NIST P-192、P-224、P-256、P-384、P-521 等曲线种子的来源：它们并非哈希结果，而是以 Unix 时间戳初始化的 C 库 lrand48 随机数生成器的输出，例如 P-256 需要 1842 次迭代。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 用 Claude Mythos 5 设计出更高效的量子电路，多项超过已发表最优设计",
+    "url": "https://aihot.news/items/jn8i9j3ppsb0f79mrtldd43h8",
+    "source": "Anthropic：Research（发表成果 · 网页）",
+    "publishedAt": "2026-10-15T16:00:00.000Z",
+    "summary": "Anthropic 发布研究报告，让 Claude Mythos 5 在闭环中自主优化量子电路：模型提出电路设计、由自动评估器验证正确性并按 qubit 数乘以门数打分，八项涵盖化学、优化、量子模拟和数论的任务均超过此前最优已发表设计，部分提升达一个数量级以上。"
+   },
+   {
+    "kind": "news",
+    "title": "Reflection 发布首个开源权重模型 Beam，Artificial Analysis 评测得分 30 居美国开源模型第二",
+    "url": "https://aihot.news/items/a3roan35e4kghyxdjffek1hop",
+    "source": "Artificial Analysis 完整文章（网页）",
+    "publishedAt": "2026-10-15T16:00:00.000Z",
+    "summary": "Artificial Analysis 评测 Reflection 首个模型 Beam，其在 Artificial Analysis Intelligence Index 得 30 分，在美国开源权重模型中排第二，仅次于 Meta 的 Muse Spark Open（39）。"
+   },
+   {
+    "kind": "news",
+    "title": "NVIDIA 发布 Nemotron 3.5 Super VL 与 Bolt 系列开放模型，覆盖数据中心到桌面端",
+    "url": "https://aihot.news/items/l9jgzg24ei3a7m8xu1xfhy9n7",
+    "source": "NVIDIA Blog（RSS）",
+    "publishedAt": "2026-10-15T15:00:24.000Z",
+    "summary": "NVIDIA 发布开源 1200 亿参数多模态模型 Nemotron 3.5 Super VL，以及面向端侧的 Nemotron 3.5 Bolt 74B-A9B 24GB 和 Bolt E4B 4GB（后者 10 月 23 日上线）。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "DeepSeek-V4.1-Flash-1017 发布，多基准成绩提升且 API 价格不变",
+    "url": "https://aihot.news/items/w34qm27sedtziwxig5ub9wwhr",
+    "source": "DeepSeek：API 更新日志",
+    "publishedAt": "2026-10-16T16:00:00.000Z",
+    "summary": "DeepSeek 将 V4.1 Flash 升级至 DeepSeek-V4.1-Flash-1017，网页端与 APP 同步更新，API 调用方式与价格不变，仍用 deepseek-flash 访问。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "url": "https://hf-mirror.com/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "license": "mit",
+    "param": "",
+    "likes": 1040,
+    "downloads": 0,
+    "createdAt": "2026-10-17",
+    "intro": "DeepSeek-V4.1-Flash-1017是对DeepSeek-V4.1-Flash的微小更新，在推理、编码、代理任务和可视化基准方面提供了实质性改进"
+   },
+   {
+    "kind": "model",
+    "id": "tencent/Youtu-Parsing-Omni",
+    "url": "https://hf-mirror.com/tencent/Youtu-Parsing-Omni",
+    "license": "other",
+    "param": "",
+    "likes": 108,
+    "downloads": 1748,
+    "createdAt": "2026-10-09",
+    "intro": "- [2026-10]发布OmniDocBench评估"
+   },
+   {
+    "kind": "model",
+    "id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+    "url": "https://hf-mirror.com/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+    "license": "other",
+    "param": "4B",
+    "likes": 92,
+    "downloads": 674,
+    "createdAt": "2026-10-16",
+    "intro": "预训练数据的截止日期为2025年9月"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "akitaonrails/ai-memory",
+   "url": "https://github.com/akitaonrails/ai-memory",
+   "lang": "Rust",
+   "stars": "10,014",
+   "desc": "针对智能体编码CLI的长期记忆解决方案，以及促进不同智能体供应商之间切换的解决方案"
+  },
+  {
+   "repo": "stablyai/orca",
+   "url": "https://github.com/stablyai/orca",
+   "lang": "TypeScript",
+   "stars": "95,588",
+   "desc": "ORCA是与代理团队合作的地方（例如Grok Bot、Claude Code ）"
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "url": "https://github.com/anthropics/claude-code",
+   "lang": "TypeScript",
+   "stars": "151,876",
+   "desc": "Claude Code是一个代理编码工具，它位于您的终端中，了解您的代码库，并通过执行日常任务、解释复杂代码和处理git工作流程来帮助您更快地编码"
+  },
+  {
+   "repo": "anomalyco/opencode",
+   "url": "https://github.com/anomalyco/opencode",
+   "lang": "TypeScript",
+   "stars": "215,556",
+   "desc": "开源编码代理"
+  },
+  {
+   "repo": "yetone/magpie",
+   "url": "https://github.com/yetone/magpie",
+   "lang": "Go",
+   "stars": "15,251",
+   "desc": "每个代理的模型。一个地方。DeepSeek上的Codex ，菜单栏中的Kimi上的Claude Code"
+  },
+  {
+   "repo": "storytold/lightcraft",
+   "url": "https://github.com/storytold/lightcraft",
+   "lang": "Rust",
+   "stars": "13,506",
+   "desc": "LightCraft ：用纯Rust编写的开源无损照片编辑器"
+  },
+  {
+   "repo": "omlahore/RemoveMacAI",
+   "url": "https://github.com/omlahore/RemoveMacAI",
+   "lang": "Swift",
+   "stars": "4,910",
+   "desc": "Debloat macOS ：关闭Apple Intelligence、分析、广告和弹出窗口"
+  },
+  {
+   "repo": "ARahim3/DigUp",
+   "url": "https://github.com/ARahim3/DigUp",
+   "lang": "Swift",
+   "stars": "4,618",
+   "desc": "根据文件中的内容（照片、PDF、文档、录制、视频和代码）搜索您的计算机"
+  },
+  {
+   "repo": "tangency-labs/solidcraft",
+   "url": "https://github.com/tangency-labs/solidcraft",
+   "lang": "Rust",
+   "stars": "4,424",
+   "desc": "SolidCraft ：用纯Rust构建的开源参数化3D CAD应用程序"
+  },
+  {
+   "repo": "alchaincyf/huashu-art-motion",
+   "url": "https://github.com/alchaincyf/huashu-art-motion",
+   "lang": "JavaScript",
+   "stars": "4,255",
+   "desc": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "gogs/gogs",
+   "url": "https://github.com/gogs/gogs",
+   "lang": "Go",
+   "stars": "47,883",
+   "desc": "托管您自己的Git服务的轻松方式",
+   "en": false
+  },
+  {
+   "repo": "siyuan-note/siyuan",
+   "url": "https://github.com/siyuan-note/siyuan",
+   "lang": "TypeScript",
+   "stars": "46,815",
+   "desc": "开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
+   "en": false
+  },
+  {
+   "repo": "janhq/jan",
+   "url": "https://github.com/janhq/jan",
+   "lang": "Rust",
+   "stars": "44,984",
+   "desc": "JAN是ChatGPT的开源替代方案，可在您的计算机上100%离线运行",
+   "en": false
+  },
+  {
+   "repo": "reactive-resume/reactive-resume",
+   "url": "https://github.com/reactive-resume/reactive-resume",
+   "lang": "TypeScript",
+   "stars": "44,458",
+   "desc": "独一无二的简历生成器，可保护您的隐私",
+   "en": false
+  },
+  {
+   "repo": "ToolJet/ToolJet",
+   "url": "https://github.com/ToolJet/ToolJet",
+   "lang": "HTML",
+   "stars": "41,104",
+   "desc": "ToolJet AI 的开源底座：企业级应用生成平台，可构建内部工具、仪表盘、业务应用、工作流与 AI 智能体，支持可视化搭建、提示词生成，或通过 MCP 接入 Claude Code、Codex 与 Cursor",
+   "en": false
+  },
+  {
+   "repo": "appsmithorg/appsmith",
+   "url": "https://github.com/appsmithorg/appsmith",
+   "lang": "TypeScript",
+   "stars": "41,081",
+   "desc": "用于搭建管理后台、内部工具与仪表盘的平台，可接入 25 种以上数据库及任意 API",
+   "en": false
+  },
+  {
+   "repo": "photoprism/photoprism",
+   "url": "https://github.com/photoprism/photoprism",
+   "lang": "Go",
+   "stars": "40,316",
+   "desc": "AI 驱动的照片管理应用",
+   "en": false
+  },
+  {
+   "repo": "TriliumNext/Trilium",
+   "url": "https://github.com/TriliumNext/Trilium",
+   "lang": "TypeScript",
+   "stars": "38,381",
+   "desc": "用 Trilium Notes 搭建个人知识库",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4170.61,
+   "chg": 0.11,
+   "pe": 13.0,
+   "pe_pct": 55,
+   "pb": 1.38,
+   "pb_pct": 30,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6772.75,
+   "chg": 0.05,
+   "pe": 29.25,
+   "pe_pct": 68,
+   "pb": 2.12,
+   "pb_pct": 66,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2772.38,
+   "chg": -0.39,
+   "pe": 31.9,
+   "pe_pct": 18,
+   "pb": 4.47,
+   "pb_pct": 35,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "科创50",
+   "point": 1358.65,
+   "chg": -0.06,
+   "pe": 110.91,
+   "pe_pct": 78,
+   "pb": 6.4,
+   "pb_pct": 67,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5580.71,
+   "chg": 0.82,
+   "pe": 9.01,
+   "pe_pct": 86,
+   "pb": 0.89,
+   "pb_pct": 59,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11191.38,
+   "chg": 0.33,
+   "pe": 8.88,
+   "pe_pct": 80,
+   "pb": 0.91,
+   "pb_pct": 66,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24186.83,
+   "chg": 0.52,
+   "pe": 10.7,
+   "pe_pct": 54,
+   "pb": 1.13,
+   "pb_pct": 59,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 26140.03,
+   "chg": -2.15,
+   "pe": 29.39,
+   "pe_pct": 41,
+   "pb": 9.28,
+   "pb_pct": 79,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7659.44,
+   "chg": -1.09,
+   "pe": 24.79,
+   "pe_pct": 54,
+   "pb": 5.53,
+   "pb_pct": 94,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "水泥",
+    "chg": 2.81
+   },
+   {
+    "name": "汽车零部件",
+    "chg": 2.37
+   },
+   {
+    "name": "工程咨询服务Ⅱ",
+    "chg": 2.18
+   },
+   {
+    "name": "化学纤维",
+    "chg": 2.15
+   },
+   {
+    "name": "房地产开发",
+    "chg": 1.72
+   },
+   {
+    "name": "装修建材",
+    "chg": 1.66
+   }
+  ],
+  "dn": [
+   {
+    "name": "元件",
+    "chg": -3.52
+   },
+   {
+    "name": "医疗服务",
+    "chg": -2.42
+   },
+   {
+    "name": "传媒",
+    "chg": -1.8
+   },
+   {
+    "name": "证券Ⅱ",
+    "chg": -1.23
+   },
+   {
+    "name": "食品饮料",
+    "chg": 0.01
+   },
+   {
+    "name": "保险Ⅱ",
+    "chg": 0.01
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+0.39%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.5709（2026-10-16）（≈ 857 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.3187",
+   "date": "2026-10-15"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.2009",
+   "date": "2026-10-15"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.6062",
+   "date": "2026-10-15"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1548",
+   "date": "2026-10-15"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6780",
+   "date": "2026-10-16"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8652",
+   "date": "2026-10-15"
+  }
+ ],
+ "macro": [
+  {
+   "title": "Anthropic联合创始人克拉克：AI能力快速进步，或大幅提振美国GDP",
+   "ctime": "1792293544",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrers1134467.shtml"
+  },
+  {
+   "title": "马斯克称AI和机器人是解决美国国债问题唯一途径",
+   "ctime": "1792241040",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-17/doc-inivpwwi8120700.shtml"
+  },
+  {
+   "title": "生益科技，预计净利翻倍！A股龙头公司，业绩利好",
+   "ctime": "1792288980",
+   "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-18/doc-inivrers1097581.shtml"
+  },
+  {
+   "title": "利好！2700亿巨头净利预增超160%！多家A股龙头公司业绩预告报喜",
+   "ctime": "1792287780",
+   "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-18/doc-inivrerm6752666.shtml"
+  },
+  {
+   "title": "下周外盘看点丨欧美PMI或搅动加息格局，Meta特斯拉最新财报亮相",
+   "ctime": "1792286806",
+   "url": "https://finance.sina.com.cn/roll/2026-10-18/doc-inivrerm6737825.shtml"
+  },
+  {
+   "title": "马斯克：美债问题只能靠AI和机器人解决",
+   "ctime": "1792283293",
+   "url": "https://finance.sina.com.cn/wm/2026-10-18/doc-inivqyiv7917652.shtml"
+  },
+  {
+   "title": "经济日报金观平：协同联动防止产业单兵突进",
+   "ctime": "1792277546",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-18/doc-inivqtzp6180447.shtml"
+  },
+  {
+   "title": "Anthropic联合创始人：人工智能或推动美国经济规模到2030年达到44万亿美元",
+   "ctime": "1792237778",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-17/doc-inivpwwi8076046.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 18,
+   "pe": 31.903,
+   "pb_pct": 35,
+   "pb": 4.4714
+  }
+ ]
+}
