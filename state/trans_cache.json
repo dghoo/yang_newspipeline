@@ -335,5 +335,9 @@
   "LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust": "LightCraft ：用纯Rust编写的开源无损照片编辑器",
   "Debloat macOS: turn off Apple Intelligence, analytics, ads and pop-ups. A native app and CLI, and every change can be undone.": "Debloat macOS ：关闭Apple Intelligence、分析、广告和弹出窗口",
   "Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2.": "根据文件中的内容（照片、PDF、文档、录制、视频和代码）搜索您的计算机",
-  "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.": "SolidCraft ：用纯Rust构建的开源参数化3D CAD应用程序"
+  "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.": "SolidCraft ：用纯Rust构建的开源参数化3D CAD应用程序",
+  "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.": "通过路线图和Colab笔记本进入大型语言模型（ LLM ）的课程",
+  "Video restoration tool": "视频还原工具",
+  "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.": "最强大、模块化的扩散模型GUI、API和后端，具有图形/节点界面",
+  "Free, open-source file converter. Convert 180+ formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.": "免费开源文件转换器。通过拖放离线转换180多种格式—图像、PDF、Word、Excel、PowerPoint、HWP/HWPX、视频、音频、电子书和存档"
 }

@@ -1,0 +1,528 @@
+{
+ "date": "2026-10-19",
+ "weekday": "一",
+ "val_date": "10-16",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Anthropic 内部研究显示初级技术岗位占比下降，AI Agent 工时达员工六倍",
+    "url": "https://aihot.news/items/c7pt5mbzh5h0atlbprfzbs8o0",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-10-18T13:22:26.000Z",
+    "summary": "Anthropic 发布内部研究称，技术部门初级岗位占比从 2025 年初的 21% 降至 14%，新招初级占比从 27% 降至 9%，空缺初级职位降至 6%，非技术部门基本稳定。"
+   },
+   {
+    "kind": "news",
+    "title": "德国两家法院先后裁定 Google 须为其 AI Overview 内容负责",
+    "url": "https://aihot.news/items/bbr25r9mbi8zbbtmu2uiati7f",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-10-18T10:52:39.000Z",
+    "summary": "慕尼黑地区法院 I 五月底裁定 Google 的 AI 搜索摘要属于公司自己的陈述而非中立转述，Google 须为错误内容担责；Google 公开宣布上诉后实际以和解结案，未获上级法院裁决。"
+   },
+   {
+    "kind": "news",
+    "title": "Browser Use 讲解浏览器智能体的工作原理与使用时机",
+    "url": "https://aihot.news/items/w3vpc68lufgj57zcy1hd38a60",
+    "source": "Browser Use",
+    "publishedAt": "2026-10-18T00:00:00.000Z",
+    "summary": "Browser Use 发布科普文章，讲解浏览器智能体由模型、harness 和浏览器三部分组成，通过观察页面、选择动作、执行并检查结果的循环完成任务，可通过 DOM、无障碍树或截图读取页面。"
+   },
+   {
+    "kind": "news",
+    "title": "Reflection 开源权重模型 Beam 上架 Ollama，限时免费可用",
+    "url": "https://aihot.news/items/f14brdupsvks0k2hoang4lx6w",
+    "source": "Ollama：Blog（RSS）",
+    "publishedAt": "2026-10-16T00:00:00.000Z",
+    "summary": "Reflection 首个开源权重模型 Beam 发布，Ollama 作为 day-zero 合作方在 Ollama Cloud 上限时免费提供，且全程零数据保留（ZDR）。"
+   },
+   {
+    "kind": "news",
+    "title": "ChatGPT 为 Chrome 用户新增标签页读取与控制能力",
+    "url": "https://aihot.news/items/bme0mytjnlk0d2lk8hf7srzoh",
+    "source": "X：ChatGPT (@ChatGPT)",
+    "publishedAt": "2026-10-15T20:02:51.000Z",
+    "summary": "ChatGPT 官宣面向 Chrome 用户带来升级，把 computer use 能力引入 Chrome。在聊天中，ChatGPT 可以查看用户打开的标签页并汇总信息；在工作模式下，它能控制 Chrome 标签页执行操作，如发送消息、填写表单、下载文件，还可帮助整理和分组打开的标签页。"
+   },
+   {
+    "kind": "news",
+    "title": "Meta 如何用 AI 原生工程方式开发 Forum 应用",
+    "url": "https://aihot.news/items/moaux5xk1dqk4pi3tsx8sabsj",
+    "source": "Meta Engineering Blog（RSS）",
+    "publishedAt": "2026-10-15T19:00:03.000Z",
+    "summary": "Meta 工程团队详解如何把 AI 智能体作为开发流程参与者来构建独立 Groups 应用 Forum，采用 human-on-the-loop 模式并以验证通过的生产级产出衡量成功。Forum 在八周内达到与 Facebook Groups 的核心功能对齐，自主压测循环在开发期发现并修复了内存问题，内存占用和缺页约减半，上线后智能体还协助根因分析用户反馈。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Black Forest Labs 发布开源文生图模型 FLUX 3 Image Klein（5.6B）",
+    "url": "https://aihot.news/items/ybc0etkws56yxmrveyttxz3lm",
+    "source": "Black Forest Labs：Blog（网页）",
+    "publishedAt": "2026-10-15T15:00:00.000Z",
+    "summary": "Black Forest Labs 发布 5.6B 参数开源权重模型 FLUX 3 Image Klein，支持文生图、图像编辑和最多 10 张参考图的多参考生成，采用 FLUX Kommunity License。"
+   },
+   {
+    "kind": "news",
+    "title": "StepFun 展示 Step 5 Preview 在 NVIDIA GB300 上的推理性能",
+    "url": "https://aihot.news/items/l3g1uzem751ki1oxckrxa1b3e",
+    "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+    "publishedAt": "2026-10-15T14:01:07.000Z",
+    "summary": "StepFun 表示 Step 5 Preview 在 NVIDIA GB300 上推理表现出色，并期待看到开发者用它构建的应用。其转发的 NVIDIA 内容称该模型是 StepFun 最大的开源权重发布，600B MoE 架构，可处理最长 24 小时的 Agent 任务，在 GB300 上用 NVFP4 达到近 8K tokens/sec/GPU，提供 NVFP4 checkpoint（https://huggingface.co/stepfun-ai/Step-5-Preview-NVFP4），并支持 SGLang、vLLM、NeMo Automodel 后训练和 NVIDIA NIM 一键部署。"
+   },
+   {
+    "kind": "news",
+    "title": "阶跃星辰开放 Step 5 Preview 权重",
+    "url": "https://aihot.news/items/v0dw619te36yzweiqtuw7pjxs",
+    "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+    "publishedAt": "2026-10-15T13:00:01.000Z",
+    "summary": "阶跃星辰（StepFun）宣布 Step 5 Preview 开放权重，BF16 和 FP8 权重已上线 Hugging Face 和 ModelScope，并附技术博客。"
+   },
+   {
+    "kind": "news",
+    "title": "蚂蚁百灵正式开源 Ling-3.1-flash，560B 参数模型可 4 卡部署",
+    "url": "https://aihot.news/items/hie2iw214agnrwu3mxy3t79af",
+    "source": "公众号：蚂蚁百灵（Ling）",
+    "publishedAt": "2026-10-15T01:10:27.000Z",
+    "summary": "蚂蚁百灵正式开源 Ling-3.1-flash，总参数约 560B、每 Token 激活约 25B、最高支持 1M 上下文，权重已上架 Hugging Face 和 ModelScope。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "DeepSeek-V4.1-Flash-20261017 登顶 Code Arena: WebDev 开源模型榜首",
+    "url": "https://aihot.news/items/bm95oliei5mcgy2tau7e22d59",
+    "source": "X：Arena (@arena)",
+    "publishedAt": "2026-10-18T18:56:03.000Z",
+    "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Code Arena: WebDev 榜单第一开源模型，超过 Kimi K3 (Max)，成本低约 10 倍。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "NaiveAI/Naive-N0.5-Flash",
+    "url": "https://hf-mirror.com/NaiveAI/Naive-N0.5-Flash",
+    "license": "mit",
+    "param": "",
+    "likes": 226,
+    "downloads": 2810,
+    "createdAt": "2026-09-27",
+    "intro": "[🏠 首页] [网站] · [📰技术博客] [博客] · [💻GitHub] [github]"
+   },
+   {
+    "kind": "model",
+    "id": "AxiomicLabs/GPT-X3-150M",
+    "url": "https://hf-mirror.com/AxiomicLabs/GPT-X3-150M",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 71,
+    "downloads": 1634,
+    "createdAt": "2026-09-23",
+    "intro": "GPT-X3-150M是Axiomic Labs的第三代基础模型，基于TX5混合GDN2/门控GQA架构构建，并使用TrainWork从头开始训练"
+   },
+   {
+    "kind": "model",
+    "id": "NaiveAI/Naive-N0.5-Flash-FP8",
+    "url": "https://hf-mirror.com/NaiveAI/Naive-N0.5-Flash-FP8",
+    "license": "mit",
+    "param": "",
+    "likes": 63,
+    "downloads": 514,
+    "createdAt": "2026-09-27",
+    "intro": "[🏠 首页] [网站] · [📰技术博客] [博客] · [💻GitHub] [github]"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "mlabonne/llm-course",
+   "url": "https://github.com/mlabonne/llm-course",
+   "lang": "",
+   "stars": "84,156",
+   "desc": "通过路线图和Colab笔记本进入大型语言模型（ LLM ）的课程"
+  },
+  {
+   "repo": "Kruk2/jasna",
+   "url": "https://github.com/Kruk2/jasna",
+   "lang": "Python",
+   "stars": "2,528",
+   "desc": "视频还原工具"
+  },
+  {
+   "repo": "Comfy-Org/ComfyUI",
+   "url": "https://github.com/Comfy-Org/ComfyUI",
+   "lang": "Python",
+   "stars": "138,811",
+   "desc": "最强大、模块化的扩散模型GUI、API和后端，具有图形/节点界面"
+  },
+  {
+   "repo": "Ebony-Vinyl/dsh-our-free-model",
+   "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+   "lang": "JavaScript",
+   "stars": "25,411",
+   "desc": "在 dsh 里装上这个插件即可，无需登录、注册或填 API密钥就能使用包括， DeepSeek V4.1 Flash、 Kimi K3 在内的前沿模型——完全免费 ，不限量"
+  },
+  {
+   "repo": "storytold/filmcraft",
+   "url": "https://github.com/storytold/filmcraft",
+   "lang": "Rust",
+   "stars": "14,887",
+   "desc": "FilmCraft ：用纯Rust编写的开源非线性视频编辑器"
+  },
+  {
+   "repo": "rehan-remade/universal-modder",
+   "url": "https://github.com/rehan-remade/universal-modder",
+   "lang": "Python",
+   "stars": "8,367",
+   "desc": "在任何比赛中指向克劳德。技能、工具和FAL MCP让Claude Code可以修改您拥有的几乎所有PC游戏：侦察、逆向工程、FAL生成的艺术/3D/音频、游戏内测试、展示视频"
+  },
+  {
+   "repo": "KKKKhazix/AIHOT",
+   "url": "https://github.com/KKKKhazix/AIHOT",
+   "lang": "TypeScript",
+   "stars": "8,033",
+   "desc": "一个自己找热点、自己写日报的网站框架"
+  },
+  {
+   "repo": "jev-chat/jev-chat-jarvis",
+   "url": "https://github.com/jev-chat/jev-chat-jarvis",
+   "lang": "Kotlin",
+   "stars": "7,896",
+   "desc": "聊天辅助决策工具：先看懂对方再回复，发不发由你"
+  },
+  {
+   "repo": "google-research/harness2",
+   "url": "https://github.com/google-research/harness2",
+   "lang": "Python",
+   "stars": "7,478",
+   "desc": ""
+  },
+  {
+   "repo": "KnifeLemon/Filee",
+   "url": "https://github.com/KnifeLemon/Filee",
+   "lang": "C#",
+   "stars": "4,572",
+   "desc": "免费开源文件转换器。通过拖放离线转换180多种格式—图像、PDF、Word、Excel、PowerPoint、HWP/HWPX、视频、音频、电子书和存档"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "Dokploy/dokploy",
+   "url": "https://github.com/Dokploy/dokploy",
+   "lang": "TypeScript",
+   "stars": "37,856",
+   "desc": "Vercel、Netlify 与 Heroku 的开源替代方案",
+   "en": false
+  },
+  {
+   "repo": "khoj-ai/khoj",
+   "url": "https://github.com/khoj-ai/khoj",
+   "lang": "Python",
+   "stars": "37,741",
+   "desc": "你的 AI 第二大脑，可自托管：从网页或本地文档中检索答案，构建自定义智能体、定时自动化与深度研究，支持接入任意在线或本地大模型",
+   "en": false
+  },
+  {
+   "repo": "glanceapp/glance",
+   "url": "https://github.com/glanceapp/glance",
+   "lang": "Go",
+   "stars": "37,550",
+   "desc": "自托管信息仪表盘，把所有订阅源汇集到一处",
+   "en": false
+  },
+  {
+   "repo": "IceWhaleTech/CasaOS",
+   "url": "https://github.com/IceWhaleTech/CasaOS",
+   "lang": "Go",
+   "stars": "37,331",
+   "desc": "CasaOS：简单易用、优雅的开源个人云系统",
+   "en": false
+  },
+  {
+   "repo": "langfuse/langfuse",
+   "url": "https://github.com/langfuse/langfuse",
+   "lang": "TypeScript",
+   "stars": "36,010",
+   "desc": "🪢 开源代理回避和可观测性：使用一个开放平台跟踪、评估和改进LLM应用程序",
+   "en": false
+  },
+  {
+   "repo": "filebrowser/filebrowser",
+   "url": "https://github.com/filebrowser/filebrowser",
+   "lang": "Go",
+   "stars": "35,887",
+   "desc": "文件浏览器在指定的目录中提供了一个文件管理界面，可用于上传、删除、预览和编辑文件",
+   "en": false
+  },
+  {
+   "repo": "agentscope-ai/QwenPaw",
+   "url": "https://github.com/agentscope-ai/QwenPaw",
+   "lang": "TypeScript",
+   "stars": "35,838",
+   "desc": "你的个人 AI 助手；安装简单，可部署在自有机器或云端；支持多个聊天应用，能力可轻松扩展。",
+   "en": false
+  },
+  {
+   "repo": "awesome-foss/awesome-sysadmin",
+   "url": "https://github.com/awesome-foss/awesome-sysadmin",
+   "lang": "",
+   "stars": "35,447",
+   "desc": "精心策划的令人惊叹的开源系统管理员资源列表",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4174.49,
+   "chg": 0.09,
+   "pe": 13.0,
+   "pe_pct": 55,
+   "pb": 1.38,
+   "pb_pct": 30,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6763.0,
+   "chg": -0.14,
+   "pe": 29.25,
+   "pe_pct": 68,
+   "pb": 2.12,
+   "pb_pct": 66,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2742.7,
+   "chg": -1.07,
+   "pe": 31.9,
+   "pe_pct": 18,
+   "pb": 4.47,
+   "pb_pct": 35,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "科创50",
+   "point": 1335.79,
+   "chg": -1.68,
+   "pe": 110.91,
+   "pe_pct": 78,
+   "pb": 6.4,
+   "pb_pct": 67,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5633.02,
+   "chg": 0.94,
+   "pe": 9.01,
+   "pe_pct": 86,
+   "pb": 0.89,
+   "pb_pct": 59,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11318.44,
+   "chg": 1.14,
+   "pe": 8.88,
+   "pe_pct": 80,
+   "pb": 0.91,
+   "pb_pct": 66,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24186.83,
+   "chg": 0.52,
+   "pe": 10.7,
+   "pe_pct": 54,
+   "pb": 1.13,
+   "pb_pct": 59,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 26140.03,
+   "chg": -2.15,
+   "pe": 29.39,
+   "pe_pct": 41,
+   "pb": 9.28,
+   "pb_pct": 79,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7659.44,
+   "chg": -1.09,
+   "pe": 24.79,
+   "pe_pct": 54,
+   "pb": 5.53,
+   "pb_pct": 94,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "银行Ⅱ",
+    "chg": 1.35
+   },
+   {
+    "name": "煤炭",
+    "chg": 0.71
+   },
+   {
+    "name": "保险Ⅱ",
+    "chg": 0.54
+   },
+   {
+    "name": "航空机场",
+    "chg": 0.18
+   },
+   {
+    "name": "电力",
+    "chg": 0.16
+   },
+   {
+    "name": "证券Ⅱ",
+    "chg": 0.06
+   }
+  ],
+  "dn": [
+   {
+    "name": "工程咨询服务Ⅱ",
+    "chg": -2.89
+   },
+   {
+    "name": "医疗服务",
+    "chg": -2.62
+   },
+   {
+    "name": "装修装饰Ⅱ",
+    "chg": -2.52
+   },
+   {
+    "name": "房地产开发",
+    "chg": -2.31
+   },
+   {
+    "name": "传媒",
+    "chg": -2.22
+   },
+   {
+    "name": "综合Ⅱ",
+    "chg": -2.13
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+0.53%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.5709（2026-10-16）（≈ 857 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.3187",
+   "date": "2026-10-15"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.2009",
+   "date": "2026-10-15"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.6062",
+   "date": "2026-10-15"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1548",
+   "date": "2026-10-15"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6780",
+   "date": "2026-10-16"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8652",
+   "date": "2026-10-15"
+  }
+ ],
+ "macro": [
+  {
+   "title": "英国央行就不实陈述指控调查巴克莱银行",
+   "ctime": "1792383787",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivtpwq0917480.shtml"
+  },
+  {
+   "title": "交易员：印度央行在外汇市场抛售美元以支撑卢比",
+   "ctime": "1792382845",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivtpwv6988881.shtml"
+  },
+  {
+   "title": "通胀与债务双重考验？IMF敦促日本央行：加速加息！",
+   "ctime": "1792380600",
+   "url": "https://finance.sina.com.cn/roll/2026-10-19/doc-inivtpwq0870793.shtml"
+  },
+  {
+   "title": "通胀与债务双重考验？IMF敦促日本央行：加速加息！",
+   "ctime": "1792379551",
+   "url": "https://finance.sina.com.cn/roll/2026-10-19/doc-inivtpwq0825132.shtml"
+  },
+  {
+   "title": "思索技术IPO：代工毛利率比主要终端客户还高 外购成品与外协加工成本占比高 第二大供应商是前子公司",
+   "ctime": "1792377595",
+   "url": "https://finance.sina.com.cn/stock/observe/2026-10-19/doc-inivtpwr7545589.shtml"
+  },
+  {
+   "title": "地缘风险溢价对冲美联储加息预期，金价维持区间震荡",
+   "ctime": "1792376520",
+   "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-10-19/doc-inivtiqx7022363.shtml"
+  },
+  {
+   "title": "澳洲联储加息路径陷入两难！就业市场降温快于预期 通胀压力却仍难消退",
+   "ctime": "1792381473",
+   "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-10-19/doc-inivtpwr7647672.shtml"
+  },
+  {
+   "title": "白银重新跌破“腰斩线”！市场人士：这是全球经济的不安信号",
+   "ctime": "1792379134",
+   "url": "https://finance.sina.com.cn/roll/2026-10-19/doc-inivtpwt6201208.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 18,
+   "pe": 31.903,
+   "pb_pct": 35,
+   "pb": 4.4714
+  }
+ ]
+}
