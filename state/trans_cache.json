@@ -339,5 +339,8 @@
   "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.": "通过路线图和Colab笔记本进入大型语言模型（ LLM ）的课程",
   "Video restoration tool": "视频还原工具",
   "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.": "最强大、模块化的扩散模型GUI、API和后端，具有图形/节点界面",
-  "Free, open-source file converter. Convert 180+ formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.": "免费开源文件转换器。通过拖放离线转换180多种格式—图像、PDF、Word、Excel、PowerPoint、HWP/HWPX、视频、音频、电子书和存档"
+  "Free, open-source file converter. Convert 180+ formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.": "免费开源文件转换器。通过拖放离线转换180多种格式—图像、PDF、Word、Excel、PowerPoint、HWP/HWPX、视频、音频、电子书和存档",
+  "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.": "在工具输出、日志、文件和RAG块到达LLM之前对其进行压缩",
+  "Kronos: A Foundation Model for the Language of Financial Markets": "Kronos ：金融市场语言的基础模型",
+  "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.": "通过Wi-Fi连接任何Android或Google TV ，即可获得Apple TV风格的家居体验"
 }
