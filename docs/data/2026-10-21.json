@@ -1,0 +1,527 @@
+{
+ "date": "2026-10-21",
+ "weekday": "三",
+ "val_date": "10-20",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "WSJ 披露 Anthropic IPO 草案：上半年收入 163 亿美元、纸面亏损 807 亿美元、约 4500 亿美元算力承诺",
+    "url": "https://aihot.news/items/oiqrjvmo3ausrs9j1ttttsqc5",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-10-21T04:32:45.000Z",
+    "summary": "WSJ 看到 Anthropic 的 IPO 草案文件，显示其上半年收入 $16.3B、纸面亏损 $80.7B，并承诺约 $4500 亿算力支出。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI API 支持 12 小时 prompt 缓存，Codex 与 Work 用户缓存永久保留",
+    "url": "https://aihot.news/items/gf3h1rt1vsjw3dnw4hxlie3fv",
+    "source": "X：Tibo (@thsottiaux)",
+    "publishedAt": "2026-10-21T01:10:02.000Z",
+    "summary": "OpenAI 开发者账号宣布 API 现已可选 12 小时 prompt 缓存，持续运行的智能体可在请求间隔数小时的情况下继续以更低的缓存输入费率复用指令、工具和上下文。Tibo 补充称，Codex 与 Work 中已登录用户的缓存会永久保留，返回旧对话或数小时后恢复会话保证命中缓存，且无额外惩罚。"
+   },
+   {
+    "kind": "news",
+    "title": "蚂蚁集团与 vLLM 社区开源量化推理内核库 Humming",
+    "url": "https://aihot.news/items/afv7us0zbvzo789rghqkfhq5q",
+    "source": "vLLM 官方博客（RSS）",
+    "publishedAt": "2026-10-21T00:00:00.000Z",
+    "summary": "蚂蚁集团与 vLLM 社区开源通用高性能量化推理内核库 Humming，仓库为 github.com/vllm-project/humming。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 云合作生变：AWS、Google、微软视其为竞争者",
+    "url": "https://aihot.news/items/cbzvuf1atk51l7i5c2dpgboao",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-10-20T21:25:22.000Z",
+    "summary": "据泄露给华尔街日报的 S-1 文件，Anthropic 难以从 AWS、Google 和 Microsoft 获得足够云算力，这些厂商日益将其视为竞争者而非客户。"
+   },
+   {
+    "kind": "news",
+    "title": "SpaceX 财报显示 AI 业务超预期，占收入 52%",
+    "url": "https://aihot.news/items/ov4nfafvbhe7d8mj1uirkgsxb",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-10-20T20:40:41.000Z",
+    "summary": "SpaceX 发布第三季度监管文件，披露营收 146 亿美元、净利润 44 亿美元，扭转去年同期 10 亿美元亏损。其更名的“Super Intelligence”业务线（含 Cursor、Grok 和 neocloud 算力业务）表现好于投资者预期，AI 目前占公司收入 52%，算力规模达 1.7 GW。"
+   },
+   {
+    "kind": "news",
+    "title": "Perplexity Computer 现可在 Mac 上完全本地运行，无需云端推理",
+    "url": "https://aihot.news/items/zs3zvf51jl6pa35kn4npmoy7j",
+    "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+    "publishedAt": "2026-10-20T16:34:51.000Z",
+    "summary": "Perplexity CEO Aravind Srinivas 宣布，Perplexity Computer 现可在 Mac 上完全本地运行，无需云端推理，也不用 WiFi。模型和智能体都在本机运行，可操作 Mac 原生应用和本地文件，敏感数据不必发送到云端，现已在 Perplexity Mac 应用中可用。"
+   },
+   {
+    "kind": "news",
+    "title": "Google 与 Meta 发布 TorchTPU：PyTorch 原生 TPU 后端",
+    "url": "https://aihot.news/items/lh8vm7yp332xoffhqoscusss4",
+    "source": "PyTorch：Blog（RSS）",
+    "publishedAt": "2026-10-20T16:00:30.000Z",
+    "summary": "Google 与 Meta 发布开源项目 TorchTPU，为 Google TPU 提供原生 PyTorch 后端，模型迁移只需把 .to(\"cuda\") 改为 .to(\"tpu\")。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "fal 发布 FLUX 3 Max，图生视频 Elo 达 1139 并列第一",
+    "url": "https://aihot.news/items/h3p20nlx7t5fr27k4viwlnpty",
+    "source": "X：fal (@fal)",
+    "publishedAt": "2026-10-20T17:42:57.000Z",
+    "summary": "fal 发布与 Black Forest Labs 合作后训练的视频模型 FLUX 3 Max，在第三方独立人类偏好评测中获 1139 Elo，与 Seedance 2.5 并列图生视频质量第一梯队。该模型约 12 秒生成一段 10 秒 720/768p 视频，未来三周降价 75%，后续还将继续后训练改进。"
+   },
+   {
+    "kind": "news",
+    "title": "Ai2 发布 FairStress 基准：测量 LLM 决策中被隐藏的公平性不对称",
+    "url": "https://aihot.news/items/cszm6fv1o99q04dbffzx8qqio",
+    "source": "Ai2 / Allen Institute for AI（RSS）",
+    "publishedAt": "2026-10-20T08:00:00.000Z",
+    "summary": "Ai2 发布 FairStress 基准，通过 300 个两候选决策场景和对抗前缀，测量 LLM 在面对说服性论据时改变决策的难易是否因候选人所属人口群体而不同，全部组合超过 1300 万测试用例，并已开放下载、集成进 Olmo-eval。"
+   },
+   {
+    "kind": "news",
+    "title": "METR 评测 Anthropic 2026 年 8 月风险报告对齐章节，认可低风险结论但质疑评估方法",
+    "url": "https://aihot.news/items/kvok7sv5ddw0i5n62gbtuwtt3",
+    "source": "METR：Blog（网页）",
+    "publishedAt": "2026-10-19T16:00:00.000Z",
+    "summary": "METR 发布对 Anthropic 2026 年 8 月风险报告“高风险场景中的错位”章节的独立外部审查，基本同意截至 2026 年 7 月 15 日 Mythos 5 和内部模型 Model 2 的灾难性错位风险为低，但认为这主要源于模型能力有限而非安全防护。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 用 Claude 设计出针对蝎子神经毒素的蛋白质迷你结合剂",
+    "url": "https://aihot.news/items/oxl50pfymja6rgxkem3y0de9j",
+    "source": "Anthropic：Research（发表成果 · 网页）",
+    "publishedAt": "2026-10-19T16:00:00.000Z",
+    "summary": "Anthropic 让内部研究模型在 Claude Science 中主要自主运行 64 小时，设计针对五种蝎子神经毒素的蛋白质迷你结合剂，共生成 318,484 个设计、筛选出 180 个。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "LiquidAI/LFM2.5-24B-A2B",
+    "url": "https://hf-mirror.com/LiquidAI/LFM2.5-24B-A2B",
+    "license": "other",
+    "param": "24B",
+    "likes": 524,
+    "downloads": 15410,
+    "createdAt": "2026-10-12",
+    "intro": "LFM2.5-24B-A2B是一个24B参数推理模型，只有2B个活动参数，专为设备上的快速私有代理构建"
+   },
+   {
+    "kind": "model",
+    "id": "ornith-ai/Ornith-1.5-122B",
+    "url": "https://hf-mirror.com/ornith-ai/Ornith-1.5-122B",
+    "license": "mit",
+    "param": "122B",
+    "likes": 96,
+    "downloads": 32,
+    "createdAt": "2026-10-16",
+    "intro": "CHIRP CHIRP。🐦认识Ornith-1.5-122B ：强劲和快速之间没有权衡"
+   },
+   {
+    "kind": "model",
+    "id": "MemTensor/MemT-1.0-Nano",
+    "url": "https://hf-mirror.com/MemTensor/MemT-1.0-Nano",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 57,
+    "downloads": 50,
+    "createdAt": "2026-10-15",
+    "intro": "MemT-1.0是新一代内存基础模型，使持久、动态演化的内存成为模型计算的内在组成部分"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "lang": "JavaScript",
+   "stars": "34,560",
+   "desc": "用于多阶段安全审核的编码智能体技能，具有经过独立验证的机器可读结果"
+  },
+  {
+   "repo": "DietrichGebert/ponytail",
+   "url": "https://github.com/DietrichGebert/ponytail",
+   "lang": "JavaScript",
+   "stars": "170,089",
+   "desc": "让你的人工智能代理像房间里最懒惰的高级开发人员一样思考"
+  },
+  {
+   "repo": "Graphify-Labs/graphify",
+   "url": "https://github.com/Graphify-Labs/graphify",
+   "lang": "Python",
+   "stars": "130,500",
+   "desc": "将任何代码库及其文档、SQL架构、配置和PDF转换为可查询的知识图"
+  },
+  {
+   "repo": "msitarzewski/agency-agents",
+   "url": "https://github.com/msitarzewski/agency-agents",
+   "lang": "Shell",
+   "stars": "162,509",
+   "desc": "一个完整的人工智能机构，触手可及--从前端向导到Reddit社区忍者，从奇思妙想的注入者到现实检查者"
+  },
+  {
+   "repo": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "lang": "Python",
+   "stars": "30,873",
+   "desc": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库"
+  },
+  {
+   "repo": "sickn33/agentic-awesome-skills",
+   "url": "https://github.com/sickn33/agentic-awesome-skills",
+   "lang": "Python",
+   "stars": "48,185",
+   "desc": "AAS Core是本地、代理优先的控制平面，用于完整的目录发现、代理拥有的选择、堆栈验证和规划，由2,600多种智能体技能提供支持"
+  },
+  {
+   "repo": "vllm-project/vllm",
+   "url": "https://github.com/vllm-project/vllm",
+   "lang": "Python",
+   "stars": "94,516",
+   "desc": "LLM的高吞吐量和内存效率推断和服务引擎"
+  },
+  {
+   "repo": "storytold/wordcraft",
+   "url": "https://github.com/storytold/wordcraft",
+   "lang": "Rust",
+   "stars": "15,118",
+   "desc": "在纯Rust中重新实现Microsoft Word的开源洁净室"
+  },
+  {
+   "repo": "deepseek-ai/DeepInfer",
+   "url": "https://github.com/deepseek-ai/DeepInfer",
+   "lang": "Python",
+   "stars": "14,485",
+   "desc": "DeepInfer ： DeepSeek模型的高性能、大规模推理框架"
+  },
+  {
+   "repo": "yihui-dev/awesome-opus5-5-videos",
+   "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+   "lang": "",
+   "stars": "7,217",
+   "desc": "用Claude Opus 5.5及其背后的提示制作的越来越多的病毒视频"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "wagoodman/dive",
+   "url": "https://github.com/wagoodman/dive",
+   "lang": "Go",
+   "stars": "54,659",
+   "desc": "用于探索Docker镜像中每个图层的工具",
+   "en": false
+  },
+  {
+   "repo": "dockur/windows",
+   "url": "https://github.com/dockur/windows",
+   "lang": "Shell",
+   "stars": "53,665",
+   "desc": "Docker容器中的Windows",
+   "en": false
+  },
+  {
+   "repo": "sickcodes/Docker-OSX",
+   "url": "https://github.com/sickcodes/Docker-OSX",
+   "lang": "Shell",
+   "stars": "52,999",
+   "desc": "在Docker中运行macOS虚拟机",
+   "en": false
+  },
+  {
+   "repo": "mastodon/mastodon",
+   "url": "https://github.com/mastodon/mastodon",
+   "lang": "Ruby",
+   "stars": "50,424",
+   "desc": "您的自托管、全球互联的微博社区",
+   "en": false
+  },
+  {
+   "repo": "LeCoupa/awesome-cheatsheets",
+   "url": "https://github.com/LeCoupa/awesome-cheatsheets",
+   "lang": "JavaScript",
+   "stars": "46,578",
+   "desc": "热门编程语言、框架和开发工具的👩‍💻👨‍💻精彩备忘单",
+   "en": false
+  },
+  {
+   "repo": "DataTalksClub/data-engineering-zoomcamp",
+   "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+   "lang": "Jupyter Notebook",
+   "stars": "46,310",
+   "desc": "Data Engineering Zoomcamp是一门为期9周的关于构建生产就绪数据管道的免费课程",
+   "en": false
+  },
+  {
+   "repo": "fastapi/full-stack-fastapi-template",
+   "url": "https://github.com/fastapi/full-stack-fastapi-template",
+   "lang": "TypeScript",
+   "stars": "46,058",
+   "desc": "Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, FastAPI Cloud, and Docker Compose.",
+   "en": false
+  },
+  {
+   "repo": "LizardByte/Sunshine",
+   "url": "https://github.com/LizardByte/Sunshine",
+   "lang": "C++",
+   "stars": "42,449",
+   "desc": "Moonlight的自托管游戏流主机",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4125.22,
+   "chg": -0.65,
+   "pe": 12.99,
+   "pe_pct": 55,
+   "pb": 1.38,
+   "pb_pct": 30,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "中证500",
+   "point": 6872.25,
+   "chg": 0.45,
+   "pe": 29.61,
+   "pe_pct": 70,
+   "pb": 2.15,
+   "pb_pct": 67,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2709.96,
+   "chg": -1.07,
+   "pe": 31.58,
+   "pe_pct": 17,
+   "pb": 4.43,
+   "pb_pct": 33,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "科创50",
+   "point": 1349.54,
+   "chg": 0.53,
+   "pe": 108.95,
+   "pe_pct": 78,
+   "pb": 6.37,
+   "pb_pct": 66,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5509.23,
+   "chg": -0.83,
+   "pe": 9.08,
+   "pe_pct": 87,
+   "pb": 0.9,
+   "pb_pct": 60,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11111.03,
+   "chg": -0.98,
+   "pe": 8.98,
+   "pe_pct": 80,
+   "pb": 0.92,
+   "pb_pct": 68,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 23784.27,
+   "chg": -0.35,
+   "pe": 10.55,
+   "pe_pct": 50,
+   "pb": 1.11,
+   "pb_pct": 54,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 26424.82,
+   "chg": -0.02,
+   "pe": 29.61,
+   "pe_pct": 42,
+   "pb": 9.27,
+   "pb_pct": 79,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7712.57,
+   "chg": 0.28,
+   "pe": 24.92,
+   "pe_pct": 55,
+   "pb": 5.57,
+   "pb_pct": 96,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "传媒",
+    "chg": 1.94
+   },
+   {
+    "name": "农林牧渔",
+    "chg": 1.68
+   },
+   {
+    "name": "玻璃玻纤",
+    "chg": 1.43
+   },
+   {
+    "name": "通信设备",
+    "chg": 1.33
+   },
+   {
+    "name": "装修装饰Ⅱ",
+    "chg": 1.19
+   },
+   {
+    "name": "化学制药",
+    "chg": 1.04
+   }
+  ],
+  "dn": [
+   {
+    "name": "汽车零部件",
+    "chg": -0.57
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": -0.56
+   },
+   {
+    "name": "元件",
+    "chg": -0.42
+   },
+   {
+    "name": "仪器仪表",
+    "chg": -0.41
+   },
+   {
+    "name": "化学制品",
+    "chg": -0.33
+   },
+   {
+    "name": "煤炭",
+    "chg": -0.26
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-0.21%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.4583（2026-10-20）（≈ 846 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.2286",
+   "date": "2026-10-19"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.0822",
+   "date": "2026-10-19"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5643",
+   "date": "2026-10-19"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1319",
+   "date": "2026-10-19"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6680",
+   "date": "2026-10-20"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8727",
+   "date": "2026-10-19"
+  }
+ ],
+ "macro": [
+  {
+   "title": "工资驱动通胀临近，日本央行的加息窗口打开了吗？",
+   "ctime": "1792556760",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-10-21/doc-inivyaau8092453.shtml"
+  },
+  {
+   "title": "日本央行前理事前田荣治预计央行料维持每三个月加息一次的步伐",
+   "ctime": "1792555537",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivyaau8066117.shtml"
+  },
+  {
+   "title": "研究称AI将助力东南亚数字经济规模达3680亿美元",
+   "ctime": "1792553978",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivyaar5505527.shtml"
+  },
+  {
+   "title": "江丰电子A股“抽血”43亿仍不解渴？前次募投项目屡屡变更延期 姚力军“三连环”资本局浮现",
+   "ctime": "1792552438",
+   "url": "https://finance.sina.com.cn/stock/observe/2026-10-21/doc-inivyaat6219262.shtml"
+  },
+  {
+   "title": "国际劳工组织首席宏观经济学家：与其征收机器人税，不如降低劳动者税负",
+   "ctime": "1792552047",
+   "url": "https://finance.sina.com.cn/hy/hyjz/2026-10-21/doc-inivyaar5486231.shtml"
+  },
+  {
+   "title": "央行创设稳债市新工具，谁能用、怎么用、何时用？",
+   "ctime": "1792551505",
+   "url": "https://finance.sina.com.cn/roll/2026-10-21/doc-inivyaaw4761463.shtml"
+  },
+  {
+   "title": "国际劳工组织首席宏观经济学家：AI或加剧收入分配不均",
+   "ctime": "1792551359",
+   "url": "https://finance.sina.com.cn/hy/hyjz/2026-10-21/doc-inivyaar5478109.shtml"
+  },
+  {
+   "title": "鼎泰高科盘中涨超4% 董事长提议回购5000万至1亿元A股股份",
+   "ctime": "1792551304",
+   "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-21/doc-inivyaar5472965.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 17,
+   "pe": 31.5758,
+   "pb_pct": 33,
+   "pb": 4.4294
+  }
+ ]
+}
