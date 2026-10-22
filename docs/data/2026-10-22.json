@@ -1,0 +1,527 @@
+{
+ "date": "2026-10-22",
+ "weekday": "四",
+ "val_date": "10-21",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "WSJ：马斯克希望以 AI 为核心推动 SpaceX 与 Tesla 合并",
+    "url": "https://aihot.news/items/nag5wgod0havrmodeo75pwnge",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-10-22T03:16:19.000Z",
+    "summary": "WSJ 报道，马斯克希望以 AI 为核心将估值约 $2T 的 SpaceX 与约 $1.5T 的 Tesla 合并。SpaceX 的 AI 业务已成其最大业务，Q3 营收 $7.56B（一年前仅 $813M），季度 $19.6B 资本开支中超过 $16.4B 投向 AI，推动 SpaceX 实现季度利润 $4.4B（上年同期亏损 $1.05B）。"
+   },
+   {
+    "kind": "news",
+    "title": "Bloomberg 报道 DeepSeek 新一轮融资约 150 亿美元",
+    "url": "https://aihot.news/items/eud25k8zsrrwc63xp39ptvfah",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-10-22T03:13:00.000Z",
+    "summary": "据 Bloomberg，DeepSeek 最新一轮融资约 150 亿美元，为中国最大规模私募融资之一。谈判期间融资目标至少两次上调，从约 75 亿美元提高到 120 亿美元；CATL 和腾讯是最大投资方之一，CATL 据报出资约 15 亿美元。投前估值约 748 亿美元，加上 6 月完成的首轮超 75 亿美元，DeepSeek 约 6 个月内共募资约 225 亿美元。"
+   },
+   {
+    "kind": "news",
+    "title": "AI 挖出潜伏十几年的 PHP 底层漏洞，PHP2Shell 事件全景复盘",
+    "url": "https://aihot.news/items/h1v8wxdkljwpiyadhmy7miw4x",
+    "source": "X：卡兹克 (@Khazix0918)",
+    "publishedAt": "2026-10-22T02:33:39.000Z",
+    "summary": "作者复盘 PHP2Shell 事件：两个 CVSS 满分定为 9.2 分的 PHP 远程代码执行漏洞（CVE-2026-109618 和 CVE-2026-109619）在补丁发布前泄露，攻击演示视频外流，多国政府网站预防性下线，OpenAI 认领漏洞由 GPT-5.6 Sol 辅助发现。"
+   },
+   {
+    "kind": "news",
+    "title": "消息称 Anthropic 最快本周五公开提交 S-1 招股书，或创史上最大 IPO",
+    "url": "https://aihot.news/items/p6muwj8t5l4p2fcshu0tpzpek",
+    "source": "IT之家·人工智能",
+    "publishedAt": "2026-10-22T02:17:14.247Z",
+    "summary": "据雅虎财经援引知情人士报道，Anthropic 最早或于本周五公开提交 S-1 招股说明书，推进有望创史上最大规模的 IPO。"
+   },
+   {
+    "kind": "news",
+    "title": "卡兹克详解 AI 挖出的 PHP2Shell 漏洞：发现只花2天，修复用了两个月",
+    "url": "https://aihot.news/items/ianx6h2f39f9xcxpno4a3cspi",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-10-22T00:06:00.000Z",
+    "summary": "作者复盘 PHP 两个 CVSS 满分起步的远程代码执行漏洞（CVE-2026-109618、CVE-2026-109619，合称 PHP2Shell）从提前泄密、演示视频流出、多国政府网站预防性下线，到21日晚10点补丁上线的全过程，并指出这两个漏洞是 GPT-5.6 Sol 辅助发现的，OpenAI 还发布了检测 skill。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 与 Google Wiz 用 AI 发现潜伏 20 年的 PHP 严重漏洞，NSA 建议无法立即修复的网站先下线",
+    "url": "https://aihot.news/items/hhfrsh3lfmud3u56r6ozp64oa",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-10-21T17:59:12.000Z",
+    "summary": "NSA 发出警告称 PHP 中发现两个严重漏洞，PHP Foundation 已发布补丁；漏洞自 2004 年的 PHP 5 起就存在，影响约 70% 网站。"
+   },
+   {
+    "kind": "news",
+    "title": "研究人员用 GPT-5.6 Sol 发现 PHP 两个 CVSS 9.2 严重漏洞",
+    "url": "https://aihot.news/items/heuaxyy5ixq9x5wtoobw5wq7e",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-10-21T17:40:59.000Z",
+    "summary": "AI 安全公司 Calif 用 GPT-5.6 Sol 在 PHP 中发现两个 CVSS 9.2 严重漏洞，可让无账号攻击者接管 Web 服务器，影响远至 PHP 5.4 的版本，PHP 提前一天紧急发布修复。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Microsoft Research 与合作者证明 31 年历史的 KLS 猜想",
+    "url": "https://aihot.news/items/y1fd2c0s3ydociygdah7apvme",
+    "source": "Microsoft Research 博客（RSS）",
+    "publishedAt": "2026-10-21T16:00:00.000Z",
+    "summary": "Microsoft Research 的 Xinzhi Zhang 与 Zhao Song 证明 1995 年提出的 Kannan–Lovász–Simonovits（KLS）猜想，表明对数凹分布的最优平面切割与任意形状切割的差距不随维度增长，以普适常数为界。"
+   },
+   {
+    "kind": "news",
+    "title": "Wiz Research 披露 PHP2Shell：AI 助攻 PHP 核心 RCE 漏洞，影响全球 70% 网站",
+    "url": "https://aihot.news/items/z9nqeyi6p0br6knhkrt3xd3n6",
+    "source": "Wiz：Research（安全研究）",
+    "publishedAt": "2026-10-21T13:30:59.000Z",
+    "summary": "Wiz Research 披露 PHP 核心中的多个内存安全漏洞（CVE-2026-109618/109619，CVSS 最高 9.2），实现无需认证的远程代码执行与内存泄露，影响至少追溯到 PHP 5.4 的近十年版本。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 与 PerturbAI、Scripps Research 用数千个 GPT‑Rosalind 智能体 32 分钟挖掘脑细胞数据新研究线索",
+    "url": "https://aihot.news/items/indtvl01y865vrsp81h64q7j4",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-10-21T04:50:00.000Z",
+    "summary": "OpenAI、PerturbAI 与 Scripps Research 联合发布研究，用数千个由 GPT‑Rosalind 驱动的 AI 智能体并行分析数百万小鼠脑细胞的全脑 CRISPR atlas，32 分钟内完成分析与文献解读，并称人工逐一分析需数月至一年。"
+   },
+   {
+    "kind": "news",
+    "title": "Google Research 发表 AI 盲扫超声孕周评估研究，准确性与专家操作相当",
+    "url": "https://aihot.news/items/ndcmko0udqo2kgybo0kolxswj",
+    "source": "Google Research：Blog（网页）",
+    "publishedAt": "2026-10-21T00:00:00.000Z",
+    "summary": "Google Research 在 JAMA Network Open 发表前瞻性多中心研究，评估基于\"盲扫\"超声的 AI 孕周评估模型在不同临床环境和设备上的泛化能力。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "RecursiveSI/flint",
+    "url": "https://hf-mirror.com/RecursiveSI/flint",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 296,
+    "downloads": 0,
+    "createdAt": "2026-10-21",
+    "intro": "Flint是Recursive的编码代理专家混合语言模型，共有398亿个参数，每个令牌大约有25亿个活动"
+   },
+   {
+    "kind": "model",
+    "id": "XHToken/Spark-X2.6-4B",
+    "url": "https://hf-mirror.com/XHToken/Spark-X2.6-4B",
+    "license": "apache-2.0",
+    "param": "4B",
+    "likes": 190,
+    "downloads": 85,
+    "createdAt": "2026-10-19",
+    "intro": "此存储库包含Hugging Face Transformers格式的后训练模型的模型权重和配置文件"
+   },
+   {
+    "kind": "model",
+    "id": "InternScience/Sage-A1.5",
+    "url": "https://hf-mirror.com/InternScience/Sage-A1.5",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 169,
+    "downloads": 58,
+    "createdAt": "2026-10-15",
+    "intro": "此存储库包含Hugging Face Transformers格式的Sage-A1.5的模型权重和配置文件"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "supabase/supabase",
+   "url": "https://github.com/supabase/supabase",
+   "lang": "TypeScript",
+   "stars": "113,120",
+   "desc": "Postgres开发平台。Supabase为您提供了一个专用的Postgres数据库，用于构建您的Web、移动和人工智能应用程序"
+  },
+  {
+   "repo": "twentyhq/twenty",
+   "url": "https://github.com/twentyhq/twenty",
+   "lang": "TypeScript",
+   "stars": "59,309",
+   "desc": "Salesforce的开放式替代方案，专为人工智能而设计"
+  },
+  {
+   "repo": "strelov1/freehire",
+   "url": "https://github.com/strelov1/freehire",
+   "lang": "Go",
+   "stars": "2,516",
+   "desc": "freehire —面向求职者的开源搜索引擎"
+  },
+  {
+   "repo": "storytold/vectorcraft",
+   "url": "https://github.com/storytold/vectorcraft",
+   "lang": "Rust",
+   "stars": "10,350",
+   "desc": "VectorCraft ：用纯Rust编写的开源矢量艺术工具"
+  },
+  {
+   "repo": "lemomo-ai/lemo-opuscar",
+   "url": "https://github.com/lemomo-ai/lemo-opuscar",
+   "lang": "JavaScript",
+   "stars": "4,995",
+   "desc": "种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南（新增「实证影像」）"
+  },
+  {
+   "repo": "freeCodeCamp/freeCodeCamp",
+   "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+   "lang": "TypeScript",
+   "stars": "457,657",
+   "desc": "freeCodeCamp.org的开源代码库和课程"
+  },
+  {
+   "repo": "EbookFoundation/free-programming-books",
+   "url": "https://github.com/EbookFoundation/free-programming-books",
+   "lang": "Python",
+   "stars": "399,774",
+   "desc": ": books:免费提供的编程书籍"
+  },
+  {
+   "repo": "openclaw/openclaw",
+   "url": "https://github.com/openclaw/openclaw",
+   "lang": "TypeScript",
+   "stars": "392,716",
+   "desc": "真正做事情的人工智能。任何操作系统"
+  },
+  {
+   "repo": "nilbuild/developer-roadmap",
+   "url": "https://github.com/nilbuild/developer-roadmap",
+   "lang": "TypeScript",
+   "stars": "370,088",
+   "desc": "交互式路线图、指南和其他教育内容，帮助开发人员在职业生涯中成长"
+  },
+  {
+   "repo": "morluto/rea",
+   "url": "https://github.com/morluto/rea",
+   "lang": "TypeScript",
+   "stars": "359,344",
+   "desc": "使用代理对任何内容进行反向工程，从应用行为到本机二进制文件"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "AstrBotDevs/AstrBot",
+   "url": "https://github.com/AstrBotDevs/AstrBot",
+   "lang": "Python",
+   "stars": "42,657",
+   "desc": "AI Agent Assistant和开发框架集成了许多IM平台、LLM、插件和AI功能，可以作为您的开放式替代方案",
+   "en": false
+  },
+  {
+   "repo": "outline/outline",
+   "url": "https://github.com/outline/outline",
+   "lang": "TypeScript",
+   "stars": "41,015",
+   "desc": "成长型团队最快的知识库。美观、实时协作、功能丰富且兼容markdown",
+   "en": false
+  },
+  {
+   "repo": "The-Vibe-Company/quivr",
+   "url": "https://github.com/The-Vibe-Company/quivr",
+   "lang": "Go",
+   "stars": "39,602",
+   "desc": "一个将连续内容流转化为搜索和监控的开源引擎",
+   "en": false
+  },
+  {
+   "repo": "portainer/portainer",
+   "url": "https://github.com/portainer/portainer",
+   "lang": "TypeScript",
+   "stars": "38,701",
+   "desc": "让Docker和Kubernetes管理变得简单",
+   "en": false
+  },
+  {
+   "repo": "harness/harness",
+   "url": "https://github.com/harness/harness",
+   "lang": "Go",
+   "stars": "38,650",
+   "desc": "Harness Open Source是一个端到端开发人员平台，具有源代码管理、CI/CD管道、托管开发人员环境和工件注册表",
+   "en": false
+  },
+  {
+   "repo": "aquasecurity/trivy",
+   "url": "https://github.com/aquasecurity/trivy",
+   "lang": "Go",
+   "stars": "38,592",
+   "desc": "查找漏洞、错误配置、秘密、容器中的SBOM、Kubernetes、代码仓库、云等",
+   "en": false
+  },
+  {
+   "repo": "docker/compose",
+   "url": "https://github.com/docker/compose",
+   "lang": "Go",
+   "stars": "38,427",
+   "desc": "使用Docker定义和运行多容器应用程序",
+   "en": false
+  },
+  {
+   "repo": "community-scripts/ProxmoxVE",
+   "url": "https://github.com/community-scripts/ProxmoxVE",
+   "lang": "Shell",
+   "stars": "29,882",
+   "desc": "Proxmox VE辅助脚本（社区版）",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4060.19,
+   "chg": -1.26,
+   "pe": 12.85,
+   "pe_pct": 52,
+   "pb": 1.37,
+   "pb_pct": 28,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6747.89,
+   "chg": -1.35,
+   "pe": 29.53,
+   "pe_pct": 70,
+   "pb": 2.15,
+   "pb_pct": 67,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2620.04,
+   "chg": -2.77,
+   "pe": 30.73,
+   "pe_pct": 15,
+   "pb": 4.32,
+   "pb_pct": 29,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1321.86,
+   "chg": -1.59,
+   "pe": 108.66,
+   "pe_pct": 77,
+   "pb": 6.36,
+   "pb_pct": 65,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5440.16,
+   "chg": -1.05,
+   "pe": 8.99,
+   "pe_pct": 86,
+   "pb": 0.89,
+   "pb_pct": 59,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11010.45,
+   "chg": -0.78,
+   "pe": 8.87,
+   "pe_pct": 80,
+   "pb": 0.91,
+   "pb_pct": 67,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 22971.93,
+   "chg": -2.87,
+   "pe": 10.38,
+   "pe_pct": 47,
+   "pb": 1.1,
+   "pb_pct": 49,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 26702.86,
+   "chg": 1.05,
+   "pe": 29.77,
+   "pe_pct": 43,
+   "pb": 9.34,
+   "pb_pct": 81,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7757.17,
+   "chg": 0.58,
+   "pe": 24.88,
+   "pe_pct": 55,
+   "pb": 5.56,
+   "pb_pct": 95,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "汽车零部件",
+    "chg": 0.22
+   },
+   {
+    "name": "证券Ⅱ",
+    "chg": 0.2
+   },
+   {
+    "name": "通用设备",
+    "chg": -0.09
+   },
+   {
+    "name": "电网设备",
+    "chg": -0.09
+   },
+   {
+    "name": "贸易Ⅱ",
+    "chg": -0.13
+   },
+   {
+    "name": "一般零售",
+    "chg": -0.33
+   }
+  ],
+  "dn": [
+   {
+    "name": "元件",
+    "chg": -3.36
+   },
+   {
+    "name": "传媒",
+    "chg": -2.7
+   },
+   {
+    "name": "医疗服务",
+    "chg": -2.59
+   },
+   {
+    "name": "煤炭",
+    "chg": -2.46
+   },
+   {
+    "name": "通信设备",
+    "chg": -1.95
+   },
+   {
+    "name": "航运港口",
+    "chg": -1.94
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-1.06%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.4365（2026-10-21）（≈ 844 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.2192",
+   "date": "2026-10-20"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.0701",
+   "date": "2026-10-20"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5784",
+   "date": "2026-10-20"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1400",
+   "date": "2026-10-20"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6599",
+   "date": "2026-10-21"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8628",
+   "date": "2026-10-20"
+  }
+ ],
+ "macro": [
+  {
+   "title": "摩根大通等机构经济学家预计新西兰央行今年将再加息两次",
+   "ctime": "1792644149",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwamir5956032.shtml"
+  },
+  {
+   "title": "奥地利央行前行行长罗伯特·霍尔茨曼：碳信用的关键在于信息来源",
+   "ctime": "1792643251",
+   "url": "https://finance.sina.com.cn/jryx/2026-10-22/doc-iniwamis8114398.shtml"
+  },
+  {
+   "title": "日本国债收益率触及数周低点，交易员权衡中东局势及央行政策前景",
+   "ctime": "1792642663",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwamis8090756.shtml"
+  },
+  {
+   "title": "央行拟切换隔夜逆回购！红利低波ETF华泰柏瑞（512890）成交4.58亿元领跑同类",
+   "ctime": "1792641848",
+   "url": "https://finance.sina.com.cn/money/fund/original/2026-10-22/doc-iniwamip5186825.shtml"
+  },
+  {
+   "title": "里昂：澜起科技第三季度净利润指引中位数同比增长164% 互连芯片带动毛利率改善",
+   "ctime": "1792641318",
+   "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-22/doc-iniwamip5178843.shtml"
+  },
+  {
+   "title": "卡门·努佐：投资者如何把气候证据变成行动？与被投企业沟通是可比数据价值最大之处",
+   "ctime": "1792642075",
+   "url": "https://finance.sina.com.cn/roll/2026-10-22/doc-iniwamir5924044.shtml"
+  },
+  {
+   "title": "宁德时代A股市值跌破万亿关口",
+   "ctime": "1792641660",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-22/doc-iniwamir5917160.shtml"
+  },
+  {
+   "title": "美联储重启加息下的美债收益率变动逻辑、走势特征与应对建议",
+   "ctime": "1792636887",
+   "url": "https://finance.sina.com.cn/money/forex/forexinfo/2026-10-22/doc-iniwaezt5977388.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 15,
+   "pe": 30.7307,
+   "pb_pct": 29,
+   "pb": 4.3248
+  }
+ ]
+}

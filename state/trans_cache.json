@@ -349,5 +349,9 @@
   "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.": "一个完整的人工智能机构，触手可及--从前端向导到Reddit社区忍者，从奇思妙想的注入者到现实检查者",
   "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.": "AAS Core是本地、代理优先的控制平面，用于完整的目录发现、代理拥有的选择、堆栈验证和规划，由2,600多种智能体技能提供支持",
   "A high-throughput and memory-efficient inference and serving engine for LLMs": "LLM的高吞吐量和内存效率推断和服务引擎",
-  "DeepInfer: High-performance, large-scale inference framework for DeepSeek models": "DeepInfer ： DeepSeek模型的高性能、大规模推理框架"
+  "DeepInfer: High-performance, large-scale inference framework for DeepSeek models": "DeepInfer ： DeepSeek模型的高性能、大规模推理框架",
+  "Flint is Recursive’s mixture-of-experts language model for coding agents, with 39.8 billion total parameters and approximately 2.5 billion active per token. It is designed to investigate codebases, fix bugs, implement features, and write tests.": "Flint是Recursive的编码代理专家混合语言模型，共有398亿个参数，每个令牌大约有25亿个活动",
+  "This repository contains model weights and configuration files for Sage-A1.5 in the Hugging Face Transformers format.\n\n These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, etc.": "此存储库包含Hugging Face Transformers格式的Sage-A1.5的模型权重和配置文件",
+  "The open alternative to Salesforce, designed for AI.": "Salesforce的开放式替代方案，专为人工智能而设计",
+  "freehire — the open-source search engine for job seekers": "freehire —面向求职者的开源搜索引擎"
 }
