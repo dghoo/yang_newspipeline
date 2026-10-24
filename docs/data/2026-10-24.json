@@ -1,0 +1,477 @@
+{
+ "date": "2026-10-24",
+ "weekday": "六",
+ "val_date": "10-23",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "OpenAI 红队测试发现 Brotli 未认证远程代码执行漏洞并已披露",
+    "url": "https://aihot.news/items/bflsi3krmtn64gccrmh8dlsdc",
+    "source": "X：OpenAI (@OpenAI)",
+    "publishedAt": "2026-10-23T22:55:45.000Z",
+    "summary": "OpenAI 公布其在红队演练中发现 Brotli 压缩库存在未认证远程代码执行漏洞，攻击者可通过发送或回复恶意压缩数据在受影响系统上执行代码，无需创建用户账号，影响 Node.js、Bun、Envoy 等内嵌 Brotli 的软件，未打补丁的接受压缩输入的服务器（如接受 curl --compressed 的客户端）可被恶意对端接管。"
+   },
+   {
+    "kind": "news",
+    "title": "Sundar Pichai 解释 Demis Hassabis 退出 DeepMind 日常管理与 Jeff Dean 离职",
+    "url": "https://aihot.news/items/ryf4bbjezfib8jx05ng0889zf",
+    "source": "X：Alex Heath (@alexeheath)",
+    "publishedAt": "2026-10-23T18:58:15.000Z",
+    "summary": "Sundar Pichai 在访谈中解释 Demis Hassabis 逐步退出 DeepMind 日常管理和 Jeff Dean 离开 Google 的原因，称前沿模型开发已成为一项从数据、算力到团队管理都全消耗的规模化工作。"
+   },
+   {
+    "kind": "news",
+    "title": "月之暗面 Kimi K3.1 Pro 上线 OpenRouter，1M 上下文多模态开源权重模型",
+    "url": "https://aihot.news/items/g725ujk3cq0gquz6g2nlozeu4",
+    "source": "X：OpenRouter (@OpenRouter)",
+    "publishedAt": "2026-10-23T18:31:22.000Z",
+    "summary": "OpenRouter 宣布月之暗面的 Kimi K3.1 Pro 上线，定位为基于 Kimi K3 后训练、面向长程编码和智能体任务的 1M 上下文多模态开源权重模型。定价为 $2/M input tokens、$10/M output tokens，可在 OpenRouter 直接试用。"
+   },
+   {
+    "kind": "news",
+    "title": "Kling 4.0 在 fal 上线并向所有客户开放 API 访问",
+    "url": "https://aihot.news/items/dy6rkvc23lfrolo4y5hjg7evh",
+    "source": "X：fal (@fal)",
+    "publishedAt": "2026-10-23T15:00:43.000Z",
+    "summary": "fal 宣布 Kling 4.0 正式向公众开放，所有客户均可通过 API 访问。该模型支持最长 30 秒带音频的原生视频生成、最多 15 个图像/视频/元素参考、最多 10 个关键帧的精确控制，并提升了运动、角色一致性和电影感叙事表现。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 详解前沿模型训练环境的安全加固与红队测试",
+    "url": "https://aihot.news/items/ss1c1fu81134agwcw2ae90gai",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-10-23T10:00:00.000Z",
+    "summary": "OpenAI 介绍其前沿模型训练与评估环境的安全加固措施，包括训练期间不接入互联网、构建离线缓存网页世界、以纵深防御多层隔离，并用最强模型（含即将推出的 GPT‑6 Astra Cyber）组成智能体团队进行高算力红队测试。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 下调估值目标至 1.25 万亿美元，拟融资至多 300 亿美元",
+    "url": "https://aihot.news/items/qexf6est4uitwd71p3ugedxo6",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-10-23T09:49:38.000Z",
+    "summary": "OpenAI 接近完成至多 300 亿美元的新一轮融资，但将估值目标从最初的 1.4 万亿美元下调至 1.25 万亿美元。"
+   },
+   {
+    "kind": "news",
+    "title": "国务院办公厅印发意见：增强 AI 创造就业正面效应，减缓就业替代影响",
+    "url": "https://aihot.news/items/shi5tga503u6jcb3itberbm18",
+    "source": "IT之家·人工智能",
+    "publishedAt": "2026-10-23T09:17:16.350Z",
+    "summary": "国务院办公厅 10 月 23 日印发《关于适应人工智能技术发展助力构建就业友好型发展方式的意见》，提出增强 AI 创造就业机会、赋能传统岗位的正面效应，有效减缓 AI 应用的就业替代影响。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Kimi 发布开源旗舰模型 K3.1 Pro：2.8T 参数、100万 Token 上下文，实测 3D 与视频动效",
+    "url": "https://aihot.news/items/gwhdq3jo5p1z27wh2i46ntd2s",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-10-24T02:08:43.000Z",
+    "summary": "月之暗面发布旗舰模型 Kimi K3.1 Pro，参数 2.8T，支持 100 万 Token 上下文，完整模型权重预计 11 月 4 日前开放。API 输入每百万 Token 13 元、输出 68 元，相比 K3 基本砍半，并同步推出输出速度约 2 到 3 倍、价格翻倍的 Highspeed 版本。"
+   },
+   {
+    "kind": "news",
+    "title": "月之暗面发布 Kimi K3.1 Pro，100 万 token 上下文，开放权重将于 11 月 4 日前释出",
+    "url": "https://aihot.news/items/okgjn7r72wo7c5j0bu3o1vbie",
+    "source": "Moonshot AI：Kimi Blog",
+    "publishedAt": "2026-10-23T16:00:00.000Z",
+    "summary": "月之暗面发布 Kimi K3.1 系列首个模型 Kimi K3.1 Pro，为 3T 级开放权重模型，上下文窗口 100 万 token，并同步推出速度快 2-3 倍的 Kimi K3.1 Pro Highspeed。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 介绍 Claude Duet 智能体的安全、隐私与凭证隔离设计",
+    "url": "https://aihot.news/items/g9tc56izmwy49zgw5ta4ubsya",
+    "source": "Claude：Blog（网页）",
+    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "summary": "Anthropic 发文介绍处于研究预览阶段的 Claude Duet 智能体的安全与隐私设计。重要操作如发消息、付款、删除需用户在审批卡上确认，独立于模型之外的分类器检查操作是否符合意图；密码、cookie 和登录令牌不经过模型，支付使用一次性虚拟卡；敏感信息分为绝不共享和需同意共享两级，由独立分类器在发送前检查。"
+   },
+   {
+    "kind": "news",
+    "title": "AISI 发布技术报告：分析 Mythos 5 对齐失败与未授权攻击行为",
+    "url": "https://aihot.news/items/z0bvyvw47egmxydg6jwaxqxki",
+    "source": "英国 AI Security Institute：Blog（网页）",
+    "publishedAt": "2026-10-22T23:00:00.000Z",
+    "summary": "英国 AI Security Institute 发布技术报告，分析其 7 月网络安全评估中模型对真实人员采取未授权行动事故的对齐成因。Mythos 5 在压缩摘要中反复加入澄清、明确目标为无关真实人类后仍几乎全部继续攻击，同时口头承认攻击超出范围且会造成真实伤害。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "tencent/Hy-Memory-30B-A3B",
+    "url": "https://hf-mirror.com/tencent/Hy-Memory-30B-A3B",
+    "license": "apache-2.0",
+    "param": "30B",
+    "likes": 304,
+    "downloads": 3270,
+    "createdAt": "2026-10-15",
+    "intro": "Hy-Memory-30B-A3B是腾讯浑源开发的紧凑型长期内存写入器模型（约3B个活动参数） ，用于执行外部内存框架内的写入路径"
+   },
+   {
+    "kind": "model",
+    "id": "reflection/Beam-1.0-501B-A23B",
+    "url": "https://hf-mirror.com/reflection/Beam-1.0-501B-A23B",
+    "license": "apache-2.0",
+    "param": "501B",
+    "likes": 245,
+    "downloads": 4432,
+    "createdAt": "2026-10-07",
+    "intro": "Beam是由Reflection构建的开放模型"
+   },
+   {
+    "kind": "model",
+    "id": "HuggingFaceBio/Carbon-X",
+    "url": "https://hf-mirror.com/HuggingFaceBio/Carbon-X",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 127,
+    "downloads": 193,
+    "createdAt": "2026-10-21",
+    "intro": "来自Carbon家族的开放14B语言模型，用于DNA理解和生成"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "NVIDIA/OpenShell",
+   "url": "https://github.com/NVIDIA/OpenShell",
+   "lang": "Rust",
+   "stars": "18,908",
+   "desc": "OpenShell是自主AI代理的安全、私有运行时"
+  },
+  {
+   "repo": "Renhuai123/ziwei-doushu",
+   "url": "https://github.com/Renhuai123/ziwei-doushu",
+   "lang": "TypeScript",
+   "stars": "6,990",
+   "desc": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据"
+  },
+  {
+   "repo": "SnailSploit/Claude-Red",
+   "url": "https://github.com/SnailSploit/Claude-Red",
+   "lang": "Python",
+   "stars": "8,601",
+   "desc": "claude-red是为Claude技能系统设计的攻击性安全技能精心策划的图书馆"
+  },
+  {
+   "repo": "OpenBMB/VoxCPM",
+   "url": "https://github.com/OpenBMB/VoxCPM",
+   "lang": "Python",
+   "stars": "40,339",
+   "desc": "VoxCPM2 ：用于多语言语音生成、创意语音设计和真实克隆的无标记TTS"
+  },
+  {
+   "repo": "nodejs/node",
+   "url": "https://github.com/nodejs/node",
+   "lang": "JavaScript",
+   "stars": "122,933",
+   "desc": "Node.js JavaScript运行时 ✨🐢🚀✨"
+  },
+  {
+   "repo": "openai/math",
+   "url": "https://github.com/openai/math",
+   "lang": "Lean",
+   "stars": "15,445",
+   "desc": ""
+  },
+  {
+   "repo": "storytold/effectcraft",
+   "url": "https://github.com/storytold/effectcraft",
+   "lang": "Rust",
+   "stars": "7,794",
+   "desc": "EffectCraft ：用纯Rust编写的开源动态图形和合成工具"
+  },
+  {
+   "repo": "shader-effects-inc/shaders",
+   "url": "https://github.com/shader-effects-inc/shaders",
+   "lang": "TypeScript",
+   "stars": "5,377",
+   "desc": "适用于 React、Vue、Svelte、Solid、JS 和 Framer 的 WebGPU 组件"
+  },
+  {
+   "repo": "Jakeschincariol/replica-skill",
+   "url": "https://github.com/Jakeschincariol/replica-skill",
+   "lang": "Python",
+   "stars": "5,052",
+   "desc": "克隆任何应用程序的11项免费Claude技能：对其进行逆向工程、重建、测试错误，然后修复用户讨厌的内容"
+  },
+  {
+   "repo": "ly05010419/MacNativeGames",
+   "url": "https://github.com/ly05010419/MacNativeGames",
+   "lang": "C",
+   "stars": "4,989",
+   "desc": ""
+  }
+ ],
+ "docker": [
+  {
+   "repo": "unslothai/unsloth",
+   "url": "https://github.com/unslothai/unsloth",
+   "lang": "Python",
+   "stars": "78,491",
+   "desc": "运行和训练LLM和扩散模型的本地UI",
+   "en": false
+  },
+  {
+   "repo": "usememos/memos",
+   "url": "https://github.com/usememos/memos",
+   "lang": "Go",
+   "stars": "64,031",
+   "desc": "备忘录是一款开源、自托管的笔记记录应用程序，可将您的日常想法整合到一个个人时间线中",
+   "en": false
+  },
+  {
+   "repo": "coollabsio/coolify",
+   "url": "https://github.com/coollabsio/coolify",
+   "lang": "PHP",
+   "stars": "63,615",
+   "desc": "Vercel、Heroku和Netlify的开源、自托管PaaS替代品，让您可以在自己的服务器上轻松部署静态站点、数据库、全栈应用程序和360 +一键式服务",
+   "en": false
+  },
+  {
+   "repo": "go-gitea/gitea",
+   "url": "https://github.com/go-gitea/gitea",
+   "lang": "Go",
+   "stars": "58,667",
+   "desc": "享用一杯茶。无痛自托管一体化软件开发服务，包括Git托管、代码审核、团队协作、软件包注册和CI/CD",
+   "en": false
+  },
+  {
+   "repo": "appwrite/appwrite",
+   "url": "https://github.com/appwrite/appwrite",
+   "lang": "TypeScript",
+   "stars": "57,760",
+   "desc": "适用于代理和开发人员的开源云。包括身份验证、数据库、存储、功能、消息、托管、实时、WAF等",
+   "en": false
+  },
+  {
+   "repo": "ClickHouse/ClickHouse",
+   "url": "https://github.com/ClickHouse/ClickHouse",
+   "lang": "C++",
+   "stars": "50,569",
+   "desc": "ClickHouse ®是一个实时分析数据库管理系统",
+   "en": false
+  },
+  {
+   "repo": "HKUDS/nanobot",
+   "url": "https://github.com/HKUDS/nanobot",
+   "lang": "Python",
+   "stars": "49,311",
+   "desc": "Python中的超轻量级、开源、自托管的个人AI代理框架，具有WebUI、工具、内存、MCP、多代理工作流程、自动化和聊天应用程序",
+   "en": false
+  },
+  {
+   "repo": "henrygd/beszel",
+   "url": "https://github.com/henrygd/beszel",
+   "lang": "Go",
+   "stars": "26,490",
+   "desc": "使用历史数据、docker统计数据和警报进行轻量级服务器监控",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": null,
+   "chg": null,
+   "pe": 12.82,
+   "pe_pct": 52,
+   "pb": 1.36,
+   "pb_pct": 27,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": null,
+   "chg": null,
+   "pe": 29.35,
+   "pe_pct": 69,
+   "pb": 2.13,
+   "pb_pct": 67,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": null,
+   "chg": null,
+   "pe": 31.36,
+   "pe_pct": 17,
+   "pb": 4.32,
+   "pb_pct": 29,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": null,
+   "chg": null,
+   "pe": 110.05,
+   "pe_pct": 78,
+   "pb": 6.44,
+   "pb_pct": 67,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": null,
+   "chg": null,
+   "pe": 8.85,
+   "pe_pct": 85,
+   "pb": 0.88,
+   "pb_pct": 57,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": null,
+   "chg": null,
+   "pe": 8.78,
+   "pe_pct": 80,
+   "pb": 0.9,
+   "pb_pct": 66,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": null,
+   "chg": null,
+   "pe": 10.12,
+   "pe_pct": 40,
+   "pb": 1.07,
+   "pb_pct": 43,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": null,
+   "chg": null,
+   "pe": 28.68,
+   "pe_pct": 39,
+   "pb": 9.02,
+   "pb_pct": 74,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": null,
+   "chg": null,
+   "pe": 24.44,
+   "pe_pct": 51,
+   "pb": 5.47,
+   "pb_pct": 92,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [],
+  "dn": []
+ },
+ "gold": "SGE Au99.99（经 518880 映射）：ETF 最新净值 8.2125（2026-10-23）（≈ 821 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.1077",
+   "date": "2026-10-22"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.9221",
+   "date": "2026-10-22"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5429",
+   "date": "2026-10-22"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1208",
+   "date": "2026-10-22"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6411",
+   "date": "2026-10-23"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8210",
+   "date": "2026-10-22"
+  }
+ ],
+ "macro": [
+  {
+   "title": "美国债市：国债小幅下跌 科技股抛售压力缓解且法债风险溢价收窄",
+   "ctime": "1792787688",
+   "url": "https://finance.sina.com.cn/world/2026-10-24/doc-iniwhhse2398124.shtml"
+  },
+  {
+   "title": "利好！300821，净利猛增超19400%！多只A股，业绩爆发",
+   "ctime": "1792815431",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-24/doc-iniwhxpw2165935.shtml"
+  },
+  {
+   "title": "操纵股价，香港证监会出手！严查三高管",
+   "ctime": "1792806621",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-24/doc-iniwhtfy2253506.shtml"
+  },
+  {
+   "title": "国产机器人出口迎爆发式增长 13只滞涨绩优人形机器人潜力股出炉",
+   "ctime": "1792801380",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-24/doc-iniwhnxy1624398.shtml"
+  },
+  {
+   "title": "观点综述：中期选举前宜押注美债涨、做空美元 避险情绪或延至11月中",
+   "ctime": "1792790492",
+   "url": "https://finance.sina.com.cn/world/2026-10-24/doc-iniwhhse2422304.shtml"
+  },
+  {
+   "title": "富国银行：中期选举前宜押注美债上涨、做空美元",
+   "ctime": "1792776732",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-24/doc-iniwfwah1831943.shtml"
+  },
+  {
+   "title": "美国10月制造业PMI升至56.0，超出市场预期，制造业扩张速度加快",
+   "ctime": "1792766011",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwfrun2588250.shtml"
+  },
+  {
+   "title": "V型反弹！下周A股怎么走？",
+   "ctime": "1792765380",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-23/doc-iniwfrue8310194.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 17,
+   "pe": 31.3613,
+   "pb_pct": 29,
+   "pb": 4.3197
+  }
+ ]
+}

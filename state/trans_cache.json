@@ -358,5 +358,13 @@
   "The PHP Interpreter": "PHP解释器",
   "FastAPI framework, high performance, easy to learn, fast to code, ready for production": "FastAPI框架，高性能，易于学习，快速编码，可投入生产",
   "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.": "以示例为导向的可视化Claude准则指南--从基本概念到高级智能体，其中的复制粘贴模板可立即带来价值",
-  "A no-code RAG server that keeps answers in sync with your documents. Works with 8 vector databases. Built on Pathway.": "无代码RAG服务器，可使答案与您的文档保持同步"
+  "A no-code RAG server that keeps answers in sync with your documents. Works with 8 vector databases. Built on Pathway.": "无代码RAG服务器，可使答案与您的文档保持同步",
+  "An open 14B language model for DNA understanding and generation, from the Carbon family.": "来自Carbon家族的开放14B语言模型，用于DNA理解和生成",
+  "OpenShell is the safe, private runtime for autonomous AI agents.": "OpenShell是自主AI代理的安全、私有运行时",
+  "Node.js JavaScript runtime ✨🐢🚀✨": "Node.js JavaScript运行时 ✨🐢🚀✨",
+  "WebGPU components for React, Vue, Svelte, Solid, JS & Framer": "适用于 React、Vue、Svelte、Solid、JS 和 Framer 的 WebGPU 组件",
+  "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.": "克隆任何应用程序的11项免费Claude技能：对其进行逆向工程、重建、测试错误，然后修复用户讨厌的内容",
+  "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.": "运行和训练LLM和扩散模型的本地UI",
+  "Memos is an open-source, self-hosted note-taking app that brings your everyday thoughts together in a personal timeline. Your data stays yours, and you choose what to keep private or share.": "备忘录是一款开源、自托管的笔记记录应用程序，可将您的日常想法整合到一个个人时间线中",
+  "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.": "Vercel、Heroku和Netlify的开源、自托管PaaS替代品，让您可以在自己的服务器上轻松部署静态站点、数据库、全栈应用程序和360 +一键式服务"
 }
