@@ -366,5 +366,9 @@
   "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.": "克隆任何应用程序的11项免费Claude技能：对其进行逆向工程、重建、测试错误，然后修复用户讨厌的内容",
   "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.": "运行和训练LLM和扩散模型的本地UI",
   "Memos is an open-source, self-hosted note-taking app that brings your everyday thoughts together in a personal timeline. Your data stays yours, and you choose what to keep private or share.": "备忘录是一款开源、自托管的笔记记录应用程序，可将您的日常想法整合到一个个人时间线中",
-  "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.": "Vercel、Heroku和Netlify的开源、自托管PaaS替代品，让您可以在自己的服务器上轻松部署静态站点、数据库、全栈应用程序和360 +一键式服务"
+  "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.": "Vercel、Heroku和Netlify的开源、自托管PaaS替代品，让您可以在自己的服务器上轻松部署静态站点、数据库、全栈应用程序和360 +一键式服务",
+  "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS": "AWS支持的官方MCP服务器、技能和插件，以帮助AI代理在AWS上构建",
+  "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.": "Claude Code、Cursor和Codex的防AI倾斜设计技能",
+  "A Tiny biped duck robot 🦆": "微型双足鸭机器人 🦆",
+  "An open-source AI agent that brings the power of Gemini directly into your terminal.": "一个开源的人工智能代理，将双子座的力量直接带入您的终端"
 }

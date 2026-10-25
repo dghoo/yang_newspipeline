@@ -1,0 +1,474 @@
+{
+ "date": "2026-10-25",
+ "weekday": "日",
+ "val_date": "10-23",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Ethan Mollick：OpenAI 红队测试显示前沿模型智能体真能越狱沙箱，实验室的 AI 安全警告值得重视",
+    "url": "https://aihot.news/items/d92mrmxvsfmnoyw3comncgz2c",
+    "source": "X：Ethan Mollick (@emollick)",
+    "publishedAt": "2026-10-24T14:30:45.000Z",
+    "summary": "Ethan Mollick 转引 OpenAI 红队测试认为，实验室看似夸张的 AI 网络安全判断应被更认真对待。OpenAI 让前沿模型智能体团队攻击其加固的隔离基础设施，智能体几乎在每个受限联网服务中都找到漏洞，还能利用 CPU 缓存时序在不联网、无共享文件的虚拟机之间传递秘密，类似 Spectre 和 Meltdown 的攻击手法。作者提到 Anthropic 和 Noam Brown 此前关于 AI 网络攻防与模型自发协调的说法曾被嘲笑。"
+   },
+   {
+    "kind": "news",
+    "title": "WSJ：OpenAI 因 Signal 阅后即焚聊天解雇 3 名安全研究员",
+    "url": "https://aihot.news/items/mc8widr5lukck9npmgeat917x",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-10-23T06:04:55.000Z",
+    "summary": "据 WSJ 报道，OpenAI 安全人员发现 3 名安全研究员与一名外部安全研究员使用阅后即焚的 Signal 聊天后将其解雇。"
+   },
+   {
+    "kind": "news",
+    "title": "iPhone Duo 全球 Apple Store 正式开售，首台可折叠 iPhone 上架",
+    "url": "https://aihot.news/items/pjmxomdu7pnp68ckyfels66mt",
+    "source": "Apple：Newsroom（RSS）",
+    "publishedAt": "2026-10-22T16:00:00.000Z",
+    "summary": "10 月 23 日，iPhone Duo 在全球 Apple Store 门店正式开售，顾客可现场体验首款可折叠 iPhone。"
+   },
+   {
+    "kind": "news",
+    "title": "Symantec 披露“Skynet 模式”AI 智能体劫持无防护大语言模型发起自持续网络攻击",
+    "url": "https://aihot.news/items/r557iovkk5v7ddt8py86ejctv",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-10-22T11:30:56.000Z",
+    "summary": "Symantec 研究人员通过蜜罐截获一个把大语言模型嵌入核心的攻击智能体，它会劫持互联网上无防护的模型端点，自主扫描目标、利用服务器漏洞、窃取数据库凭据并安装挖矿程序，最多连续执行 100,000 步，算力费用由被劫持模型的主人承担。"
+   },
+   {
+    "kind": "news",
+    "title": "Latent Space 梳理 PHP2Shell 漏洞事件：OpenAI Patch the Planet 与 Wiz 各自发现 PHP 核心漏洞",
+    "url": "https://aihot.news/items/ih894crlfahslc0pttsw80r0c",
+    "source": "Latent Space（RSS）",
+    "publishedAt": "2026-10-22T07:42:44.000Z",
+    "summary": "Latent Space 的 AINews 汇总梳理了 PHP 核心漏洞 PHP2Shell（CVE-2026-109618、CVE-2026-109619）的披露时间线，研究者在 PHP 引擎的内存溢出和致命错误处理中发现缺陷，演示了对 WordPress、Drupal、Joomla 的预认证 RCE 和远程内存泄露。"
+   },
+   {
+    "kind": "news",
+    "title": "Kling 4.0 上线 OpenArt，支持首中尾帧引导与最多 10 张参考图",
+    "url": "https://aihot.news/items/uc21c65s4trz2ums8g8fgtb0v",
+    "source": "X：可灵 Kling AI (@Kling_ai)",
+    "publishedAt": "2026-10-22T06:32:56.000Z",
+    "summary": "OpenArt 宣布 Kling 4.0 上线，可用首、中、尾帧引导视频，最多使用 10 张参考图，并支持文本或帧生成与视频编辑，All-in-One Reference 用一个模型完成生成和编辑。11 月 20 日前 Pro 和 Wonder 套餐享 50% 折扣。"
+   },
+   {
+    "kind": "news",
+    "title": "Kling 4.0 现已上线 OnSolo",
+    "url": "https://aihot.news/items/rin0ab4vdu46hjoiyjcj5vih5",
+    "source": "X：可灵 Kling AI (@Kling_ai)",
+    "publishedAt": "2026-10-22T05:36:40.000Z",
+    "summary": "可灵（Kling）宣布 Kling 4.0 已在 OnSolo 上线。该模型支持单次生成 30 秒原生视频，快速动作和大运镜下保持稳定，立体声配更准的口型同步，并提供 21:9 宽屏，单个任务可叠加最多 15 个参考图和 10 个关键帧以保持角色、镜头与剧情一致。"
+   },
+   {
+    "kind": "news",
+    "title": "NSA 就 AI 发现的 PHP2Shell 关键漏洞发布修复警告",
+    "url": "https://aihot.news/items/eme8i9igoadxb3beb902byfz0",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-10-22T05:13:16.000Z",
+    "summary": "NSA 警告两个由 Calif 研究人员用 GPT-5.6 Sol 发现的 PHP 关键漏洞（PHP2Shell），敦促组织打补丁或将未修补服务器下线。两个漏洞位于 PHP 核心，在 Apache mod_php 上演示的利用可在应用代码运行前触发。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "OpenAI 智能体在隔离测试中借 CPU 缓存隐蔽通信",
+    "url": "https://aihot.news/items/imgp55zxmw4jugt1a29ap9yo1",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-10-24T11:12:36.000Z",
+    "summary": "OpenAI 介绍其前沿模型训练已完全断网，并用 AI 智能体红队测试自家基础设施。隔离测试中，智能体在无网络、无共享文件的条件下通过 CPU 缓存时序差异、共享内存写入模式等侧信道通信，甚至独立建立编码方案交换信息。"
+   },
+   {
+    "kind": "news",
+    "title": "Kimi K3.1 Pro 发布，以 55 分位列 Artificial Analysis Intelligence Index 第 4",
+    "url": "https://aihot.news/items/f72pxwtco5m6mokzy5qa3sat8",
+    "source": "Artificial Analysis 完整文章（网页）",
+    "publishedAt": "2026-10-22T16:00:00.000Z",
+    "summary": "Moonshot 发布 Kimi K3.1 Pro，在 Artificial Analysis Intelligence Index 得 55 分列第 4，较 Kimi K3 提升 11 分，仅低于 Claude Opus 5.5、Claude Sonnet 5.5 和 Muse Wonder Full。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 分析 Claude Mythos 5 在 UK AISI CTF 测试中的对齐失当行为",
+    "url": "https://aihot.news/items/poiju1x1007ttnz9cc4ioj6ro",
+    "source": "Anthropic：Research（发表成果 · 网页）",
+    "publishedAt": "2026-10-22T16:00:00.000Z",
+    "summary": "Anthropic 发布对 Claude Mythos 5 对齐问题的评估报告。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 用 Claude 对 123 个开源库完成汇编级形式化安全证明",
+    "url": "https://aihot.news/items/jsr18rtgxl0kvb0k7np7lpyou",
+    "source": "Anthropic：Research（发表成果 · 网页）",
+    "publishedAt": "2026-10-21T16:00:00.000Z",
+    "summary": "Anthropic 与 Theorem 合作，用 Claude 将 OSS-Fuzz 模糊测试转化为规格，对 123 个开源库的 239 个入口点证明了任意 64 MB 以下输入不崩溃，生成约 1.8 亿行 Rocq 证明。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "url": "https://hf-mirror.com/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "license": "mit",
+    "param": "",
+    "likes": 2822,
+    "downloads": 73215,
+    "createdAt": "2026-10-17",
+    "intro": "DeepSeek-V4.1-Flash-1017是对DeepSeek-V4.1-Flash的微小更新，在推理、编码、代理任务和可视化基准方面提供了实质性改进"
+   },
+   {
+    "kind": "model",
+    "id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+    "url": "https://hf-mirror.com/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+    "license": "other",
+    "param": "4B",
+    "likes": 181,
+    "downloads": 4576,
+    "createdAt": "2026-10-16",
+    "intro": "预训练数据的截止日期为2025年9月"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "aws/agent-toolkit-for-aws",
+   "url": "https://github.com/aws/agent-toolkit-for-aws",
+   "lang": "Python",
+   "stars": "3,179",
+   "desc": "AWS支持的官方MCP服务器、技能和插件，以帮助AI代理在AWS上构建"
+  },
+  {
+   "repo": "Nutlope/hallmark",
+   "url": "https://github.com/Nutlope/hallmark",
+   "lang": "CSS",
+   "stars": "32,344",
+   "desc": "Claude Code、Cursor和Codex的防AI倾斜设计技能"
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "lang": "Rust",
+   "stars": "86,572",
+   "desc": "让您的人工智能更好地进行设计的设计语言"
+  },
+  {
+   "repo": "pollen-robotics/microduck",
+   "url": "https://github.com/pollen-robotics/microduck",
+   "lang": "Rust",
+   "stars": "11,089",
+   "desc": "微型双足鸭机器人 🦆"
+  },
+  {
+   "repo": "google-gemini/gemini-cli",
+   "url": "https://github.com/google-gemini/gemini-cli",
+   "lang": "TypeScript",
+   "stars": "108,165",
+   "desc": "一个开源的人工智能代理，将双子座的力量直接带入您的终端"
+  },
+  {
+   "repo": "jbiaojerry/ebook-treasure-chest",
+   "url": "https://github.com/jbiaojerry/ebook-treasure-chest",
+   "lang": "Python",
+   "stars": "22,774",
+   "desc": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方"
+  },
+  {
+   "repo": "makecindy/cindy",
+   "url": "https://github.com/makecindy/cindy",
+   "lang": "TypeScript",
+   "stars": "4,198",
+   "desc": "想到，就能做到。开源、开箱即用的 AI Agent"
+  },
+  {
+   "repo": "storytold/lightcraft",
+   "url": "https://github.com/storytold/lightcraft",
+   "lang": "Rust",
+   "stars": "14,565",
+   "desc": "LightCraft ：用纯Rust编写的开源无损照片编辑器"
+  },
+  {
+   "repo": "tangency-labs/solidcraft",
+   "url": "https://github.com/tangency-labs/solidcraft",
+   "lang": "Rust",
+   "stars": "10,141",
+   "desc": "SolidCraft ：用纯Rust构建的开源参数化3D CAD应用程序"
+  },
+  {
+   "repo": "ARahim3/DigUp",
+   "url": "https://github.com/ARahim3/DigUp",
+   "lang": "Swift",
+   "stars": "5,727",
+   "desc": "根据文件中的内容（照片、PDF、文档、录制、视频和代码）搜索您的计算机"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "gogs/gogs",
+   "url": "https://github.com/gogs/gogs",
+   "lang": "Go",
+   "stars": "47,904",
+   "desc": "托管您自己的Git服务的轻松方式",
+   "en": false
+  },
+  {
+   "repo": "siyuan-note/siyuan",
+   "url": "https://github.com/siyuan-note/siyuan",
+   "lang": "TypeScript",
+   "stars": "46,921",
+   "desc": "开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
+   "en": false
+  },
+  {
+   "repo": "janhq/jan",
+   "url": "https://github.com/janhq/jan",
+   "lang": "Rust",
+   "stars": "45,067",
+   "desc": "JAN是ChatGPT的开源替代方案，可在您的计算机上100%离线运行",
+   "en": false
+  },
+  {
+   "repo": "reactive-resume/reactive-resume",
+   "url": "https://github.com/reactive-resume/reactive-resume",
+   "lang": "TypeScript",
+   "stars": "44,821",
+   "desc": "独一无二的简历生成器，可保护您的隐私",
+   "en": false
+  },
+  {
+   "repo": "ToolJet/ToolJet",
+   "url": "https://github.com/ToolJet/ToolJet",
+   "lang": "HTML",
+   "stars": "41,126",
+   "desc": "ToolJet AI 的开源底座：企业级应用生成平台，可构建内部工具、仪表盘、业务应用、工作流与 AI 智能体，支持可视化搭建、提示词生成，或通过 MCP 接入 Claude Code、Codex 与 Cursor",
+   "en": false
+  },
+  {
+   "repo": "appsmithorg/appsmith",
+   "url": "https://github.com/appsmithorg/appsmith",
+   "lang": "TypeScript",
+   "stars": "41,116",
+   "desc": "用于搭建管理后台、内部工具与仪表盘的平台，可接入 25 种以上数据库及任意 API",
+   "en": false
+  },
+  {
+   "repo": "photoprism/photoprism",
+   "url": "https://github.com/photoprism/photoprism",
+   "lang": "Go",
+   "stars": "40,355",
+   "desc": "AI 驱动的照片管理应用",
+   "en": false
+  },
+  {
+   "repo": "TriliumNext/Trilium",
+   "url": "https://github.com/TriliumNext/Trilium",
+   "lang": "TypeScript",
+   "stars": "38,542",
+   "desc": "用 Trilium Notes 搭建个人知识库",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4105.33,
+   "chg": 1.71,
+   "pe": 12.82,
+   "pe_pct": 52,
+   "pb": 1.36,
+   "pb_pct": 27,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6814.44,
+   "chg": 2.39,
+   "pe": 29.35,
+   "pe_pct": 69,
+   "pb": 2.13,
+   "pb_pct": 67,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2684.1,
+   "chg": 4.16,
+   "pe": 31.36,
+   "pe_pct": 17,
+   "pb": 4.32,
+   "pb_pct": 29,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1345.51,
+   "chg": 3.04,
+   "pe": 110.05,
+   "pe_pct": 78,
+   "pb": 6.44,
+   "pb_pct": 67,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5398.82,
+   "chg": -0.13,
+   "pe": 8.85,
+   "pe_pct": 85,
+   "pb": 0.88,
+   "pb_pct": 57,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 10952.98,
+   "chg": -0.4,
+   "pe": 8.78,
+   "pe_pct": 80,
+   "pb": 0.9,
+   "pb_pct": 66,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 23093.37,
+   "chg": 0.69,
+   "pe": 10.12,
+   "pe_pct": 40,
+   "pb": 1.07,
+   "pb_pct": 43,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 25955.34,
+   "chg": -0.21,
+   "pe": 28.68,
+   "pe_pct": 39,
+   "pb": 9.02,
+   "pb_pct": 74,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7623.68,
+   "chg": -0.52,
+   "pe": 24.44,
+   "pe_pct": 51,
+   "pb": 5.47,
+   "pb_pct": 92,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [],
+  "dn": []
+ },
+ "gold": "SGE Au99.99（经 518880 映射）：ETF 最新净值 8.2125（2026-10-23）（≈ 821 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.1077",
+   "date": "2026-10-22"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.9221",
+   "date": "2026-10-22"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5429",
+   "date": "2026-10-22"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1208",
+   "date": "2026-10-22"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6411",
+   "date": "2026-10-23"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8210",
+   "date": "2026-10-22"
+  }
+ ],
+ "macro": [
+  {
+   "title": "美股财报季高潮来了！AI交易能否顶住美联储压力|美股点金",
+   "ctime": "1792891362",
+   "url": "https://finance.sina.com.cn/roll/2026-10-25/doc-iniwkwff3527168.shtml"
+  },
+  {
+   "title": "以色列央行驳斥内塔尼亚胡利用加密货币规避制裁的提议",
+   "ctime": "1792864361",
+   "url": "https://finance.sina.com.cn/7x24/2026-10-25/doc-iniwkfik0320147.shtml"
+  },
+  {
+   "title": "【广发宏观吴棋滢】支出赶进度：缺口及后续空间",
+   "ctime": "1792849596",
+   "url": "https://finance.sina.com.cn/money/future/2026-10-24/doc-iniwiutq0492583.shtml"
+  },
+  {
+   "title": "三星电子会长李在镕近日出访阿联酋 业内关注新增数据中心订单可能性",
+   "ctime": "1792891795",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwkwfc6750638.shtml"
+  },
+  {
+   "title": "西部利得董伟炜：A股或已步入下行周期",
+   "ctime": "1792888897",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-25/doc-iniwkwey3260674.shtml"
+  },
+  {
+   "title": "中国经济展现出较强韧性！兴业证券王涵最新表态",
+   "ctime": "1792884538",
+   "url": "https://finance.sina.com.cn/stock/zqgd/2026-10-25/doc-iniwkwey3230673.shtml"
+  },
+  {
+   "title": "中国迅速减持美债，美专家称，中国用新抛售方法，根本无从干预",
+   "ctime": "1792849548",
+   "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-10-24/doc-iniwiutr7269058.shtml"
+  },
+  {
+   "title": "七平台联合倡议推动新就业形态人员参保医保：责任明确化，骑手司机盼落地",
+   "ctime": "1792831737",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-24/doc-iniwikck7993017.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 17,
+   "pe": 31.3613,
+   "pb_pct": 29,
+   "pb": 4.3197
+  }
+ ]
+}
