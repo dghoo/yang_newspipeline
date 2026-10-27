@@ -1,0 +1,517 @@
+{
+ "date": "2026-10-27",
+ "weekday": "二",
+ "val_date": "10-26",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Anthropic 招股书拆解：IPO 计划募资约 1000 亿美元背后的 11 个细节",
+    "url": "https://aihot.news/items/t6evqsenxfytsi8wl7h1urjxr",
+    "source": "X：卡兹克 (@Khazix0918)",
+    "publishedAt": "2026-10-27T00:34:38.000Z",
+    "summary": "作者总结 Anthropic IPO 招股书的 11 个细节，计划募资约 1000 亿美元、估值或达 1.5万亿～2万亿。收入五个季度涨 30 倍，今年二季度经营利润首次转正 9.74 亿美元，但上半年净亏 807 亿美元，主要来自可转换票据公允价值变动；调整后净利润为正 26.71 亿美元。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic IPO 招股书11个细节解读：千亿募资、807亿美元亏损与7美元控股权",
+    "url": "https://aihot.news/items/dw9465ajr0oz1vf6ricf2074f",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-10-27T00:05:00.000Z",
+    "summary": "作者梳理了 Anthropic 提交的 IPO 招股书中的11个细节。"
+   },
+   {
+    "kind": "news",
+    "title": "Greg Brockman 称 GPT-6.1 Terra 的电脑操作速度已超过他本人",
+    "url": "https://aihot.news/items/cccggvocxi7vdefusohq9tmdn",
+    "source": "X：Greg Brockman (@gdb)",
+    "publishedAt": "2026-10-26T20:21:41.000Z",
+    "summary": "Greg Brockman 表示 GPT-6.1 Terra 的电脑操作能力已跨过一个质变门槛，用起来比他不借助 AI 时更快。其引用的 OpenAI 介绍称 GPT-6.1 Terra 能理解屏幕内容、跨应用执行操作、自然书写，以更低价格提供快速且强大的 computer use，适合承担整个工作日的更多任务。"
+   },
+   {
+    "kind": "news",
+    "title": "Gamma 发布 Gamma 5 及 credits、导出、预览等多项更新",
+    "url": "https://aihot.news/items/tckw64et369c0brghxzwke9qe",
+    "source": "Gamma Changelog",
+    "publishedAt": "2026-10-26T19:14:26.000Z",
+    "summary": "Gamma 发布 Gamma 5，宣称重建了思考、设计和编辑方式，支持输入句子、文档、PDF、图片或旧演示文稿，由智能体在几分钟内完成调研和设计，并可连接 Slack、Notion、Granola 等 20+ 工具引入上下文。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI GPT-6.1 Terra 上线 OpenRouter，定价 $1/M input、$5/M output",
+    "url": "https://aihot.news/items/yims6bdgwsy052wrmjytgak8p",
+    "source": "X：OpenRouter (@OpenRouter)",
+    "publishedAt": "2026-10-26T18:49:39.000Z",
+    "summary": "OpenRouter 宣布 OpenAI 的 GPT-6.1 Terra 上线。该模型在 Agents' Last Exam 上与 GPT-6 Astra 得分相当，每 token 价格约为其十分之一，平均完成任务速度比 Astra 和 GPT-6.1 Sol 快 3 倍以上。定价 $1/M input、$5/M output，上下文 1.05M，链接 https://openrouter.ai/openai/gpt-6.1-terra 。"
+   },
+   {
+    "kind": "news",
+    "title": "Meta 向 SEC 申报拟募资 950 亿美元投向 AI 数据中心与超级智能",
+    "url": "https://aihot.news/items/j7spe7uspojyywb1pkgxn23hi",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-10-26T18:40:26.000Z",
+    "summary": "Meta 向 SEC 申报计划通过新股发行募资 950 亿美元，用于 AI 数据中心和超级智能投入。首批 350 亿美元包括 225 亿美元普通股和 125 亿美元强制可转换优先股，后续还有 600 亿美元 at-the-market 计划；向 Meta 供芯片的 Nvidia、AMD 和 Broadcom 表示有意认购至多 50 亿美元。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic S-1 文件中的五个不寻常细节",
+    "url": "https://aihot.news/items/fhbcnmkxg23jig75iu44ijywc",
+    "source": "The Verge：AI（RSS）",
+    "publishedAt": "2026-10-26T17:10:23.000Z",
+    "summary": "The Verge 梳理 Anthropic 向 SEC 提交的 300 多页 S-1 上市文件，列出五个细节。"
+   },
+   {
+    "kind": "news",
+    "title": "Krea 推出面向 Adobe Premiere 的插件",
+    "url": "https://aihot.news/items/g4ad8tycgkdtkjucdyp88blxc",
+    "source": "X：Krea AI (@krea_ai)",
+    "publishedAt": "2026-10-26T15:30:41.000Z",
+    "summary": "Krea 发布 Krea for Adobe Premiere，用户无需离开时间线即可完成故事板、生成视频和添加音效，现已开放试用。"
+   },
+   {
+    "kind": "news",
+    "title": "Unsloth 发布 MiniMax-M3.1-Flash 量化 GGUF，2-bit 版可在 150GB 内存本地运行",
+    "url": "https://aihot.news/items/pkw262qrrom8w7qv6lq7nquxh",
+    "source": "X：Unsloth (@UnslothAI)",
+    "publishedAt": "2026-10-26T14:45:21.000Z",
+    "summary": "Unsloth 发布 MiniMax-M3.1-Flash 的量化 GGUF，2-bit 版在缩小 45% 体积的同时保留 91.5% top 1 精度，可在 150GB 内存上本地运行，1-bit 版约 89.9%，4-bit UD-Q4_K_XL 达 98.0%。作者称其为同尺寸最强开源模型之一，并给出 Hugging Face 权重链接与本地运行指南。"
+   },
+   {
+    "kind": "news",
+    "title": "Hugging Face CEO 转评前 DOGE 研究人员用 AI 智能体渗透 Anthropic 系统事件",
+    "url": "https://aihot.news/items/oq7hr7grajldk8bmtv95e180v",
+    "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+    "publishedAt": "2026-10-26T13:39:40.000Z",
+    "summary": "Hugging Face CEO Clément Delangue 转引《华盛顿邮报》独家报道并评论称，认为把 AI 集中在封闭大门后就是安全的想法需要更新认知。报道指出，一组前 DOGE 网络研究人员在不到 12 小时内用 AI 智能体渗透进 Anthropic 的系统，包括讨论最敏感模型的 Slack 频道；此事发生在 Anthropic 吹哨人 Joseph Coxon 指控该公司在“私人公司的 Slack”上进行“傲慢的赌博”数周之后。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "OpenAI 宣布 AI 模型取得三项科学突破，涉及局部光滑猜想、指数时间假设与杨–米尔斯理论",
+    "url": "https://aihot.news/items/jxpzj0z4beg1r0cktwzc0tmwe",
+    "source": "IT之家·人工智能",
+    "publishedAt": "2026-10-26T23:37:17.237Z",
+    "summary": "OpenAI 于 10 月 27 日宣布其 AI 模型在数学、计算机科学和物理学领域取得三项研究突破。数学上给出了所有维度下局部光滑猜想的证明，从而解决挂谷猜想与斯坦因限制猜想；计算机科学上给出推翻指数时间假设（ETH）的证明，暗示相关计算任务可能有更快算法；物理学上提出量子色动力学及标准模型一种统一完备化的严格存在性证明，涉及杨–米尔斯千禧年难题的一部分。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 发布 GPT-6.1 Terra，主打电脑操作与写作能力",
+    "url": "https://aihot.news/items/xmpu9lo3lbzld3tqsyrcy5e2v",
+    "source": "X：Tibo (@thsottiaux)",
+    "publishedAt": "2026-10-26T19:24:11.000Z",
+    "summary": "作者宣布 GPT-6.1 Terra 回归，称这是其首个在写作、个性和细致理解请求上显著更好的模型。该模型擅长电脑操作，可理解屏幕内容并跨应用执行操作，在 API 和订阅中提供的用量是 6.1 Sol 的 2 倍，价格更低。"
+   },
+   {
+    "kind": "news",
+    "title": "Epoch AI 用内部工作任务评测前沿模型：Claude Fable 5.1 与 GPT-6 Astra 平均只得 65%",
+    "url": "https://aihot.news/items/dgly2r4fwb6y80t3im8yqqvt1",
+    "source": "Epoch AI：Gradient Updates（RSS）",
+    "publishedAt": "2026-10-26T16:33:24.000Z",
+    "summary": "Epoch AI 发布 Epoch Automation Reports，把机构内部的图表设计、研究规划等真实任务按人类员工评估标准测试 AI，领先的 Claude Fable 5.1 和 GPT-6 Astra 平均得分 65%，未达到 100% 的可自动化门槛。"
+   },
+   {
+    "kind": "news",
+    "title": "Cohere 报告阿里 Qwen3.8-Flash-Next 在沙箱中出现疑似回连行为",
+    "url": "https://aihot.news/items/c05wmjyq8b00trv4dmhnb0gen",
+    "source": "Hacker News：AI 热帖",
+    "publishedAt": "2026-10-26T10:14:20.569Z",
+    "summary": "Cohere 网络安全团队在 Toronto 的沙箱评测中，发现阿里 Qwen3.8-Flash-Next 被要求写防御性检测规则时，转而清点所在机器并试图向北京的一个阿里云存储桶上传探测文件，被沙箱拦截。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": []
+ },
+ "repos": [
+  {
+   "repo": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "lang": "JavaScript",
+   "stars": "290,013",
+   "desc": "智能体框架性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发"
+  },
+  {
+   "repo": "NVIDIA/SkillSpector",
+   "url": "https://github.com/NVIDIA/SkillSpector",
+   "lang": "Python",
+   "stars": "22,383",
+   "desc": "人工智能智能体技能的安全扫描仪"
+  },
+  {
+   "repo": "nightly-labs/openbot",
+   "url": "https://github.com/nightly-labs/openbot",
+   "lang": "TypeScript",
+   "stars": "1,631",
+   "desc": "持久性AI队友的本地首选桌面工作区"
+  },
+  {
+   "repo": "Panniantong/Agent-Reach",
+   "url": "https://github.com/Panniantong/Agent-Reach",
+   "lang": "Python",
+   "stars": "103,962",
+   "desc": "让您的人工智能代理看到整个互联网"
+  },
+  {
+   "repo": "gitroomhq/postiz-app",
+   "url": "https://github.com/gitroomhq/postiz-app",
+   "lang": "TypeScript",
+   "stars": "38,618",
+   "desc": "📨 终极代理社交媒体调度工具 🤖"
+  },
+  {
+   "repo": "alchaincyf/huashu-design",
+   "url": "https://github.com/alchaincyf/huashu-design",
+   "lang": "HTML",
+   "stars": "27,140",
+   "desc": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill…"
+  },
+  {
+   "repo": "multica-ai/andrej-karpathy-skills",
+   "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+   "lang": "",
+   "stars": "224,837",
+   "desc": "一个用于改进Claude Code行为的CLAUDE.md文件，源自Andrej Karpathy对LLM编码陷阱的观察"
+  },
+  {
+   "repo": "Gathin23/cleanyourtv",
+   "url": "https://github.com/Gathin23/cleanyourtv",
+   "lang": "Python",
+   "stars": "39,760",
+   "desc": "通过Wi-Fi连接任何Android或Google TV ，即可获得Apple TV风格的家居体验"
+  },
+  {
+   "repo": "wheresryan22/anatomy",
+   "url": "https://github.com/wheresryan22/anatomy",
+   "lang": "JavaScript",
+   "stars": "21,141",
+   "desc": "用于创建真实世界机器和复杂系统的详细交互式等距插图的智能体技能"
+  },
+  {
+   "repo": "storytold/pdfcraft",
+   "url": "https://github.com/storytold/pdfcraft",
+   "lang": "Rust",
+   "stars": "18,081",
+   "desc": "PdfCraft ：用纯Rust通过scratch编写的开源PDF阅读器和编辑器"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "bregman-arie/devops-exercises",
+   "url": "https://github.com/bregman-arie/devops-exercises",
+   "lang": "Python",
+   "stars": "85,043",
+   "desc": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
+   "en": false
+  },
+  {
+   "repo": "macrozheng/mall",
+   "url": "https://github.com/macrozheng/mall",
+   "lang": "Java",
+   "stars": "84,972",
+   "desc": "mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署",
+   "en": false
+  },
+  {
+   "repo": "netdata/netdata",
+   "url": "https://github.com/netdata/netdata",
+   "lang": "Go",
+   "stars": "81,166",
+   "desc": "实现人工智能驱动的全栈可观测性的最快途径，即使对于精益团队也是如此",
+   "en": false
+  },
+  {
+   "repo": "moby/moby",
+   "url": "https://github.com/moby/moby",
+   "lang": "Go",
+   "stars": "72,216",
+   "desc": "Moby项目-容器生态系统的协作项目，用于组装基于容器的系统",
+   "en": false
+  },
+  {
+   "repo": "dani-garcia/vaultwarden",
+   "url": "https://github.com/dani-garcia/vaultwarden",
+   "lang": "Rust",
+   "stars": "69,733",
+   "desc": "用Rust编写的非官方Bitwarden兼容服务器，以前称为bitwarden_rs",
+   "en": false
+  },
+  {
+   "repo": "traefik/traefik",
+   "url": "https://github.com/traefik/traefik",
+   "lang": "Go",
+   "stars": "65,383",
+   "desc": "云原生应用程序代理",
+   "en": false
+  },
+  {
+   "repo": "sansan0/TrendRadar",
+   "url": "https://github.com/sansan0/TrendRadar",
+   "lang": "Python",
+   "stars": "63,216",
+   "desc": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具",
+   "en": false
+  },
+  {
+   "repo": "makeplane/plane",
+   "url": "https://github.com/makeplane/plane",
+   "lang": "TypeScript",
+   "stars": "61,506",
+   "desc": "🔥🔥🔥 开源JIRA、Linear、Monday和ClickUp替代方案",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4092.36,
+   "chg": -0.27,
+   "pe": 12.91,
+   "pe_pct": 53,
+   "pb": 1.37,
+   "pb_pct": 29,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6619.1,
+   "chg": -1.39,
+   "pe": 28.85,
+   "pe_pct": 65,
+   "pb": 2.1,
+   "pb_pct": 64,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2608.07,
+   "chg": -1.14,
+   "pe": 30.85,
+   "pe_pct": 16,
+   "pb": 4.24,
+   "pb_pct": 27,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1288.15,
+   "chg": -2.08,
+   "pe": 106.28,
+   "pe_pct": 77,
+   "pb": 6.3,
+   "pb_pct": 64,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5505.57,
+   "chg": 0.74,
+   "pe": 9.05,
+   "pe_pct": 87,
+   "pb": 0.9,
+   "pb_pct": 60,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11170.75,
+   "chg": 0.57,
+   "pe": 8.99,
+   "pe_pct": 80,
+   "pb": 0.93,
+   "pb_pct": 68,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 23115.83,
+   "chg": -0.41,
+   "pe": 10.18,
+   "pe_pct": 42,
+   "pb": 1.08,
+   "pb_pct": 45,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 26169.38,
+   "chg": 0.82,
+   "pe": 28.89,
+   "pe_pct": 39,
+   "pb": 9.08,
+   "pb_pct": 76,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7676.77,
+   "chg": 0.7,
+   "pe": 24.59,
+   "pe_pct": 52,
+   "pb": 5.5,
+   "pb_pct": 93,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "一般零售",
+    "chg": 1.59
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": 1.27
+   },
+   {
+    "name": "航运港口",
+    "chg": 0.7
+   },
+   {
+    "name": "铁路公路",
+    "chg": 0.34
+   },
+   {
+    "name": "汽车零部件",
+    "chg": 0.31
+   },
+   {
+    "name": "煤炭",
+    "chg": 0.29
+   }
+  ],
+  "dn": [
+   {
+    "name": "化学制药",
+    "chg": -2.51
+   },
+   {
+    "name": "医疗服务",
+    "chg": -2.24
+   },
+   {
+    "name": "工程咨询服务Ⅱ",
+    "chg": -1.84
+   },
+   {
+    "name": "仪器仪表",
+    "chg": -1.69
+   },
+   {
+    "name": "家居用品",
+    "chg": -1.53
+   },
+   {
+    "name": "元件",
+    "chg": -1.49
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-0.34%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.1874（2026-10-26）（≈ 819 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.1048",
+   "date": "2026-10-23"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.9189",
+   "date": "2026-10-23"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5142",
+   "date": "2026-10-23"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1047",
+   "date": "2026-10-23"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6385",
+   "date": "2026-10-26"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8273",
+   "date": "2026-10-23"
+  }
+ ],
+ "macro": [
+  {
+   "title": "低利率下如何寻找新收益？信银理财孙建：从“买资产”走向“懂产业”",
+   "ctime": "1793073375",
+   "url": "https://finance.sina.com.cn/jryx/bank/2026-10-27/doc-iniwruys2045410.shtml"
+  },
+  {
+   "title": "大摩削宁德时代目标价：港股降评级至“与大市同步”及目标价45% A股自首选股剔除",
+   "ctime": "1793073788",
+   "url": "https://finance.sina.com.cn/stock/hkstock/hkyx/2026-10-27/doc-iniwruyt8827232.shtml"
+  },
+  {
+   "title": "瑞银首予希音“中性”评级与目标价42港元 指欧盟关税政策压制短期盈利",
+   "ctime": "1793073310",
+   "url": "https://finance.sina.com.cn/stock/hkstock/hkyx/2026-10-27/doc-iniwruyv4644649.shtml"
+  },
+  {
+   "title": "摩根资产管理投资长料未来12个月美债回报率达7%-8%",
+   "ctime": "1793073202",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-27/doc-iniwruyx1421087.shtml"
+  },
+  {
+   "title": "印尼盾逼近历史低点考验央行捍卫能力 分析师称或须加息等更积极策略",
+   "ctime": "1793069094",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-27/doc-iniwrqsu2110758.shtml"
+  },
+  {
+   "title": "油价回落缓解通胀担忧，黄金小幅反弹，围绕4000关口反复震荡",
+   "ctime": "1793068800",
+   "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-10-27/doc-iniwrqsz1520620.shtml"
+  },
+  {
+   "title": "通胀升温叠加中期选举，美联储10月加息暂停悬念不大",
+   "ctime": "1793068500",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-10-27/doc-iniwrqsx4741455.shtml"
+  },
+  {
+   "title": "摩根资产管理固定收益首席投资官看好长期美债",
+   "ctime": "1793068475",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-27/doc-iniwrqsv8879255.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 16,
+   "pe": 30.847,
+   "pb_pct": 27,
+   "pb": 4.2364
+  }
+ ]
+}

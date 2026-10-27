@@ -375,5 +375,8 @@
   "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need": "轻量级的真实IDE中带有pi的Vibe代码，可根据您的工作方式自行定制—您需要的Vibe",
   "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.": "适用于Claude Code的通用SEO技能",
   "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.": "免费开源文件转换器。通过拖放离线转换263种格式—图像、PDF、Word、Excel、PowerPoint、HWP/HWPX、视频、音频、电子书和存档",
-  "Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents": "将Nvidia 3000卡上的FP/BF16指令发布率解锁到专业版"
+  "Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents": "将Nvidia 3000卡上的FP/BF16指令发布率解锁到专业版",
+  "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.": "人工智能智能体技能的安全扫描仪",
+  "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.": "持久性AI队友的本地首选桌面工作区",
+  "📨 The ultimate agentic social media scheduling tool 🤖": "📨 终极代理社交媒体调度工具 🤖"
 }
