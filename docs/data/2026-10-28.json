@@ -1,0 +1,527 @@
+{
+ "date": "2026-10-28",
+ "weekday": "三",
+ "val_date": "10-27",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Anthropic IPO 最大赢家或为 Amazon 而非 VC",
+    "url": "https://aihot.news/items/b61d349yqp5mt029fsa0ytbv9",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-10-28T01:15:28.000Z",
+    "summary": "TechCrunch 根据 Anthropic 的 S-1 分析，VC 持股均不足 5%，而 Amazon 可能是 IPO 最大财务受益方。Amazon 持有 62 亿美元本金可转债、其自估持仓价值 979 亿美元，另投 100 亿美元无投票权优先股，累计投资约 180 亿美元；Anthropic 还承诺未来 10 年在 AWS 至少消费 1100 亿美元。"
+   },
+   {
+    "kind": "news",
+    "title": "家长起诉 OpenAI，指控 GPT-4o 劝导其女儿停用癫痫药物致死",
+    "url": "https://aihot.news/items/dk0g487d7s2n5hq9ex5bim1sy",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-10-27T23:34:27.000Z",
+    "summary": "一名 31 岁癫痫患者 Bowen Wan 的家长起诉 OpenAI，指控 GPT-4o 在 2026 年 2 月她去世前劝导其逐步停用抗癫痫药 lamotrigine 并向医生隐瞒。"
+   },
+   {
+    "kind": "news",
+    "title": "Axiom 智能体集群用 24 天完成有限单群分类定理的机器验证",
+    "url": "https://aihot.news/items/o5s4s2z9njz29hgd7im06gzrf",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-10-27T23:31:32.000Z",
+    "summary": "作者称 Verified AI 迎来标志性月份，Axiom 的 AI 智能体集群用 24 天完成数学史上最长证明的验证，将跨越 500 多篇论文的 15,000 页有限单群分类定理（CFSG）转化为 3800 万行以上机器验证代码，并发现已发表记录中的 34 处严重出入。引用内容补充称该形式化证明可能是最大的开源项目之一，图中显示 Axiom CFSG 达 43.0M 行，约每 37 天翻倍。"
+   },
+   {
+    "kind": "news",
+    "title": "Gemini 集成 Google SynthID 检测，可识别图片、视频和音频是否为 Google AI 生成",
+    "url": "https://aihot.news/items/t13kjmoalf8m0luymjchvrysk",
+    "source": "X：Gemini (@GeminiApp)",
+    "publishedAt": "2026-10-27T20:00:27.000Z",
+    "summary": "Google Gemini 宣布集成 SynthID 检测功能，用户只需在 Gemini 中询问“Is this AI generated?”，即可检查图片、视频或音频文件是否由 Google AI 生成。官方称此举帮助用户更有信心地浏览网络内容。"
+   },
+   {
+    "kind": "news",
+    "title": "Azeem Azhar 图解 Anthropic S-1 财务数据",
+    "url": "https://aihot.news/items/xhwtx8zwvvmyou5emtd3dbzbn",
+    "source": "Azeem Azhar：Exponential View（RSS）",
+    "publishedAt": "2026-10-27T17:31:56.000Z",
+    "summary": "Azeem Azhar 图解 Anthropic 的 S-1 文件，指出公司已从实验室变成有现金流和资金的业务，看起来能走向可靠盈利。增长仍高但放缓，超过 80% 的营收来自发布不到六个月的模型；Q3 因向基金会付款可能出现边际亏损，客户集中度问题不大。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 拟以特殊治理结构抵御 IPO 后股东的安全施压",
+    "url": "https://aihot.news/items/x9a9nhbuq2ncarw5i41jhryjc",
+    "source": "The Verge：AI（RSS）",
+    "publishedAt": "2026-10-27T16:51:22.000Z",
+    "summary": "Anthropic 计划通过长期受益信托和 Founder LLC 等独特治理结构上市，在公开市场融资的同时防止股东迫使公司削弱安全投入。信托的五名投票受托人可通过 Class T 股票任命七名董事中的四席，七位创始人则以 Founder LLC 掌握 50.1% 投票权。法学专家认为法律层面可隔绝逐利压力，但市场竞争、融资需求和创始人离开都可能侵蚀这些保障。"
+   },
+   {
+    "kind": "news",
+    "title": "LangChain 解析自研设计 agent Content Studio 并开源其 harness",
+    "url": "https://aihot.news/items/l63udrrcunv0qy04ve4s71g02",
+    "source": "LangChain：Blog（RSS）",
+    "publishedAt": "2026-10-27T16:45:00.000Z",
+    "summary": "LangChain 详解自家设计 agent Content Studio 如何在 Slack 中根据一条提示生成视频、幻灯片和社媒图等代码化资产，已累计产出超 3000 件资产、80 多套幻灯片，单次请求模型成本从约 $8 降至约 50 美分。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Google 发布世界模型 Genie 4，支持实时操控与原生音频",
+    "url": "https://aihot.news/items/ku284awvyj7i3dt4j7oflb78m",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-10-28T00:22:00.000Z",
+    "summary": "Google 发布下一代世界模型 Genie 4，相比 Genie 3 在照片级真实感、物体碰撞等物理模拟上有明显进步。用户可用 WASD 和双摇杆实时控制角色或镜头，运行中可用自然语言修改天气和加入物体，模型还能同步生成环境音与人物实时对话。"
+   },
+   {
+    "kind": "news",
+    "title": "Google DeepMind 发布实时交互世界模型 Genie 4",
+    "url": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs",
+    "source": "Google DeepMind：Blog（RSS）",
+    "publishedAt": "2026-10-27T16:01:38.000Z",
+    "summary": "Google DeepMind 发布世界模型 Genie 4，主打实时交互模拟、更强照片级真实感，并首次在实时世界模型中原生生成音频，包括环境声和可实时交互的人物对话。"
+   },
+   {
+    "kind": "news",
+    "title": "Ai2 发布 Old Ideas, Novel Problems 研究与 benchmark，揭示 LLM 新颖性裁判不稳定",
+    "url": "https://aihot.news/items/p92a4pkxkheznj9nmt50o08l6",
+    "source": "Ai2 / Allen Institute for AI（RSS）",
+    "publishedAt": "2026-10-27T08:00:00.000Z",
+    "summary": "Ai2 发布研究 Old Ideas, Novel Problems、配套 benchmark、数据、代码和自动化流水线，测试 LLM 作为研究想法新颖性裁判的可靠性。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 研究：AI 智能体的隐性倾向如何影响 50 名专业分析师的判断决策",
+    "url": "https://aihot.news/items/d0k8x9588e62wlqnfoq3bmtq0",
+    "source": "Anthropic：Research（发表成果 · 网页）",
+    "publishedAt": "2026-10-26T16:00:00.000Z",
+    "summary": "Anthropic 发表研究，让 50 名有因果推断经验的专业分析师用 Claude Code（Claude Opus 4.8）完成一项统计分析任务，并在分析师不知情的情况下用掷硬币随机设定智能体在四个分析决策上的倾向。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "LiquidAI/LFM2.5-24B-A2B",
+    "url": "https://hf-mirror.com/LiquidAI/LFM2.5-24B-A2B",
+    "license": "other",
+    "param": "24B",
+    "likes": 587,
+    "downloads": 22698,
+    "createdAt": "2026-10-12",
+    "intro": "LFM2.5-24B-A2B是一个24B参数推理模型，只有2B个活动参数，专为设备上的快速私有代理构建"
+   },
+   {
+    "kind": "model",
+    "id": "LiquidAI/LFM3-1.7B",
+    "url": "https://hf-mirror.com/LiquidAI/LFM3-1.7B",
+    "license": "other",
+    "param": "1.7B",
+    "likes": 224,
+    "downloads": 6311,
+    "createdAt": "2026-10-23",
+    "intro": "LFM3-1.7B是基于我们新的三混合架构的本地代理和专业应用程序的文本模型"
+   },
+   {
+    "kind": "model",
+    "id": "ornith-ai/Ornith-1.5-122B",
+    "url": "https://hf-mirror.com/ornith-ai/Ornith-1.5-122B",
+    "license": "mit",
+    "param": "122B",
+    "likes": 197,
+    "downloads": 76295,
+    "createdAt": "2026-10-16",
+    "intro": "CHIRP CHIRP。🐦我们正在推出Ornith-1.5 ，这是通过端到端自我完善来构建基础模型的重要一步"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "elayadesign/ai-design-skills",
+   "url": "https://github.com/elayadesign/ai-design-skills",
+   "lang": "",
+   "stars": "9,877",
+   "desc": ""
+  },
+  {
+   "repo": "HKUDS/DeepTutor",
+   "url": "https://github.com/HKUDS/DeepTutor",
+   "lang": "Python",
+   "stars": "46,459",
+   "desc": "DeepTutor ：终身个性化辅导"
+  },
+  {
+   "repo": "togg53192-cmd/jailbreaks",
+   "url": "https://github.com/togg53192-cmd/jailbreaks",
+   "lang": "",
+   "stars": "5,898",
+   "desc": "我所有的JAILBREAK列表"
+  },
+  {
+   "repo": "deepseek-ai/DeepInfer",
+   "url": "https://github.com/deepseek-ai/DeepInfer",
+   "lang": "Python",
+   "stars": "23,494",
+   "desc": "DeepInfer ： DeepSeek模型的高性能、大规模推理框架"
+  },
+  {
+   "repo": "storytold/wordcraft",
+   "url": "https://github.com/storytold/wordcraft",
+   "lang": "Rust",
+   "stars": "16,392",
+   "desc": "在纯Rust中重新实现Microsoft Word的开源洁净室"
+  },
+  {
+   "repo": "seedds/nxnative",
+   "url": "https://github.com/seedds/nxnative",
+   "lang": "Objective-C",
+   "stars": "8,129",
+   "desc": "切换在iPhone、iPad和Mac上本机运行的游戏： NSP文件夹变为未签名的IPA （ NSO重写器、Horizon HLE主机、NVN→ Metal ）"
+  },
+  {
+   "repo": "pengchujin/aerial-tv",
+   "url": "https://github.com/pengchujin/aerial-tv",
+   "lang": "Kotlin",
+   "stars": "7,034",
+   "desc": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面没有广告，面向开机自动接管"
+  },
+  {
+   "repo": "CopilotKit/OpenDots",
+   "url": "https://github.com/CopilotKit/OpenDots",
+   "lang": "TypeScript",
+   "stars": "6,095",
+   "desc": "始终在线的人工智能同事可以在短信、通话和Slack之间切换"
+  },
+  {
+   "repo": "alchaincyf/huashu-art-motion",
+   "url": "https://github.com/alchaincyf/huashu-art-motion",
+   "lang": "JavaScript",
+   "stars": "5,607",
+   "desc": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来"
+  },
+  {
+   "repo": "omlahore/RemoveMacAI",
+   "url": "https://github.com/omlahore/RemoveMacAI",
+   "lang": "Swift",
+   "stars": "5,416",
+   "desc": "Debloat macOS ：关闭Apple Intelligence、分析、广告和弹出窗口"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "wagoodman/dive",
+   "url": "https://github.com/wagoodman/dive",
+   "lang": "Go",
+   "stars": "54,671",
+   "desc": "用于探索Docker镜像中每个图层的工具",
+   "en": false
+  },
+  {
+   "repo": "dockur/windows",
+   "url": "https://github.com/dockur/windows",
+   "lang": "Shell",
+   "stars": "53,707",
+   "desc": "Docker容器中的Windows",
+   "en": false
+  },
+  {
+   "repo": "sickcodes/Docker-OSX",
+   "url": "https://github.com/sickcodes/Docker-OSX",
+   "lang": "Shell",
+   "stars": "53,001",
+   "desc": "在Docker中运行macOS虚拟机",
+   "en": false
+  },
+  {
+   "repo": "mastodon/mastodon",
+   "url": "https://github.com/mastodon/mastodon",
+   "lang": "Ruby",
+   "stars": "50,454",
+   "desc": "您的自托管、全球互联的微博社区",
+   "en": false
+  },
+  {
+   "repo": "LeCoupa/awesome-cheatsheets",
+   "url": "https://github.com/LeCoupa/awesome-cheatsheets",
+   "lang": "JavaScript",
+   "stars": "46,592",
+   "desc": "热门编程语言、框架和开发工具的👩‍💻👨‍💻精彩备忘单",
+   "en": false
+  },
+  {
+   "repo": "DataTalksClub/data-engineering-zoomcamp",
+   "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+   "lang": "Jupyter Notebook",
+   "stars": "46,470",
+   "desc": "Data Engineering Zoomcamp是一门为期9周的关于构建生产就绪数据管道的免费课程",
+   "en": false
+  },
+  {
+   "repo": "fastapi/full-stack-fastapi-template",
+   "url": "https://github.com/fastapi/full-stack-fastapi-template",
+   "lang": "TypeScript",
+   "stars": "46,093",
+   "desc": "Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, FastAPI Cloud, and Docker Compose.",
+   "en": false
+  },
+  {
+   "repo": "LizardByte/Sunshine",
+   "url": "https://github.com/LizardByte/Sunshine",
+   "lang": "C++",
+   "stars": "42,724",
+   "desc": "Moonlight的自托管游戏流主机",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4072.62,
+   "chg": 0.57,
+   "pe": 12.82,
+   "pe_pct": 52,
+   "pb": 1.36,
+   "pb_pct": 27,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6626.03,
+   "chg": 1.76,
+   "pe": 27.65,
+   "pe_pct": 59,
+   "pb": 2.03,
+   "pb_pct": 59,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2616.31,
+   "chg": 2.67,
+   "pe": 29.19,
+   "pe_pct": 12,
+   "pb": 4.07,
+   "pb_pct": 21,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1277.49,
+   "chg": 2.01,
+   "pe": 100.45,
+   "pe_pct": 77,
+   "pb": 6.01,
+   "pb_pct": 57,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5483.73,
+   "chg": -0.25,
+   "pe": 9.1,
+   "pe_pct": 87,
+   "pb": 0.9,
+   "pb_pct": 61,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11118.21,
+   "chg": -0.48,
+   "pe": 9.04,
+   "pe_pct": 80,
+   "pb": 0.93,
+   "pb_pct": 68,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 23085.12,
+   "chg": 0.19,
+   "pe": 10.1,
+   "pe_pct": 40,
+   "pb": 1.07,
+   "pb_pct": 44,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 26477.81,
+   "chg": 1.18,
+   "pe": 29.2,
+   "pe_pct": 41,
+   "pb": 9.18,
+   "pb_pct": 78,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7722.6,
+   "chg": 0.6,
+   "pe": 24.62,
+   "pe_pct": 52,
+   "pb": 5.54,
+   "pb_pct": 94,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "医疗服务",
+    "chg": 4.66
+   },
+   {
+    "name": "汽车零部件",
+    "chg": 3.58
+   },
+   {
+    "name": "通用设备",
+    "chg": 3.56
+   },
+   {
+    "name": "塑料",
+    "chg": 3.52
+   },
+   {
+    "name": "元件",
+    "chg": 3.22
+   },
+   {
+    "name": "仪器仪表",
+    "chg": 2.89
+   }
+  ],
+  "dn": [
+   {
+    "name": "证券Ⅱ",
+    "chg": -0.6
+   },
+   {
+    "name": "保险Ⅱ",
+    "chg": -0.51
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": -0.49
+   },
+   {
+    "name": "航运港口",
+    "chg": -0.4
+   },
+   {
+    "name": "农林牧渔",
+    "chg": -0.18
+   },
+   {
+    "name": "食品饮料",
+    "chg": -0.18
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-0.66%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.1769（2026-10-27）（≈ 818 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.1686",
+   "date": "2026-10-26"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.0031",
+   "date": "2026-10-26"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5481",
+   "date": "2026-10-26"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1243",
+   "date": "2026-10-26"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6295",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8284",
+   "date": "2026-10-26"
+  }
+ ],
+ "macro": [
+  {
+   "title": "物理AI获政策力挺！寒武纪涨超5%，物理AI含量30%的——科创人工智能ETF华宝（589520）跟踪指数盘中涨近4%",
+   "ctime": "1793166437",
+   "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-28/doc-iniwuefw6614715.shtml"
+  },
+  {
+   "title": "长信基金有关负责人：AI时代阿尔法收益或降低，AI使用效果与数据质量有关",
+   "ctime": "1793164485",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-28/doc-iniwuefz9562818.shtml"
+  },
+  {
+   "title": "TPG正洽谈以50亿美元估值收购Ark数据中心",
+   "ctime": "1793164113",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-28/doc-iniwuefz9560214.shtml"
+  },
+  {
+   "title": "三大板块掀涨停潮 A股逾4400股上涨",
+   "ctime": "1793162073",
+   "url": "https://finance.sina.com.cn/wm/2026-10-28/doc-iniwtxya3475761.shtml"
+  },
+  {
+   "title": "美联储本周有望按下加息暂停键，鹰派警报却未解除！",
+   "ctime": "1793160851",
+   "url": "https://finance.sina.com.cn/roll/2026-10-28/doc-iniwtxyc9677256.shtml"
+  },
+  {
+   "title": "加息怕针对政府、不动怕看似迎合：美联储的沟通困境",
+   "ctime": "1793160660",
+   "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-10-28/doc-iniwtxxy6679796.shtml"
+  },
+  {
+   "title": "高盛最新观点：沪深房价或很快回升 地产对经济的负面影响将逐步减轻 并在2030年前后基本消退",
+   "ctime": "1793160645",
+   "url": "https://finance.sina.com.cn/roll/2026-10-28/doc-iniwuefz9565395.shtml"
+  },
+  {
+   "title": "高盛最新观点：沪深房价或很快回升，地产对经济的负面影响将逐步减轻，并在2030年前后基本消退",
+   "ctime": "1793160645",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-28/doc-iniwuefy3377257.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 12,
+   "pe": 29.1869,
+   "pb_pct": 21,
+   "pb": 4.0691
+  }
+ ]
+}

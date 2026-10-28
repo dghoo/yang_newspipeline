@@ -378,5 +378,10 @@
   "Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents": "将Nvidia 3000卡上的FP/BF16指令发布率解锁到专业版",
   "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.": "人工智能智能体技能的安全扫描仪",
   "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.": "持久性AI队友的本地首选桌面工作区",
-  "📨 The ultimate agentic social media scheduling tool 🤖": "📨 终极代理社交媒体调度工具 🤖"
+  "📨 The ultimate agentic social media scheduling tool 🤖": "📨 终极代理社交媒体调度工具 🤖",
+  "LFM3-1.7B is a text model for local agents and specialized applications, based on our new tri-hybrid architecture.": "LFM3-1.7B是基于我们新的三混合架构的本地代理和专业应用程序的文本模型",
+  "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.": "DeepTutor ：终身个性化辅导",
+  "LIST OF ALL MY JAILBREAKS": "我所有的JAILBREAK列表",
+  "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)": "切换在iPhone、iPad和Mac上本机运行的游戏： NSP文件夹变为未签名的IPA （ NSO重写器、Horizon HLE主机、NVN→ Metal ）",
+  "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面没有广告，面向开机自动接管"
 }
