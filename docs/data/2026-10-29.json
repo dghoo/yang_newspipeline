@@ -1,0 +1,478 @@
+{
+ "date": "2026-10-29",
+ "weekday": "四",
+ "val_date": "10-28",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "OpenRouter 教程：用 LLM 从 PDF 中抽取表格",
+    "url": "https://aihot.news/items/l928e49lwysm0ymgmhyjrkc3z",
+    "source": "OpenRouter：Announcements（RSS）",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "summary": "OpenRouter 发布教程，讲解如何把 PDF 以文件形式连同严格 JSON schema 发给能读文件的模型，让表格以带类型的行返回，括号亏损、千分位和脚注标记等清理都写进字段描述。"
+   },
+   {
+    "kind": "news",
+    "title": "Alphabet Q3 财报：年化收入达 5000 亿美元，Google Cloud 增长 103%",
+    "url": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9",
+    "source": "X：Sundar Pichai (@sundarpichai)",
+    "publishedAt": "2026-10-28T20:05:31.000Z",
+    "summary": "Sundar Pichai 发布 Alphabet Q3 业绩：年化收入 run rate 达 5000 亿美元，总收入同比增长 25%。Google Cloud 收入增长 103%，1P 模型 API 每分钟处理近 32B tokens（环比增 40%）；Search 查询同比增速为五年来最高，并提到 Argon、Carbon 领跑前沿及最新世界模型 Genie 4。"
+   },
+   {
+    "kind": "news",
+    "title": "Ed Zitron 长文解析 Anthropic S-1：称其把散户当作退出流动性",
+    "url": "https://aihot.news/items/x2h1bp5shee6v508nw7pjtvas",
+    "source": "Ed Zitron 长文 / Where’s Your Ed At（RSS）",
+    "publishedAt": "2026-10-28T17:51:00.000Z",
+    "summary": "Ed Zitron 撰文批评 Anthropic 的 S-1 招股书，指其仅披露 Q2 盈利数据、省略 Q3 现金状况和付款明细，是在公司基本面变化前误导投资者。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic IPO 文件披露现金及短期投资达 131.7B 美元，超过 Amazon 和 Microsoft",
+    "url": "https://aihot.news/items/vidjbhx5bf45wdl488kst1wv8",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-10-28T17:11:27.000Z",
+    "summary": "Anthropic 的 IPO 文件显示其现金及短期投资达 $131.7B，超过 Amazon 和 Microsoft，在美国非银行公司中仅次于 Berkshire Hathaway 和 Alphabet。"
+   },
+   {
+    "kind": "news",
+    "title": "犹他州 10 个州政府部门 34 名开发者试点使用 Claude Code",
+    "url": "https://aihot.news/items/fbxzb7x7fzbjn0dmf367ywxrm",
+    "source": "X：Boris Cherny (@bcherny)",
+    "publishedAt": "2026-10-28T17:09:54.000Z",
+    "summary": "Boris Cherny 介绍犹他州向 10 个州政府部门的 34 名开发者提供了 Claude Code。试点显示 80% 的开发者在 30 分钟内搭好可用环境，71% 的开发者在为期四周的试点结束前报告节省了 20 小时以上时间。该推文引用了 Anthropic 与 GSA 合作将 Claude 以 40% 折扣提供给联邦及各级政府的公告作为背景。"
+   },
+   {
+    "kind": "news",
+    "title": "Microsoft 通过 Foundry 开放 Copilot harness，支持多模型 Agent 开发",
+    "url": "https://aihot.news/items/tdp7qmrh74fdfarxbi4jaoc6v",
+    "source": "Microsoft：Official Blog（RSS）",
+    "publishedAt": "2026-10-28T16:51:35.000Z",
+    "summary": "Microsoft 宣布将 GitHub 团队打造的 Copilot harness 通过 Microsoft Foundry 向开发者和企业开放，该 harness 已驱动 Copilot Code、Copilot Studio、GitHub Copilot app 和 CLI 等产品。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Anthropic 报告：Claude 研究模型在 Chrome、Safari、Android、Windows、Linux 发现漏洞并串联 5 条攻击链",
+    "url": "https://aihot.news/items/jpt1eeuj2p1mgrxbufuv3ntdn",
+    "source": "IT之家·人工智能",
+    "publishedAt": "2026-10-28T22:35:25.040Z",
+    "summary": "Anthropic 于 10 月 27 日发布研究报告，称一个未公开的内部 Claude 研究模型在 Chrome、Safari、Android、Windows 和 Linux 中发现漏洞，串联出 5 条可实际运行的攻击链，相关漏洞已按协调披露流程报告并修复。"
+   },
+   {
+    "kind": "news",
+    "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+    "url": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud",
+    "source": "Google DeepMind：Blog（RSS）",
+    "publishedAt": "2026-10-28T17:00:58.000Z",
+    "summary": "Google DeepMind 发布 Gemini 4 Carbon，定位为最强前沿模型，主打网络安全与长程智能体能力，在 SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0% 取得领先，并以 59 分登顶 Artificial Analysis Intelligence Index v5.0。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenMOSS 发布开源图像生成模型 MOSS-Image，主打长文本渲染与可编辑布局",
+    "url": "https://aihot.news/items/wykbrcxndw1zv255b9y2usj7v",
+    "source": "OpenMOSS / 复旦NLP / 上海创智 / MOSI（网页）",
+    "publishedAt": "2026-10-28T16:00:00.000Z",
+    "summary": "OpenMOSS 发布开放权重图像生成模型 MOSS-Image，采用 5B 参数单流 DiT 从零预训练，支持最长 4K token 提示词、中英文长文本渲染和可编辑的 JSON Layout。"
+   },
+   {
+    "kind": "news",
+    "title": "面壁智能发布并开源 MiniCPM-OCR 系列：1.3B 解析模型与 2B 判别模型",
+    "url": "https://aihot.news/items/zd8g1y3609zl72lnwis70owqt",
+    "source": "公众号：面壁智能（MiniCPM）",
+    "publishedAt": "2026-10-28T11:38:17.000Z",
+    "summary": "面壁智能发布并开源 MiniCPM-OCR 系列。MiniCPM-OCR 1.0（1.3B）在 Real5-OmniDocBench 取得 93.68 分、OCRBench v2 取得 54.7 分的 SOTA，经 DSpark 加速后吞吐达 1.217 页/秒，端到端效率提升 55%。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "Google 发布 Gemini 4 Carbon：AA Index v5.0 登顶，网络安全基准领先",
+    "url": "https://aihot.news/items/hoim4l9scskfj0obspicyucpw",
+    "source": "X：Sundar Pichai (@sundarpichai)",
+    "publishedAt": "2026-10-28T17:01:48.000Z",
+    "summary": "Sundar Pichai 宣布 Google 推出 Gemini 4 Carbon，称其在更新后的 Artificial Analysis Intelligence Index v5.0 以 59 分排名第一。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "RecursiveSI/flint",
+    "url": "https://hf-mirror.com/RecursiveSI/flint",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 1205,
+    "downloads": 14047,
+    "createdAt": "2026-10-21",
+    "intro": "Flint是Recursive的编码代理专家混合语言模型，共有398亿个参数，每个令牌大约有25亿个活动"
+   },
+   {
+    "kind": "model",
+    "id": "XHToken/Spark-X2.6-4B",
+    "url": "https://hf-mirror.com/XHToken/Spark-X2.6-4B",
+    "license": "apache-2.0",
+    "param": "4B",
+    "likes": 873,
+    "downloads": 8222,
+    "createdAt": "2026-10-19",
+    "intro": "此存储库包含Hugging Face Transformers格式的后训练模型的模型权重和配置文件"
+   },
+   {
+    "kind": "model",
+    "id": "tencent/Hy-SimulMT-30B-A3B-FP8",
+    "url": "https://hf-mirror.com/tencent/Hy-SimulMT-30B-A3B-FP8",
+    "license": "apache-2.0",
+    "param": "30B",
+    "likes": 413,
+    "downloads": 165,
+    "createdAt": "2026-10-22",
+    "intro": "文本生成类开源模型 · 许可证 apache-2.0 · 参数规模 30B · 近 7 天点赞 413 · 下载 165"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "macro-inc/macro",
+   "url": "https://github.com/macro-inc/macro",
+   "lang": "Rust",
+   "stars": "5,529",
+   "desc": "宏是团队的统一工作区：电子邮件、聊天、文档、任务、智能体、呼叫和CRM — @ —通过共享AI内存链接在一起"
+  },
+  {
+   "repo": "hmjz100/LinkSwift",
+   "url": "https://github.com/hmjz100/LinkSwift",
+   "lang": "JavaScript",
+   "stars": "35,393",
+   "desc": "一个基于 JavaScript 的网盘文件下载地址获取工具"
+  },
+  {
+   "repo": "expo/skills",
+   "url": "https://github.com/expo/skills",
+   "lang": "Shell",
+   "stars": "3,663",
+   "desc": "与世博会项目和世博会应用服务合作的人工智能智能体技能集合"
+  },
+  {
+   "repo": "ruvnet/RuView",
+   "url": "https://github.com/ruvnet/RuView",
+   "lang": "Rust",
+   "stars": "101,238",
+   "desc": "π RuView将商用WiFi信号转化为实时空间智能、生命体征监测和存在检测--所有这些都无需一个像素的视频"
+  },
+  {
+   "repo": "xiaolai/the-craft-of-selfteaching",
+   "url": "https://github.com/xiaolai/the-craft-of-selfteaching",
+   "lang": "Jupyter Notebook",
+   "stars": "18,659",
+   "desc": "一个人如果不能自学，就没有未来"
+  },
+  {
+   "repo": "storytold/vectorcraft",
+   "url": "https://github.com/storytold/vectorcraft",
+   "lang": "Rust",
+   "stars": "10,954",
+   "desc": "VectorCraft ：用纯Rust编写的开源矢量艺术工具"
+  },
+  {
+   "repo": "simbasjungles/free-my-tv",
+   "url": "https://github.com/simbasjungles/free-my-tv",
+   "lang": "Java",
+   "stars": "5,269",
+   "desc": "适用于Google TV、LG webOS和Samsung Tizen的快速无广告主屏幕"
+  },
+  {
+   "repo": "HeyPuter/everything",
+   "url": "https://github.com/HeyPuter/everything",
+   "lang": "JavaScript",
+   "stars": "5,018",
+   "desc": "我们正在从头开始重建和开源全球软件"
+  },
+  {
+   "repo": "xiaoyang111222/cn-math-taxonomy",
+   "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+   "lang": "Python",
+   "stars": "4,958",
+   "desc": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断"
+  },
+  {
+   "repo": "jhaizhou-ops/d2r-mobile",
+   "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+   "lang": "C",
+   "stars": "4,839",
+   "desc": "开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "QuantumNous/new-api",
+   "url": "https://github.com/QuantumNous/new-api",
+   "lang": "Go",
+   "stars": "50,915",
+   "desc": "开源AI网关。具有OpenAI、Claude和Gemini兼容API、模型路由、访问控制、使用跟踪和成本核算的自托管LLM网关",
+   "en": false
+  },
+  {
+   "repo": "AstrBotDevs/AstrBot",
+   "url": "https://github.com/AstrBotDevs/AstrBot",
+   "lang": "Python",
+   "stars": "44,564",
+   "desc": "AI Agent Assistant和开发框架集成了许多IM平台、LLM、插件和AI功能，可以作为您的开放式替代方案",
+   "en": false
+  },
+  {
+   "repo": "outline/outline",
+   "url": "https://github.com/outline/outline",
+   "lang": "TypeScript",
+   "stars": "41,102",
+   "desc": "成长型团队最快的知识库。美观、实时协作、功能丰富且兼容markdown",
+   "en": false
+  },
+  {
+   "repo": "The-Vibe-Company/quivr",
+   "url": "https://github.com/The-Vibe-Company/quivr",
+   "lang": "Go",
+   "stars": "39,614",
+   "desc": "一个将连续内容流转化为搜索和监控的开源引擎",
+   "en": false
+  },
+  {
+   "repo": "aquasecurity/trivy",
+   "url": "https://github.com/aquasecurity/trivy",
+   "lang": "Go",
+   "stars": "38,820",
+   "desc": "查找漏洞、错误配置、秘密、容器中的SBOM、Kubernetes、代码仓库、云等",
+   "en": false
+  },
+  {
+   "repo": "harness/harness",
+   "url": "https://github.com/harness/harness",
+   "lang": "Go",
+   "stars": "38,752",
+   "desc": "Harness Open Source是一个端到端开发人员平台，具有源代码管理、CI/CD管道、托管开发人员环境和工件注册表",
+   "en": false
+  },
+  {
+   "repo": "portainer/portainer",
+   "url": "https://github.com/portainer/portainer",
+   "lang": "TypeScript",
+   "stars": "38,741",
+   "desc": "让Docker和Kubernetes管理变得简单",
+   "en": false
+  },
+  {
+   "repo": "docker/compose",
+   "url": "https://github.com/docker/compose",
+   "lang": "Go",
+   "stars": "38,530",
+   "desc": "使用Docker定义和运行多容器应用程序",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4054.33,
+   "chg": -0.72,
+   "pe": 12.86,
+   "pe_pct": 53,
+   "pb": 1.37,
+   "pb_pct": 28,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6496.76,
+   "chg": -2.17,
+   "pe": 28.07,
+   "pe_pct": 61,
+   "pb": 2.07,
+   "pb_pct": 61,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2549.24,
+   "chg": -3.25,
+   "pe": 29.79,
+   "pe_pct": 13,
+   "pb": 4.18,
+   "pb_pct": 25,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1238.26,
+   "chg": -3.48,
+   "pe": 105.19,
+   "pe_pct": 77,
+   "pb": 6.15,
+   "pb_pct": 60,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5542.65,
+   "chg": 0.79,
+   "pe": 9.08,
+   "pe_pct": 87,
+   "pb": 0.9,
+   "pb_pct": 61,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11302.2,
+   "chg": 1.49,
+   "pe": 9.01,
+   "pe_pct": 80,
+   "pb": 0.93,
+   "pb_pct": 68,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 23073.61,
+   "chg": -0.09,
+   "pe": 10.24,
+   "pe_pct": 44,
+   "pb": 1.07,
+   "pb_pct": 44,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 26549.85,
+   "chg": 0.27,
+   "pe": 29.43,
+   "pe_pct": 41,
+   "pb": 9.03,
+   "pb_pct": 75,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7743.98,
+   "chg": 0.28,
+   "pe": 24.71,
+   "pe_pct": 53,
+   "pb": 5.51,
+   "pb_pct": 94,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [],
+  "dn": []
+ },
+ "gold": "SGE Au99.99（经 518880 映射）：ETF 最新净值 8.2592（2026-10-28）（≈ 826 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.2444",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.1077",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5812",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1422",
+   "date": "2026-10-27"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6377",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8215",
+   "date": "2026-10-27"
+  }
+ ],
+ "macro": [
+  {
+   "title": "A股核心资产或再迎“击球区”！沪深300ETF华泰柏瑞（510300）交投踊跃",
+   "ctime": "1793252452",
+   "url": "https://finance.sina.com.cn/money/fund/jjh/2026-10-29/doc-iniwwiew6110989.shtml"
+  },
+  {
+   "title": "又大涨！多只银行股涨超4%，四大行A股总市值盘中破10万亿",
+   "ctime": "1793249411",
+   "url": "https://finance.sina.com.cn/roll/2026-10-29/doc-iniwwifc5362945.shtml"
+  },
+  {
+   "title": "A股，又上热搜！",
+   "ctime": "1793248014",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwwifc5348686.shtml"
+  },
+  {
+   "title": "刚刚发布！合肥今年前三季度地区生产总值（GDP）11180亿元",
+   "ctime": "1793247155",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-29/doc-iniwwiey2880510.shtml"
+  },
+  {
+   "title": "今天上午，A股“大象起舞”",
+   "ctime": "1793246702",
+   "url": "https://finance.sina.com.cn/stock/s/2026-10-29/doc-iniwwiey2829504.shtml"
+  },
+  {
+   "title": "摩根资产管理：市场目前仍预期美联储12月加息可能性较高",
+   "ctime": "1793243300",
+   "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-29/doc-iniwwawy6144953.shtml"
+  },
+  {
+   "title": "“新债王”质疑美联储：为何不加息？",
+   "ctime": "1793242931",
+   "url": "https://finance.sina.com.cn/wm/2026-10-29/doc-iniwwaxa2916251.shtml"
+  },
+  {
+   "title": "IMF第四位中国籍副总裁落定，财政部廖岷将履新",
+   "ctime": "1793242841",
+   "url": "https://finance.sina.com.cn/roll/2026-10-29/doc-iniwwaxc8975191.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 13,
+   "pe": 29.7904,
+   "pb_pct": 25,
+   "pb": 4.1814
+  }
+ ]
+}
