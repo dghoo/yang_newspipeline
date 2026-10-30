@@ -389,5 +389,9 @@
   "One has no future if one couldn't teach themself.": "一个人如果不能自学，就没有未来",
   "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.": "适用于Google TV、LG webOS和Samsung Tizen的快速无广告主屏幕",
   "We're rebuilding and open-sourcing the world’s software from scratch.": "我们正在从头开始重建和开源全球软件",
-  "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.": "开源AI网关。具有OpenAI、Claude和Gemini兼容API、模型路由、访问控制、使用跟踪和成本核算的自托管LLM网关"
+  "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.": "开源AI网关。具有OpenAI、Claude和Gemini兼容API、模型路由、访问控制、使用跟踪和成本核算的自托管LLM网关",
+  "For full project documentation, deployment instructions, SDK usage, and data details, visit the GitHub repository.": "有关完整的项目文档、部署说明、SDK使用情况和数据详细信息，请访问GitHub存储库",
+  "Open-source Grok Bot alternative with a virtual machine that bots can use": "使用机器人可以使用的虚拟机的开源Grok机器人替代方案",
+  "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More": "每个智能体跨会话的持久上下文–捕获智能体在会话期间执行的所有操作，使用AI对其进行压缩，并将相关上下文注入到未来的会话中",
+  "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust": "CADCraft ：计算机辅助设计和绘图—纯Rust的开源、无尘室AutoCAD风格应用程序"
 }

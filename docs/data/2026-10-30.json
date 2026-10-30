@@ -1,0 +1,534 @@
+{
+ "date": "2026-10-30",
+ "weekday": "五",
+ "val_date": "10-29",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
+    "url": "https://aihot.news/items/ykvaq4vx3ydt23josezzan62r",
+    "source": "公众号：月之暗面（Kimi）",
+    "publishedAt": "2026-10-30T04:04:56.000Z",
+    "summary": "月之暗面（Kimi）发布官方教程，详解 Kimi K3.1 Pro 的 3D 创作工作流程，说明参数化建模与网格化建模两种方式及对应工具选择。文章分享了 4 个案例的具体操作，包括在 Unreal Engine 中构建东方天宫、制作可 3D 打印的台灯、纯代码调用 Blender 生成建筑、用 Tripo 和 Blender 搭建微缩城市，并给出图胜于言、先搭灰模再细化等 5 个使用技巧。"
+   },
+   {
+    "kind": "news",
+    "title": "Google 与 Reddit 同日股价大跌，AI 搜索变现困境冲击开放网络",
+    "url": "https://aihot.news/items/kzenjo9w2bfhpsr0ub1gr95xj",
+    "source": "Platformer（热点 RSS）",
+    "publishedAt": "2026-10-30T00:51:00.000Z",
+    "summary": "Casey Newton 分析 Google 与 Reddit 同日遭遇的股市重挫：Alphabet 股价跌 12.6%，蒸发约 $5000 亿市值，为史上第二大单日市值缩水；高管承认 AI Mode 变现能力低于传统搜索，尽管 AI Mode 月用户约 10 亿、搜索收入仍增长 12% 至 $633.5 亿。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenRouter 实测 Claude Opus vs Sonnet vs Haiku 5.5 该选哪个",
+    "url": "https://aihot.news/items/gzcwy89nkjreenv5eu1qaysdi",
+    "source": "OpenRouter：Announcements（RSS）",
+    "publishedAt": "2026-10-30T00:00:00.000Z",
+    "summary": "OpenRouter 实测 Claude Opus 5.5、Sonnet 5.5 与 Haiku 5.5 三档模型，建议默认用 Sonnet 5.5，高频与子智能体任务用 Haiku 5.5，长且容错成本高的任务用 Opus 5.5。"
+   },
+   {
+    "kind": "news",
+    "title": "Andy Jassy 称 AWS 将成为万亿美元营收业务，2026 年资本开支约 2200 亿美元",
+    "url": "https://aihot.news/items/fxmexzrmo7pw52vc5j6ej17kl",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-10-29T23:42:22.000Z",
+    "summary": "亚马逊财报电话会上，CEO Andy Jassy 重申 AWS 可在未来五到十年成为万亿美元年营收业务，预计 2026 年现金资本开支约 2200 亿美元，其中大部分投向 AWS，2027 年还将大幅增加。AWS 当季营收同比增长 39%，年化营收运行率达 1840 亿美元，Jassy 预测 2027 和 2028 年增速均可超 40%；财报后盘后交易中亚马逊股价下跌约 6%。"
+   },
+   {
+    "kind": "news",
+    "title": "Figma 讲解如何训练专用画布编辑模型",
+    "url": "https://aihot.news/items/z9kqlhsgiz11fvlk3aodm6seg",
+    "source": "Figma AI / Agent / Make",
+    "publishedAt": "2026-10-29T21:00:00.000Z",
+    "summary": "Figma 介绍其为 agent 自研 Figma 编辑模型的训练方法，先用超过 25 万条合成样本做 SFT，让早期 Llama 3.3 70B 在编辑任务上接近当时顶级模型，后转向 RL 并结合确定性校验器与视觉评委做评测。"
+   },
+   {
+    "kind": "news",
+    "title": "Reddit 宣布转向以登录为主的体验，以应对 AI 搜索带来的流量下滑",
+    "url": "https://aihot.news/items/op2kjf327vilvhbxkjicxg5ec",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-10-29T20:08:31.000Z",
+    "summary": "Reddit 在 Q3 财报中宣布将转向以登录为主的体验，以保护数据免受 AI 抓取并提升广告变现。10 月搜索流量平均每周减少超 100 万次引荐，Q3 全球日活为 1.303 亿，其中美国日活降至 5070 万，同比降 2%。Q3 收入同比增长 53% 至 8.95 亿美元，净利润 2.83 亿美元；该转变将先在美国以外市场测试，暂无全球上线时间表。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic S-1 文件解读：财务表现强劲但增长放缓存隐忧",
+    "url": "https://aihot.news/items/wb6emxuh5ob2wh96egtwawgfu",
+    "source": "Timothy B. Lee：Understanding AI（RSS）",
+    "publishedAt": "2026-10-29T19:10:41.000Z",
+    "summary": "作者通读 Anthropic 公开版 S-1 文件，认为公司财务状况好于预期：2026 年第二季度收入从一季度的 47 亿美元增至 116 亿美元，并录得首个运营利润，截至 6 月底现金储备仅次于 Google 和 Berkshire Hathaway。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Pika 基于MiniMax H3后训练并开源 Pika H3 Flex 视频生成模型",
+    "url": "https://aihot.news/items/eq47lph0rzobf8cr950saiu8r",
+    "source": "X：卡兹克 (@Khazix0918)",
+    "publishedAt": "2026-10-29T20:07:09.000Z",
+    "summary": "Pika Labs 在 MiniMax H3 上做后训练，推出并开源 Pika H3 Flex，采样步数从 50 步压缩到 6 步，生成时间大幅降低且质量有所提升。"
+   },
+   {
+    "kind": "news",
+    "title": "Wiz 分析智能体攻击的七大指纹与发展趋势",
+    "url": "https://aihot.news/items/mdcygre4ettjdbca7sq6vu7zx",
+    "source": "Wiz：Research（安全研究）",
+    "publishedAt": "2026-10-29T14:36:22.000Z",
+    "summary": "Wiz 基于自身事件响应与公开披露案例，分析 AI 智能体参与真实入侵的现状与趋势，涉及 ARTEX、Hermes 等框架及韩国金融机构（约 67,000 人信息外泄）、泰国财政部、ConnectWise 供应链（尝试攻击超 2,250 个租户）等案例。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 详解如何检测前沿模型失准行为",
+    "url": "https://aihot.news/items/ck2bk0ns12i2hkg4ae0eoeabv",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-10-29T09:00:00.000Z",
+    "summary": "OpenAI 发布长文，详解其针对前沿模型失准行为的多层监测系统，包括激活探针、基于模型的审查、调查智能体和自动化调查四层架构，并对 GPT‑6 Astra 及以上模型的全部 RL 运行、评估和内部 Codex 流量进行监测。"
+   },
+   {
+    "kind": "news",
+    "title": "Mistral Large 4（Le Chonk）登陆 Hugging Face：1T 参数 MoE 多模态开源权重模型",
+    "url": "https://aihot.news/items/upsd8u37hkkquohy3w3sjvszi",
+    "source": "Hugging Face 官方团队博客",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "summary": "Hugging Face 发布 Mistral Large 4（Le Chonk）的上线博客，模型为多模态多语言 MoE 架构，总参数约 1T、激活 49B、上下文窗口 1M token。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "InternScience/Sage-A1.5",
+    "url": "https://hf-mirror.com/InternScience/Sage-A1.5",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 373,
+    "downloads": 9830,
+    "createdAt": "2026-10-15",
+    "intro": "此存储库包含Hugging Face Transformers格式的Sage-A1.5的模型权重和配置文件"
+   },
+   {
+    "kind": "model",
+    "id": "XingChen-AGI/Xing4.0-29B-Intent",
+    "url": "https://hf-mirror.com/XingChen-AGI/Xing4.0-29B-Intent",
+    "license": "apache-2.0",
+    "param": "29B",
+    "likes": 325,
+    "downloads": 4736,
+    "createdAt": "2026-10-15",
+    "intro": "有关完整的项目文档、部署说明、SDK使用情况和数据详细信息，请访问GitHub存储库"
+   },
+   {
+    "kind": "model",
+    "id": "KRAFTON/Raon-1-mini-preview",
+    "url": "https://hf-mirror.com/KRAFTON/Raon-1-mini-preview",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 226,
+    "downloads": 3085,
+    "createdAt": "2026-10-21",
+    "intro": "Raon-1 mini是一个30B-A4B专家混合（ MoE ）语言模型，由KRAFTON AI从头开始设计和训练"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "lang": "Shell",
+   "stars": "308,795",
+   "desc": "有效的智能体技能框架和软件开发方法"
+  },
+  {
+   "repo": "milind-soni/OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "lang": "TypeScript",
+   "stars": "7,655",
+   "desc": "使用机器人可以使用的虚拟机的开源Grok机器人替代方案"
+  },
+  {
+   "repo": "thedotmack/claude-mem",
+   "url": "https://github.com/thedotmack/claude-mem",
+   "lang": "TypeScript",
+   "stars": "105,020",
+   "desc": "每个智能体跨会话的持久上下文–捕获智能体在会话期间执行的所有操作，使用AI对其进行压缩，并将相关上下文注入到未来的会话中"
+  },
+  {
+   "repo": "CopilotKit/OpenBot",
+   "url": "https://github.com/CopilotKit/OpenBot",
+   "lang": "TypeScript",
+   "stars": "8,293",
+   "desc": "开源的人工智能同事，每个人都有一台自己的电脑：浏览器、文件和工具，每次操作都会在发生之前决定，并在之后记录下来"
+  },
+  {
+   "repo": "storytold/cadcraft",
+   "url": "https://github.com/storytold/cadcraft",
+   "lang": "Rust",
+   "stars": "7,209",
+   "desc": "CADCraft ：计算机辅助设计和绘图—纯Rust的开源、无尘室AutoCAD风格应用程序"
+  },
+  {
+   "repo": "unclebob/ub-mode",
+   "url": "https://github.com/unclebob/ub-mode",
+   "lang": "",
+   "stars": "4,888",
+   "desc": ""
+  },
+  {
+   "repo": "rddmwmddr/android-ad-cleaner",
+   "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+   "lang": "Python",
+   "stars": "4,820",
+   "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送"
+  },
+  {
+   "repo": "T-Auto/dsh-ops",
+   "url": "https://github.com/T-Auto/dsh-ops",
+   "lang": "JavaScript",
+   "stars": "4,800",
+   "desc": "底层操作工具插件，旨在减少 Token 消耗与任务耗时"
+  },
+  {
+   "repo": "QingYunA/answer-me-with-html",
+   "url": "https://github.com/QingYunA/answer-me-with-html",
+   "lang": "JavaScript",
+   "stars": "4,798",
+   "desc": "让 AI Agent 用一页 HTML 回答复杂问题"
+  },
+  {
+   "repo": "zhongerxin/iPhone-use",
+   "url": "https://github.com/zhongerxin/iPhone-use",
+   "lang": "Python",
+   "stars": "4,771",
+   "desc": "让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "awesome-selfhosted/awesome-selfhosted",
+   "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+   "lang": "",
+   "stars": "331,891",
+   "desc": "可托管在您自己的服务器上的免费软件网络服务和Web应用程序列表",
+   "en": false
+  },
+  {
+   "repo": "n8n-io/n8n",
+   "url": "https://github.com/n8n-io/n8n",
+   "lang": "TypeScript",
+   "stars": "209,074",
+   "desc": "具有原生AI功能的公平代码工作流程自动化平台",
+   "en": false
+  },
+  {
+   "repo": "ohmyzsh/ohmyzsh",
+   "url": "https://github.com/ohmyzsh/ohmyzsh",
+   "lang": "Shell",
+   "stars": "190,234",
+   "desc": "🙃   一个令人愉悦的社区驱动（拥有2,500多名贡献者）框架，用于管理您的zsh配置",
+   "en": false
+  },
+  {
+   "repo": "open-webui/open-webui",
+   "url": "https://github.com/open-webui/open-webui",
+   "lang": "Python",
+   "stars": "157,204",
+   "desc": "用户友好的AI界面（支持Ollama、OpenAI API等）",
+   "en": false
+  },
+  {
+   "repo": "immich-app/immich",
+   "url": "https://github.com/immich-app/immich",
+   "lang": "TypeScript",
+   "stars": "117,651",
+   "desc": "高性能自托管照片和视频管理解决方案",
+   "en": false
+  },
+  {
+   "repo": "Stirling-Tools/Stirling-PDF",
+   "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+   "lang": "TypeScript",
+   "stars": "95,383",
+   "desc": "GitHub上排名第一的PDF应用程序，可让您在任何地方的任何设备上编辑PDF",
+   "en": false
+  },
+  {
+   "repo": "louislam/uptime-kuma",
+   "url": "https://github.com/louislam/uptime-kuma",
+   "lang": "JavaScript",
+   "stars": "93,082",
+   "desc": "一款精美的自托管监控工具",
+   "en": false
+  },
+  {
+   "repo": "pathwaycom/serviette",
+   "url": "https://github.com/pathwaycom/serviette",
+   "lang": "Python",
+   "stars": "58,752",
+   "desc": "无代码RAG服务器，可使答案与您的文档保持同步",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4023.5,
+   "chg": -0.45,
+   "pe": 13.04,
+   "pe_pct": 57,
+   "pb": 1.36,
+   "pb_pct": 27,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6383.57,
+   "chg": -1.09,
+   "pe": 27.14,
+   "pe_pct": 57,
+   "pb": 2.01,
+   "pb_pct": 56,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2468.0,
+   "chg": -1.97,
+   "pe": 28.46,
+   "pe_pct": 9,
+   "pb": 4.0,
+   "pb_pct": 19,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1188.91,
+   "chg": -3.19,
+   "pe": 97.3,
+   "pe_pct": 76,
+   "pb": 5.87,
+   "pb_pct": 54,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5614.28,
+   "chg": 1.22,
+   "pe": 9.43,
+   "pe_pct": 90,
+   "pb": 0.92,
+   "pb_pct": 63,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11390.99,
+   "chg": 0.75,
+   "pe": 9.38,
+   "pe_pct": 80,
+   "pb": 0.94,
+   "pb_pct": 69,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 23357.35,
+   "chg": 1.74,
+   "pe": 1.39,
+   "pe_pct": 0,
+   "pb": 0.12,
+   "pb_pct": 0,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 26184.72,
+   "chg": -1.38,
+   "pe": 28.2,
+   "pe_pct": 36,
+   "pb": 8.59,
+   "pb_pct": 67,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "标普500",
+   "point": 7720.39,
+   "chg": -0.3,
+   "pe": 24.37,
+   "pe_pct": 50,
+   "pb": 5.42,
+   "pb_pct": 91,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "医疗服务",
+    "chg": 3.06
+   },
+   {
+    "name": "航运港口",
+    "chg": 2.28
+   },
+   {
+    "name": "食品饮料",
+    "chg": 1.96
+   },
+   {
+    "name": "航空机场",
+    "chg": 1.31
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": 0.82
+   },
+   {
+    "name": "化学制药",
+    "chg": 0.43
+   }
+  ],
+  "dn": [
+   {
+    "name": "传媒",
+    "chg": -4.72
+   },
+   {
+    "name": "通信设备",
+    "chg": -3.14
+   },
+   {
+    "name": "工程咨询服务Ⅱ",
+    "chg": -2.08
+   },
+   {
+    "name": "汽车零部件",
+    "chg": -1.63
+   },
+   {
+    "name": "仪器仪表",
+    "chg": -1.62
+   },
+   {
+    "name": "通用设备",
+    "chg": -1.48
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-0.48%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.2237（2026-10-29）（≈ 822 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.2746",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.1520",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5953",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1502",
+   "date": "2026-10-28"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6204",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8214",
+   "date": "2026-10-28"
+  }
+ ],
+ "macro": [
+  {
+   "title": "快讯：国债期货30年期主力合约下滑0.73% 创3月9日以来最大跌幅",
+   "ctime": "1793338103",
+   "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-30/doc-iniwysmx8230196.shtml"
+  },
+  {
+   "title": "2013年来首次！日本央行确认国内通胀符合目标 为12月加息打开大门",
+   "ctime": "1793335764",
+   "url": "https://finance.sina.com.cn/roll/2026-10-30/doc-iniwysmx8214438.shtml"
+  },
+  {
+   "title": "菲律宾央行：10月通胀可能加速",
+   "ctime": "1793335013",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-30/doc-iniwyncz8334570.shtml"
+  },
+  {
+   "title": "中海基金殷婧：债市配置力量仍强 四季度关注资金面与政策落地",
+   "ctime": "1793338345",
+   "url": "https://finance.sina.com.cn/money/fund/jjsy/2026-10-30/doc-iniwysmu5519476.shtml"
+  },
+  {
+   "title": "现代汽车集团将成立特殊目的公司开发AI数据中心",
+   "ctime": "1793336860",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-30/doc-iniwysmz4671974.shtml"
+  },
+  {
+   "title": "美联储“按兵不动” 年内仍有加息可能",
+   "ctime": "1793333940",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-30/doc-iniwysmz4667578.shtml"
+  },
+  {
+   "title": "分析师：日本央行12月议息会议成为下一次加息的合理时机",
+   "ctime": "1793333477",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-30/doc-iniwyncw5604446.shtml"
+  },
+  {
+   "title": "日经指数对日本央行加速抛售ETF计划反应平淡",
+   "ctime": "1793332325",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-30/doc-iniwyncw5591250.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 9,
+   "pe": 28.4607,
+   "pb_pct": 19,
+   "pb": 3.9994
+  },
+  {
+   "name": "恒生指数",
+   "pe_pct": 0,
+   "pe": 1.3893,
+   "pb_pct": 0,
+   "pb": 0.12
+  }
+ ]
+}
