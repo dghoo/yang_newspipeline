@@ -1,0 +1,534 @@
+{
+ "date": "2026-10-31",
+ "weekday": "六",
+ "val_date": "10-30",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Anthropic IPO 招股文件披露近 9000 亿美元隐性债务",
+    "url": "https://aihot.news/items/yqblvh40gus1ssc0rjvawh6fu",
+    "source": "IT之家·人工智能",
+    "publishedAt": "2026-10-31T03:25:09.697Z",
+    "summary": "Anthropic 近日提交 IPO 招股文件，彭博社报道其计划未来在服务器、建筑和电力等领域投入近 9,000 亿美元债务。该公司资产负债表显示 1,175 亿美元负债和 1,120 亿美元现金，而租赁合同及数据中心、电力和 GPU 采购协议等表外义务未直接体现；Anthropic 计划通过增加收入和筹集资金支付这些负债。"
+   },
+   {
+    "kind": "news",
+    "title": "Nvidia 洽谈为 Nscale 西弗吉尼亚 Anthropic 数据中心提供债务担保",
+    "url": "https://aihot.news/items/hx5dsruslfiiqhbsro2tvg1n8",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-10-31T01:20:05.000Z",
+    "summary": "据 The Information 报道、Bloomberg 佐证，Nvidia 正洽谈为 Nscale 在西弗吉尼亚为 Anthropic 建设的数据中心担保数十亿美元债务融资，Anthropic 已就首栋建筑签署 446 亿美元合同。"
+   },
+   {
+    "kind": "news",
+    "title": "Figma 发布 Weave 创作平台，用节点化工作流让创意流程可复用",
+    "url": "https://aihot.news/items/akdeq33m7cpr8m7zsfgvfiz5c",
+    "source": "Figma AI / Agent / Make",
+    "publishedAt": "2026-10-31T00:58:00.000Z",
+    "summary": "Figma 宣布 Figma Weave，一个面向持续产出需求的创意团队平台，并把 Weave 创作工作流与 Figma 画框连接起来。Weave 用连接的节点承载图像和视频的生成与编辑，支持分支探索、多模型对比、色彩校正、合成、裁剪、Painter 等编辑节点；工作流可打包成 Weave tool 让团队成员一键运行，社区工具发布已上线。"
+   },
+   {
+    "kind": "news",
+    "title": "阿里巴巴与Apple合作，千问集成至Apple智能，11月4日开放测试",
+    "url": "https://aihot.news/items/cbggw7imkzd4c01ifblroln6v",
+    "source": "公众号：千问APP（阿里）",
+    "publishedAt": "2026-10-31T00:03:47.000Z",
+    "summary": "10月31日阿里巴巴宣布与Apple合作，将千问集成至Apple智能，中国用户可在Siri、写作工具及视觉智能中调用千问的文本与图像理解、内容生成能力。功能11月4日起随iOS开发者Beta开放测试，12月iOS 27.3正式发布时推出；用户可自主选择开通，请求与回复不用于模型训练。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenRouter 教程：用 Agent SDK 搭建常驻 AI Agent 监控 Hacker News",
+    "url": "https://aihot.news/items/upl3hjjdokqe13w3ieo9opr0v",
+    "source": "OpenRouter：Announcements（RSS）",
+    "publishedAt": "2026-10-31T00:00:00.000Z",
+    "summary": "OpenRouter 发布教程，演示用 @openrouter/agent 0.11.0 在 TypeScript 中搭建定时运行的常驻 AI Agent，监控 Hacker News 并生成摘要。"
+   },
+   {
+    "kind": "news",
+    "title": "科技巨头 AI 资本开支超 7400 亿美元，投资者担忧升温引发市场下跌",
+    "url": "https://aihot.news/items/fxxkgtzpf2pb8xjnhu4jtis0b",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-10-30T21:17:40.000Z",
+    "summary": "Alphabet、Amazon、Meta、Microsoft 今年计划资本开支合计超 7400 亿美元，投资者情绪从奖励大额投入转向担忧负自由现金流、债务攀升与回报不确定。"
+   },
+   {
+    "kind": "news",
+    "title": "Project Suncatcher 在轨道卫星上运行 TPU，Gemma 模型首次在太空完成推理并回传回应",
+    "url": "https://aihot.news/items/cms82puwtmpssdpbjmajoopr9",
+    "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+    "publishedAt": "2026-10-30T18:28:00.000Z",
+    "summary": "Philipp Schmid 转引 Sundar Pichai 的消息：Google Project Suncatcher 在数周前发射原型卫星后，成功向轨道发送指令、启动 TPU、运行提示词，并在地面收到了首个完整回应（一首 haiku），作者称 Gemma 4 成为首个在太空运行的大语言模型。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Wiz 报告“黑色十月”：九个 AI 开发者平台接连披露安全事件",
+    "url": "https://aihot.news/items/la0qb77ds4znf2r7ub14a3bqz",
+    "source": "Wiz：Research（安全研究）",
+    "publishedAt": "2026-10-30T22:51:44.000Z",
+    "summary": "Wiz 研究团队梳理 10 月内至少九个 AI 开发者平台披露的安全事件，包括 Fireworks AI、Lightning AI、Railway、Warp、OpenCode 等，多起报告指向凭据窃取、agent swarm 攻击和以“蒸馏”为目的的窃取。"
+   },
+   {
+    "kind": "news",
+    "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
+    "url": "https://aihot.news/items/nxkr9ex5tfbhfhw1gvj9wsjuz",
+    "source": "Epoch AI：Gradient Updates（RSS）",
+    "publishedAt": "2026-10-30T12:07:16.000Z",
+    "summary": "Epoch AI 实验发现，Z.ai 八月发布的开源权重模型 GLM 5.3 能利用 Mozilla 已发布但未推送给用户的安全补丁（patch gap），自主构建网页攻击，仅访问页面即可读取访客电脑文件，攻破 9 月 17 日至 10 月 26 日发布的全部六个 Firefox 版本。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 详解如何监控前沿模型的失对齐行为",
+    "url": "https://aihot.news/items/e234ewhx82g2zh3z2bgcjxx7d",
+    "source": "OpenAI：Alignment 研究博客（RSS）",
+    "publishedAt": "2026-10-29T16:00:00.000Z",
+    "summary": "OpenAI 在 Alignment 博客介绍其针对前沿模型（如 GPT-6 Astra）的多层失对齐监控系统，覆盖训练、评估、内部使用和部分外部部署。"
+   },
+   {
+    "kind": "news",
+    "title": "Trakkr 研究：追踪 1285 条 AI 引用统计的溯源路径",
+    "url": "https://aihot.news/items/dmi67weoeety92021tvuyf1hs",
+    "source": "Hacker News：AI 热帖",
+    "publishedAt": "2026-10-28T08:00:00.000Z",
+    "summary": "Trakkr Research 向 ChatGPT、Perplexity、Gemini、Claude 和 Google AI Overviews 提出 200 个要求数字的问题，并追踪其中 1285 条统计的引用链路，结果只有 40% 到达说法一致的研究，8% 到达但数字或语境已变，40% 无法核查，11% 无处可溯。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "reflection/Beam-1.0-501B-A23B",
+    "url": "https://hf-mirror.com/reflection/Beam-1.0-501B-A23B",
+    "license": "apache-2.0",
+    "param": "501B",
+    "likes": 290,
+    "downloads": 8163,
+    "createdAt": "2026-10-07",
+    "intro": "Beam是由Reflection构建的开放模型"
+   },
+   {
+    "kind": "model",
+    "id": "HuggingFaceBio/Carbon-X",
+    "url": "https://hf-mirror.com/HuggingFaceBio/Carbon-X",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 276,
+    "downloads": 3289,
+    "createdAt": "2026-10-21",
+    "intro": "来自Carbon家族的开放14B语言模型，用于DNA理解和生成"
+   },
+   {
+    "kind": "model",
+    "id": "Diffuspace/Clover-35B-A3B-Preview",
+    "url": "https://hf-mirror.com/Diffuspace/Clover-35B-A3B-Preview",
+    "license": "apache-2.0",
+    "param": "35B",
+    "likes": 178,
+    "downloads": 1505,
+    "createdAt": "2026-10-24",
+    "intro": "文本生成类开源模型 · 许可证 apache-2.0 · 参数规模 35B · 近 7 天点赞 178 · 下载 1505"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "Renhuai123/ziwei-doushu",
+   "url": "https://github.com/Renhuai123/ziwei-doushu",
+   "lang": "TypeScript",
+   "stars": "11,488",
+   "desc": ""
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "lang": "Shell",
+   "stars": "307,630",
+   "desc": ""
+  },
+  {
+   "repo": "pingdotgg/t3code",
+   "url": "https://github.com/pingdotgg/t3code",
+   "lang": "TypeScript",
+   "stars": "32,985",
+   "desc": ""
+  },
+  {
+   "repo": "lightpanda-io/browser",
+   "url": "https://github.com/lightpanda-io/browser",
+   "lang": "Zig",
+   "stars": "38,580",
+   "desc": ""
+  },
+  {
+   "repo": "openai/math",
+   "url": "https://github.com/openai/math",
+   "lang": "Lean",
+   "stars": "17,144",
+   "desc": ""
+  },
+  {
+   "repo": "storytold/gridcraft",
+   "url": "https://github.com/storytold/gridcraft",
+   "lang": "Rust",
+   "stars": "6,898",
+   "desc": "GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft."
+  },
+  {
+   "repo": "Jakeschincariol/replica-skill",
+   "url": "https://github.com/Jakeschincariol/replica-skill",
+   "lang": "Python",
+   "stars": "6,690",
+   "desc": "克隆任何应用程序的11项免费Claude技能：对其进行逆向工程、重建、测试错误，然后修复用户讨厌的内容"
+  },
+  {
+   "repo": "ly05010419/MacNativeGames",
+   "url": "https://github.com/ly05010419/MacNativeGames",
+   "lang": "C",
+   "stars": "6,607",
+   "desc": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game."
+  },
+  {
+   "repo": "horizon-rust/horizon",
+   "url": "https://github.com/horizon-rust/horizon",
+   "lang": "Rust",
+   "stars": "4,987",
+   "desc": "Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher."
+  },
+  {
+   "repo": "Fei2411/DS-Bot",
+   "url": "https://github.com/Fei2411/DS-Bot",
+   "lang": "JavaScript",
+   "stars": "4,660",
+   "desc": "A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats."
+  }
+ ],
+ "docker": [
+  {
+   "repo": "unslothai/unsloth",
+   "url": "https://github.com/unslothai/unsloth",
+   "lang": "Python",
+   "stars": "78,834",
+   "desc": "运行和训练LLM和扩散模型的本地UI",
+   "en": false
+  },
+  {
+   "repo": "coollabsio/coolify",
+   "url": "https://github.com/coollabsio/coolify",
+   "lang": "PHP",
+   "stars": "65,335",
+   "desc": "Vercel、Heroku和Netlify的开源、自托管PaaS替代品，让您可以在自己的服务器上轻松部署静态站点、数据库、全栈应用程序和360 +一键式服务",
+   "en": false
+  },
+  {
+   "repo": "usememos/memos",
+   "url": "https://github.com/usememos/memos",
+   "lang": "Go",
+   "stars": "64,192",
+   "desc": "备忘录是一款开源、自托管的笔记记录应用程序，可将您的日常想法整合到一个个人时间线中",
+   "en": false
+  },
+  {
+   "repo": "go-gitea/gitea",
+   "url": "https://github.com/go-gitea/gitea",
+   "lang": "Go",
+   "stars": "58,791",
+   "desc": "享用一杯茶。无痛自托管一体化软件开发服务，包括Git托管、代码审核、团队协作、软件包注册和CI/CD",
+   "en": false
+  },
+  {
+   "repo": "appwrite/appwrite",
+   "url": "https://github.com/appwrite/appwrite",
+   "lang": "TypeScript",
+   "stars": "57,802",
+   "desc": "适用于代理和开发人员的开源云。包括身份验证、数据库、存储、功能、消息、托管、实时、WAF等",
+   "en": false
+  },
+  {
+   "repo": "ClickHouse/ClickHouse",
+   "url": "https://github.com/ClickHouse/ClickHouse",
+   "lang": "C++",
+   "stars": "50,683",
+   "desc": "ClickHouse ®是一个实时分析数据库管理系统",
+   "en": false
+  },
+  {
+   "repo": "HKUDS/nanobot",
+   "url": "https://github.com/HKUDS/nanobot",
+   "lang": "Python",
+   "stars": "49,694",
+   "desc": "Your lightweight open-source personal agent.",
+   "en": false
+  },
+  {
+   "repo": "chatwoot/chatwoot",
+   "url": "https://github.com/chatwoot/chatwoot",
+   "lang": "Ruby",
+   "stars": "38,651",
+   "desc": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 3985.5,
+   "chg": -1.39,
+   "pe": 12.87,
+   "pe_pct": 53,
+   "pb": 1.35,
+   "pb_pct": 23,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6266.19,
+   "chg": -2.91,
+   "pe": 26.76,
+   "pe_pct": 55,
+   "pb": 1.95,
+   "pb_pct": 51,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2413.63,
+   "chg": -4.13,
+   "pe": 26.91,
+   "pe_pct": 5,
+   "pb": 3.82,
+   "pb_pct": 16,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1160.84,
+   "chg": -5.48,
+   "pe": 90.46,
+   "pe_pct": 74,
+   "pb": 5.55,
+   "pb_pct": 51,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5592.45,
+   "chg": 0.82,
+   "pe": 9.42,
+   "pe_pct": 90,
+   "pb": 0.92,
+   "pb_pct": 63,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11380.1,
+   "chg": 0.65,
+   "pe": 9.38,
+   "pe_pct": 80,
+   "pb": 0.94,
+   "pb_pct": 69,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 23294.42,
+   "chg": 1.46,
+   "pe": 10.23,
+   "pe_pct": 43,
+   "pb": 1.07,
+   "pb_pct": 44,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 25437.0,
+   "chg": -2.86,
+   "pe": 27.36,
+   "pe_pct": 27,
+   "pb": 8.33,
+   "pb_pct": 62,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7580.07,
+   "chg": -1.82,
+   "pe": 23.79,
+   "pe_pct": 42,
+   "pb": 5.31,
+   "pb_pct": 90,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "医疗服务",
+    "chg": 1.58
+   },
+   {
+    "name": "航运港口",
+    "chg": 1.5
+   },
+   {
+    "name": "食品饮料",
+    "chg": 0.83
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": 0.77
+   },
+   {
+    "name": "航空机场",
+    "chg": 0.66
+   },
+   {
+    "name": "煤炭",
+    "chg": -0.79
+   }
+  ],
+  "dn": [
+   {
+    "name": "传媒",
+    "chg": -6.3
+   },
+   {
+    "name": "通信设备",
+    "chg": -5.85
+   },
+   {
+    "name": "工程咨询服务Ⅱ",
+    "chg": -4.47
+   },
+   {
+    "name": "仪器仪表",
+    "chg": -3.99
+   },
+   {
+    "name": "通用设备",
+    "chg": -3.91
+   },
+   {
+    "name": "汽车零部件",
+    "chg": -3.75
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-3.65%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.1238（2026-10-30）（≈ 812 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.1871",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.0355",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5765",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1403",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6221",
+   "date": "2026-10-30"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8068",
+   "date": "2026-10-29"
+  }
+ ],
+ "macro": [
+  {
+   "title": "乌克兰国债20年间增130倍",
+   "ctime": "1793423984",
+   "url": "https://finance.sina.com.cn/world/2026-10-31/doc-inixavkx7586006.shtml"
+  },
+  {
+   "title": "高端访谈丨欧洲央行行长：在货币政策上我是“猫头鹰派”",
+   "ctime": "1793418998",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-31/doc-inixavkz4005391.shtml"
+  },
+  {
+   "title": "东方证券孙金霞：中国具有低利率与完备的基础设施体系等多重优势，为科技产业长期发展提供基础",
+   "ctime": "1793418480",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-31/doc-inixavkz3998653.shtml"
+  },
+  {
+   "title": "张忆东：增长强劲，通胀反弹，美联储下一步？",
+   "ctime": "1793414760",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-31/doc-inixaraw5023535.shtml"
+  },
+  {
+   "title": "日本央行加快ETF出售节奏 或为高市早苗支出计划提供资金支持",
+   "ctime": "1793414159",
+   "url": "https://finance.sina.com.cn/world/2026-10-31/doc-inixaraz7642549.shtml"
+  },
+  {
+   "title": "房贷贴息政策落地满月，楼市现结构性分化：二手房回暖领跑，一线修复快于二、三线",
+   "ctime": "1793420981",
+   "url": "https://finance.sina.com.cn/roll/2026-10-31/doc-inixavkz4023066.shtml"
+  },
+  {
+   "title": "日赚超10亿元，宇宙行领跑A股前三季赚钱榜！长鑫科技杀入前六",
+   "ctime": "1793419080",
+   "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-31/doc-inixavkx7555334.shtml"
+  },
+  {
+   "title": "经济日报：投资消费协力拓宽服务业增长空间",
+   "ctime": "1793418826",
+   "url": "https://finance.sina.com.cn/roll/2026-10-31/doc-inixavku4922637.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 5,
+   "pe": 26.9076,
+   "pb_pct": 16,
+   "pb": 3.822
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 27,
+   "pe": 27.3604,
+   "pb_pct": 62,
+   "pb": 8.3335
+  }
+ ]
+}
