@@ -1,0 +1,531 @@
+{
+ "date": "2026-11-01",
+ "weekday": "日",
+ "val_date": "10-30",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "OpenAI 12月起将ChatGPT与Codex合并为统一Token额度",
+    "url": "https://aihot.news/items/f6dxzur6d4pwjdhvm1x6m5rfp",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-11-01T00:22:41.000Z",
+    "summary": "作者引述OpenAI凌晨更新的帮助文档称，从12月开始Plus和Pro用户的ChatGPT聊天与Codex用量将合并为同一Token额度，仅Instant聊天不受影响。作者回顾此前按条数计费的历史、一个月内Codex Pro额度先降后恢复的运营反复，以及社区在GitHub上提issue抗议的反应，认为合并与IPO预期下的算力成本压力有关。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenRouter 教程：用 Responses API 构建可在 Linux 沙箱验证 bug 的 AI 代码审查脚本",
+    "url": "https://aihot.news/items/yww15c701iat30p8ttjf029ij",
+    "source": "OpenRouter：Announcements（RSS）",
+    "publishedAt": "2026-11-01T00:00:00.000Z",
+    "summary": "OpenRouter 发布教程，介绍一个 233 行、仅用标准库的 review.py，通过 Responses API 组合 Files API、Shell 沙箱工具和 Apply Patch 工具，把变更文件上传到托管 Linux 沙箱，让模型实际运行检查确认 bug 并返回 V4A 补丁。"
+   },
+   {
+    "kind": "news",
+    "title": "美国白宫科技顾问萨克斯称 Anthropic 可能成为资本主义史上最伟大企业",
+    "url": "https://aihot.news/items/dpm21l66z2iizblehsdg09c8t",
+    "source": "IT之家·人工智能",
+    "publishedAt": "2026-10-31T22:56:28.467Z",
+    "summary": "美国白宫科学与技术顾问会议主席戴维·萨克斯在 All-In 播客分析 Anthropic 的 S-1 文件，称其很可能成为资本主义历史上最伟大企业，也可能是回报最高的风险投资项目。"
+   },
+   {
+    "kind": "news",
+    "title": "彭博社统计：Alphabet、Meta、微软、亚马逊、甲骨文承诺投入超3万亿美元建AI基础设施",
+    "url": "https://aihot.news/items/htfc0ler37j2h4hoqll6jewz3",
+    "source": "IT之家·人工智能",
+    "publishedAt": "2026-10-31T15:56:00.987Z",
+    "summary": "据彭博社10月31日报道，Alphabet、Meta、微软、亚马逊和甲骨文五大巨头承诺未来数年在数据中心等领域投入超过3万亿美元（约20.01万亿元人民币）。其中谷歌支出承诺超1万亿美元、接近一年前的八倍，Meta超8,000亿美元且近半用于最长分30年支付的租约；甲骨文是首家因投资AI数据中心而自由现金流转负的大型科技公司，预计到2028年恢复正自由现金流。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 将 Claude Max 套餐更名为 Max 与 Ultra，Ultra 认证账号取消 5 小时限制",
+    "url": "https://aihot.news/items/pd3dehdyyhzkyrjsw4b6bmcyj",
+    "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+    "publishedAt": "2026-10-30T17:42:26.000Z",
+    "summary": "Anthropic 将 Claude 订阅套餐更名：Max 5x 改为 Max，Max 20x 改为 Ultra，价格不变（Max 100 美元/月、Ultra 200 美元/月）。即日起多数老订阅者的认证 Ultra 账号取消 5 小时限制，新账号保留临时限制以防欺诈滥用，周限额不变。"
+   },
+   {
+    "kind": "news",
+    "title": "Reddit CEO 称 Google AI Mode 不为任何人带来流量，Reddit 每周流失超百万搜索访问",
+    "url": "https://aihot.news/items/v4uwaucyf64u7bkzsyvri08w4",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-10-30T17:15:24.000Z",
+    "summary": "Reddit CEO Steve Huffman 表示 10 月 Reddit 每周流失超过 100 万来自 Google 搜索的访问，股价在业绩强劲的情况下仍下跌超 25%。他称 AI Mode 不会带来流量，Reddit 正在美国以外测试登录墙以遏制抓取，并与 AI 提供商继续数据授权谈判。"
+   },
+   {
+    "kind": "news",
+    "title": "AI 支出担忧引发美股科技股连日下跌，Intel 盘中跌逾 30%",
+    "url": "https://aihot.news/items/l7y0gkoqx56dt6jxv6x0mcl0h",
+    "source": "Hacker News：AI 热帖",
+    "publishedAt": "2026-10-30T14:50:37.797Z",
+    "summary": "BBC 报道称，因担忧企业对 AI 的巨额投资回报，美股科技股连续第二日大跌。"
+   },
+   {
+    "kind": "news",
+    "title": "The Verge 解读 Anthropic S-1 文件中的奇迹叙事与风险披露",
+    "url": "https://aihot.news/items/vyd3tzicoe478uo8njsr8zt2v",
+    "source": "The Verge：AI（RSS）",
+    "publishedAt": "2026-10-30T13:11:05.000Z",
+    "summary": "The Verge 分析 Anthropic 提交的 335 页 S-1 招股书，其中创始人信以带来奇迹时代为愿景，同时用 94 页风险因素警告模型可能对人类构成灾难性甚至生存风险。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Parameter 安全研究：公开 ChatGPT 分享链接可在受害者登录会话中执行任意代码",
+    "url": "https://aihot.news/items/zdwho66dczydnc8nq5fs3rrx9",
+    "source": "Hacker News：AI 热帖",
+    "publishedAt": "2026-10-27T16:00:00.000Z",
+    "summary": "Parameter 团队披露一种针对 ChatGPT 的 XSS 攻击链：攻击者发布含交互图表和 HTML Preview 的公开分享对话，借助 MathLive 键盘布局消息未验证来源、innerHTML 注入无沙箱 iframe、YouTube oEmbed JSONP 绕过 CSP，使 JavaScript 以 chatgpt.com 身份在受害者登录会话中运行。"
+   },
+   {
+    "kind": "news",
+    "title": "Cartesia 发布 H-Net 扩缩律研究：字节级层级网络比 BPE 提升最高 3-5x 计算效率",
+    "url": "https://aihot.news/items/ctuk7r4h4qbyyligi680s7gtr",
+    "source": "Cartesia 产品与研究",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "summary": "Cartesia 发布系列博客第一篇，报告其层级网络（H-Net）在字节级语言建模上的扩缩律结果：与严格匹配的 BPE Transformer 相比，1-stage H-Net 在验证损失上节省 1.28x 计算，下游评测约 2x，代码任务中位数 2.04x、分布外编程语言中位数达 3.10x（如 Prolog 5.37x）。"
+   },
+   {
+    "kind": "news",
+    "title": "Liquid AI 发布 LFM3 多模态开源权重模型家族，2B 级覆盖文本、视觉、音频、omni 和决策模型",
+    "url": "https://aihot.news/items/vx4t4ldzajj3lhb8luhg9dy9s",
+    "source": "Liquid AI 模型与工程博客（网页）",
+    "publishedAt": "2026-10-26T16:00:00.000Z",
+    "summary": "Liquid AI 发布新一代 LFM3 模型家族，以 LFM3-1.7B-Base 为共享骨干，首批开放六个 2B 级模型（文本、视觉、音频、omni 及两个决策模型）的开放权重，可在 Hugging Face、Playground 和 Liquid AI API 获取。"
+   },
+   {
+    "kind": "news",
+    "title": "腾讯混元开源同声传译大模型 Hy-SimulMT，实测效果超主流商用 API",
+    "url": "https://aihot.news/items/tnxltiopwxi73glywqgkvmgnz",
+    "source": "公众号：腾讯混元",
+    "publishedAt": "2026-10-26T11:53:45.000Z",
+    "summary": "10 月 26 日，腾讯混元发布并开源同声传译大模型 Hy-SimulMT，支持中英语音到语音实时翻译，实测响应时间约 3 秒，低于人类专业译员平均的 4-5 秒。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "url": "https://hf-mirror.com/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "license": "mit",
+    "param": "",
+    "likes": 4130,
+    "downloads": 156373,
+    "createdAt": "2026-10-17",
+    "intro": "DeepSeek-V4.1-Flash-1017是对DeepSeek-V4.1-Flash的微小更新，在推理、编码、代理任务和可视化基准方面提供了实质性改进"
+   },
+   {
+    "kind": "model",
+    "id": "MemTensor/MemT-1.0-Nano",
+    "url": "https://hf-mirror.com/MemTensor/MemT-1.0-Nano",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 167,
+    "downloads": 77984,
+    "createdAt": "2026-10-15",
+    "intro": "MemT-1.0是新一代内存基础模型，使持久、动态演化的内存成为模型计算的内在组成部分"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "Donchitos/Claude-Code-Game-Studios",
+   "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+   "lang": "Shell",
+   "stars": "31,350",
+   "desc": "将Claude Code变成一个完整的游戏开发工作室--49个人工智能代理、72个工作流程技能，以及一个完整的协调系统，反映了真实的工作室层次结构"
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "lang": "Rust",
+   "stars": "98,510",
+   "desc": "您的编码代理的设计词汇。大胆引导，通过批评和审核进行评审，在AI SLOP出货前抓住它"
+  },
+  {
+   "repo": "Orkas-AI/Orkas",
+   "url": "https://github.com/Orkas-AI/Orkas",
+   "lang": "JavaScript",
+   "stars": "6,797",
+   "desc": "Orkas是一个面向桌面的开源（ MIT ）本地优先人工智能团队：指挥官将您的目标转化为待办事项，并协调16个内置的专业代理以及Claude Code、Codex、OpenCode、OpenClaw"
+  },
+  {
+   "repo": "THU-MAIC/OpenMAIC",
+   "url": "https://github.com/THU-MAIC/OpenMAIC",
+   "lang": "TypeScript",
+   "stars": "42,273",
+   "desc": "开放式多智能体互动课堂—只需点击一下，即可获得身临其境的多智能体学习体验"
+  },
+  {
+   "repo": "vorssaint/vorssaint-utils",
+   "url": "https://github.com/vorssaint/vorssaint-utils",
+   "lang": "Swift",
+   "stars": "32,044",
+   "desc": "免费开源的macOS菜单栏工具包"
+  },
+  {
+   "repo": "tangency-labs/solidcraft",
+   "url": "https://github.com/tangency-labs/solidcraft",
+   "lang": "Rust",
+   "stars": "12,672",
+   "desc": "SolidCraft ：用纯Rust构建的开源参数化3D CAD应用程序"
+  },
+  {
+   "repo": "ARahim3/DigUp",
+   "url": "https://github.com/ARahim3/DigUp",
+   "lang": "Swift",
+   "stars": "6,070",
+   "desc": "根据文件中的内容（照片、PDF、文档、录制、视频和代码）搜索您的计算机"
+  },
+  {
+   "repo": "anhao/ai-pose-gallery-zh",
+   "url": "https://github.com/anhao/ai-pose-gallery-zh",
+   "lang": "TypeScript",
+   "stars": "4,844",
+   "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊"
+  },
+  {
+   "repo": "JustAResearcher/gpu-unlock-ada",
+   "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
+   "lang": "C",
+   "stars": "4,632",
+   "desc": "腾讯通4090和实验性腾讯通4070 Ti SUPER的GPU张量解锁源"
+  },
+  {
+   "repo": "amosblomqvist/learnharness",
+   "url": "https://github.com/amosblomqvist/learnharness",
+   "lang": "TypeScript",
+   "stars": "4,571",
+   "desc": "代理利用学习困难的事情"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "gogs/gogs",
+   "url": "https://github.com/gogs/gogs",
+   "lang": "Go",
+   "stars": "47,911",
+   "desc": "托管您自己的Git服务的轻松方式",
+   "en": false
+  },
+  {
+   "repo": "siyuan-note/siyuan",
+   "url": "https://github.com/siyuan-note/siyuan",
+   "lang": "TypeScript",
+   "stars": "47,022",
+   "desc": "开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
+   "en": false
+  },
+  {
+   "repo": "janhq/jan",
+   "url": "https://github.com/janhq/jan",
+   "lang": "Rust",
+   "stars": "45,208",
+   "desc": "JAN是ChatGPT的开源替代方案，可在您的计算机上100%离线运行",
+   "en": false
+  },
+  {
+   "repo": "reactive-resume/reactive-resume",
+   "url": "https://github.com/reactive-resume/reactive-resume",
+   "lang": "TypeScript",
+   "stars": "45,139",
+   "desc": "独一无二的简历生成器，可保护您的隐私",
+   "en": false
+  },
+  {
+   "repo": "ToolJet/ToolJet",
+   "url": "https://github.com/ToolJet/ToolJet",
+   "lang": "HTML",
+   "stars": "41,156",
+   "desc": "ToolJet AI 的开源底座：企业级应用生成平台，可构建内部工具、仪表盘、业务应用、工作流与 AI 智能体，支持可视化搭建、提示词生成，或通过 MCP 接入 Claude Code、Codex 与 Cursor",
+   "en": false
+  },
+  {
+   "repo": "appsmithorg/appsmith",
+   "url": "https://github.com/appsmithorg/appsmith",
+   "lang": "TypeScript",
+   "stars": "41,149",
+   "desc": "用于搭建管理后台、内部工具与仪表盘的平台，可接入 25 种以上数据库及任意 API",
+   "en": false
+  },
+  {
+   "repo": "photoprism/photoprism",
+   "url": "https://github.com/photoprism/photoprism",
+   "lang": "Go",
+   "stars": "40,382",
+   "desc": "AI 驱动的照片管理应用",
+   "en": false
+  },
+  {
+   "repo": "TriliumNext/Trilium",
+   "url": "https://github.com/TriliumNext/Trilium",
+   "lang": "TypeScript",
+   "stars": "38,637",
+   "desc": "用 Trilium Notes 搭建个人知识库",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 3985.5,
+   "chg": -1.39,
+   "pe": 12.87,
+   "pe_pct": 53,
+   "pb": 1.35,
+   "pb_pct": 23,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6266.19,
+   "chg": -2.91,
+   "pe": 26.76,
+   "pe_pct": 55,
+   "pb": 1.95,
+   "pb_pct": 51,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2413.63,
+   "chg": -4.13,
+   "pe": 26.91,
+   "pe_pct": 5,
+   "pb": 3.82,
+   "pb_pct": 16,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1160.84,
+   "chg": -5.48,
+   "pe": 90.46,
+   "pe_pct": 74,
+   "pb": 5.55,
+   "pb_pct": 51,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5592.45,
+   "chg": 0.82,
+   "pe": 9.42,
+   "pe_pct": 90,
+   "pb": 0.92,
+   "pb_pct": 63,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11380.1,
+   "chg": 0.65,
+   "pe": 9.38,
+   "pe_pct": 80,
+   "pb": 0.94,
+   "pb_pct": 69,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 23294.42,
+   "chg": 1.46,
+   "pe": 10.23,
+   "pe_pct": 43,
+   "pb": 1.07,
+   "pb_pct": 44,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 25437.0,
+   "chg": -2.86,
+   "pe": 27.36,
+   "pe_pct": 27,
+   "pb": 8.33,
+   "pb_pct": 62,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7580.07,
+   "chg": -1.82,
+   "pe": 23.79,
+   "pe_pct": 42,
+   "pb": 5.31,
+   "pb_pct": 90,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "医疗服务",
+    "chg": 1.58
+   },
+   {
+    "name": "航运港口",
+    "chg": 1.5
+   },
+   {
+    "name": "食品饮料",
+    "chg": 0.83
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": 0.77
+   },
+   {
+    "name": "航空机场",
+    "chg": 0.66
+   },
+   {
+    "name": "煤炭",
+    "chg": -0.79
+   }
+  ],
+  "dn": [
+   {
+    "name": "传媒",
+    "chg": -6.3
+   },
+   {
+    "name": "通信设备",
+    "chg": -5.85
+   },
+   {
+    "name": "工程咨询服务Ⅱ",
+    "chg": -4.47
+   },
+   {
+    "name": "仪器仪表",
+    "chg": -3.99
+   },
+   {
+    "name": "通用设备",
+    "chg": -3.91
+   },
+   {
+    "name": "汽车零部件",
+    "chg": -3.75
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-3.65%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.1238（2026-10-30）（≈ 812 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.1871",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.0355",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5765",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1403",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6221",
+   "date": "2026-10-30"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8068",
+   "date": "2026-10-29"
+  }
+ ],
+ "macro": [
+  {
+   "title": "勤达睿褚华斌：产品供应链决定能不能出海，数据供应链决定中国车企能否在全球持续领先",
+   "ctime": "1793507792",
+   "url": "https://finance.sina.com.cn/hy/hyjz/2026-11-01/doc-inixferx3076615.shtml"
+  },
+  {
+   "title": "长钱持续进场、投融资走向平衡，黄文涛解读A股信心的制度密码",
+   "ctime": "1793496697",
+   "url": "https://finance.sina.com.cn/roll/2026-11-01/doc-inixetzy1033946.shtml"
+  },
+  {
+   "title": "韩国10月出口同比增长93.7% 芯片出口暴涨259%",
+   "ctime": "1793495403",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-01/doc-inixetzz6797762.shtml"
+  },
+  {
+   "title": "603008，A股公司大举增持，进入前十大股东！",
+   "ctime": "1793491164",
+   "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-01/doc-inixetzy0993637.shtml"
+  },
+  {
+   "title": "券商首席：A股将迎来3大中长期利好",
+   "ctime": "1793460480",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-31/doc-inixepuc6887403.shtml"
+  },
+  {
+   "title": "阳光电源Q3毛利率环比降近9个百分点 多家光储设备企业已发起提价",
+   "ctime": "1793440664",
+   "url": "https://finance.sina.com.cn/stock/bxjj/2026-10-31/doc-inixcfyq4864805.shtml"
+  },
+  {
+   "title": "国家统计局，最新发布！10月PMI回落，解读来了",
+   "ctime": "1793438400",
+   "url": "https://finance.sina.com.cn/roll/2026-10-31/doc-inixcfyt7442878.shtml"
+  },
+  {
+   "title": "营收利润双增长！42家A股上市银行三季报悉数“交卷”",
+   "ctime": "1793434304",
+   "url": "https://finance.sina.com.cn/stock/bxjj/2026-10-31/doc-inixcfyv3849742.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 5,
+   "pe": 26.9076,
+   "pb_pct": 16,
+   "pb": 3.822
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 27,
+   "pe": 27.3604,
+   "pb_pct": 62,
+   "pb": 8.3335
+  }
+ ]
+}
