@@ -1,0 +1,531 @@
+{
+ "date": "2026-11-02",
+ "weekday": "一",
+ "val_date": "10-30",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "数字生命卡兹克分享折腾一年的Agent自动化系统架构",
+    "url": "https://aihot.news/items/dzwfvd9xp6v4qaj6olxezpier",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-11-02T00:19:00.000Z",
+    "summary": "自媒体作者卡兹克分享自己搭建近一年的Agent自动化系统，核心是把任务起点从人身上移开，由事件触发Agent工作。系统分为自动化中台、Agent执行、CI中台和飞书决策四层：中台用rules.json统一管理事件触发和Agent调度，本地MacMini跑Agent任务，自建CI中台完成审查、检查、合并、发布、核实五步，只在删数据、花钱、改方向等关键决策时通过飞书卡片找作者拍板。"
+   },
+   {
+    "kind": "news",
+    "title": "Claude Code 技巧：任务变难时输入 ultrathink 提升当前回合推理努力",
+    "url": "https://aihot.news/items/mhw3rtr5o13p5777y7el9tczk",
+    "source": "X：Addy Osmani (@addyosmani)",
+    "publishedAt": "2026-11-01T20:09:49.000Z",
+    "summary": "Addy Osmani 分享 Claude Code 技巧：当任务比预期更难时，在 Claude 工作期间输入 ultrathink，可提升该回合剩余部分的推理努力，该功能适用于最新版本的终端。他引用 @dmwlff 的帖子，其中提到 ultrathink 已回归 Claude Code CLI，此前因显得怪异且可能令人困惑曾被关闭。"
+   },
+   {
+    "kind": "news",
+    "title": "Sierra 宣布 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元",
+    "url": "https://aihot.news/items/hfhskyex3cjrs3huvpmi1z7bg",
+    "source": "Sierra：Blog（RSS）",
+    "publishedAt": "2026-10-30T12:50:00.000Z",
+    "summary": "Sierra 宣布本周 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元，从 2 亿到 4 亿仅用五个月，快于此前六个月的翻倍节奏。"
+   },
+   {
+    "kind": "news",
+    "title": "Cursor 披露 Claude Code VS Code 扩展被植入恶意软件事件，最多影响 5000 用户",
+    "url": "https://aihot.news/items/iu7xvjx1c2c5wqrpn0rwfxcb5",
+    "source": "X：Cursor (@cursor_ai)",
+    "publishedAt": "2026-10-30T07:46:39.000Z",
+    "summary": "Cursor 发现通过其 IDE 扩展市场分发的 Claude Code VS Code 扩展被修改并植入恶意软件，最多影响 5000 用户，恶意版本并非 Anthropic 开发。Cursor 已于当日下午下线扩展市场，与相关提供方合作清除恶意软件并确认无进一步风险后重新上线，建议受影响用户参考博客说明排查，并升级到 Claude Code for VS Code 2.1.314。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 汇编各方法庭之友意见，主张 AI 训练应适用合理使用原则",
+    "url": "https://aihot.news/items/oas684tt9kpeds9cq7vgjvo1x",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-10-30T00:00:00.000Z",
+    "summary": "OpenAI 整理了在《纽约时报》诉讼中提交给法院的多份支持合理使用的法庭之友意见摘要，作者包括图书馆协会、法律学者、独立创作者和美国政府等。各意见书主张 AI 训练具有转换性、不构成版权法认可的市场损害，并警告限缩合理使用将阻碍科研进展与美国经济繁荣；完整文件可在法院公开卷宗查阅。"
+   },
+   {
+    "kind": "news",
+    "title": "Gemini API 的 Computer Use 工具正式开放（GA）",
+    "url": "https://aihot.news/items/qit1hgequ8pknedqqvuei5wfh",
+    "source": "Gemini API：更新日志（网页）",
+    "publishedAt": "2026-10-30T00:00:00.000Z",
+    "summary": "Google 于 10 月 30 日宣布 Gemini API 的 Computer Use 工具正式可用（GA），覆盖 Interactions 和 GenerateContent 两套 API。"
+   },
+   {
+    "kind": "news",
+    "title": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧",
+    "url": "https://aihot.news/items/puushryi79v0flh2um3a70xnw",
+    "source": "Hacker News：AI 热帖",
+    "publishedAt": "2026-10-29T21:29:51.580Z",
+    "summary": "Alphabet 因 AI 搜索概要影响广告收入，单日市值从 3.97 万亿跌至 3.46 万亿美元，缩水超 5000 亿美元。该季度总营收增 25% 至 1276 亿美元，云业务营收增 103% 至近 310 亿美元，但利润下降 25%，自由现金流为负超 90 亿美元。"
+   },
+   {
+    "kind": "news",
+    "title": "腾讯混元发布 Hy-Nomas 技术报告并开源 Hy-Nomas-Bench",
+    "url": "https://aihot.news/items/nb40aoihhydhoo0acp0rcyaol",
+    "source": "X：腾讯混元 (@TencentHunyuan)",
+    "publishedAt": "2026-10-29T17:00:03.000Z",
+    "summary": "腾讯混元发布 Hy-Nomas 开源交互式视频世界模型的技术报告（arXiv:2610.36729），并开源 Hy-Nomas-Bench 数据集用于可复现研究。官方还用 Hy-Nomas 重现 Genie 4 示例并放出对比视频，演示无需排队即可试用，地址为 https://hy-nomas.hy.tencent.com/。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "OpenAI 宣布模型产出三项数学成果并与学界协作发布",
+    "url": "https://aihot.news/items/x7jvppwrm1ldjd93v0jvsfd9c",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-10-26T00:00:00.000Z",
+    "summary": "OpenAI 宣布其模型在调和分析、复杂度理论和量子场论方面取得三项成果，包括证明各维度的 local smoothing 猜想（进而解决 Kakeya 猜想与 Stein 限制猜想）、在 Lean 中验证 ETH 为假、以及给出 QCD 与纯 Yang–Mills 理论的严格存在性证明。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 发布 GPT-6.1 Terra，主打高效计算机操作与更低成本",
+    "url": "https://aihot.news/items/zogr3l33craxfj4s296npqpqc",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-10-26T00:00:00.000Z",
+    "summary": "OpenAI 发布 GPT-6.1 Terra，定位快速高效的计算机使用与视觉推理模型，标准 API 定价比 GPT-5.6 Terra 和 GPT-6.1 Sol 低 50%，为每百万输入 token $1、缓存输入 $0.05、输出 $5。"
+   },
+   {
+    "kind": "news",
+    "title": "AISI 发布 ReproBAIT 评测：AI 编码智能体可低成本复现部分生物 AI 工具",
+    "url": "https://aihot.news/items/w5optivkpl1pchxn85qaknu3d",
+    "source": "英国 AI Security Institute：Blog（网页）",
+    "publishedAt": "2026-10-25T23:00:00.000Z",
+    "summary": "英国 AI Security Institute 与 SecureBio 合作推出 ReproBAIT 评测，测试 AI 编码智能体能否依据论文等公开信息和训练数据复现生物 AI 工具（BAITs）。"
+   },
+   {
+    "kind": "news",
+    "title": "英国 AISI 实测 ESM-2 预训练数据过滤可削弱目标能力但约 80 美元算力即可恢复",
+    "url": "https://aihot.news/items/xm6i4tcgyby0bditot3bz9x8x",
+    "source": "英国 AI Security Institute：Blog（网页）",
+    "publishedAt": "2026-10-25T23:00:00.000Z",
+    "summary": "英国 AI Security Institute 的 Chem-Bio 团队从零预训练 8M 到 3B 参数的 ESM-2 蛋白质语言模型，测试预训练数据过滤对专业科学模型的效果。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "Nanbeige/Nanbeige4.3-33B",
+    "url": "https://hf-mirror.com/Nanbeige/Nanbeige4.3-33B",
+    "license": "apache-2.0",
+    "param": "33B",
+    "likes": 987,
+    "downloads": 15795,
+    "createdAt": "2026-10-24",
+    "intro": "在Nanbeige4.3中，我们朝着突破轻量级智能体的界限迈出了基础性的一步"
+   },
+   {
+    "kind": "model",
+    "id": "sensenova/SenseNova-Loop-9B-Preview",
+    "url": "https://hf-mirror.com/sensenova/SenseNova-Loop-9B-Preview",
+    "license": "apache-2.0",
+    "param": "9B",
+    "likes": 150,
+    "downloads": 927,
+    "createdAt": "2026-10-28",
+    "intro": "- [2026.10.30]我们发布了SenseNova-Loop-9B-Preview ，这是一个用于长上下文和代理工作流程的循环多模式模型"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "shiyu-coder/Kronos",
+   "url": "https://github.com/shiyu-coder/Kronos",
+   "lang": "Python",
+   "stars": "45,567",
+   "desc": ""
+  },
+  {
+   "repo": "public-apis/public-apis",
+   "url": "https://github.com/public-apis/public-apis",
+   "lang": "Python",
+   "stars": "494,945",
+   "desc": ""
+  },
+  {
+   "repo": "cjpais/Handy",
+   "url": "https://github.com/cjpais/Handy",
+   "lang": "Rust",
+   "stars": "36,795",
+   "desc": ""
+  },
+  {
+   "repo": "kornia/kornia",
+   "url": "https://github.com/kornia/kornia",
+   "lang": "Python",
+   "stars": "11,897",
+   "desc": ""
+  },
+  {
+   "repo": "beenuar/AiSOC",
+   "url": "https://github.com/beenuar/AiSOC",
+   "lang": "Python",
+   "stars": "6,391",
+   "desc": ""
+  },
+  {
+   "repo": "anomalyco/hex",
+   "url": "https://github.com/anomalyco/hex",
+   "lang": "Rust",
+   "stars": "3,551",
+   "desc": ""
+  },
+  {
+   "repo": "patchy631/ai-engineering-hub",
+   "url": "https://github.com/patchy631/ai-engineering-hub",
+   "lang": "Jupyter Notebook",
+   "stars": "40,536",
+   "desc": ""
+  },
+  {
+   "repo": "FlashML-org/FreeToken",
+   "url": "https://github.com/FlashML-org/FreeToken",
+   "lang": "Python",
+   "stars": "15,572",
+   "desc": "FreeToken将数据中心规模的模型提供给您的桌面"
+  },
+  {
+   "repo": "hyprwm/Hyprland",
+   "url": "https://github.com/hyprwm/Hyprland",
+   "lang": "C++",
+   "stars": "39,495",
+   "desc": "Hyprland是一款独立的、高度可定制的动态平铺Wayland合成器，不会牺牲外观"
+  },
+  {
+   "repo": "google-research/harness2",
+   "url": "https://github.com/google-research/harness2",
+   "lang": "Python",
+   "stars": "21,946",
+   "desc": ""
+  }
+ ],
+ "docker": [
+  {
+   "repo": "Dokploy/dokploy",
+   "url": "https://github.com/Dokploy/dokploy",
+   "lang": "TypeScript",
+   "stars": "38,187",
+   "desc": "Vercel、Netlify 与 Heroku 的开源替代方案",
+   "en": false
+  },
+  {
+   "repo": "glanceapp/glance",
+   "url": "https://github.com/glanceapp/glance",
+   "lang": "Go",
+   "stars": "37,959",
+   "desc": "自托管信息仪表盘，把所有订阅源汇集到一处",
+   "en": false
+  },
+  {
+   "repo": "khoj-ai/khoj",
+   "url": "https://github.com/khoj-ai/khoj",
+   "lang": "Python",
+   "stars": "37,935",
+   "desc": "你的 AI 第二大脑，可自托管：从网页或本地文档中检索答案，构建自定义智能体、定时自动化与深度研究，支持接入任意在线或本地大模型",
+   "en": false
+  },
+  {
+   "repo": "IceWhaleTech/CasaOS",
+   "url": "https://github.com/IceWhaleTech/CasaOS",
+   "lang": "Go",
+   "stars": "37,503",
+   "desc": "CasaOS：简单易用、优雅的开源个人云系统",
+   "en": false
+  },
+  {
+   "repo": "agentscope-ai/QwenPaw",
+   "url": "https://github.com/agentscope-ai/QwenPaw",
+   "lang": "TypeScript",
+   "stars": "37,162",
+   "desc": "你的个人 AI 助手；安装简单，可部署在自有机器或云端；支持多个聊天应用，能力可轻松扩展。",
+   "en": false
+  },
+  {
+   "repo": "langfuse/langfuse",
+   "url": "https://github.com/langfuse/langfuse",
+   "lang": "TypeScript",
+   "stars": "36,857",
+   "desc": "🪢 开源代理回避和可观测性：使用一个开放平台跟踪、评估和改进LLM应用程序",
+   "en": false
+  },
+  {
+   "repo": "filebrowser/filebrowser",
+   "url": "https://github.com/filebrowser/filebrowser",
+   "lang": "Go",
+   "stars": "35,879",
+   "desc": "文件浏览器在指定的目录中提供了一个文件管理界面，可用于上传、删除、预览和编辑文件",
+   "en": false
+  },
+  {
+   "repo": "community-scripts/ProxmoxVE",
+   "url": "https://github.com/community-scripts/ProxmoxVE",
+   "lang": "Shell",
+   "stars": "30,001",
+   "desc": "Proxmox VE辅助脚本（社区版）",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4016.43,
+   "chg": 0.78,
+   "pe": 12.87,
+   "pe_pct": 53,
+   "pb": 1.35,
+   "pb_pct": 23,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6442.39,
+   "chg": 2.81,
+   "pe": 26.76,
+   "pe_pct": 55,
+   "pb": 1.95,
+   "pb_pct": 51,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2474.18,
+   "chg": 2.51,
+   "pe": 26.91,
+   "pe_pct": 5,
+   "pb": 3.82,
+   "pb_pct": 16,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1201.35,
+   "chg": 3.49,
+   "pe": 90.46,
+   "pe_pct": 74,
+   "pb": 5.55,
+   "pb_pct": 51,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5572.08,
+   "chg": -0.36,
+   "pe": 9.42,
+   "pe_pct": 90,
+   "pb": 0.92,
+   "pb_pct": 63,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11264.2,
+   "chg": -1.02,
+   "pe": 9.38,
+   "pe_pct": 80,
+   "pb": 0.94,
+   "pb_pct": 69,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 23409.71,
+   "chg": 0.49,
+   "pe": 10.23,
+   "pe_pct": 43,
+   "pb": 1.07,
+   "pb_pct": 44,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 25437.0,
+   "chg": -2.86,
+   "pe": 27.36,
+   "pe_pct": 27,
+   "pb": 8.33,
+   "pb_pct": 62,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7580.07,
+   "chg": -1.82,
+   "pe": 23.79,
+   "pe_pct": 42,
+   "pb": 5.31,
+   "pb_pct": 90,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "传媒",
+    "chg": 8.62
+   },
+   {
+    "name": "证券Ⅱ",
+    "chg": 4.63
+   },
+   {
+    "name": "装修装饰Ⅱ",
+    "chg": 3.13
+   },
+   {
+    "name": "仪器仪表",
+    "chg": 3.1
+   },
+   {
+    "name": "通信设备",
+    "chg": 3.05
+   },
+   {
+    "name": "工程咨询服务Ⅱ",
+    "chg": 2.99
+   }
+  ],
+  "dn": [
+   {
+    "name": "银行Ⅱ",
+    "chg": -1.25
+   },
+   {
+    "name": "煤炭",
+    "chg": -0.14
+   },
+   {
+    "name": "保险Ⅱ",
+    "chg": 0.09
+   },
+   {
+    "name": "化学纤维",
+    "chg": 0.63
+   },
+   {
+    "name": "航运港口",
+    "chg": 0.7
+   },
+   {
+    "name": "房地产开发",
+    "chg": 0.77
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+0.66%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.1238（2026-10-30）（≈ 812 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "6.1871",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "8.0355",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5765",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1403",
+   "date": "2026-10-29"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6221",
+   "date": "2026-10-30"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8068",
+   "date": "2026-10-29"
+  }
+ ],
+ "macro": [
+  {
+   "title": "富达：加息周期尚未结束 预计美联储今年12月及明年3月各加息一次",
+   "ctime": "1793598655",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-02/doc-inixipwy7194357.shtml"
+  },
+  {
+   "title": "黄金暴跌背后是流动性危机？2008年曾上演相似一幕，随后三年暴涨250%",
+   "ctime": "1793598646",
+   "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-02/doc-inixipwx0414483.shtml"
+  },
+  {
+   "title": "远东国际观察：越南央行下调部分行业贷款利率以提振经济",
+   "ctime": "1793598423",
+   "url": "https://finance.sina.com.cn/money/bond/market/2026-11-02/doc-inixipwx0410254.shtml"
+  },
+  {
+   "title": "远东国际观察：土耳其央行宣布降息100个基点",
+   "ctime": "1793598419",
+   "url": "https://finance.sina.com.cn/money/bond/market/2026-11-02/doc-inixipxa2889438.shtml"
+  },
+  {
+   "title": "远东国际观察：加拿大央行三年来首次加息25个基点",
+   "ctime": "1793598416",
+   "url": "https://finance.sina.com.cn/money/bond/market/2026-11-02/doc-inixipwy7186220.shtml"
+  },
+  {
+   "title": "远东国际观察：美联储10月维持利率不变 会议机制改革或将重塑定价逻辑",
+   "ctime": "1793598414",
+   "url": "https://finance.sina.com.cn/money/bond/market/2026-11-02/doc-inixipxa2889398.shtml"
+  },
+  {
+   "title": "AI硬件推高欧洲物价，欧洲央行会因此重启加息吗？",
+   "ctime": "1793596000",
+   "url": "https://finance.sina.com.cn/money/forex/whqqscgd/2026-11-02/doc-inixiiqx2346351.shtml"
+  },
+  {
+   "title": "金鹰基金：科技修复再遇分歧 政策稳信心与资金承接成为关注重点",
+   "ctime": "1793599401",
+   "url": "https://finance.sina.com.cn/money/fund/jjsy/2026-11-02/doc-inixipwy7197579.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 5,
+   "pe": 26.9076,
+   "pb_pct": 16,
+   "pb": 3.822
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 27,
+   "pe": 27.3604,
+   "pb_pct": 62,
+   "pb": 8.3335
+  }
+ ]
+}
