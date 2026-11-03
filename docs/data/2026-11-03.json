@@ -1,0 +1,531 @@
+{
+ "date": "2026-11-03",
+ "weekday": "二",
+ "val_date": "11-02",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "DeepSeek Harness 养鱼教程：在 QQ、微信、飞书养大肥鱼并放上 B 站抖音直播",
+    "url": "https://aihot.news/items/v41vn9hb5ywv10e68wycj1bjk",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-11-03T00:18:00.000Z",
+    "summary": "数字生命卡兹克发布一篇 DeepSeek Harness 养鱼教程，讲解如何在 QQ、微信、飞书接入大肥鱼，并让它去 B 站刷视频、在抖音发视频和直播。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 算力与基础设施合同承诺达 $895.4B，其中 $447.5B 须在 2031 年前支付",
+    "url": "https://aihot.news/items/xiu342i7osbgfxe2ezhrjndl0",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-11-02T21:28:26.000Z",
+    "summary": "Anthropic 在更新的 IPO 文件中首次披露第三季度业绩，算力与基础设施合同承诺总额约 $895.4B，其中 $447.5B 须在 2031 年前支付，仅 $213.8B 可取消或附带条件。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 季度营收增长十二倍至近 170 亿美元，但净亏损达 233 亿美元",
+    "url": "https://aihot.news/items/owfopy087lszd1cpfp3c82pxv",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-11-02T16:26:03.000Z",
+    "summary": "据 Bloomberg 与 The Information，Anthropic 该季度营收近 170 亿美元，为一年前的十二倍，但运营成本达 175 亿美元，季度净亏损 233 亿美元，高于去年同期的 121 亿美元。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 推出 Grid Protectors 计划，从 Georgia 校园开始支持电网削峰",
+    "url": "https://aihot.news/items/sxbs5a90fgybhyucacmzvrc6w",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-11-02T15:00:00.000Z",
+    "summary": "OpenAI 推出 Grid Protectors 计划，与电力公司、监管机构和政策制定者合作，让未来算力校园在电网紧张时降低用电需求，首站为 Effingham County 校园。"
+   },
+   {
+    "kind": "news",
+    "title": "腾讯混元发布 Hyra 2.0：让通用 agent 研发可复用的科学工具与模型",
+    "url": "https://aihot.news/items/l37ydaic43icz85huclc2io6c",
+    "source": "公众号：腾讯混元",
+    "publishedAt": "2026-11-02T10:06:28.000Z",
+    "summary": "腾讯混元发布 Hyra 2.0，将自动化科研重点从直接解题转向由 agent 研发和升级科学模型、工作流与软件工具。系统采用 Overall、Mission、Worker 三层分工，接入企业微信、计算平台和代码仓库的实际研发环境，成果已公开在 GitHub 仓库。"
+   },
+   {
+    "kind": "news",
+    "title": "Google AI Studio 弃用 Gemini 2.5 Pro 与 2.5 Flash，API 请求将于 12 月 1 日起自动路由",
+    "url": "https://aihot.news/items/ewvepczpb5fewcbzo2tkqdldm",
+    "source": "Gemini API：更新日志（网页）",
+    "publishedAt": "2026-11-02T00:00:00.000Z",
+    "summary": "Gemini 2.5 Pro 与 Gemini 2.5 Flash 已弃用，无法再在 Google AI Studio 中选择。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 任命前美国陆军部长 Dan Driscoll 为国家安全现代化高级顾问",
+    "url": "https://aihot.news/items/hf03pwablxanh9desil5cbu9d",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-11-02T00:00:00.000Z",
+    "summary": "OpenAI 宣布任命 Dan Driscoll 为新设的国家安全现代化高级顾问，就先进 AI 如何加强国家与网络安全提供建议，重点与美国盟友合作推动民主 AI 的负责任使用。"
+   },
+   {
+    "kind": "news",
+    "title": "Claude Platform 推出 message threads 公测，降低长会话智能体延迟",
+    "url": "https://aihot.news/items/sg5u3u91kw42j1grtyp3ny65n",
+    "source": "Claude：Blog（网页）",
+    "publishedAt": "2026-11-02T00:00:00.000Z",
+    "summary": "Anthropic 在 Claude Platform 推出 message threads 公测，智能体每轮只需发送新增消息而无需重发全部对话历史，从而缩短首 token 时间。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 更新 Model Spec，围绕五项核心价值观重组模型行为准则",
+    "url": "https://aihot.news/items/rccreyesa3aeph7jasj5spv29",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-10-29T17:00:00.000Z",
+    "summary": "OpenAI 更新其公开的 Model Spec，将指导原则重组为五项核心价值观：忠实于人类意图、最小化伤害、诚实透明、促进人类自主和关怀。更新新增了关于上下文理解、监督和自主性的指导，调整了部分行为默认值，退出了大部分详细风格指南，并将模型称呼从 the assistant 改为 GPT。"
+   },
+   {
+    "kind": "news",
+    "title": "Codex 宣布即日起 Pro 及 Business Premium 各档位用量上限翻倍",
+    "url": "https://aihot.news/items/funx6p4g0gju509j6n0oyxmqu",
+    "source": "X：Tibo (@thsottiaux)",
+    "publishedAt": "2026-10-29T16:56:07.000Z",
+    "summary": "Tibo 宣布即日起将 Pro 100/200/500 档位与 Business Premium 的所有用量上限翻倍。Pro 200 的上限不会下调，Work 与 Codex 用量保持不变；dots 的扩展用量上限继续提供，且仍与默认用量分开计算，后续还会通过更好的模型和效率改进提升实际可用量。"
+   },
+   {
+    "kind": "news",
+    "title": "Gemini 新增文档、PDF、演示文稿和表格的直接生成、预览与编辑功能",
+    "url": "https://aihot.news/items/nfbnpnzdrebu4kbq6uqxhkc2h",
+    "source": "X：Gemini (@GeminiApp)",
+    "publishedAt": "2026-10-29T16:36:12.000Z",
+    "summary": "Google Gemini 宣布可直接在应用内生成、预览和编辑文档、PDF、演示文稿、表格等多种文件。支持把手写笔记转成 PDF 学习指南、手动调整内容、高亮部分让 Gemini 修改文字或视觉元素，并可继续追问。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "OpenAI 训练并部署激活分类器作为前沿模型安全监控层",
+    "url": "https://aihot.news/items/wlmiqh13694tqabyvu6nzvlrs",
+    "source": "OpenAI：Alignment 研究博客（RSS）",
+    "publishedAt": "2026-11-02T20:00:00.000Z",
+    "summary": "OpenAI 自 GPT-5.6 起在其最强模型的内部和外部流量上部署激活分类器（probes），利用模型内部激活逐 token 实时评分，可在生成中途阻断违规回复和工具调用并交由推理模型复审。实验显示 probes 比更大的文本分类器对测试的越狱攻击更鲁棒，准确率随模型能力提升，且在后训练各检查点间迁移良好，但需为新基础模型重新训练，且只能检测可显式训练的已知违规类型。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+    "url": "https://hf-mirror.com/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+    "license": "other",
+    "param": "4B",
+    "likes": 209,
+    "downloads": 9943,
+    "createdAt": "2026-10-16",
+    "intro": "预训练数据的截止日期为2025年9月"
+   },
+   {
+    "kind": "model",
+    "id": "deep-principle/Hydrogen-1.0",
+    "url": "https://hf-mirror.com/deep-principle/Hydrogen-1.0",
+    "license": "mit",
+    "param": "",
+    "likes": 165,
+    "downloads": 0,
+    "createdAt": "2026-10-31",
+    "intro": "文本生成类开源模型 · 许可证 mit · 近 7 天点赞 165 · 下载 0"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "vercel-labs/agent-desktop",
+   "url": "https://github.com/vercel-labs/agent-desktop",
+   "lang": "Rust",
+   "stars": "10,802",
+   "desc": "AI代理的计算机使用CLI"
+  },
+  {
+   "repo": "D4Vinci/Scrapling",
+   "url": "https://github.com/D4Vinci/Scrapling",
+   "lang": "Python",
+   "stars": "93,353",
+   "desc": "🕷️ 最好的Web抓取框架，可处理从单个请求到全面爬网的所有内容"
+  },
+  {
+   "repo": "JustVugg/colibri",
+   "url": "https://github.com/JustVugg/colibri",
+   "lang": "C",
+   "stars": "46,762",
+   "desc": "在您已经拥有的硬件上运行前沿MoE模型—纯C ，零DEPS ，从磁盘流式传输的专家"
+  },
+  {
+   "repo": "max-sixty/worktrunk",
+   "url": "https://github.com/max-sixty/worktrunk",
+   "lang": "Rust",
+   "stars": "10,155",
+   "desc": "Worktrunk是用于Git工作树管理的CLI ，专为并行AI代理工作流程而设计"
+  },
+  {
+   "repo": "paperclipai/paperclip",
+   "url": "https://github.com/paperclipai/paperclip",
+   "lang": "TypeScript",
+   "stars": "110,574",
+   "desc": "每个人都使用的开源应用程序来管理工作中的代理"
+  },
+  {
+   "repo": "karpathy/nanochat",
+   "url": "https://github.com/karpathy/nanochat",
+   "lang": "Python",
+   "stars": "60,038",
+   "desc": "$ 100可以买到的最好的ChatGPT"
+  },
+  {
+   "repo": "p-e-w/heretic",
+   "url": "https://github.com/p-e-w/heretic",
+   "lang": "Python",
+   "stars": "38,277",
+   "desc": "无需培训的语言模型修改：消除审查、抑制SLOP、减少嘲讽等"
+  },
+  {
+   "repo": "Gathin23/cleanyourtv",
+   "url": "https://github.com/Gathin23/cleanyourtv",
+   "lang": "Python",
+   "stars": "50,655",
+   "desc": "通过Wi-Fi连接任何Android或Google TV ，即可获得Apple TV风格的家居体验"
+  },
+  {
+   "repo": "wheresryan22/anatomy",
+   "url": "https://github.com/wheresryan22/anatomy",
+   "lang": "JavaScript",
+   "stars": "24,203",
+   "desc": "用于创建真实世界机器和复杂系统的详细交互式等距插图的智能体技能"
+  },
+  {
+   "repo": "Zagitta/gpu-unlock",
+   "url": "https://github.com/Zagitta/gpu-unlock",
+   "lang": "C",
+   "stars": "14,825",
+   "desc": "您的GeForce以半速运行AI"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "bregman-arie/devops-exercises",
+   "url": "https://github.com/bregman-arie/devops-exercises",
+   "lang": "Python",
+   "stars": "86,433",
+   "desc": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
+   "en": false
+  },
+  {
+   "repo": "macrozheng/mall",
+   "url": "https://github.com/macrozheng/mall",
+   "lang": "Java",
+   "stars": "85,006",
+   "desc": "mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署",
+   "en": false
+  },
+  {
+   "repo": "netdata/netdata",
+   "url": "https://github.com/netdata/netdata",
+   "lang": "Go",
+   "stars": "81,257",
+   "desc": "实现人工智能驱动的全栈可观测性的最快途径，即使对于精益团队也是如此",
+   "en": false
+  },
+  {
+   "repo": "moby/moby",
+   "url": "https://github.com/moby/moby",
+   "lang": "Go",
+   "stars": "72,238",
+   "desc": "Moby项目-容器生态系统的协作项目，用于组装基于容器的系统",
+   "en": false
+  },
+  {
+   "repo": "dani-garcia/vaultwarden",
+   "url": "https://github.com/dani-garcia/vaultwarden",
+   "lang": "Rust",
+   "stars": "70,143",
+   "desc": "用Rust编写的非官方Bitwarden兼容服务器，以前称为bitwarden_rs",
+   "en": false
+  },
+  {
+   "repo": "traefik/traefik",
+   "url": "https://github.com/traefik/traefik",
+   "lang": "Go",
+   "stars": "65,447",
+   "desc": "云原生应用程序代理",
+   "en": false
+  },
+  {
+   "repo": "sansan0/TrendRadar",
+   "url": "https://github.com/sansan0/TrendRadar",
+   "lang": "Python",
+   "stars": "63,376",
+   "desc": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具",
+   "en": false
+  },
+  {
+   "repo": "makeplane/plane",
+   "url": "https://github.com/makeplane/plane",
+   "lang": "TypeScript",
+   "stars": "61,902",
+   "desc": "🔥🔥🔥 开源JIRA、Linear、Monday和ClickUp替代方案",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4011.33,
+   "chg": -0.14,
+   "pe": 13.52,
+   "pe_pct": 68,
+   "pb": 1.34,
+   "pb_pct": 21,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6326.38,
+   "chg": -1.46,
+   "pe": 27.33,
+   "pe_pct": 58,
+   "pb": 1.99,
+   "pb_pct": 55,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2394.35,
+   "chg": -2.62,
+   "pe": 27.71,
+   "pe_pct": 7,
+   "pb": 3.89,
+   "pb_pct": 17,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1150.63,
+   "chg": -3.87,
+   "pe": 88.9,
+   "pe_pct": 74,
+   "pb": 5.71,
+   "pb_pct": 52,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5596.41,
+   "chg": 0.16,
+   "pe": 9.31,
+   "pe_pct": 89,
+   "pb": 0.9,
+   "pb_pct": 61,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11345.19,
+   "chg": 0.3,
+   "pe": 9.26,
+   "pe_pct": 80,
+   "pb": 0.93,
+   "pb_pct": 68,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 23443.45,
+   "chg": 0.21,
+   "pe": 10.76,
+   "pe_pct": 55,
+   "pb": 1.07,
+   "pb_pct": 44,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 25164.36,
+   "chg": -1.07,
+   "pe": 27.36,
+   "pe_pct": 27,
+   "pb": 8.33,
+   "pb_pct": 62,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7541.4,
+   "chg": -0.51,
+   "pe": 23.79,
+   "pe_pct": 42,
+   "pb": 5.31,
+   "pb_pct": 90,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "保险Ⅱ",
+    "chg": 2.41
+   },
+   {
+    "name": "航空机场",
+    "chg": 2.07
+   },
+   {
+    "name": "贸易Ⅱ",
+    "chg": 1.98
+   },
+   {
+    "name": "钢铁",
+    "chg": 1.57
+   },
+   {
+    "name": "水泥",
+    "chg": 1.57
+   },
+   {
+    "name": "农林牧渔",
+    "chg": 1.18
+   }
+  ],
+  "dn": [
+   {
+    "name": "元件",
+    "chg": -5.22
+   },
+   {
+    "name": "通信设备",
+    "chg": -4.38
+   },
+   {
+    "name": "医疗服务",
+    "chg": -3.72
+   },
+   {
+    "name": "仪器仪表",
+    "chg": -3.53
+   },
+   {
+    "name": "通用设备",
+    "chg": -2.94
+   },
+   {
+    "name": "塑料",
+    "chg": -2.51
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-1.04%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 7.9459（2026-11-02）（≈ 795 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.9724",
+   "date": "2026-10-30"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.7539",
+   "date": "2026-10-30"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.4794",
+   "date": "2026-10-30"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.0859",
+   "date": "2026-10-30"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6353",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8121",
+   "date": "2026-10-30"
+  }
+ ],
+ "macro": [
+  {
+   "title": "英镑兑美元小幅回落，静待英国央行利率决议落地",
+   "ctime": "1793687100",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-03/doc-inixmsvy6767352.shtml"
+  },
+  {
+   "title": "世界黄金协会称全球央行买黄金的速度创2024年来最快",
+   "ctime": "1793687019",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixmsvw9988535.shtml"
+  },
+  {
+   "title": "世界黄金协会：央行购金与黄金ETF流入 支撑三季度全球黄金需求",
+   "ctime": "1793685983",
+   "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-03/doc-inixmswc8782087.shtml"
+  },
+  {
+   "title": "数据显示：币安已动用一半SAFU比特币，价值约5.8亿美元",
+   "ctime": "1793687560",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixmxcu9865643.shtml"
+  },
+  {
+   "title": "A股调整，科技龙头密集发声",
+   "ctime": "1793687328",
+   "url": "https://finance.sina.com.cn/wm/2026-11-03/doc-inixmxcw6642314.shtml"
+  },
+  {
+   "title": "美元指数中期选举前窄幅波动，避险买盘与美债收益率下行形成对冲",
+   "ctime": "1793686680",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-03/doc-inixmswa2339606.shtml"
+  },
+  {
+   "title": "中信证券董事长邹迎光：A股基本面韧性凸显",
+   "ctime": "1793685901",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-03/doc-inixmswa2330637.shtml"
+  },
+  {
+   "title": "政策组合拳升级，滞涨旗手再走强，券商ETF华宝（512000）标的指数盘中续涨1%",
+   "ctime": "1793684539",
+   "url": "https://finance.sina.com.cn/money/fund/etf/2026-11-03/doc-inixmswa2328622.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 7,
+   "pe": 27.7107,
+   "pb_pct": 17,
+   "pb": 3.8944
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 27,
+   "pe": 27.362,
+   "pb_pct": 62,
+   "pb": 8.3323
+  }
+ ]
+}
