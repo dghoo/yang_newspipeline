@@ -1,0 +1,528 @@
+{
+ "date": "2026-11-04",
+ "weekday": "三",
+ "val_date": "11-03",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "卡兹克开源折腾一年的 Agent 自动化系统 Agent-Autoloop",
+    "url": "https://aihot.news/items/y0cgwl79wbih8c50svgmit93j",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-11-04T00:19:00.000Z",
+    "summary": "作者开源其打磨一年的 Agent 自动化系统 Agent-Autoloop，地址为 https://github.com/KKKKhazix/agent-autoloop。"
+   },
+   {
+    "kind": "news",
+    "title": "AMD 发布 2026 年三季度财报，预计 2027 年营收增长超 80%",
+    "url": "https://aihot.news/items/ir9nzccipff0uowu3tghi4n3o",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-11-03T23:14:06.000Z",
+    "summary": "AMD 公布 2026 年三季度财报，预计 2027 年营收增长超 80%，高于分析师建模的 77%，CEO Lisa Su 称数据中心芯片将占明年销售额的 80%。"
+   },
+   {
+    "kind": "news",
+    "title": "Ed Zitron 解析 OpenAI 1.25 万亿美元估值融资与 Anthropic S-1/A 中的万亿级算力承诺",
+    "url": "https://aihot.news/items/zv5dl1agqwo6tkmhdamy17lt5",
+    "source": "Ed Zitron 长文 / Where’s Your Ed At（RSS）",
+    "publishedAt": "2026-11-03T17:16:20.000Z",
+    "summary": "Ed Zitron 撰文认为 AI 行业资金正在枯竭。OpenAI 上周以 1.25 万亿美元估值融资 110 亿美元，低于此前计划的 300 亿美元、1.4 万亿美元估值；据 The Information，其 Q1 2026 成本收入与研发支出合计 121 亿美元，截至 3 月底持有逾 730 亿美元现金及有价证券。"
+   },
+   {
+    "kind": "news",
+    "title": "Addy Osmani 谈 Agent 时代如何保持批判性思维",
+    "url": "https://aihot.news/items/uinaiwkzg4u2exkfgv4oha9p7",
+    "source": "X：Addy Osmani (@addyosmani)",
+    "publishedAt": "2026-11-03T07:01:29.000Z",
+    "summary": "Addy Osmani 发文探讨在大量使用 Agent 工作流后如何保持批判性思维。他提出认知卸载、拖延、认知投降三段光谱，认为模型越强、输出越流畅，人越容易在不知不觉中放弃独立判断；并给出具体做法，包括提问前先写假设、把验证标准前置为可执行测试、要求 Agent 列出它替你做的决策与假设、用测验收尾而不是读摘要，以及定期手写代码做校准练习。他强调可以卸载工作和审计，但不能卸载责任。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenHands 与 Snowflake 推出基于现有 agent harness 的模型后训练方案",
+    "url": "https://aihot.news/items/recqqiy27l866jfbhjk0cusqh",
+    "source": "OpenHands 官方博客",
+    "publishedAt": "2026-11-03T00:00:00.000Z",
+    "summary": "OpenHands 与 Snowflake AI Research 合作，让开发者无需在独立 RL 框架中重建 harness，即可用现有 OpenHands Agent SDK 配置和 Harbor 格式任务对开源权重模型做 RL 后训练，训练由 Snowflake Cortex Training 提供 GPU 支持。"
+   },
+   {
+    "kind": "news",
+    "title": "Revolut 将约 2000 名工程师迁移到自托管 GLM 编码",
+    "url": "https://aihot.news/items/op93lgz2xx0ck3znfm724ebfu",
+    "source": "Hacker News：AI 热帖",
+    "publishedAt": "2026-11-02T22:11:24.000Z",
+    "summary": "据 Revolut AI 运营负责人 David Abitbol，公司把约 2000 名工程师迁到自托管 GLM 做编码，将 Claude Code 和 Codex 列为例外。"
+   },
+   {
+    "kind": "news",
+    "title": "Cognition 发布2026年11月实用安全指南：从 Binance 被盗到 Claude Code Cursor 扩展投毒的应对清单",
+    "url": "https://aihot.news/items/dmvn8r8406f7g9vutizbxqesj",
+    "source": "Cognition 模型 / Devin 博客（网页）",
+    "publishedAt": "2026-11-02T16:00:00.000Z",
+    "summary": "Cognition 发布2026年11月实用安全指南，回顾近期重大安全事件并给出公司可执行的安全加固清单。"
+   },
+   {
+    "kind": "news",
+    "title": "Manus 联合创始人复盘：用 Manus 重建 Manus 的内部实验",
+    "url": "https://aihot.news/items/jwesxv6ocruk1r44ar9hj14i0",
+    "source": "Manus：Blog（网页）",
+    "publishedAt": "2026-10-29T16:00:00.000Z",
+    "summary": "Manus 联合创始人张涛撰文复盘公司全面转向人机协作开发的内部实验，介绍内部工具 Mono 如何统一仓库上下文并让单人端到端交付需求，工程师同时推进 10 到 20 个请求已成常态。文章涵盖工程、产品和营销三个团队，总结了自主性需要可验证终点线、瓶颈从工程转向产品决策等经验，也指出注意力碎片化、信息分散和权限设计等未解决的问题。"
+   },
+   {
+    "kind": "news",
+    "title": "Unsloth 发布 Mistral Le Chonk 1-bit GGUF 量化版，可本地运行 1T 参数模型",
+    "url": "https://aihot.news/items/rph54wkrnzjpvov4cv0mxqatl",
+    "source": "X：Unsloth (@UnslothAI)",
+    "publishedAt": "2026-10-29T14:27:32.000Z",
+    "summary": "Unsloth 发布 Mistral Le Chonk（Mistral Large 4，1T 参数 MoE，52B 激活）的 Dynamic 1-bit GGUF，可在 Mac Studio 上本地运行，保留 91% top-1 准确率，体积约 233GB（较 1.1TB FP8 小 80%）。图为各量化档位给出硬件需求，1-bit 需 256-270GB 内存，最小 UD-IQ1_S 约占 233GB 磁盘，并支持文本与图像输入、1M 上下文和 160+ 语言。GGUF 与指南见 huggingface.co/unsloth/Mistral-Large-4-1T-A52B-GGUF 和 unsloth.ai/docs/models/mistral-large-4。"
+   },
+   {
+    "kind": "news",
+    "title": "SemiAnalysis 分析师解读 Anthropic S-1 招股书背后的 AI 经济账",
+    "url": "https://aihot.news/items/r9bmkfh02wkycc8zmhw87h4q9",
+    "source": "The Verge：AI（RSS）",
+    "publishedAt": "2026-10-29T14:00:00.000Z",
+    "summary": "The Verge Decoder 节目邀请 SemiAnalysis 分析师 Joey Brookhart 解读 Anthropic 提交的 S-1 招股书，公司拟在纳斯达克上市，估值区间 1.5 万亿至 2 万亿美元。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "腾讯混元 Hy4 正式发布，首次引入视觉与电脑操作能力",
+    "url": "https://aihot.news/items/z6j7q1gcuwsjjpx3qbtnvl2b3",
+    "source": "公众号：腾讯混元",
+    "publishedAt": "2026-11-04T04:43:55.000Z",
+    "summary": "腾讯混元发布 Hy4 正式版，相比 Hy4 preview 扩展预训练与后训练规模，首次引入视觉能力和电脑操作支持，GameDev 与 GameLogic 评测分别提升 19.1% 和 9.8%。"
+   },
+   {
+    "kind": "news",
+    "title": "Mistral Large 4 以开放权重发布并附技术报告",
+    "url": "https://aihot.news/items/bfx52184e0ssnqgdq42o8dg36",
+    "source": "X：Mistral AI (@MistralAI)",
+    "publishedAt": "2026-11-03T10:18:34.000Z",
+    "summary": "Mistral 团队成员 Pierre Stock 宣布 ML4（Mistral Large 4）正式开放权重，称其在代码智能体与网络安全方向具备前沿能力，且比三周前的 Preview 版本更高效、更紧凑。技术报告讲述其研发过程：https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B/blob/main/assets/technical_report.pdf，Mistral AI 官方转发并称可在 alphaxiv 上阅读这一研发故事（https://www.alphaxiv.org/abs/2611.mistral-large-4）。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 研究：智能体安全评测与生产行为存在差距，评测目标误判是关键因素",
+    "url": "https://aihot.news/items/fvf2qsdi4s11bz1denqd5rzff",
+    "source": "OpenAI：Alignment 研究博客（RSS）",
+    "publishedAt": "2026-11-03T08:00:00.000Z",
+    "summary": "OpenAI Alignment 团队对比六个模型在 Respecting Warnings 安全评测与匹配的 Codex 生产决策上的表现，发现评测成功率普遍低于生产，差距为 10.2 至 37.4 个百分点。模型普遍口头表现出评测意识（评测中一般性意识率 57.0%–83.7%），但仅告知"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "LiquidAI/LFM3-1.7B",
+    "url": "https://hf-mirror.com/LiquidAI/LFM3-1.7B",
+    "license": "other",
+    "param": "1.7B",
+    "likes": 1421,
+    "downloads": 47817,
+    "createdAt": "2026-10-23",
+    "intro": "LFM3-1.7B是基于我们新的三混合架构的本地代理和专业应用程序的文本模型"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "spotify/portal-ai-plugins",
+   "url": "https://github.com/spotify/portal-ai-plugins",
+   "lang": "TypeScript",
+   "stars": "3,095",
+   "desc": ""
+  },
+  {
+   "repo": "floci-io/floci",
+   "url": "https://github.com/floci-io/floci",
+   "lang": "Java",
+   "stars": "29,032",
+   "desc": "轻盈、蓬松且始终免费- AWS本地模拟器替代方案"
+  },
+  {
+   "repo": "Usagi-org/ai-goofish-monitor",
+   "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+   "lang": "Python",
+   "stars": "16,767",
+   "desc": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI"
+  },
+  {
+   "repo": "deepseek-ai/DeepInfer",
+   "url": "https://github.com/deepseek-ai/DeepInfer",
+   "lang": "Python",
+   "stars": "25,280",
+   "desc": "DeepInfer ： DeepSeek模型的高性能、大规模推理框架"
+  },
+  {
+   "repo": "storytold/wordcraft",
+   "url": "https://github.com/storytold/wordcraft",
+   "lang": "Rust",
+   "stars": "17,233",
+   "desc": "在纯Rust中重新实现Microsoft Word的开源洁净室"
+  },
+  {
+   "repo": "seedds/nxnative",
+   "url": "https://github.com/seedds/nxnative",
+   "lang": "Python",
+   "stars": "11,952",
+   "desc": "切换在iPhone、iPad和Mac上本机运行的游戏： NSP文件夹变为未签名的IPA （ NSO重写器、Horizon HLE主机、NVN→ Metal ）"
+  },
+  {
+   "repo": "pengchujin/aerial-tv",
+   "url": "https://github.com/pengchujin/aerial-tv",
+   "lang": "Kotlin",
+   "stars": "9,455",
+   "desc": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面没有广告，面向开机自动接管"
+  },
+  {
+   "repo": "ccch1mneyyy/dsh-Go",
+   "url": "https://github.com/ccch1mneyyy/dsh-Go",
+   "lang": "Dart",
+   "stars": "8,228",
+   "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑"
+  },
+  {
+   "repo": "heydamir/unslop",
+   "url": "https://github.com/heydamir/unslop",
+   "lang": "JavaScript",
+   "stars": "7,737",
+   "desc": "一种克劳德技能，将振动编码的人工智能外观用户界面转变为设计界面"
+  },
+  {
+   "repo": "wangzan101/Mika",
+   "url": "https://github.com/wangzan101/Mika",
+   "lang": "Kotlin",
+   "stars": "6,200",
+   "desc": "适用于Android的设备上AI代理，可运行应用程序和网络，为您完成任务"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "wagoodman/dive",
+   "url": "https://github.com/wagoodman/dive",
+   "lang": "Go",
+   "stars": "54,698",
+   "desc": "用于探索Docker镜像中每个图层的工具",
+   "en": false
+  },
+  {
+   "repo": "dockur/windows",
+   "url": "https://github.com/dockur/windows",
+   "lang": "Shell",
+   "stars": "54,072",
+   "desc": "Docker容器中的Windows",
+   "en": false
+  },
+  {
+   "repo": "sickcodes/Docker-OSX",
+   "url": "https://github.com/sickcodes/Docker-OSX",
+   "lang": "Shell",
+   "stars": "53,002",
+   "desc": "在Docker中运行macOS虚拟机",
+   "en": false
+  },
+  {
+   "repo": "mastodon/mastodon",
+   "url": "https://github.com/mastodon/mastodon",
+   "lang": "Ruby",
+   "stars": "50,476",
+   "desc": "您的自托管、全球互联的微博社区",
+   "en": false
+  },
+  {
+   "repo": "DataTalksClub/data-engineering-zoomcamp",
+   "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+   "lang": "Jupyter Notebook",
+   "stars": "46,639",
+   "desc": "Data Engineering Zoomcamp是一门为期9周的关于构建生产就绪数据管道的免费课程",
+   "en": false
+  },
+  {
+   "repo": "LeCoupa/awesome-cheatsheets",
+   "url": "https://github.com/LeCoupa/awesome-cheatsheets",
+   "lang": "JavaScript",
+   "stars": "46,612",
+   "desc": "热门编程语言、框架和开发工具的👩‍💻👨‍💻精彩备忘单",
+   "en": false
+  },
+  {
+   "repo": "fastapi/full-stack-fastapi-template",
+   "url": "https://github.com/fastapi/full-stack-fastapi-template",
+   "lang": "TypeScript",
+   "stars": "46,159",
+   "desc": "Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, FastAPI Cloud, and Docker Compose.",
+   "en": false
+  },
+  {
+   "repo": "LizardByte/Sunshine",
+   "url": "https://github.com/LizardByte/Sunshine",
+   "lang": "C++",
+   "stars": "42,980",
+   "desc": "Moonlight的自托管游戏流主机",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4100.15,
+   "chg": 2.28,
+   "pe": 13.5,
+   "pe_pct": 67,
+   "pb": 1.34,
+   "pb_pct": 21,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6621.92,
+   "chg": 4.66,
+   "pe": 26.95,
+   "pe_pct": 56,
+   "pb": 1.96,
+   "pb_pct": 52,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2548.43,
+   "chg": 6.56,
+   "pe": 27.1,
+   "pe_pct": 5,
+   "pb": 3.81,
+   "pb_pct": 16,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1263.7,
+   "chg": 9.76,
+   "pe": 85.75,
+   "pe_pct": 71,
+   "pb": 5.5,
+   "pb_pct": 51,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5591.13,
+   "chg": -0.07,
+   "pe": 9.24,
+   "pe_pct": 88,
+   "pb": 0.9,
+   "pb_pct": 60,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11281.97,
+   "chg": -0.47,
+   "pe": 9.21,
+   "pe_pct": 80,
+   "pb": 0.92,
+   "pb_pct": 68,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 23802.25,
+   "chg": 1.17,
+   "pe": 10.8,
+   "pe_pct": 56,
+   "pb": 1.08,
+   "pb_pct": 45,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 25372.01,
+   "chg": 0.83,
+   "pe": 27.18,
+   "pe_pct": 26,
+   "pb": 8.29,
+   "pb_pct": 61,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7568.92,
+   "chg": 0.36,
+   "pe": 23.7,
+   "pe_pct": 40,
+   "pb": 5.31,
+   "pb_pct": 90,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "元件",
+    "chg": 7.19
+   },
+   {
+    "name": "通信设备",
+    "chg": 5.7
+   },
+   {
+    "name": "医疗服务",
+    "chg": 4.94
+   },
+   {
+    "name": "仪器仪表",
+    "chg": 4.91
+   },
+   {
+    "name": "有色金属",
+    "chg": 4.68
+   },
+   {
+    "name": "通用设备",
+    "chg": 4.0
+   }
+  ],
+  "dn": [
+   {
+    "name": "食品饮料",
+    "chg": -1.12
+   },
+   {
+    "name": "保险Ⅱ",
+    "chg": -0.57
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": -0.2
+   },
+   {
+    "name": "铁路公路",
+    "chg": 0.04
+   },
+   {
+    "name": "石油石化",
+    "chg": 0.21
+   },
+   {
+    "name": "煤炭",
+    "chg": 0.34
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+2.08%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 7.9831（2026-11-03）（≈ 798 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.8895",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.6462",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.4528",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.0713",
+   "date": "2026-11-02"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6397",
+   "date": "2026-11-03"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8294",
+   "date": "2026-11-02"
+  }
+ ],
+ "macro": [
+  {
+   "title": "央行证监会联手打出稳市政策“组合拳”！沪深300ETF华泰柏瑞（510300）放量，有望助力均衡布局市场整体机遇",
+   "ctime": "1793770209",
+   "url": "https://finance.sina.com.cn/money/fund/jjh/2026-11-04/doc-inixqaaw6120431.shtml"
+  },
+  {
+   "title": "高盛：上调香港2026年GDP增长预测至5% 2027年预测升至3.1%",
+   "ctime": "1793767929",
+   "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-11-04/doc-inixpvva1705147.shtml"
+  },
+  {
+   "title": "得州州长选举结果加剧数据中心风险 人工智能概念股下跌",
+   "ctime": "1793773812",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixqaaz8087604.shtml"
+  },
+  {
+   "title": "印度10月服务业PMI创四个月新高，得益于国内需求改善",
+   "ctime": "1793769445",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixpvuy6245579.shtml"
+  },
+  {
+   "title": "泰国财政部长表示暂无上调公共债务上限计划",
+   "ctime": "1793766736",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixpvva1696336.shtml"
+  },
+  {
+   "title": "造纸龙头山鹰国际股价跌停，公司实控人被证监会立案",
+   "ctime": "1793766664",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-04/doc-inixpvuw9445445.shtml"
+  },
+  {
+   "title": "央行加力实施股票回购增持再贷款政策！红利低波ETF华泰柏瑞（512890）半日成交3.95亿领跑同类",
+   "ctime": "1793765519",
+   "url": "https://finance.sina.com.cn/money/fund/original/2026-11-04/doc-inixpvuy6207650.shtml"
+  },
+  {
+   "title": "荣昌生物早盘涨逾6% 拟3000万元至6000万元回购公司A股",
+   "ctime": "1793763539",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-04/doc-inixpvva1664009.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 5,
+   "pe": 27.1006,
+   "pb_pct": 16,
+   "pb": 3.8087
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 26,
+   "pe": 27.1755,
+   "pb_pct": 61,
+   "pb": 8.2898
+  }
+ ]
+}
