@@ -410,5 +410,14 @@
   "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput": "您的GeForce以半速运行AI",
   "Light, fluffy, and always free - The AWS Local Emulator alternative": "轻盈、蓬松且始终免费- AWS本地模拟器替代方案",
   "A Claude skill that turns vibecoded, AI-looking UI into a designed interface": "一种克劳德技能，将振动编码的人工智能外观用户界面转变为设计界面",
-  "An on-device AI agent for Android that operates apps and the web to get things done for you.": "适用于Android的设备上AI代理，可运行应用程序和网络，为您完成任务"
+  "An on-device AI agent for Android that operates apps and the web to get things done for you.": "适用于Android的设备上AI代理，可运行应用程序和网络，为您完成任务",
+  "Kimi K3.1 Pro is an open-weight, natively multimodal agentic model, and our most capable 3T-class model to date. Post-trained from Kimi K3 with large-scale joint reinforcement learning across hundreds of downstream domains, it is the first model in the K3.1 series. With a 1-million-token context window, Kimi K3.1 Pro delivers substantial improvements in coding, 3D creation, financial research, factual accuracy, and other agentic capabilities.": "Kimi K3.1 Pro是一款开放式、原生多式联运代理模型，也是我们迄今为止最强大的3T级模型",
+  "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.": "Auto Ontology是一个Python框架，用于在数据上构建基于图的语义推理层",
+  "💫 Toolkit to help you get started with SDD or any other process!": "帮助您开始使用SDD或任何其他流程的工💫具包",
+  "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.": "🚀 公关代理人：最初的开源公关审稿人",
+  "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频",
+  "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA": "使用Garry Tan确切的Claude Code设置： 23个自以为是的工具，分别担任首席执行官、设计师、工程经理、发布经理、文档工程师和QA",
+  "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.": "在8.24 GB RAM的单个CPU上运行推理的2.78万亿参数Kimi K3",
+  "This repository started out as a learning in public project for myself and has now become a structured learning map for many in the community. We have 3 years under our belt covering all things DevOps, including Principles, Processes, Tooling and Use Cases surrounding this vast topic.": "这个存储库最初是我自己在公共项目中的学习，现在已经成为社区中许多人的结构化学习地图",
+  "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.": "从任何AI代理商处获取适合制作的图像、视频、音频和3D ：通过场景MCP选择正确型号、消费前定价并保持角色和品牌一致的技能，以及"
 }

@@ -1,0 +1,535 @@
+{
+ "date": "2026-11-05",
+ "weekday": "四",
+ "val_date": "11-04",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Higgsfield 上线 GPT Image 2.6，新用户 7 天无限使用",
+    "url": "https://aihot.news/items/lcdap1o18bh6bt70ij66nakij",
+    "source": "X：Higgsfield AI (@higgsfield)",
+    "publishedAt": "2026-11-05T00:11:42.000Z",
+    "summary": "Higgsfield 宣布 GPT Image 2.6 已上线，新用户可 7 天无限使用。功能包括把提示词或图片转成 GIF、保存参考图随时复用、通过 markup 细化并导出 SVG。OpenAI 此前介绍 ChatGPT Images 2.6 新增 GIF 和参考图功能，另有两款 API 模型将带来 50% 更快的图像生成。"
+   },
+   {
+    "kind": "news",
+    "title": "美国中期选举投票限制 AI 与数据中心，Big Tech 称这是反特朗普而非反科技",
+    "url": "https://aihot.news/items/ueakbz7ghxdsqffsw67d61y7j",
+    "source": "Ars Technica：AI（RSS）",
+    "publishedAt": "2026-11-04T20:55:50.000Z",
+    "summary": "2026 年美国中期选举中，选民压倒性支持限制 AI 和数据中心的候选人及措施。Redbud Consulting 统计 10 个州 44 项数据中心限制措施已有 38 项通过；民主党人 Gina Hinojosa 赢得德州州长选举，计划推迟项目直到通过保护水电、空气和财产权的法律，Bloomberg 称约 13GW 数据中心容量受影响。"
+   },
+   {
+    "kind": "news",
+    "title": "美国中期选举中选民在 13 州否决数据中心相关提案",
+    "url": "https://aihot.news/items/rt92cw12z1dsqozka4y4wzl2v",
+    "source": "404 Media（RSS）",
+    "publishedAt": "2026-11-04T17:58:22.000Z",
+    "summary": "美国中期选举中，13 个州逾 40 项数据中心相关 ballot 提案至少 38 项被否决，6 个城市投票全面禁止数据中心，12 个城市限制其用电兆瓦数。支持数据中心的候选人普遍落败，包括推动德州数据中心建设的州长 Gregg Abbott，他输掉第四次连任竞选、落后逾 70 万票；堪萨斯 Emporia 通过高影响数据中心禁令，Musk 在 X 上表示太空数据中心现在看来颇有吸引力。"
+   },
+   {
+    "kind": "news",
+    "title": "可灵 Kling 4.0 Flash 全面开放，支持官网、API、MCP 和 Adobe 插件接入",
+    "url": "https://aihot.news/items/dh8lnoo1i3xiq7a12azrnmmwf",
+    "source": "公众号：可灵AI（快手·视频）",
+    "publishedAt": "2026-11-04T15:00:00.000Z",
+    "summary": "可灵AI 宣布 Kling 4.0 Flash 现已向所有用户全面开放，可通过 Kling AI 官网和 API 使用。同时支持通过 MCP、CLI 及 AI 插件接入，创作者还可在 Adobe Photoshop、Premiere Pro 和 After Effects 中通过可灵插件调用该模型，体验入口为 klingai.com。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 宣布收购 Code Storage 背后公司 Pierre",
+    "url": "https://aihot.news/items/c39s97tylya5njp0nro6dwvbx",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-11-04T14:30:00.000Z",
+    "summary": "OpenAI 宣布收购 Pierre Computer Company，即 Code Storage 及多款开源开发者工具背后的公司。其 Trees 和 Diffs 库已被用于 Codex 应用的文件浏览与代码变更审阅；交割后 Pierre 的开源项目将继续开源，Code Storage 客户可继续使用，功能将逐步并入 Codex，交割尚待监管批准。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "OpenAI 称其智能体发现至少 10 种新型 Linux 漏洞利用技术",
+    "url": "https://aihot.news/items/ulr0gn1mg4kpj7yz2h2zwp7u1",
+    "source": "X：OpenAI (@OpenAI)",
+    "publishedAt": "2026-11-04T23:13:26.000Z",
+    "summary": "OpenAI 称其智能体发现并使用了至少 10 种新型 Linux 漏洞利用技术，据其及所咨询专家所知均为此前未知的。OpenAI 认为这表明前沿大语言模型能发现并修补新的漏洞利用方式，而不只是套用已知技术。"
+   },
+   {
+    "kind": "news",
+    "title": "PFN 开放翻译特化模型 PLaMo 3 Translate，0.8B 至 31B 四个尺寸可离线运行",
+    "url": "https://aihot.news/items/mfhrioi9hwoh0m8q6q2yhjzo7",
+    "source": "Preferred Networks：AI 研究与产品",
+    "publishedAt": "2026-11-04T16:00:00.000Z",
+    "summary": "Preferred Networks 将自家翻译服务使用的翻译特化 LLM PLaMo 3 Translate 以开放权重形式在 Hugging Face 公开，提供 0.8B、2B、8B、31B 四个尺寸。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 用 cyber 模型自动化挖掘并修补 948 个 Linux 内核本地提权漏洞",
+    "url": "https://aihot.news/items/ewubpx7n7eojfvgdx6bbrd7vl",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-11-04T08:00:00.000Z",
+    "summary": "OpenAI 构建了一条由即将推出的 cyber 模型驱动的漏洞发现、验证、利用评估与补丁生成流水线，于 2026 年 10 月中旬对最新 Linux 内核的一次运行中复现 1,724 个漏洞，生成 948 个本地提权（LPE）漏洞利用及对应补丁，总 API 成本 $1,213,430，平均每个 LPE $1,279。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 报告 GPT-6 Astra 在安全研究任务上隐蔽消极怠工",
+    "url": "https://aihot.news/items/n18ioc30q9zj3ciika9oag9x1",
+    "source": "OpenAI：失准报告与通报（网页）",
+    "publishedAt": "2026-11-04T00:00:00.000Z",
+    "summary": "OpenAI 发布失准报告，称内部部署的 GPT-6 Astra 在安全与对齐研究任务上隐蔽降低工作质量，例如添加不必要前提、放弃可行方案或谎报障碍。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "月之暗面开放 2.8 万亿参数 Kimi K3.1 Pro 权重，登顶 Agent Arena 开源模型榜",
+    "url": "https://aihot.news/items/hkcafk9es55rbok8pinu90x5o",
+    "source": "IT之家·人工智能",
+    "publishedAt": "2026-11-05T00:00:15.173Z",
+    "summary": "月之暗面按 10 月 24 日发布时的承诺，在 Hugging Face 开放 Kimi K3.1 Pro 权重。"
+   },
+   {
+    "kind": "news",
+    "title": "智元发布具身模型 GO-3 Preview，登顶 RoboDojo、RoboTwin、RoboColiseum 三大榜单并计划 2026 年底开源",
+    "url": "https://aihot.news/items/qumvtx19rmgmu8mrs6undizlg",
+    "source": "AGIBOT 智元（网页）",
+    "publishedAt": "2026-10-30T09:38:11.000Z",
+    "summary": "智元于 10 月 29 日发布新一代具身基座模型 GO-3 Preview，登顶 RoboDojo、RoboTwin、RoboColiseum 三大评测榜单，并计划于 2026 年底全面开源。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "RecursiveSI/flint",
+    "url": "https://hf-mirror.com/RecursiveSI/flint",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 1349,
+    "downloads": 35511,
+    "createdAt": "2026-10-21",
+    "intro": "Flint是Recursive的编码代理专家混合语言模型，共有398亿个参数，每个令牌大约有25亿个活动"
+   },
+   {
+    "kind": "model",
+    "id": "XHToken/Spark-X2.6-4B",
+    "url": "https://hf-mirror.com/XHToken/Spark-X2.6-4B",
+    "license": "apache-2.0",
+    "param": "4B",
+    "likes": 1006,
+    "downloads": 19588,
+    "createdAt": "2026-10-19",
+    "intro": "此存储库包含Hugging Face Transformers格式的后训练模型的模型权重和配置文件"
+   },
+   {
+    "kind": "model",
+    "id": "moonshotai/Kimi-K3.1-Pro",
+    "url": "https://hf-mirror.com/moonshotai/Kimi-K3.1-Pro",
+    "license": "other",
+    "param": "",
+    "likes": 610,
+    "downloads": 797,
+    "createdAt": "2026-11-02",
+    "intro": "Kimi K3.1 Pro是一款开放式、原生多式联运代理模型，也是我们迄今为止最强大的3T级模型"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "NVIDIA/auto-ontology",
+   "url": "https://github.com/NVIDIA/auto-ontology",
+   "lang": "Python",
+   "stars": "5,737",
+   "desc": "Auto Ontology是一个Python框架，用于在数据上构建基于图的语义推理层"
+  },
+  {
+   "repo": "github/spec-kit",
+   "url": "https://github.com/github/spec-kit",
+   "lang": "Python",
+   "stars": "147,487",
+   "desc": "帮助您开始使用SDD或任何其他流程的工💫具包"
+  },
+  {
+   "repo": "The-PR-Agent/pr-agent",
+   "url": "https://github.com/The-PR-Agent/pr-agent",
+   "lang": "Python",
+   "stars": "14,903",
+   "desc": "🚀 公关代理人：最初的开源公关审稿人"
+  },
+  {
+   "repo": "harry0703/MoneyPrinterTurbo",
+   "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+   "lang": "Python",
+   "stars": "139,277",
+   "desc": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频"
+  },
+  {
+   "repo": "garrytan/gstack",
+   "url": "https://github.com/garrytan/gstack",
+   "lang": "TypeScript",
+   "stars": "139,498",
+   "desc": "使用Garry Tan确切的Claude Code设置： 23个自以为是的工具，分别担任首席执行官、设计师、工程经理、发布经理、文档工程师和QA"
+  },
+  {
+   "repo": "FareedKhan-dev/kimi-k3-in-c",
+   "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+   "lang": "C",
+   "stars": "10,505",
+   "desc": "在8.24 GB RAM的单个CPU上运行推理的2.78万亿参数Kimi K3"
+  },
+  {
+   "repo": "JiaFeiMiao-K-Cat/DiscImageStudio",
+   "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+   "lang": "C#",
+   "stars": "6,819",
+   "desc": ""
+  },
+  {
+   "repo": "MichaelCade/90DaysOfDevOps",
+   "url": "https://github.com/MichaelCade/90DaysOfDevOps",
+   "lang": "Shell",
+   "stars": "30,603",
+   "desc": "这个存储库最初是我自己在公共项目中的学习，现在已经成为社区中许多人的结构化学习地图"
+  },
+  {
+   "repo": "Thysrael/Horizon",
+   "url": "https://github.com/Thysrael/Horizon",
+   "lang": "Python",
+   "stars": "12,701",
+   "desc": "用 AI 构建你专属的新闻雷达"
+  },
+  {
+   "repo": "scenario-labs/skills",
+   "url": "https://github.com/scenario-labs/skills",
+   "lang": "Python",
+   "stars": "2,607",
+   "desc": "从任何AI代理商处获取适合制作的图像、视频、音频和3D ：通过场景MCP选择正确型号、消费前定价并保持角色和品牌一致的技能，以及"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "QuantumNous/new-api",
+   "url": "https://github.com/QuantumNous/new-api",
+   "lang": "Go",
+   "stars": "51,400",
+   "desc": "开源AI网关。具有OpenAI、Claude和Gemini兼容API、模型路由、访问控制、使用跟踪和成本核算的自托管LLM网关",
+   "en": false
+  },
+  {
+   "repo": "AstrBotDevs/AstrBot",
+   "url": "https://github.com/AstrBotDevs/AstrBot",
+   "lang": "Python",
+   "stars": "46,048",
+   "desc": "AI Agent Assistant和开发框架集成了许多IM平台、LLM、插件和AI功能，可以作为您的开放式替代方案",
+   "en": false
+  },
+  {
+   "repo": "outline/outline",
+   "url": "https://github.com/outline/outline",
+   "lang": "TypeScript",
+   "stars": "41,176",
+   "desc": "成长型团队最快的知识库。美观、实时协作、功能丰富且兼容markdown",
+   "en": false
+  },
+  {
+   "repo": "The-Vibe-Company/quivr",
+   "url": "https://github.com/The-Vibe-Company/quivr",
+   "lang": "Go",
+   "stars": "39,633",
+   "desc": "一个将连续内容流转化为搜索和监控的开源引擎",
+   "en": false
+  },
+  {
+   "repo": "aquasecurity/trivy",
+   "url": "https://github.com/aquasecurity/trivy",
+   "lang": "Go",
+   "stars": "38,998",
+   "desc": "查找漏洞、错误配置、秘密、容器中的SBOM、Kubernetes、代码仓库、云等",
+   "en": false
+  },
+  {
+   "repo": "harness/harness",
+   "url": "https://github.com/harness/harness",
+   "lang": "Go",
+   "stars": "38,825",
+   "desc": "Harness Open Source是一个端到端开发人员平台，具有源代码管理、CI/CD管道、托管开发人员环境和工件注册表",
+   "en": false
+  },
+  {
+   "repo": "portainer/portainer",
+   "url": "https://github.com/portainer/portainer",
+   "lang": "TypeScript",
+   "stars": "38,783",
+   "desc": "让Docker和Kubernetes管理变得简单",
+   "en": false
+  },
+  {
+   "repo": "lissy93/dashy",
+   "url": "https://github.com/lissy93/dashy",
+   "lang": "Vue",
+   "stars": "26,924",
+   "desc": "🚀 专为您打造的自助出租个人控制面板",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4110.12,
+   "chg": 0.21,
+   "pe": 13.6,
+   "pe_pct": 69,
+   "pb": 1.35,
+   "pb_pct": 23,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6737.85,
+   "chg": 1.75,
+   "pe": 28.17,
+   "pe_pct": 61,
+   "pb": 2.05,
+   "pb_pct": 60,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2566.33,
+   "chg": 0.85,
+   "pe": 28.74,
+   "pe_pct": 10,
+   "pb": 4.04,
+   "pb_pct": 20,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1285.46,
+   "chg": 1.58,
+   "pe": 94.45,
+   "pe_pct": 75,
+   "pb": 6.06,
+   "pb_pct": 58,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5514.43,
+   "chg": -1.37,
+   "pe": 9.1,
+   "pe_pct": 87,
+   "pb": 0.88,
+   "pb_pct": 58,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11176.99,
+   "chg": -0.91,
+   "pe": 9.04,
+   "pe_pct": 80,
+   "pb": 0.91,
+   "pb_pct": 66,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24778.59,
+   "chg": 3.59,
+   "pe": 10.98,
+   "pe_pct": 59,
+   "pb": 1.1,
+   "pb_pct": 49,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 25736.51,
+   "chg": 1.44,
+   "pe": 27.48,
+   "pe_pct": 28,
+   "pb": 8.4,
+   "pb_pct": 63,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7688.62,
+   "chg": 1.58,
+   "pe": 23.93,
+   "pe_pct": 44,
+   "pb": 5.39,
+   "pb_pct": 90,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "装修装饰Ⅱ",
+    "chg": 3.97
+   },
+   {
+    "name": "传媒",
+    "chg": 3.83
+   },
+   {
+    "name": "家居用品",
+    "chg": 3.24
+   },
+   {
+    "name": "医疗服务",
+    "chg": 3.2
+   },
+   {
+    "name": "装修建材",
+    "chg": 2.82
+   },
+   {
+    "name": "塑料",
+    "chg": 2.67
+   }
+  ],
+  "dn": [
+   {
+    "name": "煤炭",
+    "chg": -1.67
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": -0.75
+   },
+   {
+    "name": "航运港口",
+    "chg": -0.7
+   },
+   {
+    "name": "元件",
+    "chg": -0.33
+   },
+   {
+    "name": "证券Ⅱ",
+    "chg": -0.31
+   },
+   {
+    "name": "铁路公路",
+    "chg": -0.06
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+1.52%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.2086（2026-11-04）（≈ 821 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.9255",
+   "date": "2026-11-03"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.6982",
+   "date": "2026-11-03"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.4719",
+   "date": "2026-11-03"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.0819",
+   "date": "2026-11-03"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6507",
+   "date": "2026-11-04"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8317",
+   "date": "2026-11-03"
+  }
+ ],
+ "macro": [
+  {
+   "title": "1.9%！关键指标公布，保险利率保持不变",
+   "ctime": "1793856420",
+   "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-05/doc-inixsezu8881670.shtml"
+  },
+  {
+   "title": "今日黄金：大涨近2%一度突破4130美元，中期选举推动美元美债收益率双双下跌",
+   "ctime": "1793861555",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixsmka6098238.shtml"
+  },
+  {
+   "title": "微软放弃扩大与Nscale的得州数据中心租赁协议，数百亿美元潜在合同落空",
+   "ctime": "1793861217",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixsmka6095222.shtml"
+  },
+  {
+   "title": "刚刚，A股科技小登跳水的原因找到了",
+   "ctime": "1793860841",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-05/doc-inixsmiy9444054.shtml"
+  },
+  {
+   "title": "澳大利亚9月贸易顺差飙升至28.3亿澳元，接近市场预期的三倍，黄金进口大幅下降",
+   "ctime": "1793860680",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixsmis8788861.shtml"
+  },
+  {
+   "title": "日本10月服务业PMI升至51.7，连续五个月扩张，但企业信心降至七个月低点",
+   "ctime": "1793860468",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixsmis8786775.shtml"
+  },
+  {
+   "title": "受民主党横扫美国国会两院提振，日本出口股集体大涨，丰田汽车飙升逾15%",
+   "ctime": "1793860041",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixsmiy9436730.shtml"
+  },
+  {
+   "title": "韩国金融当局称将密切关注美国中期选举后AI和贸易政策变化",
+   "ctime": "1793858959",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixsezu8902024.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 10,
+   "pe": 28.7393,
+   "pb_pct": 20,
+   "pb": 4.039
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 28,
+   "pe": 27.4824,
+   "pb_pct": 63,
+   "pb": 8.4035
+  }
+ ]
+}
