@@ -419,5 +419,12 @@
   "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA": "使用Garry Tan确切的Claude Code设置： 23个自以为是的工具，分别担任首席执行官、设计师、工程经理、发布经理、文档工程师和QA",
   "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.": "在8.24 GB RAM的单个CPU上运行推理的2.78万亿参数Kimi K3",
   "This repository started out as a learning in public project for myself and has now become a structured learning map for many in the community. We have 3 years under our belt covering all things DevOps, including Principles, Processes, Tooling and Use Cases surrounding this vast topic.": "这个存储库最初是我自己在公共项目中的学习，现在已经成为社区中许多人的结构化学习地图",
-  "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.": "从任何AI代理商处获取适合制作的图像、视频、音频和3D ：通过场景MCP选择正确型号、消费前定价并保持角色和品牌一致的技能，以及"
+  "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.": "从任何AI代理商处获取适合制作的图像、视频、音频和3D ：通过场景MCP选择正确型号、消费前定价并保持角色和品牌一致的技能，以及",
+  "Extremely Fast Compression algorithm": "极快的压缩算法",
+  "Agent Skills for Google products and technologies": "Google产品和技术的智能体技能",
+  "Browser automation CLI for AI agents": "适用于AI代理的浏览器自动化CLI",
+  "Open-Source Frontier Voice AI": "开源前沿语音AI",
+  "Towards a More Autonomous Agent System": "迈向更自主的Agent系统",
+  "Craft Anything: understand how any software works, and craft your own.": "制作任何东西：了解任何软件的工作原理，并制作自己的软件",
+  "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.": "您知道的IDE是在Rust中重建的"
 }

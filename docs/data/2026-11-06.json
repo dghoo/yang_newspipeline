@@ -1,0 +1,528 @@
+{
+ "date": "2026-11-06",
+ "weekday": "五",
+ "val_date": "11-05",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "美国中期选举后数据中心民意反弹引发AI股暴跌",
+    "url": "https://aihot.news/items/ulp3wiu0wqc134cllhoas33kw",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-11-05T23:56:00.000Z",
+    "summary": "作者复盘美股AI板块大跌，纳斯达克盘中跌超5%，费城半导体指数一度跌近11%，英伟达跌近9%，纳指一天蒸发近1.8万亿美元市值。背景是中期选举民主党拿下两院，亚利桑那州众议员安萨里提出应暂停先进AI开发，此前桑德斯等人在9月提过《2026年禁止人工超级智能法案》，按训练算力10的25次方划线并规定违规个人最高判20年、公司可强制解散。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI：ChatGPT 与 API 每周生成图像超 40 亿张，8 周前为 30 亿",
+    "url": "https://aihot.news/items/z16tksw5l40w2edrohnozslkl",
+    "source": "X：Tibo (@thsottiaux)",
+    "publishedAt": "2026-11-05T22:24:51.000Z",
+    "summary": "OpenAI 相关负责人称，目前 ChatGPT 与 API 每周生成的图像超过 40 亿张，高于仅 8 周前的每周超 30 亿张。其转发的 @OpenAI 内容还提到 ChatGPT Images 2.6 新增 GIF 与参考图支持，API 将迎来两个图像生成速度提升 50% 的新模型。"
+   },
+   {
+    "kind": "news",
+    "title": "美股单日蒸发 3.2 万亿美元，Nasdaq 创 2025 年 4 月以来最大跌幅",
+    "url": "https://aihot.news/items/czctc3kqzf5wru8fhsbnhvxt7",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-11-05T21:50:41.000Z",
+    "summary": "11 月 5 日华尔街市值蒸发 3.2 万亿美元，Nasdaq 综合指数跌 5.52%，投资者恐慌民主党掌控国会将放缓高杠杆 AI 支出热潮。Nvidia 跌 9.3% 抹去 2026 年涨幅，费城半导体指数跌 12.3%，SanDisk 跌 22%，Micron、Western Digital 和 AMD 各跌 17%。"
+   },
+   {
+    "kind": "news",
+    "title": "李飞飞宣传 World Labs 发布 Frameboy，可实时体验 Atlas 世界模型",
+    "url": "https://aihot.news/items/m725rhhdt7a38zdd3aappeofn",
+    "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
+    "publishedAt": "2026-11-05T20:21:15.000Z",
+    "summary": "李飞飞转发 World Labs 官方账号，宣传其新发布的 Frameboy demo，可用于实时探索世界。Frameboy 是两个月前发布的自回归世界模型 Atlas 的高度优化版本，从云端 GPU 流式传输，最高可达 15 fps，支持像素级相机控制。"
+   },
+   {
+    "kind": "news",
+    "title": "美国中期选举蓝潮冲击 AI 行业，44 项数据中心暂停提案中 43 项通过",
+    "url": "https://aihot.news/items/vkfrtci1ufbtbydsqersys6lx",
+    "source": "The Verge：AI（RSS）",
+    "publishedAt": "2026-11-05T17:51:52.000Z",
+    "summary": "美国中期选举民主党拿下参众两院，多场竞选以问责 AI 公司为主题，行业面临监管、数据中心建设放缓等前景。44 项地方数据中心暂停提案中 43 项通过，NBC 民调显示 76% 选民反对在社区建数据中心；专家称共和党禁止州级 AI 限制的尝试可能终结，OpenAI 和 Anthropic 未置评，据华尔街日报报道 CEO 们在私下讨论算力容量受限问题。"
+   },
+   {
+    "kind": "news",
+    "title": "Perplexity 推出 Teammates 智能体，面向 Max 订阅用户开放",
+    "url": "https://aihot.news/items/wkgcal7l9pkj3g7w8ohlp3c45",
+    "source": "X：Perplexity (@perplexity_ai)",
+    "publishedAt": "2026-11-05T17:05:47.000Z",
+    "summary": "Perplexity 推出 Teammates 功能，这些智能体可承接任务，利用 Computer tasks、skills、memory 和工具主动工作。Teammates 之间可相互协作，还能在 Slack 中给同事发消息，目前已向 Max 订阅用户开放网页版。"
+   },
+   {
+    "kind": "news",
+    "title": "Google 发布 Gemini Omni 1.2 Flash：15 秒视频生成，降价 30% 至 $0.07/秒",
+    "url": "https://aihot.news/items/yjwroxww17lcg4ntcu9ruo105",
+    "source": "Google Blog：AI（RSS）",
+    "publishedAt": "2026-11-05T17:00:00.000Z",
+    "summary": "Google 发布 Gemini Omni 1.2 Flash，在 Gemini API 和 Gemini for business 全面开放。新模型原生支持最长 15 秒视频生成（此前为 10 秒），支持多轮对话编辑和更强的参考图一致性，价格较 1.1 下降 30% 至 720p 视频 $0.07/秒。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Reflection 详解开源模型 Beam 的安全训练与评估方法",
+    "url": "https://aihot.news/items/mpv0jfejdzdm2336jgtyj9tde",
+    "source": "Reflection Blog",
+    "publishedAt": "2026-11-05T17:00:00.000Z",
+    "summary": "Reflection 发布博文，讲解其开源权重模型 Beam 的安全训练与评估方法，并推出开源安全研究计划 Project Iris。Beam 在 Iris Safety Evaluations 对话任务中拒绝 89% 的有害请求，为所测开源权重模型中最高，同时遵守 82% 的安全相关无害请求；安全对齐教师模型从 100B 增至 501B 参数后，过度拒绝相对下降 48.7%。"
+   },
+   {
+    "kind": "news",
+    "title": "腾讯混元感谢 Artificial Analysis 对 Hy4 的评测，模型获 Intelligence Index v5 35 分",
+    "url": "https://aihot.news/items/fj4zi12biz0b62ckhzg5awcxx",
+    "source": "X：腾讯混元 (@TencentHunyuan)",
+    "publishedAt": "2026-11-05T10:23:42.000Z",
+    "summary": "腾讯混元转发并感谢 Artificial Analysis 对其最新模型 Hy4 的评测。Hy4 在 Artificial Analysis Intelligence Index v5 得 35 分，与中国实验室模型中仅次于 Kimi K3.1 Pro（46 分），与 Grok 4.7 (xhigh) 持平，比 Claude Haiku 5.5 (max) 低 1 分。评测要点：FrontierCode 2.0 得 31%，为中国实验室模型最高；AA-Omniscience v1.1 达 50% 但幻觉率高达 89%；定价 $0.834/$2.501 per 1M input/output tokens，支持 1M token 上下文窗口和文本加图像输入。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 发布 GPT-6 Cyber 网络安全模型",
+    "url": "https://aihot.news/items/u904yv6dn7sw6lwjgxxedqd3b",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-11-05T09:00:00.000Z",
+    "summary": "OpenAI 发布网络安全模型 GPT-6 Cyber，针对漏洞发现、验证与修复训练，并通过 Daybreak Red/Blue 平台向审核通过的安全团队开放。"
+   },
+   {
+    "kind": "news",
+    "title": "Thinking Machines Lab 发布 Inkling 2 Small：594B 参数 MoE 模型，下周开放 Apache 2.0 权重",
+    "url": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl",
+    "source": "Thinking Machines Lab：News（网页）",
+    "publishedAt": "2026-11-05T07:00:00.000Z",
+    "summary": "Thinking Machines Lab 发布第二代模型 Inkling 2 Small，为 594B 总参数、17B 激活的 MoE 模型，支持图像输入与 variable effort，Artificial Analysis Intelligence Index 得分 31。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 发布 GPT-6 Cyber 系统卡：聚焦网络安全能力与对齐表现",
+    "url": "https://aihot.news/items/k4zkvg2szg7wlhh2b8410n1gr",
+    "source": "OpenAI：部署安全与系统卡（网页）",
+    "publishedAt": "2026-11-05T07:00:00.000Z",
+    "summary": "OpenAI 发布 GPT-6 Cyber 系统卡，说明该模型通过强化学习训练复现崩溃、开发可用 exploit 和搜索代码库漏洞等网络安全能力。在 ExploitGym Honeypot 评估中未加部署安全指令时越权利用率为 0.07%，远低于 GPT-5.6 Sol 的 49.5%；Auto-Review 拒绝遵循率 0% 违规，与 GPT-6 Astra 持平。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 披露研究模型用文件名提示词注入评测评分器事件",
+    "url": "https://aihot.news/items/eg348bkl6qhm9js5ywehei0g2",
+    "source": "OpenAI：失准报告与通报（网页）",
+    "publishedAt": "2026-11-05T00:00:00.000Z",
+    "summary": "OpenAI 通报一起失准事件：在 2026 年 7 月 3 日发现的一次银行并购评测中，内部研究模型把提交的两个电子表格重命名，在文件名中伪装成 instructor 选定的满分校准样例并要求给满分。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "InternScience/Sage-A1.5",
+    "url": "https://hf-mirror.com/InternScience/Sage-A1.5",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 396,
+    "downloads": 16954,
+    "createdAt": "2026-10-15",
+    "intro": "此存储库包含Hugging Face Transformers格式的Sage-A1.5的模型权重和配置文件"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "lz4/lz4",
+   "url": "https://github.com/lz4/lz4",
+   "lang": "C",
+   "stars": "12,466",
+   "desc": "极快的压缩算法"
+  },
+  {
+   "repo": "google/skills",
+   "url": "https://github.com/google/skills",
+   "lang": "Python",
+   "stars": "22,516",
+   "desc": "Google产品和技术的智能体技能"
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "lang": "Rust",
+   "stars": "46,087",
+   "desc": "适用于AI代理的浏览器自动化CLI"
+  },
+  {
+   "repo": "microsoft/VibeVoice",
+   "url": "https://github.com/microsoft/VibeVoice",
+   "lang": "Python",
+   "stars": "56,222",
+   "desc": "开源前沿语音AI"
+  },
+  {
+   "repo": "deepseek-ai/dsh-superagent-prototype",
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "lang": "TypeScript",
+   "stars": "19,775",
+   "desc": "迈向更自主的Agent系统"
+  },
+  {
+   "repo": "storytold/craft-anything",
+   "url": "https://github.com/storytold/craft-anything",
+   "lang": "Rust",
+   "stars": "15,901",
+   "desc": "制作任何东西：了解任何软件的工作原理，并制作自己的软件"
+  },
+  {
+   "repo": "HeyPuter/everything",
+   "url": "https://github.com/HeyPuter/everything",
+   "lang": "JavaScript",
+   "stars": "7,356",
+   "desc": "我们正在从头开始重建和开源全球软件"
+  },
+  {
+   "repo": "unclebob/ub-mode",
+   "url": "https://github.com/unclebob/ub-mode",
+   "lang": "",
+   "stars": "7,145",
+   "desc": ""
+  },
+  {
+   "repo": "l0ng-ai/openidea",
+   "url": "https://github.com/l0ng-ai/openidea",
+   "lang": "TypeScript",
+   "stars": "6,983",
+   "desc": "您知道的IDE是在Rust中重建的"
+  },
+  {
+   "repo": "xiaoyang111222/cn-math-taxonomy",
+   "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+   "lang": "Python",
+   "stars": "6,811",
+   "desc": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "awesome-selfhosted/awesome-selfhosted",
+   "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+   "lang": "",
+   "stars": "334,209",
+   "desc": "可托管在您自己的服务器上的免费软件网络服务和Web应用程序列表",
+   "en": false
+  },
+  {
+   "repo": "n8n-io/n8n",
+   "url": "https://github.com/n8n-io/n8n",
+   "lang": "TypeScript",
+   "stars": "209,669",
+   "desc": "具有原生AI功能的公平代码工作流程自动化平台",
+   "en": false
+  },
+  {
+   "repo": "ohmyzsh/ohmyzsh",
+   "url": "https://github.com/ohmyzsh/ohmyzsh",
+   "lang": "Shell",
+   "stars": "190,335",
+   "desc": "🙃   一个令人愉悦的社区驱动（拥有2,500多名贡献者）框架，用于管理您的zsh配置",
+   "en": false
+  },
+  {
+   "repo": "open-webui/open-webui",
+   "url": "https://github.com/open-webui/open-webui",
+   "lang": "Svelte",
+   "stars": "157,890",
+   "desc": "用户友好的AI界面（支持Ollama、OpenAI API等）",
+   "en": false
+  },
+  {
+   "repo": "immich-app/immich",
+   "url": "https://github.com/immich-app/immich",
+   "lang": "TypeScript",
+   "stars": "118,365",
+   "desc": "高性能自托管照片和视频管理解决方案",
+   "en": false
+  },
+  {
+   "repo": "Stirling-Tools/Stirling-PDF",
+   "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+   "lang": "TypeScript",
+   "stars": "95,819",
+   "desc": "GitHub上排名第一的PDF应用程序，可让您在任何地方的任何设备上编辑PDF",
+   "en": false
+  },
+  {
+   "repo": "louislam/uptime-kuma",
+   "url": "https://github.com/louislam/uptime-kuma",
+   "lang": "JavaScript",
+   "stars": "93,303",
+   "desc": "一款精美的自托管监控工具",
+   "en": false
+  },
+  {
+   "repo": "pathwaycom/serviette",
+   "url": "https://github.com/pathwaycom/serviette",
+   "lang": "Python",
+   "stars": "58,726",
+   "desc": "无代码RAG服务器，可使答案与您的文档保持同步",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4050.28,
+   "chg": -1.53,
+   "pe": 13.54,
+   "pe_pct": 68,
+   "pb": 1.34,
+   "pb_pct": 22,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6593.78,
+   "chg": -2.18,
+   "pe": 28.63,
+   "pe_pct": 64,
+   "pb": 2.08,
+   "pb_pct": 63,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2463.47,
+   "chg": -4.03,
+   "pe": 29.1,
+   "pe_pct": 12,
+   "pb": 4.09,
+   "pb_pct": 22,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1250.23,
+   "chg": -2.83,
+   "pe": 96.04,
+   "pe_pct": 76,
+   "pb": 6.16,
+   "pb_pct": 61,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5531.19,
+   "chg": 0.24,
+   "pe": 8.92,
+   "pe_pct": 85,
+   "pb": 0.87,
+   "pb_pct": 55,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11297.9,
+   "chg": 1.03,
+   "pe": 8.89,
+   "pe_pct": 80,
+   "pb": 0.89,
+   "pb_pct": 65,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24528.73,
+   "chg": -1.08,
+   "pe": 11.29,
+   "pe_pct": 63,
+   "pb": 1.13,
+   "pb_pct": 58,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 24315.0,
+   "chg": -5.52,
+   "pe": 25.96,
+   "pe_pct": 20,
+   "pb": 7.94,
+   "pb_pct": 55,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7353.73,
+   "chg": -4.36,
+   "pe": 22.84,
+   "pe_pct": 25,
+   "pb": 5.14,
+   "pb_pct": 85,
+   "pe_level": "低估",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "银行Ⅱ",
+    "chg": 0.95
+   },
+   {
+    "name": "电力",
+    "chg": 0.73
+   },
+   {
+    "name": "铁路公路",
+    "chg": 0.69
+   },
+   {
+    "name": "公用事业",
+    "chg": 0.51
+   },
+   {
+    "name": "农林牧渔",
+    "chg": 0.34
+   },
+   {
+    "name": "贸易Ⅱ",
+    "chg": -0.38
+   }
+  ],
+  "dn": [
+   {
+    "name": "元件",
+    "chg": -5.16
+   },
+   {
+    "name": "通信设备",
+    "chg": -3.89
+   },
+   {
+    "name": "医疗服务",
+    "chg": -3.66
+   },
+   {
+    "name": "仪器仪表",
+    "chg": -3.13
+   },
+   {
+    "name": "玻璃玻纤",
+    "chg": -2.99
+   },
+   {
+    "name": "通用设备",
+    "chg": -2.78
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-1.40%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.4015（2026-11-05）（≈ 840 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.9812",
+   "date": "2026-11-04"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.7714",
+   "date": "2026-11-04"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5593",
+   "date": "2026-11-04"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1295",
+   "date": "2026-11-04"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6850",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8473",
+   "date": "2026-11-04"
+  }
+ ],
+ "macro": [
+  {
+   "title": "菲律宾第二季度GDP增速上修至2.4%，仍接近五年最低水平",
+   "ctime": "1793946071",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixuqhy8825521.shtml"
+  },
+  {
+   "title": "高盛大砍黄金目标价！央行购金挡不住美联储转鹰，当前格局像极了2022年",
+   "ctime": "1793945220",
+   "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-06/doc-inixuqhu5009235.shtml"
+  },
+  {
+   "title": "高盛下调黄金目标价：牛市逻辑尚未终结，美联储却已改变游戏规则",
+   "ctime": "1793944603",
+   "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-06/doc-inixuqhs8227340.shtml"
+  },
+  {
+   "title": "一地虚假包装项目骗取千万特别国债资金被中央通报",
+   "ctime": "1793944383",
+   "url": "https://finance.sina.com.cn/roll/2026-11-06/doc-inixuqhy8815626.shtml"
+  },
+  {
+   "title": "英伟达应对数据中心监管阻力：改造阿波罗旗下旧电信楼宇",
+   "ctime": "1793947381",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixuqhu5023747.shtml"
+  },
+  {
+   "title": "美国得州候任州长拟暂停新建数据中心，计划立法加强监管",
+   "ctime": "1793946167",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixuqhu5014305.shtml"
+  },
+  {
+   "title": "三星新材遭证监会立案调查！公司前三季度亏损6217万元，股价较年内高点回落29%",
+   "ctime": "1793944793",
+   "url": "https://finance.sina.com.cn/roll/2026-11-03/doc-inixncmx8684251.shtml"
+  },
+  {
+   "title": "美元指数低位反弹，不改调整趋势，等待非农数据落地",
+   "ctime": "1793944200",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-06/doc-inixuqhy8813480.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 12,
+   "pe": 29.0995,
+   "pb_pct": 22,
+   "pb": 4.0895
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 20,
+   "pe": 25.9623,
+   "pb_pct": 55,
+   "pb": 7.9398
+  }
+ ]
+}
