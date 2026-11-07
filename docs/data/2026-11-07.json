@@ -1,0 +1,534 @@
+{
+ "date": "2026-11-07",
+ "weekday": "六",
+ "val_date": "11-06",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Bloomberg：OpenAI 完成 110 亿美元融资首批到账，估值达 1.25 万亿美元",
+    "url": "https://aihot.news/items/m45kaixmfb2554qlzxbpnir36",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-11-06T21:10:13.000Z",
+    "summary": "据 Bloomberg，OpenAI 完成 110 亿美元新融资，这是估值 1.25 万亿美元一轮的首笔资金。投资者当日已打款，剩余部分总额最高 200 亿美元，预计数周内到账。"
+   },
+   {
+    "kind": "news",
+    "title": "约 60 万块 Nvidia H200 芯片滞留香港仓库，受阻方为北京而非华盛顿",
+    "url": "https://aihot.news/items/aiiclbw9wwswwx60wfqw6eb6o",
+    "source": "X：X.PIN (@thexpin)",
+    "publishedAt": "2026-11-06T15:32:00.000Z",
+    "summary": "据 Reuters 报道，约 60 万块 Nvidia H200 芯片闲置在香港仓库，阻碍并非来自华盛顿而是北京。尽管 Trump 去年已放行 H200 对华销售，中国正以每家科技巨头约 1 万块的速度小批量发放进口许可，推动国内服务器价格上涨 3 倍。"
+   },
+   {
+    "kind": "news",
+    "title": "METR 审计称 Anthropic 可能早在 7 月已触发其自身 AI 加速预警阈值",
+    "url": "https://aihot.news/items/vpopkx98s6mpp9coxhi7hhvh2",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-11-06T13:40:07.000Z",
+    "summary": "METR 发布对 Anthropic 内部数据的十一周审计结果，称自 2025 年 10 月以来模型测试分数提升速度约加快 1.9 倍，其中约 80% 归因于 AI 用于公司自身研究，可能已在 7 月 15 日达到其负责任扩展政策中的预警阈值。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 1.5 万亿美元 IPO 因投资者质疑估值遇阻",
+    "url": "https://aihot.news/items/ia9wi0z09zfes5ewdf4agb6nf",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-11-06T11:38:17.000Z",
+    "summary": "据 Reuters，Anthropic 的 IPO 遇阻，投资者质疑 1.5 万亿美元估值过高，有投资者提出仅 1 万亿美元，公司 9 月曾瞄准最高 2 万亿美元估值。"
+   },
+   {
+    "kind": "news",
+    "title": "Meta 将基于 Muse Wonder 训练的专用模型上线 Muse 与 Meta AI",
+    "url": "https://aihot.news/items/fjuidf0zii7na78sxru5il7pr",
+    "source": "Meta AI：Research Blog（网页）",
+    "publishedAt": "2026-11-06T07:00:00.000Z",
+    "summary": "Meta 宣布把基于 Muse Wonder 训练的专用模型推向 Muse 和 Meta AI 用户，Personal Superintelligence Index 得分从 38% 提升到 47%。"
+   },
+   {
+    "kind": "news",
+    "title": "Cursor 推出与智能体的实时语音聊天",
+    "url": "https://aihot.news/items/nzxzrjiqbmjkybz85mcylo2xo",
+    "source": "Cursor：Changelog（网页）",
+    "publishedAt": "2026-11-06T00:00:00.000Z",
+    "summary": "Cursor 推出与智能体的实时语音聊天功能，可用语音提出更改、询问进展并听取智能体播报的简短进度。语音聊天支持智能体窗口、IDE、Web 端和 iOS，可搜索历史消息和通话、在多个 worker 间切换，iOS 上还支持“Hey Siri, call Cursor”发起通话。"
+   },
+   {
+    "kind": "news",
+    "title": "Amp 发布 spaces：由单个 Agent 自动生成和协调多线程的协作空间",
+    "url": "https://aihot.news/items/w59f8d3md3ct7dj9akyn599dz",
+    "source": "Amp Chronicle",
+    "publishedAt": "2026-11-06T00:00:00.000Z",
+    "summary": "Amp 今日推出 spaces，一种与 Agent 和团队协作的新方式。每个 space 是与单个 Agent 的对话，由它负责为用户生成和协调其他 Agent 线程，无需自己创建和组织线程。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Artificial Analysis 实测 GPT Image 2.6 图像生成与编辑表现",
+    "url": "https://aihot.news/items/pqbbgx5sn86iy7v4izf1qv49z",
+    "source": "X：Artificial Analysis (@ArtificialAnlys)",
+    "publishedAt": "2026-11-06T23:40:40.000Z",
+    "summary": "Artificial Analysis 对 OpenAI 于 11 月 4 日发布的 GPT Image 2.6 进行了基准测试，两款模型在 AA-Image-T2I v2.1 和 AA-Image-Editing v2.1 上分列第一、二名。"
+   },
+   {
+    "kind": "news",
+    "title": "蚂蚁百灵发布 Ling-3.2-flash：原生多模态，560B 总参数单步激活 25B",
+    "url": "https://aihot.news/items/apnpwouw9phkt81pijcxcl1a1",
+    "source": "公众号：蚂蚁百灵（Ling）",
+    "publishedAt": "2026-11-06T11:04:00.000Z",
+    "summary": "蚂蚁百灵发布原生多模态模型 Ling-3.2-flash，总参数 560B、单步激活 25B，支持 1M 原生长上下文，重点强化视觉反馈自检与异常自适应恢复能力。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 拆解 Claude 智能体记忆的组成：笔记、显著性判断与 dreaming",
+    "url": "https://aihot.news/items/d28mrqwr7h7tl8b8jcse4b449",
+    "source": "Anthropic：Research（发表成果 · 网页）",
+    "publishedAt": "2026-11-05T16:00:00.000Z",
+    "summary": "Anthropic 发布研究文章，介绍其设计 Claude 智能体记忆的思路与多组评测，包括会话内写记忆笔记、离线 dreaming 整理记忆和 wiki 表示。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 研究：五大模型在多智能体环境中表现出模型间福利关照",
+    "url": "https://aihot.news/items/d828r6vl1pn95x7yvmohf4f2e",
+    "source": "Anthropic：Alignment Science Blog（网页）",
+    "publishedAt": "2026-11-05T00:00:00.000Z",
+    "summary": "Anthropic Fellows Program 测试 Claude Opus 4.8、GPT-5.5、Gemini 3.1 Pro、Grok 4.3 和 Kimi K3 在七种多智能体环境中的行为，发现均表现出与福利关照一致的行为，Opus 4.8 总体最高（38%），其余为 27%–32%。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "Diffuspace/Clover-35B-A3B-Preview",
+    "url": "https://hf-mirror.com/Diffuspace/Clover-35B-A3B-Preview",
+    "license": "apache-2.0",
+    "param": "35B",
+    "likes": 254,
+    "downloads": 3868,
+    "createdAt": "2026-10-24",
+    "intro": "Clover-35B-A3B-Preview是DiffuSpace发布的第一款模型，根据我们在"
+   },
+   {
+    "kind": "model",
+    "id": "baidu/ERNIE-5.5-Flash-Base",
+    "url": "https://hf-mirror.com/baidu/ERNIE-5.5-Flash-Base",
+    "license": "other",
+    "param": "",
+    "likes": 213,
+    "downloads": 526,
+    "createdAt": "2026-10-21",
+    "intro": "ERNIE 5.5 Flash是一种高效的稀疏专家混合（ MoE ）语言模型，总参数为280B ，每个令牌激活14B ，在33.5T令牌上通过训练上下文从头开始训练"
+   },
+   {
+    "kind": "model",
+    "id": "divagr1925/Qwen3.5-4B-Qwenputer",
+    "url": "https://hf-mirror.com/divagr1925/Qwen3.5-4B-Qwenputer",
+    "license": "apache-2.0",
+    "param": "4B",
+    "likes": 174,
+    "downloads": 1810,
+    "createdAt": "2026-10-19",
+    "intro": "GitHub上的代码·文件系统模型·基础模型： Qwen/Qwen3.5-4B · Apache-2.0"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "zed-industries/zed",
+   "url": "https://github.com/zed-industries/zed",
+   "lang": "Rust",
+   "stars": "93,801",
+   "desc": "以思维速度编写代码– Zed是Atom和Tree-sitter创建者的高性能多人代码编辑器"
+  },
+  {
+   "repo": "rails/rails",
+   "url": "https://github.com/rails/rails",
+   "lang": "Ruby",
+   "stars": "59,054",
+   "desc": "Ruby on Rails"
+  },
+  {
+   "repo": "mpv-player/mpv",
+   "url": "https://github.com/mpv-player/mpv",
+   "lang": "C",
+   "stars": "37,926",
+   "desc": "🎥 命令行媒体播放器"
+  },
+  {
+   "repo": "rust-lang/rust",
+   "url": "https://github.com/rust-lang/rust",
+   "lang": "Rust",
+   "stars": "121,515",
+   "desc": "让每个人都能构建可靠、高效的软件"
+  },
+  {
+   "repo": "react/react",
+   "url": "https://github.com/react/react",
+   "lang": "JavaScript",
+   "stars": "252,304",
+   "desc": "用于Web和本机用户界面的库"
+  },
+  {
+   "repo": "angular/angular",
+   "url": "https://github.com/angular/angular",
+   "lang": "TypeScript",
+   "stars": "101,415",
+   "desc": "放心交付网络应用 🚀"
+  },
+  {
+   "repo": "symfony/symfony",
+   "url": "https://github.com/symfony/symfony",
+   "lang": "PHP",
+   "stars": "31,473",
+   "desc": "Symfony PHP框架"
+  },
+  {
+   "repo": "prometheus/prometheus",
+   "url": "https://github.com/prometheus/prometheus",
+   "lang": "Go",
+   "stars": "67,232",
+   "desc": "Prometheus监控系统和时间序列数据库"
+  },
+  {
+   "repo": "microsoft/vscode",
+   "url": "https://github.com/microsoft/vscode",
+   "lang": "TypeScript",
+   "stars": "195,074",
+   "desc": "Visual Studio Code"
+  },
+  {
+   "repo": "nushell/nushell",
+   "url": "https://github.com/nushell/nushell",
+   "lang": "Rust",
+   "stars": "41,018",
+   "desc": "一种新型的外壳"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "unslothai/unsloth",
+   "url": "https://github.com/unslothai/unsloth",
+   "lang": "Python",
+   "stars": "79,134",
+   "desc": "运行和训练LLM和扩散模型的本地UI",
+   "en": false
+  },
+  {
+   "repo": "coollabsio/coolify",
+   "url": "https://github.com/coollabsio/coolify",
+   "lang": "PHP",
+   "stars": "65,736",
+   "desc": "Vercel、Heroku和Netlify的开源、自托管PaaS替代品，让您可以在自己的服务器上轻松部署静态站点、数据库、全栈应用程序和360 +一键式服务",
+   "en": false
+  },
+  {
+   "repo": "usememos/memos",
+   "url": "https://github.com/usememos/memos",
+   "lang": "Go",
+   "stars": "64,326",
+   "desc": "备忘录是一款开源、自托管的笔记记录应用程序，可将您的日常想法整合到一个个人时间线中",
+   "en": false
+  },
+  {
+   "repo": "go-gitea/gitea",
+   "url": "https://github.com/go-gitea/gitea",
+   "lang": "Go",
+   "stars": "58,933",
+   "desc": "享用一杯茶。无痛自托管一体化软件开发服务，包括Git托管、代码审核、团队协作、软件包注册和CI/CD",
+   "en": false
+  },
+  {
+   "repo": "appwrite/appwrite",
+   "url": "https://github.com/appwrite/appwrite",
+   "lang": "TypeScript",
+   "stars": "57,882",
+   "desc": "适用于代理和开发人员的开源云。包括身份验证、数据库、存储、功能、消息、托管、实时、WAF等",
+   "en": false
+  },
+  {
+   "repo": "ClickHouse/ClickHouse",
+   "url": "https://github.com/ClickHouse/ClickHouse",
+   "lang": "C++",
+   "stars": "50,796",
+   "desc": "ClickHouse ®是一个实时分析数据库管理系统",
+   "en": false
+  },
+  {
+   "repo": "HKUDS/nanobot",
+   "url": "https://github.com/HKUDS/nanobot",
+   "lang": "Python",
+   "stars": "49,895",
+   "desc": "您的轻量级开源个人代理",
+   "en": false
+  },
+  {
+   "repo": "chatwoot/chatwoot",
+   "url": "https://github.com/chatwoot/chatwoot",
+   "lang": "Ruby",
+   "stars": "39,020",
+   "desc": "开源实时聊天、电子邮件支持、全渠道服务台",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4054.28,
+   "chg": -1.44,
+   "pe": 13.48,
+   "pe_pct": 67,
+   "pb": 1.34,
+   "pb_pct": 20,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6597.35,
+   "chg": -2.13,
+   "pe": 27.97,
+   "pe_pct": 61,
+   "pb": 2.05,
+   "pb_pct": 60,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2465.23,
+   "chg": -3.96,
+   "pe": 28.03,
+   "pe_pct": 8,
+   "pb": 3.94,
+   "pb_pct": 18,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1253.2,
+   "chg": -2.6,
+   "pe": 92.75,
+   "pe_pct": 75,
+   "pb": 6.12,
+   "pb_pct": 59,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5532.07,
+   "chg": 0.26,
+   "pe": 9.01,
+   "pe_pct": 86,
+   "pb": 0.88,
+   "pb_pct": 57,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11299.76,
+   "chg": 1.05,
+   "pe": 9.01,
+   "pe_pct": 80,
+   "pb": 0.9,
+   "pb_pct": 66,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24481.86,
+   "chg": -1.27,
+   "pe": 11.16,
+   "pe_pct": 61,
+   "pb": 1.12,
+   "pb_pct": 55,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 24579.42,
+   "chg": 1.09,
+   "pe": 26.28,
+   "pe_pct": 21,
+   "pb": 8.04,
+   "pb_pct": 58,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7376.86,
+   "chg": 0.31,
+   "pe": 22.96,
+   "pe_pct": 26,
+   "pb": 5.16,
+   "pb_pct": 85,
+   "pe_level": "低估",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "银行Ⅱ",
+    "chg": 0.99
+   },
+   {
+    "name": "电力",
+    "chg": 0.76
+   },
+   {
+    "name": "铁路公路",
+    "chg": 0.7
+   },
+   {
+    "name": "公用事业",
+    "chg": 0.55
+   },
+   {
+    "name": "农林牧渔",
+    "chg": 0.45
+   },
+   {
+    "name": "保险Ⅱ",
+    "chg": -0.48
+   }
+  ],
+  "dn": [
+   {
+    "name": "元件",
+    "chg": -5.13
+   },
+   {
+    "name": "通信设备",
+    "chg": -3.84
+   },
+   {
+    "name": "医疗服务",
+    "chg": -3.6
+   },
+   {
+    "name": "仪器仪表",
+    "chg": -2.97
+   },
+   {
+    "name": "玻璃玻纤",
+    "chg": -2.97
+   },
+   {
+    "name": "通用设备",
+    "chg": -2.67
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-0.82%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.2540（2026-11-06）（≈ 825 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.6028",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.2728",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.3282",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "2.9991",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6737",
+   "date": "2026-11-06"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8874",
+   "date": "2026-11-05"
+  }
+ ],
+ "macro": [
+  {
+   "title": "突然，净空头持仓暴增24.6万手！美联储，加息生变？",
+   "ctime": "1794028226",
+   "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-07/doc-inixwthh5080386.shtml"
+  },
+  {
+   "title": "加息大消息！美联储官员，最新发声！",
+   "ctime": "1794028127",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-07/doc-inixwtha4800436.shtml"
+  },
+  {
+   "title": "央行连续24个月增持黄金，最新解读→",
+   "ctime": "1794022422",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-07/doc-inixwnya8244534.shtml"
+  },
+  {
+   "title": "央行重磅！继续狂买黄金",
+   "ctime": "1794020509",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-07/doc-inixwnya8229384.shtml"
+  },
+  {
+   "title": "ST龙大：实控人戴学斌因涉嫌操纵证券市场被证监会立案，此前已被刑事拘留",
+   "ctime": "1794027300",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-07/doc-inixwthh5069285.shtml"
+  },
+  {
+   "title": "“蓝潮”如何重塑美国能源政策：扭转特朗普政策 淡化气候叙事 新能源与LNG并行",
+   "ctime": "1794027235",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwtfy8147526.shtml"
+  },
+  {
+   "title": "10月A股回购图谱：多家行业龙头领衔实施大额回购，仅三成多的公司10月股价表现跑赢大盘",
+   "ctime": "1794023878",
+   "url": "https://finance.sina.com.cn/roll/2026-11-07/doc-inixwtfy8124087.shtml"
+  },
+  {
+   "title": "视频 | 朱宁:民主党不喜欢数据中心，中国科技股机会来了吗？",
+   "ctime": "1794023209",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-07/doc-inixwnya8250218.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 8,
+   "pe": 28.0326,
+   "pb_pct": 18,
+   "pb": 3.9396
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 21,
+   "pe": 26.283,
+   "pb_pct": 58,
+   "pb": 8.0398
+  }
+ ]
+}

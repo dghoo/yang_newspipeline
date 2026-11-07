@@ -426,5 +426,17 @@
   "Open-Source Frontier Voice AI": "开源前沿语音AI",
   "Towards a More Autonomous Agent System": "迈向更自主的Agent系统",
   "Craft Anything: understand how any software works, and craft your own.": "制作任何东西：了解任何软件的工作原理，并制作自己的软件",
-  "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.": "您知道的IDE是在Rust中重建的"
+  "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.": "您知道的IDE是在Rust中重建的",
+  "Clover-35B-A3B-Preview is the first model released by DiffuSpace, delivering state-of-the-art performance among open-source diffusion language models at release on the benchmarks reported in our launch blog. Clover combines a 35B-parameter mixture-of-experts backbone with approximately 3B active parameters per token, block diffusion generation, and a 128K context window.": "Clover-35B-A3B-Preview是DiffuSpace发布的第一款模型，根据我们在",
+  "ERNIE 5.5 Flash is an efficient sparse Mixture-of-Experts (MoE) language model with 280B total parameters and 14B activated per token, pre-trained from scratch on 33.5T tokens with a training context of up to 128K; fine-tuning and inference support a 1M-token context. Different domains, reasoning tasks and agentic applications call for different data, training objectives and behavioral policies; by releasing the weights at the end of pre-training, we let developers build on the model's general capabilities and choose for themselves where to take it next. Because further training and agentic us": "ERNIE 5.5 Flash是一种高效的稀疏专家混合（ MoE ）语言模型，总参数为280B ，每个令牌激活14B ，在33.5T令牌上通过训练上下文从头开始训练",
+  "Code on GitHub · Filesystem model · Base model: Qwen/Qwen3.5-4B · Apache-2.0": "GitHub上的代码·文件系统模型·基础模型： Qwen/Qwen3.5-4B · Apache-2.0",
+  "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.": "以思维速度编写代码– Zed是Atom和Tree-sitter创建者的高性能多人代码编辑器",
+  "🎥 Command line media player": "🎥 命令行媒体播放器",
+  "The library for web and native user interfaces.": "用于Web和本机用户界面的库",
+  "Deliver web apps with confidence 🚀": "放心交付网络应用 🚀",
+  "The Symfony PHP framework": "Symfony PHP框架",
+  "The Prometheus monitoring system and time series database.": "Prometheus监控系统和时间序列数据库",
+  "A new type of shell": "一种新型的外壳",
+  "Your lightweight open-source personal agent.": "您的轻量级开源个人代理",
+  "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬": "开源实时聊天、电子邮件支持、全渠道服务台"
 }
