@@ -438,5 +438,12 @@
   "The Prometheus monitoring system and time series database.": "Prometheus监控系统和时间序列数据库",
   "A new type of shell": "一种新型的外壳",
   "Your lightweight open-source personal agent.": "您的轻量级开源个人代理",
-  "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬": "开源实时聊天、电子邮件支持、全渠道服务台"
+  "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬": "开源实时聊天、电子邮件支持、全渠道服务台",
+  "We post-trained over Alibaba's Qwen3.8-27B to reinforce western values on a Chinese-trained model. We call this new model Arete-27B.": "我们对阿里巴巴的Qwen3.8-27B进行了后期培训，以在中国培训的模式上强化西方价值观",
+  "An open source design system that's fully customizable and agent ready": "完全可定制和代理就绪的开源设计系统",
+  "Hunt down social media accounts by username across social networks": "通过社交网络中的用户名查找社交媒体帐户",
+  "An extremely fast Python linter and code formatter, written in Rust.": "用Rust编写的非常快的Python linter和代码格式化程序",
+  "A utility-first CSS framework for rapid UI development.": "实用程序优先的CSS框架，用于快速UI开发",
+  "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.": "通过家庭网络从家庭助理控制您的三星设备，无需云帐户",
+  "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.": "NVIDIA Kubernetes引擎(NVKE)"
 }

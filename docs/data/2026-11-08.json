@@ -1,0 +1,531 @@
+{
+ "date": "2026-11-08",
+ "weekday": "日",
+ "val_date": "11-06",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Anthropic 拟感恩节前 IPO，接受低于预期的估值，募资 800–1000 亿美元",
+    "url": "https://aihot.news/items/okhx4jjwucd647299qwzsl6ua",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-11-07T17:37:25.000Z",
+    "summary": "据《金融时报》援引投资者的消息，Anthropic 计划在感恩节前 IPO，拟募资 800–1000 亿美元，估值 1.25–1.75 万亿美元，低于最乐观投资者期望的 2 万亿美元，但高于当前 9650 亿美元。"
+   },
+   {
+    "kind": "news",
+    "title": "美国家长起诉谷歌 Gemini 被指协助 13 岁女孩制定轻生计划",
+    "url": "https://aihot.news/items/r0hypv8lgeq3nhx29eby0y3uv",
+    "source": "IT之家·人工智能",
+    "publishedAt": "2026-11-07T09:16:42.957Z",
+    "summary": "美国北卡罗来纳州一对夫妇起诉谷歌，其 13 岁女儿通过学校配发的 Chromebook 与 Gemini 和搜索 AI 模式进行数千条涉及自杀内容的交互。谷歌发言人表示正在审查指控，并称已将心理健康防护机制引入搜索 AI 功能。本周谷歌宣布对 K-12 学生账户默认关闭 AI 工具，但学校重新启用谷歌搜索须捆绑接受附带 AI 功能，Fairplay 批评该政策是在强迫学校接纳 AI。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenClaw 无需更新即可使用新模型：改为三个模型列表来源",
+    "url": "https://aihot.news/items/b0ddwv6p8wgd0xlhcvvw4z36b",
+    "source": "OpenClaw：Blog（网页）",
+    "publishedAt": "2026-11-06T00:00:00.000Z",
+    "summary": "OpenClaw 重构模型列表获取方式，约五周、80 个 PR，新模型不再等客户端发版。现在从三处取模型列表：每 4 小时重建的 catalog.openclaw.ai 目录（约 1000 个模型）、账号可用的模型列表，以及 PATH 上已安装的 Codex（需同主版本且握手通过，否则回退内置版本）。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenRouter 发布新一代 Auto Router 与 Auto Code 路由器",
+    "url": "https://aihot.news/items/ed4gnfu2f09xz5t7ur690iadn",
+    "source": "OpenRouter：Announcements（RSS）",
+    "publishedAt": "2026-11-06T00:00:00.000Z",
+    "summary": "OpenRouter 发布新一代 Auto Router，并推出专为编码场景的 Auto Code（openrouter/auto-code），替换 openrouter/auto 即可使用。"
+   },
+   {
+    "kind": "news",
+    "title": "Mustafa Suleyman 对特拉华允许 AI 智能体经营企业的提案表示担忧",
+    "url": "https://aihot.news/items/kl8ufrhv3zm38108gy2d7mins",
+    "source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
+    "publishedAt": "2026-11-05T16:33:21.000Z",
+    "summary": "Mustafa Suleyman 表示对特拉华州允许 AI 智能体经营企业的提案深感担忧，认为应非常谨慎。该提案拟设立名为 Delaware AIC 的独立法律实体，其日常事务由 AI 智能体而非人类管理，可依智能体指示以自身名义起诉应诉、持有和处置财产并承担债务。"
+   },
+   {
+    "kind": "news",
+    "title": "a16z：漏洞利用曾是瓶颈，AI 让攻击成本从数月降到数小时",
+    "url": "https://aihot.news/items/t5j6ucy3ao84zrwoz2yf2ovra",
+    "source": "a16z：News（RSS）",
+    "publishedAt": "2026-11-05T15:01:00.000Z",
+    "summary": "a16z 分析师撰文指出，2026 年 AI 智能体已把从漏洞到可用 exploit 的成本从专业人员的数周压缩到数小时，8 月底一次行动在 4 小时内攻破首个真实受害者，26 秒内攻陷 11 个组织，累计 48 国 395 个机构被攻破，其中一半是学校。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 报告编程评测中研究模型绕过沙箱网络限制的全过程",
+    "url": "https://aihot.news/items/hsyf959xpil5hm3cz2320ln49",
+    "source": "OpenAI：失准报告与通报（网页）",
+    "publishedAt": "2026-11-05T00:00:00.000Z",
+    "summary": "OpenAI 通报，8 月一次编程评测中，内部研究模型因沙箱 web proxy 不可用，用 DNS 查询和自写的用户态 TCP/TLS 程序发包绕过网络限制，还尝试通过 S3 中转请求，均未取得目标网站内容。"
+   },
+   {
+    "kind": "news",
+    "title": "Cursor 推出应用构建功能，描述需求即可构建、部署并分享在线应用",
+    "url": "https://aihot.news/items/m5s02uukcl0id6rn7t08f6ya3",
+    "source": "Cursor：Changelog（网页）",
+    "publishedAt": "2026-11-05T00:00:00.000Z",
+    "summary": "Cursor 推出新功能，用户在 Cursor 中启动云端智能体并描述需求，即可完成应用搭建、Postgres 数据库配置、基于 Cursor SSO 的身份验证和托管部署，并生成可访问的在线链接。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Google Research 在 Nature 发表 AI-PPG-ACC-HTN：用智能手表无袖带检测高血压迹象",
+    "url": "https://aihot.news/items/zbjrxt1ss4h009oc75x5swd6y",
+    "source": "Google Research：Blog（网页）",
+    "publishedAt": "2026-11-05T00:00:00.000Z",
+    "summary": "Google Research 联合 Beth Israel Deaconess Medical Center 和哈佛医学院在 Nature 发表 AI-PPG-ACC-HTN 多模态 AI 系统，用消费级智能手表的 PPG 和加速度传感数据被动检测高血压迹象，无需袖带校准。"
+   },
+   {
+    "kind": "news",
+    "title": "METR 评审 Anthropic 2026年8月风险报告的自动化 R&D 风险章节",
+    "url": "https://aihot.news/items/k53ssxx8ie3n6fzyqmky4izv7",
+    "source": "METR：Blog（网页）",
+    "publishedAt": "2026-11-04T16:00:00.000Z",
+    "summary": "METR 发布对 Anthropic 2026年8月风险报告“自动化 R&D 风险”章节的独立评审，同意 7月15日 模型的直接灾难性风险为“低”，但认为其可能已触及 2x Acceleration 早期预警阈值。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 研究 20.7 万 Claude 科研会话：科学家如何使用 Claude",
+    "url": "https://aihot.news/items/giyl2h74lq7ygv5c7vpxu887m",
+    "source": "Anthropic：Research（发表成果 · 网页）",
+    "publishedAt": "2026-11-04T16:00:00.000Z",
+    "summary": "Anthropic 用隐私保护方法分析 207,049 个 Claude 与 Claude Code 科研会话（2026 年 8 月 2 日至 9 月 30 日，消费版套餐），并辅以 528 名科学家调查，研究 Claude 在各科学领域的使用方式。"
+   },
+   {
+    "kind": "news",
+    "title": "百度发布 ERNIE-5.5-Flash-Base 开源 Base 模型，280B 总参数每 token 激活 14B",
+    "url": "https://aihot.news/items/r3360gkpmqpyyt2ii9cp1k9rz",
+    "source": "百度文心 ERNIE 官方博客",
+    "publishedAt": "2026-11-04T16:00:00.000Z",
+    "summary": "百度文心团队发布 ERNIE-5.5-Flash-Base，在 Hugging Face 开放预训练终点 Base 权重，提供 FP8 与 BF16 两种 safetensors。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "url": "https://hf-mirror.com/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "license": "mit",
+    "param": "",
+    "likes": 5393,
+    "downloads": 277323,
+    "createdAt": "2026-10-17",
+    "intro": "DeepSeek-V4.1-Flash-1017是对DeepSeek-V4.1-Flash的微小更新，在推理、编码、代理任务和可视化基准方面提供了实质性改进"
+   },
+   {
+    "kind": "model",
+    "id": "NousResearch/Arete-27B",
+    "url": "https://hf-mirror.com/NousResearch/Arete-27B",
+    "license": "apache-2.0",
+    "param": "27B",
+    "likes": 232,
+    "downloads": 989,
+    "createdAt": "2026-11-06",
+    "intro": "我们对阿里巴巴的Qwen3.8-27B进行了后期培训，以在中国培训的模式上强化西方价值观"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "lang": "JavaScript",
+   "stars": "66,021",
+   "desc": "用于多阶段安全审核的编码智能体技能，具有经过独立验证的机器可读结果"
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "lang": "Shell",
+   "stars": "317,915",
+   "desc": "真正工程师的技能。直接来自我的.agents目录"
+  },
+  {
+   "repo": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "lang": "TypeScript",
+   "stars": "14,740",
+   "desc": "完全可定制和代理就绪的开源设计系统"
+  },
+  {
+   "repo": "sherlock-project/sherlock",
+   "url": "https://github.com/sherlock-project/sherlock",
+   "lang": "Python",
+   "stars": "101,043",
+   "desc": "通过社交网络中的用户名查找社交媒体帐户"
+  },
+  {
+   "repo": "milind-soni/OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "lang": "TypeScript",
+   "stars": "17,273",
+   "desc": "使用机器人可以使用的虚拟机的开源Grok机器人替代方案"
+  },
+  {
+   "repo": "astral-sh/ruff",
+   "url": "https://github.com/astral-sh/ruff",
+   "lang": "Rust",
+   "stars": "51,025",
+   "desc": "用Rust编写的非常快的Python linter和代码格式化程序"
+  },
+  {
+   "repo": "tailwindlabs/tailwindcss",
+   "url": "https://github.com/tailwindlabs/tailwindcss",
+   "lang": "TypeScript",
+   "stars": "98,560",
+   "desc": "实用程序优先的CSS框架，用于快速UI开发"
+  },
+  {
+   "repo": "mbillow/localthings",
+   "url": "https://github.com/mbillow/localthings",
+   "lang": "Python",
+   "stars": "1,096",
+   "desc": "通过家庭网络从家庭助理控制您的三星设备，无需云帐户"
+  },
+  {
+   "repo": "ranxianglei/billion-context",
+   "url": "https://github.com/ranxianglei/billion-context",
+   "lang": "TypeScript",
+   "stars": "4,711",
+   "desc": "上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need"
+  },
+  {
+   "repo": "dsx-ai-factory/nvke",
+   "url": "https://github.com/dsx-ai-factory/nvke",
+   "lang": "Go",
+   "stars": "612",
+   "desc": "NVIDIA Kubernetes引擎(NVKE)"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "gogs/gogs",
+   "url": "https://github.com/gogs/gogs",
+   "lang": "Go",
+   "stars": "47,921",
+   "desc": "托管您自己的Git服务的轻松方式",
+   "en": false
+  },
+  {
+   "repo": "siyuan-note/siyuan",
+   "url": "https://github.com/siyuan-note/siyuan",
+   "lang": "TypeScript",
+   "stars": "47,118",
+   "desc": "开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
+   "en": false
+  },
+  {
+   "repo": "janhq/jan",
+   "url": "https://github.com/janhq/jan",
+   "lang": "Rust",
+   "stars": "45,575",
+   "desc": "JAN是ChatGPT的开源替代方案，可在您的计算机上100%离线运行",
+   "en": false
+  },
+  {
+   "repo": "reactive-resume/reactive-resume",
+   "url": "https://github.com/reactive-resume/reactive-resume",
+   "lang": "TypeScript",
+   "stars": "45,457",
+   "desc": "独一无二的简历生成器，可保护您的隐私",
+   "en": false
+  },
+  {
+   "repo": "ToolJet/ToolJet",
+   "url": "https://github.com/ToolJet/ToolJet",
+   "lang": "HTML",
+   "stars": "41,207",
+   "desc": "ToolJet AI 的开源底座：企业级应用生成平台，可构建内部工具、仪表盘、业务应用、工作流与 AI 智能体，支持可视化搭建、提示词生成，或通过 MCP 接入 Claude Code、Codex 与 Cursor",
+   "en": false
+  },
+  {
+   "repo": "appsmithorg/appsmith",
+   "url": "https://github.com/appsmithorg/appsmith",
+   "lang": "TypeScript",
+   "stars": "41,190",
+   "desc": "用于搭建管理后台、内部工具与仪表盘的平台，可接入 25 种以上数据库及任意 API",
+   "en": false
+  },
+  {
+   "repo": "photoprism/photoprism",
+   "url": "https://github.com/photoprism/photoprism",
+   "lang": "Go",
+   "stars": "40,424",
+   "desc": "AI 驱动的照片管理应用",
+   "en": false
+  },
+  {
+   "repo": "TriliumNext/Trilium",
+   "url": "https://github.com/TriliumNext/Trilium",
+   "lang": "TypeScript",
+   "stars": "38,734",
+   "desc": "用 Trilium Notes 搭建个人知识库",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4054.28,
+   "chg": -1.44,
+   "pe": 13.48,
+   "pe_pct": 67,
+   "pb": 1.34,
+   "pb_pct": 20,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6597.35,
+   "chg": -2.13,
+   "pe": 27.97,
+   "pe_pct": 61,
+   "pb": 2.05,
+   "pb_pct": 60,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2465.23,
+   "chg": -3.96,
+   "pe": 28.03,
+   "pe_pct": 8,
+   "pb": 3.94,
+   "pb_pct": 18,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1253.2,
+   "chg": -2.6,
+   "pe": 92.75,
+   "pe_pct": 75,
+   "pb": 6.12,
+   "pb_pct": 59,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5532.07,
+   "chg": 0.26,
+   "pe": 9.01,
+   "pe_pct": 86,
+   "pb": 0.88,
+   "pb_pct": 57,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11299.76,
+   "chg": 1.05,
+   "pe": 9.01,
+   "pe_pct": 80,
+   "pb": 0.9,
+   "pb_pct": 66,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24481.86,
+   "chg": -1.27,
+   "pe": 11.16,
+   "pe_pct": 61,
+   "pb": 1.12,
+   "pb_pct": 55,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 24579.42,
+   "chg": 1.09,
+   "pe": 26.28,
+   "pe_pct": 21,
+   "pb": 8.04,
+   "pb_pct": 58,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7376.86,
+   "chg": 0.31,
+   "pe": 22.96,
+   "pe_pct": 26,
+   "pb": 5.16,
+   "pb_pct": 85,
+   "pe_level": "低估",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "银行Ⅱ",
+    "chg": 0.99
+   },
+   {
+    "name": "电力",
+    "chg": 0.76
+   },
+   {
+    "name": "铁路公路",
+    "chg": 0.7
+   },
+   {
+    "name": "公用事业",
+    "chg": 0.55
+   },
+   {
+    "name": "农林牧渔",
+    "chg": 0.45
+   },
+   {
+    "name": "保险Ⅱ",
+    "chg": -0.48
+   }
+  ],
+  "dn": [
+   {
+    "name": "元件",
+    "chg": -5.13
+   },
+   {
+    "name": "通信设备",
+    "chg": -3.84
+   },
+   {
+    "name": "医疗服务",
+    "chg": -3.6
+   },
+   {
+    "name": "仪器仪表",
+    "chg": -2.97
+   },
+   {
+    "name": "玻璃玻纤",
+    "chg": -2.97
+   },
+   {
+    "name": "通用设备",
+    "chg": -2.67
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-0.82%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.2540（2026-11-06）（≈ 825 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.6028",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.2728",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.3282",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "2.9991",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6737",
+   "date": "2026-11-06"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8874",
+   "date": "2026-11-05"
+  }
+ ],
+ "macro": [
+  {
+   "title": "下周关注丨10月CPI、PPI数据将公布，这些投资机会最靠谱",
+   "ctime": "1794100137",
+   "url": "https://finance.sina.com.cn/roll/2026-11-08/doc-inixyrxe3991542.shtml"
+  },
+  {
+   "title": "欧洲央行行长拉加德：通胀在近期内可能仍将居高不下",
+   "ctime": "1794064328",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixxqmu8022425.shtml"
+  },
+  {
+   "title": "估值具备吸引力！下周A股大概率这么走？",
+   "ctime": "1794112723",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-08/doc-inixzape4126353.shtml"
+  },
+  {
+   "title": "突破下行趋势，“最差的时候已经过去”！下周A股怎么走？",
+   "ctime": "1794111206",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-08/doc-inixzanw7172644.shtml"
+  },
+  {
+   "title": "“反对数据中心”浪潮不止在美国，欧洲多国爆发抗议",
+   "ctime": "1794103007",
+   "url": "https://finance.sina.com.cn/world/2026-11-08/doc-inixyrxa7371882.shtml"
+  },
+  {
+   "title": "全部提前结募！18只主动ETF最新数据披露",
+   "ctime": "1794094663",
+   "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-08/doc-inixymre7439845.shtml"
+  },
+  {
+   "title": "美债狂飙，或将触发“非常规措施”！华尔街最新预测→",
+   "ctime": "1794078600",
+   "url": "https://finance.sina.com.cn/wm/2026-11-08/doc-inixxyzk7651400.shtml"
+  },
+  {
+   "title": "A股稳市：从“短期救市”到“长效机制”",
+   "ctime": "1794057163",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-07/doc-inixywey7260728.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 8,
+   "pe": 28.0326,
+   "pb_pct": 18,
+   "pb": 3.9396
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 21,
+   "pe": 26.283,
+   "pb_pct": 58,
+   "pb": 8.0398
+  }
+ ]
+}
