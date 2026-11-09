@@ -1,0 +1,534 @@
+{
+ "date": "2026-11-09",
+ "weekday": "一",
+ "val_date": "11-06",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "黄仁勋职位悬了？耶鲁教授 Sonnenfeld 估计去留概率约五五开",
+    "url": "https://aihot.news/items/i8df3mmfly47axpbbr1p6ivh5",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-11-09T05:26:29.000Z",
+    "summary": "TechCrunch 编辑专访耶鲁管理学院教授 Jeffrey Sonnenfeld，评估 Nvidia CEO 黄仁勋因与涉嫌为中国收集情报的 Megaspeed 高管 Alice Huang 有染而面临的职位风险，Sonnenfeld 称其能否保住职位概率约五五开。"
+   },
+   {
+    "kind": "news",
+    "title": "数字生命卡兹克上线免费 Token 福利聚合网站 Token羊毛",
+    "url": "https://aihot.news/items/e80fmjdp23n217sd6e7ky52om",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-11-08T23:56:00.000Z",
+    "summary": "数字生命卡兹克上线免费聚合网站 Token羊毛（aihot.news/free-tokens），把各厂商公开的免费额度、签到积分、限时免费等活动汇总到一页，页面显示今日可领金额并按日、周、月分组，还设计了随领取次数升级亮度的卡片收集玩法。"
+   },
+   {
+    "kind": "news",
+    "title": "NVIDIA 董事会宣布就 CEO 黄仁勋遭外国情报行动瞄准一事启动独立调查",
+    "url": "https://aihot.news/items/mg4znyraf1xbbwg1vd915wqoi",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-11-08T21:21:17.000Z",
+    "summary": "NVIDIA 董事会于 11 月 8 日发布声明，就近期有关创始人兼 CEO 黄仁勋成为外国情报行动目标的报道启动独立调查。调查由独立董事组成的委员会在外部独立律师协助下监督，黄仁勋全力配合。董事会表示没有理由认为国家安全或 NVIDIA 机密已受损，但调查将审视所有可用信息，并表示对黄仁勋及其领导团队有信心。"
+   },
+   {
+    "kind": "news",
+    "title": "GPT-Image-2.6 实测：10 个 GIF 玩法提示词与三项新能力评测",
+    "url": "https://aihot.news/items/kss7rjmanc8dv5mpj60jtdzgd",
+    "source": "X：卡尔的 AI 沃茨 (@aiwarts)",
+    "publishedAt": "2026-11-08T14:22:34.000Z",
+    "summary": "作者实测前两天上线的 GPT-Image-2.6，整理出 10 个 GIF 玩法提示词（黏土定格动画、表情包、剪辑贴纸、loading 图、PPT 动态图表、爆炸拆解图等）并测试三项新能力。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenClaw 发布 Multiplayer 多人共享 Agent 协作功能",
+    "url": "https://aihot.news/items/djhbjedg8wqy6dnycdiz576nx",
+    "source": "OpenClaw：Blog（网页）",
+    "publishedAt": "2026-11-05T00:00:00.000Z",
+    "summary": "OpenClaw 基金会发布 Multiplayer 功能，让多人通过两台设备同时操作同一个 Agent、共享上下文，通过共享队列协调请求，避免各自独立使用 Agent 导致的指令丢失和上下文断裂。"
+   },
+   {
+    "kind": "news",
+    "title": "Mistral 扩展 Mistral Studio，配合 Mistral Large 4 (Le Chonk) 构建企业级智能体、工作流和应用",
+    "url": "https://aihot.news/items/ofo4xa4ux02yj9f9lbokmidpr",
+    "source": "Mistral AI：News（网页）",
+    "publishedAt": "2026-11-04T16:00:00.000Z",
+    "summary": "Mistral 宣布扩展 Mistral Studio，新增托管智能体、工作流、应用、企业上下文、可观测性和评估等能力，配合企业模型 Mistral Large 4（Le Chonk），支持云端、VPC 或本地部署并保留对模型与数据的控制。"
+   },
+   {
+    "kind": "news",
+    "title": "Redwood Research 分析 OpenAI 智能体屡次关闭对齐监控的处置是否得当",
+    "url": "https://aihot.news/items/z2bhg9i4eqahaqc7zgktvqk98",
+    "source": "Redwood Research：Blog（RSS）",
+    "publishedAt": "2026-11-04T06:34:24.000Z",
+    "summary": "Redwood Research 评估 OpenAI 披露的两起智能体关闭或抑制对齐监控事件，认为 OpenAI 披露迅速坦诚，但现有缓解措施不足以保证每次生效。文章指出 L2 安全部监控仅标记 42.9%、对齐监控为 57.1%，部分已导致模型实际无监控运行，建议所有无监控运行案例都应进入人工审查，并要求 OpenAI 更透明地说明升级处理流程。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Goodfire 提出 mechanistic shaping 框架 用内部表征抑制模型走捷径",
+    "url": "https://aihot.news/items/d9a7dr6n3w0nh5p2facdqqguu",
+    "source": "Goodfire Research（网页）",
+    "publishedAt": "2026-11-04T16:00:00.000Z",
+    "summary": "Goodfire Research 发布论文提出 mechanistic shaping 框架，通过 reliance shaping 和 expression shaping 在训练中惩罚模型对特定内部概念的依赖或表达，使模型以正确方式解题而非仅答对。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 用 Claude 解出原核细胞中首个 vault 颗粒 3D 结构",
+    "url": "https://aihot.news/items/x9ea12d0zek7ntuejt9oxfdjn",
+    "source": "Anthropic：Research（发表成果 · 网页）",
+    "publishedAt": "2026-11-03T16:00:00.000Z",
+    "summary": "Anthropic 生物学研究实验室报告借助 Claude 获得原核细胞中首个 vault 颗粒的 3D 结构，冷冻电镜确认了 7 个候选蛋白中 4 个组装成 vault 样颗粒，其中噬菌体蛋白 L05 由 96 个拷贝组成，质量约 9.5 megadaltons，长约 54 纳米、宽 45 纳米。"
+   },
+   {
+    "kind": "news",
+    "title": "Cognition 发布编码模型 SWE-2 Flash，Terminal-Bench 4.0 从 0.9% 提升至 20.0%",
+    "url": "https://aihot.news/items/ten7xip5406iqarfs8tj8pa22",
+    "source": "Cognition 模型 / Devin 博客（网页）",
+    "publishedAt": "2026-11-03T16:00:00.000Z",
+    "summary": "Cognition 发布编码模型 SWE-2 Flash，称其在主流评测上超越所有美国开源权重模型，包括部分大 3 倍的模型。"
+   },
+   {
+    "kind": "news",
+    "title": "Transluce 自动化批量生成 6915 个带意外副作用的训练数据集 DSSE-1.1",
+    "url": "https://aihot.news/items/d1qutqh5iai0xio7r0tm08wda",
+    "source": "Transluce（网页）",
+    "publishedAt": "2026-11-03T16:00:00.000Z",
+    "summary": "Transluce 发布自动化流水线，按诱导性、自然性和意外性三个目标批量搜索带意外副作用的训练数据集（DSSE），并开源 DSSE-1.1 集合，共 6915 个数据集，覆盖 18 种目标行为（如推荐自残、抵抗关机等）。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "YuyaoTechnology/MatterSeek-New-Materials-Reverse-Design",
+    "url": "https://hf-mirror.com/YuyaoTechnology/MatterSeek-New-Materials-Reverse-Design",
+    "license": "other",
+    "param": "",
+    "likes": 2917,
+    "downloads": 0,
+    "createdAt": "2026-10-19",
+    "intro": "文本生成类开源模型 · 许可证 other · 近 7 天点赞 2917 · 下载 0"
+   },
+   {
+    "kind": "model",
+    "id": "Nanbeige/Nanbeige4.3-33B",
+    "url": "https://hf-mirror.com/Nanbeige/Nanbeige4.3-33B",
+    "license": "apache-2.0",
+    "param": "33B",
+    "likes": 1066,
+    "downloads": 20382,
+    "createdAt": "2026-10-24",
+    "intro": "在Nanbeige4.3中，我们朝着突破轻量级智能体的界限迈出了基础性的一步"
+   },
+   {
+    "kind": "model",
+    "id": "sensenova/SenseNova-Loop-9B-Preview",
+    "url": "https://hf-mirror.com/sensenova/SenseNova-Loop-9B-Preview",
+    "license": "apache-2.0",
+    "param": "9B",
+    "likes": 280,
+    "downloads": 3756,
+    "createdAt": "2026-10-28",
+    "intro": "- [2026.10.30]我们发布了SenseNova-Loop-9B-Preview ，这是一个用于长上下文和代理工作流程的循环多模式模型"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "anthropics/claude-quickstarts",
+   "url": "https://github.com/anthropics/claude-quickstarts",
+   "lang": "Python",
+   "stars": "19,597",
+   "desc": "旨在帮助开发人员快速开始使用Claude API构建可部署应用程序的项目集合"
+  },
+  {
+   "repo": "google-deepmind/mujoco",
+   "url": "https://github.com/google-deepmind/mujoco",
+   "lang": "C++",
+   "stars": "16,575",
+   "desc": "与Contact的多关节动态。通用物理模拟器"
+  },
+  {
+   "repo": "ly05010419/MacNativeGames",
+   "url": "https://github.com/ly05010419/MacNativeGames",
+   "lang": "C",
+   "stars": "7,345",
+   "desc": "在Apple Silicon Mac、iPhone和iPad上玩自己的《王国之泪》和《荒野之息》"
+  },
+  {
+   "repo": "rddmwmddr/android-ad-cleaner",
+   "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+   "lang": "Python",
+   "stars": "7,162",
+   "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送"
+  },
+  {
+   "repo": "zortos293/Lichii",
+   "url": "https://github.com/zortos293/Lichii",
+   "lang": "C++",
+   "stars": "7,041",
+   "desc": "非常实验性的Nintendo Switch 2仿真器"
+  },
+  {
+   "repo": "amosblomqvist/learnharness",
+   "url": "https://github.com/amosblomqvist/learnharness",
+   "lang": "TypeScript",
+   "stars": "6,708",
+   "desc": "代理利用学习困难的事情"
+  },
+  {
+   "repo": "anhao/ai-pose-gallery-zh",
+   "url": "https://github.com/anhao/ai-pose-gallery-zh",
+   "lang": "TypeScript",
+   "stars": "6,484",
+   "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊"
+  },
+  {
+   "repo": "Jakeschincariol/day-trader-skill",
+   "url": "https://github.com/Jakeschincariol/day-trader-skill",
+   "lang": "Python",
+   "stars": "6,231",
+   "desc": "11日内交易的Claude技能：扫描数千张图表，跟踪突发新闻，每次进出时间，并在冒一美元的风险之前重播每个结果"
+  },
+  {
+   "repo": "patch-gg/pixelfx",
+   "url": "https://github.com/patch-gg/pixelfx",
+   "lang": "JavaScript",
+   "stars": "6,153",
+   "desc": "244像素的艺术效果，每一个都是一小段代码"
+  },
+  {
+   "repo": "simbasjungles/free-my-tv",
+   "url": "https://github.com/simbasjungles/free-my-tv",
+   "lang": "Java",
+   "stars": "6,152",
+   "desc": "适用于Google TV、LG webOS和Samsung Tizen的快速无广告主屏幕"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "Dokploy/dokploy",
+   "url": "https://github.com/Dokploy/dokploy",
+   "lang": "TypeScript",
+   "stars": "38,302",
+   "desc": "Vercel、Netlify 与 Heroku 的开源替代方案",
+   "en": false
+  },
+  {
+   "repo": "glanceapp/glance",
+   "url": "https://github.com/glanceapp/glance",
+   "lang": "Go",
+   "stars": "38,101",
+   "desc": "自托管信息仪表盘，把所有订阅源汇集到一处",
+   "en": false
+  },
+  {
+   "repo": "khoj-ai/khoj",
+   "url": "https://github.com/khoj-ai/khoj",
+   "lang": "Python",
+   "stars": "38,075",
+   "desc": "你的 AI 第二大脑，可自托管：从网页或本地文档中检索答案，构建自定义智能体、定时自动化与深度研究，支持接入任意在线或本地大模型",
+   "en": false
+  },
+  {
+   "repo": "IceWhaleTech/CasaOS",
+   "url": "https://github.com/IceWhaleTech/CasaOS",
+   "lang": "Go",
+   "stars": "37,609",
+   "desc": "CasaOS：简单易用、优雅的开源个人云系统",
+   "en": false
+  },
+  {
+   "repo": "agentscope-ai/QwenPaw",
+   "url": "https://github.com/agentscope-ai/QwenPaw",
+   "lang": "TypeScript",
+   "stars": "37,517",
+   "desc": "你的个人 AI 助手；安装简单，可部署在自有机器或云端；支持多个聊天应用，能力可轻松扩展。",
+   "en": false
+  },
+  {
+   "repo": "langfuse/langfuse",
+   "url": "https://github.com/langfuse/langfuse",
+   "lang": "TypeScript",
+   "stars": "37,172",
+   "desc": "🪢 开源代理回避和可观测性：使用一个开放平台跟踪、评估和改进LLM应用程序",
+   "en": false
+  },
+  {
+   "repo": "filebrowser/filebrowser",
+   "url": "https://github.com/filebrowser/filebrowser",
+   "lang": "Go",
+   "stars": "35,864",
+   "desc": "文件浏览器在指定的目录中提供了一个文件管理界面，可用于上传、删除、预览和编辑文件",
+   "en": false
+  },
+  {
+   "repo": "docker/compose",
+   "url": "https://github.com/docker/compose",
+   "lang": "Go",
+   "stars": "38,658",
+   "desc": "使用Docker定义和运行多容器应用程序",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4060.01,
+   "chg": 0.14,
+   "pe": 13.48,
+   "pe_pct": 67,
+   "pb": 1.34,
+   "pb_pct": 20,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6605.51,
+   "chg": 0.12,
+   "pe": 27.97,
+   "pe_pct": 61,
+   "pb": 2.05,
+   "pb_pct": 60,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2465.83,
+   "chg": 0.02,
+   "pe": 28.03,
+   "pe_pct": 8,
+   "pb": 3.94,
+   "pb_pct": 18,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1260.8,
+   "chg": 0.61,
+   "pe": 92.75,
+   "pe_pct": 75,
+   "pb": 6.12,
+   "pb_pct": 59,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5568.47,
+   "chg": 0.66,
+   "pe": 9.01,
+   "pe_pct": 86,
+   "pb": 0.88,
+   "pb_pct": 57,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11348.74,
+   "chg": 0.43,
+   "pe": 9.01,
+   "pe_pct": 80,
+   "pb": 0.9,
+   "pb_pct": 66,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24537.99,
+   "chg": 0.23,
+   "pe": 11.16,
+   "pe_pct": 61,
+   "pb": 1.12,
+   "pb_pct": 55,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 24579.42,
+   "chg": 1.09,
+   "pe": 26.28,
+   "pe_pct": 21,
+   "pb": 8.04,
+   "pb_pct": 58,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7376.86,
+   "chg": 0.31,
+   "pe": 22.95,
+   "pe_pct": 26,
+   "pb": 5.16,
+   "pb_pct": 85,
+   "pe_level": "低估",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "煤炭",
+    "chg": 3.45
+   },
+   {
+    "name": "元件",
+    "chg": 2.8
+   },
+   {
+    "name": "通信设备",
+    "chg": 1.93
+   },
+   {
+    "name": "汽车零部件",
+    "chg": 1.27
+   },
+   {
+    "name": "一般零售",
+    "chg": 1.26
+   },
+   {
+    "name": "通用设备",
+    "chg": 1.14
+   }
+  ],
+  "dn": [
+   {
+    "name": "房地产开发",
+    "chg": -0.71
+   },
+   {
+    "name": "航空机场",
+    "chg": -0.67
+   },
+   {
+    "name": "钢铁",
+    "chg": -0.67
+   },
+   {
+    "name": "工程咨询服务Ⅱ",
+    "chg": -0.61
+   },
+   {
+    "name": "家居用品",
+    "chg": -0.54
+   },
+   {
+    "name": "化学制品",
+    "chg": -0.48
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+1.09%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.2540（2026-11-06）（≈ 825 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.6028",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.2728",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.3282",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "2.9991",
+   "date": "2026-11-05"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6737",
+   "date": "2026-11-06"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8874",
+   "date": "2026-11-05"
+  }
+ ],
+ "macro": [
+  {
+   "title": "国际金价反弹突破4120美元，市场等待美国通胀数据指引美联储加息前景",
+   "ctime": "1794206245",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniycmtu6273254.shtml"
+  },
+  {
+   "title": "菲律宾第三季度GDP仅增长2.1%，创2022年以来最低增速",
+   "ctime": "1794204898",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniycmtw2909051.shtml"
+  },
+  {
+   "title": "4.64%对1.60%：国债利率创阶段新低，红利资产的比价窗口或重新打开",
+   "ctime": "1794203718",
+   "url": "https://finance.sina.com.cn/money/fund/jjh/2026-11-09/doc-iniycmua3265218.shtml"
+  },
+  {
+   "title": "民主党大胜引爆金价反弹，但美联储仍主导其短期行情",
+   "ctime": "1794199140",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-09/doc-iniycfmy2996464.shtml"
+  },
+  {
+   "title": "花旗预计日本股市年底前反弹：近期暴跌已过度计入经济衰退风险",
+   "ctime": "1794206610",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniycmtu6277088.shtml"
+  },
+  {
+   "title": "特朗普《60分钟》专访要点：经济表现亮眼、无意升级对伊打击、不在乎自己的净资产、移民问题做得过火了",
+   "ctime": "1794206598",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniycmua3294367.shtml"
+  },
+  {
+   "title": "英国10月就业市场再度降温，正式员工招聘四个月来首次萎缩，但起薪涨幅扩大",
+   "ctime": "1794205569",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniycmty6507538.shtml"
+  },
+  {
+   "title": "油价回落缓解通胀压力，美元指数小幅回落",
+   "ctime": "1794203160",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-09/doc-iniycfmy3023887.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 8,
+   "pe": 28.0326,
+   "pb_pct": 18,
+   "pb": 3.9396
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 21,
+   "pe": 26.283,
+   "pb_pct": 58,
+   "pb": 8.0398
+  }
+ ]
+}

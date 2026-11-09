@@ -445,5 +445,10 @@
   "An extremely fast Python linter and code formatter, written in Rust.": "用Rust编写的非常快的Python linter和代码格式化程序",
   "A utility-first CSS framework for rapid UI development.": "实用程序优先的CSS框架，用于快速UI开发",
   "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.": "通过家庭网络从家庭助理控制您的三星设备，无需云帐户",
-  "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.": "NVIDIA Kubernetes引擎(NVKE)"
+  "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API": "旨在帮助开发人员快速开始使用Claude API构建可部署应用程序的项目集合",
+  "Multi-Joint dynamics with Contact. A general purpose physics simulator.": "与Contact的多关节动态。通用物理模拟器",
+  "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.": "在Apple Silicon Mac、iPhone和iPad上玩自己的《王国之泪》和《荒野之息》",
+  "VERY experimental Nintendo Switch 2 emulator": "非常实验性的Nintendo Switch 2仿真器",
+  "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.": "11日内交易的Claude技能：扫描数千张图表，跟踪突发新闻，每次进出时间，并在冒一美元的风险之前重播每个结果",
+  "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.": "244像素的艺术效果，每一个都是一小段代码"
 }
