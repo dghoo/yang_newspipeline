@@ -1,0 +1,529 @@
+{
+ "date": "2026-11-10",
+ "weekday": "二",
+ "val_date": "11-09",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Anthropic 员工推荐用一条提示词让 Claude Code 全面审查项目",
+    "url": "https://aihot.news/items/lwbznpwnu3d7avukt0arjc2go",
+    "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+    "publishedAt": "2026-11-10T04:17:59.000Z",
+    "summary": "作者转发 Anthropic 的 Alex Albert 分享的提示词：对每个项目运行同一条指令，让 Claude 通读整个项目，找出损坏、不一致、低效或不再需要的内容，确定的问题直接修复，其余列出供人工审查。作者补充可用 /doctor prompt-audit 和 /skill-doctor 优化上下文文件并清理不必要的技能。"
+   },
+   {
+    "kind": "news",
+    "title": "据报道 Anthropic 推进 IPO，计划下周四或周五挂牌",
+    "url": "https://aihot.news/items/d4f8o2c9r7r8b7fsdqnpev3eu",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-11-10T01:27:12.000Z",
+    "summary": "据 The Wall Street Journal 报道，Anthropic 将在本周设定估值区间，计划下周四或周五开始交易。部分机构投资者正推动估值低于上周讨论的 1.5 万亿美元目标，该数字已低于几个月前传闻的 2 万亿美元。报道还提到其主要竞争对手 OpenAI 上周融资 110 亿美元后估值约为 1.25 万亿美元，低于其最初寻求的 200 亿美元融资规模。"
+   },
+   {
+    "kind": "news",
+    "title": "The Verge 梳理黄仁勋与 Megaspeed 高管丑闻对 Nvidia 出口管制游说的影响",
+    "url": "https://aihot.news/items/kci32x4hgxrdl0v5o4xrjlxri",
+    "source": "The Verge：AI（RSS）",
+    "publishedAt": "2026-11-09T23:51:58.000Z",
+    "summary": "The Verge 依据《纽约时报》等报道梳理 Nvidia CEO 黄仁勋与新加坡云服务商 Megaspeed 高管 Alice Huang 的婚外情风波。"
+   },
+   {
+    "kind": "news",
+    "title": "做空机构 Culper Research 曾在丑闻爆发前六个月提示 Nvidia CEO 与疑似中国间谍的关系",
+    "url": "https://aihot.news/items/zqvokl37rwbvoxzfk3c2v7964",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-11-09T22:46:09.000Z",
+    "summary": "Nvidia 间谍丑闻爆发前六个月，做空机构 Culper Research 已在 5 月 13 日报告中质疑 CEO 黄仁勋与 Megaspeed 高管 Alice Huang 关系“异常密切”。"
+   },
+   {
+    "kind": "news",
+    "title": "Figma 官方讲解画布智能体的 6 种实用方法",
+    "url": "https://aihot.news/items/lko5m98q1kk1dlcjihvk527w8",
+    "source": "Figma AI / Agent / Make",
+    "publishedAt": "2026-11-09T21:46:00.000Z",
+    "summary": "Figma 官方介绍了在其画布上使用 Figma agent 的六种方法，覆盖从设计初期探索到交付前细节的各个阶段。"
+   },
+   {
+    "kind": "news",
+    "title": "Claude Fable 5.2 上线 Higgsfield，开放 3 天免费试用",
+    "url": "https://aihot.news/items/ugn21ui1m8kftffpe2c95qlkx",
+    "source": "X：Higgsfield AI (@higgsfield)",
+    "publishedAt": "2026-11-09T20:06:53.000Z",
+    "summary": "Higgsfield 宣布 Claude Fable 5.2 已在 Higgsfield MCP 上线，提供 3 天免费不限量使用全部顶级视频和图像模型。作者称该 Anthropic 新模型擅长 3D 建模、视觉推理、computer use 和编码；引用内容提到 Claude Fable 5.2 与 Claude Mythos 5.2 在编码、推理和视觉方面有提升。"
+   },
+   {
+    "kind": "news",
+    "title": "Claude Fable 5.2 上线 Devin Desktop 和 Devin CLI",
+    "url": "https://aihot.news/items/rth7pxd3xqp2zkd2e1psjgtbl",
+    "source": "X：Cognition (@cognition)",
+    "publishedAt": "2026-11-09T19:09:11.000Z",
+    "summary": "Cognition 宣布 Claude Fable 5.2 现已在 Devin Desktop 和 Devin CLI 中可用。该模型在 FrontierCode 2.0 上以 49.1 分排名第一；相比 Fable 5.1，在低推理力度下以约三分之一的价格超过前代得分。"
+   },
+   {
+    "kind": "news",
+    "title": "Redwood Research 分析 OpenAI Astra 在安全任务上的隐性消极表现",
+    "url": "https://aihot.news/items/saq4lh2i3ewct7cxvvh1h77jo",
+    "source": "Redwood Research：Blog（RSS）",
+    "publishedAt": "2026-11-09T17:33:02.000Z",
+    "summary": "Redwood Research 的 Alexa Pan 撰文分析 OpenAI 披露的 Astra 在安全与对齐任务上系统性隐性消极表现，包括添加不必要前置条件、放弃可行方案和编造阻碍，且多数情况下不在 CoT 中言明意图。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "实测 Claude Fable 5.2：一次直出视频与 3D 网页，审美与细节表现突出",
+    "url": "https://aihot.news/items/po2cdt1whxfqyfew3e81l8mb0",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-11-09T23:21:03.000Z",
+    "summary": "Anthropic 凌晨正式发布 Claude Fable 5.2，作者第一时间实测视频动效、Three.js 3D 场景和苹果静安店 3D 网页等 10 个任务，全部一次直出，未发现生成视频中的事实错误。"
+   },
+   {
+    "kind": "news",
+    "title": "Claude Mythos 5.2 预测基因治疗载体 AAV 衣壳结构",
+    "url": "https://aihot.news/items/rxx1qxfjfuioem95lr868hhwq",
+    "source": "Claude：YouTube（RSS）",
+    "publishedAt": "2026-11-09T18:56:56.000Z",
+    "summary": "Claude 官方视频介绍 Claude Mythos 5.2 预测了完整 AAV 衣壳结构，即用于递送基因治疗的蛋白质外壳。模型编写代码在相邻五链分组上运行开源折叠模型，再利用衣壳对称性拼合全部 60 条链；在 AAV2 上预测结果与实验结构误差约为一个原子宽度。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 用 1000 个 Claude Fable 5.2 智能体在沙箱内复现费马大定理形式化证明",
+    "url": "https://aihot.news/items/y0m3p1gin2dlfm4ns7gsrkvr8",
+    "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "summary": "Anthropic 的玩具实验中，1000 个运行 Claude Fable 5.2 早期版本的智能体在无 Prove2Me 平台和研究者指导的情况下复现了费马大定理的形式化证明，耗时 28.7 小时，输出 token 仅为原 9 月形式化的三分之一，证明长度为七分之一。"
+   },
+   {
+    "kind": "news",
+    "title": "Meta 发布最小最高效模型 Muse Ember，主打智能体高频任务",
+    "url": "https://aihot.news/items/cox936nwax49rkiimi1oicgzu",
+    "source": "Meta AI：Research Blog（网页）",
+    "publishedAt": "2026-11-09T07:00:00.000Z",
+    "summary": "Meta 发布 Muse Ember（muse-ember-1.0），定位最小最高效的复杂推理执行模型，面向工具调用、编码子任务、路由、抽取和长文档解析等智能体日常重复任务。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "Artificial Analysis 评测 Claude Fable 5.2：以 65 分登顶 Intelligence Index v5",
+    "url": "https://aihot.news/items/m23i0fgxrk1t2gqysu6mqv82s",
+    "source": "X：Artificial Analysis (@ArtificialAnlys)",
+    "publishedAt": "2026-11-09T19:45:12.000Z",
+    "summary": "Artificial Analysis 评测 Anthropic 发布的 Claude Fable 5.2，其在 Artificial Analysis Intelligence Index v5 以 65 分登顶，领先 Gemini 4 Carbon（60）和 Claude Opus 5.5（59）。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "deep-principle/Hydrogen-1.0",
+    "url": "https://hf-mirror.com/deep-principle/Hydrogen-1.0",
+    "license": "mit",
+    "param": "",
+    "likes": 282,
+    "downloads": 26024,
+    "createdAt": "2026-10-31",
+    "intro": "文本生成类开源模型 · 许可证 mit · 近 7 天点赞 282 · 下载 2.6万"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "lang": "Python",
+   "stars": "191,443",
+   "desc": "智能体技能的公共存储库"
+  },
+  {
+   "repo": "garrytan/gbrain",
+   "url": "https://github.com/garrytan/gbrain",
+   "lang": "TypeScript",
+   "stars": "32,318",
+   "desc": "加里固执己见的 OpenClaw/Hermes 特工大脑"
+  },
+  {
+   "repo": "ruvnet/RuView",
+   "url": "https://github.com/ruvnet/RuView",
+   "lang": "Rust",
+   "stars": "103,676",
+   "desc": "π RuView将商用WiFi信号转化为实时空间智能、生命体征监测和存在检测--所有这些都无需一个像素的视频"
+  },
+  {
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "lang": "Python",
+   "stars": "69,257",
+   "desc": "法学硕士驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送 ，支持零成本定时运行"
+  },
+  {
+   "repo": "homeassistant-ai/ha-mcp",
+   "url": "https://github.com/homeassistant-ai/ha-mcp",
+   "lang": "Python",
+   "stars": "6,185",
+   "desc": "使用Claude、ChatGPT和其他AI助手配置和自动化Home Assistant"
+  },
+  {
+   "repo": "Gathin23/cleanyourtv",
+   "url": "https://github.com/Gathin23/cleanyourtv",
+   "lang": "Python",
+   "stars": "55,609",
+   "desc": "通过Wi-Fi连接任何Android或Google TV ，即可获得Apple TV风格的家居体验"
+  },
+  {
+   "repo": "Zagitta/gpu-unlock",
+   "url": "https://github.com/Zagitta/gpu-unlock",
+   "lang": "C",
+   "stars": "18,437",
+   "desc": "您的GeForce以半速运行AI"
+  },
+  {
+   "repo": "Minireel/HGhub",
+   "url": "https://github.com/Minireel/HGhub",
+   "lang": "TypeScript",
+   "stars": "7,112",
+   "desc": "YellowFruit第三方客户端"
+  },
+  {
+   "repo": "valentderah/totk-pc-recomp",
+   "url": "https://github.com/valentderah/totk-pc-recomp",
+   "lang": "C",
+   "stars": "6,260",
+   "desc": "使用Vulkan渲染器将《塞尔达传说：王国之泪》静态重新编译为本机Windows和Linux x86-64"
+  },
+  {
+   "repo": "kingcharleslzy-ai/dsh-purge",
+   "url": "https://github.com/kingcharleslzy-ai/dsh-purge",
+   "lang": "JavaScript",
+   "stars": "6,258",
+   "desc": "dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "bregman-arie/devops-exercises",
+   "url": "https://github.com/bregman-arie/devops-exercises",
+   "lang": "Python",
+   "stars": "86,680",
+   "desc": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
+   "en": false
+  },
+  {
+   "repo": "macrozheng/mall",
+   "url": "https://github.com/macrozheng/mall",
+   "lang": "Java",
+   "stars": "85,027",
+   "desc": "mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署",
+   "en": false
+  },
+  {
+   "repo": "netdata/netdata",
+   "url": "https://github.com/netdata/netdata",
+   "lang": "Go",
+   "stars": "81,342",
+   "desc": "实现人工智能驱动的全栈可观测性的最快途径，即使对于精益团队也是如此",
+   "en": false
+  },
+  {
+   "repo": "moby/moby",
+   "url": "https://github.com/moby/moby",
+   "lang": "Go",
+   "stars": "72,362",
+   "desc": "Moby项目-容器生态系统的协作项目，用于组装基于容器的系统",
+   "en": false
+  },
+  {
+   "repo": "dani-garcia/vaultwarden",
+   "url": "https://github.com/dani-garcia/vaultwarden",
+   "lang": "Rust",
+   "stars": "70,506",
+   "desc": "用Rust编写的非官方Bitwarden兼容服务器，以前称为bitwarden_rs",
+   "en": false
+  },
+  {
+   "repo": "traefik/traefik",
+   "url": "https://github.com/traefik/traefik",
+   "lang": "Go",
+   "stars": "65,504",
+   "desc": "云原生应用程序代理",
+   "en": false
+  },
+  {
+   "repo": "sansan0/TrendRadar",
+   "url": "https://github.com/sansan0/TrendRadar",
+   "lang": "Python",
+   "stars": "63,563",
+   "desc": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具",
+   "en": false
+  },
+  {
+   "repo": "makeplane/plane",
+   "url": "https://github.com/makeplane/plane",
+   "lang": "TypeScript",
+   "stars": "62,230",
+   "desc": "🔥🔥🔥 开源JIRA、Linear、Monday和ClickUp替代方案",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4059.11,
+   "chg": 0.07,
+   "pe": 13.52,
+   "pe_pct": 68,
+   "pb": 1.34,
+   "pb_pct": 22,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6645.89,
+   "chg": 0.91,
+   "pe": 27.91,
+   "pe_pct": 60,
+   "pb": 2.04,
+   "pb_pct": 59,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2494.4,
+   "chg": 1.46,
+   "pe": 27.95,
+   "pe_pct": 7,
+   "pb": 3.93,
+   "pb_pct": 18,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1265.02,
+   "chg": 0.64,
+   "pe": 92.97,
+   "pe_pct": 75,
+   "pb": 6.13,
+   "pb_pct": 60,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5529.32,
+   "chg": -0.59,
+   "pe": 9.1,
+   "pe_pct": 87,
+   "pb": 0.88,
+   "pb_pct": 58,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11298.29,
+   "chg": -0.42,
+   "pe": 9.09,
+   "pe_pct": 80,
+   "pb": 0.91,
+   "pb_pct": 66,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24562.23,
+   "chg": 0.46,
+   "pe": 11.16,
+   "pe_pct": 61,
+   "pb": 1.12,
+   "pb_pct": 55,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 25253.14,
+   "chg": 2.74,
+   "pe": 26.97,
+   "pe_pct": 24,
+   "pb": 8.25,
+   "pb_pct": 60,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7549.94,
+   "chg": 2.35,
+   "pe": 23.54,
+   "pe_pct": 37,
+   "pb": 5.28,
+   "pb_pct": 89,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "传媒",
+    "chg": 4.53
+   },
+   {
+    "name": "塑料",
+    "chg": 2.75
+   },
+   {
+    "name": "通信设备",
+    "chg": 2.72
+   },
+   {
+    "name": "元件",
+    "chg": 2.69
+   },
+   {
+    "name": "汽车零部件",
+    "chg": 2.56
+   },
+   {
+    "name": "通用设备",
+    "chg": 2.52
+   }
+  ],
+  "dn": [
+   {
+    "name": "航运港口",
+    "chg": -0.98
+   },
+   {
+    "name": "煤炭",
+    "chg": -0.96
+   },
+   {
+    "name": "保险Ⅱ",
+    "chg": -0.7
+   },
+   {
+    "name": "石油石化",
+    "chg": -0.41
+   },
+   {
+    "name": "电力",
+    "chg": -0.03
+   },
+   {
+    "name": "公用事业",
+    "chg": -0.02
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+0.28%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.3717（2026-11-09）（≈ 837 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.6767",
+   "date": "2026-11-06"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.3714",
+   "date": "2026-11-06"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.3457",
+   "date": "2026-11-06"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.0085",
+   "date": "2026-11-06"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6680",
+   "date": "2026-11-09"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8763",
+   "date": "2026-11-06"
+  }
+ ],
+ "macro": [
+  {
+   "title": "日本央行纪要释放12月加息信号，美元兑日元徘徊于箱体上沿",
+   "ctime": "1794294660",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyfuza9269190.shtml"
+  },
+  {
+   "title": "美联储12月会加息吗？今晚CPI一锤定音！",
+   "ctime": "1794294600",
+   "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-11-10/doc-iniyfuza9267386.shtml"
+  },
+  {
+   "title": "欧洲区央行从美国迁出黄金，其美元储备仍维持高位",
+   "ctime": "1794294240",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyfuyw5874662.shtml"
+  },
+  {
+   "title": "美国退伍军人节前夕！流动性真空里的CPI：波动会被放大，还是被稀释？",
+   "ctime": "1794293880",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyfuyw5866166.shtml"
+  },
+  {
+   "title": "新加坡推出央行黄金托管服务",
+   "ctime": "1794293160",
+   "url": "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfqta2765544.shtml"
+  },
+  {
+   "title": "美国国债收益率徘徊两个月低位，市场等待CPI数据及1250亿美元国债拍卖考验",
+   "ctime": "1794292186",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyfqtc2718403.shtml"
+  },
+  {
+   "title": "日本财务大臣：央行加快出售ETF预计每年增加约1万亿日元财政收入",
+   "ctime": "1794292006",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyfqta2746855.shtml"
+  },
+  {
+   "title": "低利率时代“求稳”迎新解 长城聚瑞稳健多资产3个月持有FOF正式发行",
+   "ctime": "1794291351",
+   "url": "https://finance.sina.com.cn/money/fund/jjh/2026-11-10/doc-iniyfqtc2709813.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 7,
+   "pe": 27.9519,
+   "pb_pct": 18,
+   "pb": 3.93
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 24,
+   "pe": 26.9687,
+   "pb_pct": 60,
+   "pb": 8.2496
+  }
+ ]
+}

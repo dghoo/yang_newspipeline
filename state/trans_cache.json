@@ -450,5 +450,10 @@
   "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.": "在Apple Silicon Mac、iPhone和iPad上玩自己的《王国之泪》和《荒野之息》",
   "VERY experimental Nintendo Switch 2 emulator": "非常实验性的Nintendo Switch 2仿真器",
   "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.": "11日内交易的Claude技能：扫描数千张图表，跟踪突发新闻，每次进出时间，并在冒一美元的风险之前重播每个结果",
-  "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.": "244像素的艺术效果，每一个都是一小段代码"
+  "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.": "244像素的艺术效果，每一个都是一小段代码",
+  "Garry's Opinionated OpenClaw/Hermes Agent Brain": "加里固执己见的 OpenClaw/Hermes 特工大脑",
+  "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.": "法学硕士驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送 ，支持零成本定时运行",
+  "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.": "使用Claude、ChatGPT和其他AI助手配置和自动化Home Assistant",
+  "YellowFruit third-party client": "YellowFruit第三方客户端",
+  "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.": "使用Vulkan渲染器将《塞尔达传说：王国之泪》静态重新编译为本机Windows和Linux x86-64"
 }
