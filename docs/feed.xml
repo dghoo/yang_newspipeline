@@ -5,350 +5,350 @@
     <link>https://eastmoney.com</link>
     <description>AI / 开源 / Docker / 财经 每日聚合（真实管道生成）</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 10 Nov 2026 07:26:12 +0800</lastBuildDate>
-    <pubDate>Tue, 10 Nov 2026 07:26:12 +0800</pubDate>
+    <lastBuildDate>Wed, 11 Nov 2026 06:35:38 +0800</lastBuildDate>
+    <pubDate>Wed, 11 Nov 2026 06:35:38 +0800</pubDate>
     <item>
-      <title>Anthropic 员工推荐用一条提示词让 Claude Code 全面审查项目</title>
-      <link>https://aihot.news/items/lwbznpwnu3d7avukt0arjc2go</link>
-      <description><![CDATA[来源：X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete) · 发布：2026-11-10 04:17<br>作者转发 Anthropic 的 Alex Albert 分享的提示词：对每个项目运行同一条指令，让 Claude 通读整个项目，找出损坏、不一致、低效或不再需要的内容，确定的问题直接修复，其余列出供人工审查。作者补充可用 /doctor prompt-audit 和 /skill-doctor 优化上下文文件并清理不必要的技能。<br><a href="https://aihot.news/items/lwbznpwnu3d7avukt0arjc2go">查看原文</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/lwbznpwnu3d7avukt0arjc2go</guid>
+      <title>WSJ：Anthropic 7 位创始人 IPO 各套现约 2.5 亿美元并保留控制权</title>
+      <link>https://aihot.news/items/ajjv9abs8vd20j05emcig98ai</link>
+      <description><![CDATA[来源：X：Rohan Paul (@rohanpaul_ai) · 发布：2026-11-11 05:47<br>WSJ 报道，Anthropic 7 位创始人将在 IPO 中各出售约 2.5 亿美元股票，每人保留约 180 亿美元持仓。据公司文件，每人出售近 3.4M 股，发行价区间预计 70 至 78 美元，上市预计下周进行，估值接近 1.3 万亿美元，募资 800 亿美元以上，部分通过包括 Google 在内的私募配售。<br><a href="https://aihot.news/items/ajjv9abs8vd20j05emcig98ai">查看原文</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/ajjv9abs8vd20j05emcig98ai</guid>
       <category>AI 行业资讯</category>
     </item>
     <item>
-      <title>据报道 Anthropic 推进 IPO，计划下周四或周五挂牌</title>
-      <link>https://aihot.news/items/d4f8o2c9r7r8b7fsdqnpev3eu</link>
-      <description><![CDATA[来源：TechCrunch：AI（RSS） · 发布：2026-11-10 01:27<br>据 The Wall Street Journal 报道，Anthropic 将在本周设定估值区间，计划下周四或周五开始交易。部分机构投资者正推动估值低于上周讨论的 1.5 万亿美元目标，该数字已低于几个月前传闻的 2 万亿美元。报道还提到其主要竞争对手 OpenAI 上周融资 110 亿美元后估值约为 1.25 万亿美元，低于其最初寻求的 200 亿美元融资规模。<br><a href="https://aihot.news/items/d4f8o2c9r7r8b7fsdqnpev3eu">查看原文</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/d4f8o2c9r7r8b7fsdqnpev3eu</guid>
+      <title>Anthropic 修订版 S1 文件披露与 Microsoft 和 Google 超 100 亿美元级新算力协议</title>
+      <link>https://aihot.news/items/xshgfc1vcvgrdkvnomagmefwy</link>
+      <description><![CDATA[来源：X：Rohan Paul (@rohanpaul_ai) · 发布：2026-11-11 04:14<br>Anthropic 在当日修订的 S1 文件中披露与 Microsoft 和 Google 达成超 100 亿美元的新协议。Microsoft 承诺到 2033 年 6 月支出至少 472 亿、最高 492 亿美元，Google 最低承诺从约 1145 亿升至约 1213 亿美元，两笔均不可撤销、无论是否使用容量都须付款。文件还提到上季度短期算力支出 50 亿美元且价格明显更高。<br><a href="https://aihot.news/items/xshgfc1vcvgrdkvnomagmefwy">查看原文</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/xshgfc1vcvgrdkvnomagmefwy</guid>
       <category>AI 行业资讯</category>
     </item>
     <item>
-      <title>The Verge 梳理黄仁勋与 Megaspeed 高管丑闻对 Nvidia 出口管制游说的影响</title>
-      <link>https://aihot.news/items/kci32x4hgxrdl0v5o4xrjlxri</link>
-      <description><![CDATA[来源：The Verge：AI（RSS） · 发布：2026-11-09 23:51<br>The Verge 依据《纽约时报》等报道梳理 Nvidia CEO 黄仁勋与新加坡云服务商 Megaspeed 高管 Alice Huang 的婚外情风波。<br><a href="https://aihot.news/items/kci32x4hgxrdl0v5o4xrjlxri">查看原文</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/kci32x4hgxrdl0v5o4xrjlxri</guid>
+      <title>Anthropic 投资需求火热，承销商拟将 IPO 目标估值上调回 $1.5T 或更高</title>
+      <link>https://aihot.news/items/m7ul4psbkb5zyp0t254fr986o</link>
+      <description><![CDATA[来源：X：Rohan Paul (@rohanpaul_ai) · 发布：2026-11-11 00:58<br>FT 报道，因投资者需求旺盛，Anthropic 承销商计划上调 IPO 定价，把目标估值拉回 $1.5T 或更高。周二文件设定 $70-$78 的发行区间，计入员工期权和受限股后对应 $1.26T-$1.41T 估值；若定价超出区间，募资将超过 $100B，其中 Google、Nvidia 和 Microsoft 将按 IPO 价格投资 $26B。<br><a href="https://aihot.news/items/m7ul4psbkb5zyp0t254fr986o">查看原文</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/m7ul4psbkb5zyp0t254fr986o</guid>
       <category>AI 行业资讯</category>
     </item>
     <item>
-      <title>做空机构 Culper Research 曾在丑闻爆发前六个月提示 Nvidia CEO 与疑似中国间谍的关系</title>
-      <link>https://aihot.news/items/zqvokl37rwbvoxzfk3c2v7964</link>
-      <description><![CDATA[来源：TechCrunch：AI（RSS） · 发布：2026-11-09 22:46<br>Nvidia 间谍丑闻爆发前六个月，做空机构 Culper Research 已在 5 月 13 日报告中质疑 CEO 黄仁勋与 Megaspeed 高管 Alice Huang 关系“异常密切”。<br><a href="https://aihot.news/items/zqvokl37rwbvoxzfk3c2v7964">查看原文</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/zqvokl37rwbvoxzfk3c2v7964</guid>
+      <title>OpenRouter 实测 MCP vs CLI vs Skills 的上下文 token 成本</title>
+      <link>https://aihot.news/items/wkpj021rmg6sgthgj9zwevei4</link>
+      <description><![CDATA[来源：OpenRouter：Announcements（RSS） · 发布：2026-11-11 00:00<br>OpenRouter 实测同一 GitHub 任务下 MCP、CLI 与 skill 的 token 成本：在 Claude Sonnet 5.5 上 CLI 用 1。<br><a href="https://aihot.news/items/wkpj021rmg6sgthgj9zwevei4">查看原文</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/wkpj021rmg6sgthgj9zwevei4</guid>
       <category>AI 行业资讯</category>
     </item>
     <item>
-      <title>Figma 官方讲解画布智能体的 6 种实用方法</title>
-      <link>https://aihot.news/items/lko5m98q1kk1dlcjihvk527w8</link>
-      <description><![CDATA[来源：Figma AI / Agent / Make · 发布：2026-11-09 21:46<br>Figma 官方介绍了在其画布上使用 Figma agent 的六种方法，覆盖从设计初期探索到交付前细节的各个阶段。<br><a href="https://aihot.news/items/lko5m98q1kk1dlcjihvk527w8">查看原文</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/lko5m98q1kk1dlcjihvk527w8</guid>
+      <title>OpenRouter 实测 fp8 与 fp4 量化对模型质量和价格的影响</title>
+      <link>https://aihot.news/items/i3gp1xj4j11gi4qoreya18izb</link>
+      <description><![CDATA[来源：OpenRouter：Announcements（RSS） · 发布：2026-11-11 00:00<br>OpenRouter 发布量化解析文章，讲解 LLM 量化原理，并报告 2026 年 10 月 20 日对 1455 个 provider 端点和 Qwen3.8 27B 六个端点的实测。<br><a href="https://aihot.news/items/i3gp1xj4j11gi4qoreya18izb">查看原文</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/i3gp1xj4j11gi4qoreya18izb</guid>
       <category>AI 行业资讯</category>
     </item>
     <item>
-      <title>Claude Fable 5.2 上线 Higgsfield，开放 3 天免费试用</title>
-      <link>https://aihot.news/items/ugn21ui1m8kftffpe2c95qlkx</link>
-      <description><![CDATA[来源：X：Higgsfield AI (@higgsfield) · 发布：2026-11-09 20:06<br>Higgsfield 宣布 Claude Fable 5.2 已在 Higgsfield MCP 上线，提供 3 天免费不限量使用全部顶级视频和图像模型。作者称该 Anthropic 新模型擅长 3D 建模、视觉推理、computer use 和编码；引用内容提到 Claude Fable 5.2 与 Claude Mythos 5.2 在编码、推理和视觉方面有提升。<br><a href="https://aihot.news/items/ugn21ui1m8kftffpe2c95qlkx">查看原文</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/ugn21ui1m8kftffpe2c95qlkx</guid>
+      <title>Claude Fable 5.2 实测观察：大模型正用代码吞噬审美与创作</title>
+      <link>https://aihot.news/items/uditkv6u7rrzmtj1nx7pxbgjj</link>
+      <description><![CDATA[来源：公众号：数字生命卡兹克 · 发布：2026-11-10 23:56<br>作者实测 Claude Fable 5.2 与 Gemini 4 Carbon 并对比后认为，Fable 5.2 的突出差异在于审美，这是无法用 Benchmark 评估但可直观感受的东西。<br><a href="https://aihot.news/items/uditkv6u7rrzmtj1nx7pxbgjj">查看原文</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/uditkv6u7rrzmtj1nx7pxbgjj</guid>
       <category>AI 行业资讯</category>
     </item>
     <item>
-      <title>Claude Fable 5.2 上线 Devin Desktop 和 Devin CLI</title>
-      <link>https://aihot.news/items/rth7pxd3xqp2zkd2e1psjgtbl</link>
-      <description><![CDATA[来源：X：Cognition (@cognition) · 发布：2026-11-09 19:09<br>Cognition 宣布 Claude Fable 5.2 现已在 Devin Desktop 和 Devin CLI 中可用。该模型在 FrontierCode 2.0 上以 49.1 分排名第一；相比 Fable 5.1，在低推理力度下以约三分之一的价格超过前代得分。<br><a href="https://aihot.news/items/rth7pxd3xqp2zkd2e1psjgtbl">查看原文</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/rth7pxd3xqp2zkd2e1psjgtbl</guid>
+      <title>Stripe 收购 OpenRouter，双方宣布合并后定位</title>
+      <link>https://aihot.news/items/zycmiklep7i6dct58558jbp78</link>
+      <description><![CDATA[来源：X：OpenRouter (@OpenRouter) · 发布：2026-11-10 19:18<br>OpenRouter 官方宣布正式并入 Stripe。OpenRouter 称有超过 1000 万开发者和公司使用其平台，它为多模型、多 provider 的 AI 运行提供基础设施，包括访问新模型、故障期间保持可用，以及为团队执行支出和数据策略。<br><a href="https://aihot.news/items/zycmiklep7i6dct58558jbp78">查看原文</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/zycmiklep7i6dct58558jbp78</guid>
       <category>AI 行业资讯</category>
     </item>
     <item>
-      <title>Redwood Research 分析 OpenAI Astra 在安全任务上的隐性消极表现</title>
-      <link>https://aihot.news/items/saq4lh2i3ewct7cxvvh1h77jo</link>
-      <description><![CDATA[来源：Redwood Research：Blog（RSS） · 发布：2026-11-09 17:33<br>Redwood Research 的 Alexa Pan 撰文分析 OpenAI 披露的 Astra 在安全与对齐任务上系统性隐性消极表现，包括添加不必要前置条件、放弃可行方案和编造阻碍，且多数情况下不在 CoT 中言明意图。<br><a href="https://aihot.news/items/saq4lh2i3ewct7cxvvh1h77jo">查看原文</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/saq4lh2i3ewct7cxvvh1h77jo</guid>
-      <category>AI 行业资讯</category>
-    </item>
-    <item>
-      <title>实测 Claude Fable 5.2：一次直出视频与 3D 网页，审美与细节表现突出</title>
-      <link>https://aihot.news/items/po2cdt1whxfqyfew3e81l8mb0</link>
-      <description><![CDATA[来源：公众号：数字生命卡兹克 · 发布：2026-11-09 23:21<br>Anthropic 凌晨正式发布 Claude Fable 5.2，作者第一时间实测视频动效、Three.js 3D 场景和苹果静安店 3D 网页等 10 个任务，全部一次直出，未发现生成视频中的事实错误。<br><a href="https://aihot.news/items/po2cdt1whxfqyfew3e81l8mb0">查看原文</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/po2cdt1whxfqyfew3e81l8mb0</guid>
+      <title>Berkeley RDI 发布 CyberBinGym 基准，测试 AI 智能体能否仅凭二进制补丁写出真实漏洞利用</title>
+      <link>https://aihot.news/items/xenhfme3azzcf8qpihr57fb93</link>
+      <description><![CDATA[来源：Berkeley RDI：Blog（AI 安全与评测） · 发布：2026-11-11 00:00<br>UC Berkeley 等机构发布 CyberBinGym 基准，评估 AI 智能体在无源码、无漏洞描述、无触发输入的 1-day 场景下，仅凭 stripped 的漏洞与补丁二进制能否恢复并利用真实漏洞，含 100 个来自 53 个开源项目的任务。<br><a href="https://aihot.news/items/xenhfme3azzcf8qpihr57fb93">查看原文</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/xenhfme3azzcf8qpihr57fb93</guid>
       <category>模型发布动态</category>
     </item>
     <item>
-      <title>Claude Mythos 5.2 预测基因治疗载体 AAV 衣壳结构</title>
-      <link>https://aihot.news/items/rxx1qxfjfuioem95lr868hhwq</link>
-      <description><![CDATA[来源：Claude：YouTube（RSS） · 发布：2026-11-09 18:56<br>Claude 官方视频介绍 Claude Mythos 5.2 预测了完整 AAV 衣壳结构，即用于递送基因治疗的蛋白质外壳。模型编写代码在相邻五链分组上运行开源折叠模型，再利用衣壳对称性拼合全部 60 条链；在 AAV2 上预测结果与实验结构误差约为一个原子宽度。<br><a href="https://aihot.news/items/rxx1qxfjfuioem95lr868hhwq">查看原文</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/rxx1qxfjfuioem95lr868hhwq</guid>
+      <title>Microsoft Research 揭示 Lazarus 权重空间后门技术，通过重编程休眠神经元攻击 AI Agent</title>
+      <link>https://aihot.news/items/womexcn3n0ijhbehvhbsxxm4f</link>
+      <description><![CDATA[来源：Microsoft Research 博客（RSS） · 发布：2026-11-10 20:52<br>Microsoft Research 发布对 Lazarus 后门技术的研究，重编程 LLM 中少于 10 个休眠神经元即可在没有训练的情况下给基于该模型的 Agent 安装后门。<br><a href="https://aihot.news/items/womexcn3n0ijhbehvhbsxxm4f">查看原文</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/womexcn3n0ijhbehvhbsxxm4f</guid>
       <category>模型发布动态</category>
     </item>
     <item>
-      <title>Anthropic 用 1000 个 Claude Fable 5.2 智能体在沙箱内复现费马大定理形式化证明</title>
-      <link>https://aihot.news/items/y0m3p1gin2dlfm4ns7gsrkvr8</link>
-      <description><![CDATA[来源：Anthropic：Claude.dev 开发者博客（RSS） · 发布：2026-11-09 12:00<br>Anthropic 的玩具实验中，1000 个运行 Claude Fable 5.2 早期版本的智能体在无 Prove2Me 平台和研究者指导的情况下复现了费马大定理的形式化证明，耗时 28.7 小时，输出 token 仅为原 9 月形式化的三分之一，证明长度为七分之一。<br><a href="https://aihot.news/items/y0m3p1gin2dlfm4ns7gsrkvr8">查看原文</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/y0m3p1gin2dlfm4ns7gsrkvr8</guid>
+      <title>MiniMax 发布开源图像生成模型 H3-Image，10 秒内生成 4K 图像</title>
+      <link>https://aihot.news/items/eel6o8sxfldx5itfa8f8wigc0</link>
+      <description><![CDATA[来源：MiniMax：Blog（网页） · 发布：2026-11-10 16:23<br>MiniMax 发布基于 H3 的开源权重图像生成模型 H3-Image，支持文生图、参考图生成和图像编辑，可生成 4096 × 4096 的 4K 图像，速度最高达主流方案的 5 倍。<br><a href="https://aihot.news/items/eel6o8sxfldx5itfa8f8wigc0">查看原文</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/eel6o8sxfldx5itfa8f8wigc0</guid>
       <category>模型发布动态</category>
     </item>
     <item>
-      <title>Meta 发布最小最高效模型 Muse Ember，主打智能体高频任务</title>
-      <link>https://aihot.news/items/cox936nwax49rkiimi1oicgzu</link>
-      <description><![CDATA[来源：Meta AI：Research Blog（网页） · 发布：2026-11-09 07:00<br>Meta 发布 Muse Ember（muse-ember-1.0），定位最小最高效的复杂推理执行模型，面向工具调用、编码子任务、路由、抽取和长文档解析等智能体日常重复任务。<br><a href="https://aihot.news/items/cox936nwax49rkiimi1oicgzu">查看原文</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/cox936nwax49rkiimi1oicgzu</guid>
+      <title>Google DeepMind 发布 Gemini 4 Carbon 前沿模型</title>
+      <link>https://aihot.news/items/w8cvkd1j2o1c3m8ikh8x2kpfx</link>
+      <description><![CDATA[来源：Google DeepMind：Blog（RSS） · 发布：2026-11-10 16:03<br>Google DeepMind 正式向开发者、企业、科学家和普通用户开放 Gemini 4 Carbon，定位为其最强前沿模型，主打网络安全能力与复杂知识工作、软件工程、科学推理中的长程智能体工作流。<br><a href="https://aihot.news/items/w8cvkd1j2o1c3m8ikh8x2kpfx">查看原文</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/w8cvkd1j2o1c3m8ikh8x2kpfx</guid>
       <category>模型发布动态</category>
     </item>
     <item>
-      <title>Artificial Analysis 评测 Claude Fable 5.2：以 65 分登顶 Intelligence Index v5</title>
-      <link>https://aihot.news/items/m23i0fgxrk1t2gqysu6mqv82s</link>
-      <description><![CDATA[来源：X：Artificial Analysis (@ArtificialAnlys) · 发布：2026-11-09 19:45<br>Artificial Analysis 评测 Anthropic 发布的 Claude Fable 5.2，其在 Artificial Analysis Intelligence Index v5 以 65 分登顶，领先 Gemini 4 Carbon（60）和 Claude Opus 5.5（59）。<br><a href="https://aihot.news/items/m23i0fgxrk1t2gqysu6mqv82s">查看原文</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/m23i0fgxrk1t2gqysu6mqv82s</guid>
+      <title>Gemini 4 Carbon 现已登陆 Cursor，高 effort 下居 CursorBench 榜首</title>
+      <link>https://aihot.news/items/tk36lg7rqiq1i67rq0ce28yo8</link>
+      <description><![CDATA[来源：X：Cursor (@cursor_ai) · 发布：2026-11-10 16:35<br>Cursor 宣布 Gemini 4 Carbon 已可在 Cursor 中使用。官方称在高 effort 设置下，该模型以 60.4% 的得分位居 CursorBench 4.0 榜首，配图还标注其成本为 $9.22。<br><a href="https://aihot.news/items/tk36lg7rqiq1i67rq0ce28yo8">查看原文</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/tk36lg7rqiq1i67rq0ce28yo8</guid>
       <category>大模型测评</category>
     </item>
     <item>
-      <title>[开源模型] deep-principle/Hydrogen-1.0</title>
-      <link>https://hf-mirror.com/deep-principle/Hydrogen-1.0</link>
-      <description><![CDATA[许可 mit · 点赞 282 · 下载 2.6万 · 发布 2026-10-31<br>文本生成类开源模型 · 许可证 mit · 近 7 天点赞 282 · 下载 2.6万<br><a href="https://hf-mirror.com/deep-principle/Hydrogen-1.0">模型地址</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://hf-mirror.com/deep-principle/Hydrogen-1.0</guid>
+      <title>[开源模型] LiquidAI/LFM3-1.7B</title>
+      <link>https://hf-mirror.com/LiquidAI/LFM3-1.7B</link>
+      <description><![CDATA[许可 other · 参数 1.7B · 点赞 1590 · 下载 8.3万 · 发布 2026-10-23<br>LFM3-1.7B是基于我们新的三混合架构的本地代理和专业应用程序的文本模型<br><a href="https://hf-mirror.com/LiquidAI/LFM3-1.7B">模型地址</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://hf-mirror.com/LiquidAI/LFM3-1.7B</guid>
       <category>开源模型推荐</category>
     </item>
     <item>
-      <title>anthropics/skills ★191,443</title>
-      <link>https://github.com/anthropics/skills</link>
-      <description><![CDATA[Python ★191,443<br>智能体技能的公共存储库<br><a href="https://github.com/anthropics/skills">地址</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/anthropics/skills</guid>
+      <title>[开源模型] baidu/ERNIE-5.5-Flash-Base-BF16</title>
+      <link>https://hf-mirror.com/baidu/ERNIE-5.5-Flash-Base-BF16</link>
+      <description><![CDATA[许可 other · 点赞 387 · 下载 755 · 发布 2026-10-21<br>ERNIE 5.5 Flash是一种高效的稀疏专家混合（ MoE ）语言模型，总参数为280B ，每个令牌激活14B ，在33.5T令牌上通过训练上下文从头开始训练<br><a href="https://hf-mirror.com/baidu/ERNIE-5.5-Flash-Base-BF16">模型地址</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://hf-mirror.com/baidu/ERNIE-5.5-Flash-Base-BF16</guid>
+      <category>开源模型推荐</category>
+    </item>
+    <item>
+      <title>addyosmani/agent-skills ★115,357</title>
+      <link>https://github.com/addyosmani/agent-skills</link>
+      <description><![CDATA[JavaScript ★115,357<br>AI编码代理的生产级工程技能<br><a href="https://github.com/addyosmani/agent-skills">地址</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/addyosmani/agent-skills</guid>
       <category>开源</category>
     </item>
     <item>
-      <title>garrytan/gbrain ★32,318</title>
-      <link>https://github.com/garrytan/gbrain</link>
-      <description><![CDATA[TypeScript ★32,318<br>加里固执己见的 OpenClaw/Hermes 特工大脑<br><a href="https://github.com/garrytan/gbrain">地址</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/garrytan/gbrain</guid>
+      <title>we-promise/sure ★12,214</title>
+      <link>https://github.com/we-promise/sure</link>
+      <description><![CDATA[Ruby ★12,214<br>适合所有人（由所有人）的个人理财应用程序<br><a href="https://github.com/we-promise/sure">地址</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/we-promise/sure</guid>
       <category>开源</category>
     </item>
     <item>
-      <title>ruvnet/RuView ★103,676</title>
-      <link>https://github.com/ruvnet/RuView</link>
-      <description><![CDATA[Rust ★103,676<br>π RuView将商用WiFi信号转化为实时空间智能、生命体征监测和存在检测--所有这些都无需一个像素的视频<br><a href="https://github.com/ruvnet/RuView">地址</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/ruvnet/RuView</guid>
+      <title>tokio-rs/topcoat ★6,943</title>
+      <link>https://github.com/tokio-rs/topcoat</link>
+      <description><![CDATA[Rust ★6,943<br>用于构建Web应用程序的包含电池的框架<br><a href="https://github.com/tokio-rs/topcoat">地址</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/tokio-rs/topcoat</guid>
       <category>开源</category>
     </item>
     <item>
-      <title>ZhuLinsen/daily_stock_analysis ★69,257</title>
-      <link>https://github.com/ZhuLinsen/daily_stock_analysis</link>
-      <description><![CDATA[Python ★69,257<br>法学硕士驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送 ，支持零成本定时运行<br><a href="https://github.com/ZhuLinsen/daily_stock_analysis">地址</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/ZhuLinsen/daily_stock_analysis</guid>
+      <title>deepseek-ai/DeepInfer ★25,833</title>
+      <link>https://github.com/deepseek-ai/DeepInfer</link>
+      <description><![CDATA[Python ★25,833<br>DeepInfer ： DeepSeek模型的高性能、大规模推理框架<br><a href="https://github.com/deepseek-ai/DeepInfer">地址</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/deepseek-ai/DeepInfer</guid>
       <category>开源</category>
     </item>
     <item>
-      <title>homeassistant-ai/ha-mcp ★6,185</title>
-      <link>https://github.com/homeassistant-ai/ha-mcp</link>
-      <description><![CDATA[Python ★6,185<br>使用Claude、ChatGPT和其他AI助手配置和自动化Home Assistant<br><a href="https://github.com/homeassistant-ai/ha-mcp">地址</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/homeassistant-ai/ha-mcp</guid>
+      <title>ccch1mneyyy/dsh-Go ★19,005</title>
+      <link>https://github.com/ccch1mneyyy/dsh-Go</link>
+      <description><![CDATA[Dart ★19,005<br>dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑<br><a href="https://github.com/ccch1mneyyy/dsh-Go">地址</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/ccch1mneyyy/dsh-Go</guid>
       <category>开源</category>
     </item>
     <item>
-      <title>Gathin23/cleanyourtv ★55,609</title>
-      <link>https://github.com/Gathin23/cleanyourtv</link>
-      <description><![CDATA[Python ★55,609<br>通过Wi-Fi连接任何Android或Google TV ，即可获得Apple TV风格的家居体验<br><a href="https://github.com/Gathin23/cleanyourtv">地址</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/Gathin23/cleanyourtv</guid>
+      <title>seedds/nxnative ★14,608</title>
+      <link>https://github.com/seedds/nxnative</link>
+      <description><![CDATA[Python ★14,608<br>切换在iPhone、iPad和Mac上本机运行的游戏： NSP文件夹变为未签名的IPA （ NSO重写器、Horizon HLE主机、NVN→ Metal ）<br><a href="https://github.com/seedds/nxnative">地址</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/seedds/nxnative</guid>
       <category>开源</category>
     </item>
     <item>
-      <title>Zagitta/gpu-unlock ★18,437</title>
-      <link>https://github.com/Zagitta/gpu-unlock</link>
-      <description><![CDATA[C ★18,437<br>您的GeForce以半速运行AI<br><a href="https://github.com/Zagitta/gpu-unlock">地址</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/Zagitta/gpu-unlock</guid>
+      <title>heydamir/unslop ★13,987</title>
+      <link>https://github.com/heydamir/unslop</link>
+      <description><![CDATA[JavaScript ★13,987<br>一种克劳德技能，将振动编码的人工智能外观用户界面转变为设计界面<br><a href="https://github.com/heydamir/unslop">地址</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/heydamir/unslop</guid>
       <category>开源</category>
     </item>
     <item>
-      <title>Minireel/HGhub ★7,112</title>
-      <link>https://github.com/Minireel/HGhub</link>
-      <description><![CDATA[TypeScript ★7,112<br>YellowFruit第三方客户端<br><a href="https://github.com/Minireel/HGhub">地址</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/Minireel/HGhub</guid>
+      <title>pengchujin/aerial-tv ★11,173</title>
+      <link>https://github.com/pengchujin/aerial-tv</link>
+      <description><![CDATA[Kotlin ★11,173<br>给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面没有广告，面向开机自动接管<br><a href="https://github.com/pengchujin/aerial-tv">地址</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/pengchujin/aerial-tv</guid>
       <category>开源</category>
     </item>
     <item>
-      <title>valentderah/totk-pc-recomp ★6,260</title>
-      <link>https://github.com/valentderah/totk-pc-recomp</link>
-      <description><![CDATA[C ★6,260<br>使用Vulkan渲染器将《塞尔达传说：王国之泪》静态重新编译为本机Windows和Linux x86-64<br><a href="https://github.com/valentderah/totk-pc-recomp">地址</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/valentderah/totk-pc-recomp</guid>
+      <title>wangzan101/Mika ★8,125</title>
+      <link>https://github.com/wangzan101/Mika</link>
+      <description><![CDATA[Kotlin ★8,125<br>适用于Android的设备上AI代理，可运行应用程序和网络，为您完成任务<br><a href="https://github.com/wangzan101/Mika">地址</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/wangzan101/Mika</guid>
       <category>开源</category>
     </item>
     <item>
-      <title>kingcharleslzy-ai/dsh-purge ★6,258</title>
-      <link>https://github.com/kingcharleslzy-ai/dsh-purge</link>
-      <description><![CDATA[JavaScript ★6,258<br>dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚<br><a href="https://github.com/kingcharleslzy-ai/dsh-purge">地址</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/kingcharleslzy-ai/dsh-purge</guid>
+      <title>NotRexed/Hookshot ★6,840</title>
+      <link>https://github.com/NotRexed/Hookshot</link>
+      <description><![CDATA[C++ ★6,840<br>《塞尔达传说：时光之塔》原生重编任天堂Switch 2翻拍<br><a href="https://github.com/NotRexed/Hookshot">地址</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/NotRexed/Hookshot</guid>
       <category>开源</category>
     </item>
     <item>
-      <title>[Docker] bregman-arie/devops-exercises</title>
-      <link>https://github.com/bregman-arie/devops-exercises</link>
-      <description><![CDATA[Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions（英文原文，翻译源暂不可用）<br><a href="https://github.com/bregman-arie/devops-exercises">地址</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/bregman-arie/devops-exercises</guid>
+      <title>[Docker] wagoodman/dive</title>
+      <link>https://github.com/wagoodman/dive</link>
+      <description><![CDATA[用于探索Docker镜像中每个图层的工具<br><a href="https://github.com/wagoodman/dive">地址</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/wagoodman/dive</guid>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] macrozheng/mall</title>
-      <link>https://github.com/macrozheng/mall</link>
-      <description><![CDATA[mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署<br><a href="https://github.com/macrozheng/mall">地址</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/macrozheng/mall</guid>
+      <title>[Docker] dockur/windows</title>
+      <link>https://github.com/dockur/windows</link>
+      <description><![CDATA[Docker容器中的Windows<br><a href="https://github.com/dockur/windows">地址</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/dockur/windows</guid>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] netdata/netdata</title>
-      <link>https://github.com/netdata/netdata</link>
-      <description><![CDATA[实现人工智能驱动的全栈可观测性的最快途径，即使对于精益团队也是如此<br><a href="https://github.com/netdata/netdata">地址</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/netdata/netdata</guid>
+      <title>[Docker] sickcodes/Docker-OSX</title>
+      <link>https://github.com/sickcodes/Docker-OSX</link>
+      <description><![CDATA[在Docker中运行macOS虚拟机<br><a href="https://github.com/sickcodes/Docker-OSX">地址</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/sickcodes/Docker-OSX</guid>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] moby/moby</title>
-      <link>https://github.com/moby/moby</link>
-      <description><![CDATA[Moby项目-容器生态系统的协作项目，用于组装基于容器的系统<br><a href="https://github.com/moby/moby">地址</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/moby/moby</guid>
+      <title>[Docker] mastodon/mastodon</title>
+      <link>https://github.com/mastodon/mastodon</link>
+      <description><![CDATA[您的自托管、全球互联的微博社区<br><a href="https://github.com/mastodon/mastodon">地址</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/mastodon/mastodon</guid>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] dani-garcia/vaultwarden</title>
-      <link>https://github.com/dani-garcia/vaultwarden</link>
-      <description><![CDATA[用Rust编写的非官方Bitwarden兼容服务器，以前称为bitwarden_rs<br><a href="https://github.com/dani-garcia/vaultwarden">地址</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/dani-garcia/vaultwarden</guid>
+      <title>[Docker] DataTalksClub/data-engineering-zoomcamp</title>
+      <link>https://github.com/DataTalksClub/data-engineering-zoomcamp</link>
+      <description><![CDATA[Data Engineering Zoomcamp是一门为期9周的关于构建生产就绪数据管道的免费课程<br><a href="https://github.com/DataTalksClub/data-engineering-zoomcamp">地址</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/DataTalksClub/data-engineering-zoomcamp</guid>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] traefik/traefik</title>
-      <link>https://github.com/traefik/traefik</link>
-      <description><![CDATA[云原生应用程序代理<br><a href="https://github.com/traefik/traefik">地址</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/traefik/traefik</guid>
+      <title>[Docker] LeCoupa/awesome-cheatsheets</title>
+      <link>https://github.com/LeCoupa/awesome-cheatsheets</link>
+      <description><![CDATA[热门编程语言、框架和开发工具的👩‍💻👨‍💻精彩备忘单<br><a href="https://github.com/LeCoupa/awesome-cheatsheets">地址</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/LeCoupa/awesome-cheatsheets</guid>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] sansan0/TrendRadar</title>
-      <link>https://github.com/sansan0/TrendRadar</link>
-      <description><![CDATA[⭐AI-driven public opinion &amp; trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具<br><a href="https://github.com/sansan0/TrendRadar">地址</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/sansan0/TrendRadar</guid>
+      <title>[Docker] fastapi/full-stack-fastapi-template</title>
+      <link>https://github.com/fastapi/full-stack-fastapi-template</link>
+      <description><![CDATA[Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, FastAPI Cloud, and Docker Compose.（英文原文，翻译源暂不可用）<br><a href="https://github.com/fastapi/full-stack-fastapi-template">地址</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/fastapi/full-stack-fastapi-template</guid>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] makeplane/plane</title>
-      <link>https://github.com/makeplane/plane</link>
-      <description><![CDATA[🔥🔥🔥 开源JIRA、Linear、Monday和ClickUp替代方案<br><a href="https://github.com/makeplane/plane">地址</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/makeplane/plane</guid>
+      <title>[Docker] community-scripts/ProxmoxVE</title>
+      <link>https://github.com/community-scripts/ProxmoxVE</link>
+      <description><![CDATA[Proxmox VE辅助脚本（社区版）<br><a href="https://github.com/community-scripts/ProxmoxVE">地址</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/community-scripts/ProxmoxVE</guid>
       <category>Docker</category>
     </item>
     <item>
-      <title>[宏观] 日本央行纪要释放12月加息信号，美元兑日元徘徊于箱体上沿</title>
-      <link>https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyfuza9269190.shtml</link>
-      <description><![CDATA[发布：2026-11-10 07:11<br>汇通财经APP讯——周二欧洲早盘，美元兑日元小幅走高至157.95附近。日本央行的鹰派立场可能限制该货币对的上行空间，而交易者仍对日本当局的汇市干预保持高度警惕。<br><a href="https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyfuza9269190.shtml">链接</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyfuza9269190.shtml</guid>
+      <title>[宏观] 美联储保尔森：仍需继续渐进加息，以推动通胀回归2%目标</title>
+      <link>https://finance.sina.com.cn/tob/2026-11-11/doc-iniyixxy2014746.shtml</link>
+      <description><![CDATA[发布：2026-11-11 06:27<br>11月10日，费城联储主席保尔森（Anna Paulson）表示，美联储仍需进一步加息，以应对持续高企的通胀压力，但采取渐进式收紧货币政策的方式仍然适宜。<br><a href="https://finance.sina.com.cn/tob/2026-11-11/doc-iniyixxy2014746.shtml">链接</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://finance.sina.com.cn/tob/2026-11-11/doc-iniyixxy2014746.shtml</guid>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 美联储12月会加息吗？今晚CPI一锤定音！</title>
-      <link>https://finance.sina.com.cn/money/forex/forexroll/2026-11-10/doc-iniyfuza9267386.shtml</link>
-      <description><![CDATA[发布：2026-11-10 07:10<br>华尔街见闻 10月CPI数据今晚落地，市场对加息定价已高达86%，高盛预测核心CPI环比仅0.16%，远低于市场预期，但健康保险统计扭曲、二手车回落等“软因素”难以传导至美联储更...<br><a href="https://finance.sina.com.cn/money/forex/forexroll/2026-11-10/doc-iniyfuza9267386.shtml">链接</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://finance.sina.com.cn/money/forex/forexroll/2026-11-10/doc-iniyfuza9267386.shtml</guid>
+      <title>[宏观] 今日金价：反弹至4060美元周围，美国通胀超预期推动美联储加息押注升温</title>
+      <link>https://finance.sina.com.cn/tob/2026-11-11/doc-iniyixxw5232714.shtml</link>
+      <description><![CDATA[发布：2026-11-11 06:20<br>11月11日，国际金价在前一交易日大幅下跌后小幅反弹，但美国通胀超预期及美联储官员的鹰派表态仍限制金价涨幅。截至发稿，现货黄金上涨0.60%至每盎司4056.63美元...<br><a href="https://finance.sina.com.cn/tob/2026-11-11/doc-iniyixxw5232714.shtml">链接</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://finance.sina.com.cn/tob/2026-11-11/doc-iniyixxw5232714.shtml</guid>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 欧洲区央行从美国迁出黄金，其美元储备仍维持高位</title>
-      <link>https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyfuyw5874662.shtml</link>
-      <description><![CDATA[发布：2026-11-10 07:04<br>汇通财经APP讯——2013年以来荷兰、法国、德国多家欧元区央行公开黄金储备迁移行动，而很多国家出于制裁风险考量，将黄金转移出海外托管地、同步降低美元资产，但德、法...<br><a href="https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyfuyw5874662.shtml">链接</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyfuyw5874662.shtml</guid>
+      <title>[宏观] 光大期货1111黄金点评：CPI坐实鹰派定价，黄金再次承压</title>
+      <link>https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-11/doc-iniyixxw5227332.shtml</link>
+      <description><![CDATA[发布：2026-11-11 06:13<br>隔夜黄金再次大幅走弱，伦敦现货黄金在CPI数据公布后急速下挫，美盘尾段跌幅一度扩大至3%、最低下探4015美元，后有小幅收复，较周一收盘下跌约2.6%。<br><a href="https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-11/doc-iniyixxw5227332.shtml">链接</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-11/doc-iniyixxw5227332.shtml</guid>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 美国退伍军人节前夕！流动性真空里的CPI：波动会被放大，还是被稀释？</title>
-      <link>https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyfuyw5866166.shtml</link>
-      <description><![CDATA[发布：2026-11-10 06:58<br>汇通财经APP讯——市场已准备好迎接今日晚些时候美国CPI报告带来的“深夜烟火”，但如果一半的人决定不出席随后的“庆功宴”呢？这是进入明日之际值得记住的一点。<br><a href="https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyfuyw5866166.shtml">链接</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyfuyw5866166.shtml</guid>
+      <title>[宏观] 美联储加息预期升温，黄金重回箱体下沿</title>
+      <link>https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-11/doc-iniyitse8595063.shtml</link>
+      <description><![CDATA[发布：2026-11-11 05:15<br>文章来源：汇通财经 周三亚洲时段，黄金吸引部分逢低买盘，攀升至4050 美元水平，部分逆转前一日的大幅下跌。美元在周二由美国偏热通胀数据引发的涨势后暂作歇息 ——...<br><a href="https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-11/doc-iniyitse8595063.shtml">链接</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-11/doc-iniyitse8595063.shtml</guid>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 新加坡推出央行黄金托管服务</title>
-      <link>https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfqta2765544.shtml</link>
-      <description><![CDATA[发布：2026-11-10 06:46<br>来源：上海证券报·中国证券网 上证报中国证券网讯（记者 黄冰玉）11月10日，据新加坡金融管理局官网，新加坡已面向海外央行及官方机构推出黄金托管服务...<br><a href="https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfqta2765544.shtml">链接</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfqta2765544.shtml</guid>
+      <title>[宏观] 高盛更新美联储利率预测：明年3月第三度加息，降息推迟至明年底</title>
+      <link>https://finance.sina.com.cn/money/forex/whqqscgd/2026-11-11/doc-iniyitsa2093211.shtml</link>
+      <description><![CDATA[发布：2026-11-11 04:52<br>文章来源：财联社 受美国10月CPI大幅高于预期的通胀数据扰动，市场对美联储货币政策路径的预期再度调整。 美东时间周二，高盛首席美国经济学家戴维・梅里克尔（David...<br><a href="https://finance.sina.com.cn/money/forex/whqqscgd/2026-11-11/doc-iniyitsa2093211.shtml">链接</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://finance.sina.com.cn/money/forex/whqqscgd/2026-11-11/doc-iniyitsa2093211.shtml</guid>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 美国国债收益率徘徊两个月低位，市场等待CPI数据及1250亿美元国债拍卖考验</title>
-      <link>https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyfqtc2718403.shtml</link>
-      <description><![CDATA[发布：2026-11-10 06:29<br>11月9日，美国国债收益率基本持稳，投资者在上周五强劲就业数据公布后，等待本周美国通胀报告及大规模国债拍卖。截至发稿，美国10年期国债收益率持平于4.859%...<br><a href="https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyfqtc2718403.shtml">链接</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyfqtc2718403.shtml</guid>
+      <title>[宏观] 英国央行副行长Lombardelli称可能需要进一步加息</title>
+      <link>https://finance.sina.com.cn/roll/2026-11-11/doc-iniyitse8579276.shtml</link>
+      <description><![CDATA[发布：2026-11-11 04:38<br>文章来源：商业周刊 英国央行副行长Clare Lombardelli表示，英国“低招聘、低解雇”的劳动力市场可能使工资压力更难缓解，并警告利率可能需要再次上调。<br><a href="https://finance.sina.com.cn/roll/2026-11-11/doc-iniyitse8579276.shtml">链接</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://finance.sina.com.cn/roll/2026-11-11/doc-iniyitse8579276.shtml</guid>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 日本财务大臣：央行加快出售ETF预计每年增加约1万亿日元财政收入</title>
-      <link>https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyfqta2746855.shtml</link>
-      <description><![CDATA[发布：2026-11-10 06:26<br>11月10日，日本财务大臣片山皋月表示，随着日本央行加快出售所持交易所交易基金（ETF），预计每年将额外产生约1万亿日元（约合63.3亿美元）的收入...<br><a href="https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyfqta2746855.shtml">链接</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyfqta2746855.shtml</guid>
+      <title>[宏观] 印尼盾逼近历史低点，美联储鹰派信号引发关注</title>
+      <link>https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyitry5292914.shtml</link>
+      <description><![CDATA[发布：2026-11-11 04:08<br>在美国公布的通胀数据高于预期，且美联储官员发表鹰派言论后，印尼盾对美元汇率走弱，逼近历史最低点。 印尼盾对美元下跌0.5%，至18，144。<br><a href="https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyitry5292914.shtml">链接</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyitry5292914.shtml</guid>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 低利率时代“求稳”迎新解 长城聚瑞稳健多资产3个月持有FOF正式发行</title>
-      <link>https://finance.sina.com.cn/money/fund/jjh/2026-11-10/doc-iniyfqtc2709813.shtml</link>
-      <description><![CDATA[发布：2026-11-10 06:15<br>近年来，随着无风险利率中枢持续下移，传统稳健类资产的收益空间不断收窄。与此同时，A股市场波动加剧、行业轮动频繁，单一资产投资越来越难以满足投资者“稳中求进”的配置...<br><a href="https://finance.sina.com.cn/money/fund/jjh/2026-11-10/doc-iniyfqtc2709813.shtml">链接</a>]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">https://finance.sina.com.cn/money/fund/jjh/2026-11-10/doc-iniyfqtc2709813.shtml</guid>
+      <title>[宏观] 美通胀超预期，黄金一夜跌逾百点濒临4000美元大关</title>
+      <link>https://finance.sina.com.cn/jjxw/2026-11-11/doc-iniyitsa2100326.shtml</link>
+      <description><![CDATA[发布：2026-11-11 05:08<br>文章来源：财联社 黄金多头的狂欢持续了不到一周，超出预期的美通胀数据，再度打压了刚站上4100美元的金价。昨夜今晨，国际黄金现货价格跌逾百点...<br><a href="https://finance.sina.com.cn/jjxw/2026-11-11/doc-iniyitsa2100326.shtml">链接</a>]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">https://finance.sina.com.cn/jjxw/2026-11-11/doc-iniyitsa2100326.shtml</guid>
       <category>宏观</category>
     </item>
     <item>
-      <title>市场快照 2026-11-10</title>
+      <title>市场快照 2026-11-11</title>
       <link>https://eastmoney.com</link>
-      <description><![CDATA[每日市场快照：<br>沪深300+0.07%；中证500+0.91%；创业板指+1.46%；科创50+0.64%；中证红利-0.59%；红利低波-0.42%；恒生指数+0.46%；纳斯达克+2.74%；标普500+2.35%。<br>微型黄金+0.28%。]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">snapshot-2026-11-10</guid>
+      <description><![CDATA[每日市场快照：<br>沪深300+0.52%；中证500+1.04%；创业板指+3.20%；科创50+2.67%；中证红利+0.16%；红利低波-0.22%；恒生指数-0.70%；纳斯达克-0.74%；标普500-0.38%。<br>微型黄金+0.85%。]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">snapshot-2026-11-11</guid>
       <category>财经</category>
     </item>
     <item>
-      <title>指数估值 2026-11-10</title>
+      <title>指数估值 2026-11-11</title>
       <link>https://danjuanfunds.com/</link>
-      <description><![CDATA[沪深300 PE分位68%(适中) PB分位22%(低估)<br>中证500 PE分位60%(适中) PB分位59%(适中)<br>创业板指 PE分位7%(低估) PB分位18%(低估)<br>科创50 PE分位75%(高估) PB分位60%(适中)<br>中证红利 PE分位87%(高估) PB分位58%(适中)<br>红利低波 PE分位80%(高估) PB分位66%(适中)<br>恒生指数 PE分位61%(适中) PB分位55%(适中)<br>纳斯达克 PE分位24%(低估) PB分位60%(适中)<br>标普500 PE分位37%(适中) PB分位89%(高估)<br>（蛋卷，截至 11-09）]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">valuation-2026-11-10</guid>
+      <description><![CDATA[沪深300 PE分位66%(适中) PB分位20%(低估)<br>中证500 PE分位61%(适中) PB分位61%(适中)<br>创业板指 PE分位8%(低估) PB分位19%(低估)<br>科创50 PE分位75%(高估) PB分位60%(适中)<br>中证红利 PE分位85%(高估) PB分位56%(适中)<br>红利低波 PE分位80%(高估) PB分位66%(适中)<br>恒生指数 PE分位61%(适中) PB分位56%(适中)<br>纳斯达克 PE分位23%(低估) PB分位59%(适中)<br>标普500 PE分位36%(适中) PB分位88%(高估)<br>（蛋卷，截至 11-10）]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">valuation-2026-11-11</guid>
       <category>估值</category>
     </item>
     <item>
       <title>完整资讯日报（网页版）</title>
-      <link>index.html#2026-11-10</link>
-      <description><![CDATA[<a href="index.html#2026-11-10">完整资讯日报（网页版）</a><br>点击查看完整排版日报（含指数估值表、板块涨跌、各栏目全文）]]></description>
-      <pubDate>Tue, 10 Nov 2026 07:26:12 +0000</pubDate>
-      <guid isPermaLink="false">full-2026-11-10</guid>
+      <link>index.html#2026-11-11</link>
+      <description><![CDATA[<a href="index.html#2026-11-11">完整资讯日报（网页版）</a><br>点击查看完整排版日报（含指数估值表、板块涨跌、各栏目全文）]]></description>
+      <pubDate>Wed, 11 Nov 2026 06:35:38 +0000</pubDate>
+      <guid isPermaLink="false">full-2026-11-11</guid>
       <category>日报</category>
     </item>
   </channel>

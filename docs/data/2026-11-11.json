@@ -1,0 +1,532 @@
+{
+ "date": "2026-11-11",
+ "weekday": "三",
+ "val_date": "11-10",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "WSJ：Anthropic 7 位创始人 IPO 各套现约 2.5 亿美元并保留控制权",
+    "url": "https://aihot.news/items/ajjv9abs8vd20j05emcig98ai",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-11-11T05:47:04.000Z",
+    "summary": "WSJ 报道，Anthropic 7 位创始人将在 IPO 中各出售约 2.5 亿美元股票，每人保留约 180 亿美元持仓。据公司文件，每人出售近 3.4M 股，发行价区间预计 70 至 78 美元，上市预计下周进行，估值接近 1.3 万亿美元，募资 800 亿美元以上，部分通过包括 Google 在内的私募配售。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 修订版 S1 文件披露与 Microsoft 和 Google 超 100 亿美元级新算力协议",
+    "url": "https://aihot.news/items/xshgfc1vcvgrdkvnomagmefwy",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-11-11T04:14:38.000Z",
+    "summary": "Anthropic 在当日修订的 S1 文件中披露与 Microsoft 和 Google 达成超 100 亿美元的新协议。Microsoft 承诺到 2033 年 6 月支出至少 472 亿、最高 492 亿美元，Google 最低承诺从约 1145 亿升至约 1213 亿美元，两笔均不可撤销、无论是否使用容量都须付款。文件还提到上季度短期算力支出 50 亿美元且价格明显更高。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 投资需求火热，承销商拟将 IPO 目标估值上调回 $1.5T 或更高",
+    "url": "https://aihot.news/items/m7ul4psbkb5zyp0t254fr986o",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-11-11T00:58:06.000Z",
+    "summary": "FT 报道，因投资者需求旺盛，Anthropic 承销商计划上调 IPO 定价，把目标估值拉回 $1.5T 或更高。周二文件设定 $70-$78 的发行区间，计入员工期权和受限股后对应 $1.26T-$1.41T 估值；若定价超出区间，募资将超过 $100B，其中 Google、Nvidia 和 Microsoft 将按 IPO 价格投资 $26B。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenRouter 实测 MCP vs CLI vs Skills 的上下文 token 成本",
+    "url": "https://aihot.news/items/wkpj021rmg6sgthgj9zwevei4",
+    "source": "OpenRouter：Announcements（RSS）",
+    "publishedAt": "2026-11-11T00:00:00.000Z",
+    "summary": "OpenRouter 实测同一 GitHub 任务下 MCP、CLI 与 skill 的 token 成本：在 Claude Sonnet 5.5 上 CLI 用 1。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenRouter 实测 fp8 与 fp4 量化对模型质量和价格的影响",
+    "url": "https://aihot.news/items/i3gp1xj4j11gi4qoreya18izb",
+    "source": "OpenRouter：Announcements（RSS）",
+    "publishedAt": "2026-11-11T00:00:00.000Z",
+    "summary": "OpenRouter 发布量化解析文章，讲解 LLM 量化原理，并报告 2026 年 10 月 20 日对 1455 个 provider 端点和 Qwen3.8 27B 六个端点的实测。"
+   },
+   {
+    "kind": "news",
+    "title": "Claude Fable 5.2 实测观察：大模型正用代码吞噬审美与创作",
+    "url": "https://aihot.news/items/uditkv6u7rrzmtj1nx7pxbgjj",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-11-10T23:56:00.000Z",
+    "summary": "作者实测 Claude Fable 5.2 与 Gemini 4 Carbon 并对比后认为，Fable 5.2 的突出差异在于审美，这是无法用 Benchmark 评估但可直观感受的东西。"
+   },
+   {
+    "kind": "news",
+    "title": "Stripe 收购 OpenRouter，双方宣布合并后定位",
+    "url": "https://aihot.news/items/zycmiklep7i6dct58558jbp78",
+    "source": "X：OpenRouter (@OpenRouter)",
+    "publishedAt": "2026-11-10T19:18:01.000Z",
+    "summary": "OpenRouter 官方宣布正式并入 Stripe。OpenRouter 称有超过 1000 万开发者和公司使用其平台，它为多模型、多 provider 的 AI 运行提供基础设施，包括访问新模型、故障期间保持可用，以及为团队执行支出和数据策略。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Berkeley RDI 发布 CyberBinGym 基准，测试 AI 智能体能否仅凭二进制补丁写出真实漏洞利用",
+    "url": "https://aihot.news/items/xenhfme3azzcf8qpihr57fb93",
+    "source": "Berkeley RDI：Blog（AI 安全与评测）",
+    "publishedAt": "2026-11-11T00:00:00.000Z",
+    "summary": "UC Berkeley 等机构发布 CyberBinGym 基准，评估 AI 智能体在无源码、无漏洞描述、无触发输入的 1-day 场景下，仅凭 stripped 的漏洞与补丁二进制能否恢复并利用真实漏洞，含 100 个来自 53 个开源项目的任务。"
+   },
+   {
+    "kind": "news",
+    "title": "Microsoft Research 揭示 Lazarus 权重空间后门技术，通过重编程休眠神经元攻击 AI Agent",
+    "url": "https://aihot.news/items/womexcn3n0ijhbehvhbsxxm4f",
+    "source": "Microsoft Research 博客（RSS）",
+    "publishedAt": "2026-11-10T20:52:56.000Z",
+    "summary": "Microsoft Research 发布对 Lazarus 后门技术的研究，重编程 LLM 中少于 10 个休眠神经元即可在没有训练的情况下给基于该模型的 Agent 安装后门。"
+   },
+   {
+    "kind": "news",
+    "title": "MiniMax 发布开源图像生成模型 H3-Image，10 秒内生成 4K 图像",
+    "url": "https://aihot.news/items/eel6o8sxfldx5itfa8f8wigc0",
+    "source": "MiniMax：Blog（网页）",
+    "publishedAt": "2026-11-10T16:23:20.000Z",
+    "summary": "MiniMax 发布基于 H3 的开源权重图像生成模型 H3-Image，支持文生图、参考图生成和图像编辑，可生成 4096 × 4096 的 4K 图像，速度最高达主流方案的 5 倍。"
+   },
+   {
+    "kind": "news",
+    "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+    "url": "https://aihot.news/items/w8cvkd1j2o1c3m8ikh8x2kpfx",
+    "source": "Google DeepMind：Blog（RSS）",
+    "publishedAt": "2026-11-10T16:03:47.000Z",
+    "summary": "Google DeepMind 正式向开发者、企业、科学家和普通用户开放 Gemini 4 Carbon，定位为其最强前沿模型，主打网络安全能力与复杂知识工作、软件工程、科学推理中的长程智能体工作流。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "Gemini 4 Carbon 现已登陆 Cursor，高 effort 下居 CursorBench 榜首",
+    "url": "https://aihot.news/items/tk36lg7rqiq1i67rq0ce28yo8",
+    "source": "X：Cursor (@cursor_ai)",
+    "publishedAt": "2026-11-10T16:35:16.000Z",
+    "summary": "Cursor 宣布 Gemini 4 Carbon 已可在 Cursor 中使用。官方称在高 effort 设置下，该模型以 60.4% 的得分位居 CursorBench 4.0 榜首，配图还标注其成本为 $9.22。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "LiquidAI/LFM3-1.7B",
+    "url": "https://hf-mirror.com/LiquidAI/LFM3-1.7B",
+    "license": "other",
+    "param": "1.7B",
+    "likes": 1590,
+    "downloads": 82718,
+    "createdAt": "2026-10-23",
+    "intro": "LFM3-1.7B是基于我们新的三混合架构的本地代理和专业应用程序的文本模型"
+   },
+   {
+    "kind": "model",
+    "id": "baidu/ERNIE-5.5-Flash-Base-BF16",
+    "url": "https://hf-mirror.com/baidu/ERNIE-5.5-Flash-Base-BF16",
+    "license": "other",
+    "param": "",
+    "likes": 387,
+    "downloads": 755,
+    "createdAt": "2026-10-21",
+    "intro": "ERNIE 5.5 Flash是一种高效的稀疏专家混合（ MoE ）语言模型，总参数为280B ，每个令牌激活14B ，在33.5T令牌上通过训练上下文从头开始训练"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "lang": "JavaScript",
+   "stars": "115,357",
+   "desc": "AI编码代理的生产级工程技能"
+  },
+  {
+   "repo": "we-promise/sure",
+   "url": "https://github.com/we-promise/sure",
+   "lang": "Ruby",
+   "stars": "12,214",
+   "desc": "适合所有人（由所有人）的个人理财应用程序"
+  },
+  {
+   "repo": "tokio-rs/topcoat",
+   "url": "https://github.com/tokio-rs/topcoat",
+   "lang": "Rust",
+   "stars": "6,943",
+   "desc": "用于构建Web应用程序的包含电池的框架"
+  },
+  {
+   "repo": "deepseek-ai/DeepInfer",
+   "url": "https://github.com/deepseek-ai/DeepInfer",
+   "lang": "Python",
+   "stars": "25,833",
+   "desc": "DeepInfer ： DeepSeek模型的高性能、大规模推理框架"
+  },
+  {
+   "repo": "ccch1mneyyy/dsh-Go",
+   "url": "https://github.com/ccch1mneyyy/dsh-Go",
+   "lang": "Dart",
+   "stars": "19,005",
+   "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑"
+  },
+  {
+   "repo": "seedds/nxnative",
+   "url": "https://github.com/seedds/nxnative",
+   "lang": "Python",
+   "stars": "14,608",
+   "desc": "切换在iPhone、iPad和Mac上本机运行的游戏： NSP文件夹变为未签名的IPA （ NSO重写器、Horizon HLE主机、NVN→ Metal ）"
+  },
+  {
+   "repo": "heydamir/unslop",
+   "url": "https://github.com/heydamir/unslop",
+   "lang": "JavaScript",
+   "stars": "13,987",
+   "desc": "一种克劳德技能，将振动编码的人工智能外观用户界面转变为设计界面"
+  },
+  {
+   "repo": "pengchujin/aerial-tv",
+   "url": "https://github.com/pengchujin/aerial-tv",
+   "lang": "Kotlin",
+   "stars": "11,173",
+   "desc": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面没有广告，面向开机自动接管"
+  },
+  {
+   "repo": "wangzan101/Mika",
+   "url": "https://github.com/wangzan101/Mika",
+   "lang": "Kotlin",
+   "stars": "8,125",
+   "desc": "适用于Android的设备上AI代理，可运行应用程序和网络，为您完成任务"
+  },
+  {
+   "repo": "NotRexed/Hookshot",
+   "url": "https://github.com/NotRexed/Hookshot",
+   "lang": "C++",
+   "stars": "6,840",
+   "desc": "《塞尔达传说：时光之塔》原生重编任天堂Switch 2翻拍"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "wagoodman/dive",
+   "url": "https://github.com/wagoodman/dive",
+   "lang": "Go",
+   "stars": "54,718",
+   "desc": "用于探索Docker镜像中每个图层的工具",
+   "en": false
+  },
+  {
+   "repo": "dockur/windows",
+   "url": "https://github.com/dockur/windows",
+   "lang": "Shell",
+   "stars": "54,149",
+   "desc": "Docker容器中的Windows",
+   "en": false
+  },
+  {
+   "repo": "sickcodes/Docker-OSX",
+   "url": "https://github.com/sickcodes/Docker-OSX",
+   "lang": "Shell",
+   "stars": "53,006",
+   "desc": "在Docker中运行macOS虚拟机",
+   "en": false
+  },
+  {
+   "repo": "mastodon/mastodon",
+   "url": "https://github.com/mastodon/mastodon",
+   "lang": "Ruby",
+   "stars": "50,521",
+   "desc": "您的自托管、全球互联的微博社区",
+   "en": false
+  },
+  {
+   "repo": "DataTalksClub/data-engineering-zoomcamp",
+   "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+   "lang": "Jupyter Notebook",
+   "stars": "46,797",
+   "desc": "Data Engineering Zoomcamp是一门为期9周的关于构建生产就绪数据管道的免费课程",
+   "en": false
+  },
+  {
+   "repo": "LeCoupa/awesome-cheatsheets",
+   "url": "https://github.com/LeCoupa/awesome-cheatsheets",
+   "lang": "JavaScript",
+   "stars": "46,656",
+   "desc": "热门编程语言、框架和开发工具的👩‍💻👨‍💻精彩备忘单",
+   "en": false
+  },
+  {
+   "repo": "fastapi/full-stack-fastapi-template",
+   "url": "https://github.com/fastapi/full-stack-fastapi-template",
+   "lang": "TypeScript",
+   "stars": "46,222",
+   "desc": "Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, FastAPI Cloud, and Docker Compose.",
+   "en": false
+  },
+  {
+   "repo": "community-scripts/ProxmoxVE",
+   "url": "https://github.com/community-scripts/ProxmoxVE",
+   "lang": "Shell",
+   "stars": "30,096",
+   "desc": "Proxmox VE辅助脚本（社区版）",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4080.13,
+   "chg": 0.52,
+   "pe": 13.46,
+   "pe_pct": 66,
+   "pb": 1.34,
+   "pb_pct": 20,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6714.85,
+   "chg": 1.04,
+   "pe": 28.12,
+   "pe_pct": 61,
+   "pb": 2.06,
+   "pb_pct": 61,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2574.33,
+   "chg": 3.2,
+   "pe": 28.29,
+   "pe_pct": 8,
+   "pb": 3.98,
+   "pb_pct": 19,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1298.82,
+   "chg": 2.67,
+   "pe": 93.19,
+   "pe_pct": 75,
+   "pb": 6.15,
+   "pb_pct": 60,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5538.11,
+   "chg": 0.16,
+   "pe": 8.99,
+   "pe_pct": 85,
+   "pb": 0.87,
+   "pb_pct": 56,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11273.66,
+   "chg": -0.22,
+   "pe": 8.97,
+   "pe_pct": 80,
+   "pb": 0.9,
+   "pb_pct": 66,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 24384.55,
+   "chg": -0.7,
+   "pe": 11.18,
+   "pe_pct": 61,
+   "pb": 1.12,
+   "pb_pct": 56,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 25065.87,
+   "chg": -0.74,
+   "pe": 26.79,
+   "pe_pct": 23,
+   "pb": 8.19,
+   "pb_pct": 59,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7520.93,
+   "chg": -0.38,
+   "pe": 23.48,
+   "pe_pct": 36,
+   "pb": 5.25,
+   "pb_pct": 88,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "元件",
+    "chg": 4.84
+   },
+   {
+    "name": "通信设备",
+    "chg": 4.76
+   },
+   {
+    "name": "玻璃玻纤",
+    "chg": 3.12
+   },
+   {
+    "name": "通用设备",
+    "chg": 2.16
+   },
+   {
+    "name": "仪器仪表",
+    "chg": 2.16
+   },
+   {
+    "name": "塑料",
+    "chg": 2.08
+   }
+  ],
+  "dn": [
+   {
+    "name": "航空机场",
+    "chg": -1.39
+   },
+   {
+    "name": "食品饮料",
+    "chg": -1.09
+   },
+   {
+    "name": "保险Ⅱ",
+    "chg": -0.52
+   },
+   {
+    "name": "农林牧渔",
+    "chg": -0.45
+   },
+   {
+    "name": "贸易Ⅱ",
+    "chg": -0.4
+   },
+   {
+    "name": "证券Ⅱ",
+    "chg": -0.27
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+0.85%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.3945（2026-11-10）（≈ 839 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.8686",
+   "date": "2026-11-09"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.6259",
+   "date": "2026-11-09"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.4653",
+   "date": "2026-11-09"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.0760",
+   "date": "2026-11-09"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6742",
+   "date": "2026-11-10"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8648",
+   "date": "2026-11-09"
+  }
+ ],
+ "macro": [
+  {
+   "title": "美联储保尔森：仍需继续渐进加息，以推动通胀回归2%目标",
+   "ctime": "1794378479",
+   "url": "https://finance.sina.com.cn/tob/2026-11-11/doc-iniyixxy2014746.shtml"
+  },
+  {
+   "title": "今日金价：反弹至4060美元周围，美国通胀超预期推动美联储加息押注升温",
+   "ctime": "1794378038",
+   "url": "https://finance.sina.com.cn/tob/2026-11-11/doc-iniyixxw5232714.shtml"
+  },
+  {
+   "title": "光大期货1111黄金点评：CPI坐实鹰派定价，黄金再次承压",
+   "ctime": "1794377603",
+   "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-11/doc-iniyixxw5227332.shtml"
+  },
+  {
+   "title": "美联储加息预期升温，黄金重回箱体下沿",
+   "ctime": "1794374100",
+   "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-11/doc-iniyitse8595063.shtml"
+  },
+  {
+   "title": "高盛更新美联储利率预测：明年3月第三度加息，降息推迟至明年底",
+   "ctime": "1794372748",
+   "url": "https://finance.sina.com.cn/money/forex/whqqscgd/2026-11-11/doc-iniyitsa2093211.shtml"
+  },
+  {
+   "title": "英国央行副行长Lombardelli称可能需要进一步加息",
+   "ctime": "1794371896",
+   "url": "https://finance.sina.com.cn/roll/2026-11-11/doc-iniyitse8579276.shtml"
+  },
+  {
+   "title": "印尼盾逼近历史低点，美联储鹰派信号引发关注",
+   "ctime": "1794370101",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyitry5292914.shtml"
+  },
+  {
+   "title": "美通胀超预期，黄金一夜跌逾百点濒临4000美元大关",
+   "ctime": "1794373680",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-11/doc-iniyitsa2100326.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 8,
+   "pe": 28.2878,
+   "pb_pct": 19,
+   "pb": 3.9772
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 23,
+   "pe": 26.7863,
+   "pb_pct": 59,
+   "pb": 8.193
+  }
+ ]
+}
