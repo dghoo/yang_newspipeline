@@ -1,0 +1,528 @@
+{
+ "date": "2026-11-13",
+ "weekday": "五",
+ "val_date": "11-12",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "黄仁勋辞去英伟达总裁兼CEO，作者梳理14天风波始末",
+    "url": "https://aihot.news/items/t86m3q7vdlqmvm2zmx91vps5a",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-11-12T23:56:00.000Z",
+    "summary": "英伟达公告黄仁勋辞去总裁、CEO和董事职务，即刻生效，股价开盘下跌14个点。作者依据《纽约时报》、The Information 等报道梳理脉络：从2022年A100、H100对华禁售，到 Megaspeed 采购争议、黄乐被情报机构认定涉间谍活动，再到婚外情曝光后董事会于10月29日起14天内收网，黄仁勋在英伟达33年的时代就此结束。"
+   },
+   {
+    "kind": "news",
+    "title": "民主党对 Nvidia 对华芯片销售启动调查，致函质疑黄仁勋与特朗普的安排",
+    "url": "https://aihot.news/items/cfh0nazzl7eedgttz8n99fza4",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-11-12T22:42:51.000Z",
+    "summary": "民主党议员 Rep. Richard Neal 和 Sen. Ron Wyden 就特朗普政府处理 Nvidia 对华芯片销售一事开启调查，并致函商务部长 Howard Lutnick 要求保存相关记录。"
+   },
+   {
+    "kind": "news",
+    "title": "Rohan Paul 类比乔布斯被逐，评 NVIDIA 放走黄仁勋",
+    "url": "https://aihot.news/items/k1kga19xtdab67lhplor8he8n",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-11-12T21:39:43.000Z",
+    "summary": "Lex Fridman 发文称 NVIDIA 让黄仁勋离开对美国和人类都是巨大错误，堪比 Apple 当年解雇 Steve Jobs 但影响更大，并为其品格辩护、回应间谍传闻。Rohan Paul 转引并列举 Atari 1978（Nolan Bushnell）、Apple 1985（Steve Jobs）、Uber 2017（Travis Kalanick）、OpenAI 2023（Sam Altman），称每隔几年董事会就会重新认识到创始人本身就是战略。"
+   },
+   {
+    "kind": "news",
+    "title": "Google 智能眼镜开放预购，12 月 10 日发货",
+    "url": "https://aihot.news/items/hjhcsj440ym8b7ynttcx4433j",
+    "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
+    "publishedAt": "2026-11-12T21:23:12.000Z",
+    "summary": "Josh Woodward 宣布 Google 智能眼镜开启预购，用户可在 https://glasses.google 下单，12 月 10 日发货。首批用户可到部分 Warby Parker、Gentle Monster 和 Google 门店试戴体验。"
+   },
+   {
+    "kind": "news",
+    "title": "Gemini 4 Hydrogen 上线 Cursor，CursorBench 得分 54.3%",
+    "url": "https://aihot.news/items/mt013742fhedisepp2i31h1r4",
+    "source": "X：Matt Palmer（SpaceXSI，Grok Bot） (@mattyp)",
+    "publishedAt": "2026-11-12T18:22:08.000Z",
+    "summary": "作者以「爱好包括制作 og:images」调侃，配图为 CursorBench 4.0 的模型散点图；其引用 Cursor 官方内容称 Gemini 4 Hydrogen 现已在 Cursor 上线，默认 effort 下 CursorBench 得分 54.3%，高于 Gemini 3.8 Flash 的 39.6%。"
+   },
+   {
+    "kind": "news",
+    "title": "World Labs 开放世界模型 Atlas，支持生成关键帧、视频片段和 3D Gaussian splats",
+    "url": "https://aihot.news/items/lazmov9ciw8y5uqpuda9qcizm",
+    "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
+    "publishedAt": "2026-11-12T18:11:14.000Z",
+    "summary": "World Labs 宣布 Atlas 世界模型向所有人开放，李飞飞转发并表达期待用户用它构建的内容。官方为用户提供了应用和 API 端点，可用 Atlas 生成关键帧、视频片段或 3D Gaussian splats。"
+   },
+   {
+    "kind": "news",
+    "title": "SemiAnalysis 分析黄仁勋辞任 Nvidia CEO 背后的出口管制博弈",
+    "url": "https://aihot.news/items/n73ab4h9gqlu6ucv69ynzxln4",
+    "source": "SemiAnalysis 长文 RSS（RSS）",
+    "publishedAt": "2026-11-12T18:06:26.000Z",
+    "summary": "SemiAnalysis 发表长文分析黄仁勋不再担任 Nvidia CEO 一事，认为其去职与美国情报界推动、针对中国远程访问 GPU 的 RASA 法案推进有关。"
+   },
+   {
+    "kind": "news",
+    "title": "Google Gemini 开放推送，覆盖开发者、企业与普通用户渠道",
+    "url": "https://aihot.news/items/v26fsdyhbktgyuedmrx25p58y",
+    "source": "X：Google DeepMind (@GoogleDeepMind)",
+    "publishedAt": "2026-11-12T18:02:37.000Z",
+    "summary": "Google DeepMind 宣布开始向各渠道推送：开发者可在 Google AI Studio、Android Studio 中用 Gemini API，付费 Google AI Pro 和 Ultra 订阅者可在 Google Antigravity 中使用；企业可通过 Gemini for business 和 Google Antigravity 部署；所有用户可在 Google Search 和 Gemini 应用模型下拉菜单中访问。详情见 https://goo.gle/4zDCs8N。"
+   },
+   {
+    "kind": "news",
+    "title": "The Verge 分析黄仁勋辞职与 Nvidia 芯片走私疑云",
+    "url": "https://aihot.news/items/licdk6vosezxouovor3gvtcpe",
+    "source": "The Verge：AI（RSS）",
+    "publishedAt": "2026-11-12T17:44:33.000Z",
+    "summary": "The Verge 作者 Elizabeth Lopatto 分析 Nvidia 宣布黄仁勋辞职一事，认为第二桩婚外情只是导火索，真正原因或与芯片走私指控有关。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Gemini 4 Hydrogen 今日起向全球所有用户推送",
+    "url": "https://aihot.news/items/zlbngirpqifhhi3bd5pbmixu4",
+    "source": "X：Gemini (@GeminiApp)",
+    "publishedAt": "2026-11-12T20:50:50.000Z",
+    "summary": "Google Gemini 宣布 Gemini 4 Hydrogen 今日起向全球所有用户推送，覆盖桌面、移动和网页端。免费用户无需单独选择模型，当提示词适合该模型时可通过自动模型选择使用它，详情见 https://goo.gle/4AxH40q。"
+   },
+   {
+    "kind": "news",
+    "title": "Artificial Analysis 评测 Gemini 4 Hydrogen：智能指数 54，接近 Sonnet 5.5 且成本约其 32%",
+    "url": "https://aihot.news/items/ajvxvhu8bh001pourbhhjl0ir",
+    "source": "X：Artificial Analysis (@ArtificialAnlys)",
+    "publishedAt": "2026-11-12T18:07:16.000Z",
+    "summary": "Artificial Analysis 评测 Google 新发布的 Gemini 4 Hydrogen：新增 xhigh 推理档在 Intelligence Index 得 54 分，比 Claude Sonnet 5.5 (max) 和 GPT-6.1 Sol (max) 低 1 分，每任务成本约为 Sonnet 的 32%，但约为 GPT-6.1 Sol 的 2.5 倍。"
+   },
+   {
+    "kind": "news",
+    "title": "Google DeepMind 发布 Gemini 4 Hydrogen",
+    "url": "https://aihot.news/items/uy1ayrrlqx1snqsv4lub7whsa",
+    "source": "Google DeepMind：Blog（RSS）",
+    "publishedAt": "2026-11-12T18:00:50.000Z",
+    "summary": "Google DeepMind 发布 Gemini 4 Hydrogen，定位快速执行日常编码与智能体工作流，面向 Gemini API、AI Studio、Gemini 应用、Google Search 等全层级开放。"
+   },
+   {
+    "kind": "news",
+    "title": "Edge0 开源 145B 端侧模型，可在笔记本本地运行",
+    "url": "https://aihot.news/items/icmwp7qazk244f7fn6zlw8882",
+    "source": "Hacker News：AI 热帖",
+    "publishedAt": "2026-11-12T18:00:00.000Z",
+    "summary": "Edge0 宣布开源 Edge0-145B 与 Edge0-120B 模型及统一推理框架和部署工具，称 Edge0-145B 是首个可在个人电脑本地运行的 145B 参数开源模型。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "tencent/Qwen3.8-27B-DSpine-b16",
+    "url": "https://hf-mirror.com/tencent/Qwen3.8-27B-DSpine-b16",
+    "license": "apache-2.0",
+    "param": "27B",
+    "likes": 220,
+    "downloads": 3738,
+    "createdAt": "2026-11-07",
+    "intro": "DSpine并行生成草稿token"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "nvm-sh/nvm",
+   "url": "https://github.com/nvm-sh/nvm",
+   "lang": "Shell",
+   "stars": "96,059",
+   "desc": "节点版本管理器-兼容POSIX的bash脚本，用于管理多个活动的node.js版本"
+  },
+  {
+   "repo": "pookjw/HermesEnabler",
+   "url": "https://github.com/pookjw/HermesEnabler",
+   "lang": "Objective-C",
+   "stars": "1,648",
+   "desc": "在任何 Apple Watch 设备上启用爱马仕表盘"
+  },
+  {
+   "repo": "QwenLM/qwen-code",
+   "url": "https://github.com/QwenLM/qwen-code",
+   "lang": "TypeScript",
+   "stars": "29,977",
+   "desc": "一款运行在终端上的开源 AI 编程代理"
+  },
+  {
+   "repo": "ashhart/TensorFold",
+   "url": "https://github.com/ashhart/TensorFold",
+   "lang": "Zig",
+   "stars": "2,016",
+   "desc": "适用于 Metal、CUDA 和 Vulkan 的 LLM 推理引擎"
+  },
+  {
+   "repo": "nodejs/node",
+   "url": "https://github.com/nodejs/node",
+   "lang": "JavaScript",
+   "stars": "123,650",
+   "desc": "Node.js JavaScript运行时 ✨🐢🚀✨"
+  },
+  {
+   "repo": "CopilotKit/OpenBot",
+   "url": "https://github.com/CopilotKit/OpenBot",
+   "lang": "TypeScript",
+   "stars": "11,837",
+   "desc": "开源的人工智能同事，每个人都有一台自己的电脑：浏览器、文件和工具，每次操作都会在发生之前决定，并在之后记录下来"
+  },
+  {
+   "repo": "ggml-org/llama.cpp",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "lang": "C++",
+   "stars": "134,709",
+   "desc": "C/C++ 中的 LLM 推理"
+  },
+  {
+   "repo": "storytold/craft-anything",
+   "url": "https://github.com/storytold/craft-anything",
+   "lang": "Rust",
+   "stars": "30,425",
+   "desc": "制作任何东西：了解任何软件的工作原理，并制作自己的软件"
+  },
+  {
+   "repo": "deepseek-ai/dsh-superagent-prototype",
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "lang": "TypeScript",
+   "stars": "22,845",
+   "desc": "迈向更自主的Agent系统"
+  },
+  {
+   "repo": "l0ng-ai/openidea",
+   "url": "https://github.com/l0ng-ai/openidea",
+   "lang": "TypeScript",
+   "stars": "8,819",
+   "desc": "您知道的IDE是在Rust中重建的"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "awesome-selfhosted/awesome-selfhosted",
+   "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+   "lang": "",
+   "stars": "336,548",
+   "desc": "可托管在您自己的服务器上的免费软件网络服务和Web应用程序列表",
+   "en": false
+  },
+  {
+   "repo": "n8n-io/n8n",
+   "url": "https://github.com/n8n-io/n8n",
+   "lang": "TypeScript",
+   "stars": "210,350",
+   "desc": "具有原生AI功能的公平代码工作流程自动化平台",
+   "en": false
+  },
+  {
+   "repo": "ohmyzsh/ohmyzsh",
+   "url": "https://github.com/ohmyzsh/ohmyzsh",
+   "lang": "Shell",
+   "stars": "190,598",
+   "desc": "🙃   一个令人愉悦的社区驱动（拥有2,500多名贡献者）框架，用于管理您的zsh配置",
+   "en": false
+  },
+  {
+   "repo": "open-webui/open-webui",
+   "url": "https://github.com/open-webui/open-webui",
+   "lang": "Svelte",
+   "stars": "158,528",
+   "desc": "用户友好的AI界面（支持Ollama、OpenAI API等）",
+   "en": false
+  },
+  {
+   "repo": "immich-app/immich",
+   "url": "https://github.com/immich-app/immich",
+   "lang": "TypeScript",
+   "stars": "119,054",
+   "desc": "高性能自托管照片和视频管理解决方案",
+   "en": false
+  },
+  {
+   "repo": "Stirling-Tools/Stirling-PDF",
+   "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+   "lang": "TypeScript",
+   "stars": "96,476",
+   "desc": "GitHub上排名第一的PDF应用程序，可让您在任何地方的任何设备上编辑PDF",
+   "en": false
+  },
+  {
+   "repo": "louislam/uptime-kuma",
+   "url": "https://github.com/louislam/uptime-kuma",
+   "lang": "JavaScript",
+   "stars": "93,590",
+   "desc": "一款精美的自托管监控工具",
+   "en": false
+  },
+  {
+   "repo": "pathwaycom/serviette",
+   "url": "https://github.com/pathwaycom/serviette",
+   "lang": "Python",
+   "stars": "58,707",
+   "desc": "无代码RAG服务器，可使答案与您的文档保持同步",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4006.2,
+   "chg": -0.93,
+   "pe": 13.4,
+   "pe_pct": 65,
+   "pb": 1.33,
+   "pb_pct": 18,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6452.67,
+   "chg": -2.29,
+   "pe": 27.99,
+   "pe_pct": 61,
+   "pb": 2.05,
+   "pb_pct": 60,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2421.18,
+   "chg": -3.52,
+   "pe": 28.37,
+   "pe_pct": 9,
+   "pb": 3.99,
+   "pb_pct": 19,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1274.52,
+   "chg": -2.7,
+   "pe": 97.22,
+   "pe_pct": 76,
+   "pb": 6.41,
+   "pb_pct": 67,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5505.38,
+   "chg": 0.24,
+   "pe": 8.99,
+   "pe_pct": 85,
+   "pb": 0.87,
+   "pb_pct": 56,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11351.75,
+   "chg": 1.14,
+   "pe": 8.96,
+   "pe_pct": 80,
+   "pb": 0.9,
+   "pb_pct": 66,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 23636.74,
+   "chg": -1.55,
+   "pe": 10.96,
+   "pe_pct": 58,
+   "pb": 1.1,
+   "pb_pct": 49,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 25366.09,
+   "chg": -0.39,
+   "pe": 27.17,
+   "pe_pct": 25,
+   "pb": 8.32,
+   "pb_pct": 61,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7592.4,
+   "chg": -0.35,
+   "pe": 23.72,
+   "pe_pct": 40,
+   "pb": 5.31,
+   "pb_pct": 90,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "银行Ⅱ",
+    "chg": 1.22
+   },
+   {
+    "name": "保险Ⅱ",
+    "chg": 1.0
+   },
+   {
+    "name": "传媒",
+    "chg": 0.02
+   },
+   {
+    "name": "煤炭",
+    "chg": -0.59
+   },
+   {
+    "name": "农林牧渔",
+    "chg": -0.74
+   },
+   {
+    "name": "航空机场",
+    "chg": -0.87
+   }
+  ],
+  "dn": [
+   {
+    "name": "元件",
+    "chg": -6.46
+   },
+   {
+    "name": "医疗服务",
+    "chg": -4.26
+   },
+   {
+    "name": "玻璃玻纤",
+    "chg": -4.0
+   },
+   {
+    "name": "通信设备",
+    "chg": -3.5
+   },
+   {
+    "name": "装修装饰Ⅱ",
+    "chg": -3.42
+   },
+   {
+    "name": "仪器仪表",
+    "chg": -3.38
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+0.27%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 8.0894（2026-11-12）（≈ 809 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.9647",
+   "date": "2026-11-11"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.7558",
+   "date": "2026-11-11"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.5128",
+   "date": "2026-11-11"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.1030",
+   "date": "2026-11-11"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6502",
+   "date": "2026-11-12"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8542",
+   "date": "2026-11-11"
+  }
+ ],
+ "macro": [
+  {
+   "title": "日本央行副行长冰见野良三：目前暂不打算再次调整ETF出售计划",
+   "ctime": "1794546148",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniyqfwi3738341.shtml"
+  },
+  {
+   "title": "CPI再超预期，美联储紧缩路径重定价",
+   "ctime": "1794545599",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-13/doc-iniyqfwf1326431.shtml"
+  },
+  {
+   "title": "美联储重磅改革落地：2027年少一次议息会议，10月不投票决定利率！",
+   "ctime": "1794545280",
+   "url": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniyqfwf1324144.shtml"
+  },
+  {
+   "title": "多家银行再次上调美元定期存款利率",
+   "ctime": "1794544121",
+   "url": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniyqfwf1300578.shtml"
+  },
+  {
+   "title": "美联储官员频放鹰、美国国债遭抛售，明年议息会议减至7次、10月改为战略讨论",
+   "ctime": "1794542640",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-13/doc-iniyqfwf1277780.shtml"
+  },
+  {
+   "title": "稳市机制建设获货币政策“加力”表述！沪深300ETF华泰柏瑞（510300）助力布局核心资产估值修复窗口",
+   "ctime": "1794541450",
+   "url": "https://finance.sina.com.cn/money/fund/jjh/2026-11-13/doc-iniyqfwh8035210.shtml"
+  },
+  {
+   "title": "近30年首次！动用5亿欧元等值资金，纽约联储报告证实日美联合干预日元汇率",
+   "ctime": "1794537361",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-13/doc-iniypzqc1097546.shtml"
+  },
+  {
+   "title": "欢迎申报大商所化工品期货服务出口定价试点项目",
+   "ctime": "1794536503",
+   "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-13/doc-iniypzqi1319044.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 9,
+   "pe": 28.3688,
+   "pb_pct": 19,
+   "pb": 3.9885
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 25,
+   "pe": 27.1704,
+   "pb_pct": 61,
+   "pb": 8.3179
+  }
+ ]
+}

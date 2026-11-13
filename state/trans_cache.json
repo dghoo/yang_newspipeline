@@ -465,5 +465,10 @@
   "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux": "misterdownloadmanager：终极开源、无污染的下载管理器，完全使用纯 Rust 语言从头编写，适用于 Windows、Mac 和 Linux",
   "Rune: Native UI framework": "Rune：原生UI框架",
   "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.": "适用于 iOS 27.x 的 MobileGestalt 编辑器，具备区域代码调整、设备预设、备份以及 7 种语言支持功能",
-  "Agent skills": "智能体技能"
+  "Agent skills": "智能体技能",
+  "DSpine generates draft tokens in parallel. Each layer passes predicted predecessor features to adjacent positions, carrying causal dependencies through network depth.": "DSpine并行生成草稿token",
+  "Enable Hermès Watch Faces on any Apple Watch devices": "在任何 Apple Watch 设备上启用爱马仕表盘",
+  "An open-source AI coding agent that lives in your terminal.": "一款运行在终端上的开源 AI 编程代理",
+  "LLM Inference Engine for Metal, CUDA and Vulkan.": "适用于 Metal、CUDA 和 Vulkan 的 LLM 推理引擎",
+  "LLM inference in C/C++": "C/C++ 中的 LLM 推理"
 }

@@ -5,350 +5,350 @@
     <link>https://eastmoney.com</link>
     <description>AI / 开源 / Docker / 财经 每日聚合（真实管道生成）</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 12 Nov 2026 07:19:14 +0800</lastBuildDate>
-    <pubDate>Thu, 12 Nov 2026 07:19:14 +0800</pubDate>
+    <lastBuildDate>Fri, 13 Nov 2026 06:53:03 +0800</lastBuildDate>
+    <pubDate>Fri, 13 Nov 2026 06:53:03 +0800</pubDate>
     <item>
-      <title>OpenRouter 实测六模型并给出四层防护，解决 AI Agent 无限循环烧钱问题</title>
-      <link>https://aihot.news/items/vq9nwgwhtm31cgoliyb7ydyde</link>
-      <description><![CDATA[来源：OpenRouter：Announcements（RSS） · 发布：2026-11-12 00:00<br>OpenRouter 发布教程，讲解 AI Agent 因工具反复失败而陷入无限循环的成因，并给出四层防护：doom-loop 检测、loopKey 参数归一化、stopWhen 步数与成本上限、API key 信用额度。<br><a href="https://aihot.news/items/vq9nwgwhtm31cgoliyb7ydyde">查看原文</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/vq9nwgwhtm31cgoliyb7ydyde</guid>
+      <title>黄仁勋辞去英伟达总裁兼CEO，作者梳理14天风波始末</title>
+      <link>https://aihot.news/items/t86m3q7vdlqmvm2zmx91vps5a</link>
+      <description><![CDATA[来源：公众号：数字生命卡兹克 · 发布：2026-11-12 23:56<br>英伟达公告黄仁勋辞去总裁、CEO和董事职务，即刻生效，股价开盘下跌14个点。作者依据《纽约时报》、The Information 等报道梳理脉络：从2022年A100、H100对华禁售，到 Megaspeed 采购争议、黄乐被情报机构认定涉间谍活动，再到婚外情曝光后董事会于10月29日起14天内收网，黄仁勋在英伟达33年的时代就此结束。<br><a href="https://aihot.news/items/t86m3q7vdlqmvm2zmx91vps5a">查看原文</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/t86m3q7vdlqmvm2zmx91vps5a</guid>
       <category>AI 行业资讯</category>
     </item>
     <item>
-      <title>WSJ 报道 Nvidia 董事会接近决定是否罢免 CEO 黄仁勋</title>
-      <link>https://aihot.news/items/aoxmmcsudy1gf9xmti7slu1wd</link>
-      <description><![CDATA[来源：X：Rohan Paul (@rohanpaul_ai) · 发布：2026-11-11 23:43<br>WSJ 报道，Nvidia 董事会此前公开支持黄仁勋，如今接近决定是否罢免这位创始人 CEO。起因是黄仁勋与一名被指为中国情报人员的女子交往，随后又曝出与一名 Nvidia 员工的第二段婚外情；周日开始独立调查时董事会表示没有理由认为 Nvidia 机密泄露。<br><a href="https://aihot.news/items/aoxmmcsudy1gf9xmti7slu1wd">查看原文</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/aoxmmcsudy1gf9xmti7slu1wd</guid>
+      <title>民主党对 Nvidia 对华芯片销售启动调查，致函质疑黄仁勋与特朗普的安排</title>
+      <link>https://aihot.news/items/cfh0nazzl7eedgttz8n99fza4</link>
+      <description><![CDATA[来源：TechCrunch：AI（RSS） · 发布：2026-11-12 22:42<br>民主党议员 Rep. Richard Neal 和 Sen. Ron Wyden 就特朗普政府处理 Nvidia 对华芯片销售一事开启调查，并致函商务部长 Howard Lutnick 要求保存相关记录。<br><a href="https://aihot.news/items/cfh0nazzl7eedgttz8n99fza4">查看原文</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/cfh0nazzl7eedgttz8n99fza4</guid>
       <category>AI 行业资讯</category>
     </item>
     <item>
-      <title>Google 发布 Gemini Decisions API 与 Gemini Decision 1 模型，专注快速多模态封闭式决策</title>
-      <link>https://aihot.news/items/r8hsm3m3munjwk1n3u885zszw</link>
-      <description><![CDATA[来源：Google Blog：AI（RSS） · 发布：2026-11-11 18:00<br>Google 推出 Gemini Decisions API，由新模型 Gemini Decision 1 驱动，可在 150-250ms 端到端延迟内对文本、图像、音频、视频和 PDF（最多 256K tokens）一次性评估最多 1000 个是/否、多选和评分题。<br><a href="https://aihot.news/items/r8hsm3m3munjwk1n3u885zszw">查看原文</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/r8hsm3m3munjwk1n3u885zszw</guid>
+      <title>Rohan Paul 类比乔布斯被逐，评 NVIDIA 放走黄仁勋</title>
+      <link>https://aihot.news/items/k1kga19xtdab67lhplor8he8n</link>
+      <description><![CDATA[来源：X：Rohan Paul (@rohanpaul_ai) · 发布：2026-11-12 21:39<br>Lex Fridman 发文称 NVIDIA 让黄仁勋离开对美国和人类都是巨大错误，堪比 Apple 当年解雇 Steve Jobs 但影响更大，并为其品格辩护、回应间谍传闻。Rohan Paul 转引并列举 Atari 1978（Nolan Bushnell）、Apple 1985（Steve Jobs）、Uber 2017（Travis Kalanick）、OpenAI 2023（Sam Altman），称每隔几年董事会就会重新认识到创始人本身就是战略。<br><a href="https://aihot.news/items/k1kga19xtdab67lhplor8he8n">查看原文</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/k1kga19xtdab67lhplor8he8n</guid>
       <category>AI 行业资讯</category>
     </item>
     <item>
-      <title>Claude Code 中如何选择 Fable 5.2 与 Opus 等模型</title>
-      <link>https://aihot.news/items/ep5oqt7m4l7gn3tqieilznmuk</link>
-      <description><![CDATA[来源：Claude：YouTube（RSS） · 发布：2026-11-11 17:30<br>Claude 发布视频教程，讲解在 Claude Code 中何时使用 Fable 5.2、Opus 5.5，何时降级到 Sonnet 5.5 或 Haiku 5.5，以及如何把一个任务拆分给多个模型。视频覆盖复杂编码与开放式技术工作、低成本明确任务等场景，并提供在自有任务上测量各模型表现的指南链接；可用性与用量限制因套餐而异。<br><a href="https://aihot.news/items/ep5oqt7m4l7gn3tqieilznmuk">查看原文</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/ep5oqt7m4l7gn3tqieilznmuk</guid>
+      <title>Google 智能眼镜开放预购，12 月 10 日发货</title>
+      <link>https://aihot.news/items/hjhcsj440ym8b7ynttcx4433j</link>
+      <description><![CDATA[来源：X：Josh Woodward (@joshwoodward, Google Labs VP) · 发布：2026-11-12 21:23<br>Josh Woodward 宣布 Google 智能眼镜开启预购，用户可在 https://glasses.google 下单，12 月 10 日发货。首批用户可到部分 Warby Parker、Gentle Monster 和 Google 门店试戴体验。<br><a href="https://aihot.news/items/hjhcsj440ym8b7ynttcx4433j">查看原文</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/hjhcsj440ym8b7ynttcx4433j</guid>
       <category>AI 行业资讯</category>
     </item>
     <item>
-      <title>a16z 提出 B2A 经济：AI 智能体正成为新的流量与分发渠道</title>
-      <link>https://aihot.news/items/bisaluc0ii0f4s1gzi2zxbr1k</link>
-      <description><![CDATA[来源：a16z：News（RSS） · 发布：2026-11-11 15:02<br>a16z 发布文章提出 B2A 经济概念，认为 AI 智能体已占大多数网络流量，正从回答问题转向代替用户完成任务和消费。<br><a href="https://aihot.news/items/bisaluc0ii0f4s1gzi2zxbr1k">查看原文</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/bisaluc0ii0f4s1gzi2zxbr1k</guid>
+      <title>Gemini 4 Hydrogen 上线 Cursor，CursorBench 得分 54.3%</title>
+      <link>https://aihot.news/items/mt013742fhedisepp2i31h1r4</link>
+      <description><![CDATA[来源：X：Matt Palmer（SpaceXSI，Grok Bot） (@mattyp) · 发布：2026-11-12 18:22<br>作者以「爱好包括制作 og:images」调侃，配图为 CursorBench 4.0 的模型散点图；其引用 Cursor 官方内容称 Gemini 4 Hydrogen 现已在 Cursor 上线，默认 effort 下 CursorBench 得分 54.3%，高于 Gemini 3.8 Flash 的 39.6%。<br><a href="https://aihot.news/items/mt013742fhedisepp2i31h1r4">查看原文</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/mt013742fhedisepp2i31h1r4</guid>
       <category>AI 行业资讯</category>
     </item>
     <item>
-      <title>Anthropic IPO 拟募资最高 90.4B 美元，或成史上最大上市</title>
-      <link>https://aihot.news/items/r5kn7uexy6jx97qwxwvnpqrom</link>
-      <description><![CDATA[来源：X：Rohan Paul (@rohanpaul_ai) · 发布：2026-11-11 14:38<br>Bloomberg 报道 Anthropic IPO 已获数倍于发行份额的订单，主要来自大型机构投资者的锚定级意向。公司通过 IPO 加私募配售寻求最高 $90.4B，将超过 SpaceX 的 $85.7B 纪录成为史上最大上市，完全稀释估值目标约 $1.4T；Goldman Sachs 和 Morgan Stanley 牵头共 22 家银行，股票将以 ANT 在纳斯达克全球精选市场交易。<br><a href="https://aihot.news/items/r5kn7uexy6jx97qwxwvnpqrom">查看原文</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/r5kn7uexy6jx97qwxwvnpqrom</guid>
+      <title>World Labs 开放世界模型 Atlas，支持生成关键帧、视频片段和 3D Gaussian splats</title>
+      <link>https://aihot.news/items/lazmov9ciw8y5uqpuda9qcizm</link>
+      <description><![CDATA[来源：X：Fei-Fei Li (@drfeifei, World Labs) · 发布：2026-11-12 18:11<br>World Labs 宣布 Atlas 世界模型向所有人开放，李飞飞转发并表达期待用户用它构建的内容。官方为用户提供了应用和 API 端点，可用 Atlas 生成关键帧、视频片段或 3D Gaussian splats。<br><a href="https://aihot.news/items/lazmov9ciw8y5uqpuda9qcizm">查看原文</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/lazmov9ciw8y5uqpuda9qcizm</guid>
       <category>AI 行业资讯</category>
     </item>
     <item>
-      <title>Grok 被指生成儿童色情图像，xAI 面临多起集体诉讼</title>
-      <link>https://aihot.news/items/iz168hjk4ew8jpiokzjqcwbgi</link>
-      <description><![CDATA[来源：IT之家·人工智能 · 发布：2026-11-11 13:56<br>据彭博社报道，多名未成年受害者就 Grok 被用于把普通照片篡改成儿童性虐待材料（CSAM）对马斯克旗下 xAI 提起多起集体诉讼，律师估计符合索赔条件的受害者可能多达数千人。<br><a href="https://aihot.news/items/iz168hjk4ew8jpiokzjqcwbgi">查看原文</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/iz168hjk4ew8jpiokzjqcwbgi</guid>
+      <title>SemiAnalysis 分析黄仁勋辞任 Nvidia CEO 背后的出口管制博弈</title>
+      <link>https://aihot.news/items/n73ab4h9gqlu6ucv69ynzxln4</link>
+      <description><![CDATA[来源：SemiAnalysis 长文 RSS（RSS） · 发布：2026-11-12 18:06<br>SemiAnalysis 发表长文分析黄仁勋不再担任 Nvidia CEO 一事，认为其去职与美国情报界推动、针对中国远程访问 GPU 的 RASA 法案推进有关。<br><a href="https://aihot.news/items/n73ab4h9gqlu6ucv69ynzxln4">查看原文</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/n73ab4h9gqlu6ucv69ynzxln4</guid>
       <category>AI 行业资讯</category>
     </item>
     <item>
-      <title>Runway 开源 27B 世界动作模型 Praxis-1，权重采用 Apache 2.0 许可</title>
-      <link>https://aihot.news/items/bx3sq4dxfqblyztkuiktiz0wv</link>
-      <description><![CDATA[来源：Runway：News（网页） · 发布：2026-11-11 23:25<br>Runway 宣布世界动作模型 Praxis-1 以 Apache 2.0 开放权重面向所有人开放。该模型为 27B 参数 MoE 扩散 Transformer，同时预测视频与动作，在 NVIDIA RoboLab-120 榜单以 46.2% 成功率居首，超过 FLUX 3 Action（42.9%）、Cosmos3 Nano（36.8%）和 π0.5（28.0%）。<br><a href="https://aihot.news/items/bx3sq4dxfqblyztkuiktiz0wv">查看原文</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/bx3sq4dxfqblyztkuiktiz0wv</guid>
+      <title>Google Gemini 开放推送，覆盖开发者、企业与普通用户渠道</title>
+      <link>https://aihot.news/items/v26fsdyhbktgyuedmrx25p58y</link>
+      <description><![CDATA[来源：X：Google DeepMind (@GoogleDeepMind) · 发布：2026-11-12 18:02<br>Google DeepMind 宣布开始向各渠道推送：开发者可在 Google AI Studio、Android Studio 中用 Gemini API，付费 Google AI Pro 和 Ultra 订阅者可在 Google Antigravity 中使用；企业可通过 Gemini for business 和 Google Antigravity 部署；所有用户可在 Google Search 和 Gemini 应用模型下拉菜单中访问。详情见 https://goo.gle/4zDCs8N。<br><a href="https://aihot.news/items/v26fsdyhbktgyuedmrx25p58y">查看原文</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/v26fsdyhbktgyuedmrx25p58y</guid>
+      <category>AI 行业资讯</category>
+    </item>
+    <item>
+      <title>The Verge 分析黄仁勋辞职与 Nvidia 芯片走私疑云</title>
+      <link>https://aihot.news/items/licdk6vosezxouovor3gvtcpe</link>
+      <description><![CDATA[来源：The Verge：AI（RSS） · 发布：2026-11-12 17:44<br>The Verge 作者 Elizabeth Lopatto 分析 Nvidia 宣布黄仁勋辞职一事，认为第二桩婚外情只是导火索，真正原因或与芯片走私指控有关。<br><a href="https://aihot.news/items/licdk6vosezxouovor3gvtcpe">查看原文</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/licdk6vosezxouovor3gvtcpe</guid>
+      <category>AI 行业资讯</category>
+    </item>
+    <item>
+      <title>Gemini 4 Hydrogen 今日起向全球所有用户推送</title>
+      <link>https://aihot.news/items/zlbngirpqifhhi3bd5pbmixu4</link>
+      <description><![CDATA[来源：X：Gemini (@GeminiApp) · 发布：2026-11-12 20:50<br>Google Gemini 宣布 Gemini 4 Hydrogen 今日起向全球所有用户推送，覆盖桌面、移动和网页端。免费用户无需单独选择模型，当提示词适合该模型时可通过自动模型选择使用它，详情见 https://goo.gle/4AxH40q。<br><a href="https://aihot.news/items/zlbngirpqifhhi3bd5pbmixu4">查看原文</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/zlbngirpqifhhi3bd5pbmixu4</guid>
       <category>模型发布动态</category>
     </item>
     <item>
-      <title>Anthropic 发布 MAMUBench：单一智能体协调在四类环境中均胜过每个用户各自的智能体团队</title>
-      <link>https://aihot.news/items/z9u4n1e7zfapxjozcn97quhdp</link>
-      <description><![CDATA[来源：Anthropic：Alignment Science Blog（网页） · 发布：2026-11-11 00:00<br>Anthropic Fellows Program 团队构建四个多用户多智能体模拟环境（共享 API token 预算、诊所日历、团体订餐或旅行预订、合并队列），测试 Anthropic、OpenAI 和 Alibaba 的前沿模型，并发布其中三个环境作为基准 MAMUBench。<br><a href="https://aihot.news/items/z9u4n1e7zfapxjozcn97quhdp">查看原文</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/z9u4n1e7zfapxjozcn97quhdp</guid>
+      <title>Artificial Analysis 评测 Gemini 4 Hydrogen：智能指数 54，接近 Sonnet 5.5 且成本约其 32%</title>
+      <link>https://aihot.news/items/ajvxvhu8bh001pourbhhjl0ir</link>
+      <description><![CDATA[来源：X：Artificial Analysis (@ArtificialAnlys) · 发布：2026-11-12 18:07<br>Artificial Analysis 评测 Google 新发布的 Gemini 4 Hydrogen：新增 xhigh 推理档在 Intelligence Index 得 54 分，比 Claude Sonnet 5.5 (max) 和 GPT-6.1 Sol (max) 低 1 分，每任务成本约为 Sonnet 的 32%，但约为 GPT-6.1 Sol 的 2.5 倍。<br><a href="https://aihot.news/items/ajvxvhu8bh001pourbhhjl0ir">查看原文</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/ajvxvhu8bh001pourbhhjl0ir</guid>
       <category>模型发布动态</category>
     </item>
     <item>
-      <title>Wiz 讲解如何评估 AI 智能体的网络安全能力</title>
-      <link>https://aihot.news/items/momr4yrt6hhhfeuzjfqz6ryqy</link>
-      <description><![CDATA[来源：Wiz：Research（安全研究） · 发布：2026-11-10 16:03<br>Wiz Research 介绍其 Cyber Model Arena v3.9 的基准设计方法，该基准覆盖 26 个模型、59 个智能体和 327 道挑战，分代码漏洞、API 安全、Web 安全和云安全四类。<br><a href="https://aihot.news/items/momr4yrt6hhhfeuzjfqz6ryqy">查看原文</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/momr4yrt6hhhfeuzjfqz6ryqy</guid>
+      <title>Google DeepMind 发布 Gemini 4 Hydrogen</title>
+      <link>https://aihot.news/items/uy1ayrrlqx1snqsv4lub7whsa</link>
+      <description><![CDATA[来源：Google DeepMind：Blog（RSS） · 发布：2026-11-12 18:00<br>Google DeepMind 发布 Gemini 4 Hydrogen，定位快速执行日常编码与智能体工作流，面向 Gemini API、AI Studio、Gemini 应用、Google Search 等全层级开放。<br><a href="https://aihot.news/items/uy1ayrrlqx1snqsv4lub7whsa">查看原文</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/uy1ayrrlqx1snqsv4lub7whsa</guid>
       <category>模型发布动态</category>
     </item>
     <item>
-      <title>百度发布 ERNIE 5.5 Flash Preview，权重将于 11 月 25 日前开源</title>
-      <link>https://aihot.news/items/qd3f4j2hd0t98tqf28iv7pu2j</link>
-      <description><![CDATA[来源：百度文心 ERNIE 官方博客 · 发布：2026-11-10 16:00<br>百度发布 ERNIE 5.5 Flash Preview，是基于此前 Base 模型的首个后训练版本，总参数 280B、激活参数 14B，支持 1M 上下文。模型 API 已在千帆平台上线，权重将于 11 月 25 日前开源；官方展示了游戏开发、3D 建模、知识工作、视频创作等 Agent 场景成果，并称该版本为后训练中间版本，正式版仍将持续优化。<br><a href="https://aihot.news/items/qd3f4j2hd0t98tqf28iv7pu2j">查看原文</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://aihot.news/items/qd3f4j2hd0t98tqf28iv7pu2j</guid>
+      <title>Edge0 开源 145B 端侧模型，可在笔记本本地运行</title>
+      <link>https://aihot.news/items/icmwp7qazk244f7fn6zlw8882</link>
+      <description><![CDATA[来源：Hacker News：AI 热帖 · 发布：2026-11-12 18:00<br>Edge0 宣布开源 Edge0-145B 与 Edge0-120B 模型及统一推理框架和部署工具，称 Edge0-145B 是首个可在个人电脑本地运行的 145B 参数开源模型。<br><a href="https://aihot.news/items/icmwp7qazk244f7fn6zlw8882">查看原文</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://aihot.news/items/icmwp7qazk244f7fn6zlw8882</guid>
       <category>模型发布动态</category>
     </item>
     <item>
-      <title>[开源模型] moonshotai/Kimi-K3.1-Pro</title>
-      <link>https://hf-mirror.com/moonshotai/Kimi-K3.1-Pro</link>
-      <description><![CDATA[许可 other · 点赞 1950 · 下载 3.4万 · 发布 2026-11-02<br>Kimi K3.1 Pro是一款开放式、原生多式联运代理模型，也是我们迄今为止最强大的3T级模型<br><a href="https://hf-mirror.com/moonshotai/Kimi-K3.1-Pro">模型地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://hf-mirror.com/moonshotai/Kimi-K3.1-Pro</guid>
+      <title>[开源模型] tencent/Qwen3.8-27B-DSpine-b16</title>
+      <link>https://hf-mirror.com/tencent/Qwen3.8-27B-DSpine-b16</link>
+      <description><![CDATA[许可 apache-2.0 · 参数 27B · 点赞 220 · 下载 3738 · 发布 2026-11-07<br>DSpine并行生成草稿token<br><a href="https://hf-mirror.com/tencent/Qwen3.8-27B-DSpine-b16">模型地址</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://hf-mirror.com/tencent/Qwen3.8-27B-DSpine-b16</guid>
       <category>开源模型推荐</category>
     </item>
     <item>
-      <title>[开源模型] RecursiveSI/flint</title>
-      <link>https://hf-mirror.com/RecursiveSI/flint</link>
-      <description><![CDATA[许可 apache-2.0 · 点赞 1390 · 下载 5.0万 · 发布 2026-10-21<br>Flint是Recursive的编码代理专家混合语言模型，共有398亿个参数，每个令牌大约有25亿个活动<br><a href="https://hf-mirror.com/RecursiveSI/flint">模型地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://hf-mirror.com/RecursiveSI/flint</guid>
-      <category>开源模型推荐</category>
-    </item>
-    <item>
-      <title>[开源模型] XHToken/Spark-X2.6-4B</title>
-      <link>https://hf-mirror.com/XHToken/Spark-X2.6-4B</link>
-      <description><![CDATA[许可 apache-2.0 · 参数 4B · 点赞 1040 · 下载 2.7万 · 发布 2026-10-19<br>此存储库包含Hugging Face Transformers格式的后训练模型的模型权重和配置文件<br><a href="https://hf-mirror.com/XHToken/Spark-X2.6-4B">模型地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://hf-mirror.com/XHToken/Spark-X2.6-4B</guid>
-      <category>开源模型推荐</category>
-    </item>
-    <item>
-      <title>GoogleChrome/modern-web-guidance-src ★2,008</title>
-      <link>https://github.com/GoogleChrome/modern-web-guidance-src</link>
-      <description><![CDATA[TypeScript ★2,008<br><a href="https://github.com/GoogleChrome/modern-web-guidance-src">地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/GoogleChrome/modern-web-guidance-src</guid>
+      <title>nvm-sh/nvm ★96,059</title>
+      <link>https://github.com/nvm-sh/nvm</link>
+      <description><![CDATA[Shell ★96,059<br>节点版本管理器-兼容POSIX的bash脚本，用于管理多个活动的node.js版本<br><a href="https://github.com/nvm-sh/nvm">地址</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/nvm-sh/nvm</guid>
       <category>开源</category>
     </item>
     <item>
-      <title>shadcn/improve ★11,171</title>
-      <link>https://github.com/shadcn/improve</link>
-      <description><![CDATA[ ★11,171<br>使用您最强大的模型来审核您的代码库，并编写供更便宜的模型执行的计划<br><a href="https://github.com/shadcn/improve">地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/shadcn/improve</guid>
+      <title>pookjw/HermesEnabler ★1,648</title>
+      <link>https://github.com/pookjw/HermesEnabler</link>
+      <description><![CDATA[Objective-C ★1,648<br>在任何 Apple Watch 设备上启用爱马仕表盘<br><a href="https://github.com/pookjw/HermesEnabler">地址</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/pookjw/HermesEnabler</guid>
       <category>开源</category>
     </item>
     <item>
-      <title>openai/codex-security ★11,939</title>
-      <link>https://github.com/openai/codex-security</link>
-      <description><![CDATA[TypeScript ★11,939<br>OpenAI 的 Codex Security CLI 和 TypeScript SDK，用于查找、验证和修复安全漏洞<br><a href="https://github.com/openai/codex-security">地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/openai/codex-security</guid>
+      <title>QwenLM/qwen-code ★29,977</title>
+      <link>https://github.com/QwenLM/qwen-code</link>
+      <description><![CDATA[TypeScript ★29,977<br>一款运行在终端上的开源 AI 编程代理<br><a href="https://github.com/QwenLM/qwen-code">地址</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/QwenLM/qwen-code</guid>
       <category>开源</category>
     </item>
     <item>
-      <title>TheAlgorithms/Java ★67,149</title>
-      <link>https://github.com/TheAlgorithms/Java</link>
-      <description><![CDATA[Java ★67,149<br>所有算法均以 Java 实现<br><a href="https://github.com/TheAlgorithms/Java">地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/TheAlgorithms/Java</guid>
+      <title>ashhart/TensorFold ★2,016</title>
+      <link>https://github.com/ashhart/TensorFold</link>
+      <description><![CDATA[Zig ★2,016<br>适用于 Metal、CUDA 和 Vulkan 的 LLM 推理引擎<br><a href="https://github.com/ashhart/TensorFold">地址</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/ashhart/TensorFold</guid>
       <category>开源</category>
     </item>
     <item>
-      <title>JuneYaooo/rea-video ★7,212</title>
-      <link>https://github.com/JuneYaooo/rea-video</link>
-      <description><![CDATA[Python ★7,212<br>逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻<br><a href="https://github.com/JuneYaooo/rea-video">地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/JuneYaooo/rea-video</guid>
+      <title>nodejs/node ★123,650</title>
+      <link>https://github.com/nodejs/node</link>
+      <description><![CDATA[JavaScript ★123,650<br>Node.js JavaScript运行时 ✨🐢🚀✨<br><a href="https://github.com/nodejs/node">地址</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/nodejs/node</guid>
       <category>开源</category>
     </item>
     <item>
-      <title>anefzaoui/misterdownloadmanager ★7,132</title>
-      <link>https://github.com/anefzaoui/misterdownloadmanager</link>
-      <description><![CDATA[Rust ★7,132<br>misterdownloadmanager：终极开源、无污染的下载管理器，完全使用纯 Rust 语言从头编写，适用于 Windows、Mac 和 Linux<br><a href="https://github.com/anefzaoui/misterdownloadmanager">地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/anefzaoui/misterdownloadmanager</guid>
+      <title>CopilotKit/OpenBot ★11,837</title>
+      <link>https://github.com/CopilotKit/OpenBot</link>
+      <description><![CDATA[TypeScript ★11,837<br>开源的人工智能同事，每个人都有一台自己的电脑：浏览器、文件和工具，每次操作都会在发生之前决定，并在之后记录下来<br><a href="https://github.com/CopilotKit/OpenBot">地址</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/CopilotKit/OpenBot</guid>
       <category>开源</category>
     </item>
     <item>
-      <title>anomalyco/rune ★6,731</title>
-      <link>https://github.com/anomalyco/rune</link>
-      <description><![CDATA[Rust ★6,731<br>Rune：原生UI框架<br><a href="https://github.com/anomalyco/rune">地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/anomalyco/rune</guid>
+      <title>ggml-org/llama.cpp ★134,709</title>
+      <link>https://github.com/ggml-org/llama.cpp</link>
+      <description><![CDATA[C++ ★134,709<br>C/C++ 中的 LLM 推理<br><a href="https://github.com/ggml-org/llama.cpp">地址</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp</guid>
       <category>开源</category>
     </item>
     <item>
-      <title>huamidev/GestaltX ★6,582</title>
-      <link>https://github.com/huamidev/GestaltX</link>
-      <description><![CDATA[Swift ★6,582<br>适用于 iOS 27.x 的 MobileGestalt 编辑器，具备区域代码调整、设备预设、备份以及 7 种语言支持功能<br><a href="https://github.com/huamidev/GestaltX">地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/huamidev/GestaltX</guid>
+      <title>storytold/craft-anything ★30,425</title>
+      <link>https://github.com/storytold/craft-anything</link>
+      <description><![CDATA[Rust ★30,425<br>制作任何东西：了解任何软件的工作原理，并制作自己的软件<br><a href="https://github.com/storytold/craft-anything">地址</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/storytold/craft-anything</guid>
       <category>开源</category>
     </item>
     <item>
-      <title>janestreet/agent_skills ★6,275</title>
-      <link>https://github.com/janestreet/agent_skills</link>
-      <description><![CDATA[ ★6,275<br>智能体技能<br><a href="https://github.com/janestreet/agent_skills">地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/janestreet/agent_skills</guid>
+      <title>deepseek-ai/dsh-superagent-prototype ★22,845</title>
+      <link>https://github.com/deepseek-ai/dsh-superagent-prototype</link>
+      <description><![CDATA[TypeScript ★22,845<br>迈向更自主的Agent系统<br><a href="https://github.com/deepseek-ai/dsh-superagent-prototype">地址</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/deepseek-ai/dsh-superagent-prototype</guid>
       <category>开源</category>
     </item>
     <item>
-      <title>LNPANDY/NX2Apple ★6,244</title>
-      <link>https://github.com/LNPANDY/NX2Apple</link>
-      <description><![CDATA[Swift ★6,244<br>把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行<br><a href="https://github.com/LNPANDY/NX2Apple">地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/LNPANDY/NX2Apple</guid>
+      <title>l0ng-ai/openidea ★8,819</title>
+      <link>https://github.com/l0ng-ai/openidea</link>
+      <description><![CDATA[TypeScript ★8,819<br>您知道的IDE是在Rust中重建的<br><a href="https://github.com/l0ng-ai/openidea">地址</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/l0ng-ai/openidea</guid>
       <category>开源</category>
     </item>
     <item>
-      <title>[Docker] QuantumNous/new-api</title>
-      <link>https://github.com/QuantumNous/new-api</link>
-      <description><![CDATA[开源AI网关。具有OpenAI、Claude和Gemini兼容API、模型路由、访问控制、使用跟踪和成本核算的自托管LLM网关<br><a href="https://github.com/QuantumNous/new-api">地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/QuantumNous/new-api</guid>
+      <title>[Docker] awesome-selfhosted/awesome-selfhosted</title>
+      <link>https://github.com/awesome-selfhosted/awesome-selfhosted</link>
+      <description><![CDATA[可托管在您自己的服务器上的免费软件网络服务和Web应用程序列表<br><a href="https://github.com/awesome-selfhosted/awesome-selfhosted">地址</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/awesome-selfhosted/awesome-selfhosted</guid>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] AstrBotDevs/AstrBot</title>
-      <link>https://github.com/AstrBotDevs/AstrBot</link>
-      <description><![CDATA[AI Agent Assistant和开发框架集成了许多IM平台、LLM、插件和AI功能，可以作为您的开放式替代方案<br><a href="https://github.com/AstrBotDevs/AstrBot">地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/AstrBotDevs/AstrBot</guid>
+      <title>[Docker] n8n-io/n8n</title>
+      <link>https://github.com/n8n-io/n8n</link>
+      <description><![CDATA[具有原生AI功能的公平代码工作流程自动化平台<br><a href="https://github.com/n8n-io/n8n">地址</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/n8n-io/n8n</guid>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] outline/outline</title>
-      <link>https://github.com/outline/outline</link>
-      <description><![CDATA[成长型团队最快的知识库。美观、实时协作、功能丰富且兼容markdown<br><a href="https://github.com/outline/outline">地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/outline/outline</guid>
+      <title>[Docker] ohmyzsh/ohmyzsh</title>
+      <link>https://github.com/ohmyzsh/ohmyzsh</link>
+      <description><![CDATA[🙃   一个令人愉悦的社区驱动（拥有2,500多名贡献者）框架，用于管理您的zsh配置<br><a href="https://github.com/ohmyzsh/ohmyzsh">地址</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/ohmyzsh/ohmyzsh</guid>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] The-Vibe-Company/quivr</title>
-      <link>https://github.com/The-Vibe-Company/quivr</link>
-      <description><![CDATA[一个将连续内容流转化为搜索和监控的开源引擎<br><a href="https://github.com/The-Vibe-Company/quivr">地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/The-Vibe-Company/quivr</guid>
+      <title>[Docker] open-webui/open-webui</title>
+      <link>https://github.com/open-webui/open-webui</link>
+      <description><![CDATA[用户友好的AI界面（支持Ollama、OpenAI API等）<br><a href="https://github.com/open-webui/open-webui">地址</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/open-webui/open-webui</guid>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] aquasecurity/trivy</title>
-      <link>https://github.com/aquasecurity/trivy</link>
-      <description><![CDATA[查找漏洞、错误配置、秘密、容器中的SBOM、Kubernetes、代码仓库、云等<br><a href="https://github.com/aquasecurity/trivy">地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/aquasecurity/trivy</guid>
+      <title>[Docker] immich-app/immich</title>
+      <link>https://github.com/immich-app/immich</link>
+      <description><![CDATA[高性能自托管照片和视频管理解决方案<br><a href="https://github.com/immich-app/immich">地址</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/immich-app/immich</guid>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] harness/harness</title>
-      <link>https://github.com/harness/harness</link>
-      <description><![CDATA[Harness Open Source是一个端到端开发人员平台，具有源代码管理、CI/CD管道、托管开发人员环境和工件注册表<br><a href="https://github.com/harness/harness">地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/harness/harness</guid>
+      <title>[Docker] Stirling-Tools/Stirling-PDF</title>
+      <link>https://github.com/Stirling-Tools/Stirling-PDF</link>
+      <description><![CDATA[GitHub上排名第一的PDF应用程序，可让您在任何地方的任何设备上编辑PDF<br><a href="https://github.com/Stirling-Tools/Stirling-PDF">地址</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/Stirling-Tools/Stirling-PDF</guid>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] portainer/portainer</title>
-      <link>https://github.com/portainer/portainer</link>
-      <description><![CDATA[让Docker和Kubernetes管理变得简单<br><a href="https://github.com/portainer/portainer">地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/portainer/portainer</guid>
+      <title>[Docker] louislam/uptime-kuma</title>
+      <link>https://github.com/louislam/uptime-kuma</link>
+      <description><![CDATA[一款精美的自托管监控工具<br><a href="https://github.com/louislam/uptime-kuma">地址</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/louislam/uptime-kuma</guid>
       <category>Docker</category>
     </item>
     <item>
-      <title>[Docker] henrygd/beszel</title>
-      <link>https://github.com/henrygd/beszel</link>
-      <description><![CDATA[使用历史数据、docker统计数据和警报进行轻量级服务器监控<br><a href="https://github.com/henrygd/beszel">地址</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://github.com/henrygd/beszel</guid>
+      <title>[Docker] pathwaycom/serviette</title>
+      <link>https://github.com/pathwaycom/serviette</link>
+      <description><![CDATA[无代码RAG服务器，可使答案与您的文档保持同步<br><a href="https://github.com/pathwaycom/serviette">地址</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/pathwaycom/serviette</guid>
       <category>Docker</category>
     </item>
     <item>
-      <title>[宏观] 法国释放支持西班牙欧洲央行行长候选人的信号</title>
-      <link>https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniynaxf1824964.shtml</link>
-      <description><![CDATA[发布：2026-11-12 06:39<br>随着巴黎和柏林考虑就欧洲央行领导层人事安排达成一揽子协议，巴勃罗·埃尔南德斯·德科斯的竞选势头增强 据四名知情人士透露，法国已释放信号...<br><a href="https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniynaxf1824964.shtml">链接</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniynaxf1824964.shtml</guid>
+      <title>[宏观] 日本央行副行长冰见野良三：目前暂不打算再次调整ETF出售计划</title>
+      <link>https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniyqfwi3738341.shtml</link>
+      <description><![CDATA[发布：2026-11-13 05:02<br>日本央行副行长冰见野良三表示，尽管央行在上个月加快了出售交易所交易基金（ETF）的步伐，但目前并不打算改变当前的出售节奏。针对国会上的质询，冰见野良三表示...<br><a href="https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniyqfwi3738341.shtml">链接</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniyqfwi3738341.shtml</guid>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 强美元与MSCI风险夹击 印尼盾跌至历史新低促使央行干预</title>
-      <link>https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniynaxi3889523.shtml</link>
-      <description><![CDATA[发布：2026-11-12 06:36<br>印尼盾跌至历史新低，加大了当局遏制近期抛售潮的压力。这轮抛售也冲击了印尼股市和债市。 印尼央行表示，正在离岸无本金交割远期...<br><a href="https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniynaxi3889523.shtml">链接</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniynaxi3889523.shtml</guid>
+      <title>[宏观] CPI再超预期，美联储紧缩路径重定价</title>
+      <link>https://finance.sina.com.cn/jjxw/2026-11-13/doc-iniyqfwf1326431.shtml</link>
+      <description><![CDATA[发布：2026-11-13 04:53<br>（本文作者武泽伟为苏商银行特约研究员） 10月美国CPI再度超出预期，市场对美联储紧缩路径的定价随之调整。 11月10日，美国劳工统计局公布数据，季调后整体CPI环比上涨0...<br><a href="https://finance.sina.com.cn/jjxw/2026-11-13/doc-iniyqfwf1326431.shtml">链接</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://finance.sina.com.cn/jjxw/2026-11-13/doc-iniyqfwf1326431.shtml</guid>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 东吴证券芦哲：利率仍有进一步下行空间，明年需重点关注信用风险与企业盈利变化</title>
-      <link>https://finance.sina.com.cn/stock/csjzbj/2026-11-12/doc-iniynawz1225804.shtml</link>
-      <description><![CDATA[发布：2026-11-12 06:34<br>文/新浪财经上海站 陈秀颖 11月12日，2026年上海证券交易所国际投资者大会今日在上海举行。在“宏观视野：全球变局与中国机遇”圆桌讨论上，东吴证券首席经济学家...<br><a href="https://finance.sina.com.cn/stock/csjzbj/2026-11-12/doc-iniynawz1225804.shtml">链接</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://finance.sina.com.cn/stock/csjzbj/2026-11-12/doc-iniynawz1225804.shtml</guid>
+      <title>[宏观] 美联储重磅改革落地：2027年少一次议息会议，10月不投票决定利率！</title>
+      <link>https://finance.sina.com.cn/roll/2026-11-13/doc-iniyqfwf1324144.shtml</link>
+      <description><![CDATA[发布：2026-11-13 04:48<br>来源：财联社 当地时间周四（12日），美联储公布2027年议息会议暂定日程，并作出重大调整——10月不再投票决定利率。这一举措是美联储主席凯文·沃什旨在减少央行市场影响力的...<br><a href="https://finance.sina.com.cn/roll/2026-11-13/doc-iniyqfwf1324144.shtml">链接</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://finance.sina.com.cn/roll/2026-11-13/doc-iniyqfwf1324144.shtml</guid>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 国泰海通证券路颖：中国资产具备较强安全性与韧性，宏观政策自主空间较大</title>
-      <link>https://finance.sina.com.cn/stock/csjzbj/2026-11-12/doc-iniynaxf1802806.shtml</link>
-      <description><![CDATA[发布：2026-11-12 06:15<br>11月12日，2026年上海证券交易所国际投资者大会在上海举行。国泰海通证券研究与机构业务委员会副总裁、研究所所长路颖在圆桌讨论中表示...<br><a href="https://finance.sina.com.cn/stock/csjzbj/2026-11-12/doc-iniynaxf1802806.shtml">链接</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://finance.sina.com.cn/stock/csjzbj/2026-11-12/doc-iniynaxf1802806.shtml</guid>
+      <title>[宏观] 多家银行再次上调美元定期存款利率</title>
+      <link>https://finance.sina.com.cn/roll/2026-11-13/doc-iniyqfwf1300578.shtml</link>
+      <description><![CDATA[发布：2026-11-13 04:28<br>近期美元存款利率再次走高，多家银行美元定期存款利率逼近或突破4%，而且部分银行在9月份美联储加息后曾上调美元存款利率，近期再次上调。<br><a href="https://finance.sina.com.cn/roll/2026-11-13/doc-iniyqfwf1300578.shtml">链接</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://finance.sina.com.cn/roll/2026-11-13/doc-iniyqfwf1300578.shtml</guid>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 普徕仕：美联储2027年加息次数或超出市场预期</title>
-      <link>https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-12/doc-iniynaxf1802435.shtml</link>
-      <description><![CDATA[发布：2026-11-12 06:07<br>普徕仕（T． Rowe Price）美国首席经济学家Blerina Uruci认为，美国10月份CPI数据尚不足以支持美联储在下次会议加息50个基点。不过随着通胀上升预期的升温...<br><a href="https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-12/doc-iniynaxf1802435.shtml">链接</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-12/doc-iniynaxf1802435.shtml</guid>
+      <title>[宏观] 美联储官员频放鹰、美国国债遭抛售，明年议息会议减至7次、10月改为战略讨论</title>
+      <link>https://finance.sina.com.cn/jjxw/2026-11-13/doc-iniyqfwf1277780.shtml</link>
+      <description><![CDATA[发布：2026-11-13 04:04<br>在美国通胀高企、AI投资带来额外需求压力的背景下，本周四、周五又有多位美联储官员表示，货币政策仍需进一步收紧，将利率提高至限制性水平，以推动通胀回落。<br><a href="https://finance.sina.com.cn/jjxw/2026-11-13/doc-iniyqfwf1277780.shtml">链接</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://finance.sina.com.cn/jjxw/2026-11-13/doc-iniyqfwf1277780.shtml</guid>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 龙大美食（002726）被证监会立案，投资者索赔分析</title>
-      <link>https://finance.sina.com.cn/stock/gmwq/rightscase/2026-11-12/doc-iniynife8493380.shtml</link>
-      <description><![CDATA[发布：2026-11-12 07:03<br>近日，龙大美食（002726）公告，公司收到中国证券监督管理委员会（以下简称“中国证监会”）对公司下发的《中国证券监督管理委员会立案告知书》。<br><a href="https://finance.sina.com.cn/stock/gmwq/rightscase/2026-11-12/doc-iniynife8493380.shtml">链接</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://finance.sina.com.cn/stock/gmwq/rightscase/2026-11-12/doc-iniynife8493380.shtml</guid>
+      <title>[宏观] 稳市机制建设获货币政策“加力”表述！沪深300ETF华泰柏瑞（510300）助力布局核心资产估值修复窗口</title>
+      <link>https://finance.sina.com.cn/money/fund/jjh/2026-11-13/doc-iniyqfwh8035210.shtml</link>
+      <description><![CDATA[发布：2026-11-13 03:44<br>11月11日晚间，央行披露最新货币政策执行报告，资本市场支持工具再度迎来重磅部署。报告在下一阶段货币政策主要思路中明确“加力实施支持资本市场的两项货币政策工具...<br><a href="https://finance.sina.com.cn/money/fund/jjh/2026-11-13/doc-iniyqfwh8035210.shtml">链接</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://finance.sina.com.cn/money/fund/jjh/2026-11-13/doc-iniyqfwh8035210.shtml</guid>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 东吴证券首席经济学家芦哲：未来消费企稳关键在于居民消费意愿，资本市场长牛慢牛需要制度根基</title>
-      <link>https://finance.sina.com.cn/stock/csjzbj/2026-11-12/doc-iniynife8487163.shtml</link>
-      <description><![CDATA[发布：2026-11-12 06:57<br>文/新浪财经上海站 陈秀颖 11月12日，2026年上海证券交易所国际投资者大会在上海举行。本届大会以“交互融通 互利共赢——全球投资者共话中国资产安全、韧性...<br><a href="https://finance.sina.com.cn/stock/csjzbj/2026-11-12/doc-iniynife8487163.shtml">链接</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://finance.sina.com.cn/stock/csjzbj/2026-11-12/doc-iniynife8487163.shtml</guid>
+      <title>[宏观] 近30年首次！动用5亿欧元等值资金，纽约联储报告证实日美联合干预日元汇率</title>
+      <link>https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-13/doc-iniypzqc1097546.shtml</link>
+      <description><![CDATA[发布：2026-11-13 02:36<br>纽约联储周四发布报告证实此前市场消息，即美国财政部在7月31日与日本协调进行的干预行动中，动用了其持有的约5亿美元等值欧元来支撑日元。<br><a href="https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-13/doc-iniypzqc1097546.shtml">链接</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-13/doc-iniypzqc1097546.shtml</guid>
       <category>宏观</category>
     </item>
     <item>
-      <title>[宏观] 特朗普解除制裁后俄罗斯柴油出口翻倍，但尚无柴油流入美国</title>
-      <link>https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniynaxh8592057.shtml</link>
-      <description><![CDATA[发布：2026-11-12 06:30<br>美国为压低柴油价格所做的相关安排，令俄罗斯上月柴油出口量实现翻倍；不过，尽管特朗普政府决定解除针对俄罗斯的燃料制裁，但由此新增的柴油货船...<br><a href="https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniynaxh8592057.shtml">链接</a>]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniynaxh8592057.shtml</guid>
+      <title>[宏观] 欢迎申报大商所化工品期货服务出口定价试点项目</title>
+      <link>https://finance.sina.com.cn/money/future/fmnews/2026-11-13/doc-iniypzqi1319044.shtml</link>
+      <description><![CDATA[发布：2026-11-13 02:21<br>期货市场因实体而生、伴产业而兴。自2007年上市首个化工品期货以来，大连商品交易所（下称：大商所）持续推进化工品种板块建设，目前已推出聚乙烯、聚丙烯、聚氯乙烯...<br><a href="https://finance.sina.com.cn/money/future/fmnews/2026-11-13/doc-iniypzqi1319044.shtml">链接</a>]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">https://finance.sina.com.cn/money/future/fmnews/2026-11-13/doc-iniypzqi1319044.shtml</guid>
       <category>宏观</category>
     </item>
     <item>
-      <title>市场快照 2026-11-12</title>
+      <title>市场快照 2026-11-13</title>
       <link>https://eastmoney.com</link>
-      <description><![CDATA[每日市场快照：<br>沪深300-0.78%；中证500-1.62%；创业板指-2.44%；科创50+0.73%；中证红利-0.59%；红利低波-0.08%；恒生指数-1.23%；纳斯达克+1.60%；标普500+1.31%。<br>微型黄金-0.70%。]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">snapshot-2026-11-12</guid>
+      <description><![CDATA[每日市场快照：<br>沪深300-0.93%；中证500-2.29%；创业板指-3.52%；科创50-2.70%；中证红利+0.24%；红利低波+1.14%；恒生指数-1.55%；纳斯达克-0.39%；标普500-0.35%。<br>微型黄金+0.27%。]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">snapshot-2026-11-13</guid>
       <category>财经</category>
     </item>
     <item>
-      <title>指数估值 2026-11-12</title>
+      <title>指数估值 2026-11-13</title>
       <link>https://danjuanfunds.com/</link>
-      <description><![CDATA[沪深300 PE分位66%(适中) PB分位20%(低估)<br>中证500 PE分位63%(适中) PB分位62%(适中)<br>创业板指 PE分位11%(低估) PB分位22%(低估)<br>科创50 PE分位76%(高估) PB分位64%(适中)<br>中证红利 PE分位85%(高估) PB分位55%(适中)<br>红利低波 PE分位80%(高估) PB分位65%(适中)<br>恒生指数 PE分位60%(适中) PB分位53%(适中)<br>纳斯达克 PE分位26%(低估) PB分位61%(适中)<br>标普500 PE分位42%(适中) PB分位90%(高估)<br>（蛋卷，截至 11-11）]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">valuation-2026-11-12</guid>
+      <description><![CDATA[沪深300 PE分位65%(适中) PB分位18%(低估)<br>中证500 PE分位61%(适中) PB分位60%(适中)<br>创业板指 PE分位9%(低估) PB分位19%(低估)<br>科创50 PE分位76%(高估) PB分位67%(适中)<br>中证红利 PE分位85%(高估) PB分位56%(适中)<br>红利低波 PE分位80%(高估) PB分位66%(适中)<br>恒生指数 PE分位58%(适中) PB分位49%(适中)<br>纳斯达克 PE分位25%(低估) PB分位61%(适中)<br>标普500 PE分位40%(适中) PB分位90%(高估)<br>（蛋卷，截至 11-12）]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">valuation-2026-11-13</guid>
       <category>估值</category>
     </item>
     <item>
       <title>完整资讯日报（网页版）</title>
-      <link>index.html#2026-11-12</link>
-      <description><![CDATA[<a href="index.html#2026-11-12">完整资讯日报（网页版）</a><br>点击查看完整排版日报（含指数估值表、板块涨跌、各栏目全文）]]></description>
-      <pubDate>Thu, 12 Nov 2026 07:19:14 +0000</pubDate>
-      <guid isPermaLink="false">full-2026-11-12</guid>
+      <link>index.html#2026-11-13</link>
+      <description><![CDATA[<a href="index.html#2026-11-13">完整资讯日报（网页版）</a><br>点击查看完整排版日报（含指数估值表、板块涨跌、各栏目全文）]]></description>
+      <pubDate>Fri, 13 Nov 2026 06:53:03 +0000</pubDate>
+      <guid isPermaLink="false">full-2026-11-13</guid>
       <category>日报</category>
     </item>
   </channel>
