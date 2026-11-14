@@ -1,0 +1,531 @@
+{
+ "date": "2026-11-14",
+ "weekday": "六",
+ "val_date": "11-13",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "美联储金融稳定报告：AI成为华尔街头号金融风险",
+    "url": "https://aihot.news/items/xzt8t0xkgj3mm17k11s2yo3d4",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-11-13T23:54:06.000Z",
+    "summary": "美联储发布金融稳定报告，纽约联储调查显示87%的市场人士将AI列为首要金融风险，高于春季的50%。报告称对超级智能的市场热情推高股票估值；截至10月AI基础设施债务超6800亿美元，约为2023年全年的5倍、占投资级公司借贷约31%；最大银行对大型科技、数据中心建设及融资工具的风险敞口接近1万亿美元。"
+   },
+   {
+    "kind": "news",
+    "title": "Dario Amodei 回应市场动荡：Anthropic IPO 前称对时机并不在意",
+    "url": "https://aihot.news/items/dl9ehywczofu8vp5sj62s6j4n",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-11-13T23:39:27.000Z",
+    "summary": "Dario Amodei 在纽约 JPMorgan 活动上与 Jamie Dimon 对谈，对 Anthropic IPO 路演期间的市场动荡不以为意，称对上市时机和市场状况不太在意。"
+   },
+   {
+    "kind": "news",
+    "title": "Jensen Huang 离任或给 AI 创业融资留下大缺口，投资人和创始人担忧",
+    "url": "https://aihot.news/items/kq4awkrys4uz37b7gsvj5r1dj",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-11-13T22:43:00.000Z",
+    "summary": "Nvidia CEO Jensen Huang 正式辞职，创投圈认为其继任者 Colette Kress 更保守，短期难延续他每年数十亿美元、今年已参与 105 轮的投资节奏。"
+   },
+   {
+    "kind": "news",
+    "title": "NVIDIA 副总裁 Bryan Catanzaro 澄清要求恢复 Jensen 职务的信件系伪造",
+    "url": "https://aihot.news/items/kei20gkia8a0vhknc859jsfqr",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-11-13T21:27:00.000Z",
+    "summary": "Rohan Paul 转发 NVIDIA 应用深度学习研究副总裁 Bryan Catanzaro 的声明：网上流传一封要求 NVIDIA 董事会恢复 Jensen Huang 职务、并声称有他参与的信件，Catanzaro 明确该信是伪造的，即使真实他也不会签署。他表示对 Jensen 离开 NVIDIA 感到悲痛，同时完全支持董事会，并称与 Colette 共事多年，全力支持她。"
+   },
+   {
+    "kind": "news",
+    "title": "Claude Duet 向美国等待名单上的 Pro、Max 和 Ultra 订阅者发出全部邀请",
+    "url": "https://aihot.news/items/ajfypca37l5knyrnij49v5ofz",
+    "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+    "publishedAt": "2026-11-13T20:22:53.000Z",
+    "summary": "Anthropic 的 Claude Duet 更新：截至昨日在等待名单上的全部美国 Pro、Max 和 Ultra 订阅者均已收到邀请，等待名单入口为 https://claude.com/product/claude-duet。研究预览附带限额重置，Pro 为 3 次，Max 和 Ultra 为 1 次；官方计划很快向美国以外更多国家开放，并继续征集反馈。"
+   },
+   {
+    "kind": "news",
+    "title": "WSJ 报道称黄仁勋被罢免更多源于 Nvidia 高风险业务而非私生活",
+    "url": "https://aihot.news/items/s59xfwl0atld8vs7xq0pdx6hw",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-11-13T20:07:34.000Z",
+    "summary": "The Decoder 援引 WSJ 报道分析称，黄仁勋被罢免更多源于 Nvidia 高风险业务而非私生活传闻。Nvidia 在其主导下向 AI 云厂商和数据中心开发商提供数十亿美元财务担保以换取营收分成，最大一笔涉及对 OpenAI 俄亥俄数据中心的 2500 亿美元担保，消息公布后股价跌 5%，临时 CEO Colette Kress 将该承诺减半。"
+   },
+   {
+    "kind": "news",
+    "title": "Nvidia 危机与 Anthropic IPO 前夜的 Cerebral Valley AI Summit 现场观察",
+    "url": "https://aihot.news/items/p1mfh9oe0xbq4evyru5pp1ikt",
+    "source": "Newcomer 新闻长文（RSS）",
+    "publishedAt": "2026-11-13T19:27:39.000Z",
+    "summary": "Newcomer 在旧金山 Cerebral Valley AI Summit 现场报道：Jensen Huang 因第二段婚外情披露辞职，Reuters 当天报道存在第三段，与会者多认为 Nvidia 短期无碍但生态承压，Databricks CEO 称其对整个生态是打击。"
+   },
+   {
+    "kind": "news",
+    "title": "Claude Code Stop hook 技巧：用 exit code 2 让 Claude 在检查失败时自动重试",
+    "url": "https://aihot.news/items/p0jsxs2bnv6tmnmn1soi56759",
+    "source": "X：Lydia Hallie（Anthropic，Claude Code） (@lydiahallie)",
+    "publishedAt": "2026-11-13T18:43:37.000Z",
+    "summary": "Lydia Hallie 分享一个 Claude Code 使用技巧：用 Stop hook 让 Claude 在检查失败后自动重试，关键是让 hook 以 exit code 2 退出。exit 2 会把 hook 的 stderr 返回给 Claude 触发重试，exit 1 则是非阻塞的，即使检查失败 Claude 也会直接结束。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "腾讯混元发布实时语音模型 Hy Realtime，新增工具调用与唱歌能力",
+    "url": "https://aihot.news/items/qp41q77z9ge5hsyrh9kra0c7k",
+    "source": "公众号：腾讯混元",
+    "publishedAt": "2026-11-13T08:32:39.000Z",
+    "summary": "腾讯混元发布全新实时语音模型 Hy Realtime，在语音理解、指令遵循、拟人化表达等基础能力外新增 Agentic 工具调用与唱歌能力，已在元宝语音通话、腾讯客服上线，近期将上线腾讯云提供 API 服务。"
+   },
+   {
+    "kind": "news",
+    "title": "Epoch AI 分析华为和林格尔数据中心，揭示中美算力差距",
+    "url": "https://aihot.news/items/adkgofriq3tvp6qrawfc63yw4",
+    "source": "Epoch AI：Gradient Updates（RSS）",
+    "publishedAt": "2026-11-12T16:03:15.000Z",
+    "summary": "Epoch AI 通过卫星影像和冷却设备模型估算，华为和林格尔数据中心已投运约 105,000 颗 Ascend 910C 和 8,000 颗 Ascend 910B 芯片，对应约 81,000 H100 等效算力，为全球最大 AI 数据中心 SpaceX Colossus 2 的约 7%。"
+   },
+   {
+    "kind": "news",
+    "title": "MOSS-Live 全双工实时交互评测解读：与 GPT-Live-1、豆包的对比",
+    "url": "https://aihot.news/items/rcjkjkhq7xxwbhh9wnv15fqy1",
+    "source": "OpenMOSS / 复旦NLP / 上海创智 / MOSI（网页）",
+    "publishedAt": "2026-11-12T16:00:00.000Z",
+    "summary": "OpenMOSS 团队发布 MOSS-Live 全双工语音交互评测解读。依据 MOSS 官网 2026 年 11 月 13 日图表，MOSS-Live 六项全双工指标均居参评模型首位，无关语音误接话率 2.00%，低于 GPT-Live-1 的 68% 和豆包的 75%，停顿抢话率 1.44%。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 用自动化红队训练提升 GPT-6 Astra 和 Sol 在高风险领域的模糊鲁棒性",
+    "url": "https://aihot.news/items/yg97h3u5vthadivuv5po5f0aw",
+    "source": "OpenAI：Alignment 研究博客（RSS）",
+    "publishedAt": "2026-11-12T08:00:00.000Z",
+    "summary": "OpenAI 研究团队介绍如何用自动化红队提升模型在网络、生物等高风险双用途领域的模糊鲁棒性，通过扩大攻击者模型的测试时算力迭代搜索越狱，并要求攻击在多次重复测试中成功（worst@n），生成可靠的对抗训练数据用于 RL 训练。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "baidu/ERNIE-5.5-Flash-Base",
+    "url": "https://hf-mirror.com/baidu/ERNIE-5.5-Flash-Base",
+    "license": "other",
+    "param": "",
+    "likes": 307,
+    "downloads": 3372,
+    "createdAt": "2026-10-21",
+    "intro": "ERNIE 5.5 Flash是一种高效的稀疏专家混合（ MoE ）语言模型，总参数为280B ，每个令牌激活14B ，在33.5T令牌上通过训练上下文从头开始训练"
+   },
+   {
+    "kind": "model",
+    "id": "meituan-longcat/LongCat-2.5",
+    "url": "https://hf-mirror.com/meituan-longcat/LongCat-2.5",
+    "license": "mit",
+    "param": "",
+    "likes": 248,
+    "downloads": 971,
+    "createdAt": "2026-11-04",
+    "intro": "LongCat-2.5 是一款原生多模态 MoE 模型，适用于长视野智能体任务，总参数量为 1.6 万亿，每个 token 约有 480 亿个激活参数"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "lang": "Go",
+   "stars": "50,829",
+   "desc": "安全、快速、高效，经受住阿里巴巴规模的考验"
+  },
+  {
+   "repo": "backnotprop/plannotator",
+   "url": "https://github.com/backnotprop/plannotator",
+   "lang": "TypeScript",
+   "stars": "10,559",
+   "desc": "用于随时掌握最新动态并掌控代理的工作空间——塑造、决策、规划、注释、审核代码、与团队分享，并一键将所有反馈发送给代理"
+  },
+  {
+   "repo": "block/buzz",
+   "url": "https://github.com/block/buzz",
+   "lang": "Rust",
+   "stars": "37,356",
+   "desc": "蜂巢思维沟通平台"
+  },
+  {
+   "repo": "tradermonty/claude-trading-skills",
+   "url": "https://github.com/tradermonty/claude-trading-skills",
+   "lang": "Python",
+   "stars": "4,301",
+   "desc": "面向股票投资者和交易者的 Claude Code 技能——市场分析、技术图表、经济日历、筛选器和交易策略制定"
+  },
+  {
+   "repo": "tailscale/tailcat",
+   "url": "https://github.com/tailscale/tailcat",
+   "lang": "Go",
+   "stars": "9,571",
+   "desc": "类似于 netcat，但通过 Tailscale 的数据面"
+  },
+  {
+   "repo": "Likely7/Veyra-NRVideo",
+   "url": "https://github.com/Likely7/Veyra-NRVideo",
+   "lang": "C++",
+   "stars": "1,716",
+   "desc": "使用 DLSS 5 将 PS5 版《GTA6》提升至 120FPS"
+  },
+  {
+   "repo": "ChromeDevTools/chrome-devtools-mcp",
+   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+   "lang": "TypeScript",
+   "stars": "55,656",
+   "desc": "适用于编码代理的 Chrome DevTools"
+  },
+  {
+   "repo": "xiaoyang111222/cn-math-taxonomy",
+   "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+   "lang": "Python",
+   "stars": "7,978",
+   "desc": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断"
+  },
+  {
+   "repo": "unclebob/ub-mode",
+   "url": "https://github.com/unclebob/ub-mode",
+   "lang": "",
+   "stars": "7,924",
+   "desc": ""
+  },
+  {
+   "repo": "Eglantine-Community/Eglantine",
+   "url": "https://github.com/Eglantine-Community/Eglantine",
+   "lang": "C++",
+   "stars": "5,941",
+   "desc": "非常实验性的Nintendo Switch 2仿真器"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "unslothai/unsloth",
+   "url": "https://github.com/unslothai/unsloth",
+   "lang": "Python",
+   "stars": "79,469",
+   "desc": "运行和训练LLM和扩散模型的本地UI",
+   "en": false
+  },
+  {
+   "repo": "coollabsio/coolify",
+   "url": "https://github.com/coollabsio/coolify",
+   "lang": "PHP",
+   "stars": "66,060",
+   "desc": "Vercel、Heroku和Netlify的开源、自托管PaaS替代品，让您可以在自己的服务器上轻松部署静态站点、数据库、全栈应用程序和360 +一键式服务",
+   "en": false
+  },
+  {
+   "repo": "usememos/memos",
+   "url": "https://github.com/usememos/memos",
+   "lang": "Go",
+   "stars": "64,452",
+   "desc": "备忘录是一款开源、自托管的笔记记录应用程序，可将您的日常想法整合到一个个人时间线中",
+   "en": false
+  },
+  {
+   "repo": "go-gitea/gitea",
+   "url": "https://github.com/go-gitea/gitea",
+   "lang": "Go",
+   "stars": "59,080",
+   "desc": "享用一杯茶。无痛自托管一体化软件开发服务，包括Git托管、代码审核、团队协作、软件包注册和CI/CD",
+   "en": false
+  },
+  {
+   "repo": "appwrite/appwrite",
+   "url": "https://github.com/appwrite/appwrite",
+   "lang": "TypeScript",
+   "stars": "58,079",
+   "desc": "适用于代理和开发人员的开源云。包括身份验证、数据库、存储、功能、消息、托管、实时、WAF等",
+   "en": false
+  },
+  {
+   "repo": "ClickHouse/ClickHouse",
+   "url": "https://github.com/ClickHouse/ClickHouse",
+   "lang": "C++",
+   "stars": "50,920",
+   "desc": "ClickHouse ®是一个实时分析数据库管理系统",
+   "en": false
+  },
+  {
+   "repo": "HKUDS/nanobot",
+   "url": "https://github.com/HKUDS/nanobot",
+   "lang": "Python",
+   "stars": "50,070",
+   "desc": "您的轻量级开源个人代理",
+   "en": false
+  },
+  {
+   "repo": "chatwoot/chatwoot",
+   "url": "https://github.com/chatwoot/chatwoot",
+   "lang": "Ruby",
+   "stars": "39,834",
+   "desc": "开源实时聊天、电子邮件支持、全渠道服务台",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4016.29,
+   "chg": -0.68,
+   "pe": 13.42,
+   "pe_pct": 65,
+   "pb": 1.33,
+   "pb_pct": 19,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6465.49,
+   "chg": -2.1,
+   "pe": 27.43,
+   "pe_pct": 58,
+   "pb": 2.01,
+   "pb_pct": 56,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2426.08,
+   "chg": -3.32,
+   "pe": 27.51,
+   "pe_pct": 6,
+   "pb": 3.87,
+   "pb_pct": 17,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1279.66,
+   "chg": -2.3,
+   "pe": 93.5,
+   "pe_pct": 75,
+   "pb": 6.3,
+   "pb_pct": 64,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5510.92,
+   "chg": 0.34,
+   "pe": 9.13,
+   "pe_pct": 87,
+   "pb": 0.89,
+   "pb_pct": 59,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11363.61,
+   "chg": 1.24,
+   "pe": 9.12,
+   "pe_pct": 80,
+   "pb": 0.92,
+   "pb_pct": 67,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 23637.6,
+   "chg": -1.55,
+   "pe": 10.84,
+   "pe_pct": 56,
+   "pb": 1.08,
+   "pb_pct": 46,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 25136.27,
+   "chg": -0.91,
+   "pe": 26.91,
+   "pe_pct": 24,
+   "pb": 8.24,
+   "pb_pct": 60,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7561.67,
+   "chg": -0.4,
+   "pe": 23.62,
+   "pe_pct": 39,
+   "pb": 5.29,
+   "pb_pct": 89,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "银行Ⅱ",
+    "chg": 1.43
+   },
+   {
+    "name": "保险Ⅱ",
+    "chg": 1.19
+   },
+   {
+    "name": "传媒",
+    "chg": 0.13
+   },
+   {
+    "name": "煤炭",
+    "chg": -0.56
+   },
+   {
+    "name": "农林牧渔",
+    "chg": -0.6
+   },
+   {
+    "name": "航空机场",
+    "chg": -0.68
+   }
+  ],
+  "dn": [
+   {
+    "name": "元件",
+    "chg": -6.31
+   },
+   {
+    "name": "医疗服务",
+    "chg": -4.12
+   },
+   {
+    "name": "玻璃玻纤",
+    "chg": -3.69
+   },
+   {
+    "name": "装修装饰Ⅱ",
+    "chg": -3.3
+   },
+   {
+    "name": "通信设备",
+    "chg": -3.25
+   },
+   {
+    "name": "仪器仪表",
+    "chg": -3.13
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+0.07%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 7.9583（2026-11-13）（≈ 796 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.9458",
+   "date": "2026-11-12"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.7311",
+   "date": "2026-11-12"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.4938",
+   "date": "2026-11-12"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.0919",
+   "date": "2026-11-12"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6313",
+   "date": "2026-11-13"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8275",
+   "date": "2026-11-12"
+  }
+ ],
+ "macro": [
+  {
+   "title": "美联储加息，最新消息！",
+   "ctime": "1794634187",
+   "url": "https://finance.sina.com.cn/roll/2026-11-14/doc-iniysrcf2963495.shtml"
+  },
+  {
+   "title": "英国央行首席经济学家：需进一步加息",
+   "ctime": "1794632760",
+   "url": "https://finance.sina.com.cn/world/2026-11-14/doc-iniysrcc0597024.shtml"
+  },
+  {
+   "title": "美联储重磅报告：AI推高股票估值，数据中心热潮堪比本世纪初互联网",
+   "ctime": "1794629272",
+   "url": "https://finance.sina.com.cn/roll/2026-11-14/doc-iniyskuz0399356.shtml"
+  },
+  {
+   "title": "美联储副主席杰斐逊表态：通胀已成利率最重要的参考指标",
+   "ctime": "1794614746",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniysepc0432942.shtml"
+  },
+  {
+   "title": "美国股市：标普500指数收跌 英伟达风波与利率前景牵动市场",
+   "ctime": "1794608222",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyryff0523159.shtml"
+  },
+  {
+   "title": "美国债市：国债收盘涨跌不一 收益率曲线陡化",
+   "ctime": "1794605696",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyryfm0801230.shtml"
+  },
+  {
+   "title": "华尔街集体看空，散户观点分歧，金价下周迎政策验证",
+   "ctime": "1794626340",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-14/doc-iniyskvh7458708.shtml"
+  },
+  {
+   "title": "Uber回应用户信息外泄：第三方数据泄露所致",
+   "ctime": "1794613628",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniysepm3084900.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 6,
+   "pe": 27.506,
+   "pb_pct": 17,
+   "pb": 3.8673
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 24,
+   "pe": 26.9119,
+   "pb_pct": 60,
+   "pb": 8.2388
+  }
+ ]
+}
