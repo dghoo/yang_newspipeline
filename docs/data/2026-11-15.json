@@ -1,0 +1,531 @@
+{
+ "date": "2026-11-15",
+ "weekday": "日",
+ "val_date": "11-13",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "马斯克等高管联署请愿，要求 Nvidia 恢复黄仁勋 CEO 职务",
+    "url": "https://aihot.news/items/umoosrbjhi12kj7lv51qan4ju",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-11-14T21:41:22.000Z",
+    "summary": "要求 Nvidia 恢复被罢免 CEO 黄仁勋职务的请愿书，截至周六下午已获得超过 11.5 万个签名，包括 5,965 名在职员工、1,108 名前员工和 63,063 名股东，马斯克、Replit CEO Amjad Masad 和 Epic Games CEO Tim Sweeney 均已联署。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic CEO Amodei 在 IPO 前承认明年存在巨大不确定性，算力是公司最深的商业两难",
+    "url": "https://aihot.news/items/vl3jnosrbdn6i5j2we400046i",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-11-14T19:05:17.000Z",
+    "summary": "Anthropic CEO Dario Amodei 在 JPMorgan 投资者活动上表示，明年的走向存在巨大不确定性，算力是公司面临的最深商业两难：算力需提前一到两年购买，买少了影响客户和收入，买多了可能财务过度扩张。"
+   },
+   {
+    "kind": "news",
+    "title": "黄仁勋离开 Nvidia 后，亚洲各国政府如何回应",
+    "url": "https://aihot.news/items/ni18shok3lh70l1e49nazmgdc",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-11-14T16:34:15.000Z",
+    "summary": "黄仁勋离开 Nvidia 后，亚洲多国政府相继回应：韩国科技部称 Nvidia 重申将向韩国供应 260,000 块先进 GPU 并继续联合 AI 项目，台湾经济部长龚明鑫认为此事不太可能显著改变全球 AI 产业增长，日本产业省表示将密切关注 Nvidia。"
+   },
+   {
+    "kind": "news",
+    "title": "Nathan Lambert 分析黄仁勋辞职后美国开源模型生态的真空",
+    "url": "https://aihot.news/items/np6dwfqwflqe7vfse9kkfxj1n",
+    "source": "Nathan Lambert：Interconnects（RSS）",
+    "publishedAt": "2026-11-14T12:23:15.000Z",
+    "summary": "Nathan Lambert 撰文分析 Nvidia CEO 黄仁勋辞职对美国开源模型生态的冲击，认为 Nvidia 对开源模型的资金支持很可能随黄仁勋的离开而干涸，公司首要目标是稳住局面并向客户交付。"
+   },
+   {
+    "kind": "news",
+    "title": "黄仁勋离开 Nvidia：远见型创始人 CEO 时代落幕",
+    "url": "https://aihot.news/items/gslfz6uqr2sqy68cgv38i4tf0",
+    "source": "The Verge：AI（RSS）",
+    "publishedAt": "2026-11-14T12:00:00.000Z",
+    "summary": "The Verge 长文回顾黄仁勋因走私丑闻和婚外情指控离开 Nvidia，分析这位执掌首家 5 万亿美元公司、占标普 500 约 6% 的创始人的离去意味着什么。"
+   },
+   {
+    "kind": "news",
+    "title": "研究报告称中国最强 AI 模型使用了被禁出口的 Nvidia Blackwell 芯片训练",
+    "url": "https://aihot.news/items/q92ir58jcjtp3g9fn11jlb6ei",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-11-13T18:40:30.000Z",
+    "summary": "Will DePue 领导的非营利研究组织 Unemployment Labs 分析 DeepSeek、月之暗面、MiniMax 和蚂蚁集团开源模型权重，发现 Kimi K3 与 DeepSeek V4 等最受关注模型带有 Blackwell 芯片训练痕迹。"
+   },
+   {
+    "kind": "news",
+    "title": "Sierra 发布 Personal Agent Protocol（Poppy）v1.0",
+    "url": "https://aihot.news/items/z4wsrxr1xmhg3lq3y0ouq5rmr",
+    "source": "Sierra：Blog（RSS）",
+    "publishedAt": "2026-11-13T17:00:00.000Z",
+    "summary": "Sierra 宣布 Personal Agent Protocol（Poppy）v1.0 正式可用，该协议定义个人智能体如何通过企业智能体、网站和 API 与公司交互，主要基于 MCP、OpenAPI、UCP 等现有标准构建，认证通过 OAuth 由客户控制权限。"
+   },
+   {
+    "kind": "news",
+    "title": "ChatGPT 推出 ChatGPT Wallet，dot 可在用户批准下代为完成购买",
+    "url": "https://aihot.news/items/vot1htumxjgnb0i88rbq3zsuq",
+    "source": "X：ChatGPT (@ChatGPT)",
+    "publishedAt": "2026-11-13T16:44:49.000Z",
+    "summary": "ChatGPT 官方账号宣布推出 ChatGPT Wallet，dot 可在用户批准下安全地代用户完成购买。智能体支付时不会接触用户的实际卡号信息，每笔购买都需要通过安全检查。该功能即日起在美国向 Pro 订阅用户的 dot 推出，详情见 https://openai.com/index/introducing-chatgpt-wallet/。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "美团 LongCat 开源 LongCat-Video-Avatar 1.6 音频驱动数字人视频生成模型",
+    "url": "https://aihot.news/items/habommgck5ql3tdf688ca370s",
+    "source": "美团 LongCat：HuggingFace 新模型",
+    "publishedAt": "2026-11-13T02:45:33.000Z",
+    "summary": "美团 LongCat 团队发布开源音频驱动人体视频生成模型 LongCat-Video-Avatar 1.6，改进口型自然度、唇音同步、面部与肢体动作协调及长视频视觉一致性，缓解自回归续写误差累积，可生成超过 10 分钟的视频，并加入端到端推理优化。"
+   },
+   {
+    "kind": "news",
+    "title": "Google DeepMind 用 AlphaProof Code 对 Signal 协议机器码完成形式化安全验证",
+    "url": "https://aihot.news/items/t9g33uqn3lfwm8cr1kr2fvnp7",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-11-10T15:38:00.000Z",
+    "summary": "Google DeepMind 发布 AlphaProof Code 多智能体形式化验证框架，并首次对广泛部署协议 Signal 的生产机器码完成形式化安全验证。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic Fable 5.2 在 Remote Labor Index 上以 41.3% 领跑真实自由职业任务",
+    "url": "https://aihot.news/items/oesqqhekbr8e1bekkcitpguqh",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-11-10T14:07:47.000Z",
+    "summary": "The Decoder 报道，Anthropic 新模型 Fable 5.2 在 Scale Labs 和 Center for AI Safety 的 Remote Labor Index 基准上以 41.3% 排名第一，该测试衡量 AI 智能体能否把真实自由职业项目做到让付费客户接受的质量。"
+   },
+   {
+    "kind": "news",
+    "title": "Google DeepMind 开放 WeatherNext 3 背后的 SatWeave 与 PARDIG 数据集",
+    "url": "https://aihot.news/items/yheau2l45u3ognq2w94xhtuyj",
+    "source": "Google DeepMind：Blog（RSS）",
+    "publishedAt": "2026-11-10T11:13:04.000Z",
+    "summary": "Google DeepMind 发布 SatWeave 和 PARDIG 两个数据集，均支持 WeatherNext 3 模型的中期预报。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "url": "https://hf-mirror.com/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "license": "mit",
+    "param": "",
+    "likes": 5710,
+    "downloads": 434013,
+    "createdAt": "2026-10-17",
+    "intro": "DeepSeek-V4.1-Flash-1017是对DeepSeek-V4.1-Flash的微小更新，在推理、编码、代理任务和可视化基准方面提供了实质性改进"
+   },
+   {
+    "kind": "model",
+    "id": "NousResearch/Arete-27B",
+    "url": "https://hf-mirror.com/NousResearch/Arete-27B",
+    "license": "apache-2.0",
+    "param": "27B",
+    "likes": 599,
+    "downloads": 6191,
+    "createdAt": "2026-11-06",
+    "intro": "我们对阿里巴巴的Qwen3.8-27B进行了后期培训，以在中国培训的模式上强化西方价值观"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "dream-num/univer",
+   "url": "https://github.com/dream-num/univer",
+   "lang": "TypeScript",
+   "stars": "25,086",
+   "desc": "使用 Univer Office SDK 构建您自己的 AI Office"
+  },
+  {
+   "repo": "ag-ui-protocol/ag-ui",
+   "url": "https://github.com/ag-ui-protocol/ag-ui",
+   "lang": "TypeScript",
+   "stars": "17,457",
+   "desc": "AG-UI：代理与用户交互协议。将代理引入前端应用程序"
+  },
+  {
+   "repo": "JuliusBrussee/caveman",
+   "url": "https://github.com/JuliusBrussee/caveman",
+   "lang": "Go",
+   "stars": "120,176",
+   "desc": "🪨 为什么在很少令牌做恶作剧时使用许多令牌"
+  },
+  {
+   "repo": "Tencent/LoopForge",
+   "url": "https://github.com/Tencent/LoopForge",
+   "lang": "Go",
+   "stars": "1,010",
+   "desc": "用于交付编码代理的自托管工作流。使用脚本和人工审批关卡来编排 CodeBuddy、Codex 和 Claude Code"
+  },
+  {
+   "repo": "martin-olivier/airgorah",
+   "url": "https://github.com/martin-olivier/airgorah",
+   "lang": "Rust",
+   "stars": "6,018",
+   "desc": "一款 Wi-Fi 安全审计软件"
+  },
+  {
+   "repo": "qybaihe/bla",
+   "url": "https://github.com/qybaihe/bla",
+   "lang": "TypeScript",
+   "stars": "5,711",
+   "desc": "🛡️ BLA（bla-agents/Blind LLM Agents）— 开源蓝队防御 MCP 服务器和 CLI，保护 JS/TS、Electron ASAR、WASM、Python、原生二进制文件、SQLite、GGUF/Safetensors 和 Android DEX 免受 AI 攻击"
+  },
+  {
+   "repo": "Lee-xeo/Claude-Cage",
+   "url": "https://github.com/Lee-xeo/Claude-Cage",
+   "lang": "Go",
+   "stars": "5,538",
+   "desc": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露"
+  },
+  {
+   "repo": "KKKKhazix/agent-autoloop",
+   "url": "https://github.com/KKKKhazix/agent-autoloop",
+   "lang": "TypeScript",
+   "stars": "5,395",
+   "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底"
+  },
+  {
+   "repo": "public-apis/public-apis",
+   "url": "https://github.com/public-apis/public-apis",
+   "lang": "Python",
+   "stars": "499,091",
+   "desc": "免费API的集合列表"
+  },
+  {
+   "repo": "morluto/rea",
+   "url": "https://github.com/morluto/rea",
+   "lang": "TypeScript",
+   "stars": "460,383",
+   "desc": "使用代理对任何内容进行反向工程，从应用行为到本机二进制文件"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "gogs/gogs",
+   "url": "https://github.com/gogs/gogs",
+   "lang": "Go",
+   "stars": "47,938",
+   "desc": "托管您自己的Git服务的轻松方式",
+   "en": false
+  },
+  {
+   "repo": "siyuan-note/siyuan",
+   "url": "https://github.com/siyuan-note/siyuan",
+   "lang": "TypeScript",
+   "stars": "47,233",
+   "desc": "开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
+   "en": false
+  },
+  {
+   "repo": "reactive-resume/reactive-resume",
+   "url": "https://github.com/reactive-resume/reactive-resume",
+   "lang": "TypeScript",
+   "stars": "45,765",
+   "desc": "独一无二的简历生成器，可保护您的隐私",
+   "en": false
+  },
+  {
+   "repo": "janhq/jan",
+   "url": "https://github.com/janhq/jan",
+   "lang": "Rust",
+   "stars": "45,725",
+   "desc": "JAN是ChatGPT的开源替代方案，可在您的计算机上100%离线运行",
+   "en": false
+  },
+  {
+   "repo": "appsmithorg/appsmith",
+   "url": "https://github.com/appsmithorg/appsmith",
+   "lang": "TypeScript",
+   "stars": "41,252",
+   "desc": "用于搭建管理后台、内部工具与仪表盘的平台，可接入 25 种以上数据库及任意 API",
+   "en": false
+  },
+  {
+   "repo": "ToolJet/ToolJet",
+   "url": "https://github.com/ToolJet/ToolJet",
+   "lang": "HTML",
+   "stars": "41,229",
+   "desc": "ToolJet AI 的开源底座：企业级应用生成平台，可构建内部工具、仪表盘、业务应用、工作流与 AI 智能体，支持可视化搭建、提示词生成，或通过 MCP 接入 Claude Code、Codex 与 Cursor",
+   "en": false
+  },
+  {
+   "repo": "photoprism/photoprism",
+   "url": "https://github.com/photoprism/photoprism",
+   "lang": "Go",
+   "stars": "40,452",
+   "desc": "AI 驱动的照片管理应用",
+   "en": false
+  },
+  {
+   "repo": "TriliumNext/Trilium",
+   "url": "https://github.com/TriliumNext/Trilium",
+   "lang": "TypeScript",
+   "stars": "38,948",
+   "desc": "用 Trilium Notes 搭建个人知识库",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4016.29,
+   "chg": -0.68,
+   "pe": 13.42,
+   "pe_pct": 65,
+   "pb": 1.33,
+   "pb_pct": 19,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6465.49,
+   "chg": -2.1,
+   "pe": 27.43,
+   "pe_pct": 58,
+   "pb": 2.01,
+   "pb_pct": 56,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2426.08,
+   "chg": -3.32,
+   "pe": 27.51,
+   "pe_pct": 6,
+   "pb": 3.87,
+   "pb_pct": 17,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1279.66,
+   "chg": -2.3,
+   "pe": 93.5,
+   "pe_pct": 75,
+   "pb": 6.3,
+   "pb_pct": 64,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5510.92,
+   "chg": 0.34,
+   "pe": 9.13,
+   "pe_pct": 87,
+   "pb": 0.89,
+   "pb_pct": 59,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11363.61,
+   "chg": 1.24,
+   "pe": 9.12,
+   "pe_pct": 80,
+   "pb": 0.92,
+   "pb_pct": 67,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 23637.6,
+   "chg": -1.55,
+   "pe": 10.84,
+   "pe_pct": 56,
+   "pb": 1.08,
+   "pb_pct": 46,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 25136.27,
+   "chg": -0.91,
+   "pe": 26.91,
+   "pe_pct": 24,
+   "pb": 8.24,
+   "pb_pct": 60,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7561.67,
+   "chg": -0.4,
+   "pe": 23.62,
+   "pe_pct": 39,
+   "pb": 5.29,
+   "pb_pct": 89,
+   "pe_level": "适中",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "银行Ⅱ",
+    "chg": 1.43
+   },
+   {
+    "name": "保险Ⅱ",
+    "chg": 1.19
+   },
+   {
+    "name": "传媒",
+    "chg": 0.13
+   },
+   {
+    "name": "煤炭",
+    "chg": -0.56
+   },
+   {
+    "name": "农林牧渔",
+    "chg": -0.6
+   },
+   {
+    "name": "航空机场",
+    "chg": -0.68
+   }
+  ],
+  "dn": [
+   {
+    "name": "元件",
+    "chg": -6.31
+   },
+   {
+    "name": "医疗服务",
+    "chg": -4.12
+   },
+   {
+    "name": "玻璃玻纤",
+    "chg": -3.69
+   },
+   {
+    "name": "装修装饰Ⅱ",
+    "chg": -3.3
+   },
+   {
+    "name": "通信设备",
+    "chg": -3.25
+   },
+   {
+    "name": "仪器仪表",
+    "chg": -3.13
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+0.07%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 7.9583（2026-11-13）（≈ 796 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.9458",
+   "date": "2026-11-12"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.7311",
+   "date": "2026-11-12"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.4938",
+   "date": "2026-11-12"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.0919",
+   "date": "2026-11-12"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6313",
+   "date": "2026-11-13"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8275",
+   "date": "2026-11-12"
+  }
+ ],
+ "macro": [
+  {
+   "title": "韩国央行逢低买金 第三季度黄金ETF持仓增40%",
+   "ctime": "1794722234",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyuyka6430476.shtml"
+  },
+  {
+   "title": "下周关注丨10月经济数据将公布，这些投资机会最靠谱",
+   "ctime": "1794711781",
+   "url": "https://finance.sina.com.cn/roll/2026-11-15/doc-iniyuuaa9713991.shtml"
+  },
+  {
+   "title": "中泰证券固收首席吕品：宏观流动性平稳、科技金融加力，为资本市场平稳健康发展提供有力支撑",
+   "ctime": "1794705686",
+   "url": "https://finance.sina.com.cn/roll/2026-11-15/doc-iniyupui2148760.shtml"
+  },
+  {
+   "title": "韩国10月ICT产业出口额达703.5亿美元 芯片出口同比大增259.4%",
+   "ctime": "1794716978",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyuuae6531237.shtml"
+  },
+  {
+   "title": "下周，重磅事件密集落地！A股怎么走？",
+   "ctime": "1794716421",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-15/doc-iniyuuaf2092333.shtml"
+  },
+  {
+   "title": "美联储柯林斯：稳步、渐进加息是适宜之举",
+   "ctime": "1794670340",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniytnhx3878101.shtml"
+  },
+  {
+   "title": "Meta被意大利数据保护机构罚款8.07亿欧元",
+   "ctime": "1794661700",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniytfyx2738454.shtml"
+  },
+  {
+   "title": "英国央行委员格林：现在就通胀采取主动行动，才能将决策失误的负面影响降至最低",
+   "ctime": "1794661024",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniytfyz3959762.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 6,
+   "pe": 27.506,
+   "pb_pct": 17,
+   "pb": 3.8673
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 24,
+   "pe": 26.9119,
+   "pb_pct": 60,
+   "pb": 8.2388
+  }
+ ]
+}
