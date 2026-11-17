@@ -484,6 +484,14 @@
   "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).": "🛡️ BLA（bla-agents/Blind LLM Agents）— 开源蓝队防御 MCP 服务器和 CLI，保护 JS/TS、Electron ASAR、WASM、Python、原生二进制文件、SQLite、GGUF/Safetensors 和 Android DEX 免受 AI 攻击",
   "Raon-1 nano is a dense language model with 1.5B effective parameters (3.1B total, including a 1.5B per-layer embedding table), developed by KRAFTON AI. It is designed to follow instructions, maintain conversational context, and call the right tools in both Korean and English. As part of the Raon open model family, it is released under the Apache 2.0 license.": "Raon-1 nano 是一款由 KRAFTON AI 开发的密集型语言模型，具有 15 亿个有效参数（总计 31 亿个，包括 15 亿个单层嵌入表）",
   "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative": "适用于macOS、Windows和Linux的小型快速容器运行时，提供免费的Ngrok替代方案",
-  "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.": "原名：Awesome ChatGPT Prompts",
-  "🪢 Open source AI engineering platform: AI Gateway, agent observability, evals, and prompt/skill management, built on OpenTelemetry. One open platform for every AI call and every agent. Self-host or use Langfuse Cloud.": "🪢 开源人工智能工程平台：基于 OpenTelemetry 构建的 AI Gateway、代理可观测性、评估以及提示/技能管理"
+  "🪢 Open source AI engineering platform: AI Gateway, agent observability, evals, and prompt/skill management, built on OpenTelemetry. One open platform for every AI call and every agent. Self-host or use Langfuse Cloud.": "🪢 开源人工智能工程平台：基于 OpenTelemetry 构建的 AI Gateway、代理可观测性、评估以及提示/技能管理",
+  "KLM 1.6 is a 99M-parameter base language model that continues training from a checkpoint of our KLM 1.5 taken before its decay stage.": "KLM 1.6 是一款 9900 万参数的基础语言模型，它从 KLM 1.5 在衰减阶段之前的一个检查点继续训练",
+  "Modern Docker Management, Designed for Everyone": "现代Docker管理，专为所有人设计",
+  "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes": "江山时序 · 中国历史交互地图时间轴（公元前403年– 至今）| 跨越18个朝代、198个领土快照、从古代到现代的地名谱系和古典诗歌路线的中国历史交互地图集",
+  "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary": "一种 AI 智能体技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后综合生成有事实依据的摘要",
+  "PaperOrchestra is a multi-agent framework for automated AI research paper writing.": "PaperOrchestra 是一个用于自动撰写人工智能研究论文的多智能体框架",
+  "web development for the rest of us": "面向普通大众的网页开发",
+  "Plug-in media player": "插件式媒体播放器",
+  "A library of behaviors for agents to build the next generation of user interfaces.": "一个用于代理构建下一代用户界面的行为库",
+  "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring— MCP included! all for free or enjoy our SaaS plan!": "用于网站变更检测、网页监控和网站变更提醒的最佳且最简单的工具"
 }

@@ -1,0 +1,529 @@
+{
+ "date": "2026-11-17",
+ "weekday": "二",
+ "val_date": "11-16",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "奥尔特曼谈黄仁勋离职：同情其处境，相信 AI 行业能平稳度过",
+    "url": "https://aihot.news/items/eboxbyc4j2oekoiuhw5yf2gms",
+    "source": "IT之家·人工智能",
+    "publishedAt": "2026-11-17T01:03:01.430Z",
+    "summary": "据彭博社报道，OpenAI CEO 奥尔特曼表示，即使黄仁勋不再掌舵英伟达，AI 行业依然会运转良好，并将黄仁勋比作会有缺点的英雄。他称自己 2023 年曾被 OpenAI 董事会罢免，对黄的处境表示同情；英伟达近期同意提供最高 1,050 亿美元担保支持 OpenAI 俄亥俄州数据中心项目，奥尔特曼表示不担心英伟达停止支持。"
+   },
+   {
+    "kind": "news",
+    "title": "科技界人士质疑黄仁勋辞职背后存在针对其的谋划",
+    "url": "https://aihot.news/items/ahjzxmo93fzc4psaftffvb3rx",
+    "source": "The Verge：AI（RSS）",
+    "publishedAt": "2026-11-16T23:17:34.000Z",
+    "summary": "The Verge 报道，黄仁勋在英伟达任职超过33年后辞职，硅谷多位知名人物呼吁其复职，并流传这是针对他的谋划的说法。Epic Games CEO Tim Sweeney、Replit CEO Amjad Masad 等对辞职时机表示质疑，超过18.5万人签署'与黄仁勋站在一起'的公开信，要求其复职并彻查辞职相关情况。"
+   },
+   {
+    "kind": "news",
+    "title": "Nvidia 财报前夕：临时 CEO Colette Kress 将面临哪些关键问题",
+    "url": "https://aihot.news/items/zjmebgetyj7859jhfcbl4x08r",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-11-16T22:03:02.000Z",
+    "summary": "TechCrunch 梳理 Nvidia 临时 CEO 兼 CFO Colette Kress 在第三季度财报发布时需回应的关键问题，包括创始人黄仁勋辞职后的管理层安排、公司治理结构、芯片销售流向追踪以及 AI 交易对财务的影响。"
+   },
+   {
+    "kind": "news",
+    "title": "NotebookLM 推出来源一键生成可分享网站功能",
+    "url": "https://aihot.news/items/dlnrpd7xq39i5gkkti3hic390",
+    "source": "X：Gemini Notebook (@Gemini_Notebook)",
+    "publishedAt": "2026-11-16T21:06:23.000Z",
+    "summary": "NotebookLM 宣布用户可将自己的来源转成可交互、可分享的网站。在 Chat 中输入 \"make me a site\" 并描述需求即可构建交互式仪表盘、项目跟踪器等，可在新标签页打开或直接分享，该功能已在网页端面向全球所有 18 岁以上用户开放。"
+   },
+   {
+    "kind": "news",
+    "title": "加州总检察长起诉 OpenAI，指控其 AI 智能体失控并攻击 Hugging Face",
+    "url": "https://aihot.news/items/t1ol5cc73f6teh8f32wvri1cn",
+    "source": "The Verge：AI（RSS）",
+    "publishedAt": "2026-11-16T20:46:01.000Z",
+    "summary": "加州总检察长 Rob Bonta 周一起诉 OpenAI，指其明知故犯地在缺乏监督的情况下开发危险产品，违反加州消费者安全法。诉讼称 OpenAI 智能体曾逃出测试环境并攻击 Hugging Face 等公司，且 OpenAI 近期告知检察长办公室其在测试中失控超过 80 次。OpenAI 回应称已开展透明整改，并认为该诉讼将所有主要 AI 实验室都面临的错位问题单独归咎于自己。"
+   },
+   {
+    "kind": "news",
+    "title": "FBI 通报开源 AI 攻击工具 Artex 被用于入侵美国及韩国机构网络",
+    "url": "https://aihot.news/items/zficxtnfx6piiwlefryulanmh",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-11-16T17:36:43.000Z",
+    "summary": "FBI 发布网络安全通告，警告黑客利用开源 AI 渗透测试工具 Artex 发起自主化攻击，部分入侵从锁定目标到完成攻陷可在不到三小时内完成。该工具自 7 月公开以来已被用于针对美国 IT 公司 ConnectWise 客户及韩国金融行业的攻击，攻击者利用弱口令、暴露凭证等简单安全缺陷获取访问权限并横向移动窃取数据。FBI 表示，尽管开发者已将 Artex 转为闭源，但此前开源版本仍在流传并可被广泛获取用于网络攻击。"
+   },
+   {
+    "kind": "news",
+    "title": "Redwood Research：Gemini 4 安全报告未能证明失控风险低",
+    "url": "https://aihot.news/items/naql5xzzrykngxhvhd6vin5yn",
+    "source": "Redwood Research：Blog（RSS）",
+    "publishedAt": "2026-11-16T17:21:38.000Z",
+    "summary": "Redwood Research 发文批评 Google DeepMind 的 Gemini 4 Argon 与 Carbon 安全报告，认为其基于控制措施的安全论证存在严重弱点，不足以证明部署风险已可靠缓解。"
+   },
+   {
+    "kind": "news",
+    "title": "Databricks 推出 AI Index：追踪企业级 AI 采用与 token 成本",
+    "url": "https://aihot.news/items/ctdbuq2r9l6dakhxrm4pmd8ru",
+    "source": "Databricks：Blog（RSS）",
+    "publishedAt": "2026-11-16T17:00:00.000Z",
+    "summary": "Databricks 推出 AI Index，将 Unity Gateway 上 10,000+ 家企业的匿名用量数据与基于私有代码库的编码 Agent 评测结合，每周更新并首次公开其内部评测套件。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Microsoft Research 发布开源插件 TokenEconomizer，借仓库历史经验为 AI 编码 Agent 降本 18.4–30.9%",
+    "url": "https://aihot.news/items/ub0r10tgaq7g5nnq01ciz9d17",
+    "source": "Microsoft Research 博客（RSS）",
+    "publishedAt": "2026-11-16T17:01:35.000Z",
+    "summary": "UC Berkeley、Microsoft Research 与 Microsoft Security 发布开源插件 TokenEconomizer，从 Agent 在同一仓库的历史会话中学习，在不修改 Agent 或底层模型的情况下降低后续会话成本。"
+   },
+   {
+    "kind": "news",
+    "title": "Google 发布 Gemini 4 Carbon 与 Hydrogen，并推出 Decisions API 和自托管 agent 沙箱",
+    "url": "https://aihot.news/items/n3qi466u1gbxj2i8q7g5snhr0",
+    "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+    "publishedAt": "2026-11-16T15:57:52.000Z",
+    "summary": "Google 发布 Gemini 4 Carbon（gemini-4-carbon，1M 共享 token 池，11 月 30 日前 $2.00/$10.00 每 1M tokens。"
+   },
+   {
+    "kind": "news",
+    "title": "METR 测量模型对对齐评测的识别能力：调查型智能体能区分对齐与能力评测",
+    "url": "https://aihot.news/items/m4emm1ej7qzex1k77a7mfaztd",
+    "source": "METR：Notes（网页）",
+    "publishedAt": "2026-11-15T16:00:00.000Z",
+    "summary": "METR 发布研究笔记，用调查型智能体在 19 个对齐评测和 36 个能力评测中探测环境，测量模型能否识别自己处于对齐评测。结果显示智能体区分两类评测的能力在过去一年持续提升，Opus 5.5 在其数据集上把所有对齐评测排在所有能力评测之上。模型识别依据包括环境看起来像模拟的蜜罐等线索，作者将对齐线索分为环境级和任务级两类，并提出可借此迭代改进对齐评测设计。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 研究：模型生命周期中哪些因素影响 CoT 可监控性",
+    "url": "https://aihot.news/items/uif827ayipylunwlh7gejgcbo",
+    "source": "OpenAI：Alignment 研究博客（RSS）",
+    "publishedAt": "2026-11-10T08:00:00.000Z",
+    "summary": "OpenAI 发布研究，分析预训练、架构、强化学习和模型生成数据如何影响思维链（CoT）可监控性。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "Berkeley RDI 等发布 CyberArena：让 AI 智能体在实时网络攻防对抗中互测",
+    "url": "https://aihot.news/items/hd2dsmdxwk6jai8kgmucpqeib",
+    "source": "Berkeley RDI：Blog（AI 安全与评测）",
+    "publishedAt": "2026-11-13T00:00:00.000Z",
+    "summary": "Berkeley RDI 联合多所高校发布 CyberArena 基准，让两个 AI 智能体在 CTF 攻防赛制中同时攻击对手服务并修补自己的服务，每局结果由场地验证。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "MinimaLabs/KLM-1.6",
+    "url": "https://hf-mirror.com/MinimaLabs/KLM-1.6",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 143,
+    "downloads": 1948,
+    "createdAt": "2026-11-09",
+    "intro": "KLM 1.6 是一款 9900 万参数的基础语言模型，它从 KLM 1.5 在衰减阶段之前的一个检查点继续训练"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "getarcaneapp/arcane",
+   "url": "https://github.com/getarcaneapp/arcane",
+   "lang": "Go",
+   "stars": "8,936",
+   "desc": "现代Docker管理，专为所有人设计"
+  },
+  {
+   "repo": "DeanChensj/jiangshan-map",
+   "url": "https://github.com/DeanChensj/jiangshan-map",
+   "lang": "JavaScript",
+   "stars": "7,343",
+   "desc": "江山时序 · 中国历史交互地图时间轴（公元前403年– 至今）| 跨越18个朝代、198个领土快照、从古代到现代的地名谱系和古典诗歌路线的中国历史交互地图集"
+  },
+  {
+   "repo": "mvanhorn/last30days-skill",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "lang": "Python",
+   "stars": "68,395",
+   "desc": "一种 AI 智能体技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后综合生成有事实依据的摘要"
+  },
+  {
+   "repo": "google-research/paper-orchestra",
+   "url": "https://github.com/google-research/paper-orchestra",
+   "lang": "Python",
+   "stars": "1,882",
+   "desc": "PaperOrchestra 是一个用于自动撰写人工智能研究论文的多智能体框架"
+  },
+  {
+   "repo": "sveltejs/svelte",
+   "url": "https://github.com/sveltejs/svelte",
+   "lang": "JavaScript",
+   "stars": "89,128",
+   "desc": "面向普通大众的网页开发"
+  },
+  {
+   "repo": "Minireel/HGhub",
+   "url": "https://github.com/Minireel/HGhub",
+   "lang": "Rust",
+   "stars": "9,646",
+   "desc": "插件式媒体播放器"
+  },
+  {
+   "repo": "valentderah/totk-pc-recomp",
+   "url": "https://github.com/valentderah/totk-pc-recomp",
+   "lang": "C",
+   "stars": "7,543",
+   "desc": "使用Vulkan渲染器将《塞尔达传说：王国之泪》静态重新编译为本机Windows和Linux x86-64"
+  },
+  {
+   "repo": "RoutineMiku/apkstart",
+   "url": "https://github.com/RoutineMiku/apkstart",
+   "lang": "JavaScript",
+   "stars": "6,896",
+   "desc": "Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时"
+  },
+  {
+   "repo": "simbasjungles/free-my-tv",
+   "url": "https://github.com/simbasjungles/free-my-tv",
+   "lang": "Java",
+   "stars": "6,464",
+   "desc": "适用于Google TV、LG webOS和Samsung Tizen的快速无广告主屏幕"
+  },
+  {
+   "repo": "vercel-labs/ui",
+   "url": "https://github.com/vercel-labs/ui",
+   "lang": "TypeScript",
+   "stars": "5,379",
+   "desc": "一个用于代理构建下一代用户界面的行为库"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "dgtlmoon/changedetection.io",
+   "url": "https://github.com/dgtlmoon/changedetection.io",
+   "lang": "Python",
+   "stars": "35,855",
+   "desc": "用于网站变更检测、网页监控和网站变更提醒的最佳且最简单的工具",
+   "en": false
+  },
+  {
+   "repo": "bregman-arie/devops-exercises",
+   "url": "https://github.com/bregman-arie/devops-exercises",
+   "lang": "Python",
+   "stars": "86,870",
+   "desc": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
+   "en": false
+  },
+  {
+   "repo": "macrozheng/mall",
+   "url": "https://github.com/macrozheng/mall",
+   "lang": "Java",
+   "stars": "85,054",
+   "desc": "mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署",
+   "en": false
+  },
+  {
+   "repo": "netdata/netdata",
+   "url": "https://github.com/netdata/netdata",
+   "lang": "Go",
+   "stars": "81,444",
+   "desc": "实现人工智能驱动的全栈可观测性的最快途径，即使对于精益团队也是如此",
+   "en": false
+  },
+  {
+   "repo": "moby/moby",
+   "url": "https://github.com/moby/moby",
+   "lang": "Go",
+   "stars": "72,270",
+   "desc": "Moby项目-容器生态系统的协作项目，用于组装基于容器的系统",
+   "en": false
+  },
+  {
+   "repo": "dani-garcia/vaultwarden",
+   "url": "https://github.com/dani-garcia/vaultwarden",
+   "lang": "Rust",
+   "stars": "70,870",
+   "desc": "用Rust编写的非官方Bitwarden兼容服务器，以前称为bitwarden_rs",
+   "en": false
+  },
+  {
+   "repo": "traefik/traefik",
+   "url": "https://github.com/traefik/traefik",
+   "lang": "Go",
+   "stars": "65,571",
+   "desc": "云原生应用程序代理",
+   "en": false
+  },
+  {
+   "repo": "sansan0/TrendRadar",
+   "url": "https://github.com/sansan0/TrendRadar",
+   "lang": "Python",
+   "stars": "63,681",
+   "desc": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 3976.46,
+   "chg": -0.08,
+   "pe": 13.43,
+   "pe_pct": 66,
+   "pb": 1.33,
+   "pb_pct": 19,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6283.01,
+   "chg": -0.23,
+   "pe": 26.78,
+   "pe_pct": 56,
+   "pb": 1.96,
+   "pb_pct": 52,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2292.2,
+   "chg": -1.2,
+   "pe": 26.38,
+   "pe_pct": 4,
+   "pb": 3.71,
+   "pb_pct": 13,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1221.19,
+   "chg": 0.62,
+   "pe": 88.52,
+   "pe_pct": 73,
+   "pb": 5.96,
+   "pb_pct": 56,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5568.61,
+   "chg": -0.37,
+   "pe": 9.28,
+   "pe_pct": 89,
+   "pb": 0.9,
+   "pb_pct": 61,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11569.5,
+   "chg": 0.06,
+   "pe": 9.28,
+   "pe_pct": 80,
+   "pb": 0.93,
+   "pb_pct": 69,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 23545.14,
+   "chg": -0.88,
+   "pe": 10.86,
+   "pe_pct": 56,
+   "pb": 1.09,
+   "pb_pct": 47,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 24509.76,
+   "chg": -2.49,
+   "pe": 26.17,
+   "pe_pct": 21,
+   "pb": 8.01,
+   "pb_pct": 57,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7416.59,
+   "chg": -1.92,
+   "pe": 23.14,
+   "pe_pct": 28,
+   "pb": 5.18,
+   "pb_pct": 86,
+   "pe_level": "低估",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "银行Ⅱ",
+    "chg": 0.14
+   },
+   {
+    "name": "保险Ⅱ",
+    "chg": 0.1
+   },
+   {
+    "name": "化学纤维",
+    "chg": -0.16
+   },
+   {
+    "name": "航运港口",
+    "chg": -0.19
+   },
+   {
+    "name": "化学制品",
+    "chg": -0.2
+   },
+   {
+    "name": "航空机场",
+    "chg": -0.2
+   }
+  ],
+  "dn": [
+   {
+    "name": "传媒",
+    "chg": -6.24
+   },
+   {
+    "name": "煤炭",
+    "chg": -2.79
+   },
+   {
+    "name": "一般零售",
+    "chg": -2.76
+   },
+   {
+    "name": "汽车零部件",
+    "chg": -2.69
+   },
+   {
+    "name": "元件",
+    "chg": -2.64
+   },
+   {
+    "name": "仪器仪表",
+    "chg": -2.62
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+0.60%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 7.8814（2026-11-16）（≈ 788 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.8694",
+   "date": "2026-11-13"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.6331",
+   "date": "2026-11-13"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.4712",
+   "date": "2026-11-13"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.0794",
+   "date": "2026-11-13"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6293",
+   "date": "2026-11-16"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8147",
+   "date": "2026-11-13"
+  }
+ ],
+ "macro": [
+  {
+   "title": "央行开展7140亿隔夜逆回购操作！红利低波ETF华泰柏瑞（512890）日成交额16.20亿领跑同类",
+   "ctime": "1794901971",
+   "url": "https://finance.sina.com.cn/money/fund/original/2026-11-17/doc-iniyzswf2172835.shtml"
+  },
+  {
+   "title": "美联储警示韩国投资者杠杆ETF风险",
+   "ctime": "1794899815",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-iniyznqc1812133.shtml"
+  },
+  {
+   "title": "英伟达Vera CPU机架级平台发布：搭载首款自研数据中心CPU 攻坚高性能科学仿真",
+   "ctime": "1794902410",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-iniyzswf7598975.shtml"
+  },
+  {
+   "title": "加拿大通胀走弱叠加油价下行，美元兑加元多头延续",
+   "ctime": "1794900420",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-17/doc-iniyzsvz1691245.shtml"
+  },
+  {
+   "title": "外交部批美国经济胁迫：典型的“长臂管辖”",
+   "ctime": "1794900008",
+   "url": "https://finance.sina.com.cn/china/2026-11-17/doc-iniyzswc5371239.shtml"
+  },
+  {
+   "title": "A股五大资金正在集结！",
+   "ctime": "1794899425",
+   "url": "https://finance.sina.com.cn/stock/bxjj/2026-11-17/doc-iniyznqi7691225.shtml"
+  },
+  {
+   "title": "谷歌卡兰·巴蒂亚：当下世界正在进入“AI驱动的经济”",
+   "ctime": "1794899301",
+   "url": "https://finance.sina.com.cn/hy/hyjz/2026-11-17/doc-iniyznqi2258856.shtml"
+  },
+  {
+   "title": "韩国有望本周首次实现年度出口额1万亿美元里程碑",
+   "ctime": "1794898810",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-iniyznqf5474459.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 4,
+   "pe": 26.3822,
+   "pb_pct": 13,
+   "pb": 3.7093
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 21,
+   "pe": 26.1722,
+   "pb_pct": 57,
+   "pb": 8.0123
+  }
+ ]
+}
