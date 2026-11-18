@@ -1,0 +1,532 @@
+{
+ "date": "2026-11-18",
+ "weekday": "三",
+ "val_date": "11-17",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "OpenAI Codex 团队成员解释 6.2 Sol/Astra 评测视频与现场反馈的差异",
+    "url": "https://aihot.news/items/sah26a5ofgvrxd76bgj9t77wf",
+    "source": "X：Tibo (@thsottiaux)",
+    "publishedAt": "2026-11-18T05:47:21.000Z",
+    "summary": "Tibo 解释 6.2 Sol/Astra 上评测视频与现场人群反馈氛围不同的原因：部分人较早获得访问权限，而团队在过去 3-4 天做了大量改动，视频是上周制作的，之后大概率没有重新测试。他称这两个模型相比 GPT 前代有明显提升，但仍不完美，团队希望在后续迭代的品味和使用体验上改进，并表示欢迎反馈。"
+   },
+   {
+    "kind": "news",
+    "title": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务",
+    "url": "https://aihot.news/items/znj4uw6kr9vt4uij9fmao9p00",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-11-18T05:30:49.000Z",
+    "summary": "Nvidia 临时 CEO Colette Kress 在 Jim Cramer 的节目上表示，董事会已决定不会恢复黄仁勋（Jensen）的 CEO 职务，称这就是董事会的决定和官方声明。此前董事 Harvey Jones 在昨天的首次财报电话会上表示，董事会一致接受其辞职且无意让其复任。完整采访见 CNBC Mad Money，完整视频见 CNBC Television YouTube 频道。"
+   },
+   {
+    "kind": "news",
+    "title": "Semafor：部分 Nvidia 董事仍推动让黄仁勋回归，尽管董事长否认",
+    "url": "https://aihot.news/items/ad6k5zphfq44bxu1y7tb8t0ng",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-11-18T05:19:46.000Z",
+    "summary": "Semafor 报道称，尽管 Nvidia 董事长 Harvey Jones 表示董事会一致接受黄仁勋的辞职且无意让他复任 CEO，部分董事仍在推动其回归。黄仁勋在周二财报发布前与至少 1 名董事讨论过回归事宜；该投票仅针对辞职本身，Nvidia 章程允许剩余 10 名董事以简单多数任命 CEO 而无需股东投票。另有董事将人选范围缩小至 Arm CEO Rene Haas 和 Marvell CEO Matt Murphy 等候选人。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 拟将 IPO 定价上调至 $80 以上，估值或达 $1.6T",
+    "url": "https://aihot.news/items/hpczcbqe8agr7jffko2cnsp31",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-11-18T00:15:01.000Z",
+    "summary": "据 WSJ，Anthropic 预计将 IPO 定价上调至 $70 至 $78 区间之上，可能超过 $80 一股，其顾问已讨论 $1.5T 或 $1.6T 的估值，高于此前约 $1.33T。按申报区间计算，IPO 规模约 $61B，另有 $26B 私募配售，其中 Google 和 Nvidia 各以 IPO 价格认购约 $10B。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 获准在纳斯达克上市，代码 ANT，发行价每股 70~78 美元",
+    "url": "https://aihot.news/items/cxpq4gwitsj6r05zjpphx9agc",
+    "source": "IT之家·人工智能",
+    "publishedAt": "2026-11-18T00:12:10.273Z",
+    "summary": "根据 SEC 11 月 17 日公示的文件，Anthropic 的 A 类普通股获准在纳斯达克全球精选市场上市，代码 ANT，发行价区间维持每股 70 至 78 美元。"
+   },
+   {
+    "kind": "news",
+    "title": "Nvidia 宣布停售 H200 芯片至中国，并设立董事会级国家安全委员会",
+    "url": "https://aihot.news/items/ulwhtxvx986i1rjdkk2mxgzdl",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-11-17T23:37:48.000Z",
+    "summary": "代理 CEO Colette Kress 周二表示，Nvidia 将不再在中国销售 H200 芯片，结束此前由 Jensen Huang 与特朗普斡旋、需经美国境内并缴纳 25% 关税的出口通道。"
+   },
+   {
+    "kind": "news",
+    "title": "Gemini 4 Hydrogen 全面上线 Google Search",
+    "url": "https://aihot.news/items/vxcsjujkrvgpqxl56xkjgdfqf",
+    "source": "X：Google (@Google)",
+    "publishedAt": "2026-11-17T22:35:20.000Z",
+    "summary": "Google 宣布 Gemini 4 Hydrogen 已在全球范围的 Google Search 中上线，称为 Search 迄今最大的一次模型升级。升级包括更好地理解用户意图、更智能的 query fan-out 与链接、更可视化自适应的回复，以及更强的多语言能力。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "腾讯混元 Hy4 flash 开放权重，含 FP8 与 Base 版本",
+    "url": "https://aihot.news/items/ei7hom06r7wgtedvkl2eqbofp",
+    "source": "X：腾讯混元 (@TencentHunyuan)",
+    "publishedAt": "2026-11-18T04:39:34.000Z",
+    "summary": "腾讯混元宣布 Hy4 flash 开放权重，包含 Hy4 flash-FP8 和 Hy4 flash-Base 两个版本。模型为 224B 参数（激活 12B），支持 1M 上下文，原生多模态，定位高效日常生产力场景。模型以 Tencent Hy License 发布，可在 Hugging Face（huggingface.co/tencent/Hy4-flash）和 GitHub（github.com/Tencent-Hunyuan/Hy4-flash）获取，官方预告 Hy4 即将推出。"
+   },
+   {
+    "kind": "news",
+    "title": "深度实测GPT-6.2 Astra：极致省钱但偏科严重，沟通可读性依旧拉胯",
+    "url": "https://aihot.news/items/n125mhueen4ul4elntsa1kk1v",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-11-17T22:36:45.000Z",
+    "summary": "OpenAI 发布 GPT-6.2 Astra 与 Sol，已同步上线 ChatGPT、Codex 和 API。"
+   },
+   {
+    "kind": "news",
+    "title": "Microsoft AI 发布首个语音到语音模型 MAI Realtime 1，定价 $0.01 每音频分钟",
+    "url": "https://aihot.news/items/eewx1bbnzfmbj6r40v7b6s6nb",
+    "source": "Microsoft AI：官方博客（RSS）",
+    "publishedAt": "2026-11-17T18:16:17.000Z",
+    "summary": "Microsoft AI 发布首个语音到语音模型 MAI Realtime 1，起价 $0.01 每音频分钟，称在公开基准和内部评测中质量、速度和价格均优于 GPT Realtime 2.1，处于 Big Bench Audio 语音推理和 τ-Voice 智能体任务完成基准的性能价格 Pareto 前沿。"
+   },
+   {
+    "kind": "news",
+    "title": "Microsoft MAI 发布七个新模型，主打价格性能比",
+    "url": "https://aihot.news/items/z9zhvfj8o8zp2yp433eizf3uk",
+    "source": "Microsoft AI：官方博客（RSS）",
+    "publishedAt": "2026-11-17T18:16:05.000Z",
+    "summary": "Microsoft MAI 在 Ignite 2026 发布七个新模型，涵盖网络安全防御、编码、图像、实时语音、转录与决策路由。"
+   }
+  ],
+  "1.3 大模型测评": [
+   {
+    "kind": "news",
+    "title": "Perplexity 上线 GPT-6.2 Astra 和 GPT-6.2 Sol，并公布 WANDR 基准成绩",
+    "url": "https://aihot.news/items/zy931jr86bk2nk5cv8ww6seah",
+    "source": "X：Perplexity (@perplexity_ai)",
+    "publishedAt": "2026-11-17T22:10:02.000Z",
+    "summary": "Perplexity 宣布 GPT-6.2 Astra 和 GPT-6.2 Sol 已在 Perplexity Search 和 Computer 中可用。在其 WANDR 基准上，GPT-6.2 Astra 得分 0.783、单任务约 $12.54，较 GPT-6 Astra 提升 0.095；GPT-6.2 Sol 得分 0.746、约 $2.65，较 GPT-6.1 Sol 提升 0.065。"
+   }
+  ],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "LiquidAI/LFM3-1.7B",
+    "url": "https://hf-mirror.com/LiquidAI/LFM3-1.7B",
+    "license": "other",
+    "param": "1.7B",
+    "likes": 1920,
+    "downloads": 109972,
+    "createdAt": "2026-10-23",
+    "intro": "LFM3-1.7B是基于我们新的三混合架构的本地代理和专业应用程序的文本模型"
+   },
+   {
+    "kind": "model",
+    "id": "sensenova/SenseNova-Loop-9B",
+    "url": "https://hf-mirror.com/sensenova/SenseNova-Loop-9B",
+    "license": "apache-2.0",
+    "param": "9B",
+    "likes": 248,
+    "downloads": 0,
+    "createdAt": "2026-11-17",
+    "intro": "文本生成类开源模型 · 许可证 apache-2.0 · 参数规模 9B · 近 7 天点赞 248 · 下载 0"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "lang": "TypeScript",
+   "stars": "16,997",
+   "desc": "Cursor 插件规范和官方插件"
+  },
+  {
+   "repo": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "lang": "Shell",
+   "stars": "319,559",
+   "desc": "有效的智能体技能框架和软件开发方法"
+  },
+  {
+   "repo": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "lang": "JavaScript",
+   "stars": "305,850",
+   "desc": "智能体框架性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发"
+  },
+  {
+   "repo": "jingyaogong/minimind",
+   "url": "https://github.com/jingyaogong/minimind",
+   "lang": "Python",
+   "stars": "66,275",
+   "desc": "🧠 仅需 2 小时即可从零开始训练一个 6400 万参数的大语言模型"
+  },
+  {
+   "repo": "ccch1mneyyy/dsh-Go",
+   "url": "https://github.com/ccch1mneyyy/dsh-Go",
+   "lang": "Dart",
+   "stars": "26,458",
+   "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑"
+  },
+  {
+   "repo": "heydamir/unslop",
+   "url": "https://github.com/heydamir/unslop",
+   "lang": "JavaScript",
+   "stars": "17,936",
+   "desc": "一种克劳德技能，将振动编码的人工智能外观用户界面转变为设计界面"
+  },
+  {
+   "repo": "pengchujin/aerial-tv",
+   "url": "https://github.com/pengchujin/aerial-tv",
+   "lang": "Kotlin",
+   "stars": "12,384",
+   "desc": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面没有广告，面向开机自动接管"
+  },
+  {
+   "repo": "wangzan101/Mika",
+   "url": "https://github.com/wangzan101/Mika",
+   "lang": "Kotlin",
+   "stars": "9,005",
+   "desc": "适用于Android的设备上AI代理，可运行应用程序和网络，为您完成任务"
+  },
+  {
+   "repo": "huami-dev/GestaltX",
+   "url": "https://github.com/huami-dev/GestaltX",
+   "lang": "Swift",
+   "stars": "8,206",
+   "desc": "适用于 iOS 27.x 的 MobileGestalt 编辑器，具备区域代码调整、设备预设、备份等功能"
+  },
+  {
+   "repo": "interplains/Zero-Breach-Toolkit",
+   "url": "https://github.com/interplains/Zero-Breach-Toolkit",
+   "lang": "Python",
+   "stars": "5,200",
+   "desc": "免费的离线扫描，可检测 Windows、Mac、Linux、iPhone 和 Android 设备上已知的商业间谍软件，以及未关闭的端口、可疑链接、电子邮件、文件和二维码、您的账户、家庭网络和"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "makeplane/plane",
+   "url": "https://github.com/makeplane/plane",
+   "lang": "TypeScript",
+   "stars": "62,661",
+   "desc": "🔥🔥🔥 开源JIRA、Linear、Monday和ClickUp替代方案",
+   "en": false
+  },
+  {
+   "repo": "wagoodman/dive",
+   "url": "https://github.com/wagoodman/dive",
+   "lang": "Go",
+   "stars": "54,732",
+   "desc": "用于探索Docker镜像中每个图层的工具",
+   "en": false
+  },
+  {
+   "repo": "dockur/windows",
+   "url": "https://github.com/dockur/windows",
+   "lang": "Shell",
+   "stars": "54,220",
+   "desc": "Docker容器中的Windows",
+   "en": false
+  },
+  {
+   "repo": "sickcodes/Docker-OSX",
+   "url": "https://github.com/sickcodes/Docker-OSX",
+   "lang": "Shell",
+   "stars": "53,012",
+   "desc": "在Docker中运行macOS虚拟机",
+   "en": false
+  },
+  {
+   "repo": "mastodon/mastodon",
+   "url": "https://github.com/mastodon/mastodon",
+   "lang": "Ruby",
+   "stars": "50,685",
+   "desc": "您的自托管、全球互联的微博社区",
+   "en": false
+  },
+  {
+   "repo": "DataTalksClub/data-engineering-zoomcamp",
+   "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+   "lang": "Jupyter Notebook",
+   "stars": "46,956",
+   "desc": "Data Engineering Zoomcamp是一门为期9周的关于构建生产就绪数据管道的免费课程",
+   "en": false
+  },
+  {
+   "repo": "LeCoupa/awesome-cheatsheets",
+   "url": "https://github.com/LeCoupa/awesome-cheatsheets",
+   "lang": "JavaScript",
+   "stars": "46,680",
+   "desc": "热门编程语言、框架和开发工具的👩‍💻👨‍💻精彩备忘单",
+   "en": false
+  },
+  {
+   "repo": "fastapi/full-stack-fastapi-template",
+   "url": "https://github.com/fastapi/full-stack-fastapi-template",
+   "lang": "TypeScript",
+   "stars": "46,281",
+   "desc": "Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, FastAPI Cloud, and Docker Compose.",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 3983.77,
+   "chg": 0.18,
+   "pe": 13.43,
+   "pe_pct": 66,
+   "pb": 1.33,
+   "pb_pct": 19,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6282.22,
+   "chg": -0.01,
+   "pe": 26.75,
+   "pe_pct": 55,
+   "pb": 1.96,
+   "pb_pct": 52,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2311.62,
+   "chg": 0.85,
+   "pe": 26.09,
+   "pe_pct": 4,
+   "pb": 3.67,
+   "pb_pct": 12,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1247.99,
+   "chg": 2.19,
+   "pe": 89.81,
+   "pe_pct": 74,
+   "pb": 6.05,
+   "pb_pct": 57,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5573.61,
+   "chg": 0.09,
+   "pe": 9.27,
+   "pe_pct": 88,
+   "pb": 0.9,
+   "pb_pct": 61,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11603.27,
+   "chg": 0.29,
+   "pe": 9.29,
+   "pe_pct": 80,
+   "pb": 0.93,
+   "pb_pct": 69,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 23275.22,
+   "chg": -0.99,
+   "pe": 10.76,
+   "pe_pct": 54,
+   "pb": 1.08,
+   "pb_pct": 45,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 24328.38,
+   "chg": -0.74,
+   "pe": 25.49,
+   "pe_pct": 15,
+   "pb": 7.91,
+   "pb_pct": 55,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7340.53,
+   "chg": -1.03,
+   "pe": 22.65,
+   "pe_pct": 23,
+   "pb": 5.11,
+   "pb_pct": 84,
+   "pe_level": "低估",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "元件",
+    "chg": 2.46
+   },
+   {
+    "name": "航运港口",
+    "chg": 1.0
+   },
+   {
+    "name": "通信设备",
+    "chg": 0.89
+   },
+   {
+    "name": "保险Ⅱ",
+    "chg": 0.28
+   },
+   {
+    "name": "玻璃玻纤",
+    "chg": 0.26
+   },
+   {
+    "name": "铁路公路",
+    "chg": 0.23
+   }
+  ],
+  "dn": [
+   {
+    "name": "医疗服务",
+    "chg": -3.19
+   },
+   {
+    "name": "一般零售",
+    "chg": -3.13
+   },
+   {
+    "name": "传媒",
+    "chg": -3.05
+   },
+   {
+    "name": "贸易Ⅱ",
+    "chg": -2.06
+   },
+   {
+    "name": "化学纤维",
+    "chg": -2.03
+   },
+   {
+    "name": "家居用品",
+    "chg": -1.96
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-2.34%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 7.9098（2026-11-17）（≈ 791 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.7091",
+   "date": "2026-11-16"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.4253",
+   "date": "2026-11-16"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.3712",
+   "date": "2026-11-16"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "3.0230",
+   "date": "2026-11-16"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6223",
+   "date": "2026-11-17"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.8132",
+   "date": "2026-11-16"
+  }
+ ],
+ "macro": [
+  {
+   "title": "印尼央行意外加息25个基点以支撑印尼盾",
+   "ctime": "1794987388",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizcvuz1086516.shtml"
+  },
+  {
+   "title": "黄金价格跌破每盎司3800美元 美联储官员暗示进一步加息",
+   "ctime": "1794985757",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizcvvc4837681.shtml"
+  },
+  {
+   "title": "美联储鹰派预期支撑美元叠加干预风险，美元兑日元徘徊于160下方",
+   "ctime": "1794985560",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-18/doc-inizcvuz1066692.shtml"
+  },
+  {
+   "title": "今日黄金：跌破3800美元，美联储加息预期升温加剧抛售压力",
+   "ctime": "1794983514",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizcvvc4808944.shtml"
+  },
+  {
+   "title": "英国10月通胀率升至3.6%，柴油价格创历史新高",
+   "ctime": "1794987137",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizcvvf6966210.shtml"
+  },
+  {
+   "title": "英国10月通胀率升至3.6% 符合预期",
+   "ctime": "1794986853",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizcvvf1629390.shtml"
+  },
+  {
+   "title": "避险情绪升温+加息风险提前计价 10年期美债连续三日上涨",
+   "ctime": "1794985365",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-18/doc-inizcvvf6946836.shtml"
+  },
+  {
+   "title": "光大期货1118黄金点评：利率高压，黄金反弹条件尚不具备",
+   "ctime": "1794983192",
+   "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-18/doc-inizcvvc4805853.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 4,
+   "pe": 26.0908,
+   "pb_pct": 12,
+   "pb": 3.6683
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 15,
+   "pe": 25.4871,
+   "pb_pct": 55,
+   "pb": 7.9078
+  }
+ ]
+}
