@@ -1,0 +1,534 @@
+{
+ "date": "2026-11-19",
+ "weekday": "四",
+ "val_date": "11-18",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "彭博社：黄仁勋离任英伟达 CEO 后日本 AI 股首当其冲",
+    "url": "https://aihot.news/items/gpufpm2kxcsxrewhivsjviz3a",
+    "source": "IT之家·人工智能",
+    "publishedAt": "2026-11-19T04:49:53.110Z",
+    "summary": "彭博社 11 月 19 日报道称，英伟达管理层变动及黄仁勋离任引发全球 AI 概念股新一轮抛售，日本相关股票首当其冲，市场风向从“AI 溢价”转向“AI 折价”。"
+   },
+   {
+    "kind": "news",
+    "title": "Nadella 解释向 6 万员工提供买断的原因：转型为 AI 优先的组织而非裁员",
+    "url": "https://aihot.news/items/g47lsydtqfsi16e0z920ghe2y",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-11-19T00:42:56.000Z",
+    "summary": "Microsoft CEO Satya Nadella 在 DealBook Summit 上解释，10 月向 6 万名员工提供买断是为了让员工在转型中拥有选择权，而非用 AI 取代员工，目标是让所有人都用 AI 工作、转向管理 AI 智能体。"
+   },
+   {
+    "kind": "news",
+    "title": "黄仁勋相关传闻核查：美商务部与司法部就Megaspeed发联合声明，未认定违规芯片销售",
+    "url": "https://aihot.news/items/abxhv94f3gcq1qb9mzdf7yma3",
+    "source": "X：X.PIN (@thexpin)",
+    "publishedAt": "2026-11-18T23:41:28.000Z",
+    "summary": "围绕英伟达前高管黄仁勋及AI芯片转运传闻，美国商务部与司法部就Megaspeed发布联合声明，未认定存在违规芯片销售，也未将该公司列入实体清单；英伟达此前已主动切断对Megaspeed的供应。相关声明未提及间谍行为，新加坡内政部亦表示未就间谍问题调查该公司负责人。"
+   },
+   {
+    "kind": "news",
+    "title": "微软CEO纳德拉就英伟达CEO变动表态：仍对英伟达团队有信心",
+    "url": "https://aihot.news/items/uaupvkzwpndnn2zg1b50zv9v7",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-11-18T23:17:28.000Z",
+    "summary": "英伟达CEO黄仁勋在任职33年后于上周卸任，微软CEO萨提亚·纳德拉在纽约时报DealBook峰会上表示此事令人惋惜，并称仍对英伟达及其临时CEO科莱特·克雷斯带领的团队充满信心。纳德拉提到克雷斯曾在微软长期工作，自己与她相识已久。"
+   },
+   {
+    "kind": "news",
+    "title": "Google DeepMind 的 Gemini 4 Neon 上线 OpenRouter",
+    "url": "https://aihot.news/items/k821p6smjnprmolffcr66q1mz",
+    "source": "X：OpenRouter (@OpenRouter)",
+    "publishedAt": "2026-11-18T21:42:43.000Z",
+    "summary": "OpenRouter 宣布 Google DeepMind 的 Gemini 4 Neon 正式上线其平台，可通过 Google Cloud 使用。该模型面向复杂软件工程、知识工作和科学场景，定位介于 Carbon 与 Hydrogen 之间。Google 称其在 Artificial Analysis Coding Agent Index 排名第一，每任务成本比 Carbon 低 32%。"
+   },
+   {
+    "kind": "news",
+    "title": "Palmer Luckey 就 Nvidia CEO 人事变动发表看法",
+    "url": "https://aihot.news/items/isjju2oyoxg3d9v6k4eyt32fi",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-11-18T21:31:21.000Z",
+    "summary": "TechCrunch 报道，Anduril CEO Palmer Luckey 在纽约时报 DealBook Summit 上就 Nvidia 领导层变动发表看法，认为相关变动可能影响美国产业竞争力，并呼吁 Nvidia 恢复创始人黄仁勋的 CEO 职位。报道称，已有超过 20 万人联署请愿，包括马斯克及多家科技公司 CEO；Nvidia 临时 CEO Colette Kress 在财报电话会上表示，公司暂无重新任命黄仁勋的计划。"
+   },
+   {
+    "kind": "news",
+    "title": "Meta 员工内部聊天显示对 Muse 智能体隐私风险的担忧",
+    "url": "https://aihot.news/items/i24hiy236uc3ynswh26pw7s0h",
+    "source": "Ars Technica：AI（RSS）",
+    "publishedAt": "2026-11-18T19:19:33.000Z",
+    "summary": "Reuters 披露的内部聊天显示，Meta 员工在测试 Muse 智能体时发现它似乎访问了加密私信、可能混淆用户对话，甚至输出他人银行账户余额等内容；有员工称测试中被误注册每月 888 美元的宠物保险且无法挽回。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "OpenAI 团队成员 Tibo 评价 GPT-6.2 Astra 并转引 AMD 与 Jalapeño 芯片优化结果",
+    "url": "https://aihot.news/items/bnqsw7ispucfily4bdq9vz33j",
+    "source": "X：Tibo (@thsottiaux)",
+    "publishedAt": "2026-11-18T22:03:01.000Z",
+    "summary": "OpenAI 成员 Tibo 转引团队结果并评价 GPT-6.2 Astra 擅长极难任务，同时承认收到对其沟通风格的反馈并正在改进。所引内容称与 AMD 合作在不到五个月内将旗舰 GPU IP 的 PPA 提升最高 14%，同样方法改进了 OpenAI 首款自研推理芯片 Jalapeño 且在真实硅片上验证，并与 Synopsys 合作把模型能力接入其 EDA 设计和验证工具，详情见 https://openai.com/index/advancing-chip-design-with-our-models/"
+   },
+   {
+    "kind": "news",
+    "title": "Gemini 4 Neon 向 Google AI Pro 和 Ultra 订阅用户开放",
+    "url": "https://aihot.news/items/dpmse0g0euqubtr0704x8bqvw",
+    "source": "X：Gemini (@GeminiApp)",
+    "publishedAt": "2026-11-18T21:37:20.000Z",
+    "summary": "Google 宣布即日起 Gemini 4 Neon 向 Google AI Pro 和 Ultra 订阅用户开放，覆盖移动端、桌面端和网页端。官方称该模型擅长需要前沿级推理和快速响应的工作。"
+   },
+   {
+    "kind": "news",
+    "title": "Google DeepMind 发布 Gemini 4 Neon",
+    "url": "https://aihot.news/items/lp0snt9lfrx5ju7mg3wma6hnw",
+    "source": "Google DeepMind：Blog（RSS）",
+    "publishedAt": "2026-11-18T21:35:43.000Z",
+    "summary": "Google DeepMind 发布 Gemini 4 Neon，主打前沿智能与快速端到端任务完成，覆盖软件工程、知识工作和科学工作流。模型在 Artificial Analysis Intelligence Index 得 61 分排第 3，Vals Index 排第 2，Agent Arena Index 以 1336 分全球第 2。"
+   },
+   {
+    "kind": "news",
+    "title": "Vals AI 评测：Anthropic、OpenAI 和 Google 模型易将医护人员与投降士兵标记为自杀式无人机目标",
+    "url": "https://aihot.news/items/yf91syits6gqn8qvtksix0kdj",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-11-18T15:47:49.000Z",
+    "summary": "独立评测机构 Vals AI 测试八家厂商模型后发现，主流大模型几乎缺乏针对自主武器的防护，多数模型会把平民、救护车、医护人员、记者和投降士兵标记为军事目标，且没有任何请求被上游安全过滤器拦截。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "moonshotai/Kimi-K3.1-Pro",
+    "url": "https://hf-mirror.com/moonshotai/Kimi-K3.1-Pro",
+    "license": "other",
+    "param": "",
+    "likes": 2246,
+    "downloads": 56970,
+    "createdAt": "2026-11-02",
+    "intro": "Kimi K3.1 Pro是一款开放式、原生多式联运代理模型，也是我们迄今为止最强大的3T级模型"
+   },
+   {
+    "kind": "model",
+    "id": "RecursiveSI/flint",
+    "url": "https://hf-mirror.com/RecursiveSI/flint",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 1425,
+    "downloads": 60897,
+    "createdAt": "2026-10-21",
+    "intro": "Flint是Recursive的编码代理专家混合语言模型，共有398亿个参数，每个令牌大约有25亿个活动"
+   },
+   {
+    "kind": "model",
+    "id": "tencent/Hy4-flash",
+    "url": "https://hf-mirror.com/tencent/Hy4-flash",
+    "license": "other",
+    "param": "",
+    "likes": 260,
+    "downloads": 159,
+    "createdAt": "2026-11-17",
+    "intro": "型号介绍"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "lang": "Python",
+   "stars": "60,027",
+   "desc": "“CLI-Anything：让所有软件都原生支持代理”——CLI-Hub：https://clianything.cc/"
+  },
+  {
+   "repo": "astral-sh/uv",
+   "url": "https://github.com/astral-sh/uv",
+   "lang": "Rust",
+   "stars": "92,325",
+   "desc": "一款用 Rust 编写的超快 Python 包和项目管理器"
+  },
+  {
+   "repo": "jquery/jquery",
+   "url": "https://github.com/jquery/jquery",
+   "lang": "JavaScript",
+   "stars": "60,064",
+   "desc": "jQuery JavaScript Library"
+  },
+  {
+   "repo": "openvinotoolkit/openvino",
+   "url": "https://github.com/openvinotoolkit/openvino",
+   "lang": "C++",
+   "stars": "11,409",
+   "desc": "OpenVINO™ 是一款用于优化和部署 AI 推理的开源工具包"
+  },
+  {
+   "repo": "solidjs/solid",
+   "url": "https://github.com/solidjs/solid",
+   "lang": "TypeScript",
+   "stars": "36,689",
+   "desc": "一个用于构建用户界面的声明式、高效且灵活的 JavaScript 库"
+  },
+  {
+   "repo": "punkpeye/awesome-mcp-servers",
+   "url": "https://github.com/punkpeye/awesome-mcp-servers",
+   "lang": "",
+   "stars": "98,151",
+   "desc": "MCP 服务器的集合"
+  },
+  {
+   "repo": "anefzaoui/misterdownloadmanager",
+   "url": "https://github.com/anefzaoui/misterdownloadmanager",
+   "lang": "Rust",
+   "stars": "13,318",
+   "desc": "misterdownloadmanager：终极开源、无污染的下载管理器，完全使用纯 Rust 语言从头编写，适用于 Windows、Mac 和 Linux"
+  },
+  {
+   "repo": "JuneYaooo/rea-video",
+   "url": "https://github.com/JuneYaooo/rea-video",
+   "lang": "Python",
+   "stars": "10,816",
+   "desc": "逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻"
+  },
+  {
+   "repo": "janestreet/agent_skills",
+   "url": "https://github.com/janestreet/agent_skills",
+   "lang": "",
+   "stars": "10,154",
+   "desc": "智能体技能"
+  },
+  {
+   "repo": "huami1314/GestaltX",
+   "url": "https://github.com/huami1314/GestaltX",
+   "lang": "Swift",
+   "stars": "8,436",
+   "desc": "适用于 iOS 27.x 的 MobileGestalt 编辑器，具备区域代码调整、设备预设、备份等功能"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "QuantumNous/new-api",
+   "url": "https://github.com/QuantumNous/new-api",
+   "lang": "Go",
+   "stars": "52,206",
+   "desc": "开源AI网关。具有OpenAI、Claude和Gemini兼容API、模型路由、访问控制、使用跟踪和成本核算的自托管LLM网关",
+   "en": false
+  },
+  {
+   "repo": "AstrBotDevs/AstrBot",
+   "url": "https://github.com/AstrBotDevs/AstrBot",
+   "lang": "Python",
+   "stars": "47,176",
+   "desc": "AI Agent Assistant和开发框架集成了许多IM平台、LLM、插件和AI功能，可以作为您的开放式替代方案",
+   "en": false
+  },
+  {
+   "repo": "outline/outline",
+   "url": "https://github.com/outline/outline",
+   "lang": "TypeScript",
+   "stars": "41,304",
+   "desc": "成长型团队最快的知识库。美观、实时协作、功能丰富且兼容markdown",
+   "en": false
+  },
+  {
+   "repo": "The-Vibe-Company/quivr",
+   "url": "https://github.com/The-Vibe-Company/quivr",
+   "lang": "Go",
+   "stars": "39,651",
+   "desc": "一个将连续内容流转化为搜索和监控的开源引擎",
+   "en": false
+  },
+  {
+   "repo": "aquasecurity/trivy",
+   "url": "https://github.com/aquasecurity/trivy",
+   "lang": "Go",
+   "stars": "39,520",
+   "desc": "查找漏洞、错误配置、秘密、容器中的SBOM、Kubernetes、代码仓库、云等",
+   "en": false
+  },
+  {
+   "repo": "docker/compose",
+   "url": "https://github.com/docker/compose",
+   "lang": "Go",
+   "stars": "38,989",
+   "desc": "使用Docker定义和运行多容器应用程序",
+   "en": false
+  },
+  {
+   "repo": "harness/harness",
+   "url": "https://github.com/harness/harness",
+   "lang": "Go",
+   "stars": "38,936",
+   "desc": "Harness Open Source是一个端到端开发人员平台，具有源代码管理、CI/CD管道、托管开发人员环境和工件注册表",
+   "en": false
+  },
+  {
+   "repo": "portainer/portainer",
+   "url": "https://github.com/portainer/portainer",
+   "lang": "TypeScript",
+   "stars": "38,850",
+   "desc": "让Docker和Kubernetes管理变得简单",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 3984.84,
+   "chg": 0.03,
+   "pe": 13.48,
+   "pe_pct": 67,
+   "pb": 1.34,
+   "pb_pct": 21,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6251.96,
+   "chg": -0.48,
+   "pe": 26.77,
+   "pe_pct": 56,
+   "pb": 1.96,
+   "pb_pct": 52,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2293.34,
+   "chg": -0.79,
+   "pe": 26.26,
+   "pe_pct": 4,
+   "pb": 3.69,
+   "pb_pct": 13,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1270.78,
+   "chg": 1.83,
+   "pe": 92.24,
+   "pe_pct": 75,
+   "pb": 6.21,
+   "pb_pct": 62,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5548.05,
+   "chg": -0.46,
+   "pe": 9.3,
+   "pe_pct": 89,
+   "pb": 0.9,
+   "pb_pct": 61,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11588.39,
+   "chg": -0.13,
+   "pe": 9.33,
+   "pe_pct": 80,
+   "pb": 0.94,
+   "pb_pct": 69,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 22831.69,
+   "chg": -1.99,
+   "pe": 10.65,
+   "pe_pct": 52,
+   "pb": 1.07,
+   "pb_pct": 42,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 24429.88,
+   "chg": 0.42,
+   "pe": 25.61,
+   "pe_pct": 17,
+   "pb": 7.94,
+   "pb_pct": 55,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7323.63,
+   "chg": -0.23,
+   "pe": 22.6,
+   "pe_pct": 23,
+   "pb": 5.1,
+   "pb_pct": 84,
+   "pe_level": "低估",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "航空机场",
+    "chg": 0.63
+   },
+   {
+    "name": "证券Ⅱ",
+    "chg": -0.05
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": -0.62
+   },
+   {
+    "name": "保险Ⅱ",
+    "chg": -0.74
+   },
+   {
+    "name": "航运港口",
+    "chg": -1.13
+   },
+   {
+    "name": "食品饮料",
+    "chg": -1.32
+   }
+  ],
+  "dn": [
+   {
+    "name": "传媒",
+    "chg": -4.85
+   },
+   {
+    "name": "一般零售",
+    "chg": -3.48
+   },
+   {
+    "name": "医疗服务",
+    "chg": -3.47
+   },
+   {
+    "name": "通信设备",
+    "chg": -3.43
+   },
+   {
+    "name": "通用设备",
+    "chg": -3.24
+   },
+   {
+    "name": "汽车零部件",
+    "chg": -3.15
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-0.03%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 7.7036（2026-11-18）（≈ 770 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.6660",
+   "date": "2026-11-17"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.3703",
+   "date": "2026-11-17"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.3171",
+   "date": "2026-11-17"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "2.9931",
+   "date": "2026-11-17"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6188",
+   "date": "2026-11-18"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.7995",
+   "date": "2026-11-17"
+  }
+ ],
+ "macro": [
+  {
+   "title": "比特币跌至6.35万美元，美联储加息预期持续打压加密货币市场",
+   "ctime": "1795071911",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizfyuh7841844.shtml"
+  },
+  {
+   "title": "国际证监会组织呼吁金融行业立即行动应对量子计算带来的安全风险",
+   "ctime": "1795073478",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizhfah4512076.shtml"
+  },
+  {
+   "title": "国际能源署预警：到2030年数据中心碳排放将增加70%",
+   "ctime": "1795071827",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizfyuh7840188.shtml"
+  },
+  {
+   "title": "欧盟推迟实施化石燃料进口甲烷排放规定",
+   "ctime": "1795071720",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizfyuf6316464.shtml"
+  },
+  {
+   "title": "芯片需求旺盛，韩国出口首次突破1万亿美元",
+   "ctime": "1795071272",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizfyuk4608646.shtml"
+  },
+  {
+   "title": "黄金自14个月低点反弹，逢低买盘暂时缓解美联储加息压力",
+   "ctime": "1795068863",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizfyuk4581825.shtml"
+  },
+  {
+   "title": "美联储刚示警、欧央行又补刀：AI狂潮已现“次贷影子”？",
+   "ctime": "1795068451",
+   "url": "https://finance.sina.com.cn/roll/2026-11-19/doc-inizfyuh7806459.shtml"
+  },
+  {
+   "title": "10月美联储FOMC会议纪要：为10月未加息“找一堆理由”，又强烈指引12月“至少加息25基点”",
+   "ctime": "1795068060",
+   "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-11-19/doc-inizfyuh7796691.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 4,
+   "pe": 26.2581,
+   "pb_pct": 13,
+   "pb": 3.6919
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 17,
+   "pe": 25.6085,
+   "pb_pct": 55,
+   "pb": 7.9444
+  }
+ ]
+}
