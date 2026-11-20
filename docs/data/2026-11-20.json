@@ -1,0 +1,534 @@
+{
+ "date": "2026-11-20",
+ "weekday": "五",
+ "val_date": "11-19",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "DeepSeek Harness 发布100天，作者分享13个实用插件玩法",
+    "url": "https://aihot.news/items/amx0tnq9rthd6ssx81np25ldc",
+    "source": "X：卡兹克 (@Khazix0918)",
+    "publishedAt": "2026-11-20T04:01:57.000Z",
+    "summary": "卡兹克在DeepSeek Harness发布100天之际分享了13个插件玩法。"
+   },
+   {
+    "kind": "news",
+    "title": "Nvidia 股价近期波动复盘：财报强劲但股价较 10 月高点跌近 40%",
+    "url": "https://aihot.news/items/w1q2gyqsel49b4vbqeodf0qmc",
+    "source": "The Verge：AI（RSS）",
+    "publishedAt": "2026-11-19T21:59:35.000Z",
+    "summary": "The Verge 梳理 Nvidia 近期股价波动：第三季度营收同比翻倍至 1158 亿美元，数据中心业务增长 110%，Vera Rubin 平台贡献近 200 亿美元收入；但受芯片股整体抛售、前 CEO 黄仁勋辞职及公司治理调查等因素影响，股价一度报约 150 美元，较 10 月 6 日历史高点跌近 40%，周四收于 145.98 美元，创 52 周新低。"
+   },
+   {
+    "kind": "news",
+    "title": "Mac 版 Gemini 应用上线计算机操作功能，可代用户执行跨应用任务",
+    "url": "https://aihot.news/items/h5xjk79bhcu8vgnbrynj208uj",
+    "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
+    "publishedAt": "2026-11-19T21:52:19.000Z",
+    "summary": "Google Labs VP Josh Woodward 宣布 Mac 版 Gemini 应用新增 computer use 功能，可跨文件夹、应用和网页代用户执行任务，屏幕和光标控制权仍归用户。官方演示显示 Gemini 能在后台窗口中点击、滚动和输入，把草图变成 Blender 里的绑定的 3D 模型。"
+   },
+   {
+    "kind": "news",
+    "title": "Karina Nguyen 发文祝贺投资人 Sol 庆祝 Anthropic IPO",
+    "url": "https://aihot.news/items/lc38ozrwfur9ympu1l3meqcuq",
+    "source": "X：Karina Nguyen（@karinanguyen）",
+    "publishedAt": "2026-11-19T20:13:16.000Z",
+    "summary": "Karina Nguyen 发文感谢投资人 Sol，回忆早期在办公室一起讨论模型评测和后训练难题的经历，并称赞他是唯一理解 scaling laws 的 VC。引用内容为 Sol 祝贺 Anthropic IPO 的推文，感谢 LP 及 GM 养老金、ICONIQ、Coatue、Lightspeed 等合作伙伴在增长投资最差时期押注 Anthropic。"
+   },
+   {
+    "kind": "news",
+    "title": "Perplexity CEO Aravind Srinivas 祝贺 Anthropic IPO，称 Opus 5.5 仍是业界最佳模型",
+    "url": "https://aihot.news/items/w8zhbr5smu0072gyuzmmay1eo",
+    "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+    "publishedAt": "2026-11-19T18:18:09.000Z",
+    "summary": "Perplexity CEO Aravind Srinivas 发推祝贺 Anthropic 当日 IPO，称其展示了专注、高信念、品味驱动的团队能在短时间内达成的成果。他表示 Opus 5.5 以明显优势仍是业界最佳模型，并称 Perplexity 作为 Anthropic 客户为其高兴。"
+   },
+   {
+    "kind": "news",
+    "title": "Google 在 Gemini API 推出 Tool Retrieval 预览",
+    "url": "https://aihot.news/items/n3npoqbr48wu58cke5p3ox18l",
+    "source": "Google Blog：AI（RSS）",
+    "publishedAt": "2026-11-19T18:00:00.000Z",
+    "summary": "Google 在 Gemini API 的 Interactions API 中以预览形式推出 Tool Retrieval，让智能体按需加载工具参数 schema，而不是每次请求都发送完整工具库，以减少输入 token 并在工具数量扩大时保持选择准确。"
+   },
+   {
+    "kind": "news",
+    "title": "Google 在 Gemini API 与 AI Studio 上线 Genie 4 实时世界模型",
+    "url": "https://aihot.news/items/n1nzpfmd3f6zc4abq3s8yxrde",
+    "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+    "publishedAt": "2026-11-19T17:17:39.000Z",
+    "summary": "Philipp Schmid 宣布 Genie 4 正在 Gemini API 和 AI Studio 上推出，可从文本或图像生成 720p 24fps 的世界，并用 WASD、提示词和 48 kHz 立体声实时操控。可通过 WebRTC（浏览器加临时 token）或 WebSocket 串流，文档见 https://aistudio.google.com/docs/genie。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "腾讯混元开放 Hy4 权重",
+    "url": "https://aihot.news/items/jl6m0eymz9z0kleh54c3guowx",
+    "source": "X：腾讯混元 (@TencentHunyuan)",
+    "publishedAt": "2026-11-20T03:52:40.000Z",
+    "summary": "腾讯混元发布 Hy4 开放权重，定位原生多模态旗舰 MoE 模型，总参数 770B、激活 49B，支持 1M 上下文。同步发布含安全评估报告的 Hy4 System Card，并提供 GitHub、Hugging Face 权重与 GGUF 下载链接，团队将于本周五 8–10 AM PT 在 r/LocalLLaMA 举行 AMA。"
+   },
+   {
+    "kind": "news",
+    "title": "Gemini 4 Neon 实测：Peter Gostev 对比 Opus、Fable 等模型的首发体验",
+    "url": "https://aihot.news/items/z0unnn7ryj39a3tuns8b1l4a6",
+    "source": "X：Arena (@arena)",
+    "publishedAt": "2026-11-19T21:28:16.000Z",
+    "summary": "Arena 分享 Gemini 4 Neon 发布后的第一手实测视频，Peter Gostev 在 3D 场景、游戏、UI 和数据可视化等任务中将其与 Opus、Fable、Astra、Sol 对比，并评估其接近前沿的程度。"
+   },
+   {
+    "kind": "news",
+    "title": "Perplexity Computer 的 Brain 智能体可自动编写和更新个人技能",
+    "url": "https://aihot.news/items/cty34utgc5ppbdnayf7cnjqlv",
+    "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+    "publishedAt": "2026-11-19T16:19:15.000Z",
+    "summary": "Perplexity CEO Aravind Srinivas 分享 Computer 中 Brain 智能体的自我改进技能研究：Brain 会读取历史会话轨迹（工具调用、推理、结果），识别重复模式，仅在证据足够时提议新技能或更新。"
+   },
+   {
+    "kind": "news",
+    "title": "MIT 研究测算数据中心用电 2023 年在美国致约 650 例过早死亡",
+    "url": "https://aihot.news/items/wefmgc42bqc1uhcqc2gv3haav",
+    "source": "MIT News（RSS）",
+    "publishedAt": "2026-11-19T14:00:00.000Z",
+    "summary": "MIT 研究团队在 Environmental Research Letters 发表研究，估算 2023 年数据中心电力需求带来的额外空气污染在美国导致约 650 例过早死亡，其中 513 例来自 PM2.5、137 例来自烟雾，约占全国电力相关死亡总量的 5.3%。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft",
+    "url": "https://hf-mirror.com/nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft",
+    "license": "other",
+    "param": "4B",
+    "likes": 147,
+    "downloads": 757,
+    "createdAt": "2026-11-11",
+    "intro": "使用 NVIDIA Model Optimizer 在外部投机性解码模式下进行训练"
+   },
+   {
+    "kind": "model",
+    "id": "Apexintelligence-AI/Apex-35B-V1.0",
+    "url": "https://hf-mirror.com/Apexintelligence-AI/Apex-35B-V1.0",
+    "license": "apache-2.0",
+    "param": "35B",
+    "likes": 101,
+    "downloads": 2392,
+    "createdAt": "2026-10-28",
+    "intro": "Apex-35B-V1.0 是 Apex Intelligence 推出的首款模型，专为通用和研究用途而开发，并由 Claude Code（首选 v2.1.280）Harness 提供支持"
+   },
+   {
+    "kind": "model",
+    "id": "StarpowerTechnology/WVY-Blender-5m",
+    "url": "https://hf-mirror.com/StarpowerTechnology/WVY-Blender-5m",
+    "license": "",
+    "param": "",
+    "likes": 77,
+    "downloads": 1173,
+    "createdAt": "2026-11-12",
+    "intro": "WVY，由Starpower设计"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "firecrawl/firecrawl",
+   "url": "https://github.com/firecrawl/firecrawl",
+   "lang": "TypeScript",
+   "stars": "204,546",
+   "desc": "让您的智能体更聪明的知识基础设施"
+  },
+  {
+   "repo": "nginx/nginx",
+   "url": "https://github.com/nginx/nginx",
+   "lang": "C",
+   "stars": "32,417",
+   "desc": "官方 NGINX 开源代码仓库"
+  },
+  {
+   "repo": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "lang": "HTML",
+   "stars": "68,851",
+   "desc": "适用于 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 的编辑图表设计"
+  },
+  {
+   "repo": "mjmirza/app-store-compliance",
+   "url": "https://github.com/mjmirza/app-store-compliance",
+   "lang": "Shell",
+   "stars": "2,146",
+   "desc": "避免常见的 App Store 和 Google Play 拒绝情况"
+  },
+  {
+   "repo": "Tracer-Cloud/opensre",
+   "url": "https://github.com/Tracer-Cloud/opensre",
+   "lang": "Python",
+   "stars": "13,263",
+   "desc": "用于 CI/CD 可靠性的开源代理"
+  },
+  {
+   "repo": "toeverything/AFFiNE",
+   "url": "https://github.com/toeverything/AFFiNE",
+   "lang": "TypeScript",
+   "stars": "75,343",
+   "desc": "除了 Notion 和 Miro，还有更多选择"
+  },
+  {
+   "repo": "XiaoYouChR/Ghost-Downloader-3",
+   "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+   "lang": "Python",
+   "stars": "13,098",
+   "desc": "下载器的集大成者"
+  },
+  {
+   "repo": "zhouxiaoka/autoclip",
+   "url": "https://github.com/zhouxiaoka/autoclip",
+   "lang": "Python",
+   "stars": "11,605",
+   "desc": "AutoClip｜一个链接，一键出片"
+  },
+  {
+   "repo": "storytold/craft-anything",
+   "url": "https://github.com/storytold/craft-anything",
+   "lang": "Rust",
+   "stars": "38,846",
+   "desc": "制作任何东西：了解任何软件的工作原理，并制作自己的软件"
+  },
+  {
+   "repo": "deepseek-ai/dsh-superagent-prototype",
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "lang": "TypeScript",
+   "stars": "23,993",
+   "desc": "迈向更自主的Agent系统"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "awesome-selfhosted/awesome-selfhosted",
+   "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+   "lang": "",
+   "stars": "338,755",
+   "desc": "可托管在您自己的服务器上的免费软件网络服务和Web应用程序列表",
+   "en": false
+  },
+  {
+   "repo": "n8n-io/n8n",
+   "url": "https://github.com/n8n-io/n8n",
+   "lang": "TypeScript",
+   "stars": "211,470",
+   "desc": "具有原生AI功能的公平代码工作流程自动化平台",
+   "en": false
+  },
+  {
+   "repo": "ohmyzsh/ohmyzsh",
+   "url": "https://github.com/ohmyzsh/ohmyzsh",
+   "lang": "Shell",
+   "stars": "190,701",
+   "desc": "🙃   一个令人愉悦的社区驱动（拥有2,500多名贡献者）框架，用于管理您的zsh配置",
+   "en": false
+  },
+  {
+   "repo": "open-webui/open-webui",
+   "url": "https://github.com/open-webui/open-webui",
+   "lang": "Svelte",
+   "stars": "159,122",
+   "desc": "用户友好的AI界面（支持Ollama、OpenAI API等）",
+   "en": false
+  },
+  {
+   "repo": "immich-app/immich",
+   "url": "https://github.com/immich-app/immich",
+   "lang": "TypeScript",
+   "stars": "119,693",
+   "desc": "高性能自托管照片和视频管理解决方案",
+   "en": false
+  },
+  {
+   "repo": "Stirling-Tools/Stirling-PDF",
+   "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+   "lang": "TypeScript",
+   "stars": "97,065",
+   "desc": "GitHub上排名第一的PDF应用程序，可让您在任何地方的任何设备上编辑PDF",
+   "en": false
+  },
+  {
+   "repo": "louislam/uptime-kuma",
+   "url": "https://github.com/louislam/uptime-kuma",
+   "lang": "JavaScript",
+   "stars": "94,669",
+   "desc": "一款精美的自托管监控工具",
+   "en": false
+  },
+  {
+   "repo": "pathwaycom/serviette",
+   "url": "https://github.com/pathwaycom/serviette",
+   "lang": "Python",
+   "stars": "58,698",
+   "desc": "无代码RAG服务器，可使答案与您的文档保持同步",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 3954.57,
+   "chg": -0.76,
+   "pe": 13.49,
+   "pe_pct": 67,
+   "pb": 1.34,
+   "pb_pct": 21,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6006.08,
+   "chg": -3.93,
+   "pe": 26.69,
+   "pe_pct": 55,
+   "pb": 1.95,
+   "pb_pct": 52,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2212.13,
+   "chg": -3.54,
+   "pe": 26.0,
+   "pe_pct": 4,
+   "pb": 3.65,
+   "pb_pct": 12,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1231.09,
+   "chg": -3.12,
+   "pe": 93.48,
+   "pe_pct": 75,
+   "pb": 6.29,
+   "pb_pct": 64,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5529.78,
+   "chg": -0.33,
+   "pe": 9.3,
+   "pe_pct": 89,
+   "pb": 0.9,
+   "pb_pct": 62,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11620.32,
+   "chg": 0.28,
+   "pe": 9.35,
+   "pe_pct": 80,
+   "pb": 0.94,
+   "pb_pct": 69,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 22345.41,
+   "chg": -2.17,
+   "pe": 10.35,
+   "pe_pct": 46,
+   "pb": 1.04,
+   "pb_pct": 38,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 23879.2,
+   "chg": -2.25,
+   "pe": 25.0,
+   "pe_pct": 12,
+   "pb": 7.74,
+   "pb_pct": 52,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7175.83,
+   "chg": -2.02,
+   "pe": 22.14,
+   "pe_pct": 21,
+   "pb": 5.0,
+   "pb_pct": 82,
+   "pe_level": "低估",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "保险Ⅱ",
+    "chg": 0.39
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": 0.22
+   },
+   {
+    "name": "航运港口",
+    "chg": -1.12
+   },
+   {
+    "name": "元件",
+    "chg": -1.21
+   },
+   {
+    "name": "煤炭",
+    "chg": -1.25
+   },
+   {
+    "name": "证券Ⅱ",
+    "chg": -1.32
+   }
+  ],
+  "dn": [
+   {
+    "name": "通信设备",
+    "chg": -6.66
+   },
+   {
+    "name": "仪器仪表",
+    "chg": -6.37
+   },
+   {
+    "name": "通用设备",
+    "chg": -5.88
+   },
+   {
+    "name": "电网设备",
+    "chg": -5.62
+   },
+   {
+    "name": "家用电器",
+    "chg": -5.36
+   },
+   {
+    "name": "化学制品",
+    "chg": -5.31
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-3.44%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 7.6192（2026-11-19）（≈ 762 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.6865",
+   "date": "2026-11-18"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.4000",
+   "date": "2026-11-18"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.3050",
+   "date": "2026-11-18"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "2.9861",
+   "date": "2026-11-18"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6052",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.7901",
+   "date": "2026-11-18"
+  }
+ ],
+ "macro": [
+  {
+   "title": "今日黄金：跌至14个月新低，美联储加息预期升温致金价本周重挫9%",
+   "ctime": "1795158236",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkizh3971414.shtml"
+  },
+  {
+   "title": "光大期货1120热点追踪：宏观破位叠加AI叙事降温，沪铜失守9.5万",
+   "ctime": "1795157254",
+   "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-20/doc-inizkizc5563598.shtml"
+  },
+  {
+   "title": "连续18个月不变！政策利率换锚后首期LPR出炉",
+   "ctime": "1795156272",
+   "url": "https://finance.sina.com.cn/roll/2026-11-20/doc-inizkizh3947459.shtml"
+  },
+  {
+   "title": "SpaceX贷款方据悉在400亿美元债务融资中提出限制条款，以阻止其将英伟达芯片用于太空数据中心",
+   "ctime": "1795157670",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkizh3962579.shtml"
+  },
+  {
+   "title": "谷歌选择贝索斯旗下蓝色起源公司测试太空数据中心",
+   "ctime": "1795157462",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkize7182505.shtml"
+  },
+  {
+   "title": "摩根大通首席经济学家：2026年或是AI热潮见顶之年",
+   "ctime": "1795156875",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkizc5560314.shtml"
+  },
+  {
+   "title": "重新加入欧盟对英国经济的提振，是瑞士式协议的两倍",
+   "ctime": "1795156762",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkizc5559418.shtml"
+  },
+  {
+   "title": "韩国：地方中小型AI数据中心可豁免电网影响评审",
+   "ctime": "1795156561",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkizc5557798.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 4,
+   "pe": 25.9951,
+   "pb_pct": 12,
+   "pb": 3.6549
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 12,
+   "pe": 25.0024,
+   "pb_pct": 52,
+   "pb": 7.7438
+  }
+ ]
+}

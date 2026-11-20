@@ -503,5 +503,14 @@
   "An extremely fast Python package and project manager, written in Rust.": "一款用 Rust 编写的超快 Python 包和项目管理器",
   "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference": "OpenVINO™ 是一款用于优化和部署 AI 推理的开源工具包",
   "A declarative, efficient, and flexible JavaScript library for building user interfaces.": "一个用于构建用户界面的声明式、高效且灵活的 JavaScript 库",
-  "A collection of MCP servers.": "MCP 服务器的集合"
+  "A collection of MCP servers.": "MCP 服务器的集合",
+  "Trained with NVIDIA Model Optimizer in external speculative decoding mode.": "使用 NVIDIA Model Optimizer 在外部投机性解码模式下进行训练",
+  "Apex-35B-V1.0 is the first model from Apex Intelligence, developed for both general-purpose use and research and supported by the Claude Code (v2.1.280 preferred) harness. It combines coding, tool use, question answering, and deep search with research tasks in AI, computational science, and robotics simulation.": "Apex-35B-V1.0 是 Apex Intelligence 推出的首款模型，专为通用和研究用途而开发，并由 Claude Code（首选 v2.1.280）Harness 提供支持",
+  "WVY, designed by Starpower.": "WVY，由Starpower设计",
+  "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.": "让您的智能体更聪明的知识基础设施",
+  "The official NGINX Open Source repository.": "官方 NGINX 开源代码仓库",
+  "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.": "适用于 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 的编辑图表设计",
+  "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.": "避免常见的 App Store 和 Google Play 拒绝情况",
+  "The open-source agent for CI/CD reliability.": "用于 CI/CD 可靠性的开源代理",
+  "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.": "除了 Notion 和 Miro，还有更多选择"
 }
