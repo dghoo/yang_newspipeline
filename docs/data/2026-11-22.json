@@ -1,0 +1,531 @@
+{
+ "date": "2026-11-22",
+ "weekday": "日",
+ "val_date": "11-20",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Together AI 通报 2026 年 6-7 月 serverless 推理服务提示词泄露事件",
+    "url": "https://aihot.news/items/xqe6lbb5zsjp9xbsc1o912cs0",
+    "source": "Together AI 研究与产品博客（RSS）",
+    "publishedAt": "2026-11-21T00:00:00.000Z",
+    "summary": "Together AI 通报一起安全事件：因 AI 编码 agent 在公开 GitHub 仓库 xorl 中提交了私有 Hugging Face 仓库凭证，未授权方下载了 2026 年 6-7 月提交给 MiniMax M3、GLM-5.2、Kimi K2.6 等 serverless 推理服务的存储提示词样本，并搜索其中其他服务凭证。"
+   },
+   {
+    "kind": "news",
+    "title": "Qwen4 Max 上线 Together AI，单次调用修复 Tornado 整仓 bug",
+    "url": "https://aihot.news/items/rlj39tzyujneo0u35iyrfb4uc",
+    "source": "Together AI 研究与产品博客（RSS）",
+    "publishedAt": "2026-11-21T00:00:00.000Z",
+    "summary": "Together AI 宣布阿里旗舰模型 Qwen4 Max 上线其 Serverless 推理平台（模型串 Qwen/Qwen4-Max），1M token 上下文，截至 2026 年 11 月 22 日 7 折。"
+   },
+   {
+    "kind": "news",
+    "title": "芯片停运叠加海外云通道关闭，中国科技公司面临双重冲击",
+    "url": "https://aihot.news/items/h4bvsjw4ri6to1inm87srlf42",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-11-19T17:02:41.000Z",
+    "summary": "美国商务部收紧AI芯片出口管制并关闭第三方国家云算力通道后，亚洲多笔大型AI数据中心交易开始瓦解。Moonshot AI取消了与印尼云服务商的1.5亿美元合同，原计划租用Nvidia Blackwell Ultra B300集群训练Kimi K4，此前已预付约50%而非行业标准的15%。台积电和三星暂停向中国客户交付部分处理器，需申请许可；字节跳动、百度昆仑等客户受影响，非AI芯片豁免取消也波及小米、Oppo、vivo等智能手机处理器。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic CEO Dario Amodei 就公司 IPO 发表声明",
+    "url": "https://aihot.news/items/bj8r4lnrbcoi5cl1asnyn6qt5",
+    "source": "X：Anthropic (@AnthropicAI)",
+    "publishedAt": "2026-11-19T17:01:26.000Z",
+    "summary": "Anthropic CEO Dario Amodei 就公司 IPO 发表声明，称今天让公司财务地位更稳固，并强调不会向商业或政治压力低头，将放慢 AI 训练与部署节奏以确保安全和人类可控。声明以生物学背景和 Claude 在科研中的应用为例阐述使命，同时承认滥用、经济冲击和失控等风险，倡导行业「向顶部竞赛」。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 登陆纳斯达克，开盘价 111 美元较发行价高出 33%",
+    "url": "https://aihot.news/items/gklqioeodqeuqgz3lttg83ztv",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-11-19T16:59:23.000Z",
+    "summary": "Anthropic 在纳斯达克完成 IPO，开盘几分钟内股价达 111.50 美元，较 83 美元发行价高出 33%，发行价已超过公司此前 70 至 78 美元的预期区间。本次发行募资超过 810 亿美元，叠加同期私募融资后公司现金储备预计达 2200 亿美元；按开盘价计算市值超过 2 万亿美元，CEO Dario Amodei 在开盘致辞中强调公司对安全的承诺。"
+   },
+   {
+    "kind": "news",
+    "title": "Runway 详解如何构建智能体驱动的软件工厂",
+    "url": "https://aihot.news/items/wnw22hxqlwsd58lzsm44psc6g",
+    "source": "Runway：News（网页）",
+    "publishedAt": "2026-11-19T16:00:00.000Z",
+    "summary": "Runway 介绍了逐步把软件交付各环节交给智能体完成的实践。智能体 10 月驱动了 38% 的合并 PR（6 月仅 0.1%），首次批准等待中位数从超过 2 小时降至约 5 分钟；AI 单独批准的 PR 回滚率约千分之一，低于人工批准的约 1/200。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic IPO 检验 AI 循环融资模式，Amazon 和 Google 持股市值约 3079 亿美元",
+    "url": "https://aihot.news/items/a8d06cpj4vy2dkdzazgsqsrwx",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-11-19T14:54:39.000Z",
+    "summary": "TechCrunch 分析 Anthropic IPO 如何检验 AI 行业的循环融资模式。Amazon 14.7% 股份价值超 1590 亿美元，Google 13.7% 股份约 1490 亿美元；Nvidia、AMD、Microsoft、Broadcom、Micron、TSMC 还以 83 美元/股参与 260 亿美元私募。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 完成史上最大规模 IPO，其安全治理结构受到审视",
+    "url": "https://aihot.news/items/zs46vfwtzhs7fzho1p17mfisf",
+    "source": "The Verge：AI（RSS）",
+    "publishedAt": "2026-11-19T14:25:37.000Z",
+    "summary": "The Verge 报道 Anthropic 完成 IPO，募资 813 亿美元，超过 SpaceX 成为史上估值最高的上市，完全稀释市值约 1.5 万亿美元。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Columbia 与 MIT 论文展示 Claude 发现的算法突破 3SUM 与 APSP 长期速度上限",
+    "url": "https://aihot.news/items/d32df9vzpliz9m348fug74inq",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-11-21T18:47:26.000Z",
+    "summary": "Columbia 和 MIT 的论文展示 Claude 发现的算法在 3SUM 和全对最短路径（APSP）上取得多项式改进，3SUM 达到 O(n^1.9992)、APSP 达到 O(n^2.9995)，推翻了 3SUM 和 APSP 假设。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿",
+    "url": "https://aihot.news/items/tje8i8y21ttk7jjmqet5bpxuq",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-11-21T11:19:49.000Z",
+    "summary": "Anthropic 数学家 Levent Alpöge 周五宣布与 Claude 合作得到黎曼猜想及广义黎曼猜想的证明，证明以 Lean 语言分 14 个数据包发布，打印将超 25 万页。"
+   },
+   {
+    "kind": "news",
+    "title": "研究者向 AI 供应链埋入 200 万个金丝雀，揭露敏感数据泄露",
+    "url": "https://aihot.news/items/agm7klro03kcu9weuix1bt4su",
+    "source": "Ars Technica：AI（RSS）",
+    "publishedAt": "2026-11-20T20:59:08.000Z",
+    "summary": "研究者在经过 OpenRouter 等 AI 路由的请求中埋入 200 万个金丝雀链接，测试敏感信息是否会沿 AI 服务链泄露，结果显示这些数据像筛子一样大量外泄。"
+   },
+   {
+    "kind": "news",
+    "title": "METR 发布 2026 年 11 月能力测量更新：AI R&D 相关能力每约 3.6 个月翻倍且更难测量",
+    "url": "https://aihot.news/items/sn8qb9u8fqka3mpnmy0r1nz4b",
+    "source": "METR：Research（网页）",
+    "publishedAt": "2026-11-19T16:00:00.000Z",
+    "summary": "METR 发布截至 Opus 5.5 和 GPT-6 Astra 的能力评测更新，发现在 TH1.1 与 TH2 任务上模型时间视野约每 3.6 个月翻倍，可验证子集翻倍时间约 1.65 个月。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "NousResearch/Arete-27B",
+    "url": "https://hf-mirror.com/NousResearch/Arete-27B",
+    "license": "apache-2.0",
+    "param": "27B",
+    "likes": 772,
+    "downloads": 16445,
+    "createdAt": "2026-11-06",
+    "intro": "我们对阿里巴巴的Qwen3.8-27B进行了后期培训，以在中国培训的模式上强化西方价值观"
+   },
+   {
+    "kind": "model",
+    "id": "microsoft/Aion-1.0-Instruct-2.3B",
+    "url": "https://hf-mirror.com/microsoft/Aion-1.0-Instruct-2.3B",
+    "license": "mit",
+    "param": "2.3B",
+    "likes": 191,
+    "downloads": 3099,
+    "createdAt": "2026-11-18",
+    "intro": "Microsoft Windows 应用科学小组"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "ItsNotRexed/Leonida",
+   "url": "https://github.com/ItsNotRexed/Leonida",
+   "lang": "Python",
+   "stars": "7,624",
+   "desc": "Leonida 是《侠盗猎车手 6》Xbox 版的 PC 原生重编译版"
+  },
+  {
+   "repo": "Lee-xeo/Claude-Cage",
+   "url": "https://github.com/Lee-xeo/Claude-Cage",
+   "lang": "Go",
+   "stars": "7,454",
+   "desc": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露"
+  },
+  {
+   "repo": "qybaihe/bla",
+   "url": "https://github.com/qybaihe/bla",
+   "lang": "TypeScript",
+   "stars": "6,393",
+   "desc": "🛡️ BLA（bla-agents/Blind LLM Agents）— 开源蓝队防御 MCP 服务器和 CLI，保护 JS/TS、Electron ASAR、WASM、Python、原生二进制文件、SQLite、GGUF/Safetensors 和 Android DEX 免受 AI 攻击"
+  },
+  {
+   "repo": "KKKKhazix/agent-autoloop",
+   "url": "https://github.com/KKKKhazix/agent-autoloop",
+   "lang": "TypeScript",
+   "stars": "6,227",
+   "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底"
+  },
+  {
+   "repo": "public-apis/public-apis",
+   "url": "https://github.com/public-apis/public-apis",
+   "lang": "Python",
+   "stars": "500,690",
+   "desc": "免费API的集合列表"
+  },
+  {
+   "repo": "morluto/rea",
+   "url": "https://github.com/morluto/rea",
+   "lang": "TypeScript",
+   "stars": "473,095",
+   "desc": "使用代理对任何内容进行反向工程，从应用行为到本机二进制文件"
+  },
+  {
+   "repo": "EbookFoundation/free-programming-books",
+   "url": "https://github.com/EbookFoundation/free-programming-books",
+   "lang": "Python",
+   "stars": "402,049",
+   "desc": ": books:免费提供的编程书籍"
+  },
+  {
+   "repo": "openclaw/openclaw",
+   "url": "https://github.com/openclaw/openclaw",
+   "lang": "TypeScript",
+   "stars": "395,009",
+   "desc": "真正做事情的人工智能。任何操作系统"
+  },
+  {
+   "repo": "nilbuild/developer-roadmap",
+   "url": "https://github.com/nilbuild/developer-roadmap",
+   "lang": "TypeScript",
+   "stars": "372,528",
+   "desc": "交互式路线图、指南和其他教育内容，帮助开发人员在职业生涯中成长"
+  },
+  {
+   "repo": "vinta/awesome-python",
+   "url": "https://github.com/vinta/awesome-python",
+   "lang": "Python",
+   "stars": "336,325",
+   "desc": "回答“我想在Python中做X ，我应该使用哪个工具？”的最终列表"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "gogs/gogs",
+   "url": "https://github.com/gogs/gogs",
+   "lang": "Go",
+   "stars": "47,980",
+   "desc": "托管您自己的Git服务的轻松方式",
+   "en": false
+  },
+  {
+   "repo": "siyuan-note/siyuan",
+   "url": "https://github.com/siyuan-note/siyuan",
+   "lang": "TypeScript",
+   "stars": "47,337",
+   "desc": "开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
+   "en": false
+  },
+  {
+   "repo": "janhq/jan",
+   "url": "https://github.com/janhq/jan",
+   "lang": "Rust",
+   "stars": "46,007",
+   "desc": "JAN是ChatGPT的开源替代方案，可在您的计算机上100%离线运行",
+   "en": false
+  },
+  {
+   "repo": "reactive-resume/reactive-resume",
+   "url": "https://github.com/reactive-resume/reactive-resume",
+   "lang": "TypeScript",
+   "stars": "45,973",
+   "desc": "独一无二的简历生成器，可保护您的隐私",
+   "en": false
+  },
+  {
+   "repo": "appsmithorg/appsmith",
+   "url": "https://github.com/appsmithorg/appsmith",
+   "lang": "TypeScript",
+   "stars": "41,287",
+   "desc": "用于搭建管理后台、内部工具与仪表盘的平台，可接入 25 种以上数据库及任意 API",
+   "en": false
+  },
+  {
+   "repo": "ToolJet/ToolJet",
+   "url": "https://github.com/ToolJet/ToolJet",
+   "lang": "HTML",
+   "stars": "41,276",
+   "desc": "ToolJet AI 的开源底座：企业级应用生成平台，可构建内部工具、仪表盘、业务应用、工作流与 AI 智能体，支持可视化搭建、提示词生成，或通过 MCP 接入 Claude Code、Codex 与 Cursor",
+   "en": false
+  },
+  {
+   "repo": "photoprism/photoprism",
+   "url": "https://github.com/photoprism/photoprism",
+   "lang": "Go",
+   "stars": "40,469",
+   "desc": "AI 驱动的照片管理应用",
+   "en": false
+  },
+  {
+   "repo": "TriliumNext/Trilium",
+   "url": "https://github.com/TriliumNext/Trilium",
+   "lang": "TypeScript",
+   "stars": "39,047",
+   "desc": "用 Trilium Notes 搭建个人知识库",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 3954.57,
+   "chg": -0.76,
+   "pe": 13.53,
+   "pe_pct": 68,
+   "pb": 1.34,
+   "pb_pct": 22,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6006.08,
+   "chg": -3.93,
+   "pe": 25.7,
+   "pe_pct": 48,
+   "pb": 1.88,
+   "pb_pct": 46,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2212.13,
+   "chg": -3.54,
+   "pe": 25.08,
+   "pe_pct": 2,
+   "pb": 3.53,
+   "pb_pct": 8,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1231.09,
+   "chg": -3.12,
+   "pe": 90.55,
+   "pe_pct": 74,
+   "pb": 6.1,
+   "pb_pct": 58,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5529.78,
+   "chg": -0.33,
+   "pe": 9.49,
+   "pe_pct": 91,
+   "pb": 0.92,
+   "pb_pct": 64,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11620.32,
+   "chg": 0.28,
+   "pe": 9.54,
+   "pe_pct": 81,
+   "pb": 0.96,
+   "pb_pct": 72,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "恒生指数",
+   "point": 22410.8,
+   "chg": -1.89,
+   "pe": 10.18,
+   "pe_pct": 41,
+   "pb": 1.03,
+   "pb_pct": 35,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 22617.73,
+   "chg": -5.28,
+   "pe": 25.46,
+   "pe_pct": 15,
+   "pb": 7.89,
+   "pb_pct": 54,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 6910.39,
+   "chg": -3.7,
+   "pe": 22.37,
+   "pe_pct": 22,
+   "pb": 5.05,
+   "pb_pct": 82,
+   "pe_level": "低估",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "保险Ⅱ",
+    "chg": 0.39
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": 0.22
+   },
+   {
+    "name": "航运港口",
+    "chg": -1.12
+   },
+   {
+    "name": "元件",
+    "chg": -1.21
+   },
+   {
+    "name": "煤炭",
+    "chg": -1.25
+   },
+   {
+    "name": "证券Ⅱ",
+    "chg": -1.32
+   }
+  ],
+  "dn": [
+   {
+    "name": "通信设备",
+    "chg": -6.66
+   },
+   {
+    "name": "仪器仪表",
+    "chg": -6.37
+   },
+   {
+    "name": "通用设备",
+    "chg": -5.88
+   },
+   {
+    "name": "电网设备",
+    "chg": -5.62
+   },
+   {
+    "name": "家用电器",
+    "chg": -5.36
+   },
+   {
+    "name": "化学制品",
+    "chg": -5.31
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-3.99%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 7.2640（2026-11-20）（≈ 726 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.5613",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.2387",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.2047",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "2.9296",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.5839",
+   "date": "2026-11-20"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.7791",
+   "date": "2026-11-19"
+  }
+ ],
+ "macro": [
+  {
+   "title": "下周A股，非常关键！",
+   "ctime": "1795324733",
+   "url": "https://finance.sina.com.cn/stock/roll/2026-11-22/doc-inizqrxh2902967.shtml"
+  },
+  {
+   "title": "美股要“通宵”了，专家：A股、港股盘中震荡很可能加大",
+   "ctime": "1795324637",
+   "url": "https://finance.sina.com.cn/stock/roll/2026-11-22/doc-inizqrxe6127401.shtml"
+  },
+  {
+   "title": "下周A股28家公司限售股解禁：蓝特光学、炬光科技等热门股在列 多只价格曾翻倍",
+   "ctime": "1795318200",
+   "url": "https://finance.sina.com.cn/stock/roll/2026-11-22/doc-inizqrxh2848114.shtml"
+  },
+  {
+   "title": "江西铜业股份于11月20日斥资1172.97万元回购41.41万股A股",
+   "ctime": "1795316313",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-22/doc-inizqmrh6165319.shtml"
+  },
+  {
+   "title": "中国东方航空股份：截至11月20日累计回购1.01亿股A股",
+   "ctime": "1795315634",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-22/doc-inizqmrn9115699.shtml"
+  },
+  {
+   "title": "澳大利亚情报主管警示数据中心与AI潜藏风险",
+   "ctime": "1795315152",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-22/doc-inizqmrn9110965.shtml"
+  },
+  {
+   "title": "美国民众债务创纪录，特朗普放开空间，推动两党协商信用卡利率上限方案",
+   "ctime": "1795315016",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-22/doc-inizqmrq1438017.shtml"
+  },
+  {
+   "title": "唱空中国经济者终会落空！",
+   "ctime": "1795314343",
+   "url": "https://finance.sina.com.cn/stock/roll/2026-11-22/doc-inizqmrh6153997.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 2,
+   "pe": 25.0797,
+   "pb_pct": 8,
+   "pb": 3.5262
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 15,
+   "pe": 25.4592,
+   "pb_pct": 54,
+   "pb": 7.8855
+  }
+ ]
+}
