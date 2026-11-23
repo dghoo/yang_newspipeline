@@ -1,0 +1,534 @@
+{
+ "date": "2026-11-23",
+ "weekday": "一",
+ "val_date": "11-20",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Anthropic IPO 前三家机构如何重注押注",
+    "url": "https://aihot.news/items/dus34samsjrld1qopq65v54uq",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-11-23T01:25:53.000Z",
+    "summary": "TechCrunch 报道 Notable Capital、GIC 和 Baillie Gifford 在 Anthropic IPO 前的重仓投资逻辑。"
+   },
+   {
+    "kind": "news",
+    "title": "卡兹克分享 Claude、GPT、Gemini 三模型协同调度方法",
+    "url": "https://aihot.news/items/hz782dpcwhurj6584rtd13eaf",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-11-22T23:56:00.000Z",
+    "summary": "自媒体作者卡兹克分享自己让 Claude、GPT 和 Gemini 协同工作的方法：把 Claude Opus 5.5 当总指挥负责沟通、拆解和验收，Gemini 4 Neon 当军师出方案和改界面文案，GPT 负责后端、算法、修 BUG 和代码审查。"
+   },
+   {
+    "kind": "news",
+    "title": "MiniCPM 8B 成为老挝国家模型，端侧小模型加速落地多国",
+    "url": "https://aihot.news/items/dr26culfdd1cb21w56i8iruts",
+    "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+    "publishedAt": "2026-11-22T11:25:20.000Z",
+    "summary": "面壁智能转发并认同 @xiaoanlab 对 MiniCPM 端侧落地的观察：截至 2026 年 11 月 MiniCPM 下载量超过 7000 万，其 8B 老挝国家模型接入老挝政府 G-Chat v2 通讯软件，老挝翻译在国际基准上超过 GPT-4o。马来西亚用 VoxCPM2 做语音交互，肯尼亚一家银行在其上运行端侧风控 Agent，开发者基于它推出离线应用；小模型之争正从参数量转向谁真正嵌入日常系统。"
+   },
+   {
+    "kind": "news",
+    "title": "用户实测用 MiniCPM5-2B 在 Mac 上本地跑通体检报告分析",
+    "url": "https://aihot.news/items/g3vdho0vzm8rzriiz5grruy3m",
+    "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+    "publishedAt": "2026-11-22T11:15:31.000Z",
+    "summary": "用户@cxjwin 分享在 Mac（M4 Pro、48GB）上用 Homebrew 装 llama.cpp 跑 minicpm5-2b、colima 起 Docker 本地运行开源项目 Mirobody 的实测：14 页 PDF 首次处理漏掉 3 页扫描版化验单，截图单独上传后 58 行化验数值逐项与原件对上，其中 20 行成功映射到 LOINC 标准编码，肌酐因名称歧义留空未猜。问超标指标时 2B 模型走 11 步找到全部 5 项箭头指标，但把一项在范围内的血糖误判为超标。接 Claude Code 时改用演示账号避免数据上传。Mirobody 由 Theta Health 以 Apache-2.0 开源，网页版和微信小程序也基于它。"
+   },
+   {
+    "kind": "news",
+    "title": "Lean 与 Mathlib 社区确认 Levent Alpöge 黎曼猜想证明正确",
+    "url": "https://aihot.news/items/ikpixx0j7414se1f6lww2csek",
+    "source": "The Decoder：AI News（RSS）",
+    "publishedAt": "2026-11-22T11:08:31.000Z",
+    "summary": "Lean 与 Mathlib 社区发表声明，确认斯坦福数学家 Levent Alpöge 的黎曼猜想证明正确。Alpöge 于 2026 年 11 月 20 日以 1700 万行 Lean 代码发布该证明，数十人独立运行得到相同结果，且验证程序被设计为可证明不会接受有缺陷的证明。"
+   },
+   {
+    "kind": "news",
+    "title": "菲尔兹奖得主梅纳德谈 Claude 合作证明黎曼猜想：相信证明正确，但需被理解才可能获认可",
+    "url": "https://aihot.news/items/p9h5xzsooms0foxeakoivy7qt",
+    "source": "IT之家·人工智能",
+    "publishedAt": "2026-11-22T09:35:58.183Z",
+    "summary": "2022 年菲尔兹奖得主、牛津大学数学教授詹姆斯·梅纳德（James Maynard）在采访中表示，他认为 Anthropic 数学家莱文特·阿尔珀格（Levent Alpöge）与 Claude 合作完成的黎曼猜想证明是正确的，依据是该证明已通过 Lean 库形式化验证并经独立核实，且阿尔珀格过往有可靠记录。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 提议以困惑度作为行业共享指标并公开内部预训练测量数据",
+    "url": "https://aihot.news/items/r7kb35fpdwc1m2iqsmd310tdj",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-11-22T00:00:00.000Z",
+    "summary": "OpenAI 撰文提议将 perplexity（交叉熵损失）确立为跨模型开发者比较和安全标准的共享指标，并公开其内部预训练测量数据。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Reflection 与 Andon Labs 实测 Beam 智能体自主运营售货业务的安全风险",
+    "url": "https://aihot.news/items/w0ka422uzqyautrrsmzlmk9iq",
+    "source": "Reflection Blog",
+    "publishedAt": "2026-11-19T16:00:00.000Z",
+    "summary": "Reflection 与 Andon Labs 合作开展真实环境评测，让 Beam 智能体自主运营纽约和旧金山办公室的售货业务，测试其无人干预下的自主性与失控风险。"
+   },
+   {
+    "kind": "news",
+    "title": "Stanford RegLab 发布 PhantomDocket 基准，追踪美国州法院诉讼文书中的 AI 辅助写作",
+    "url": "https://aihot.news/items/wi5cfyezztfdcojsokxto4q0d",
+    "source": "Stanford HAI News（网页）",
+    "publishedAt": "2026-11-18T16:00:00.000Z",
+    "summary": "Stanford HAI 与 RegLab 研究者发布论文 Detection Objection 和 PhantomDocket 基准，基于 Damien Charlotin 的 AI 幻觉案例数据库校准 AI 检测器，追踪四个州法院的 AI 辅助写作。"
+   },
+   {
+    "kind": "news",
+    "title": "Wiz 披露 NGINX 两个 HTTP/2 无需认证远程代码执行漏洞 CVE-2026-123633 与 CVE-2026-123007",
+    "url": "https://aihot.news/items/x8i90coywg5pag1dmf436vgg5",
+    "source": "Wiz：Research（安全研究）",
+    "publishedAt": "2026-11-18T15:13:20.000Z",
+    "summary": "Wiz Research 与 Ikotas Labs、Rapid7 等团队独立发现 NGINX 两个 Critical 远程代码执行漏洞，CVSS 4.0 评分 9.2，已与 F5 协调并于 2026-11-18 发布修复。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 发布 GPT-6.2 Astra 和 Sol：更便宜但口碑分化，Anthropic 仍握最强模型",
+    "url": "https://aihot.news/items/oisr0dfay736le62g425urn8l",
+    "source": "Latent Space（RSS）",
+    "publishedAt": "2026-11-18T10:19:04.000Z",
+    "summary": "Latent Space 汇总 OpenAI 发布的 GPT-6.2 Astra 和 Sol：Artificial Analysis 测得 Sol 以约 15% 的单任务成本追平 9 月的 Astra，新 Astra 以 62 分位居 Intelligence Index 第二，仅次于 Fable 5.2 的 65 分，两者均为 1M 上下文、128K 输出。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "KRAFTON/Raon-1-nano",
+    "url": "https://hf-mirror.com/KRAFTON/Raon-1-nano",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 239,
+    "downloads": 3309,
+    "createdAt": "2026-10-29",
+    "intro": "Raon-1 nano 是一款由 KRAFTON AI 开发的密集型语言模型，具有 15 亿个有效参数（总计 31 亿个，包括 15 亿个单层嵌入表）"
+   },
+   {
+    "kind": "model",
+    "id": "kitaniai/clover-2",
+    "url": "https://hf-mirror.com/kitaniai/clover-2",
+    "license": "other",
+    "param": "",
+    "likes": 75,
+    "downloads": 0,
+    "createdAt": "2026-11-17",
+    "intro": "Clover 2 是一款 LoRA 专家混合语言模型，基于 Qwen3.8-27B 架构，采用约 278 亿参数的密集型基座"
+   },
+   {
+    "kind": "model",
+    "id": "inclusionAI/LingSante-3.1-flash",
+    "url": "https://hf-mirror.com/inclusionAI/LingSante-3.1-flash",
+    "license": "mit",
+    "param": "",
+    "likes": 68,
+    "downloads": 0,
+    "createdAt": "2026-11-19",
+    "intro": "现实世界的医疗任务带来了超出一般智能的挑战，包括不完整的健康信息、显著的患者异质性以及严格的运营和合规要求"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "elementalsouls/Claude-BugHunter",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "lang": "Python",
+   "stars": "18,438",
+   "desc": "用于漏洞挖掘和外部红队工作的 Claude Code 技能包——82 项技能、15 个斜杠命令、681 个披露报告模式，涵盖 24 个核心漏洞类别，外加企业级功能"
+  },
+  {
+   "repo": "google-labs-code/stitch-skills",
+   "url": "https://github.com/google-labs-code/stitch-skills",
+   "lang": "TypeScript",
+   "stars": "12,048",
+   "desc": "一个专为与 Stitch MCP 服务器配合使用而设计的智能体技能库"
+  },
+  {
+   "repo": "libracoder/kiri",
+   "url": "https://github.com/libracoder/kiri",
+   "lang": "Rust",
+   "stars": "12,444",
+   "desc": "适用于macOS、Windows和Linux的小型快速容器运行时，提供免费的Ngrok替代方案"
+  },
+  {
+   "repo": "zortos293/Lichii",
+   "url": "https://github.com/zortos293/Lichii",
+   "lang": "C++",
+   "stars": "10,098",
+   "desc": "非常实验性的Nintendo Switch 2仿真器"
+  },
+  {
+   "repo": "patch-gg/pixelfx",
+   "url": "https://github.com/patch-gg/pixelfx",
+   "lang": "JavaScript",
+   "stars": "8,808",
+   "desc": "244像素的艺术效果，每一个都是一小段代码"
+  },
+  {
+   "repo": "anhao/ai-pose-gallery-zh",
+   "url": "https://github.com/anhao/ai-pose-gallery-zh",
+   "lang": "TypeScript",
+   "stars": "7,892",
+   "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊"
+  },
+  {
+   "repo": "ersinkoc/phonebox",
+   "url": "https://github.com/ersinkoc/phonebox",
+   "lang": "JavaScript",
+   "stars": "5,183",
+   "desc": "将旧的安卓手机变成可定制的桌面面板和触摸控制面板，适用于 Windows、Linux 和 macOS"
+  },
+  {
+   "repo": "practical-tutorials/project-based-learning",
+   "url": "https://github.com/practical-tutorials/project-based-learning",
+   "lang": "Python",
+   "stars": "290,306",
+   "desc": "精选的项目式教程列表"
+  },
+  {
+   "repo": "deepseek-ai/deepseek-harness",
+   "url": "https://github.com/deepseek-ai/deepseek-harness",
+   "lang": "TypeScript",
+   "stars": "285,758",
+   "desc": "DeepSeek框架：一切都是插件"
+  },
+  {
+   "repo": "NousResearch/hermes-agent",
+   "url": "https://github.com/NousResearch/hermes-agent",
+   "lang": "Python",
+   "stars": "265,514",
+   "desc": "与您一起成长的智能体"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "Dokploy/dokploy",
+   "url": "https://github.com/Dokploy/dokploy",
+   "lang": "TypeScript",
+   "stars": "38,648",
+   "desc": "Vercel、Netlify 与 Heroku 的开源替代方案",
+   "en": false
+  },
+  {
+   "repo": "glanceapp/glance",
+   "url": "https://github.com/glanceapp/glance",
+   "lang": "Go",
+   "stars": "38,350",
+   "desc": "自托管信息仪表盘，把所有订阅源汇集到一处",
+   "en": false
+  },
+  {
+   "repo": "khoj-ai/khoj",
+   "url": "https://github.com/khoj-ai/khoj",
+   "lang": "Python",
+   "stars": "38,213",
+   "desc": "你的 AI 第二大脑，可自托管：从网页或本地文档中检索答案，构建自定义智能体、定时自动化与深度研究，支持接入任意在线或本地大模型",
+   "en": false
+  },
+  {
+   "repo": "agentscope-ai/QwenPaw",
+   "url": "https://github.com/agentscope-ai/QwenPaw",
+   "lang": "Python",
+   "stars": "38,118",
+   "desc": "你的个人 AI 助手；安装简单，可部署在自有机器或云端；支持多个聊天应用，能力可轻松扩展。",
+   "en": false
+  },
+  {
+   "repo": "langfuse/langfuse",
+   "url": "https://github.com/langfuse/langfuse",
+   "lang": "TypeScript",
+   "stars": "37,744",
+   "desc": "🪢 开源人工智能工程平台：基于 OpenTelemetry 构建的 AI Gateway、代理可观测性、评估以及提示/技能管理",
+   "en": false
+  },
+  {
+   "repo": "IceWhaleTech/CasaOS",
+   "url": "https://github.com/IceWhaleTech/CasaOS",
+   "lang": "Go",
+   "stars": "37,693",
+   "desc": "CasaOS：简单易用、优雅的开源个人云系统",
+   "en": false
+  },
+  {
+   "repo": "community-scripts/ProxmoxVE",
+   "url": "https://github.com/community-scripts/ProxmoxVE",
+   "lang": "Shell",
+   "stars": "30,165",
+   "desc": "Proxmox VE辅助脚本（社区版）",
+   "en": false
+  },
+  {
+   "repo": "henrygd/beszel",
+   "url": "https://github.com/henrygd/beszel",
+   "lang": "Go",
+   "stars": "27,564",
+   "desc": "使用历史数据、docker统计数据和警报进行轻量级服务器监控",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 3958.29,
+   "chg": 0.09,
+   "pe": 13.53,
+   "pe_pct": 68,
+   "pb": 1.34,
+   "pb_pct": 22,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6128.99,
+   "chg": 2.05,
+   "pe": 25.7,
+   "pe_pct": 48,
+   "pb": 1.88,
+   "pb_pct": 46,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2280.2,
+   "chg": 3.08,
+   "pe": 25.08,
+   "pe_pct": 2,
+   "pb": 3.53,
+   "pb_pct": 8,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1227.89,
+   "chg": -0.26,
+   "pe": 90.55,
+   "pe_pct": 74,
+   "pb": 6.1,
+   "pb_pct": 58,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5492.17,
+   "chg": -0.68,
+   "pe": 9.49,
+   "pe_pct": 91,
+   "pb": 0.92,
+   "pb_pct": 64,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11493.88,
+   "chg": -1.09,
+   "pe": 9.54,
+   "pe_pct": 81,
+   "pb": 0.96,
+   "pb_pct": 72,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "恒生指数",
+   "point": 22374.27,
+   "chg": -0.16,
+   "pe": 10.18,
+   "pe_pct": 41,
+   "pb": 1.03,
+   "pb_pct": 35,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 22617.73,
+   "chg": -5.28,
+   "pe": 25.46,
+   "pe_pct": 15,
+   "pb": 7.89,
+   "pb_pct": 54,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 6910.39,
+   "chg": -3.7,
+   "pe": 22.37,
+   "pe_pct": 22,
+   "pb": 5.05,
+   "pb_pct": 82,
+   "pe_level": "低估",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "医疗服务",
+    "chg": 5.79
+   },
+   {
+    "name": "元件",
+    "chg": 5.39
+   },
+   {
+    "name": "传媒",
+    "chg": 5.14
+   },
+   {
+    "name": "通用设备",
+    "chg": 4.84
+   },
+   {
+    "name": "塑料",
+    "chg": 4.64
+   },
+   {
+    "name": "汽车零部件",
+    "chg": 4.41
+   }
+  ],
+  "dn": [
+   {
+    "name": "保险Ⅱ",
+    "chg": -1.72
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": -0.21
+   },
+   {
+    "name": "煤炭",
+    "chg": -0.18
+   },
+   {
+    "name": "钢铁",
+    "chg": 0.02
+   },
+   {
+    "name": "物流",
+    "chg": 0.18
+   },
+   {
+    "name": "电力",
+    "chg": 0.24
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+3.15%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 7.2640（2026-11-20）（≈ 726 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.5613",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.2387",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.2047",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "2.9296",
+   "date": "2026-11-19"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.5839",
+   "date": "2026-11-20"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.7791",
+   "date": "2026-11-19"
+  }
+ ],
+ "macro": [
+  {
+   "title": "【广发宏观郭磊】潮汐之间：2027年宏观环境展望",
+   "ctime": "1795417501",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-23/doc-iniztfmy5476689.shtml"
+  },
+  {
+   "title": "印尼央行官员：印尼卢比汇率保持稳定并趋于走强",
+   "ctime": "1795416838",
+   "url": "https://finance.sina.com.cn/money/bond/2026-11-23/doc-iniztfne8276376.shtml"
+  },
+  {
+   "title": "稳市政策“组合拳”三箭齐发！沪深300ETF华泰柏瑞（510300）交投踊跃，单日成交182亿元",
+   "ctime": "1795419685",
+   "url": "https://finance.sina.com.cn/money/fund/jjh/2026-11-23/doc-iniztfmy5504284.shtml"
+  },
+  {
+   "title": "伯恩斯坦：即使甲骨文AI数据中心业务完全失败，股价仍有31%上涨空间",
+   "ctime": "1795418649",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-23/doc-iniztfna2263259.shtml"
+  },
+  {
+   "title": "美债逢低买盘涌现，拐点已致？瑞银：收益率回调或存在过度演绎，别急着“接下落的飞刀”",
+   "ctime": "1795416426",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-23/doc-iniztfna2229744.shtml"
+  },
+  {
+   "title": "AI数据中心热潮驱动数百亿资金涌入私募基础设施赛道",
+   "ctime": "1795416092",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-23/doc-iniztfna2222061.shtml"
+  },
+  {
+   "title": "今日黄金：低位反弹，美债收益率回落缓解金价下行压力",
+   "ctime": "1795415924",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-23/doc-inizszea5574095.shtml"
+  },
+  {
+   "title": "新加坡10月通胀降至1.9%，核心通胀低于预期",
+   "ctime": "1795415157",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-23/doc-inizszeh8372089.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 2,
+   "pe": 25.0797,
+   "pb_pct": 8,
+   "pb": 3.5262
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 15,
+   "pe": 25.4592,
+   "pb_pct": 54,
+   "pb": 7.8855
+  }
+ ]
+}

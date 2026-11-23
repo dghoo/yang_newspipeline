@@ -523,5 +523,11 @@
   "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.": "词光 · Word Atlas — 带插图的雅思词汇，包含 7,298 个单词、英式/美式音频和 FSRS 复习",
   "Master programming by recreating your favorite technologies from scratch.": "从零开始重构您最喜爱的技术，从而掌握编程",
   "Microsoft Windows Applied Sciences Group": "Microsoft Windows 应用科学小组",
-  "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6": "Leonida 是《侠盗猎车手 6》Xbox 版的 PC 原生重编译版"
+  "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6": "Leonida 是《侠盗猎车手 6》Xbox 版的 PC 原生重编译版",
+  "Clover 2 is a Mixture of LoRA Experts language model built on a ~27.8B-parameter dense base using the Qwen3.8-27B architecture.": "Clover 2 是一款 LoRA 专家混合语言模型，基于 Qwen3.8-27B 架构，采用约 278 亿参数的密集型基座",
+  "Real-world medical tasks present challenges that go beyond general intelligence, including incomplete health information, substantial patient heterogeneity, and strict operational and compliance requirements. To address these demands, LingSante-3.1-flash is trained to unify medical reasoning and workflow execution through native medical-mixed pretraining, mid-training, supervised fine-tuning, task-specific reinforcement learning, and multi-teacher on-policy distillation. The model can verify evidence across scenarios, deliver professional judgments, and independently complete multi-stage workf": "现实世界的医疗任务带来了超出一般智能的挑战，包括不完整的健康信息、显著的患者异质性以及严格的运营和合规要求",
+  "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.": "用于漏洞挖掘和外部红队工作的 Claude Code 技能包——82 项技能、15 个斜杠命令、681 个披露报告模式，涵盖 24 个核心漏洞类别，外加企业级功能",
+  "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.": "一个专为与 Stitch MCP 服务器配合使用而设计的智能体技能库",
+  "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.": "将旧的安卓手机变成可定制的桌面面板和触摸控制面板，适用于 Windows、Linux 和 macOS",
+  "Curated list of project-based tutorials": "精选的项目式教程列表"
 }
