@@ -1,0 +1,531 @@
+{
+ "date": "2026-11-24",
+ "weekday": "二",
+ "val_date": "11-23",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "OpenAI 与 Cisco 发布开源 Linux 运行时 Shirudo，让 Agent 无停机防御系统",
+    "url": "https://aihot.news/items/d41p6k2h48zm8u2kl5xdzqx5h",
+    "source": "X：Tibo (@thsottiaux)",
+    "publishedAt": "2026-11-24T08:15:44.000Z",
+    "summary": "OpenAI 宣布与 Cisco 合作推出开源 Linux 运行时 Shirudo，让 Agent 编写动态 eBPF 控制来抵御漏洞利用，同时保持服务不中断，为防御方争取测试和部署补丁的时间。作者称这是迈向自适应自防御基础设施的第一步，目标是让防御者与 AI Agent 协作定位受影响系统、测试并共享 shield、在不干扰工作负载的情况下部署。"
+   },
+   {
+    "kind": "news",
+    "title": "卡兹克分享两个优化用户体验和产品动效的 Prompt",
+    "url": "https://aihot.news/items/jb7ohptrc5ctyx9maoimz2hn0",
+    "source": "X：卡兹克 (@Khazix0918)",
+    "publishedAt": "2026-11-24T06:12:14.000Z",
+    "summary": "数字生命卡兹克分享自己做产品时用的两个 Prompt，一个按用户体验至上的原则审查项目交互并直接修复，一个把项目动效做到细腻丝滑水准。要点包括让 Gemini 当方案顾问、按状态变化逐项审查动效，完成后让 GPT 审查再合并上线。"
+   },
+   {
+    "kind": "news",
+    "title": "MiniMax 发布 H3 Family 系列模型，H3 开源百日衍生模型达 1472 个、下载量超 1.48 亿次",
+    "url": "https://aihot.news/items/f1380j6hyrxn0rnz6666nu3b8",
+    "source": "公众号：MiniMax（稀宇科技）",
+    "publishedAt": "2026-11-24T02:11:36.000Z",
+    "summary": "MiniMax 推出 H3 Family，包含 H3、H3-Highspeed、H3-Lite、H3-Image、H3-Image Highspeed 等旗舰模型及 fal、Suno、HeyGen、Pika 等伙伴的多个扩展模型。"
+   },
+   {
+    "kind": "news",
+    "title": "ChinaTalk 播客：Nvidia 董事会恢复黄仁勋职务，美商务部将 Megaspeed 列入实体清单",
+    "url": "https://aihot.news/items/zto0pspydy8330r0bvwqb6j5z",
+    "source": "ChinaTalk（RSS）",
+    "publishedAt": "2026-11-24T01:41:25.000Z",
+    "summary": "ChinaTalk 主持人 Jordan Schneider 邀请 Chris McGuire 与 Peter Harrell 紧急讨论 Nvidia 董事会在美国政府表态后一致恢复黄仁勋职务，以及美国商务部同日将 Megaspeed 列入实体清单。节目围绕出口管制执法、实体清单是否附加外国直接产品规则（FDPR）、国会相关立法（AI Overwatch、MATCH、RASA）的覆盖范围与局限，以及政策与股市波动之间的互动展开分析。"
+   },
+   {
+    "kind": "news",
+    "title": "ChatGPT 推出面向日常对话优化的 GPT-6.2 Sol",
+    "url": "https://aihot.news/items/gl6fl6hsisrt26tg83li0j4gk",
+    "source": "X：Tibo (@thsottiaux)",
+    "publishedAt": "2026-11-23T22:48:30.000Z",
+    "summary": "ChatGPT 宣布在 Chat 标签页推出面向日常对话优化的 GPT-6.2 Sol，今日起面向 Plus、Pro、Business 和 Enterprise 用户开放。该版本更擅长处理复杂请求和在线信息查找，能识别照片中标签文字、路牌符号等细节，并更好地根据价格、位置等偏好缩小选项范围。转发者 Tibo 表示答案质量会有明显提升，年底前应用体验还会更快、更简洁。"
+   },
+   {
+    "kind": "news",
+    "title": "Claude 推出插件，统一连接器与技能的接入方式",
+    "url": "https://aihot.news/items/h1vnjuwxsli7ku7rpocjlr3s2",
+    "source": "X：Claude (@claudeai)",
+    "publishedAt": "2026-11-23T20:56:12.000Z",
+    "summary": "Claude 官方宣布将连接器和技能合并为插件，提供统一的方式为 Claude 接入工具或教授新技能。插件已在 Free、Pro、Max 和 Ultra 套餐上线，Team 和 Enterprise 即将支持，用户可在 https://claude.ai/plugins 浏览 10,000 多个插件。"
+   },
+   {
+    "kind": "news",
+    "title": "Figma agent 正式开放至 FigJam 和 Figma Slides",
+    "url": "https://aihot.news/items/zur9ndkrkvtk4lqiix14q468s",
+    "source": "Figma AI / Agent / Make",
+    "publishedAt": "2026-11-23T20:54:00.000Z",
+    "summary": "Figma agent 现已在 FigJam 和 Figma Slides 上对所有付费计划全面开放，支持连接器和附件，可将设计文件、会议记录或研究笔记等材料整理到 FigJam 白板或生成演示文稿初稿。"
+   },
+   {
+    "kind": "news",
+    "title": "俄勒冈州和弗吉尼亚州起诉 SpaceX 指控 Grok 生成色情深伪防护不足",
+    "url": "https://aihot.news/items/vlxrimiuixb91iodhjh5hxmte",
+    "source": "The Verge：AI（RSS）",
+    "publishedAt": "2026-11-23T18:26:47.000Z",
+    "summary": "俄勒冈州和弗吉尼亚州总检察长周一分别起诉 SpaceX，指控其忽视行业标准防护并虚假宣传 X 平台和 Grok AI 的安全性，两案均寻求经济赔偿。诉讼核心指向 Grok Imagine：xAI 于 2025 年 8 月为该工具推出生成色情内容的 spicy 模式，2026 年 1 月又允许 X 用户无需同意即可编辑任意图片，导致非自愿色情深伪泛滥。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Google DeepMind 用 Gemini 4 智能体团队与 Lean 形式化验证改进量子算法",
+    "url": "https://aihot.news/items/pjpgapf3mbvmy98cywxhwf07n",
+    "source": "Google DeepMind：Blog（RSS）",
+    "publishedAt": "2026-11-23T16:59:40.000Z",
+    "summary": "Google DeepMind 发布新论文，用多个 Gemini 4 智能体团队结合 Lean 形式化定理证明改进量子算法，生成经数学验证的高效量子电路，并在 GitHub 开源 Lean 库、问题规格和验证解法。"
+   },
+   {
+    "kind": "news",
+    "title": "智谱发布GLM-5.4：首个Loop Transformer架构旗舰模型开启泛Coding",
+    "url": "https://aihot.news/items/d4hhqnlmrclsx7d6idtvq95wz",
+    "source": "公众号：智谱（GLM）",
+    "publishedAt": "2026-11-23T09:42:11.000Z",
+    "summary": "智谱发布旗舰模型GLM-5.4，为第一代采用Loop Transformer架构的模型，让28层共享权重循环执行两轮，在参数量不变下获得更深推理，智能水平达到2-3T级模型效果，并开启泛Coding能力。"
+   },
+   {
+    "kind": "news",
+    "title": "AISI 红队论文：攻击策略选择会让 LLM 监视器评估结果失真",
+    "url": "https://aihot.news/items/tl8v9gto8rd3e4x40xfbljj13",
+    "source": "英国 AI Security Institute：Blog（网页）",
+    "publishedAt": "2026-11-22T23:00:00.000Z",
+    "summary": "英国 AI Security Institute 发布论文，测试合成攻击生成方式对监视器评估的影响。评估一个 OpenAI 前生产监视器时，同一监视器对不同攻击策略的漏报率从 0.2%（基础提示）到 23%（转录编辑）不等，优化程度也会显著改变结果。作者指出合成转录只是真实有害行为代理，其代表性难以证明，仅凭监视器评估不足以保证部署安全，需辅以能力限制、人工在环和沙箱等分层防护。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 访谈 58 家企业客户：AI 采用的价值、雇佣影响与组织重组",
+    "url": "https://aihot.news/items/gj8mzwrgqlkvim6xe382a35q2",
+    "source": "Anthropic：Research（发表成果 · 网页）",
+    "publishedAt": "2026-11-22T16:00:00.000Z",
+    "summary": "Anthropic 研究团队对 58 家企业客户进行 66 次面对面访谈，分析企业采用 AI 的方式、瓶颈与组织变化。研究发现多数 AI 应用通过扩大产出而非削减成本创造价值；直接裁员案例很少，但约三分之二的公司因 AI 减少招聘，九家削减外包和离岸承包商；高价值应用通常需要更深度的组织重组，如拓宽岗位职责、把员工转向 AI 无法完成的瓶颈任务，以及为非技术员工建设数据和基础设施支持。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "XingChen-AGI/Xing4.1-Preview",
+    "url": "https://hf-mirror.com/XingChen-AGI/Xing4.1-Preview",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 350,
+    "downloads": 672,
+    "createdAt": "2026-11-22",
+    "intro": "用于预训练的 AI 计算和框架——8,192 个 Ascend 910C 加速器 + MindSpore + 自主研发的训练系统"
+   },
+   {
+    "kind": "model",
+    "id": "baidu/ERNIE-5.5-Flash-Preview",
+    "url": "https://hf-mirror.com/baidu/ERNIE-5.5-Flash-Preview",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 167,
+    "downloads": 0,
+    "createdAt": "2026-11-23",
+    "intro": "ERNIE 5.5 Flash Preview 是基于我们此前发布的"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "mvanhorn/last30days-skill",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "lang": "Python",
+   "stars": "73,737",
+   "desc": "一种 AI 智能体技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后综合生成有事实依据的摘要"
+  },
+  {
+   "repo": "Minireel/HGhub",
+   "url": "https://github.com/Minireel/HGhub",
+   "lang": "Rust",
+   "stars": "11,707",
+   "desc": "插件式媒体播放器"
+  },
+  {
+   "repo": "RoutineMiku/apkstart",
+   "url": "https://github.com/RoutineMiku/apkstart",
+   "lang": "JavaScript",
+   "stars": "9,592",
+   "desc": "Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时"
+  },
+  {
+   "repo": "valentderah/totk-pc-recomp",
+   "url": "https://github.com/valentderah/totk-pc-recomp",
+   "lang": "C",
+   "stars": "8,171",
+   "desc": "使用Vulkan渲染器将《塞尔达传说：王国之泪》静态重新编译为本机Windows和Linux x86-64"
+  },
+  {
+   "repo": "Marvisak/VIctory",
+   "url": "https://github.com/Marvisak/VIctory",
+   "lang": "Rust",
+   "stars": "7,147",
+   "desc": "尝试在PC上运行《GTA VI》"
+  },
+  {
+   "repo": "vercel-labs/ui",
+   "url": "https://github.com/vercel-labs/ui",
+   "lang": "TypeScript",
+   "stars": "6,995",
+   "desc": "一个用于代理构建下一代用户界面的行为库"
+  },
+  {
+   "repo": "ivall/xcl",
+   "url": "https://github.com/ivall/xcl",
+   "lang": "Rust",
+   "stars": "5,769",
+   "desc": "适用于 Windows 的 Xbox Series 兼容层——以原生方式运行主机游戏代码，重新实现主机系统库，并将 RDNA2 着色器重新编译为 DXIL"
+  },
+  {
+   "repo": "BryceYuuu/RUN",
+   "url": "https://github.com/BryceYuuu/RUN",
+   "lang": "Python",
+   "stars": "5,042",
+   "desc": "RUN · 润：中国护照持有人的海外移居手册"
+  },
+  {
+   "repo": "expo/exact",
+   "url": "https://github.com/expo/exact",
+   "lang": "Rust",
+   "stars": "5,013",
+   "desc": "只需编写一次应用程序。它可在 Web、macOS、iOS 和 Linux 上原生运行，AI 代理可以在每个平台上构建、运行、查看和测试它"
+  },
+  {
+   "repo": "modelflare-ai/AnyModelBot",
+   "url": "https://github.com/modelflare-ai/AnyModelBot",
+   "lang": "Python",
+   "stars": "4,996",
+   "desc": "🤖 Grok Bot、OpenAI dots 和 Claude Duet 的开源、本地优先替代方案"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "f/prompts.chat",
+   "url": "https://github.com/f/prompts.chat",
+   "lang": "MDX",
+   "stars": "178,354",
+   "desc": "原名：Awesome ChatGPT Prompts",
+   "en": false
+  },
+  {
+   "repo": "netdata/netdata",
+   "url": "https://github.com/netdata/netdata",
+   "lang": "Go",
+   "stars": "81,602",
+   "desc": "全栈可观测性 · 指标 · 日志 · 跟踪 · 流 · 拓扑 · 基础设施 · APM · NPM · DBM · RUM · 合成监控 · 云 · AI SRE · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI ·",
+   "en": false
+  },
+  {
+   "repo": "bregman-arie/devops-exercises",
+   "url": "https://github.com/bregman-arie/devops-exercises",
+   "lang": "Python",
+   "stars": "86,925",
+   "desc": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
+   "en": false
+  },
+  {
+   "repo": "macrozheng/mall",
+   "url": "https://github.com/macrozheng/mall",
+   "lang": "Java",
+   "stars": "85,076",
+   "desc": "mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署",
+   "en": false
+  },
+  {
+   "repo": "moby/moby",
+   "url": "https://github.com/moby/moby",
+   "lang": "Go",
+   "stars": "72,311",
+   "desc": "Moby项目-容器生态系统的协作项目，用于组装基于容器的系统",
+   "en": false
+  },
+  {
+   "repo": "dani-garcia/vaultwarden",
+   "url": "https://github.com/dani-garcia/vaultwarden",
+   "lang": "Rust",
+   "stars": "71,263",
+   "desc": "用Rust编写的非官方Bitwarden兼容服务器，以前称为bitwarden_rs",
+   "en": false
+  },
+  {
+   "repo": "traefik/traefik",
+   "url": "https://github.com/traefik/traefik",
+   "lang": "Go",
+   "stars": "65,677",
+   "desc": "云原生应用程序代理",
+   "en": false
+  },
+  {
+   "repo": "sansan0/TrendRadar",
+   "url": "https://github.com/sansan0/TrendRadar",
+   "lang": "Python",
+   "stars": "63,845",
+   "desc": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, web search, MCP & smart alerts.🎯 告别信息过载，你的 AI     舆情监控助手与热点筛选工具",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 3963.82,
+   "chg": 0.14,
+   "pe": 13.43,
+   "pe_pct": 66,
+   "pb": 1.33,
+   "pb_pct": 19,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6112.43,
+   "chg": -0.27,
+   "pe": 26.18,
+   "pe_pct": 51,
+   "pb": 1.92,
+   "pb_pct": 49,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2278.99,
+   "chg": -0.05,
+   "pe": 25.79,
+   "pe_pct": 3,
+   "pb": 3.63,
+   "pb_pct": 11,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1250.09,
+   "chg": 1.81,
+   "pe": 90.07,
+   "pe_pct": 74,
+   "pb": 6.06,
+   "pb_pct": 58,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5447.88,
+   "chg": -0.81,
+   "pe": 9.33,
+   "pe_pct": 89,
+   "pb": 0.91,
+   "pb_pct": 62,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11447.24,
+   "chg": -0.41,
+   "pe": 9.38,
+   "pe_pct": 80,
+   "pb": 0.94,
+   "pb_pct": 69,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 22219.65,
+   "chg": -0.73,
+   "pe": 10.15,
+   "pe_pct": 40,
+   "pb": 1.02,
+   "pb_pct": 34,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 24089.56,
+   "chg": 6.51,
+   "pe": 25.31,
+   "pe_pct": 14,
+   "pb": 7.84,
+   "pb_pct": 53,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7237.17,
+   "chg": 4.73,
+   "pe": 22.35,
+   "pe_pct": 22,
+   "pb": 5.04,
+   "pb_pct": 82,
+   "pe_level": "低估",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "保险Ⅱ",
+    "chg": 2.08
+   },
+   {
+    "name": "家用电器",
+    "chg": 1.16
+   },
+   {
+    "name": "仪器仪表",
+    "chg": 1.09
+   },
+   {
+    "name": "塑料",
+    "chg": 0.89
+   },
+   {
+    "name": "装修装饰Ⅱ",
+    "chg": 0.8
+   },
+   {
+    "name": "汽车零部件",
+    "chg": 0.79
+   }
+  ],
+  "dn": [
+   {
+    "name": "煤炭",
+    "chg": -2.07
+   },
+   {
+    "name": "玻璃玻纤",
+    "chg": -1.88
+   },
+   {
+    "name": "证券Ⅱ",
+    "chg": -1.56
+   },
+   {
+    "name": "贸易Ⅱ",
+    "chg": -1.55
+   },
+   {
+    "name": "水泥",
+    "chg": -1.46
+   },
+   {
+    "name": "钢铁",
+    "chg": -1.44
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（-0.85%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 7.4235（2026-11-23）（≈ 742 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.2544",
+   "date": "2026-11-20"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "6.8377",
+   "date": "2026-11-20"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.2465",
+   "date": "2026-11-23"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "2.9530",
+   "date": "2026-11-23"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.5836",
+   "date": "2026-11-23"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.7566",
+   "date": "2026-11-20"
+  }
+ ],
+ "macro": [
+  {
+   "title": "Mhmarkets迈汇:白银修复仍看流动性",
+   "ctime": "1795513365",
+   "url": "https://finance.sina.com.cn/money/future/roll/2026-11-24/doc-inizvqtf2261503.shtml"
+  },
+  {
+   "title": "央行：11月25日将开展8000亿元MLF操作",
+   "ctime": "1795513247",
+   "url": "https://finance.sina.com.cn/jryx/bank/2026-11-24/doc-inizvqtf2259771.shtml"
+  },
+  {
+   "title": "美联储高官面临违反内部规定调查，民主党开始发力了？",
+   "ctime": "1795512706",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvqth9030940.shtml"
+  },
+  {
+   "title": "央行：11月25日将开展8000亿元MLF操作，期限为1年期",
+   "ctime": "1795512635",
+   "url": "https://finance.sina.com.cn/china/2026-11-24/doc-inizvqth9034299.shtml"
+  },
+  {
+   "title": "央行：11月25日将开展5000亿元7天期逆回购操作",
+   "ctime": "1795511827",
+   "url": "https://finance.sina.com.cn/jryx/bank/2026-11-24/doc-inizvqtf2241171.shtml"
+  },
+  {
+   "title": "长安期货闫隽永：流动性挤压叠加加息定价，金银或宽幅震荡偏弱",
+   "ctime": "1795511388",
+   "url": "https://finance.sina.com.cn/money/nmetal/gjshz/2026-11-24/doc-inizvqth9010914.shtml"
+  },
+  {
+   "title": "张尧浠:美联储鹰派前景仍在 金价反弹仍具回落风险",
+   "ctime": "1795511188",
+   "url": "https://finance.sina.com.cn/money/nmetal/hjfx/2026-11-24/doc-inizvqte0066345.shtml"
+  },
+  {
+   "title": "EasyMarkets易信:低位买盘回应数据降温",
+   "ctime": "1795513838",
+   "url": "https://finance.sina.com.cn/money/future/roll/2026-11-24/doc-inizvqtm4875663.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 3,
+   "pe": 25.7921,
+   "pb_pct": 11,
+   "pb": 3.6285
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 14,
+   "pe": 25.312,
+   "pb_pct": 53,
+   "pb": 7.839
+  }
+ ]
+}
