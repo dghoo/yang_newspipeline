@@ -536,6 +536,10 @@
   "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL": "适用于 Windows 的 Xbox Series 兼容层——以原生方式运行主机游戏代码，重新实现主机系统库，并将 RDNA2 着色器重新编译为 DXIL",
   "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.": "只需编写一次应用程序。它可在 Web、macOS、iOS 和 Linux 上原生运行，AI 代理可以在每个平台上构建、运行、查看和测试它",
   "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.": "🤖 Grok Bot、OpenAI dots 和 Claude Duet 的开源、本地优先替代方案",
-  "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.": "原名：Awesome ChatGPT Prompts",
-  "Full-stack observability · Metrics · Logs · Traces · Flows · Topology · Infrastructure · APM · NPM · DBM · RUM · Synthetics · Cloud · AI SRE · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI · Redfish · 2000+ integrations": "全栈可观测性 · 指标 · 日志 · 跟踪 · 流 · 拓扑 · 基础设施 · APM · NPM · DBM · RUM · 合成监控 · 云 · AI SRE · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI ·"
+  "Full-stack observability · Metrics · Logs · Traces · Flows · Topology · Infrastructure · APM · NPM · DBM · RUM · Synthetics · Cloud · AI SRE · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI · Redfish · 2000+ integrations": "全栈可观测性 · 指标 · 日志 · 跟踪 · 流 · 拓扑 · 基础设施 · APM · NPM · DBM · RUM · 合成监控 · 云 · AI SRE · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI ·",
+  "🔥 2026-11-18: Added download links for the AWQ and GGUF weights.": "🔥 2026-11-18：添加了 AWQ 和 GGUF 权重的下载链接",
+  "Blog post | GGUF quantisations | Tech report (Kolibri 1)": "博客文章 | GGUF 量化 | 技术报告（Kolibri 1）",
+  "🚀🚀 We are happy to announce the release of MemT-1.0-Pro [MemT × NVIDIA]!": "🚀🚀 我们很高兴地宣布推出 MemT-1.0-Pro [MemT × NVIDIA]",
+  "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.": "🧠 两小时从 0 训出你的 64M 大模型",
+  "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion": "免费的 Claude 技能：使用 three.js + Remotion 制作爆款动画短片（3D 世界中的 2D 角色）"
 }
