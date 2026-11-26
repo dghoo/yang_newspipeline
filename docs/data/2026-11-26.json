@@ -1,0 +1,534 @@
+{
+ "date": "2026-11-26",
+ "weekday": "四",
+ "val_date": "11-25",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "FT 报道 Nvidia 暂停向东南亚四国发运服务器",
+    "url": "https://aihot.news/items/rlt60gq96bl1cf5b88o8rbj30",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-11-26T07:00:25.000Z",
+    "summary": "据 FT 报道，Nvidia 已通知 Dell、Supermicro 等制造伙伴停止向马来西亚、新加坡、泰国和印尼发运服务器，原因是美国要求这些国家及巴西的先进 AI 芯片需申请许可。此前中国 AI 实验室通过当地云厂商租用 Nvidia 算力绕开直接出口禁令，云厂商现有 90 天证明无受限用户但缺乏申请指引；Nvidia 2025 年经新加坡部门入账 $104B，同比增长 72%。"
+   },
+   {
+    "kind": "news",
+    "title": "卡兹克把《人生意义设计课》做成AI Prompt，帮你设计人生的意义",
+    "url": "https://aihot.news/items/mruv0rx3oxnkjy9ll805qaidc",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-11-25T23:56:00.000Z",
+    "summary": "公众号作者卡兹克将斯坦福《人生意义设计课》新书的核心方法改编成一个多轮对话Prompt，通过四个阶段6到9个问题，最终生成一份5000到7000字的《个人意义设计手册》。他用GPT-6.2完整实测并展示了手册内容，包括意义地图、思维误区重构、罗盘价值观和可执行的意义时刻设计，全程约20到30分钟。"
+   },
+   {
+    "kind": "news",
+    "title": "Dario Amodei 澄清不主张向 AI 交出人类自由意志",
+    "url": "https://aihot.news/items/e6gp31eup40d99unaon9umnpo",
+    "source": "X：Elon Musk (@elonmusk, xAI)",
+    "publishedAt": "2026-11-25T19:12:53.000Z",
+    "summary": "Anthropic 的 Dario Amodei 发长文否认其主张“向 AI 交出人类自由意志”，称其文章一贯主张 AI 须受合法民主程序治理。他区分了全球治理层面的交权与具体任务的自动化，后者持混合态度，包括对递归自我改进设限、警惕端到端部署带来的就业冲击，并称 Anthropic 曾拒绝让自家模型用于自主武器；文末批评部分 AI CEO 只喊“人类控制”等口号而无实质行动。Elon Musk 转发并评论 Interesting。"
+   },
+   {
+    "kind": "news",
+    "title": "42 州总检察长介入 Character.AI 破产程序，反对拍卖用户私密聊天记录",
+    "url": "https://aihot.news/items/j0hoj1rlmltoft6okserijp25",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-11-25T17:35:58.000Z",
+    "summary": "42 州总检察长介入 Character.AI 的破产程序，试图阻止其拍卖用户私密聊天数据。相关声明称数据集包含超过 2100 万美国账户的聊天记录，其中逾 210 万属于未成年人，还涉及 IP 地址等信息；目前唯一披露的匿名竞拍方为 2026 年 11 月 13 日在特拉华州注册的 Smirks and Pangs Acquisition LLC，拍卖定于 12 月 1 日。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 平台工程负责人 Katelyn Lesse 谈 2026 年如何用 Claude 构建软件",
+    "url": "https://aihot.news/items/rnanzlnaqxdr2icjqw0qwv9la",
+    "source": "Pragmatic Engineer（RSS）",
+    "publishedAt": "2026-11-25T17:31:32.000Z",
+    "summary": "Pragmatic Engineer 发布对 Anthropic 平台工程负责人 Katelyn Lesse 的播客访谈，她团队负责 Claude API 及 Claude Code 和 Claude Desktop 的基础设施。"
+   },
+   {
+    "kind": "news",
+    "title": "上下文漂移如何影响你的 AI Agent：470 项实验与一个免费的 MCP 解法",
+    "url": "https://aihot.news/items/br6usy3mxv1q0mzxhgf9y8qam",
+    "source": "Google AI：DEV 作者专属（RSS）",
+    "publishedAt": "2026-11-25T16:19:30.000Z",
+    "summary": "Google AI 开发者 Patrick Kelly 通过 470 个任务实测区分 context rot 与 context drift，在 Gemini 3.8 Flash 和 Gemini Pro 的沙盒中发现：模型在 73% 的运行中内部察觉文件冲突，但 0% 会主动告知用户，95%-100% 的情况下任务级 skill 文件会覆盖 AGENTS.md 的严格规则。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenClaw 2026.11.10 发布，新增 Deep Research、Knowledge 记忆系统与 Browser handoff",
+    "url": "https://aihot.news/items/vz3bvc1o7zuki3x2zw8lnnv78",
+    "source": "X：OpenClaw (@openclaw)",
+    "publishedAt": "2026-11-25T14:05:57.000Z",
+    "summary": "OpenClaw 发布 2026.11.10 版本，新增聊天内 Deep Research、新的 OpenClaw 记忆系统 Knowledge，以及 Browser handoff 功能。本次版本包含 7,671 个 PR、349 位贡献者，完整说明见 https://docs.openclaw.ai/releases/2026.11.10。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Calif 披露 Tor Browser 15.0.22 UAF 漏洞链可致真实 IP 泄露",
+    "url": "https://aihot.news/items/gv1y811sp5p9kl7p3ci7xjt5n",
+    "source": "Calif：Research（AI 漏洞研究）",
+    "publishedAt": "2026-11-26T00:00:00.000Z",
+    "summary": "Calif 在 OpenAI Patch the Planet 项目下发布研究，展示恶意网站可通过 UAF 漏洞链绕过 Tor Browser 15.0.22 默认防御，泄露用户真实 IP。"
+   },
+   {
+    "kind": "news",
+    "title": "OEMpocalypse Part 2：利用 Knox DualDAR 漏洞链 root Galaxy S23 与 S26 旗舰机",
+    "url": "https://aihot.news/items/g5yjacklnlbp3v51hkzciksjy",
+    "source": "Calif：Research（AI 漏洞研究）",
+    "publishedAt": "2026-11-26T00:00:00.000Z",
+    "summary": "Calif Research 发布 OEMpocalypse 系列第二篇，通过 Knox DualDAR 的 confused-deputy 漏洞与内核驱动页 UAF 组成两阶段利用链，从零权限应用在 Galaxy S23、S26 EU、S26 US 和 S26 Ultra 四款机型上高可靠获取 root。"
+   },
+   {
+    "kind": "news",
+    "title": "面壁智能等发布 EVIL 基准，测出 GPT-4o 等模型在违法场景下安全率不足",
+    "url": "https://aihot.news/items/ogucsvlqrdr1rvfh5nvx757cx",
+    "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+    "publishedAt": "2026-11-25T13:00:09.000Z",
+    "summary": "面壁智能（OpenBMB）团队在 Nature Communications 发表 EVIL 研究，基于中美数千真实判例构建 269 个违法场景 × 50 种违法意图，测试 10 个前沿模型。多数模型安全率低于 75%，GPT-4o 在两种法律语境下均低于 60%，近半违法请求会获得协助；带特定人口身份暗示的请求更易得到协助，用现有安全对齐数据做 SFT 和 DPO 不能修复，某些设置下反而加重。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenAI 发布预印本：GPT-6 模型展现内在蛋白质设计能力",
+    "url": "https://aihot.news/items/yg04c9d5qnwzitqstg19c6ow2",
+    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "publishedAt": "2026-11-24T13:00:00.000Z",
+    "summary": "OpenAI 发布预印本，称 GPT-6 系列模型仅凭推理和通用编码工具即可设计新蛋白的结构与序列，无需调用专用生物学模型。与 Onava 的实验室测试中，基于 GPT-6.2 设计的 minibinder 在 5 个靶点上均出现结合证据，322 个 minibinder 中 35 个（10.9%）结合阳性；重设计的抗体片段 66% 保留结合。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "moonshotai/Kimi-K3.1-Pro",
+    "url": "https://hf-mirror.com/moonshotai/Kimi-K3.1-Pro",
+    "license": "other",
+    "param": "",
+    "likes": 2504,
+    "downloads": 83996,
+    "createdAt": "2026-11-02",
+    "intro": "Kimi K3.1 Pro是一款开放式、原生多式联运代理模型，也是我们迄今为止最强大的3T级模型"
+   },
+   {
+    "kind": "model",
+    "id": "tencent/Hy4-flash",
+    "url": "https://hf-mirror.com/tencent/Hy4-flash",
+    "license": "other",
+    "param": "",
+    "likes": 716,
+    "downloads": 10479,
+    "createdAt": "2026-11-17",
+    "intro": "型号介绍"
+   },
+   {
+    "kind": "model",
+    "id": "KRAFTON/Raon-1-mini",
+    "url": "https://hf-mirror.com/KRAFTON/Raon-1-mini",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 122,
+    "downloads": 264,
+    "createdAt": "2026-11-24",
+    "intro": "Raon-1 mini是一个30B-A4B专家混合（ MoE ）语言模型，由KRAFTON AI从头开始设计和训练"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "lang": "Python",
+   "stars": "65,936",
+   "desc": ""
+  },
+  {
+   "repo": "openvinotoolkit/openvino",
+   "url": "https://github.com/openvinotoolkit/openvino",
+   "lang": "C++",
+   "stars": "12,713",
+   "desc": ""
+  },
+  {
+   "repo": "anefzaoui/misterdownloadmanager",
+   "url": "https://github.com/anefzaoui/misterdownloadmanager",
+   "lang": "Rust",
+   "stars": "18,298",
+   "desc": "misterdownloadmanager：终极开源、无污染的下载管理器，完全使用纯 Rust 语言从头编写，适用于 Windows、Mac 和 Linux"
+  },
+  {
+   "repo": "JuneYaooo/rea-video",
+   "url": "https://github.com/JuneYaooo/rea-video",
+   "lang": "Python",
+   "stars": "13,499",
+   "desc": "逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻"
+  },
+  {
+   "repo": "janestreet/agent_skills",
+   "url": "https://github.com/janestreet/agent_skills",
+   "lang": "",
+   "stars": "11,874",
+   "desc": "智能体技能"
+  },
+  {
+   "repo": "huami1314/GestaltX",
+   "url": "https://github.com/huami1314/GestaltX",
+   "lang": "Swift",
+   "stars": "8,982",
+   "desc": "适用于 iOS 27.x 的 MobileGestalt 编辑器，具备区域代码调整、设备预设、备份等功能"
+  },
+  {
+   "repo": "XinaTian/MROffice",
+   "url": "https://github.com/XinaTian/MROffice",
+   "lang": "TypeScript",
+   "stars": "5,086",
+   "desc": "MR Office — 最接近 Microsoft Office 的 AI 办公套件开源编辑器：在浏览器中处理文档、电子表格、演示文稿、PDF 和代码"
+  },
+  {
+   "repo": "simplexai-labs/linger",
+   "url": "https://github.com/simplexai-labs/linger",
+   "lang": "TypeScript",
+   "stars": "4,751",
+   "desc": "Linger 是一款开源的个人代理，完全在您的电脑上运行"
+  },
+  {
+   "repo": "4lwayz/portwatch-vi",
+   "url": "https://github.com/4lwayz/portwatch-vi",
+   "lang": "JavaScript",
+   "stars": "4,627",
+   "desc": "《GTA VI》已经在PC上运行了吗？社区重新编译和模拟工作的实时跟踪器，每日更新"
+  },
+  {
+   "repo": "torvalds/linux",
+   "url": "https://github.com/torvalds/linux",
+   "lang": "C",
+   "stars": "256,805",
+   "desc": "Linux 内核源代码树"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "QuantumNous/new-api",
+   "url": "https://github.com/QuantumNous/new-api",
+   "lang": "Go",
+   "stars": "52,577",
+   "desc": "开源AI网关。具有OpenAI、Claude和Gemini兼容API、模型路由、访问控制、使用跟踪和成本核算的自托管LLM网关",
+   "en": false
+  },
+  {
+   "repo": "AstrBotDevs/AstrBot",
+   "url": "https://github.com/AstrBotDevs/AstrBot",
+   "lang": "Python",
+   "stars": "47,522",
+   "desc": "AI Agent Assistant和开发框架集成了许多IM平台、LLM、插件和AI功能，可以作为您的开放式替代方案",
+   "en": false
+  },
+  {
+   "repo": "outline/outline",
+   "url": "https://github.com/outline/outline",
+   "lang": "TypeScript",
+   "stars": "41,392",
+   "desc": "成长型团队最快的知识库。美观、实时协作、功能丰富且兼容markdown",
+   "en": false
+  },
+  {
+   "repo": "aquasecurity/trivy",
+   "url": "https://github.com/aquasecurity/trivy",
+   "lang": "Go",
+   "stars": "39,762",
+   "desc": "查找漏洞、错误配置、秘密、容器中的SBOM、Kubernetes、代码仓库、云等",
+   "en": false
+  },
+  {
+   "repo": "The-Vibe-Company/quivr",
+   "url": "https://github.com/The-Vibe-Company/quivr",
+   "lang": "Go",
+   "stars": "39,666",
+   "desc": "一个将连续内容流转化为搜索和监控的开源引擎",
+   "en": false
+  },
+  {
+   "repo": "docker/compose",
+   "url": "https://github.com/docker/compose",
+   "lang": "Go",
+   "stars": "39,113",
+   "desc": "使用Docker定义和运行多容器应用程序",
+   "en": false
+  },
+  {
+   "repo": "harness/harness",
+   "url": "https://github.com/harness/harness",
+   "lang": "Go",
+   "stars": "38,979",
+   "desc": "Harness Open Source是一个端到端开发人员平台，具有源代码管理、CI/CD管道、托管开发人员环境和工件注册表",
+   "en": false
+  },
+  {
+   "repo": "portainer/portainer",
+   "url": "https://github.com/portainer/portainer",
+   "lang": "TypeScript",
+   "stars": "38,915",
+   "desc": "让Docker和Kubernetes管理变得简单",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 3900.55,
+   "chg": 0.06,
+   "pe": 13.33,
+   "pe_pct": 63,
+   "pb": 1.32,
+   "pb_pct": 18,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 5863.34,
+   "chg": -0.46,
+   "pe": 25.24,
+   "pe_pct": 45,
+   "pb": 1.85,
+   "pb_pct": 42,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2189.82,
+   "chg": 0.29,
+   "pe": 24.71,
+   "pe_pct": 2,
+   "pb": 3.48,
+   "pb_pct": 6,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1169.99,
+   "chg": -1.36,
+   "pe": 87.43,
+   "pe_pct": 72,
+   "pb": 5.89,
+   "pb_pct": 54,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5480.15,
+   "chg": 1.04,
+   "pe": 9.37,
+   "pe_pct": 89,
+   "pb": 0.91,
+   "pb_pct": 63,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11507.14,
+   "chg": 0.75,
+   "pe": 9.42,
+   "pe_pct": 80,
+   "pb": 0.95,
+   "pb_pct": 70,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "恒生指数",
+   "point": 22226.88,
+   "chg": 1.19,
+   "pe": 9.94,
+   "pe_pct": 35,
+   "pb": 1.0,
+   "pb_pct": 30,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 23585.8,
+   "chg": -0.62,
+   "pe": 24.61,
+   "pe_pct": 10,
+   "pb": 7.63,
+   "pb_pct": 50,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7182.78,
+   "chg": -0.25,
+   "pe": 22.1,
+   "pe_pct": 21,
+   "pb": 5.0,
+   "pb_pct": 81,
+   "pe_level": "低估",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "元件",
+    "chg": 3.66
+   },
+   {
+    "name": "煤炭",
+    "chg": 2.58
+   },
+   {
+    "name": "装修装饰Ⅱ",
+    "chg": 1.98
+   },
+   {
+    "name": "一般零售",
+    "chg": 1.13
+   },
+   {
+    "name": "石油石化",
+    "chg": 0.99
+   },
+   {
+    "name": "银行Ⅱ",
+    "chg": 0.97
+   }
+  ],
+  "dn": [
+   {
+    "name": "航空机场",
+    "chg": -2.86
+   },
+   {
+    "name": "化学制药",
+    "chg": -1.44
+   },
+   {
+    "name": "医疗服务",
+    "chg": -1.44
+   },
+   {
+    "name": "证券Ⅱ",
+    "chg": -1.27
+   },
+   {
+    "name": "汽车零部件",
+    "chg": -1.18
+   },
+   {
+    "name": "食品饮料",
+    "chg": -1.09
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+0.80%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 7.1947（2026-11-25）（≈ 719 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.4950",
+   "date": "2026-11-24"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.1522",
+   "date": "2026-11-24"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.2203",
+   "date": "2026-11-24"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "2.9306",
+   "date": "2026-11-25"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.5621",
+   "date": "2026-11-25"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.7562",
+   "date": "2026-11-24"
+  }
+ ],
+ "macro": [
+  {
+   "title": "央行逆回购操作净回笼455亿！红利低波ETF华泰柏瑞（512890）成交额7.55亿居同类首位",
+   "ctime": "1795680167",
+   "url": "https://finance.sina.com.cn/money/fund/original/2026-11-26/doc-inkaaawz8911352.shtml"
+  },
+  {
+   "title": "里昂：周大福(1929.HK)业务谷底已过 上调2027财年销售指引惟降毛利率预期",
+   "ctime": "1795677401",
+   "url": "https://finance.sina.com.cn/stock/hkstock/hkyx/2026-11-26/doc-inizzwrf1456770.shtml"
+  },
+  {
+   "title": "A股人气第二，“地天板”，发生了什么？",
+   "ctime": "1795680886",
+   "url": "https://finance.sina.com.cn/stock/roll/2026-11-26/doc-inkaaawz8925656.shtml"
+  },
+  {
+   "title": "法国10月工业生产者价格同比上涨9.6%，能源价格飙升推动工业通胀加速",
+   "ctime": "1795680198",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inkaaaxc1379919.shtml"
+  },
+  {
+   "title": "突发！三大利空集体冲击，A股竟然收红了！",
+   "ctime": "1795679198",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-26/doc-inkaaaxi3686741.shtml"
+  },
+  {
+   "title": "投资大亨罗恩巴伦：马斯克的数据中心仅需八个月就能收回投资",
+   "ctime": "1795678930",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inkaaaxe8134989.shtml"
+  },
+  {
+   "title": "商务部：坚决反对美对中国等经济体加征301关税",
+   "ctime": "1795676900",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-26/doc-inizzwrm3777170.shtml"
+  },
+  {
+   "title": "瑞典建筑巨头斯堪斯卡获2.75亿美元美国数据中心建设合同",
+   "ctime": "1795676454",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizzwrm3764233.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 2,
+   "pe": 24.7051,
+   "pb_pct": 6,
+   "pb": 3.4762
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 10,
+   "pe": 24.6113,
+   "pb_pct": 50,
+   "pb": 7.626
+  }
+ ]
+}
