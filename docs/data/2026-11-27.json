@@ -1,0 +1,531 @@
+{
+ "date": "2026-11-27",
+ "weekday": "五",
+ "val_date": "11-26",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "Dragos 调查称 MiniMax 在用户请求不存储的情况下仍打开提示词中的私有链接",
+    "url": "https://aihot.news/items/v5fxjqr2vapkk9vn1j9a8ke96",
+    "source": "X：Rohan Paul (@rohanpaul_ai)",
+    "publishedAt": "2026-11-27T07:21:40.000Z",
+    "summary": "据美国安全公司 Dragos，MiniMax 收集并打开了用户提示词中的私有链接，即便用户要求不存储数据。"
+   },
+   {
+    "kind": "news",
+    "title": "实测支付宝 SkillPay：手把手教你怎么把 Skill 挂上去卖钱",
+    "url": "https://aihot.news/items/cdkswjz368inpelrz3f52rekx",
+    "source": "公众号：数字生命卡兹克",
+    "publishedAt": "2026-11-26T23:56:00.000Z",
+    "summary": "作者完整实测支付宝 SkillPay 平台的 Skill 变现流程，该平台7月上线，支持买断和订阅两种售卖模式。买断制将 Skill 完整内容交付本地，订阅制把 Skill 保留在云端沙盒中、Agent 看不到明文；买断定价 0.01-50 元，订阅按周月季度收费上限 50 元，免费试用最低 5 次。"
+   },
+   {
+    "kind": "news",
+    "title": "Karpathy 用 Claude Code 和 Opus 5.5 把美国真实数据做成文明风格游戏地图",
+    "url": "https://aihot.news/items/gc4qp85ij5qzhu53qzkg8quqj",
+    "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+    "publishedAt": "2026-11-26T16:44:47.000Z",
+    "summary": "Karpathy 分享用 Claude Code 桌面版加 Opus 5.5（开启 ultracode）构建的美国文明风格游戏地图，7 小时生成 45K 行代码，整合 Census、BEA、BLS、EIA、NOAA 等 31 个真实数据源，统一到 25 km 六边形网格。GDP 映射为金产量、城市按真实产业分化，含 19 个视图、524 个都市的 City View 和覆盖 3,100+ 县的 Explorer，已部署在 https://karpathy.ai/usaciv/。作者 Ado 转发并感叹。"
+   },
+   {
+    "kind": "news",
+    "title": "Philipp Schmid 撰文解释为何在 Skills 与 CLI 兴起后仍更看好 MCP",
+    "url": "https://aihot.news/items/jcdfpftbam647yhc210dbace9",
+    "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+    "publishedAt": "2026-11-26T13:30:28.000Z",
+    "summary": "Philipp Schmid 撰文解释为何在 Skills 和 CLI 流行后依然看好 MCP：Linear 和 Notion 的 agent 每周创建约 240 万条 issue 和页面，Atlassian 每天 MCP 工具调用超 500 万次，其中 44% 用户来自软件团队之外，Notion 报告 60 倍 MCP 流量增长。"
+   },
+   {
+    "kind": "news",
+    "title": "Google 强制 AI Agent 走 Workspace MCP 服务器，Gmail 服务器不能发邮件",
+    "url": "https://aihot.news/items/vboh9u5yjfjgj1ha6rl804tkh",
+    "source": "Hacker News：AI 热帖",
+    "publishedAt": "2026-11-26T00:00:00.000Z",
+    "summary": "Google 于 11 月 24 日将八个 Workspace MCP 服务器正式开放，并在 API 条款中新增条款，要求自 2027 年 2 月 1 日起由 AI Agent 驱动的工具必须通过这些服务器访问 Gmail、Drive 等 Workspace 服务，直接调用 REST API 将按 Standard 级配额受限。"
+   },
+   {
+    "kind": "news",
+    "title": "黄仁勋回归后 Nvidia 仍面临 Megaspeed 芯片出口合规调查",
+    "url": "https://aihot.news/items/kzwj96fvnn3whzvnhqdvsh830",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-11-25T13:00:00.000Z",
+    "summary": "TechCrunch 分析指出，黄仁勋回归 Nvidia CEO 后，公司仍面临多方对其 GPU 出口合规问题的调查。新加坡数据中心运营商 Megaspeed 被指违反美国出口管制，将先进 GPU 转运至中国。美国司法部于 2024 年启动调查，新加坡方面于 2025 年展开类似调查，加州总检察长办公室及美国证券交易委员会也关注 Nvidia 的相关披露。Nvidia 表示将停止向中国销售许可芯片，并计划设立首席合规官及董事会出口管制委员会。"
+   },
+   {
+    "kind": "news",
+    "title": "Pydantic AI 发布终端编码 agent Pax，并宣布 Harness 将在约一个月后进入 1.0",
+    "url": "https://aihot.news/items/i5qr52169dlque8rb2sl4i5jo",
+    "source": "Pydantic AI 官方文章",
+    "publishedAt": "2026-11-25T09:00:00.000Z",
+    "summary": "Pydantic AI 发布基于 Harness SDK 的终端编码 agent Pax（pydantic-ai-pax），一切皆插件，支持 --agent 接入自定义 Pydantic AI Agent、/sandbox 切换十余种云端或本地沙箱、ComputerUse 计算机使用和默认开启的 code mode。"
+   },
+   {
+    "kind": "news",
+    "title": "腾讯开源模型 Hy4 Flash 上线 Fireworks serverless",
+    "url": "https://aihot.news/items/dvu6olan4q58k1evvnp8t60t2",
+    "source": "Fireworks AI（网页）",
+    "publishedAt": "2026-11-24T16:00:00.000Z",
+    "summary": "腾讯新开源模型 Hy4 Flash 现已在 Fireworks serverless 上可用。该模型为 MoE 架构，总参数约 220B、每 token 激活约 12B，1M token 上下文窗口（Fireworks 上线时为 512K），支持文本和图像输入，面向文档处理、研究、办公和 Agent 工作流。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "MiniMax 推出 H3 Family：旗舰与扩展视频图像模型",
+    "url": "https://aihot.news/items/cxodjj13xa8ey821rbnmumcrf",
+    "source": "MiniMax：Blog（网页）",
+    "publishedAt": "2026-11-26T12:00:09.000Z",
+    "summary": "MiniMax 发布 H3 Family，包含旗舰 H3、H3-Highspeed、H3-Lite、H3-Image 系列及 fal、Suno、HeyGen、Pika 等第三方的扩展模型。H3 开源 100 天已衍生 1,472 个模型、累计下载超 1.48 亿次，旗舰 H3 支持 2K 输出、起价 $0.08/秒，H3-Image Highspeed 最快 10 秒内生成 4K 图像。"
+   },
+   {
+    "kind": "news",
+    "title": "蚂蚁 inclusionAI 开源 Ming-Image-0.2-Design 图像生成模型",
+    "url": "https://aihot.news/items/hdvt6wswzycj78wnr7r43xn6o",
+    "source": "蚂蚁 inclusionAI：HuggingFace 新模型",
+    "publishedAt": "2026-11-25T04:02:44.000Z",
+    "summary": "蚂蚁 inclusionAI 在 Hugging Face 发布并开源 Ming-Image-0.2-Design，改进复杂构图、光照和文字渲染，可用于电商主图、UI 设计稿和空间效果图。"
+   },
+   {
+    "kind": "news",
+    "title": "Mantic 与 Thinking Machines 训练可扩展预测智能体，成本降 15 倍",
+    "url": "https://aihot.news/items/yh9lmlhqwoc77d1ii1mvr5d6x",
+    "source": "Thinking Machines Lab：News（网页）",
+    "publishedAt": "2026-11-24T07:00:00.000Z",
+    "summary": "Mantic 与 Thinking Machines 在 Tinker 上对 Inkling 2 Small 做后训练，得到一个端到端完成研究与预测的预测智能体，其准确度接近 Fable 5.2 (medium)，单次预测成本降低 15 倍。"
+   },
+   {
+    "kind": "news",
+    "title": "OpenClaw 联合多家机构发布真实任务基准 ShellBench，最强模型完成率约六成",
+    "url": "https://aihot.news/items/frmncgr2jcrvfm3t6jgabqhfh",
+    "source": "OpenClaw：Blog（网页）",
+    "publishedAt": "2026-11-24T00:00:00.000Z",
+    "summary": "OpenClaw 与 Hugging Face、Red Hat、UC Berkeley 等机构合作推出 ShellBench，基于超过 1000 万条匿名真实智能体交互构建 100 个日常任务，含 90 个 rubric 评分任务（721 项标准，其中 381 项安全标准）和 10 个代码测试任务，共 53,100 次评分运行。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "tencent/Hy-MT3-30B-A3B",
+    "url": "https://hf-mirror.com/tencent/Hy-MT3-30B-A3B",
+    "license": "apache-2.0",
+    "param": "30B",
+    "likes": 178,
+    "downloads": 292,
+    "createdAt": "2026-11-17",
+    "intro": "Hy-MT3 是腾讯 Hy 多语言翻译模型系列的第三代产品"
+   },
+   {
+    "kind": "model",
+    "id": "tencent/Hy-MT3-1.8B",
+    "url": "https://hf-mirror.com/tencent/Hy-MT3-1.8B",
+    "license": "apache-2.0",
+    "param": "1.8B",
+    "likes": 120,
+    "downloads": 398,
+    "createdAt": "2026-11-17",
+    "intro": "Hy-MT3 是腾讯 Hy 多语言翻译模型系列的第三代产品"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "firecrawl/firecrawl",
+   "url": "https://github.com/firecrawl/firecrawl",
+   "lang": "TypeScript",
+   "stars": "211,202",
+   "desc": "让您的智能体更聪明的知识基础设施"
+  },
+  {
+   "repo": "nginx/nginx",
+   "url": "https://github.com/nginx/nginx",
+   "lang": "C",
+   "stars": "33,573",
+   "desc": "官方 NGINX 开源代码仓库"
+  },
+  {
+   "repo": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "lang": "HTML",
+   "stars": "74,128",
+   "desc": "适用于 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 的编辑图表设计"
+  },
+  {
+   "repo": "mjmirza/app-store-compliance",
+   "url": "https://github.com/mjmirza/app-store-compliance",
+   "lang": "Shell",
+   "stars": "7,221",
+   "desc": "避免常见的 App Store 和 Google Play 拒绝情况"
+  },
+  {
+   "repo": "Tracer-Cloud/opensre",
+   "url": "https://github.com/Tracer-Cloud/opensre",
+   "lang": "Python",
+   "stars": "15,948",
+   "desc": "用于 CI/CD 可靠性的开源代理"
+  },
+  {
+   "repo": "toeverything/AFFiNE",
+   "url": "https://github.com/toeverything/AFFiNE",
+   "lang": "TypeScript",
+   "stars": "79,128",
+   "desc": "除了 Notion 和 Miro，还有更多选择"
+  },
+  {
+   "repo": "XiaoYouChR/Ghost-Downloader-3",
+   "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+   "lang": "Python",
+   "stars": "19,463",
+   "desc": "下载器的集大成者"
+  },
+  {
+   "repo": "zhouxiaoka/autoclip",
+   "url": "https://github.com/zhouxiaoka/autoclip",
+   "lang": "Python",
+   "stars": "17,261",
+   "desc": "一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts"
+  },
+  {
+   "repo": "storytold/craft-anything",
+   "url": "https://github.com/storytold/craft-anything",
+   "lang": "Rust",
+   "stars": "44,322",
+   "desc": "制作任何东西：了解任何软件的工作原理，并制作自己的软件"
+  },
+  {
+   "repo": "deepseek-ai/dsh-superagent-prototype",
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "lang": "TypeScript",
+   "stars": "24,710",
+   "desc": "迈向更自主的Agent系统"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "awesome-selfhosted/awesome-selfhosted",
+   "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+   "lang": "",
+   "stars": "340,910",
+   "desc": "可托管在您自己的服务器上的免费软件网络服务和Web应用程序列表",
+   "en": false
+  },
+  {
+   "repo": "n8n-io/n8n",
+   "url": "https://github.com/n8n-io/n8n",
+   "lang": "TypeScript",
+   "stars": "212,374",
+   "desc": "具有原生AI功能的公平代码工作流程自动化平台",
+   "en": false
+  },
+  {
+   "repo": "ohmyzsh/ohmyzsh",
+   "url": "https://github.com/ohmyzsh/ohmyzsh",
+   "lang": "Shell",
+   "stars": "190,937",
+   "desc": "🙃   一个令人愉悦的社区驱动（拥有2,500多名贡献者）框架，用于管理您的zsh配置",
+   "en": false
+  },
+  {
+   "repo": "open-webui/open-webui",
+   "url": "https://github.com/open-webui/open-webui",
+   "lang": "Svelte",
+   "stars": "159,666",
+   "desc": "用户友好的AI界面（支持Ollama、OpenAI API等）",
+   "en": false
+  },
+  {
+   "repo": "immich-app/immich",
+   "url": "https://github.com/immich-app/immich",
+   "lang": "TypeScript",
+   "stars": "120,223",
+   "desc": "高性能自托管照片和视频管理解决方案",
+   "en": false
+  },
+  {
+   "repo": "Stirling-Tools/Stirling-PDF",
+   "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+   "lang": "TypeScript",
+   "stars": "97,564",
+   "desc": "GitHub上排名第一的PDF应用程序，可让您在任何地方的任何设备上编辑PDF",
+   "en": false
+  },
+  {
+   "repo": "louislam/uptime-kuma",
+   "url": "https://github.com/louislam/uptime-kuma",
+   "lang": "JavaScript",
+   "stars": "94,945",
+   "desc": "一款精美的自托管监控工具",
+   "en": false
+  },
+  {
+   "repo": "pathwaycom/serviette",
+   "url": "https://github.com/pathwaycom/serviette",
+   "lang": "Python",
+   "stars": "58,672",
+   "desc": "无代码RAG服务器，可使答案与您的文档保持同步",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4063.06,
+   "chg": 4.17,
+   "pe": 13.37,
+   "pe_pct": 64,
+   "pb": 1.33,
+   "pb_pct": 18,
+   "pe_level": "适中",
+   "pb_level": "低估",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6313.63,
+   "chg": 7.68,
+   "pe": 25.14,
+   "pe_pct": 45,
+   "pb": 1.84,
+   "pb_pct": 41,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2443.96,
+   "chg": 11.61,
+   "pe": 24.72,
+   "pe_pct": 2,
+   "pb": 3.48,
+   "pb_pct": 6,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1346.25,
+   "chg": 15.07,
+   "pe": 86.58,
+   "pe_pct": 72,
+   "pb": 5.83,
+   "pb_pct": 54,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证红利",
+   "point": 5483.72,
+   "chg": 0.07,
+   "pe": 9.47,
+   "pe_pct": 90,
+   "pb": 0.92,
+   "pb_pct": 64,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11396.41,
+   "chg": -0.96,
+   "pe": 9.53,
+   "pe_pct": 81,
+   "pb": 0.96,
+   "pb_pct": 72,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "恒生指数",
+   "point": 22694.77,
+   "chg": 2.11,
+   "pe": 10.08,
+   "pe_pct": 38,
+   "pb": 1.01,
+   "pb_pct": 33,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 23585.8,
+   "chg": -0.62,
+   "pe": 24.61,
+   "pe_pct": 10,
+   "pb": 7.63,
+   "pb_pct": 50,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7182.78,
+   "chg": -0.25,
+   "pe": 22.1,
+   "pe_pct": 21,
+   "pb": 5.0,
+   "pb_pct": 81,
+   "pe_level": "低估",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "元件",
+    "chg": 11.35
+   },
+   {
+    "name": "通信设备",
+    "chg": 11.35
+   },
+   {
+    "name": "仪器仪表",
+    "chg": 11.17
+   },
+   {
+    "name": "通用设备",
+    "chg": 9.48
+   },
+   {
+    "name": "塑料",
+    "chg": 8.83
+   },
+   {
+    "name": "医疗服务",
+    "chg": 8.2
+   }
+  ],
+  "dn": [
+   {
+    "name": "银行Ⅱ",
+    "chg": -1.07
+   },
+   {
+    "name": "煤炭",
+    "chg": 1.19
+   },
+   {
+    "name": "航空机场",
+    "chg": 1.27
+   },
+   {
+    "name": "航运港口",
+    "chg": 1.97
+   },
+   {
+    "name": "铁路公路",
+    "chg": 2.24
+   },
+   {
+    "name": "保险Ⅱ",
+    "chg": 2.5
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+3.89%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 7.2749（2026-11-26）（≈ 727 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.4585",
+   "date": "2026-11-25"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.1053",
+   "date": "2026-11-25"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.2070",
+   "date": "2026-11-26"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "2.9306",
+   "date": "2026-11-25"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.5686",
+   "date": "2026-11-26"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.7507",
+   "date": "2026-11-25"
+  }
+ ],
+ "macro": [
+  {
+   "title": "光大期货1127热点追踪：IC、IM主力合约涨停 市场流动性与政策预期共振",
+   "ctime": "1795766464",
+   "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-27/doc-inkaefwi3251398.shtml"
+  },
+  {
+   "title": "法国11月欧盟调和CPI初值同比上涨3.2% 低于预期",
+   "ctime": "1795766325",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-27/doc-inkaefwc1119548.shtml"
+  },
+  {
+   "title": "中国证监会同意瓦楞原纸期货和期权注册",
+   "ctime": "1795768362",
+   "url": "https://finance.sina.com.cn/money/future/2026-11-27/doc-inkaeneh5475142.shtml"
+  },
+  {
+   "title": "见证历史！今天A股，大奇迹日！",
+   "ctime": "1795767202",
+   "url": "https://finance.sina.com.cn/stock/roll/2026-11-27/doc-inkaefwc1138482.shtml"
+  },
+  {
+   "title": "外资流入推动韩元兑美元汇率走强",
+   "ctime": "1795765716",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-27/doc-inkaefwe7888547.shtml"
+  },
+  {
+   "title": "日本发电巨头JERA正与Anthropic、微软等科技巨头洽谈在发电厂附近建设数据中心",
+   "ctime": "1795765135",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-27/doc-inkaefwe7879640.shtml"
+  },
+  {
+   "title": "A股成交额单日新增近7000亿元",
+   "ctime": "1795765128",
+   "url": "https://finance.sina.com.cn/wm/2026-11-27/doc-inkaefwk5567222.shtml"
+  },
+  {
+   "title": "A股史诗级暴涨！科创50涨15.07%，超400股涨停，“国家队”稳市发力了",
+   "ctime": "1795765009",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-27/doc-inkaenef3148101.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 2,
+   "pe": 24.7221,
+   "pb_pct": 6,
+   "pb": 3.4786
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 10,
+   "pe": 24.6111,
+   "pb_pct": 50,
+   "pb": 7.626
+  }
+ ]
+}
