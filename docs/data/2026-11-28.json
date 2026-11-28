@@ -1,0 +1,528 @@
+{
+ "date": "2026-11-28",
+ "weekday": "六",
+ "val_date": "11-27",
+ "ai": {
+  "1.1 AI 行业资讯": [
+   {
+    "kind": "news",
+    "title": "OpenBMB 点评 InternLM 基于 MiniCPM-o 4.5 打造的 Sage-Interaction",
+    "url": "https://aihot.news/items/l9md8ugx8e2zlm5g1tuqthmaw",
+    "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+    "publishedAt": "2026-11-27T13:32:15.000Z",
+    "summary": "OpenBMB 转发并点评上海人工智能实验室 InternLM 团队发布的开源全双工语音视频模型 Sage-Interaction，该模型基于 MiniCPM-o 4.5 构建。OpenBMB 称赞其边说边听、在不打断对话的情况下把复杂任务交给后端模型，是迈向更自然 AI 交互的一步，并向 InternLM 团队致意。"
+   },
+   {
+    "kind": "news",
+    "title": "Antigravity 实用技巧：在 GEMINI.md 加一句话让模型边干活边汇报",
+    "url": "https://aihot.news/items/tiqf353lek6sib8ktn8uvc6nc",
+    "source": "X：卡兹克 (@Khazix0918)",
+    "publishedAt": "2026-11-27T12:38:45.000Z",
+    "summary": "卡兹克分享一个 Antigravity 使用技巧，针对模型长时间闷头干活不输出信息的问题，只需在 GEMINI.md 中加一句话，要求动手前说要做什么、有发现、换方向、卡住或连干四五步时再说一句，即可获得类似 Claude 或 Codex 那种实时汇报进度的交互体验。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 复盘 Messages API 从 Python 迁移到 Rust 的校验方法",
+    "url": "https://aihot.news/items/h1ja45355xx1xf9rqf89cv1if",
+    "source": "Anthropic：Research（发表成果 · 网页）",
+    "publishedAt": "2026-11-24T16:00:00.000Z",
+    "summary": "Anthropic 介绍如何将 Messages API 从 Python 迁移到 Rust，并把生产系统本身当作校验器。该 API 流量从 2024 年初到 2026 年秋增长约 1800 倍，迁移后每请求 CPU 降低约 70%，首 token 中位时间缩短约 20%，且未停服或冻结功能开发。"
+   },
+   {
+    "kind": "news",
+    "title": "ChinaTalk 分析 BIS 租赁算力新规或为美国换取约六个月算力领先",
+    "url": "https://aihot.news/items/yz5va6l60tfkmdampmsiz0jq2",
+    "source": "ChinaTalk（RSS）",
+    "publishedAt": "2026-11-24T10:58:57.000Z",
+    "summary": "作者分析美国 BIS 于11月16日发布、11月19日生效的租赁算力临时最终规则，该规则要求向境外数据中心供应芯片需申领许可，门槛约为760块 H100 等效算力，覆盖 Hopper 和 Blackwell 级芯片，并关闭 Foundry Due-Diligence 漏洞。作者基于自建测算模型给出规则执行率与延迟月数的量化区间，并梳理柔佛数据中心和执法风险等关键变量。"
+   },
+   {
+    "kind": "news",
+    "title": "Claude 推出 Install as app：artifacts 可安装为 Mac 和 Windows 桌面应用",
+    "url": "https://aihot.news/items/zcpto4b7qb8sr6v6n223kd2sx",
+    "source": "Claude：Blog（网页）",
+    "publishedAt": "2026-11-24T00:00:00.000Z",
+    "summary": "Anthropic 在 Mac 和 Windows 版 Claude 中以 beta 形式推出 Install as app，artifacts 可创建、运行并分享为独立桌面应用，拥有自己的图标和窗口，底层 artifact 更新时应用自动同步。"
+   },
+   {
+    "kind": "news",
+    "title": "Claude 月度回顾转正，artifact 可装为桌面应用，连接器文件传输开启 beta",
+    "url": "https://aihot.news/items/w9zx5w4dj1xhxvjylbijskshq",
+    "source": "Claude 应用发布说明",
+    "publishedAt": "2026-11-24T00:00:00.000Z",
+    "summary": "Claude 应用发布说明宣布三项更新：月度回顾（Reflect）在 Web、桌面端和移动端对 Free、Pro、Max、Ultra 套餐转正，可纳入 Claude Code 会话和云端 Cowork 任务并支持删除。"
+   },
+   {
+    "kind": "news",
+    "title": "Anthropic 为 Claude 推出 Skills over MCP 公测及 Tasks、Elicitation 等更新",
+    "url": "https://aihot.news/items/kjd2qp2iuk9zxdfqj5qk2a8f9",
+    "source": "Claude：Blog（网页）",
+    "publishedAt": "2026-11-24T00:00:00.000Z",
+    "summary": "Anthropic 宣布 Skills over MCP 在 Claude 与 Claude Code 进入公开测试，MCP 服务器可在工具之外发布技能，按需加载以降低上下文占用。"
+   },
+   {
+    "kind": "news",
+    "title": "Google Search AI Mode 支持连接 Google Wallet、Drive 和 Gemini 应用",
+    "url": "https://aihot.news/items/cyorgi8t8dm2fo6ee3b5a6qs2",
+    "source": "Google Blog：AI（RSS）",
+    "publishedAt": "2026-11-23T17:00:00.000Z",
+    "summary": "Google 宣布在 Search 的 AI Mode 中扩展 Personal Intelligence，用户可选择安全连接 Google Wallet、Drive 和 Gemini 应用，Wallet 即日起开放，Drive 和 Gemini 应用将在未来数周跟进。"
+   },
+   {
+    "kind": "news",
+    "title": "METR 解读 OpenAI 预训练损失加速：2026 年初以来下降速度约为此前 7 倍",
+    "url": "https://aihot.news/items/youah0x28ti3a58sj8ku26rdy",
+    "source": "METR：Blog（网页）",
+    "publishedAt": "2026-11-23T16:00:00.000Z",
+    "summary": "METR 分析 OpenAI 公布的 13 个模型在固定保留数据集上的 log-perplexity，发现 2026 年初以来预训练损失下降速度约为 2022–2025 年的 7 倍；按当前速度，GPT-3.5 到 GPT-4.1 花了三年的损失降幅约六个半月就能走完。"
+   },
+   {
+    "kind": "news",
+    "title": "a16z 实测 11,307 次 Agent 购物流程，总结企业赢得 B2A 经济的五条方法",
+    "url": "https://aihot.news/items/qkxvs90ewfu3k430sdefndv56",
+    "source": "a16z：News（RSS）",
+    "publishedAt": "2026-11-23T15:04:27.000Z",
+    "summary": "a16z 联合 The Prompting Company 测试 Grok Bot、Muse、Instinct、Dots 等智能体在 1,270 条提示词、11,307 次完整运行中的购物表现，并比对 YipitData 消费数据。"
+   },
+   {
+    "kind": "news",
+    "title": "Trump 力挺黄仁勋回归 Nvidia，称美国政府无其不当行为的证据",
+    "url": "https://aihot.news/items/uop2ab4998l6dxugsgtg7w7rn",
+    "source": "TechCrunch：AI（RSS）",
+    "publishedAt": "2026-11-23T15:04:01.000Z",
+    "summary": "Trump 在 Truth Social 上表态支持 Nvidia 董事会复职黄仁勋为 CEO 兼总裁，称美国政府没有理由认为其回归构成国家安全风险。他称司法部长 Todd Blanche 已确认政府没有黄仁勋违法行为的证据，但 Blanche 本人尚未正式声明。"
+   }
+  ],
+  "1.2 模型发布动态": [
+   {
+    "kind": "news",
+    "title": "Cognition 发布 SWE-2.1 及高速版 SWE-2.1 Lightning",
+    "url": "https://aihot.news/items/gflb0kkwzma61spkzpp1uxmrk",
+    "source": "Cognition 模型 / Devin 博客（网页）",
+    "publishedAt": "2026-11-23T16:00:00.000Z",
+    "summary": "Cognition 发布 SWE-2.1，基于 Kimi K3 纯强化学习训练，在 FrontierCode 2.0、Terminal-Bench 4.1 等基准上较 SWE-2 大幅提升，ExploitBench 达 80%、ExploitGym 捕获 27.3% flags，网络安全能力显著增强。"
+   },
+   {
+    "kind": "news",
+    "title": "Goodfire 用可解释性改进 BioReason-Pro 2 生物推理模型并用湿实验验证假设",
+    "url": "https://aihot.news/items/uz9j9ukn8j60mwkeeaibmmctw",
+    "source": "Goodfire Research（网页）",
+    "publishedAt": "2026-11-23T16:00:00.000Z",
+    "summary": "Goodfire 与 NVIDIA、Arc Institute 合作开发 BioReason-Pro 2，以 Qwen3.5-9B 为骨干，用可解释性发现原模型过度依赖文本标注、蛋白质与文本嵌入尺度不匹配，据此移除训练输入中的 InterPro 标注、细化推理轨迹并将 ESM3 嵌入重新缩放。"
+   }
+  ],
+  "1.3 大模型测评": [],
+  "1.4 开源模型推荐": [
+   {
+    "kind": "model",
+    "id": "OVHaiLLM/Olala-v1.0-mini-7A1B",
+    "url": "https://hf-mirror.com/OVHaiLLM/Olala-v1.0-mini-7A1B",
+    "license": "apache-2.0",
+    "param": "",
+    "likes": 374,
+    "downloads": 65381,
+    "createdAt": "2026-10-30",
+    "intro": "Olala-v1.0-mini-7A1B 是一款小型推理模型，用于聊天、遵循指令和使用工具，建立在我们混合的"
+   }
+  ]
+ },
+ "repos": [
+  {
+   "repo": "erkamyaman/rust-anything",
+   "url": "https://github.com/erkamyaman/rust-anything",
+   "lang": "Rust",
+   "stars": "10,905",
+   "desc": "使用 Rust 逐一重写您的应用程序，每一步都与原版进行对照检查"
+  },
+  {
+   "repo": "deepseek-ai/chat-demo",
+   "url": "https://github.com/deepseek-ai/chat-demo",
+   "lang": "TypeScript",
+   "stars": "5,530",
+   "desc": "聊天演示"
+  },
+  {
+   "repo": "JenkinWoo/sheeridVerify",
+   "url": "https://github.com/JenkinWoo/sheeridVerify",
+   "lang": "JavaScript",
+   "stars": "4,586",
+   "desc": ""
+  },
+  {
+   "repo": "trustno1-coder/VIctory-NVIDIA",
+   "url": "https://github.com/trustno1-coder/VIctory-NVIDIA",
+   "lang": "Rust",
+   "stars": "4,423",
+   "desc": "VIctory（Xbox Series兼容层）针对NVIDIA RTX显卡进行了优化：Series X分辨率为2560x1440，支持DLSS，在RTX 5070上约26-30帧，DLSS帧生成2x-6x，F1设置菜单和F3统计信息"
+  },
+  {
+   "repo": "AFK-surf/xnulinux",
+   "url": "https://github.com/AFK-surf/xnulinux",
+   "lang": "C",
+   "stars": "4,391",
+   "desc": "XNU 作为 Linux 中的可加载内核模块（适用于 arm64 Linux 的 macOS 兼容层）"
+  },
+  {
+   "repo": "tangerineturtle1/NX2navi",
+   "url": "https://github.com/tangerineturtle1/NX2navi",
+   "lang": "C",
+   "stars": "4,361",
+   "desc": ""
+  },
+  {
+   "repo": "elvarofficial/teardown",
+   "url": "https://github.com/elvarofficial/teardown",
+   "lang": "JavaScript",
+   "stars": "4,339",
+   "desc": "一种 Claude Code 技能，可将任何机器变成一个您可以拆解的 3D 模拟器"
+  },
+  {
+   "repo": "jhaizhou-ops/S2Arm",
+   "url": "https://github.com/jhaizhou-ops/S2Arm",
+   "lang": "C#",
+   "stars": "3,984",
+   "desc": "把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac"
+  },
+  {
+   "repo": "shanselman/gputaskman",
+   "url": "https://github.com/shanselman/gputaskman",
+   "lang": "Python",
+   "stars": "3,895",
+   "desc": "适用于 Windows、Linux 和 WSL 的 GPU 任务管理器：针对 NVIDIA、AMD 和英特尔 GPU（以及 Linux 上的华为昇腾）的每个进程的 VRAM、GPU 活动和 LLM 模型/KV 缓存洞察"
+  },
+  {
+   "repo": "FrigadeHQ/yogurt",
+   "url": "https://github.com/FrigadeHQ/yogurt",
+   "lang": "TypeScript",
+   "stars": "3,776",
+   "desc": "保存在您电脑上的私人 AI 会议记录"
+  }
+ ],
+ "docker": [
+  {
+   "repo": "unslothai/unsloth",
+   "url": "https://github.com/unslothai/unsloth",
+   "lang": "Python",
+   "stars": "80,399",
+   "desc": "运行和训练LLM和扩散模型的本地UI",
+   "en": false
+  },
+  {
+   "repo": "coollabsio/coolify",
+   "url": "https://github.com/coollabsio/coolify",
+   "lang": "PHP",
+   "stars": "66,937",
+   "desc": "Vercel、Heroku和Netlify的开源、自托管PaaS替代品，让您可以在自己的服务器上轻松部署静态站点、数据库、全栈应用程序和360 +一键式服务",
+   "en": false
+  },
+  {
+   "repo": "usememos/memos",
+   "url": "https://github.com/usememos/memos",
+   "lang": "Go",
+   "stars": "64,755",
+   "desc": "备忘录是一款开源、自托管的笔记记录应用程序，可将您的日常想法整合到一个个人时间线中",
+   "en": false
+  },
+  {
+   "repo": "go-gitea/gitea",
+   "url": "https://github.com/go-gitea/gitea",
+   "lang": "Go",
+   "stars": "59,327",
+   "desc": "享用一杯茶。无痛自托管一体化软件开发服务，包括Git托管、代码审核、团队协作、软件包注册和CI/CD",
+   "en": false
+  },
+  {
+   "repo": "appwrite/appwrite",
+   "url": "https://github.com/appwrite/appwrite",
+   "lang": "TypeScript",
+   "stars": "58,614",
+   "desc": "适用于代理和开发人员的开源云。包括身份验证、数据库、存储、功能、消息、托管、实时、WAF等",
+   "en": false
+  },
+  {
+   "repo": "ClickHouse/ClickHouse",
+   "url": "https://github.com/ClickHouse/ClickHouse",
+   "lang": "C++",
+   "stars": "51,207",
+   "desc": "ClickHouse ®是一个实时分析数据库管理系统",
+   "en": false
+  },
+  {
+   "repo": "HKUDS/nanobot",
+   "url": "https://github.com/HKUDS/nanobot",
+   "lang": "Python",
+   "stars": "50,409",
+   "desc": "您的轻量级开源个人代理",
+   "en": false
+  },
+  {
+   "repo": "chatwoot/chatwoot",
+   "url": "https://github.com/chatwoot/chatwoot",
+   "lang": "Ruby",
+   "stars": "40,705",
+   "desc": "开源实时聊天、电子邮件支持、全渠道服务台",
+   "en": false
+  }
+ ],
+ "valuation": [
+  {
+   "name": "沪深300",
+   "point": 4063.06,
+   "chg": 4.17,
+   "pe": 13.64,
+   "pe_pct": 70,
+   "pb": 1.36,
+   "pb_pct": 26,
+   "pe_level": "高估",
+   "pb_level": "低估",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "中证500",
+   "point": 6313.63,
+   "chg": 7.68,
+   "pe": 26.96,
+   "pe_pct": 57,
+   "pb": 1.97,
+   "pb_pct": 54,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "创业板指",
+   "point": 2443.96,
+   "chg": 11.61,
+   "pe": 27.45,
+   "pe_pct": 6,
+   "pb": 3.86,
+   "pb_pct": 17,
+   "pe_level": "低估",
+   "pb_level": "低估",
+   "overall": "低估"
+  },
+  {
+   "name": "科创50",
+   "point": 1346.25,
+   "chg": 15.07,
+   "pe": 99.81,
+   "pe_pct": 77,
+   "pb": 6.72,
+   "pb_pct": 75,
+   "pe_level": "高估",
+   "pb_level": "高估",
+   "overall": "高估"
+  },
+  {
+   "name": "中证红利",
+   "point": 5483.72,
+   "chg": 0.07,
+   "pe": 9.32,
+   "pe_pct": 89,
+   "pb": 0.91,
+   "pb_pct": 62,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "红利低波",
+   "point": 11396.41,
+   "chg": -0.96,
+   "pe": 9.35,
+   "pe_pct": 80,
+   "pb": 0.94,
+   "pb_pct": 69,
+   "pe_level": "高估",
+   "pb_level": "适中",
+   "overall": "偏高（PE/PB 分歧）"
+  },
+  {
+   "name": "恒生指数",
+   "point": 22694.77,
+   "chg": 2.11,
+   "pe": 10.15,
+   "pe_pct": 40,
+   "pb": 1.03,
+   "pb_pct": 35,
+   "pe_level": "适中",
+   "pb_level": "适中",
+   "overall": "适中"
+  },
+  {
+   "name": "纳斯达克",
+   "point": 24129.5,
+   "chg": 2.31,
+   "pe": 25.14,
+   "pe_pct": 13,
+   "pb": 7.79,
+   "pb_pct": 53,
+   "pe_level": "低估",
+   "pb_level": "适中",
+   "overall": "偏低（PE/PB 分歧）"
+  },
+  {
+   "name": "标普500",
+   "point": 7297.49,
+   "chg": 1.6,
+   "pe": 22.45,
+   "pe_pct": 22,
+   "pb": 5.08,
+   "pb_pct": 83,
+   "pe_level": "低估",
+   "pb_level": "高估",
+   "overall": "偏高（PE/PB 分歧）"
+  }
+ ],
+ "sector": {
+  "up": [
+   {
+    "name": "元件",
+    "chg": 11.35
+   },
+   {
+    "name": "通信设备",
+    "chg": 11.35
+   },
+   {
+    "name": "仪器仪表",
+    "chg": 11.17
+   },
+   {
+    "name": "通用设备",
+    "chg": 9.48
+   },
+   {
+    "name": "塑料",
+    "chg": 8.83
+   },
+   {
+    "name": "医疗服务",
+    "chg": 8.2
+   }
+  ],
+  "dn": [
+   {
+    "name": "银行Ⅱ",
+    "chg": -1.07
+   },
+   {
+    "name": "煤炭",
+    "chg": 1.19
+   },
+   {
+    "name": "航空机场",
+    "chg": 1.27
+   },
+   {
+    "name": "航运港口",
+    "chg": 1.97
+   },
+   {
+    "name": "铁路公路",
+    "chg": 2.24
+   },
+   {
+    "name": "保险Ⅱ",
+    "chg": 2.5
+   }
+  ]
+ },
+ "gold": "COMEX 微型黄金：微型黄金（+2.96%）盘中实时；SGE Au99.99（经 518880 映射）：ETF 最新净值 7.4473（2026-11-27）（≈ 745 元/克）",
+ "qdii": [
+  {
+   "name": "大成纳斯达克100(QDII)",
+   "code": "000834",
+   "nav": "5.4589",
+   "date": "2026-11-26"
+  },
+  {
+   "name": "广发纳斯达克100指数(QDII)",
+   "code": "270042",
+   "nav": "7.1072",
+   "date": "2026-11-26"
+  },
+  {
+   "name": "博时标普500ETF联接(QDII)",
+   "code": "050025",
+   "nav": "5.2070",
+   "date": "2026-11-26"
+  },
+  {
+   "name": "易方达标普500(QDII-LOF)",
+   "code": "161125",
+   "nav": "2.9308",
+   "date": "2026-11-26"
+  },
+  {
+   "name": "华夏恒生科技ETF发起式(QDII)",
+   "code": "013402",
+   "nav": "0.6033",
+   "date": "2026-11-27"
+  },
+  {
+   "name": "交银中证海外中国互联网(QDII)",
+   "code": "164906",
+   "nav": "0.7537",
+   "date": "2026-11-26"
+  }
+ ],
+ "macro": [
+  {
+   "title": "央行：预计逾期罚息利率总体下行",
+   "ctime": "1795849583",
+   "url": "https://finance.sina.com.cn/wm/2026-11-28/doc-inkahrcf2534593.shtml"
+  },
+  {
+   "title": "央行连发两文！大额存单门槛下调，贷款罚息规则生变",
+   "ctime": "1795821742",
+   "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-28/doc-inkaftxn7508286.shtml"
+  },
+  {
+   "title": "11月28日外盘头条： 特朗普希望普京参加G20 OpenAI反诉苹果窃取商业机密 欧洲央行管委Dolenc暗示仍需加息",
+   "ctime": "1795812349",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-28/doc-inkafprq7554426.shtml"
+  },
+  {
+   "title": "美国国债下跌 股市上涨削弱避险需求",
+   "ctime": "1795810019",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-28/doc-inkafpru5186287.shtml"
+  },
+  {
+   "title": "沙特在经济与安全压力下调整“2030愿景”开支",
+   "ctime": "1795850715",
+   "url": "https://finance.sina.com.cn/world/2026-11-28/doc-inkahrca7274873.shtml"
+  },
+  {
+   "title": "英国首相伯纳姆的欧洲政策框架仍在酝酿 脱欧阵营对手伺机而动",
+   "ctime": "1795845772",
+   "url": "https://finance.sina.com.cn/world/2026-11-28/doc-inkahkvc0583829.shtml"
+  },
+  {
+   "title": "A股跨年行情起点或已在眼前！",
+   "ctime": "1795843780",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-28/doc-inkahkvi2628649.shtml"
+  },
+  {
+   "title": "创金合信基金魏凤春：稳市机制写入国常会部署 A股打开制度性重估窗口",
+   "ctime": "1795840585",
+   "url": "https://finance.sina.com.cn/money/fund/2026-11-28/doc-inkahepn5049513.shtml"
+  }
+ ],
+ "low": [
+  {
+   "name": "创业板指",
+   "pe_pct": 6,
+   "pe": 27.4511,
+   "pb_pct": 17,
+   "pb": 3.8626
+  },
+  {
+   "name": "纳斯达克",
+   "pe_pct": 13,
+   "pe": 25.1447,
+   "pb_pct": 53,
+   "pb": 7.7913
+  }
+ ]
+}
